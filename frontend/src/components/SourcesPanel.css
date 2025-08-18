@@ -24,21 +24,21 @@
   }
 }
 
-/* 사이드 패널 - 다크 테마 */
+/* 사이드 패널 - 테마 대응 */
 .sources-panel {
   position: fixed;
   top: 0;
   right: 0;
   width: 400px;
   height: 100vh;
-  background: #171717;
-  border-left: 1px solid #2d2d2d;
+  background: var(--sidebar-bg);
+  border-left: 1px solid var(--sidebar-border);
   z-index: 999;
   transform: translateX(100%);
   transition: transform 0.3s ease-out;
   display: flex;
   flex-direction: column;
-  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
 }
 
 .sources-panel-open {
@@ -49,11 +49,11 @@
   transform: translateX(100%);
 }
 
-/* 헤더 - 다크 테마 */
+/* 헤더 - 테마 대응 */
 .sources-panel-header {
   padding: 20px 24px;
-  border-bottom: 1px solid #2d2d2d;
-  background: #1a1a1a;
+  border-bottom: 1px solid var(--border-light);
+  background: var(--background-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +64,7 @@
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: #e4e4e7;
+  color: var(--text-primary);
 }
 
 .sources-close-btn {
@@ -73,7 +73,7 @@
   cursor: pointer;
   padding: 8px;
   border-radius: 6px;
-  color: #a1a1aa;
+  color: var(--text-secondary);
   transition: all 0.2s ease;
   display: flex;
   align-items: center;
@@ -81,11 +81,11 @@
 }
 
 .sources-close-btn:hover {
-  background: #262626;
-  color: #e4e4e7;
+  background: var(--hover-bg);
+  color: var(--text-primary);
 }
 
-/* 컨텐츠 - 다크 테마 */
+/* 컨텐츠 - 테마 대응 */
 .sources-panel-content {
   flex: 1;
   overflow-y: auto;
@@ -94,14 +94,14 @@
 
 .sources-summary {
   padding: 16px 24px;
-  background: #1a1a1a;
-  border-bottom: 1px solid #2d2d2d;
+  background: var(--background-color);
+  border-bottom: 1px solid var(--border-light);
 }
 
 .sources-summary p {
   margin: 0;
   font-size: 14px;
-  color: #a1a1aa;
+  color: var(--text-secondary);
 }
 
 .sources-count {
@@ -109,19 +109,19 @@
   color: #10b981;
 }
 
-/* 출처 목록 - 다크 테마 */
+/* 출처 목록 - 테마 대응 */
 .sources-list {
   padding: 0;
 }
 
 .source-item {
   padding: 16px 24px;
-  border-bottom: 1px solid #262626;
+  border-bottom: 1px solid var(--border-light);
   transition: background-color 0.2s ease;
 }
 
 .source-item:hover {
-  background: #1a1a1a;
+  background: var(--hover-bg);
 }
 
 .source-item:last-child {
@@ -153,7 +153,7 @@
 .source-title {
   font-weight: 600;
   font-size: 14px;
-  color: #e4e4e7;
+  color: var(--text-primary);
   line-height: 1.4;
   flex: 1;
 }
@@ -164,7 +164,7 @@
 }
 
 .source-url a {
-  color: #60a5fa;
+  color: var(--primary-color);
   text-decoration: none;
   font-size: 13px;
   word-break: break-all;
@@ -179,12 +179,12 @@
   margin: 8px 0;
   margin-left: 32px;
   font-size: 13px;
-  color: #a1a1aa;
+  color: var(--text-secondary);
   line-height: 1.5;
-  background: #1a1a1a;
+  background: var(--hover-bg);
   padding: 8px 12px;
   border-radius: 6px;
-  border-left: 3px solid #404040;
+  border-left: 3px solid var(--border-light);
 }
 
 .source-relevance {

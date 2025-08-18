@@ -236,3 +236,5 @@ notebooks/output/
 *.html
 
 rag_config.py
+temp_img/
+logs/

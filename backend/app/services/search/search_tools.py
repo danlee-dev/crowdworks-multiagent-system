@@ -1,4 +1,5 @@
 import os
+from typing import List
 import requests
 import json
 import asyncio
@@ -9,9 +10,8 @@ from pypdf import PdfReader
 # 각 RAG 툴의 메인 함수를 import
 from ..database.postgres_rag_tool import postgres_rdb_search
 from ..database.neo4j_rag_tool import neo4j_search_sync
-from ..database.elastic_search_rag_tool import search, MultiIndexRAGSearchEngine, RAGConfig
+from ..database.elasticsearch.elastic_search_rag_tool import MultiIndexRAGSearchEngine, RAGConfig
 
-from ..database.mock_databases import create_mock_vector_db
 
 from ...core.models.models import ScrapeInput
 
@@ -19,9 +19,12 @@ from ...core.models.models import ScrapeInput
 
 from playwright.sync_api import sync_playwright
 from langchain_core.tools import tool
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
+
+# 세션별 로그 시스템 import
+from ...utils.session_logger import print_session_separated, session_print
 
 
 
@@ -40,7 +43,7 @@ def debug_web_search(query: str) -> str:
       3. 특정 인물, 사건, 제품에 대한 최신 뉴스와 같이 시의성이 매우 중요한 정보를 찾을 때
     - 주의: 농산물 시세, 영양 정보, 문서 내용 분석, 데이터 관계 분석 등 내부 DB로 해결 가능한 질문에는 절대 사용하지 마세요. 최후의 수단으로 사용해야 합니다.
     """
-    print(f"Web 검색 실행: {query}")
+    session_print("WebSearch", f"Web 검색 실행: {query}")
     try:
         api_key = os.environ.get("SERPER_API_KEY")
         if not api_key:
@@ -93,10 +96,10 @@ def debug_web_search(query: str) -> str:
                 result_text = f"웹 검색 결과 (검색어: {query}):\n\n"
                 for i, result in enumerate(results):
                     result_text += f"{i+1}. {result['title']}\n"
-                    result_text += f"   링크: {result['link']}\n"
+                    result_text += f"   출처 링크: {result['link']}\n"
                     result_text += f"   요약: {result['snippet']}\n\n"
 
-                print(f"- 유효한 검색 결과: {len(results)}개")
+                session_print("WebSearch", f"유효한 검색 결과: {len(results)}개")
                 return result_text
             else:
                 return f"'{query}'에 대한 유효한 웹 검색 결과를 찾을 수 없습니다."
@@ -116,7 +119,7 @@ def scrape_and_extract_content(action_input: str) -> str:
         input_data = json.loads(action_input)
         url = input_data['url']
         query = input_data['query']
-        print(f"Scraping 시작 (URL: {url}, Query: {query})")
+        session_print("Scraper", f"Scraping 시작 (URL: {url}, Query: {query})")
 
     except (json.JSONDecodeError, KeyError) as e:
         return f"입력값 파싱 오류: Action Input은 '{{\"url\": \"...\", \"query\": \"...\"}}' 형태여야 합니다. 오류: {e}"
@@ -193,7 +196,8 @@ def _extract_key_info(content: str, query: str) -> str:
     """추출된 전체 텍스트에서 LLM을 이용해 핵심 정보를 다시 추출합니다."""
     print(f"  → LLM 분석 시작...")
     try:
-        extractor_llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+        # Gemini 2.5 Flash-Lite로 변경 (빠른 정보 추출)
+        extractor_llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", temperature=0)
         prompt = ChatPromptTemplate.from_template(
             """당신은 유능한 데이터 분석가입니다. 아래 원본 텍스트에서 사용자의 질문과 가장 관련 있는 핵심 정보, 특히 수치 데이터, 통계, 주요 사실들을 정확하게 추출하고 요약해주세요.
 
@@ -263,7 +267,7 @@ def rdb_search(query: str) -> str:
     주의: 시세 데이터는 매일 업데이트되므로 '오늘', '현재' 가격 질문에 적합합니다.
     """
 
-    print(f"\n>> PostgreSQL 검색 시작: {query}")
+    session_print("RDB", f"PostgreSQL 검색 시작: {query}")
     try:
         result = postgres_rdb_search(query)
         # print(f"- 검색 결과: {result}")
@@ -276,128 +280,218 @@ def rdb_search(query: str) -> str:
 
 
 @tool
-def vector_db_search(query: str, top_k = 10) -> str:
+def vector_db_search(query: str, top_k = 20) -> List:
     """
     Elasticsearch에 저장된 뉴스 기사 본문, 논문, 보고서 전문에서 '의미 기반'으로 유사한 내용을 검색합니다.
     """
-    config = RAGConfig()
-    print("1")
-    config.OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-    print("1")
-    search_engine = MultiIndexRAGSearchEngine(openai_api_key=config.OPENAI_API_KEY, config=config)
+    try:
+        config = RAGConfig()
+        print(">> Vector DB 검색 초기화 중...")
 
-    print(f"\n>> Vector DB 검색 시작: {query}")
-    results = search_engine.advanced_rag_search(query)
-    top_results = results.get('results', [])[:top_k]
+        # Google API Key 사용 (OpenAI가 아님)
+        google_api_key = os.environ.get("GOOGLE_API_KEY") or os.environ.get("GEMINI_API_KEY")
 
-    print(f"- 검색된 문서 수: {len(top_results)}개")
+        search_engine = MultiIndexRAGSearchEngine(google_api_key=google_api_key, config=config)
 
-    if not top_results:
-        print(">> Vector DB 검색 완료: 관련 문서 없음")
-        return f"'{query}'에 대한 관련 문서를 찾을 수 없습니다."
+        session_print("VectorDB", f"Vector DB 검색 시작: {query}")
+        results = search_engine.advanced_rag_search(query)
+        top_results = results.get('results', [])[:top_k]
 
-    # ReAct가 판단하기 쉬운 핵심 정보만 추출
-    processed_docs = []
-    for i, doc in enumerate(top_results):
-        # 핵심 필드 추출
-        title = doc.get('name', doc.get('title', 'N/A'))
-        content = doc.get('page_content', doc.get('content', ''))
-        metadata = doc.get('meta_data', doc.get('metadata', {}))
+        session_print("VectorDB", f"검색된 문서 수: {len(top_results)}개")
 
-        # 문서 제목과 출처 정보
-        doc_title = metadata.get('document_title', title)
-        source_info = metadata.get('document_file_path', metadata.get('source', 'N/A'))
-        page_num = metadata.get('page_number', [])
-        if isinstance(page_num, list) and page_num:
-            page_info = f"p.{page_num[0]}" if len(page_num) == 1 else f"p.{page_num[0]}-{page_num[-1]}"
-        else:
-            page_info = ""
+        if not top_results:
+            print(">> Vector DB 검색 완료: 관련 문서 없음")
+            return []
 
-        # 인덱스 정보
-        index_name = doc.get('_index', 'unknown')
+        # ReAct가 판단하기 쉬운 핵심 정보만 추출
+        processed_docs = []
+        for i, doc in enumerate(top_results):
+            # 핵심 필드 추출
+            title = doc.get('name', doc.get('title', f'Document {i+1}'))
+            content = doc.get('page_content', doc.get('content', ''))
+            metadata = doc.get('meta_data', doc.get('metadata', {}))
+            similarity = doc.get('score', doc.get('similarity_score', 0.7))
+            relavance = doc.get('relevance_score', similarity)  # relevance_score가 없으면 similarity로 대체
+            rerank_score = doc.get('rerank_score', 0.0)
+            # 출처 정보 더 명확히 포함
+            source_info = metadata.get('document_link', 'Vector DB')
+            page_number = metadata.get('page_number', 'N/A')
 
-        # 유사도 점수
-        similarity = doc.get('score', doc.get('rerank_score', doc.get('similarity_score', 0)))
-        if similarity > 1:  # rerank_score는 보통 1보다 큰 값
-            similarity = min(similarity / 4, 1.0)  # 0-1 범위로 정규화
+            formatted_result = {
+                "content": content,
+                "title": title,
+                "document_id": f"doc_{i+1}",
+                "similarity_score": similarity,
+                "metadata": metadata,
+                "source_url": source_info,  # 출처 정보 추가
+                "page_number": page_number,  # 페이지 번호 추가
+                "relevance_score": relavance,
+                "score": rerank_score
+            }
+            processed_docs.append(formatted_result)
 
-        # 내용 요약 (너무 길면 자름)
-        content_summary = content[:400] if content else "내용 없음"
+        return processed_docs
 
-        processed_doc = {
-            'rank': i + 1,
-            'title': title,
-            'document_title': doc_title,
-            'content_preview': content_summary,
-            'source_file': source_info.split('/')[-1] if source_info != 'N/A' else 'N/A',
-            'page_info': page_info,
-            'index': index_name,
-            'relevance_score': round(similarity, 3),
-            'content_length': len(content)
-        }
-        processed_docs.append(processed_doc)
-
-    # ReAct가 이해하기 쉬운 형태로 요약
-    summary = f"Vector DB 검색 완료 - '{query}' 관련 {len(processed_docs)}개 문서 발견\n\n"
-    summary += "=== 검색 결과 요약 ===\n"
-
-    for doc in processed_docs:
-        summary += f"[{doc['rank']}] {doc['title']}\n"
-        summary += f"  - 문서: {doc['document_title']}\n"
-        summary += f"  - 출처: {doc['source_file']}"
-        if doc['page_info']:
-            summary += f" ({doc['page_info']})"
-        summary += f"\n  - 관련도: {doc['relevance_score']:.3f}\n"
-        summary += f"  - 인덱스: {doc['index']}\n"
-        summary += f"  - 내용: {doc['content_preview'][:]}...\n\n"
-
-    # 검색 품질 평가 정보 추가
-    high_relevance_count = len([d for d in processed_docs if d['relevance_score'] > 0.7])
-    medium_relevance_count = len([d for d in processed_docs if 0.5 <= d['relevance_score'] <= 0.7])
-
-    summary += "=== 검색 품질 평가 ===\n"
-    summary += f"- 고관련도 문서 (0.7+): {high_relevance_count}개\n"
-    summary += f"- 중관련도 문서 (0.5-0.7): {medium_relevance_count}개\n"
-    summary += f"- 평균 관련도: {sum(d['relevance_score'] for d in processed_docs) / len(processed_docs):.3f}\n"
-
-    if high_relevance_count >= 3:
-        summary += "✓ 충분한 고품질 문서 확보됨\n"
-    elif high_relevance_count + medium_relevance_count >= 5:
-        summary += "△ 적당한 품질의 문서 확보됨\n"
-    else:
-        summary += "⚠ 관련도가 낮은 문서가 많음 - 검색어 조정 필요\n"
-
-    print(f">> Vector DB 검색 완료: {len(processed_docs)}개 문서, 평균 관련도 {sum(d['relevance_score'] for d in processed_docs) / len(processed_docs):.3f}")
-
-    print(f"=== 검색 결과 ===\n{summary}")
-
-    return summary
+    except Exception as e:
+        print(f"Vector DB 검색 오류: {e}")
 
 
 @tool
 def graph_db_search(query: str) -> str:
     """
-    Neo4j 지식 그래프에서 농산물, 수산물, 지역 등의 개체와 그들 간의 관계를 검색합니다.
-    - 사용 시점: 'A의 생산지는 어디야?'와 같이 개체 간의 연결 관계나 소속 정보(원산지 정보)가 필요할 때 사용합니다.
+    상위 레벨 도구 진입점:
+    - 실행중 이벤트 루프가 있으면 ThreadPool에서 동기 함수 실행
+    - 없으면 동기 실행
     """
-    print(f"Neo4j Graph DB 검색 실행: {query}")
+    session_print("GraphDB", f"Graph DB search called: {query}")
     try:
-        # 이벤트 루프가 이미 실행 중인지 확인
         try:
-            loop = asyncio.get_running_loop()
-            # 이미 루프가 실행 중이면 thread pool에서 실행
-            print(f"- 기존 이벤트 루프 감지됨, 별도 스레드에서 실행")
-            with concurrent.futures.ThreadPoolExecutor() as executor:
-                future = executor.submit(neo4j_search_sync, query)
-                result = future.result()
-                print(f"- Neo4j 검색 결과: {result}")
-                return result
+            asyncio.get_running_loop()
+            print("Detected running loop -> using ThreadPool")
+            with concurrent.futures.ThreadPoolExecutor() as ex:
+                fut = ex.submit(neo4j_search_sync, query)
+                return fut.result()
         except RuntimeError:
-            # 실행 중인 루프가 없으면 직접 동기 함수 호출
-            print(f"- 동기 방식으로 Neo4j 검색 실행")
-            result = neo4j_search_sync(query)
-            print(f"- Neo4j 검색 결과: {result}")
-            return result
+            print("No running loop -> direct sync call")
+            return neo4j_search_sync(query)
     except Exception as e:
-        print(f"- Graph DB 검색 중 오류 발생: {e}")
+        print(f"graph_db_search error: {e}")
         return f"Graph DB 검색 중 오류: {e}"
+
+
+@tool
+def arxiv_search(query: str, max_results: int = 10) -> str:
+    """
+    # arXiv 학술 논문 검색 - 식품과학/AI/생명공학 분야 최신 연구
+    
+    ## 사용 목적:
+    - 신제품 개발을 위한 최신 과학적 연구 동향 파악
+    - 식품 공학, 영양학, 생명공학 관련 학술적 근거 확보
+    - AI/ML 기반 식품 분석 및 예측 모델 연구
+    - 대체 식품, 기능성 원료, 신소재 개발 연구
+    
+    ## 주요 검색 분야:
+    1. **식품과학**: food science, nutrition, fermentation, food engineering
+    2. **생명공학**: biotechnology, synthetic biology, protein engineering  
+    3. **농업기술**: agriculture, crop science, precision farming
+    4. **AI/데이터**: machine learning for food, predictive analytics
+    5. **지속가능성**: sustainable food, alternative protein, food waste
+    
+    ## 검색 전략:
+    - 영문 키워드 필수 (arXiv는 영문 논문만 제공)
+    - 구체적인 기술명이나 방법론 포함 시 정확도 향상
+    - 최신순 정렬로 최근 연구 트렌드 파악
+    
+    ## 활용 예시:
+    - "대체육 개발을 위한 식물성 단백질 연구" 
+    - "발효 기술을 활용한 기능성 식품 개발"
+    - "AI 기반 식품 품질 예측 모델"
+    - "지속가능한 식품 포장재 개발"
+    
+    주의: 학술 논문이므로 실무 적용 시 검증 필요
+    """
+    import urllib.parse
+    import urllib.request
+    import xml.etree.ElementTree as ET
+    from datetime import datetime
+    
+    session_print("arXiv", f"arXiv 논문 검색 시작: {query}")
+    
+    try:
+        # 검색 쿼리 URL 인코딩
+        base_url = "http://export.arxiv.org/api/query?"
+        
+        # 식품/농업 관련 카테고리 추가 (q-bio, cs.AI, physics.bio-ph 등)
+        search_query = urllib.parse.quote(query)
+        
+        # arXiv API 파라미터
+        params = {
+            'search_query': f'all:{search_query}',
+            'start': 0,
+            'max_results': max_results,
+            'sortBy': 'lastUpdatedDate',  # 최신순 정렬
+            'sortOrder': 'descending'
+        }
+        
+        # URL 생성
+        url = base_url + urllib.parse.urlencode(params)
+        print(f"  - API URL: {url}")
+        
+        # API 호출
+        response = urllib.request.urlopen(url, timeout=10)
+        data = response.read().decode('utf-8')
+        
+        # XML 파싱
+        root = ET.fromstring(data)
+        
+        # 네임스페이스 정의
+        ns = {
+            'atom': 'http://www.w3.org/2005/Atom',
+            'arxiv': 'http://arxiv.org/schemas/atom'
+        }
+        
+        # 결과 파싱
+        entries = root.findall('atom:entry', ns)
+        
+        if not entries:
+            return f"'{query}'에 대한 arXiv 논문을 찾을 수 없습니다. 영문 키워드로 다시 검색해보세요."
+        
+        results = []
+        for i, entry in enumerate(entries[:max_results], 1):
+            # 논문 정보 추출
+            title = entry.find('atom:title', ns).text.strip().replace('\n', ' ')
+            
+            # 저자 정보
+            authors = entry.findall('atom:author', ns)
+            author_names = [author.find('atom:name', ns).text for author in authors]
+            author_str = ', '.join(author_names[:3])  # 처음 3명만
+            if len(author_names) > 3:
+                author_str += f' 외 {len(author_names)-3}명'
+            
+            # 초록
+            summary = entry.find('atom:summary', ns).text.strip()
+            # 초록을 300자로 제한
+            if len(summary) > 300:
+                summary = summary[:297] + "..."
+            
+            # 발행일
+            published = entry.find('atom:published', ns).text
+            pub_date = datetime.strptime(published[:10], '%Y-%m-%d').strftime('%Y년 %m월 %d일')
+            
+            # 카테고리
+            categories = entry.findall('atom:category', ns)
+            cat_list = [cat.get('term') for cat in categories]
+            categories_str = ', '.join(cat_list[:3])
+            
+            # 논문 링크
+            pdf_link = None
+            for link in entry.findall('atom:link', ns):
+                if link.get('type') == 'application/pdf':
+                    pdf_link = link.get('href')
+                    break
+            
+            if not pdf_link:
+                pdf_link = entry.find('atom:id', ns).text.replace('abs', 'pdf')
+            
+            # 결과 포맷팅
+            result_text = f"{i}. 📄 {title}\n"
+            result_text += f"   저자: {author_str}\n"
+            result_text += f"   발행일: {pub_date}\n"
+            result_text += f"   분야: {categories_str}\n"
+            result_text += f"   PDF: {pdf_link}\n"
+            result_text += f"   초록: {summary}\n"
+            
+            results.append(result_text)
+        
+        # 최종 결과 반환
+        result_text = f"arXiv 논문 검색 결과 (검색어: {query}):\n"
+        result_text += f"총 {len(results)}개 논문 발견\n\n"
+        result_text += "\n".join(results)
+        
+        session_print("arXiv", f"arXiv 검색 완료: {len(results)}개 논문")
+        return result_text
+        
+    except Exception as e:
+        error_msg = f"arXiv 검색 중 오류 발생: {str(e)}"
+        print(f"  - {error_msg}")
+        return error_msg

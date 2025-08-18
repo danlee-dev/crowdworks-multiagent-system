@@ -1,518 +1,560 @@
+# neo4j_rag_tool.py
+import os
 import re
 import json
-import os
-from typing import List, Dict, Any, Tuple
-from pathlib import Path
 import asyncio
+import concurrent.futures
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
 from neo4j import GraphDatabase, basic_auth
-from langchain_openai import ChatOpenAI
-
-
-class Neo4jSearchService:
-    """Neo4j 그래프 데이터베이스 검색 비즈니스 로직을 캡슐화하는 서비스 클래스"""
-    def __init__(self):
-        """Neo4j 연결 초기화"""
-        self.driver = self._init_driver()
-        self.llm_client = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-
-    def _init_driver(self):
-        """Neo4j 드라이버 초기화"""
-        env_path = Path(__file__).parent.parent / '.env'
-        load_dotenv(dotenv_path=env_path)
-        uri = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-        user = os.getenv("NEO4J_USER", "neo4j")
-        password = os.getenv("NEO4J_PASSWORD", "#cwp2025!")
-        print(f"\n>> Neo4j 연결 초기화 (URI: {uri})")
-
-        return GraphDatabase.driver(uri, auth=basic_auth(user, password))
-
-    def _run_cypher_sync(self, query: str, parameters: Dict[str, Any] = None) -> List[Dict[str, Any]]:
-        """Cypher 쿼리를 동기적으로 실행합니다."""
-        try:
-            with self.driver.session() as session:
-                result = session.run(query, parameters or {})
-                return [record.data() for record in result]
-        except Exception as e:
-            print(f"- Cypher 쿼리 실행 오류: {e}\n- 쿼리: {query}\n- 파라미터: {parameters}")
-            return []
-
-
-    async def _run_cypher_async(self, query: str, parameters: Dict[str, Any] = None) -> List[Dict[str, Any]]:
-        """동기 DB 호출 함수(_run_cypher_sync)를 별도 스레드에서 비동기적으로 실행합니다."""
-        loop = asyncio.get_running_loop()
-        return await loop.run_in_executor(None, self._run_cypher_sync, query, parameters)
-
-    async def _extract_keywords_with_llm(self, query: str) -> Dict[str, List[str]]:
-        """LLM을 사용하여 농수산물 관련 키워드를 카테고리별로 추출"""
-        try:
-            extraction_prompt = f"""
-            Extract search keywords from the following question for a food and agriculture database.
-
-            Question: "{query}"
-
-            Respond in the following JSON format:
-            {{
-                "products": ["item1", "item2"],
-                "regions": ["region1", "region2"],
-                "categories": ["category1", "category2"],
-                "fish_states": ["state1", "state2"],
-                "associations": ["association1", "association2"]
-            }}
-
-            - products: Names of agricultural, marine, or livestock products (e.g., 사과, 문어, 돼지).
-            - regions: Geographic locations (e.g., 서울, 제주, 경기도, 고성).
-            - categories: Classification of agricultural products (e.g., 과실류, 엽채류, 양채류). Only include if **explicitly** mentioned in query or the query **asks for similar products**. Else, never include.
-            - fish_states: States of marine products (e.g., 활어, 선어, 냉동, 건어).
-            - associations: Associations or cooperatives (e.g., 경인서부수협, 통영수협). Only include if explicitly mentioned in the query.
-
-            Respond only with the JSON object.
-            """
-
-            response = await self.llm_client.ainvoke(extraction_prompt)
-            response_text = response.content.strip()
-
-            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
-            if json_match:
-                response_text = json_match.group(0)
-
-            print(f"- LLM 추출 키워드: {response_text}")
-            return json.loads(response_text)
-
-        except Exception as e:
-            print(f"- LLM 키워드 추출 오류: {e}")
-            return self._extract_keywords_fallback(query)
-
-    def _extract_keywords_fallback(self, query: str) -> Dict[str, List[str]]:
-        """LLM 실패시 폴백 키워드 추출"""
-        stop_words = {'의', '을', '를', '이', '가', '에', '에서', '알려줘', '검색', '찾아', '정보', '어디', '무엇', '언제', '어떤'}
-        words = re.sub(r'[^\w\s]', '', query).split()
-        filtered_words = [word for word in words if len(word) > 1 and word not in stop_words]
-
-        return {
-            "products": filtered_words[:3],
-            "regions": [],
-            "categories": [],
-            "fish_states": [],
-            "associations": []
-        }
-
-    async def search(self, query: str) -> str:
-        """쿼리를 받아 Neo4j 검색을 수행하고 LLM이 이해하기 쉬운 문자열로 결과를 반환합니다."""
-        try:
-            print(f"\n>> Neo4j 검색 시작")
-            keywords = await self._extract_keywords_with_llm(query)
-
-            search_tasks = []
-            for product in keywords.get("products", []):
-                search_tasks.append(self._search_products_optimized(product))
-            for region in keywords.get("regions", []):
-                search_tasks.append(self._search_regions_optimized(region))
-            for category in keywords.get("categories", []):
-                search_tasks.append(self._search_by_category(category))
-            for fish_state in keywords.get("fish_states", []):
-                search_tasks.append(self._search_by_fish_state(fish_state))
-            for association in keywords.get("associations", []):
-                search_tasks.append(self._search_by_association(association))
-
-
-            search_results = await asyncio.gather(*search_tasks)
-
-            all_nodes = [item for sublist in search_results for item in sublist]
-
-            unique_nodes = self._deduplicate_and_rank_nodes(all_nodes)
-            relationships = await self._search_relationships_batch(unique_nodes[:5])
-
-            result = self._format_results(query, unique_nodes, relationships)
-            print(f"- Neo4j 검색 완료: {len(unique_nodes)}개 항목, {len(relationships)}개 관계")
-
-
-            return result
-
-        except Exception as e:
-            print(f"- Neo4j 검색 서비스 오류: {e}")
-            return f"Neo4j 검색 중 오류가 발생했습니다: {str(e)}"
-
-
-    async def _search_products_optimized(self, keyword: str) -> List[dict]:
-        """최적화된 품목 검색 - 인덱스 활용 + 퍼포먼스 튜닝"""
-        try:
-            cypher_query = """
-            CALL db.index.fulltext.queryNodes('prod_idx', $keyword) YIELD node, score
-            WHERE score > 0.1
-            WITH node, score + 4.0 AS boosted_score, 'fulltext' as search_type
-            RETURN node, boosted_score AS final_score, search_type
-
-            UNION
-
-            MATCH (n:농산물|수산물|축산물)
-            WHERE n.product STARTS WITH $keyword
-            WITH n as node, 3.0 as score, 'exact' as search_type
-            RETURN node, score AS final_score, search_type
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"keyword": keyword})
-            print(f"  품목 최적화 검색 ({keyword}): {len(results)}개")
-
-            formatted_results = []
-            for result in results:
-                node = result['node']
-                labels = node.get('labels', [])
-                formatted_results.append({
-                    'type': labels[0] if labels else 'Ingredient',
-                    'properties': dict(node),
-                    'score': result.get('final_score', 0),
-                    'search_type': result.get('search_type', 'unknown')
-                })
-            return formatted_results
-
-        except Exception as e:
-            print(f"  품목 검색 오류: {e}")
-            return []
-
-    async def _search_regions_optimized(self, keyword: str) -> List[dict]:
-        """최적화된 지역 검색 - 계층적 지역 검색"""
-        try:
-            cypher_query = """
-            MATCH (o:Origin)
-            WHERE o.city = $keyword OR o.region = $keyword
-            WITH o as node, 2.0 as score, 'exact' as search_type
-            RETURN node, score as final_score, search_type
-
-            UNION
-
-            CALL db.index.fulltext.queryNodes('org_idx', $keyword) YIELD node, score
-            WHERE score > 0.3
-            WITH node, score, 'fulltext' as search_type
-            RETURN node, score as final_score, search_type
-
-            UNION
-
-            MATCH (o:Origin)
-            WHERE o.city CONTAINS $keyword OR o.region CONTAINS $keyword
-            WITH o as node, 1.0 as score, 'contains' as search_type
-            RETURN node, score as final_score, search_type
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"keyword": keyword})
-            print(f"  지역 최적화 검색 ({keyword}): {len(results)}개")
-
-            formatted_results = []
-            for result in results:
-                node = result['node']
-                formatted_results.append({
-                    'type': 'Origin',
-                    'properties': dict(node),
-                    'score': result['final_score'],
-                    'search_type': result['search_type']
-                })
-            return formatted_results
-
-        except Exception as e:
-            print(f"  지역 검색 오류: {e}")
-            return []
-
-    async def _search_by_category(self, category: str) -> List[dict]:
-        """농산물 카테고리별 검색"""
-        try:
-            cypher_query = """
-            MATCH (n:농산물)
-            WHERE n.category = $category OR n.category CONTAINS $category
-            RETURN n as node, 1.5 as score
-            ORDER BY n.product
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"category": category})
-            print(f"  카테고리 검색 ({category}): {len(results)}개")
-
-            formatted_results = []
-            for result in results:
-                node = result['node']
-                formatted_results.append({
-                    'type': '농산물',
-                    'properties': dict(node),
-                    'score': result['score'],
-                    'search_type': 'category'
-                })
-            return formatted_results
-
-        except Exception as e:
-            print(f"  카테고리 검색 오류: {e}")
-            return []
-
-    async def _search_by_fish_state(self, fish_state: str) -> List[dict]:
-        """수산물 상태별 검색"""
-        try:
-            cypher_query = """
-            MATCH (n:수산물)
-            WHERE n.fishState = $fish_state OR n.fishState CONTAINS $fish_state
-            RETURN n as node, 1.5 as score
-            ORDER BY n.product
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"fish_state": fish_state})
-            print(f"  수산물 상태 검색 ({fish_state}): {len(results)}개")
-
-            formatted_results = []
-            for result in results:
-                node = result['node']
-                formatted_results.append({
-                    'type': '수산물',
-                    'properties': dict(node),
-                    'score': result['score'],
-                    'search_type': 'fish_state'
-                })
-            return formatted_results
-
-        except Exception as e:
-            print(f"  수산물 상태 검색 오류: {e}")
-            return []
-
-    async def _search_by_association(self, association: str) -> List[dict]:
-        """수협별 검색 - 관계를 통한 역추적"""
-        try:
-            cypher_query = """
-            MATCH (i:수산물)-[r:isFrom]->(o:Origin)
-            WHERE r.association CONTAINS $association
-            RETURN DISTINCT i as node, 1.0 as score,
-                   r.association as found_association
-            ORDER BY i.product
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"association": association})
-            print(f"  수협 검색 ({association}): {len(results)}개")
-
-            formatted_results = []
-            for result in results:
-                node = result['node']
-                properties = dict(node)
-                properties['found_association'] = result['found_association']
-                formatted_results.append({
-                    'type': '수산물',
-                    'properties': properties,
-                    'score': result['score'],
-                    'search_type': 'association'
-                })
-            return formatted_results
-
-        except Exception as e:
-            print(f"  수협 검색 오류: {e}")
-            return []
-
-    def _deduplicate_and_rank_nodes(self, nodes: List[dict]) -> List[dict]:
-        """결과 중복 제거 및 점수별 정렬"""
-        node_map = {}
-
-        for node in nodes:
-            props = node.get('properties', {})
-            # 품목명 + 타입으로 유니크 키 생성
-            product = props.get('product', '')
-            node_type = node.get('type', '')
-            key = f"{node_type}:{product}"
-
-            if key not in node_map:
-                node_map[key] = node
-            else:
-                # 더 높은 점수가 있으면 교체
-                if node.get('score', 0) > node_map[key].get('score', 0):
-                    node_map[key] = node
-
-        # 점수순 정렬
-        unique_nodes = list(node_map.values())
-        unique_nodes.sort(key=lambda x: x.get('score', 0), reverse=True)
-
-        return unique_nodes
-
-    async def _search_relationships_batch(self, nodes: List[dict]) -> List[dict]:
-        """배치로 관계 검색 - 성능 최적화"""
-        if not nodes:
-            return []
-
-        try:
-            # 품목명들을 배치로 수집
-            product_names = []
-            for node in nodes:
-                props = node.get('properties', {})
-                product_name = props.get('product')
-                if product_name:
-                    product_names.append(product_name)
-
-            if not product_names:
-                return []
-
-            print(product_names)
-
-            cypher_query = """
-            MATCH (i)-[r:isFrom]->(o:Origin)
-            WHERE i.product IN $product_names
-            RETURN i.product as product,
-                   COALESCE(o.city, o.region) as location,
-                   o.region as region,
-                   r.farm as farm,
-                   r.count as count,
-                   r.association as association,
-                   r.sold as sold,
-                   labels(i)[0] as ingredient_type
-            ORDER BY i.product, r.farm DESC
-            """
-
-            print(cypher_query)
-
-            results = await self._run_cypher_async(cypher_query, {"product_names": product_names})
-            print(f"  배치 관계 검색: {len(results)}개")
-
-            relationships = []
-            for rel in results:
-                relationship_info = {
-                    'start': rel['product'],
-                    'end': f"{rel['location']}({rel['region']})" if rel['region'] else rel['location'],
-                    'type': 'isFrom',
-                    'ingredient_type': rel['ingredient_type']
-                }
-
-                # 관계 속성 추가 (null 체크)
-                if rel['farm'] is not None:
-                    relationship_info['farm'] = rel['farm']
-                if rel['count'] is not None:
-                    relationship_info['count'] = rel['count']
-                if rel['association']:
-                    relationship_info['association'] = rel['association']
-                if rel['sold']:
-                    relationship_info['sold'] = rel['sold']
-
-                relationships.append(relationship_info)
-
-            return relationships
-
-        except Exception as e:
-            print(f"  배치 관계 검색 오류: {e}")
-            return []
-
-    def _format_results(self, query: str, nodes: List[dict], relationships: List[dict]) -> str:
-        """검색된 노드와 관계를 최종 문자열로 포맷팅합니다."""
-        if not nodes and not relationships:
-            return f"'{query}'에 대한 관련 정보를 Neo4j 그래프 데이터베이스에서 찾을 수 없습니다."
-
-        summary = f"Neo4j Graph Database 검색 결과 ('{query}'):\n"
-        summary += f"총 {len(nodes)}개 항목, {len(relationships)}개 연관관계 발견\n\n"
-
-        if nodes:
-            summary += "검색된 농수산물 정보:\n"
-            for i, node in enumerate(nodes[:], 1):
-                props = node.get('properties', {})
-                node_type = str(node.get('type', '항목'))
-                score = node.get('score', 0)
-                search_type = node.get('search_type', 'unknown')
-
-                # 노드 타입별 정보 포맷팅
-                if node_type == '농산물':
-                    name = props.get('product', 'N/A')
-                    category = props.get('category', '')
-                    info = f"농산물: {name}"
-                    if category:
-                        info += f" (분류: {category})"
-
-                elif node_type == '수산물':
-                    name = props.get('product', 'N/A')
-                    fish_state = props.get('fishState', '')
-                    info = f"수산물: {name}"
-                    if fish_state:
-                        info += f" (상태: {fish_state})"
-                    if props.get('found_association'):
-                        info += f" (수협: {props['found_association']})"
-
-                elif node_type == '축산물':
-                    name = props.get('product', 'N/A')
-                    info = f"축산물: {name}"
-
-                elif node_type == 'Origin':
-                    city = props.get('city', '')
-                    region = props.get('region', '')
-                    if city and city != '.':
-                        info = f"지역: {city} ({region})"
-                    else:
-                        info = f"지역: {region}"
-                else:
-                    name = next(iter(props.values())) if props else 'N/A'
-                    info = f"{node_type}: {name}"
-
-                summary += f"{i:2d}. {info} [매칭도: {score:.2f}, 검색타입: {search_type}]\n"
-
-        if relationships:
-            summary += f"\n생산지 연관관계 ({len(relationships)}개):\n"
-            for i, rel in enumerate(relationships[:], 1):
-                rel_info = f"{i:2d}. {rel['start']} → {rel['end']}"
-
-                details = []
-                if 'farm' in rel and rel['farm'] is not None:
-                    details.append(f"농장수: {rel['farm']}개")
-                if 'count' in rel and rel['count'] is not None:
-                    details.append(f"사육수: {rel['count']:,}마리")
-                if 'association' in rel and rel['association']:
-                    details.append(f"수협: {rel['association']}")
-                if 'sold' in rel and rel['sold']:
-                    details.append(f"위판장: {rel['sold']}")
-
-                if details:
-                    rel_info += f" ({', '.join(details)})"
-
-                summary += f"{rel_info}\n"
-
-        return summary
+from neo4j.exceptions import ClientError
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+
+# =========================
+# Config & Constants
+# =========================
+DEFAULT_NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+DEFAULT_NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
+DEFAULT_NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "")
+
+# 단일 풀텍스트 인덱스 이름
+FULLTEXT_UNIFIED_INDEX = "product_idx"  # 품목/국가/지역/영양소/기업/문서 등 통합 검색
+
+
+# =========================
+# Utilities
+# =========================
+def _debug(msg: str):
+    print(f"[neo4j-rag] {msg}")
+
+
+def _load_env():
+    # 상위 프로젝트 루트에 .env가 있다면 로드
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        load_dotenv(env_path)
+
+
+# =========================
+# Graph Client
+# =========================
+class GraphDBClient:
+    def __init__(self, uri: str = DEFAULT_NEO4J_URI, user: str = DEFAULT_NEO4J_USER, password: str = DEFAULT_NEO4J_PASSWORD):
+        _load_env()
+        uri = os.getenv("NEO4J_URI", uri)
+        user = os.getenv("NEO4J_USER", user)
+        password = os.getenv("NEO4J_PASSWORD", password)
+
+        self._driver = GraphDatabase.driver(uri, auth=basic_auth(user, password))
+        _debug(f"Connected Neo4j (uri={uri})")
 
     def close(self):
-        """드라이버 연결 종료"""
-        if self.driver:
-            self.driver.close()
-            print("- Neo4j 드라이버 연결 종료")
-
-
-def neo4j_search_sync(query: str) -> str:
-    """동기적으로 Neo4j 검색을 실행하는 함수"""
-    service = None
-    try:
-        print(f"- Neo4j 서비스 인스턴스 생성")
-        service = Neo4jSearchService()
-
-        # 새 이벤트 루프에서 실행
-        loop = asyncio.new_event_loop()
-        asyncio.set_event_loop(loop)
         try:
-            result = loop.run_until_complete(service.search(query))
-            return result
+            self._driver.close()
+            _debug("Driver closed")
+        except Exception:
+            pass
+
+    def run(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        with self._driver.session() as session:
+            res = session.run(query, params or {})
+            return [r.data() for r in res]
+
+
+# =========================
+# LLM Wrapper
+# =========================
+class LLM:
+    def __init__(self, model: str = "gemini-2.5-flash-lite", temperature: float = 0.0):
+        self.client = ChatGoogleGenerativeAI(model=model, temperature=temperature)
+
+    async def ainvoke(self, prompt: str) -> str:
+        resp = await self.client.ainvoke(prompt)
+        return (resp.content or "").strip()
+
+    def invoke(self, prompt: str) -> str:
+        resp = self.client.invoke(prompt)
+        return (resp.content or "").strip()
+
+
+# =========================
+# Search Service (single-query)
+# =========================
+class GraphDBSearchService:
+    """
+    - 키워드 추출(LLM + 폴백) : 구분 없이 단일 리스트
+    - DB 호출은 단 하나의 쿼리 형태만 사용:
+        CALL db.index.fulltext.queryNodes('product_idx', $kw)
+        YIELD node AS n, score
+        MATCH (n)-[r0]-(m)
+        RETURN n, r, m, score
+        ORDER BY score DESC
+    - 관계 가공:
+        * isFrom      -> 원산지 정보 (r.count => 농장수)
+        * hasNutrient -> 영양성분 정보 (r.value[+unit] => 양)
+        * relation    -> 문서 정보 (r.type => 문서 타입)
+    """
+
+    SINGLE_QUERY = f"""
+CALL db.index.fulltext.queryNodes('{FULLTEXT_UNIFIED_INDEX}', $kw)
+YIELD node AS n, score
+OPTIONAL MATCH (n)-[r]-(m)
+RETURN n, r, m, score
+ORDER BY score DESC
+LIMIT 500
+"""
+
+    def __init__(self, client: Optional[GraphDBClient] = None, llm: Optional[LLM] = None):
+        self.client = client or GraphDBClient()
+        self.llm = llm or LLM()
+
+    # ---------- Public ----------
+    async def search(self, user_query: str) -> str:
+        _debug(f"Graph search started: '{user_query}'")
+        
+        # 1. 키워드 추출
+        kw = await self._extract_keywords(user_query)
+        keywords = kw.get("keywords", [])
+        if not keywords:
+            return f"'{user_query}'에 사용할 키워드를 찾지 못했습니다. \n더 구체적인 품목명이나 지역명을 입력해주세요."
+        
+        _debug(f"Extracted keywords: {keywords}")
+        
+        # 2. Lucene 쿼리 구성 및 실행
+        lucene = self._build_fulltext_query(keywords)
+        _debug(f"Lucene query: {lucene}")
+        
+        if not lucene:
+            return f"'{user_query}' 검색에 사용할 수 있는 유효한 키워드가 없습니다."
+            
+        rows = await self._run_single_query(lucene)
+        _debug(f"Retrieved {len(rows)} raw results from Neo4j")
+
+        # 3. 결과 처리를 위한 컨테이너 초기화
+        node_bucket: Dict[str, Dict[str, Any]] = {}  # elementId -> node dict (최대 score로 유지)
+        isfrom_list: List[Dict[str, Any]] = []
+        nutrients_list: List[Dict[str, Any]] = []
+        docrels_list: List[Dict[str, Any]] = []
+
+        # 4. 결과 파싱 및 관계 분류
+        self._parse_rows(rows, node_bucket, isfrom_list, nutrients_list, docrels_list)
+        
+        _debug(f"Parsed results - nodes: {len(node_bucket)}, origins: {len(isfrom_list)}, nutrients: {len(nutrients_list)}, docs: {len(docrels_list)}")
+
+        # 5. 노드 점수별 정렬
+        nodes_sorted = sorted(node_bucket.values(), key=lambda x: x.get("score", 0.0), reverse=True)
+
+        # 6. 관계 데이터 중복 제거 및 정렬
+        def uniq(items, keyfunc):
+            seen = set(); out = []
+            for it in items:
+                k = keyfunc(it)
+                if k not in seen:
+                    seen.add(k); out.append(it)
+            return out
+
+        # 중복 제거 및 정렬
+        isfrom_list    = uniq(isfrom_list,    lambda r: (r.get("item"), r.get("origin")))
+        nutrients_list = uniq(nutrients_list, lambda r: (r.get("item"), r.get("nutrient")))
+        docrels_list   = uniq(docrels_list,   lambda r: (r.get("source"), r.get("target"), r.get("rel_type")))
+        
+        # 원산지 관계를 항목별로 그룹화
+        isfrom_list = sorted(isfrom_list, key=lambda x: (x.get("item", ""), x.get("origin", "")))
+        # 영양성분 관계를 항목별로 그룹화  
+        nutrients_list = sorted(nutrients_list, key=lambda x: (x.get("item", ""), x.get("nutrient", "")))
+
+        # 7. 최종 리포트 생성
+        report = self._format_report(user_query, nodes_sorted, isfrom_list, nutrients_list, docrels_list)
+        
+        _debug(f"Search completed - Final results: nodes={len(nodes_sorted)}, origins={len(isfrom_list)}, nutrients={len(nutrients_list)}, docs={len(docrels_list)}")
+        return report
+
+    def close(self):
+        self.client.close()
+
+    # ---------- Keyword Extraction ----------
+    async def _extract_keywords(self, q: str) -> Dict[str, List[str]]:
+        prompt = f"""
+다음 질문에서 그래프 검색에 사용할 핵심 키워드를 추출하세요.
+- 농산물/수산물/축산물 품목명 (예: 사과, 배추, 고등어)
+- 지역/원산지 (예: 제주도, 경상북도, 통영)
+- 영양성분 (예: 비타민C, 단백질, 칼슘)
+- 기업/조직/브랜드명
+- 관련성 높은 핵심 용어만 선별
+- JSON 형태로만 응답
+
+질문: "{q}"
+
+JSON 예:
+{{ "keywords": ["사과","제주도","비타민C","당도"] }}
+"""
+        try:
+            txt = await self.llm.ainvoke(prompt)
+            m = re.search(r"\{[\s\S]*\}", txt)
+            if m:
+                txt = m.group(0)
+            data = json.loads(txt)
+            _debug(f"LLM keywords: {data}")
+            if "keywords" not in data or not isinstance(data["keywords"], list):
+                data["keywords"] = []
+            return data
+        except Exception as e:
+            _debug(f"LLM keyword extraction failed: {e}")
+            return self._keyword_fallback(q)
+
+    def _keyword_fallback(self, q: str) -> Dict[str, List[str]]:
+        # 농업/식품 관련 불용어 확장
+        stop = {
+            "의","을","를","이","가","에","에서","로","으로","와","과","도","만","부터","까지",
+            "알려줘","검색","찾아","정보","어디","무엇","언제","어떤","어느","얼마","몇",
+            "있는","있나","있어","보여줘","말해줘","대해","관한","관련","대한","중에서",
+            "뭐야","뭔가","그거","그것","이거","저거","하나","좀","잠깐","그냥","한번"
+        }
+        
+        # 한글, 영문, 숫자만 추출
+        words = re.findall(r'[가-힣a-zA-Z0-9]+', q)
+        terms = [w for w in words if len(w) > 1 and w not in stop]
+        
+        # 우선순위: 긴 단어 먼저 (품목명이 보통 2-3글자 이상)
+        terms = sorted(terms, key=len, reverse=True)[:8]
+        return {"keywords": terms}
+
+    # ---------- Fulltext OR query builder ----------
+    def _build_fulltext_query(self, keywords: List[str]) -> str:
+        def esc(t: str) -> str:
+            # Lucene 특수문자 이스케이프
+            t = t.replace("\\", "\\\\").replace('"', '\\"')
+            return f'"{t}"'
+        
+        if not keywords:
+            return ""
+            
+        # 키워드 우선순위 조정: 긴 키워드에 부스트 점수 적용
+        boosted_terms = []
+        for k in keywords:
+            escaped = esc(k)
+            # 3글자 이상 키워드는 중요도 부스트
+            if len(k) >= 3:
+                boosted_terms.append(f"{escaped}^2.0")  
+            else:
+                boosted_terms.append(escaped)
+                
+        return " OR ".join(boosted_terms)
+
+    # ---------- Single-query runner ----------
+    async def _run_single_query(self, lucene_query: str) -> List[Dict[str, Any]]:
+        return await self._run_async(self.SINGLE_QUERY, {"kw": lucene_query})
+
+    # ---------- Row parsing ----------
+    def _parse_rows(
+        self,
+        rows: List[Dict[str, Any]],
+        node_bucket: Dict[str, Dict[str, Any]],
+        isfrom_list: List[Dict[str, Any]],
+        nutrients_list: List[Dict[str, Any]],
+        docrels_list: List[Dict[str, Any]],
+    ):
+        for r in rows:
+            n = r["n"]; m = r.get("m"); rel = r.get("r"); score = float(r.get("score", 0.0))
+
+            # n 노드만 점수 반영 (항상 있음)
+            n_fmt = self._format_node(n, score)
+            node_bucket[n_fmt["id"]] = self._keep_max_score(node_bucket.get(n_fmt["id"]), n_fmt)
+            
+            # m 또는 rel이 없는 경우 (OPTIONAL MATCH로 인해)
+            if not m or not rel:
+                continue
+
+            # 관계 분기 및 처리
+            rel_type_label = getattr(rel, "type", None) or ""   # isFrom / hasNutrient / relation ...
+            try:
+                rel_props = dict(rel)  # count, value, unit, type(문서타입) 등
+            except Exception:
+                rel_props = {}
+
+            def has_label(node, label) -> bool:
+                try:
+                    if hasattr(node, 'labels'):
+                        return label in list(node.labels)
+                    elif isinstance(node, dict) and 'labels' in node:
+                        return label in node['labels']
+                    return False
+                except Exception:
+                    return False
+
+            def node_display(node) -> str:
+                try:
+                    p = dict(node)
+                except Exception:
+                    p = {}
+                try:
+                    if hasattr(node, 'labels'):
+                        labels = list(node.labels)
+                    elif isinstance(node, dict) and 'labels' in node:
+                        labels = node['labels'] if isinstance(node['labels'], list) else [node['labels']]
+                    else:
+                        labels = []
+                except Exception:
+                    labels = []
+                
+                # 라벨별 특화 처리
+                if "Origin" in labels:
+                    city = p.get("city","").strip(); region = p.get("region","").strip()
+                    if city and city != "." and region and region != ".":
+                        return f"{city} ({region})"
+                    return city or region or "N/A"
+                elif "농산물" in labels or "수산물" in labels or "축산물" in labels:
+                    return p.get("product", p.get("name", "N/A"))
+                elif "Nutrient" in labels:
+                    return p.get("name", p.get("nutrient", "N/A"))
+                    
+                # 일반적 처리
+                for k in ("product","name","title","city","region","id"):
+                    val = p.get(k, "").strip() if p.get(k) else ""
+                    if val and val != "N/A": 
+                        return val
+                return "N/A"
+
+            if rel_type_label == "isFrom":
+                origin_node, item_node = (n, m) if has_label(n, "Origin") else ((m, n) if has_label(m, "Origin") else (None, None))
+                if origin_node and item_node:
+                    item_name = node_display(item_node)
+                    origin_name = node_display(origin_node)
+                    # 중복 제거를 위해 유효한 데이터만 추가
+                    if item_name != "N/A" and origin_name != "N/A":
+                        isfrom_list.append({
+                            "item": item_name,
+                            "origin": origin_name,
+                            "count": rel_props.get("count"),   # 농장수
+                        })
+
+            elif rel_type_label == "hasNutrient":
+                nut_node, item_node = (n, m) if has_label(n, "Nutrient") else ((m, n) if has_label(m, "Nutrient") else (None, None))
+                if nut_node and item_node:
+                    item_name = node_display(item_node)
+                    nutrient_name = dict(nut_node).get("name") or node_display(nut_node)
+                    # 영양성분 정보가 유효한 경우만 추가
+                    if item_name != "N/A" and nutrient_name != "N/A":
+                        nutrients_list.append({
+                            "item": item_name,
+                            "nutrient": nutrient_name,
+                            "value": rel_props.get("value"),
+                            "unit": rel_props.get("unit"),
+                        })
+
+            elif rel_type_label == "relation":
+                # 문서 관계 처리 개선
+                doc_node, src_node = (n, m) if has_label(n, "Entity") else ((m, n) if has_label(m, "Entity") else (m, n))
+                src_name = node_display(src_node)
+                doc_name = node_display(doc_node)
+                doc_type = rel_props.get("type", "마켓리포트")
+                
+                # 유효한 문서 관계만 추가
+                if src_name != "N/A" and doc_name != "N/A":
+                    docrels_list.append({
+                        "source": src_name,
+                        "target": doc_name,
+                        "rel_type": doc_type,  # 문서 타입
+                    })
+
+            # 기타 관계 타입은 출력 생략
+
+    # ---------- Helpers ----------
+    async def _run_async(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        loop = asyncio.get_running_loop()
+        return await loop.run_in_executor(None, self.client.run, query, params or {})
+
+    def _format_node(self, node, score: float) -> Dict[str, Any]:
+        try:
+            props = dict(node)
+        except Exception:
+            props = {}
+        try:
+            if hasattr(node, 'labels'):
+                labels = list(node.labels)
+            elif isinstance(node, dict) and 'labels' in node:
+                labels = node['labels'] if isinstance(node['labels'], list) else [node['labels']]
+            else:
+                labels = []
+        except Exception:
+            labels = []
+        # elementId 추출
+        eid = None
+        for attr in ("element_id", "id", "identity"):
+            if hasattr(node, attr):
+                try:
+                    val = getattr(node, attr)
+                    eid = str(val) if val is not None else None
+                    if eid: break
+                except Exception:
+                    continue
+        ntype = labels[0] if labels else "Node"
+        return {
+            "id": eid or json.dumps(props, ensure_ascii=False),
+            "type": ntype,
+            "labels": labels,
+            "properties": props,
+            "score": score,
+            "search_type": "fulltext",  # 본 쿼리는 항상 fulltext
+        }
+
+    def _keep_max_score(self, old: Optional[Dict[str, Any]], new: Dict[str, Any]) -> Dict[str, Any]:
+        if not old: return new
+        return new if new.get("score", 0.0) > old.get("score", 0.0) else old
+
+    def _node_display_for_report(self, n: Dict[str, Any]) -> str:
+        t = n.get("type", "")
+        p = n.get("properties", {})
+        if t in ("농산물","수산물","축산물"):
+            return p.get("product", "N/A")
+        if t == "Origin":
+            city = p.get("city", ""); region = p.get("region", "")
+            return f"{city} ({region})" if city and city != "." else (region or city or "N/A")
+        for k in ("name","title","product","city","region","id"):
+            if p.get(k):
+                return str(p[k])
+        return "N/A"
+
+    def _format_report(
+        self,
+        q: str,
+        nodes: List[Dict[str, Any]],
+        isfrom: List[Dict[str, Any]],
+        nutrients: List[Dict[str, Any]],
+        docrels: List[Dict[str, Any]],
+    ) -> str:
+        if not nodes and not isfrom and not nutrients and not docrels:
+            return f"'{q}'에 대한 그래프 검색 결과를 찾지 못했습니다."
+
+        lines = []
+        lines.append(f"Neo4j Graph 검색 결과 ('{q}')")
+        lines.append(f"- 항목 {len(nodes)}개, 원산지 관계 {len(isfrom)}개, 영양성분 관계 {len(nutrients)}개, 문서 관계 {len(docrels)}개\n")
+
+        # 노드들을 카테고리별로 그룹화하고 분석 요약 제공
+        if nodes:
+            # 카테고리별로 분류
+            categories = {}
+            for n in nodes:
+                node_type = n.get('type', 'Unknown')
+                if node_type not in categories:
+                    categories[node_type] = []
+                categories[node_type].append(n)
+            
+            lines.append("검색 결과 분석:")
+            
+            # 카테고리별 요약
+            category_summary = []
+            for category, category_nodes in categories.items():
+                # 카테고리별로 대표 항목들 추출
+                top_nodes = sorted(category_nodes, key=lambda x: x.get("score", 0.0), reverse=True)
+                representative_names = []
+                
+                for n in top_nodes:
+                    name = self._node_display_for_report(n)
+                    if name != "N/A" and name not in representative_names:
+                        representative_names.append(name)
+                        if len(representative_names) >= 3:  # 각 카테고리에서 최대 3개 대표 항목
+                            break
+                
+                if representative_names:
+                    category_summary.append(f"{category}({len(category_nodes)}개): {', '.join(representative_names)}")
+                else:
+                    category_summary.append(f"{category}: {len(category_nodes)}개 항목")
+            
+            lines.append(f"주요 카테고리: {'; '.join(category_summary)}")
+            lines.append("")
+
+        # 실제 관계 데이터가 있는 경우에만 상세 표시
+        if isfrom:
+            lines.append(f"원산지 관계 정보 ({len(isfrom)}건):")
+            for i, r in enumerate(isfrom, 1):
+                suffix = f" (농장수 {int(r['count'])}개)" if r.get("count") is not None else ""
+                lines.append(f"  {i}. {r['item']} → {r['origin']}{suffix}")
+            lines.append("")
+
+        if nutrients:
+            lines.append(f"영양성분 관계 정보 ({len(nutrients)}건):")
+            for i, n in enumerate(nutrients, 1):
+                amount = ""
+                if n.get("value") is not None:
+                    amount = f" (양: {n['value']}{n.get('unit','') or ''})"
+                lines.append(f"  {i}. {n['item']} - {n['nutrient']}{amount}")
+            lines.append("")
+
+        if docrels:
+            lines.append(f"문서 관계 정보 ({len(docrels)}건):")
+            for i, d in enumerate(docrels, 1):
+                rtype = f" (type: {d['rel_type']})" if d.get("rel_type") else ""
+                lines.append(f"  {i}. {d['source']} - {d['target']}{rtype}")
+            lines.append("")
+
+        # 데이터 한계 및 권장사항 추가
+        if not isfrom and not nutrients and not docrels:
+            lines.append("※ 주의사항:")
+            lines.append("  - 현재 검색에서는 구체적인 관계 정보(원산지-품목 연결, 영양성분 등)를 찾지 못했습니다.")
+            lines.append("  - 일반적인 카테고리 노드들만 발견되었습니다.")
+            lines.append("  - 더 구체적인 품목명이나 지역명으로 검색하시거나 다른 데이터 소스를 활용하는 것을 권장합니다.")
+
+        return "\n".join(lines)
+
+
+# =========================
+# Query Optimizer (Graph-friendly phrase)
+# =========================
+class GraphQueryOptimizer:
+    """
+    사용자 자연어 질문을 그래프 DB 검색에 유리한 '관계 중심 문구'로 단순화.
+    예: "사과의 원산지", "오렌지의 영양소", "오렌지의 원산지와 영양소"
+    """
+    def __init__(self, llm: Optional[LLM] = None):
+        self.llm = llm or LLM()
+
+    async def optimize(self, user_query: str) -> str:
+        prompt = f"""
+다음 사용자 질문을 Graph DB 검색에 가장 효과적인 핵심 관계 중심 문구로 바꾸세요.
+- 그래프 데이터 특성: (품목)-[:isFrom]->(원산지), (품목)-[:hasNutrient]->(영양소), (노드)-[:relation]->(문서)
+- 꼭 필요한 엔티티와 관계만 남기고, 한국어로 간결히.
+- 예시: "사과의 원산지", "오렌지의 영양소", "오렌지의 원산지와 영양소"
+- 불필요한 수식/설명 금지. 결과만 한 줄로.
+
+질문: "{user_query}"
+답변:
+"""
+        try:
+            txt = await self.llm.ainvoke(prompt)
+            return txt.strip().replace("\n", " ")
+        except Exception as e:
+            _debug(f"optimize failed: {e}")
+            return user_query
+
+
+# =========================
+# Public Entrypoints
+# =========================
+def neo4j_search_sync(query: str) -> str:
+    """스레드/프로세스 어디서나 호출 가능한 동기 진입점"""
+    svc = GraphDBSearchService()
+    try:
+        loop = asyncio.new_event_loop()
+        try:
+            asyncio.set_event_loop(loop)
+            return loop.run_until_complete(svc.search(query))
         finally:
             loop.close()
     except Exception as e:
-        print(f"- Neo4j 동기 검색 오류: {e}")
+        _debug(f"sync search error: {e}")
         return f"Neo4j 동기 검색 오류: {e}"
     finally:
-        if service:
-            service.close()
+        svc.close()
 
 
 async def neo4j_graph_search(query: str) -> str:
-    """
-    RAG 에이전트가 호출할 Neo4j 검색 도구의 메인 진입점 함수
-
-    Args:
-        query: 검색 질의
-
-    Returns:
-        검색 결과 문자열
-    """
-    service = Neo4jSearchService()
+    """에이전트에서 직접 await할 수 있는 비동기 진입점"""
+    svc = GraphDBSearchService()
     try:
-        return await service.search(query)
+        return await svc.search(query)
     finally:
-        service.close()
+        svc.close()

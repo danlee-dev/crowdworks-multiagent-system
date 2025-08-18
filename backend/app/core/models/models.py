@@ -7,25 +7,11 @@ class ScrapeInput(BaseModel):
     url: str = Field(description="스크래핑할 웹페이지의 전체 URL")
     query: str = Field(description="추출의 맥락을 제공하는 원본 사용자 질문")
 
-class AgentType(str, Enum):
-    """Agent Type 정의"""
-    PLANNING = "planning"
-    RETRIEVER = "retriever"
-    CRITIC_1 = "critic_1"
-    CRITIC_2 = "critic_2"
-    CONTEXT_INTEGRATOR = "context_integrator"
-    REPORT_GENERATOR = "report_generator"
+class AgentRole(str, Enum):
+    ORCHESTRATOR = "orchestrator"
+    DATA_GATHERER = "data_gatherer"
+    PROCESSOR = "processor"
     SIMPLE_ANSWERER = "simple_answerer"
-
-class MessageType(str, Enum):
-    """Agent 간 주고 받는 메세지 타입 정의"""
-    REAL_TIME_HINT = "real_time_hint"
-    SEARCH_REQUEST = "search_request"
-    INTERESTING_FINDING = "interesting_finding"
-    FEEDBACK = "feedback"
-    RESULT = "result"
-    MEMORY_RETRIEVAL = "memory_retrieval"
-    MEMORY_STORAGE = "memory_storage"
 
 class DatabaseType(str, Enum):
     """데이터베이스 타입"""
@@ -34,7 +20,7 @@ class DatabaseType(str, Enum):
     RDB = "rdb"
     API = "api"
     WEB = "web"
-    MEMORY = "memory"
+    MEMORY = "memory"  # 계층 메모리 시스템
 
 class MemoryType(str, Enum):
     """메모리 타입 정의"""
@@ -50,81 +36,25 @@ class ExpertiseLevel(str, Enum):
     INTERMEDIATE = "intermediate"
     EXPERT = "expert"
 
-class ComplexityLevel(str, Enum):
-    """질문 복잡도 레벨"""
-    SIMPLE = "simple"
-    MEDIUM = "medium"
-    COMPLEX = "complex"
-    SUPER_COMPLEX = "super_complex"
-
-class ExecutionStrategy(str, Enum):
-    """실행 전략 - 4단계 복잡도 대응"""
-    DIRECT_ANSWER = "direct_answer"
-    BASIC_SEARCH = "basic_search"
-    FULL_REACT = "full_react"
-    MULTI_AGENT = "multi_agent"
-
-class AgentMessage(BaseModel):
-    """Agent 간 실시간 메시지"""
-    from_agent: AgentType
-    to_agent: AgentType
-    message_type: MessageType
-    content: str
-    data: Dict[str, Any] = Field(default_factory=dict)
-    timestamp: str = Field(default_factory=lambda: datetime.now().isoformat())
-    priority: int = Field(default=1, description="1=highest, 5=lowest")
-
 class SearchResult(BaseModel):
-    """검색 결과 표준 형태"""
-    source: str
-    content: str
-    relevance_score: float = Field(ge=0.0, le=1.0)
-    metadata: Dict[str, Any] = Field(default_factory=dict)
+    """검색 결과 표준 형태 - Claude 스타일 UI를 위한 확장된 정보"""
+    source: str  # 데이터 소스 이름(graph_db, vector_db, memory, web_search, ...)
+    content: str  # 검색 결과 내용
+    search_query: str = ""  # 검색한 쿼리 그 자체
+    document_type: str
+    # Claude 스타일 UI를 위한 추가 필드들
+    title: str = Field(default="", description="문서 제목 또는 결과 제목")
+    url: Optional[str] = Field(default=None, description="원본 URL")
+    score: float = Field(default=0.7, description="관련성 점수")
     timestamp: str = Field(default_factory=lambda: datetime.now().isoformat())
-    search_query: str = ""
-    memory_type: Optional[MemoryType] = None
-
-class QueryPlan(BaseModel):
-    """섹션 기반 쿼리 계획 - 유연한 보고서 구조 지원"""
-    original_query: str
-    sub_queries: List[str] = Field(default_factory=list)
-    estimated_complexity: str = Field(default="adaptive")
-    execution_strategy: str = Field(default="section_based")
-    resource_requirements: Dict[str, Any] = Field(default_factory=dict)
-    reasoning: str = ""
-    priority: int = Field(default=1, ge=1, le=5)
-    expected_output_type: str = Field(default="report")
-    estimated_processing_time: str = Field(default="adaptive")
-    required_databases: List[DatabaseType] = Field(default_factory=list)
-    memory_context_needed: bool = Field(default=True)
-    execution_steps: List[str] = Field(default_factory=list)
-    fallback_strategy: Optional[str] = None
+    metadata: Dict[str, Any] = Field(default_factory=dict)
 
 class CriticResult(BaseModel):
-    """Critic Agent의 평가 결과"""
-    status: Literal["sufficient", "insufficient"]
-    suggestion: str
+    # 'pass' 또는 'fail'로 더 명확하게
+    status: Literal["pass", "fail_with_feedback"]
+    # 재계획에 직접 사용할 피드백
+    feedback: str = Field(description="Orchestrator가 재계획에 사용할 구체적인 피드백")
     confidence: float
-    reasoning: str
-    memory_recommendation: Optional[str] = None
-
-class AgentMemory(BaseModel):
-    """각 Agent의 개별 메모리"""
-    agent_type: AgentType
-    internal_state: Dict[str, Any] = Field(default_factory=dict)
-    message_history: List[AgentMessage] = Field(default_factory=list)
-    findings: List[str] = Field(default_factory=list)
-    performance_metrics: Dict[str, float] = Field(default_factory=dict)
-    memory_usage_stats: Dict[str, int] = Field(default_factory=dict)
-
-    def add_finding(self, finding: str):
-        self.findings.append(f"[{datetime.now().strftime('%H:%M:%S')}] {finding}")
-
-    def update_metric(self, metric_name: str, value: float):
-        self.performance_metrics[metric_name] = value
-
-    def update_memory_stat(self, stat_name: str, value: int):
-        self.memory_usage_stats[stat_name] = value
 
 class UserContext(BaseModel):
     """사용자 컨텍스트 정보"""
@@ -144,115 +74,39 @@ class MemoryRetrievalResult(BaseModel):
     relevance_threshold: float = Field(default=0.5)
     context_summary: str = Field(default="")
 
-class SimpleAgentMemory:
-    """간단한 에이전트별 메모리 클래스 (Pydantic 없이)"""
-    def __init__(self):
-        self.findings: List[str] = []
-        self.metrics: Dict[str, float] = {}
-        self.context: Dict[str, Any] = {}
-
-    def add_finding(self, finding: str):
-        self.findings.append(finding)
-
-    def update_metric(self, name: str, value: float):
-        self.metrics[name] = value
-
-    def set_context(self, key: str, value: Any):
-        self.context[key] = value
-
-class StreamingAgentState(BaseModel):
+class StreamingAgentState(TypedDict):
     """스트리밍 에이전트 상태"""
-    model_config = {"extra": "allow", "arbitrary_types_allowed": True}
-    
-    original_query: str = ""
-    conversation_id: str = Field(default_factory=lambda: f"conv_{datetime.now().strftime('%Y%m%d_%H%M%S')}")
-    user_id: str = Field(default="default_user")
-    start_time: str = Field(default_factory=lambda: datetime.now().isoformat())
-    flow_type: Optional[Literal['chat', 'task']] = None
-    plan: Optional[Dict[str, Any]] = None
-    current_step_index: int = 0
-    step_results: Dict[str, Any] = Field(default_factory=dict)
-    execution_log: List[str] = Field(default_factory=list)
-    needs_replan: bool = False
-    replan_feedback: Optional[str] = None
-    final_answer: Optional[str] = None
+    # 기본 정보 필드
+    original_query: str
+    conversation_id: str
+    user_id: str
+    start_time: str
+
+    # Planning ('chat' || 'task)
+    flow_type: Optional[Literal['chat', 'task']]
+
+    # Orchestration (Workflow 설계 - json 형태로 저장)
+    plan: Optional[Dict[str, Any]]
+
+    # Execution (실행 상태 추적)
+    current_step_index: int
+    step_results: List[Any]
+    execution_log: List[str]
+
+    # 재계획 및 분기 여부
+    needs_replan: bool
+    replan_feedback: Optional[str]
+
+    # 최종 결과
+    final_answer: Optional[str]
 
     # 추가 필드들
-    memory_context: Optional[str] = ""
-    query_plan: Optional[Any] = None
-    execution_mode: Optional[str] = None
-    graph_results_stream: List[Any] = Field(default_factory=list)
-    multi_source_results_stream: List[Any] = Field(default_factory=list)
-    info_sufficient: bool = False
-    context_sufficient: bool = False
-    search_complete: bool = False
-    planning_complete: bool = False
-    critic1_result: Optional[Dict[str, Any]] = None
-    current_iteration: int = 0
-    max_iterations: int = 3
-    integrated_context: str = ""
-    additional_context: str = ""
-    
-    def add_step_result(self, key: str, value: Any):
-        """step_results에 결과 추가 (딕셔너리 형태로 관리)"""
-        self.step_results[key] = value
-    
-    def get_step_result(self, key: str, default=None):
-        """step_results에서 특정 키의 값 조회"""
-        return self.step_results.get(key, default)
-    
-    def add_multi_source_result(self, result: 'SearchResult'):
-        """multi_source_results_stream에 검색 결과 추가"""
-        if not hasattr(self, 'multi_source_results_stream') or self.multi_source_results_stream is None:
-            self.multi_source_results_stream = []
-        self.multi_source_results_stream.append(result)
-    
-    def add_graph_result(self, result: 'SearchResult'):
-        """graph_results_stream에 검색 결과 추가"""
-        if not hasattr(self, 'graph_results_stream') or self.graph_results_stream is None:
-            self.graph_results_stream = []
-        self.graph_results_stream.append(result)
-    
-    def add_execution_log(self, message: str):
-        """실행 로그 추가"""
-        timestamp = datetime.now().strftime("%H:%M:%S")
-        log_entry = f"[{timestamp}] {message}"
-        self.execution_log.append(log_entry)
-    
-    def get_all_search_results(self) -> List['SearchResult']:
-        """모든 검색 결과를 통합하여 반환"""
-        all_results = []
-        if hasattr(self, 'graph_results_stream') and self.graph_results_stream:
-            all_results.extend(self.graph_results_stream)
-        if hasattr(self, 'multi_source_results_stream') and self.multi_source_results_stream:
-            all_results.extend(self.multi_source_results_stream)
-        return all_results
-    
-    def get_complexity_level(self) -> str:
-        """복잡도 레벨 반환"""
-        if hasattr(self, 'query_plan') and self.query_plan:
-            if hasattr(self.query_plan, 'execution_strategy'):
-                strategy = self.query_plan.execution_strategy
-            elif isinstance(self.query_plan, dict):
-                strategy = self.query_plan.get('execution_strategy', 'basic_search')
-            else:
-                strategy = 'basic_search'
-                
-            if strategy == 'direct_answer':
-                return 'simple'
-            elif strategy == 'basic_search':
-                return 'medium'
-            elif strategy == 'full_react':
-                return 'complex'
-            elif strategy == 'multi_agent':
-                return 'super_complex'
-            else:
-                return 'medium'
-        return 'medium'
+    session_id: str
+    metadata: Dict[str, Any]
 
 class ChartData(BaseModel):
     """차트 데이터"""
-    chart_type: str
+    chart_type: str  # "line", "bar", "pie", "scatter", etc.
     title: str
     data: List[Dict[str, Any]]
     x_axis: str
@@ -262,7 +116,7 @@ class ChartData(BaseModel):
 
 class StreamingResponse(BaseModel):
     """스트리밍 응답"""
-    chunk_type: str
+    chunk_type: str  # "text", "chart", "table", "status", "complete", "error"
     content: str
     metadata: Optional[Dict[str, Any]] = None
     chart_data: Optional[ChartData] = None
@@ -274,10 +128,10 @@ class FeedbackData(BaseModel):
     conversation_id: str
     query: str
     response: str
-    rating: int = Field(ge=1, le=5)
+    rating: int = Field(ge=1, le=5)  # 1-5
     feedback_text: Optional[str] = None
     timestamp: str = Field(default_factory=lambda: datetime.now().isoformat())
-    memory_helpful: Optional[bool] = None
+    memory_helpful: Optional[bool] = None  # 메모리가 도움이 되었는지
 
 class WorkflowMetrics(BaseModel):
     """워크플로우 성능 메트릭"""
@@ -361,10 +215,11 @@ class SourceCollectionData(BaseModel):
             "high_reliability_count": len([r for r in reliabilities if r >= 0.8])
         }
 
+# 헬퍼 함수들
 def create_source_info(title: str, url: str = None, **kwargs) -> Dict[str, Any]:
     """SourceInfo 생성 헬퍼 함수"""
     source_info = SourceInfo(title=title, url=url, **kwargs)
-    return source_info.dict()
+    return source_info.model_dump()
 
 def enhance_search_result_with_source(search_result: 'SearchResult', source_info: Dict[str, Any]) -> None:
     """기존 SearchResult에 출처 정보 추가 (인플레이스 수정)"""
@@ -377,21 +232,33 @@ def extract_sources_from_state(state: 'StreamingAgentState') -> SourceCollection
     """StreamingAgentState에서 모든 출처 정보 추출"""
     print("\n>> extract_sources_from_state 시작")
     source_collection = SourceCollectionData()
-    for result in getattr(state, 'graph_results_stream', []):
-        source_collection.add_source_from_search_result(result, is_primary=True)
-        print(f"- Graph DB 출처 추가: {result.source}")
-    for result in getattr(state, 'multi_source_results_stream', []):
-        source_collection.add_source_from_search_result(result, is_primary=False)
-        print(f"- Multi Source 출처 추가: {result.source}")
+    # 새로운 State 구조에 맞춰 step_results에서 SearchResult 인스턴스를 찾습니다.
+    for result in state.get('step_results', []):
+        if isinstance(result, SearchResult):
+             source_collection.add_source_from_search_result(result, is_primary=True)
+             print(f"- SearchResult 출처 추가: {result.source}")
     print(f"- 총 출처 개수: {source_collection.total_count}")
     return source_collection
 
+# 내보낼 모델들
 __all__ = [
-    "AgentType", "MessageType", "DatabaseType", "MemoryType", "ExpertiseLevel",
-    "ComplexityLevel", "ExecutionStrategy", "AgentMessage", "SearchResult",
-    "QueryPlan", "CriticResult", "AgentMemory", "SimpleAgentMemory",
-    "UserContext", "MemoryRetrievalResult", "StreamingAgentState",
-    "ChartData", "StreamingResponse", "FeedbackData", "WorkflowMetrics",
-    "SourceInfo", "SourceCollectionData", "create_source_info",
-    "enhance_search_result_with_source", "extract_sources_from_state"
+    "ScrapeInput",
+    "AgentRole",
+    "DatabaseType",
+    "MemoryType",
+    "ExpertiseLevel",
+    "SearchResult",
+    "CriticResult",
+    "UserContext",
+    "MemoryRetrievalResult",
+    "StreamingAgentState",
+    "ChartData",
+    "StreamingResponse",
+    "FeedbackData",
+    "WorkflowMetrics",
+    "SourceInfo",
+    "SourceCollectionData",
+    "create_source_info",
+    "enhance_search_result_with_source",
+    "extract_sources_from_state"
 ]
