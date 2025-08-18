@@ -170,7 +170,7 @@ const SourceRenderer = ({ content, sources = [], isStreaming = false, dataDict =
               rehypePlugins={[rehypeRaw]}
               components={{
                 p: ({ children }) => {
-                  return part.hasTable ? <div>{children}</div> : <span>{children}</span>;
+                  return part.hasTable ? <div>{children}</div> : <div style={{ display: 'inline' }}>{children}</div>;
                 },
                 div: ({ children }) => <div>{children}</div>,
                 li: ({ children, ...props }) => (
@@ -232,7 +232,7 @@ const SourceButton = ({
       className="source-container"
       onMouseEnter={() => onMouseEnter(part.sourceData, part.sourceNumber, index)}
       onMouseLeave={onMouseLeave}
-      style={{ position: 'relative', display: 'inline-block' }}
+      style={{ position: 'relative', display: 'inline' }}
     >
       <button
         className={`source-button ${part.isLoading ? 'loading' : ''} ${!part.sourceData ? 'no-data' : ''}`}

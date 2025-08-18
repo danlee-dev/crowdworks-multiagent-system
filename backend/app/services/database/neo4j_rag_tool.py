@@ -538,17 +538,40 @@ def neo4j_search_sync(query: str) -> str:
     """스레드/프로세스 어디서나 호출 가능한 동기 진입점"""
     svc = GraphDBSearchService()
     try:
-        loop = asyncio.new_event_loop()
+        # 기존 이벤트 루프가 있는지 확인
         try:
-            asyncio.set_event_loop(loop)
-            return loop.run_until_complete(svc.search(query))
-        finally:
-            loop.close()
+            asyncio.get_running_loop()
+            # 이미 실행 중인 루프가 있으면 ThreadPool에서 실행
+            _debug("Found running loop, using ThreadPoolExecutor")
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                future = executor.submit(_run_search_in_new_loop, svc, query)
+                return future.result()
+        except RuntimeError:
+            # 실행 중인 루프가 없으면 새 루프 생성
+            _debug("No running loop, creating new event loop")
+            loop = asyncio.new_event_loop()
+            try:
+                asyncio.set_event_loop(loop)
+                return loop.run_until_complete(svc.search(query))
+            finally:
+                loop.close()
+                asyncio.set_event_loop(None)
     except Exception as e:
         _debug(f"sync search error: {e}")
         return f"Neo4j 동기 검색 오류: {e}"
     finally:
         svc.close()
+
+
+def _run_search_in_new_loop(svc: 'GraphDBSearchService', query: str) -> str:
+    """새로운 이벤트 루프에서 검색 실행"""
+    loop = asyncio.new_event_loop()
+    try:
+        asyncio.set_event_loop(loop)
+        return loop.run_until_complete(svc.search(query))
+    finally:
+        loop.close()
+        asyncio.set_event_loop(None)
 
 
 async def neo4j_graph_search(query: str) -> str:

@@ -2,8 +2,8 @@ import os
 from typing import List
 import requests
 import json
-import asyncio
-import concurrent.futures
+# import asyncio  # 사용하지 않음
+# import concurrent.futures  # 사용하지 않음
 import io
 from pypdf import PdfReader
 
@@ -345,15 +345,9 @@ def graph_db_search(query: str) -> str:
     """
     session_print("GraphDB", f"Graph DB search called: {query}")
     try:
-        try:
-            asyncio.get_running_loop()
-            print("Detected running loop -> using ThreadPool")
-            with concurrent.futures.ThreadPoolExecutor() as ex:
-                fut = ex.submit(neo4j_search_sync, query)
-                return fut.result()
-        except RuntimeError:
-            print("No running loop -> direct sync call")
-            return neo4j_search_sync(query)
+        # 이벤트 루프 상태와 관계없이 직접 동기 호출로 통일
+        print("Using direct sync call for Graph DB")
+        return neo4j_search_sync(query)
     except Exception as e:
         print(f"graph_db_search error: {e}")
         return f"Graph DB 검색 중 오류: {e}"

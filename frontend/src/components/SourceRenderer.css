@@ -29,7 +29,7 @@
 }
 
 .source-container {
-  display: inline-block;
+  display: inline;
   position: relative;
   white-space: nowrap;
 }

@@ -211,11 +211,42 @@ const MessageContent = ({
               });
               return <td {...props}>{processedChildren}</td>;
             },
-            // 리스트 아이템 내 텍스트에서 SOURCE 패턴 처리
+            // 리스트 아이템 내 텍스트에서 SOURCE 패턴 처리 (간단 처리)
             li: ({ children, ...props }) => {
               const processedChildren = React.Children.map(children, (child) => {
                 if (typeof child === 'string') {
-                  return renderSourcesInText(child, sources, messageFullDataDict);
+                  // 리스트에서는 ReactMarkdown 이중 처리 방지를 위해 SourceRenderer만 사용
+                  const parts = [];
+                  const sourcePattern = /\[SOURCE:(\s*\d+(?:\s*,\s*\d+)*\s*)\]/g;
+                  let lastIndex = 0;
+                  let match;
+
+                  while ((match = sourcePattern.exec(child)) !== null) {
+                    // 이전 텍스트 추가 (마크다운 없이 순수 텍스트)
+                    if (match.index > lastIndex) {
+                      parts.push(child.slice(lastIndex, match.index));
+                    }
+                    
+                    // SOURCE 컴포넌트 추가
+                    parts.push(
+                      <SourceRenderer
+                        key={`li-source-${match.index}`}
+                        content={match[0]}
+                        sources={sources}
+                        isStreaming={false}
+                        dataDict={messageFullDataDict}
+                      />
+                    );
+                    
+                    lastIndex = match.index + match[0].length;
+                  }
+                  
+                  // 마지막 남은 텍스트 추가
+                  if (lastIndex < child.length) {
+                    parts.push(child.slice(lastIndex));
+                  }
+                  
+                  return parts.length > 1 ? <span style={{ display: 'inline' }}>{parts}</span> : child;
                 }
                 return child;
               });
@@ -229,7 +260,8 @@ const MessageContent = ({
                 }
                 return child;
               });
-              return <p {...props}>{processedChildren}</p>;
+              // div로 변경하되 인라인 유지 (HTML nesting violation 방지 + 줄바꿈 방지)
+              return <div {...props} style={{ display: 'inline', marginBottom: '1em', lineHeight: '1.6' }}>{processedChildren}</div>;
             },
             img: () => null,
           }}

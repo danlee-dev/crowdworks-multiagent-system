@@ -295,24 +295,27 @@ class OrchestratorAgent:
    - **특징**: 영문 검색 필수. 식품과학(food science), 생명공학(biotechnology), AI/ML, 대체단백질(alternative protein) 등 학술 용어로 검색.
    - **예시 질의 의도**: "대체육 개발 연구", "발효 기술 논문", "AI 기반 품질 예측", "지속가능한 포장재 연구"
 
-**5. web_search - 2순위 (최후의 수단)**
-   - **데이터 종류**: 실시간 최신 정보, 외부 일반 지식.
-   - **사용 조건**: 내부 DB(rdb, vector, graph, arxiv)의 주제를 벗어나거나, 사용자가 명시적으로 '매우 최신' 정보를 요구할 때만 사용.
-   - **사용 금지**: 농축수산물 시세, 영양정보, 원산지, 학술연구 등 내부 DB로 명백히 해결 가능한 질문.
+**5. web_search - 최신 정보 필수 시 우선 사용**
+   - **데이터 종류**: 실시간 최신 정보, 시사 정보, 재해/재난 정보, 최근 뉴스.
+   - **사용 조건**: 
+     * **필수 사용**: 2025년 특정 월/일, 최근, 현재, 기상이변, 집중폭우, 재해, 재난 등이 포함된 질문
+     * **우선 사용**: 내부 DB에 없을 가능성이 높은 최신 사건/상황 정보
+     * **보조 사용**: 내부 DB로 해결되지 않는 일반 지식
+   - **사용 금지**: 일반적인 농축수산물 시세, 영양정보, 원산지 등은 내부 DB 우선 사용 후 보완적으로만 사용.
 
 **도구 선택 우선순위:**
-1. **수치/통계 데이터 (식자재 영양성분, 농축수산물 시세)** → `rdb_search`
-2. **관계/분류 정보 (품목-원산지, 품목-영양소, 지역-특산품, 수산물 상태별 원산지)** → `graph_db_search`
-3. **분석/연구 문서 (시장분석, 소비자 조사)** → `vector_db_search`
-4. **학술 논문/연구 (신제품 개발, 과학적 근거, AI/ML 응용)** → `arxiv_search`
-5. **최신 트렌드/실시간 정보** → `web_search`
+1. **⭐ 최신 정보/시사 (2025년 특정 시점, 재해, 기상이변, 뉴스)** → `web_search` **[최우선]**
+2. **수치/통계 데이터 (식자재 영양성분, 농축수산물 시세)** → `rdb_search`
+3. **관계/분류 정보 (품목-원산지, 품목-영양소, 지역-특산품, 수산물 상태별 원산지)** → `graph_db_search`
+4. **분석/연구 문서 (시장분석, 소비자 조사)** → `vector_db_search`
+5. **학술 논문/연구 (신제품 개발, 과학적 근거, AI/ML 응용)** → `arxiv_search`
 
 **각 도구별 적용 예시:**
 - `rdb_search`: "식자재 영양성분", "농축수산물 시세", "가격 추이/비교", "영양성분 상위 TOP"
 - `graph_db_search`: "사과의 원산지", "오렌지의 영양소", "제주-감귤 관계", "활어 문어 원산지", "지역별 특산품 연결"
 - `vector_db_search`: "시장 분석 보고서", "소비자 행동 연구", "정책 문서"
 - `arxiv_search`: "식물성 대체육 개발 논문", "발효 기술 최신 연구", "AI 품질 예측 모델", "바이오플라스틱 포장재"
-- `web_search`: "2025년 최신 트렌드", "실시간 업계 동향"
+- `web_search`: "2025년 최신 트렌드", "실시간 업계 동향", "2025년 7월 집중폭우 피해지역", "기상이변 농업 피해", "최근 재해 발생 지역", "현재 농산물 공급 상황"
 
 ---
 **## 계획 수립을 위한 단계별 사고 프로세스 (반드시 준수할 것)**
@@ -335,13 +338,22 @@ class OrchestratorAgent:
 - **Step 1**: 서로 의존성이 없는, 가장 먼저 수행되어야 할 병렬 실행 가능한 질문들을 배치합니다. (예: 시장 규모 조사, 최신 트렌드 조사)
 - **Step 2 이후**: 이전 단계의 결과(`[step-X의 결과]` 플레이스홀더 사용)를 입력으로 사용하는 의존성 있는 질문들을 배치합니다. (예: 1단계에서 찾은 '성장 분야'의 경쟁사 조사)
 
-**5단계: 각 질문에 대한 최적 도구 선택**
+**5단계: 각 질문에 대한 최적 도구 선택 전략**
 - '보유 도구 명세서'를 참고하여 각 하위 질문에 가장 적합한 도구를 **단 하나만** 신중하게 선택합니다.
+- **중요**: 질문의 복잡성을 분석하여 **필요한 도구만 선택**합니다:
+  * **단순 질문** → 1개 도구로 충분 (예: "사과 영양성분" → `rdb_search`)
+  * **복합 질문** → 여러 도구 조합 필요 (예: "최신 재해 + 농업 분석" → 여러 단계)
     - **"성분", "영양", "시세", "가격"** 포함 → `rdb_search`
     - **"원산지", "관계", "제조사", "특산품", "fishState(활어/선어/냉동/건어)"** 포함 → `graph_db_search`
     - **"분석", "연구", "조사", "보고서", "동향"** 포함 → `vector_db_search`
     - **"신제품 개발", "과학적 근거", "논문", "학술", "AI/ML", "대체식품", "지속가능성", "발효 기술"** 포함 → `arxiv_search`
-    - **"최신 트렌드", "실시간 정보", "2025년"** 등 최신성 강조 시 → `web_search`
+    - **"최신 트렌드", "실시간 정보", "2025년", "최근", "현재", "기상이변", "집중폭우", "홍수", "태풍", "재해", "재난", "피해", "뉴스", "사건", "발생"** 등 최신성 강조 또는 시사 정보 관련 시 → `web_search`
+
+**도구 선택 예시**:
+- **단순 케이스**: "사과의 영양성분" → `rdb_search` 1개만
+- **중간 케이스**: "2025년 식품 트렌드" → `web_search` 1개만  
+- **복합 케이스**: "최신 재해 피해지역 농업 현황" → `web_search` + `vector_db_search` + `graph_db_search` 조합
+- **고도 복합**: "신제품 개발 전략" → `web_search` + `arxiv_search` + `vector_db_search` + `rdb_search` 조합
 
 **6단계: 최종 JSON 형식화**
 - 위에서 결정된 모든 내용을 아래 '최종 출력 포맷'에 맞춰 JSON으로 작성합니다.
@@ -350,7 +362,24 @@ class OrchestratorAgent:
 ---
 **## 계획 수립 예시**
 
-**요청**: "만두 신제품 개발을 위해, 해외 수출 사례와 최신 식품 트렌드에 맞는 원료를 추천해줘."
+**요청 (단순)**: "사과의 영양성분과 칼로리 정보를 알려줘."
+
+**생성된 계획(JSON)**:
+{{
+    "title": "사과 영양성분 및 칼로리 정보",
+    "reasoning": "단순한 영양성분 조회 질문이므로 RDB 검색 1개 도구만으로 충분합니다.",
+    "execution_steps": [
+        {{
+            "step": 1,
+            "reasoning": "영양성분과 칼로리는 RDB에 정형화되어 저장된 데이터이므로 rdb_search만으로 해결 가능",
+            "sub_questions": [
+                {{"question": "사과의 상세 영양성분 정보 및 칼로리", "tool": "rdb_search"}}
+            ]
+        }}
+    ]
+}}
+
+**요청 (복합)**: "만두 신제품 개발을 위해, 해외 수출 사례와 최신 식품 트렌드에 맞는 원료를 추천해줘."
 
 **생성된 계획(JSON)**:
 {{
@@ -376,10 +405,48 @@ class OrchestratorAgent:
     ]
 }}
 
+**요청**: "2025년 7월과 8월의 지구온난화 기상이변에 따른 집중폭우 피해지역에서 생산되는 주요 식재료들 목록과 생산지를 표로 정리해줘"
+
+**생성된 계획(JSON)**:
+{{
+    "title": "2025년 여름 기상이변 피해지역 식재료 생산 현황 종합 분석",
+    "reasoning": "최신 재해 정보(web_search), 농업 피해 분석(vector_db), 지역-식재료 매핑(graph_db), 가격/생산량 통계(rdb_search)를 조합한 3단계 종합 분석",
+    "execution_steps": [
+        {{
+            "step": 1,
+            "reasoning": "최신 재해 정보와 기존 농업 피해 분석을 병렬로 수집",
+            "sub_questions": [
+                {{"question": "2025년 7월 8월 대한민국 집중호우 피해 심각 지역 목록", "tool": "web_search"}},
+                {{"question": "집중호우 농업 피해 분석 보고서 및 생산량 감소 통계", "tool": "vector_db_search"}}
+            ]
+        }},
+        {{
+            "step": 2,
+            "reasoning": "1단계에서 확인된 피해 지역의 주요 생산 식재료 매핑 및 시세 정보 수집",
+            "sub_questions": [
+                {{"question": "[step-1의 결과] 피해 지역별 주요 농산물 및 축산물 생산지 매핑", "tool": "graph_db_search"}},
+                {{"question": "[step-1의 결과] 해당 지역 주요 식재료 최근 시세 및 가격 변동", "tool": "rdb_search"}}
+            ]
+        }},
+        {{
+            "step": 3,
+            "reasoning": "수집된 정보를 종합하여 피해 규모와 공급망 영향을 분석",
+            "sub_questions": [
+                {{"question": "[step-2의 결과]를 바탕으로 집중호우가 농산물 공급망에 미치는 영향 분석", "tool": "vector_db_search"}}
+            ]
+        }}
+    ]
+}}
+
 ---
 **## 최종 출력 포맷**
 
-**중요 규칙**: 내부 DB를 최우선으로 활용하고, web_search는 신중하게 사용하세요. 반드시 아래 JSON 형식으로만 응답해야 합니다.
+**중요 규칙**: 
+- **질문 복잡성에 따라 적절한 도구 개수 선택**: 단순하면 1개, 복합적이면 필요한 만큼만
+- **최신 정보** 포함 시 → **web_search 포함**, 추가로 필요한 분석/통계 도구만 보완
+- **일반 정보** → 내부 DB(rdb, vector, graph, arxiv) 중 가장 적합한 것 선택
+- **과도한 도구 사용 금지**: 불필요한 중복 검색으로 성능 저하 방지
+- 반드시 아래 JSON 형식으로만 응답해야 합니다.
 
 {{
     "title": "분석 보고서의 전체 제목",
@@ -498,7 +565,7 @@ class OrchestratorAgent:
 
         selection_prompt = f"""
     당신은 데이터 분석 전문가입니다.
-    현재 단계에서 수집된 데이터 중에서 **다음 단계에서 활용할 가치가 있는 핵심 데이터만** 선택해주세요.
+    수집된 데이터 중에서 **차트 생성과 보고서 작성에 필요한 데이터**를 효율적으로 선택해주세요.
 
     **전체 사용자 질문**: "{query}"
 
@@ -508,25 +575,32 @@ class OrchestratorAgent:
     {questions_summary}
 
     **수집된 전체 데이터** (전체 내용 포함):
-    {full_data_context[:12000]}
+    {full_data_context}
 
     **선택 기준**:
-    1. **내용을 꼼꼼히 읽고** 현재 단계의 목적과 직접적으로 관련된 데이터
-    2. 향후 단계에서 참고할 가치가 있는 **실질적인 정보**가 포함된 데이터
-    3. 제목만 보고 판단하지 말고 **실제 내용의 질과 관련성** 확인
-    4. 중복되거나 관련성이 낮은 데이터는 제외
-    5. 최대 10개 이내로 선별 (품질 우선)
+    1. **차트 생성용 수치/통계 데이터 최우선 선택**:
+       - 매출액, 시장규모, 점유율, 생산량, 가격 등 수치 데이터
+       - %, 억원, 조원, 천톤 등 단위가 포함된 데이터
+       - 표, 통계, 현황표, 순위, 비교, 분석 데이터
+       - 지역별/품목별/시기별 비교 데이터
+       - 연도별, 월별 시계열 데이터
+    2. **사용자 질문과 직접적으로 관련된 데이터**
+    3. **배경 정보 및 컨텍스트 데이터** (중요한 것만)
+    4. **중복 제거**: 완전히 동일한 내용은 하나만 선택
 
-    **중요**:
-    - 각 데이터의 **전체 내용을 읽고** 관련성을 판단하세요
-    - 단순히 제목이나 출처만 보고 결정하지 마세요
-    - 실제로 유용한 정보가 담긴 데이터만 선택하세요
+    **제외 기준**:
+    - 질문과 전혀 관련 없는 주제
+    - 완전히 중복되는 내용 (유사하지만 다른 관점이면 포함)
+    - 광고성 내용 (단, 시장 데이터 포함시 선택)
+    - 일반적인 설명만 있고 구체적 데이터가 없는 내용
+
+    **목표**: 차트 생성에 필요한 충분한 데이터 확보 (품질 중심 선택)
 
     다음 JSON 형식으로만 응답하세요:
     {{
-        "selected_indexes": [0, 2, 5, 8],
-        "reasoning": "각 선택된 데이터가 왜 중요한지 구체적으로 설명",
-        "rejected_reason": "제외된 데이터들의 주요 제외 이유"
+        "selected_indexes": [선택된 인덱스들],
+        "reasoning": "선택된 각 데이터가 사용자 질문과 차트 생성에 어떻게 기여하는지 설명",
+        "rejected_reason": "제외된 데이터들의 제외 이유"
     }}
     """
 
@@ -546,17 +620,34 @@ class OrchestratorAgent:
             # 인덱스 유효성 검증
             max_index = len(current_collected_data) - 1
             valid_indexes = [idx for idx in selected_indexes if isinstance(idx, int) and 0 <= idx <= max_index]
+            
+            # ⭐ 핵심 수정: 차트 생성용 최소 데이터 확보
+            total_available = len(current_collected_data)
+            min_selection = max(3, min(6, total_available))  # 최소 3개, 최대 6개 (전체 개수 고려)
+            
+            if len(valid_indexes) < min_selection:
+                print(f"  - ⚠️ 차트 생성을 위해 최소 {min_selection}개 데이터가 필요하지만 {len(valid_indexes)}개만 선택됨")
+                # 선택되지 않은 인덱스들 중에서 추가 선택 (첫 번째부터 순서대로)
+                unselected = [i for i in range(total_available) if i not in valid_indexes]
+                additional_needed = min_selection - len(valid_indexes)
+                additional_selected = unselected[:additional_needed]
+                valid_indexes.extend(additional_selected)
+                valid_indexes = sorted(valid_indexes)
+                print(f"  - 🔧 추가 선택된 인덱스: {additional_selected}")
 
-            print(f"  - LLM 데이터 선택 완료 (전체 내용 기반):")
-            print(f"    선택된 인덱스: {valid_indexes}")
+            print(f"  - LLM 데이터 선택 완료:")
+            print(f"    선택된 인덱스: {valid_indexes} (총 {len(valid_indexes)}/{total_available}개)")
             print(f"    선택 이유: {reasoning}")
-            print(f"    제외 이유: {rejected_reason}")
+            if rejected_reason:
+                print(f"    제외 이유: {rejected_reason}")
 
             # 선택된 데이터 미리보기
             print(f"  - 선택된 데이터 목록:")
-            for idx in valid_indexes[:5]:  # 처음 5개만
+            for idx in valid_indexes:
                 data_item = current_collected_data[idx]
-                print(f"    [{idx:2d}] {getattr(data_item, 'source', 'Unknown'):10s} | {getattr(data_item, 'title', 'No Title')[:60]}")
+                title = getattr(data_item, 'title', 'No Title')[:60]
+                source = getattr(data_item, 'source', 'Unknown')
+                print(f"    [{idx:2d}] {source:10s} | {title}")
 
             return valid_indexes
 
@@ -566,94 +657,7 @@ class OrchestratorAgent:
             return list(range(len(current_collected_data)))
 
 
-    async def _reselect_indexes_after_recollection(self, section_info: Dict, all_data: List[SearchResult], previous_selected: List[int], query: str) -> List[int]:
-        """데이터 재수집 후 해당 섹션을 위한 인덱스 재선택"""
-
-        section_title = section_info.get('section_title', '섹션')
-        content_type = section_info.get('content_type', 'synthesis')
-
-        # 전체 데이터 요약 (인덱스 포함)
-        data_summary = ""
-        for i, res in enumerate(all_data):
-            source = getattr(res, 'source', 'Unknown')
-            title = getattr(res, 'title', 'No Title')
-            content = getattr(res, 'content', '')[:150]
-
-            # 새로 추가된 데이터인지 표시
-            is_new = i >= len(all_data) - 10  # 마지막 10개는 새 데이터로 가정
-            marker = "[NEW]" if is_new else ""
-
-            data_summary += f"[{i:2d}]{marker} [{source}] {title}: {content}...\n"
-
-        reselection_prompt = f"""
-    당신은 데이터 분석 전문가입니다.
-    데이터 재수집이 완료된 후, **특정 섹션을 위해** 가장 적합한 데이터들을 다시 선택해주세요.
-
-    **전체 사용자 질문**: "{query}"
-
-    **현재 생성할 섹션 정보**:
-    - 섹션 제목: "{section_title}"
-    - 컨텐츠 타입: "{content_type}"
-
-    **이전에 선택된 인덱스**: {previous_selected}
-
-    **현재 전체 데이터** (인덱스: 0부터 시작, [NEW] = 새로 추가된 데이터):
-    {data_summary[:6000]}
-
-    **재선택 기준**:
-    1. **"{section_title}" 섹션 주제와 직접 관련된 데이터 우선 선택**
-    2. **새로 추가된 데이터([NEW])를 적극적으로 고려** - 이 데이터들은 해당 섹션을 위해 특별히 수집된 것임
-    3. **기존 선택된 데이터 중 여전히 관련성 높은 것들도 유지**
-    4. **최대 10개 이내로 선별** (품질과 관련성 우선)
-    5. **중복되거나 유사한 내용은 제외**
-
-    **특별 고려사항**:
-    - content_type이 "full_data_for_chart"인 경우: 수치, 통계, 트렌드 데이터 우선
-    - content_type이 "synthesis"인 경우: 다양한 관점의 종합적 정보 우선
-
-    다음 JSON 형식으로만 응답하세요:
-    {{
-        "reselected_indexes": [2, 5, 8, 12, 15],
-        "reasoning": "재선택 이유와 새 데이터 활용 방안",
-        "new_data_count": 3,
-        "kept_from_previous": 2
-    }}
-    """
-
-        try:
-            response = await self._invoke_with_fallback(
-                reselection_prompt,
-                self.llm,
-                self.llm_openai_mini
-            )
-
-            # JSON 파싱
-            result = json.loads(re.search(r'\{.*\}', response.content, re.DOTALL).group())
-            reselected_indexes = result.get("reselected_indexes", [])
-            reasoning = result.get("reasoning", "")
-            new_data_count = result.get("new_data_count", 0)
-            kept_count = result.get("kept_from_previous", 0)
-
-            # 인덱스 유효성 검증
-            max_index = len(all_data) - 1
-            valid_indexes = [idx for idx in reselected_indexes if isinstance(idx, int) and 0 <= idx <= max_index]
-
-            print(f"  - 섹션 '{section_title}' 인덱스 재선택 완료:")
-            print(f"    재선택된 인덱스: {valid_indexes}")
-            print(f"    새 데이터 활용: {new_data_count}개")
-            print(f"    기존 데이터 유지: {kept_count}개")
-            print(f"    선택 이유: {reasoning}")
-
-            return valid_indexes
-
-        except Exception as e:
-            print(f"  - 인덱스 재선택 실패: {e}")
-            # fallback: 기존 선택 + 새 데이터 일부
-            fallback_indexes = previous_selected.copy()
-            new_data_start = max(0, len(all_data) - 10)  # 마지막 10개는 새 데이터
-            fallback_indexes.extend(list(range(new_data_start, len(all_data))))
-            return list(set(fallback_indexes))  # 중복 제거
-
+   
     async def execute_report_workflow(self, state: StreamingAgentState) -> AsyncGenerator[str, None]:
         """단계별 계획에 따라 순차적, 병렬적으로 데이터 수집 및 보고서 생성"""
         query = state["original_query"]
@@ -795,6 +799,63 @@ class OrchestratorAgent:
         if not design or "structure" not in design or not design["structure"]:
             yield {"type": "error", "data": {"message": "보고서 구조 설계에 실패했습니다."}}
             return
+
+        # ⭐ 핵심 추가: 데이터 부족 섹션 확인 및 추가 검색
+        insufficient_sections = []
+        for i, section in enumerate(design.get("structure", [])):
+            if not section.get("is_sufficient", True):
+                insufficient_sections.append((i, section))
+        
+        if insufficient_sections:
+            print(f"🔍 데이터 부족 섹션 {len(insufficient_sections)}개 발견, 추가 검색 실행")
+            
+            # 추가 검색 수행
+            additional_data_collected = []
+            for section_index, section in insufficient_sections:
+                feedback = section.get("feedback_for_gatherer", {})
+                if isinstance(feedback, dict) and feedback:
+                    tool = feedback.get("tool", "vector_db_search")
+                    query = feedback.get("query", f"{section.get('section_title', '')} 상세 데이터")
+                    
+                    print(f"  - 섹션 '{section.get('section_title', '')}' 추가 검색: {tool} - '{query}'")
+                    
+                    yield self._create_status_event("PROCESSING", "ADDITIONAL_SEARCH", f"'{query[:50]}...' 관련 추가 데이터 수집 중")
+                    
+                    try:
+                        # DataGatherer 인스턴스를 통해 추가 검색
+                        from .worker_agents import DataGathererAgent
+                        gatherer = DataGathererAgent()
+                        additional_results, _ = await gatherer.execute(tool, {"query": query})
+                        
+                        if additional_results:
+                            additional_data_collected.extend(additional_results)
+                            print(f"    추가 데이터 {len(additional_results)}개 수집 완료")
+                        else:
+                            print(f"    추가 데이터 없음")
+                            
+                    except Exception as e:
+                        print(f"    추가 검색 실패: {e}")
+                        continue
+            
+            # 추가 데이터가 있으면 기존 데이터와 병합 (구조 재설계 없이)
+            if additional_data_collected:
+                print(f"✅ 총 {len(additional_data_collected)}개 추가 데이터 수집 완료")
+                
+                # 기존 데이터와 병합하여 데이터만 보강
+                enhanced_data = final_collected_data + additional_data_collected
+                final_collected_data = enhanced_data  # 데이터 업데이트
+                
+                print(f"🔄 데이터 보강 완료: 기존 {len(final_collected_data) - len(additional_data_collected)}개 → {len(final_collected_data)}개")
+                
+                # 보강된 데이터로 부족 섹션의 is_sufficient 상태 업데이트
+                for section_index, section in insufficient_sections:
+                    section["is_sufficient"] = True
+                    section["feedback_for_gatherer"] = ""
+                    print(f"  - 섹션 '{section.get('section_title', '')}' 데이터 보강으로 충분 상태로 변경")
+                
+                yield self._create_status_event("PROCESSING", "DATA_ENHANCED", f"데이터 보강 완료. 총 {len(final_collected_data)}개 데이터로 보고서 생성 시작")
+            else:
+                print(f"⚠️ 추가 데이터 수집 실패, 기존 데이터로 진행")
 
         section_titles = [s.get('section_title', '제목 없음') for s in design.get('structure', [])]
         yield self._create_status_event("PROCESSING", "DESIGN_STRUCTURE_COMPLETE", "보고서 구조 설계 완료.", details={
