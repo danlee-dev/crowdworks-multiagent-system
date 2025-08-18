@@ -835,12 +835,45 @@ const preprocessAdvancedChartData = (chartType, data, chartConfig) => {
 };
 
 // 백엔드에서 받은 차트 설정(JSON)을 props로 받음
-export function ChartComponent({ chartConfig }) {
+export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, ref) => {
+  const chartRef = React.useRef(null);
   const chartId = React.useMemo(() => {
     return `${chartConfig?.type || "unknown"}-${
       chartConfig?.title || "untitled"
     }-${Date.now()}-${Math.random()}`;
   }, [chartConfig?.type, chartConfig?.title]);
+
+  // 차트 이미지 추출 함수
+  const getChartImage = React.useCallback(() => {
+    if (chartRef.current) {
+      try {
+        return chartRef.current.toBase64Image('image/png', 1);
+      } catch (error) {
+        console.error('Chart image extraction failed:', error);
+        return null;
+      }
+    }
+    return null;
+  }, []);
+
+  // ref를 통해 이미지 추출 함수 노출
+  React.useImperativeHandle(ref, () => ({
+    getChartImage
+  }), [getChartImage]);
+
+  // 차트가 렌더링된 후 이미지를 부모 컴포넌트에 전달
+  React.useEffect(() => {
+    if (onImageReady && chartRef.current) {
+      const timer = setTimeout(() => {
+        const imageData = getChartImage();
+        if (imageData) {
+          onImageReady(imageData);
+        }
+      }, 500); // 차트 렌더링 완료를 위한 지연
+      
+      return () => clearTimeout(timer);
+    }
+  }, [chartConfig, onImageReady, getChartImage]);
 
   // console.log(`ChartComponent 렌더링: ${chartId}`);
   // console.log("받은 chartConfig:", chartConfig);
@@ -1095,6 +1128,7 @@ export function ChartComponent({ chartConfig }) {
         }}
       >
         <ChartTypeComponent
+          ref={chartRef}
           options={finalOptions}
           data={processedData}
           key={chartId}
@@ -1142,4 +1176,4 @@ export function ChartComponent({ chartConfig }) {
       </div>
     );
   }
-}
+});

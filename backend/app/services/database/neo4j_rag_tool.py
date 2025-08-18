@@ -48,7 +48,17 @@ class GraphDBClient:
         user = os.getenv("NEO4J_USER", user)
         password = os.getenv("NEO4J_PASSWORD", password)
 
-        self._driver = GraphDatabase.driver(uri, auth=basic_auth(user, password))
+        # Neo4j 드라이버 연결 설정 최적화
+        self._driver = GraphDatabase.driver(
+            uri, 
+            auth=basic_auth(user, password),
+            max_connection_lifetime=30,  # 연결 수명 30초
+            max_connection_pool_size=50,  # 최대 연결 풀 크기
+            connection_acquisition_timeout=10,  # 연결 획득 타임아웃 10초
+            connection_timeout=5,  # 연결 타임아웃 5초
+            keep_alive=True,  # 연결 유지
+            max_transaction_retry_time=5  # 트랜잭션 재시도 시간 5초
+        )
         _debug(f"Connected Neo4j (uri={uri})")
 
     def close(self):
@@ -59,9 +69,23 @@ class GraphDBClient:
             pass
 
     def run(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        with self._driver.session() as session:
-            res = session.run(query, params or {})
+        session = None
+        try:
+            session = self._driver.session(
+                database="neo4j",  # 명시적 데이터베이스 지정
+                default_access_mode="READ"  # 읽기 전용 모드
+            )
+            res = session.run(query, params or {}, timeout=20)  # 20초 타임아웃
             return [r.data() for r in res]
+        except Exception as e:
+            _debug(f"Neo4j query error: {e}")
+            raise
+        finally:
+            if session:
+                try:
+                    session.close()
+                except Exception as close_error:
+                    _debug(f"Error closing session: {close_error}")
 
 
 # =========================
@@ -536,31 +560,65 @@ class GraphQueryOptimizer:
 # =========================
 def neo4j_search_sync(query: str) -> str:
     """스레드/프로세스 어디서나 호출 가능한 동기 진입점"""
-    svc = GraphDBSearchService()
-    try:
-        # 기존 이벤트 루프가 있는지 확인
+    max_retries = 3
+    retry_delay = 1.0
+    
+    for attempt in range(max_retries):
+        svc = None
         try:
-            asyncio.get_running_loop()
-            # 이미 실행 중인 루프가 있으면 ThreadPool에서 실행
-            _debug("Found running loop, using ThreadPoolExecutor")
-            with concurrent.futures.ThreadPoolExecutor() as executor:
-                future = executor.submit(_run_search_in_new_loop, svc, query)
-                return future.result()
-        except RuntimeError:
-            # 실행 중인 루프가 없으면 새 루프 생성
-            _debug("No running loop, creating new event loop")
-            loop = asyncio.new_event_loop()
+            svc = GraphDBSearchService()
+            
+            # 기존 이벤트 루프가 있는지 확인
             try:
-                asyncio.set_event_loop(loop)
-                return loop.run_until_complete(svc.search(query))
-            finally:
-                loop.close()
-                asyncio.set_event_loop(None)
-    except Exception as e:
-        _debug(f"sync search error: {e}")
-        return f"Neo4j 동기 검색 오류: {e}"
-    finally:
-        svc.close()
+                asyncio.get_running_loop()
+                # 이미 실행 중인 루프가 있으면 ThreadPool에서 실행
+                _debug(f"Found running loop, using ThreadPoolExecutor (attempt {attempt + 1})")
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    future = executor.submit(_run_search_in_new_loop, svc, query)
+                    return future.result(timeout=30)  # 30초 타임아웃 추가
+            except RuntimeError:
+                # 실행 중인 루프가 없으면 새 루프 생성
+                _debug(f"No running loop, creating new event loop (attempt {attempt + 1})")
+                loop = asyncio.new_event_loop()
+                try:
+                    asyncio.set_event_loop(loop)
+                    return loop.run_until_complete(svc.search(query))
+                finally:
+                    loop.close()
+                    asyncio.set_event_loop(None)
+                    
+        except (BlockingIOError, OSError, ConnectionError, TimeoutError) as e:
+            _debug(f"Neo4j connection error on attempt {attempt + 1}: {e}")
+            if svc:
+                try:
+                    svc.close()
+                except:
+                    pass
+            
+            if attempt < max_retries - 1:
+                _debug(f"Retrying in {retry_delay} seconds...")
+                import time
+                time.sleep(retry_delay)
+                retry_delay *= 2  # 지수 백오프
+                continue
+            else:
+                _debug(f"All {max_retries} attempts failed")
+                return f"Neo4j 연결 오류 (재시도 {max_retries}회 실패): {e}"
+                
+        except Exception as e:
+            _debug(f"Unexpected error on attempt {attempt + 1}: {e}")
+            if svc:
+                try:
+                    svc.close()
+                except:
+                    pass
+            return f"Neo4j 동기 검색 오류: {e}"
+        finally:
+            if svc:
+                try:
+                    svc.close()
+                except:
+                    pass
 
 
 def _run_search_in_new_loop(svc: 'GraphDBSearchService', query: str) -> str:
@@ -568,10 +626,28 @@ def _run_search_in_new_loop(svc: 'GraphDBSearchService', query: str) -> str:
     loop = asyncio.new_event_loop()
     try:
         asyncio.set_event_loop(loop)
-        return loop.run_until_complete(svc.search(query))
+        # 타임아웃과 함께 실행
+        task = svc.search(query)
+        return loop.run_until_complete(asyncio.wait_for(task, timeout=25))
+    except asyncio.TimeoutError:
+        _debug("Neo4j search timed out after 25 seconds")
+        raise TimeoutError("Neo4j search timeout")
+    except Exception as e:
+        _debug(f"Error in new loop search: {e}")
+        raise
     finally:
-        loop.close()
-        asyncio.set_event_loop(None)
+        try:
+            # 모든 태스크 취소 및 정리
+            pending = asyncio.all_tasks(loop)
+            for task in pending:
+                task.cancel()
+            if pending:
+                loop.run_until_complete(asyncio.gather(*pending, return_exceptions=True))
+        except Exception as cleanup_error:
+            _debug(f"Error during loop cleanup: {cleanup_error}")
+        finally:
+            loop.close()
+            asyncio.set_event_loop(None)
 
 
 async def neo4j_graph_search(query: str) -> str:

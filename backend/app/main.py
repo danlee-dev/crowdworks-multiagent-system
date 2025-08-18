@@ -89,6 +89,7 @@ class QueryRequest(BaseModel):
     session_id: str | None = Field(default_factory=lambda: str(uuid.uuid4()))
     message_id: str | None = Field(default_factory=lambda: str(uuid.uuid4()))
     team_id: str | None = None  # 사용자가 선택한 팀 ID
+    conversation_history: List[Dict] | None = None  # 대화 히스토리 추가
 
 # --- FastAPI 애플리케이션 설정 ---
 app = FastAPI(
@@ -221,6 +222,13 @@ async def stream_query(request: QueryRequest):
             conversation_id=request.session_id,
             user_id="default_user"
         )
+        
+        # 대화 히스토리를 state에 추가
+        if request.conversation_history:
+            state.metadata["conversation_history"] = request.conversation_history
+            print(f">> 대화 히스토리 포함: {len(request.conversation_history)}개 메시지")
+        else:
+            print(">> 대화 히스토리 없음 - 새 대화")
 
         # 팀 정보를 state에 추가
         if request.team_id:
@@ -783,6 +791,15 @@ async def health_check():
         "timestamp": datetime.now().isoformat(),
         "version": "2.0"
     }
+
+# PDF API 라우터 추가
+try:
+    from .api.pdf import router as pdf_router
+    app.include_router(pdf_router, prefix="/api/pdf", tags=["PDF"])
+    print("✅ PDF API 라우터가 성공적으로 로드되었습니다.")
+except ImportError as e:
+    print(f"⚠️ PDF API 라우터 로드 실패 (라이브러리 누락): {e}")
+    print("⚠️ PDF 다운로드 기능을 사용하려면 requirements.txt의 PDF 관련 라이브러리를 설치하세요.")
 
 # === 세션별 로그 관리 API ===
 @app.get("/api/sessions/{session_id}/logs")

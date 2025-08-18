@@ -5,6 +5,7 @@ import rehypeRaw from 'rehype-raw';
 import { useTypingEffect } from '../hooks/useTypingEffect';
 import SourceRenderer from './SourceRenderer';
 import { ChartComponent } from './ChartComponent';
+import PDFDownloadButton from './PDFDownloadButton';
 
 // SOURCE 패턴을 React 컴포넌트로 변환하는 함수
 const renderSourcesInText = (text, sources, dataDict) => {
@@ -87,6 +88,35 @@ const MessageContent = ({
   const content = message.content || "";
   const charts = message.charts || [];
   const sectionHeaders = message.sectionHeaders || [];
+  
+  // 차트 이미지 수집을 위한 상태
+  const [chartImages, setChartImages] = React.useState({});
+  
+  // 차트 이미지가 준비되었을 때 호출되는 함수
+  const handleChartImageReady = React.useCallback((chartIndex, imageData) => {
+    setChartImages(prev => ({
+      ...prev,
+      [chartIndex]: imageData
+    }));
+  }, []);
+
+  // 메시지 내용에서 보고서 제목 추출
+  const extractReportTitle = React.useCallback((content) => {
+    // 첫 번째 h1 헤더를 제목으로 사용
+    const h1Match = content.match(/^#\s+(.+)$/m);
+    if (h1Match) {
+      return h1Match[1].trim();
+    }
+    
+    // h1이 없으면 첫 번째 h2 사용
+    const h2Match = content.match(/^##\s+(.+)$/m);
+    if (h2Match) {
+      return h2Match[1].trim();
+    }
+    
+    // 제목이 없으면 기본값
+    return "분석 보고서";
+  }, []);
 
   // 타이핑 이펙트 적용 (스트리밍 중인 메시지만) - 항상 최상위에서 호출
   const { displayText, isTyping } = useTypingEffect(
@@ -152,7 +182,10 @@ const MessageContent = ({
         }-${index}`;
         return (
           <div key={chartKey} className="message-chart">
-            <ChartComponent chartConfig={chartConfig} />
+            <ChartComponent 
+              chartConfig={chartConfig}
+              onImageReady={(imageData) => handleChartImageReady(chartIndex, imageData)}
+            />
           </div>
         );
       } else {
@@ -273,12 +306,31 @@ const MessageContent = ({
     return null;
   }).filter(Boolean);
 
+  // PDF 다운로드 버튼 표시 조건:
+  // 1. 스트리밍이 완료된 메시지 (!message.isStreaming && !isTyping)
+  // 2. 내용이 충분히 있는 메시지 (최소 200자 이상)
+  // 3. 차트나 복잡한 분석 내용이 포함된 메시지
+  const shouldShowPDFButton = !message.isStreaming && !isTyping && content.length > 200 && 
+    (charts.length > 0 || content.includes('## ') || content.includes('| ') || sources.length > 0);
+
   return (
     <div className="message-content-wrapper">
       {headerElements}
       {contentElements}
       {isTyping && (
         <span className="typing-cursor">|</span>
+      )}
+      {shouldShowPDFButton && (
+        <PDFDownloadButton
+          content={content}
+          charts={charts.map((chart, index) => ({
+            ...chart,
+            image: chartImages[index] // 수집된 차트 이미지 추가
+          }))}
+          sources={sources}
+          title={extractReportTitle(content)}
+          messageId={message.id}
+        />
       )}
     </div>
   );

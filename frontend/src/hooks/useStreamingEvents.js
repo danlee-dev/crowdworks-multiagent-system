@@ -57,7 +57,12 @@ export const useStreamingEvents = ({
           setCurrentConversation((prev) =>
             prev.map((msg) =>
               msg.id === assistantMessage.id
-                ? { ...msg, fullDataDict: dataDict }
+                ? { 
+                    ...msg, 
+                    fullDataDict: dataDict,
+                    // 🔑 핵심: 소스 데이터도 메시지 객체에 설정
+                    sources: dataDict
+                  }
                 : msg
             )
           );
@@ -164,7 +169,11 @@ export const useStreamingEvents = ({
                 isStreaming: false,
                 fullDataDict: msg.fullDataDict || fullDataDict,
                 sectionDataDicts: sectionDataDicts,
-                messageState: messageState
+                messageState: messageState,
+                // 🔑 핵심: statusHistory를 메시지 객체에 직접 설정
+                statusHistory: messageState?.statusHistory || [],
+                // 🔑 핵심: sources 데이터 유지 (이미 설정된 경우)
+                sources: msg.sources || fullDataDict
               };
             }
             return msg;
