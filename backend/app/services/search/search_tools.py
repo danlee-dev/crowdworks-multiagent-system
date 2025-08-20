@@ -14,6 +14,7 @@ from ..database.elasticsearch.elastic_search_rag_tool import MultiIndexRAGSearch
 
 
 from ...core.models.models import ScrapeInput
+from ..utils.deduplication import deduplicate_mixed_results, GlobalDeduplicator
 
 
 
@@ -356,30 +357,28 @@ def graph_db_search(query: str) -> str:
 @tool
 def arxiv_search(query: str, max_results: int = 10) -> str:
     """
-    # arXiv 학술 논문 검색 - 식품과학/AI/생명공학 분야 최신 연구
+    # arXiv 학술 논문 검색 - 식품과학 분야 최신 연구
     
     ## 사용 목적:
     - 신제품 개발을 위한 최신 과학적 연구 동향 파악
     - 식품 공학, 영양학, 생명공학 관련 학술적 근거 확보
-    - AI/ML 기반 식품 분석 및 예측 모델 연구
+    - 식품 분석 및 예측 연구
     - 대체 식품, 기능성 원료, 신소재 개발 연구
     
     ## 주요 검색 분야:
     1. **식품과학**: food science, nutrition, fermentation, food engineering
     2. **생명공학**: biotechnology, synthetic biology, protein engineering  
     3. **농업기술**: agriculture, crop science, precision farming
-    4. **AI/데이터**: machine learning for food, predictive analytics
-    5. **지속가능성**: sustainable food, alternative protein, food waste
+    4. **지속가능성**: sustainable food, alternative protein, food waste
     
     ## 검색 전략:
-    - 영문 키워드 필수 (arXiv는 영문 논문만 제공)
+    - 영문 쿼리 필수 (arXiv는 영문 논문만 제공)
     - 구체적인 기술명이나 방법론 포함 시 정확도 향상
     - 최신순 정렬로 최근 연구 트렌드 파악
     
     ## 활용 예시:
     - "대체육 개발을 위한 식물성 단백질 연구" 
     - "발효 기술을 활용한 기능성 식품 개발"
-    - "AI 기반 식품 품질 예측 모델"
     - "지속가능한 식품 포장재 개발"
     
     주의: 학술 논문이므로 실무 적용 시 검증 필요
@@ -393,28 +392,34 @@ def arxiv_search(query: str, max_results: int = 10) -> str:
     
     try:
         # 검색 쿼리 URL 인코딩
-        base_url = "http://export.arxiv.org/api/query?"
+        base_url = "https://export.arxiv.org/api/query?"
         
         # 식품/농업 관련 카테고리 추가 (q-bio, cs.AI, physics.bio-ph 등)
-        search_query = urllib.parse.quote(query)
+        #search_query = urllib.parse.quote(query)
         
         # arXiv API 파라미터
         params = {
-            'search_query': f'all:{search_query}',
+            'search_query': f'all:{query}',
             'start': 0,
             'max_results': max_results,
-            'sortBy': 'lastUpdatedDate',  # 최신순 정렬
+            'sortBy': 'submittedDate',  # 최신순 정렬, relevance | lastUpdatedDate | submittedDate
             'sortOrder': 'descending'
         }
         
         # URL 생성
         url = base_url + urllib.parse.urlencode(params)
-        print(f"  - API URL: {url}")
+        session_print(f"  - API URL: {url}")
         
         # API 호출
-        response = urllib.request.urlopen(url, timeout=10)
-        data = response.read().decode('utf-8')
-        
+        # response = urllib.request.urlopen(url, timeout=10)
+        # data = response.read().decode('utf-8')
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "MyArxivClient/1.0 (contact: youremail@example.com)"}
+        )
+
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = resp.read().decode("utf-8")
         # XML 파싱
         root = ET.fromstring(data)
         
@@ -428,7 +433,7 @@ def arxiv_search(query: str, max_results: int = 10) -> str:
         entries = root.findall('atom:entry', ns)
         
         if not entries:
-            return f"'{query}'에 대한 arXiv 논문을 찾을 수 없습니다. 영문 키워드로 다시 검색해보세요."
+            return f"'{query}'에 대한 arXiv 논문을 찾을 수 없습니다. 영문으로 다시 검색해보세요."
         
         results = []
         for i, entry in enumerate(entries[:max_results], 1):

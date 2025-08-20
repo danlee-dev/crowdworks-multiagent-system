@@ -79,6 +79,7 @@ class DataGathererAgent:
             "vector_db_search": self._vector_db_search,
             "graph_db_search": self._graph_db_search,
             "arxiv_search": self._arxiv_search,
+            "pubmed_search": self._pubmed_search,
             "rdb_search": self._rdb_search,
             "scrape_content": self._scrape_content,
         }
@@ -333,6 +334,23 @@ class DataGathererAgent:
                 print(f"  - 쿼리 최적화 실패, 원본 쿼리 사용: {e}")
                 return query
 
+        elif tool == "pubmed_search":
+            print(f"  - {tool} 쿼리 최적화 시작 (맥락 강화): '{query}'")
+            prompt = f"""
+다음 질의에서 PubMed에 검색할 키워드를 5단어 이하로 추출하고 **영어**로 번역해주세요.
+영어로 번역된 검색 키워드를 제외한 다른 내용은 출력하지 마세요.
+
+입력: {query}
+출력(영어 키워드):
+"""
+            try:
+                optimized_query = await self._invoke_with_fallback(prompt)
+                print(f"  - 최적화된 검색 키워드: '{optimized_query}'")
+                return optimized_query
+            except Exception as e:
+                print(f"  - 쿼리 최적화 실패, 원본 쿼리 사용: {e}")
+                return query
+
         # 기타 도구는 원본 쿼리 그대로 사용
         return query
 
@@ -362,11 +380,11 @@ class DataGathererAgent:
             # 키워드가 포함된 라인 찾기
             if any(keyword in line for keyword in ['시장', '통계', '데이터', '매출', '생산', '가격', '점유율']):
                 return line
-        
+
         # fallback: 첫 번째 의미있는 라인
         if cleaned_lines:
             return cleaned_lines[0]
-        
+
         return raw_response.strip()
 
     def _extract_single_question(self, raw_response: str) -> str:
@@ -405,7 +423,7 @@ class DataGathererAgent:
         """단일 도구를 비동기적으로 실행하며, 실행 전 쿼리를 최적화합니다."""
         if tool not in self.tool_mapping:
             print(f"- 알 수 없는 도구: {tool}")
-            return []
+            return [], ""
 
         original_query = inputs.get("query", "")
         # [수정됨] 실제 도구 실행 전, 쿼리 최적화 단계 추가
@@ -535,7 +553,9 @@ class DataGathererAgent:
             "type": "collection_complete",
             "data": {
                 "total_results": len(collected_data),
-                "collected_data": collected_data
+                # SearchResult 객체 리스트를 dict 리스트로 변환합니다.
+                # SearchResult가 Pydantic 모델이라고 가정합니다.
+                "collected_data": [res.model_dump() for res in collected_data]
             }
         }
 
@@ -796,12 +816,12 @@ class DataGathererAgent:
             def _direct_arxiv_search(query_text, max_results=5):
                 try:
                     # 검색 쿼리 URL 인코딩
-                    base_url = "http://export.arxiv.org/api/query?"
-                    search_query = urllib.parse.quote(query_text)
+                    base_url = "https://export.arxiv.org/api/query?"
+                    ##search_query = urllib.parse.quote(query_text)
 
                     # arXiv API 파라미터
                     params = {
-                        'search_query': f'all:{search_query}',
+                        'search_query': f'all:{query}',
                         'start': 0,
                         'max_results': max_results,
                         'sortBy': 'lastUpdatedDate',
@@ -810,11 +830,18 @@ class DataGathererAgent:
 
                     # URL 생성
                     url = base_url + urllib.parse.urlencode(params)
+                    print(f"  - API URL: {url}")
 
                     # API 호출
-                    response = urllib.request.urlopen(url, timeout=10)
-                    data = response.read().decode('utf-8')
+                    # response = urllib.request.urlopen(url, timeout=10)
+                    # data = response.read().decode('utf-8')
+                    req = urllib.request.Request(
+                        url,
+                        headers={"User-Agent": "MyArxivClient/1.0 (contact: youremail@example.com)"}
+                    )
 
+                    with urllib.request.urlopen(req, timeout=15) as resp:
+                        data = resp.read().decode("utf-8")
                     # XML 파싱
                     root = ET.fromstring(data)
 
@@ -965,6 +992,204 @@ class DataGathererAgent:
         except Exception as e:
             print(f"  - arXiv 검색 오류: {e}")
             return []
+
+
+    async def _pubmed_search(self, query: str) -> List[SearchResult]:
+        """PubMed 논문 검색 실행 - 학술 논문 기반 인사이트 (영어 번역 후 검색)"""
+        try:
+            print(f"  - PubMed 논문 검색 시작 (원문 쿼리): {query}")
+            loop = asyncio.get_event_loop()
+
+            # === [NEW] 1) 쿼리 영어 번역 (LLM) ==========================
+
+            try:
+                english_query_raw = (query or "").strip()
+
+                # 코드펜스 제거 및 첫 비어있지 않은 라인만 사용
+                if english_query_raw.startswith("```"):
+                    # ```...``` 블록 안의 내용만 추출
+                    end_idx = english_query_raw.rfind("```")
+                    if end_idx != -1:
+                        english_query_raw = english_query_raw[3:end_idx].strip()
+                    # 흔한 'json', 'text' 같은 언어 태그 제거
+                    english_query_raw = english_query_raw.replace("json", "").replace("text", "").strip()
+
+                english_query = ""
+                for line in english_query_raw.splitlines():
+                    line = line.strip()
+                    if line:
+                        english_query = line
+                        break
+
+                # 안전 폴백
+                if not english_query:
+                    english_query = query
+                    print("  - 번역 결과 비어있음: 원문 쿼리로 폴백")
+                else:
+                    print(f"  - 번역된 영어 검색어: {english_query}")
+
+            except Exception as te:
+                # 번역 실패 시 원문 사용
+                english_query = query
+                print(f"  - 번역 단계 오류, 원문으로 진행: {te}")
+            # ============================================================
+
+            def _direct_pubmed_search(query_text, max_results=5, original_query=None):
+                try:
+                    api_key = os.getenv("PUBMED_API_KEY", "").strip()
+
+                    # 1) ESearch로 PMID 목록 가져오기
+                    esearch_base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+                    esearch_params = {
+                        "db": "pubmed",
+                        "term": query_text,        # 영어로 번역된 검색어 사용
+                        "retstart": 0,
+                        "retmax": max_results,
+                        "retmode": "json",
+                        "sort": "pub+date"        # 최신 발행일 우선
+                    }
+                    if api_key:
+                        esearch_params["api_key"] = api_key
+
+                    esearch_url = esearch_base + "?" + urllib.parse.urlencode(esearch_params)
+                    req = urllib.request.Request(
+                        esearch_url,
+                        headers={"User-Agent": "MyPubMedClient/1.0 (contact: youremail@example.com)"}
+                    )
+                    with urllib.request.urlopen(req, timeout=20) as resp:
+                        search_json = json.loads(resp.read().decode("utf-8", errors="replace"))
+
+                    idlist = search_json.get("esearchresult", {}).get("idlist", [])
+                    if not idlist:
+                        print("  - PubMed: 검색 결과 0건")
+                        return []
+
+                    # 2) EFetch로 상세(제목/초록/저자/DOI 등) 받기
+                    efetch_base = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+                    efetch_params = {
+                        "db": "pubmed",
+                        "id": ",".join(idlist),
+                        "retmode": "xml"
+                    }
+                    if api_key:
+                        efetch_params["api_key"] = api_key
+
+                    efetch_url = efetch_base + "?" + urllib.parse.urlencode(efetch_params)
+                    req2 = urllib.request.Request(
+                        efetch_url,
+                        headers={"User-Agent": "MyPubMedClient/1.0 (contact: youremail@example.com)"}
+                    )
+                    with urllib.request.urlopen(req2, timeout=30) as resp2:
+                        xml_text = resp2.read().decode("utf-8", errors="replace")
+
+                    if not xml_text.lstrip().startswith("<?xml"):
+                        raise RuntimeError("Non-XML response from PubMed efetch")
+
+                    root = ET.fromstring(xml_text)
+
+                    def _parse_date(article):
+                        y = article.findtext(".//ArticleDate/Year") or article.findtext(".//JournalIssue/PubDate/Year")
+                        m = article.findtext(".//ArticleDate/Month") or article.findtext(".//JournalIssue/PubDate/Month")
+                        d = article.findtext(".//ArticleDate/Day") or article.findtext(".//JournalIssue/PubDate/Day")
+                        month_map = {"Jan":"01","Feb":"02","Mar":"03","Apr":"04","May":"05","Jun":"06",
+                                    "Jul":"07","Aug":"08","Sep":"09","Oct":"10","Nov":"11","Dec":"12"}
+                        if m and len(m) == 3 and m in month_map:
+                            m = month_map[m]
+                        if y:
+                            m = m or "01"
+                            d = d or "01"
+                            try:
+                                return datetime.strptime(f"{y}-{m}-{d}", "%Y-%m-%d").strftime("%Y년 %m월 %d일")
+                            except Exception:
+                                return f"{y}년"
+                        return ""
+
+                    results: List[SearchResult] = []
+                    for art in root.findall(".//PubmedArticle"):
+                        pmid = art.findtext(".//PMID") or ""
+                        title = (art.findtext(".//ArticleTitle") or "").strip()
+
+                        # 초록
+                        abs_elems = art.findall(".//Abstract/AbstractText")
+                        if abs_elems:
+                            parts = []
+                            for t in abs_elems:
+                                label = t.attrib.get("Label")
+                                txt = (t.text or "").strip()
+                                parts.append(f"{label}: {txt}" if label else txt)
+                            summary = " ".join([p for p in parts if p])
+                        else:
+                            summary = ""
+
+                        # 저자
+                        author_elems = art.findall(".//AuthorList/Author")
+                        authors = []
+                        for a in author_elems:
+                            last = a.findtext("LastName") or ""
+                            fore = a.findtext("ForeName") or a.findtext("Initials") or ""
+                            if last or fore:
+                                authors.append((fore + " " + last).strip())
+                        author_str = ", ".join(authors[:3])
+                        if len(authors) > 3:
+                            author_str += f" 외 {len(authors)-3}명"
+
+                        # 저널/날짜/MeSH
+                        journal = (art.findtext(".//Journal/Title") or "").strip()
+                        pub_date = _parse_date(art)
+                        mesh_terms = [(mh.text or "").strip() for mh in art.findall(".//MeshHeading/DescriptorName")]
+                        mesh_str = ", ".join([t for t in mesh_terms if t][:3])
+
+                        # DOI 또는 PubMed 링크
+                        doi = None
+                        for aid in art.findall(".//ArticleIdList/ArticleId"):
+                            if (aid.attrib or {}).get("IdType", "").lower() == "doi":
+                                doi = (aid.text or "").strip()
+                                break
+                        link = f"https://doi.org/{doi}" if doi else f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+
+                        # SearchResult 구성
+                        item = SearchResult(
+                            source="pubmed_search",
+                            content=(summary[:1000] + ("..." if len(summary) > 1000 else "")),
+                            search_query=query_text,  # 영어 검색식
+                            title=title or f"PMID {pmid}",
+                            url=link,
+                            score=0.95,
+                            timestamp=datetime.now().isoformat(),
+                            document_type="research_paper",
+                            metadata={
+                                "authors": author_str,
+                                "date": pub_date,
+                                "journal": journal,
+                                "pmid": pmid,
+                                "mesh_terms": mesh_terms[:10],
+                                "categories": mesh_str,
+                                "optimized_query": query_text,      # 번역/최적화된 쿼리
+                                "original_query": original_query or query_text  # [NEW] 원문 쿼리 보존
+                            },
+                            source_url=link
+                        )
+                        results.append(item)
+
+                    return results[:max_results]
+
+                except Exception as e:
+                    print(f"  - PubMed 검색 중 오류: {e}")
+                    return []
+
+            # === [CHANGED] 2) 영어 쿼리로 PubMed 호출 ===================
+            results = await loop.run_in_executor(
+                _global_executor, _direct_pubmed_search, english_query, 5, query  # original_query 전달
+            )
+            # ============================================================
+
+            print(f"  - PubMed 검색 완료: {len(results)}개 논문 (검색식: {english_query})")
+            return results
+
+        except Exception as e:
+            print(f"  - PubMed 검색 오류: {e}")
+            return []
+
 
     async def _rdb_search(self, query: str) -> List[SearchResult]:
         """RDB 검색 실행 - 반환 표준화"""
@@ -1195,21 +1420,26 @@ class ProcessorAgent:
         print(f"   생성된 컨텍스트 길이: {len(indexed_context)} 문자")
         print(f"   제한된 컨텍스트 길이: {len(limited_indexed_context)} 문자")
 
+        # - 사용자의 '원본 질문(query)'을 명확히 제시하고, 구조 설계의 모든 과정이 이 질문에 답하는 데 집중되도록 지시
+        # - 각 데이터가 원본 질문과 얼마나 관련 있는지 평가하여 부적합한 데이터는 사용하지 않도록 명시
+        # - 섹션 제목이 원본 질문의 핵심 요소와 직접적으로 연결되도록 규칙 강화
         prompt = f"""
     당신은 '{persona_name}'({persona_description})의 관점을 가진 데이터 분석가이자 AI 에이전트 워크플로우 설계자입니다.
-    주어진 **선별된 데이터**와 사용자 질문을 분석하여, **'{persona_name}'가 가장 중요하게 생각할 만한 주제**들로 **내용이 절대 중복되지 않는** 논리적인 보고서 목차를 설계하고, **각 섹션의 구체적인 목표**와 **각 섹션별로 사용할 데이터 인덱스**를 명확히 분배해주세요.
+    주어진 **사용자 원본 질문**과 **선별된 데이터**를 분석하여, **오직 질문에 대한 답변**으로만 구성된 **내용이 절대 중복되지 않는** 논리적인 보고서 목차를 설계하고, **각 섹션의 구체적인 목표**와 **각 섹션별로 사용할 데이터 인덱스**를 명확히 분배해주세요.
 
-    **가장 중요한 목표**: 각 보고서 섹션이 '{persona_name}'의 관점에서 고유한 주제를 다루게 하여, 내용 반복을 원천적으로 방지하는 것입니다.
+    **### 가장 중요한 원칙 ###**
+    **1. 질문에만 집중:** 당신의 유일한 목표는 아래 **사용자 원본 질문**에 직접적으로 답하는 것입니다. 질문에서 벗어나는 주제가 데이터에 포함되어 있더라도, 질문과 관련 없으면 **과감히 무시하고 보고서 구조에 포함하지 마세요.**
+    **2. 데이터 적합성 검증:** 각 데이터 조각이 **사용자 원본 질문**의 어떤 부분에 답할 수 있는지 먼저 평가하세요. 관련 없는 데이터는 보고서 생성에 사용해서는 안 됩니다.
+    **3. 내용 반복 금지:** 각 섹션의 주제는 명확히 분리되어야 합니다.
 
-    **사용자 질문**: "{query}"
+    **사용자 원본 질문**: "{query}"
 
     **선별된 데이터 (인덱스와 전체 내용 포함)**:
     {limited_indexed_context}
 
     **작업 지침**:
     1. **보고서 목차 및 섹션별 목표 설계**
-    - 주어진 데이터를 분석하여, 사용자 질문에 답할 수 있는 3~5개의 **고유하고 구체적인 섹션**으로 목차를 구성하세요.
-    - **[매우 중요]** 각 섹션마다 `description` 필드에 **해당 섹션이 분석해야 할 핵심 질문이나 달성해야 할 목표**를 한 문장으로 명확하게 기술하세요. 이 설명은 나중에 다른 AI가 해당 섹션을 작성할 때 직접적인 가이드라인으로 사용됩니다.
+    - 주어진 데이터를 분석하고, **사용자 원본 질문을 분해**하여, 그 구성 요소에 직접 답하는 3~5개의 **고유하고 구체적인 섹션**으로 목차를 구성하세요.
     - **핵심 규칙**: 각 섹션의 제목은 **서로 다른 분석 관점이나 주제**를 다루어야 합니다. 모호하거나 유사한 제목은 절대 금지됩니다.
 
         - **절대 피해야 할 나쁜 예시 (주제가 유사하여 내용이 중복됨):**
@@ -1220,6 +1450,31 @@ class ProcessorAgent:
             - "1. **국가별 수출액 데이터**를 통한 핵심 시장 분석" (정량적, 순위)
             - "2. **소비자 선호도 및 최신 식품 트렌드** 분석" (정성적, 트렌드)
             - "3. **주요 경쟁사 전략 및 성공/실패 사례** 연구" (경쟁, 사례 분석)
+
+    - **섹션 제목 규칙**: 섹션 제목은 **'사용자 질문의 핵심 키워드'**를 반드시 포함해야 합니다.
+
+        - **좋은 예시 (사용자 질문: "원료별 대체식품 유형과 미생물 발효식품 R&D 현황"):**
+          - "1. 원료 기반 대체식품의 유형별 분류"
+          - "2. 미생물 발효 식품의 핵심 기술 및 원리"
+          - "3. 미생물 발효 식품의 최신 연구개발(R&D) 동향"
+
+        - **나쁜 예시 (사용자가 묻지 않은 내용 포함):**
+          - "1. 글로벌 대체식품 시장 규모 분석" (X)
+          - "2. 대체식품 소비자 인식 조사" (X)
+
+    - **[매우 중요]** 각 섹션마다 `description` 필드를 작성할 때 반드시 아래 특별 규칙을 준수하세요. 'description' 필드는 나중에 다른 AI가 해당 섹션을 작성할 때 직접적인 가이드라인으로 사용됩니다.
+        -**`description` 필드 작성 특별 규칙 (매우 중요!)**:
+            - **`content_type: 'synthesis'`인 경우**:
+                - 해당 섹션이 분석해야 할 핵심 질문이나 달성 목표를 **한 문장으로 명확하게** 기술합니다.
+            - **`content_type: 'full_data_for_chart'`인 경우**:
+                - 아래 4가지 항목을 반드시 포함하여 **구체적이고 논리적으로** 기술합니다. 이 내용은 차트 생성 AI에게 전달되는 명세서 역할을 합니다.
+                    - **(1) 분석 목표:** 이 섹션과 차트를 통해 궁극적으로 보여주고자 하는 핵심 인사이트가 무엇인지 서술합니다.
+                    - **(2) 차트 필요성:** 왜 텍스트가 아닌 차트로 표현하는 것이 더 효과적인지 이유를 서술합니다. (예: "연도별 시장 규모 변화 추이를 직관적으로 파악하기 위해", "주요 국가별 수출액을 명확하게 비교하기 위해")
+                    - **(3) 시각화할 내용:** 차트를 구성하는 핵심 데이터 요소(라벨, 값, 항목 등)를 구체적으로 명시합니다.
+            	        - **(Bar/Line Chart 예시:** "X축은 연도, Y축은 시장 규모(억원)")
+            	        - **(Pie/Doughnut Chart 예시:** "각 조각(slice)은 품목명을, 각 조각의 값은 해당 품목의 점유율(%)을 의미")
+            	        - **(Radar Chart 예시:** "각 꼭짓점(axis)은 '성장성', '안정성' 등 평가 항목을, 각 선(line)은 경쟁사를 의미")
+            	    - **(4) 추천 차트 유형:** 데이터의 특성에 가장 적합한 차트 종류를 추천합니다. (예: "시계열 데이터이므로 Line chart가 적합함", "구성 비율을 보여주므로 Pie chart가 적합함")
 
     2. **각 섹션별 사용 데이터 선택**
     - **1단계에서 설계한 고유한 섹션 제목**을 기준으로, 각 섹션마다 `use_contents` 필드에 **조금 전 당신이 직접 정의한 `description`의 목표를 달성하는 데** 가장 적합한 데이터의 인덱스 번호들을 배열로 할당하세요.
@@ -1236,7 +1491,7 @@ class ProcessorAgent:
     4. **데이터 필요 유형 명시 및 차트용 데이터 추가 선택**:
     - **수치, 통계, 트렌드, 분석 관련 섹션**: 'full_data_for_chart' (차트 생성)
     - **일반 설명, 개요, 결론**: 'synthesis' (텍스트만)
-    
+
     **중요: 차트 생성 섹션 ('full_data_for_chart')에 대한 특별 규칙**:
     - 차트 생성이 필요한 섹션은 **기본 데이터 외에 추가적으로 통계/표/수치 데이터가 풍부한 데이터도 포함**해야 합니다
     - 다음과 같은 키워드가 포함된 데이터를 우선적으로 추가 선택하세요:
@@ -1250,76 +1505,78 @@ class ProcessorAgent:
     - **`full_data_for_chart` 섹션의 엄격한 검증 기준**:
       * **수치 데이터 필수**: 숫자, 퍼센트, 금액, 비율이 **명확히 제시된 데이터가 3개 이상** 있어야 함
       * **구조화된 데이터 필수**: 표, 통계표, 순위, 비교 데이터가 **구체적 수치와 함께** 제시되어야 함
-      * **차트 생성 가능성 확인**: 
+      * **차트 생성 가능성 확인**:
         - 지역별/품목별/시기별 **구체적 수치 비교**가 가능한가?
         - "재배면적감소", "정식지연" 같은 **정성적 설명만으로는 불충분**
         - 반드시 "20% 감소", "3000톤 생산", "50만원/톤" 같은 **구체적 수치**가 있어야 함
       * **부족한 경우 반드시 `is_sufficient: false`** 설정하고 구체적인 추가 검색 쿼리 제안
-    
+
     - **`synthesis` 섹션**: 설명, 분석에 필요한 기본 정보가 있으면 충분 (수치 데이터 불필요)
-    
+
     - **`feedback_for_gatherer` 작성 시**:
       * 구체적인 수치 데이터를 요청하는 검색어 작성
       * 예: "2025년 7월 8월 강원도 호남지역 농산물 생산량 재배면적 통계 수치 데이터"
       * 예: "집중호우 피해 지역별 농산물 생산량 감소율 퍼센트 통계표"
 
     **섹션별 데이터 선택 예시**:
-    - **차트 섹션**: "시장 규모 분석" (full_data_for_chart) 
+    - **차트 섹션**: "시장 규모 분석" (full_data_for_chart)
       → 기본: [0, 2, 5] (시장, 매출 관련) + 통계: [8, 12] (수치 테이블 포함) = [0, 2, 5, 8, 12]
     - **차트 섹션**: "지역별 생산 현황" (full_data_for_chart)
       → 기본: [1, 3, 7] (지역, 생산 관련) + 통계: [9, 15] (지역별 통계 포함) = [1, 3, 7, 9, 15]
     - **텍스트 섹션**: "소비자 트렌드" (synthesis) → [4, 6, 10] (소비자, 선호도 관련)
     - **결론 섹션**: "결론 및 제언" (synthesis) → [0, 1, 3, 5, 8] (각 섹션 핵심 데이터 종합)
 
-    **출력 포맷 (반드시 JSON 형식으로만 응답):**
-    {{
-        "title": "보고서의 최종 제목",
-        "structure": [
-            {{
-                "section_title": "1. 시장 현황 및 규모 분석",
-                "description": "전체 시장의 현재 규모와 성장률을 정량적으로 파악하여 제시합니다.",
-                "content_type": "full_data_for_chart",
-                "use_contents": [0, 3, 7, 10, 13],
-                "is_sufficient": true,
-                "feedback_for_gatherer": ""
-            }},
-            {{
-                "section_title": "2. 지역별 생산 현황 비교",
-                "description": "주요 지역별 생산량과 피해 현황을 비교 분석하여 차트로 시각화합니다.",
-                "content_type": "full_data_for_chart",
-                "use_contents": [1, 5, 9, 12, 16],
-                "is_sufficient": true,
-                "feedback_for_gatherer": ""
-            }},
-            {{
-                "section_title": "3. 경쟁 환경 분석",
-                "description": "주요 경쟁사들의 전략과 시장 내 위치를 분석하여 경쟁 구도를 파악합니다.",
-                "content_type": "synthesis",
-                "use_contents": [2, 4, 8],
-                "is_sufficient": true,
-                "feedback_for_gatherer": ""
-            }},
-            {{
-                "section_title": "3-1. 시장 점유율 차트 (데이터 부족 예시)",
-                "description": "주요 경쟁사들의 시장 점유율을 차트로 시각화합니다.",
-                "content_type": "full_data_for_chart",
-                "use_contents": [2, 4],
-                "is_sufficient": false,
-                "feedback_for_gatherer": {{
-                    "tool": "vector_db_search",
-                    "query": "2024년 2025년 대한민국 만두 시장 기업별 브랜드별 점유율 퍼센트 매출액 순위 통계표 수치"
-                }}
-            }},
-            {{
-                "section_title": "4. 결론 및 제언",
-                "description": "앞서 분석한 시장, 소비자, 경쟁사 정보를 종합하여 최종 결론을 도출하고 전략적 방향을 제안합니다.",
-                "content_type": "synthesis",
-                "use_contents": [0, 1, 3, 5, 8],
-                "is_sufficient": true,
-                "feedback_for_gatherer": ""
-            }}
-        ]
-    }}
+    **출력 포맷 예시 (반드시 JSON 형식으로만 응답):**
+    ```json
+    {{
+        "title": "국내 건강기능식품 시장 동향 및 소비자 트렌드 분석 보고서",
+        "structure": [
+            {{
+                "section_title": "1. 국내 건강기능식품 시장 규모 및 성장 추이",
+                "description": "(1) 분석 목표: 연도별 시장 규모 변화를 통해 성장 추세를 파악하고 미래 시장성을 예측합니다.\\n(2) 차트 필요성: 텍스트로 나열된 수치보다 시계열 그래프를 통해 시장의 성장 흐름을 한눈에 직관적으로 전달하기 위함입니다.\\n(3) 시각화할 내용: X축은 '연도', Y축은 '시장 규모(조 원)'를 나타내어 시간의 흐름에 따른 변화를 보여줍니다.\\n(4) 추천 차트 유형: 시간에 따른 연속적인 데이터 변화를 보여주는 데 가장 효과적인 'Line chart'를 추천합니다.",
+                "content_type": "full_data_for_chart",
+                "use_contents": [0, 3, 7, 10],
+                "is_sufficient": true,
+                "feedback_for_gatherer": ""
+            }},
+            {{
+                "section_title": "2. 주요 품목별 시장 점유율",
+                "description": "(1) 분석 목표: 주요 건강기능식품 품목의 시장 점유율을 비교하여 현재 시장을 주도하는 아이템을 파악합니다.\\n(2) 차트 필요성: 전체 시장에서 각 품목이 차지하는 비중을 시각적으로 명확하게 비교하기 위함입니다.\\n(3) 시각화할 내용: 각 조각(slice)은 '품목명'을 나타내고, 그 값은 해당 품목의 '시장 점유율(%)'을 의미합니다.\\n(4) 추천 차트 유형: 전체에 대한 각 부분의 비율을 보여주는 데 가장 적합한 'Pie chart'를 추천합니다.",
+                "content_type": "full_data_for_chart",
+                "use_contents": [1, 5, 9, 12],
+                "is_sufficient": true,
+                "feedback_for_gatherer": ""
+            }},
+            {{
+                "section_title": "3. 최신 소비자 트렌드 및 인식 변화",
+                "description": "최신 소비자 설문조사 및 검색 데이터를 바탕으로 건강기능식품 시장의 핵심 트렌드와 소비자 인식 변화를 분석합니다.",
+                "content_type": "synthesis",
+                "use_contents": [2, 4, 8],
+                "is_sufficient": true,
+                "feedback_for_gatherer": ""
+            }},
+            {{
+                "section_title": "4. 주요 경쟁사별 시장 점유율 분석 (데이터 부족)",
+                "description": "(1) 분석 목표: 주요 경쟁사들의 시장 점유율을 시각적으로 비교하여 시장 내 경쟁 구도를 명확히 파악합니다.\\n(2) 차트 필요성: 각 경쟁사의 위치를 직관적으로 비교하기 위해 Bar chart를 사용합니다.\\n(3) 시각화할 내용: X축은 '경쟁사명', Y축은 '시장 점유율(%)'을 의미합니다.\\n(4) 추천 차트 유형: 'Bar chart'를 추천합니다.",
+                "content_type": "full_data_for_chart",
+                "use_contents": [2, 8],
+                "is_sufficient": false,
+                "feedback_for_gatherer": {{
+                    "tool": "vector_db_search",
+                    "query": "2024년 2025년 국내 건강기능식품 시장 경쟁사별 점유율 통계 데이터 표"
+                }}
+            }},
+            {{
+                "section_title": "5. 결론 및 시장 전망",
+                "description": "앞서 분석한 시장 규모, 품목별 점유율, 소비자 트렌드를 종합하여 최종 결론을 도출하고 향후 시장을 전망합니다.",
+                "content_type": "synthesis",
+                "use_contents": [0, 1, 2, 5, 7],
+                "is_sufficient": true,
+                "feedback_for_gatherer": ""
+            }}
+        ]
+    }}
+    ```
 
     **중요**: `use_contents` 배열에는 반드시 위에 제시된 인덱스 번호 {selected_indexes} 중에서만 선택하세요.
     """
@@ -1366,18 +1623,18 @@ class ProcessorAgent:
                 if content_type == "full_data_for_chart":
                     has_numeric_data = False
                     numeric_count = 0
-                    
+
                     print(f"      📊 차트 섹션 데이터 내용 검증:")
                     for idx in valid_use_contents:
                         if 0 <= idx < len(data):
                             data_item = data[idx]
                             content = getattr(data_item, 'content', '')
                             title = getattr(data_item, 'title', 'No Title')
-                            
+
                             # 수치 데이터 패턴 검사 (더 포괄적)
                             numeric_patterns = [
                                 r'\d+%',                    # 퍼센트
-                                r'\d+\.\d+%',               # 소수점 퍼센트  
+                                r'\d+\.\d+%',               # 소수점 퍼센트
                                 r'\d+억원?',                 # 억원
                                 r'\d+조원?',                 # 조원
                                 r'\d+만원?',                 # 만원
@@ -1395,37 +1652,37 @@ class ProcessorAgent:
                                 r'\d+\s+\d+\s+\d+',         # 표 형태의 연속 숫자
                                 r'평년\s+\d+',              # "평년 25686" 같은 기준값
                             ]
-                            
+
                             numeric_matches = 0
                             for pattern in numeric_patterns:
                                 matches = re.findall(pattern, content)
                                 numeric_matches += len(matches)
-                            
+
                             if numeric_matches > 0:
                                 has_numeric_data = True
                                 numeric_count += numeric_matches
                                 print(f"        [{idx}] ✅ 수치 데이터 {numeric_matches}개 발견: {title[:30]}...")
                             else:
                                 print(f"        [{idx}] ❌ 수치 데이터 없음: {title[:30]}...")
-                    
+
                     # 실제 데이터 기반 충분성 재판단 (더 관대한 기준)
                     # 테이블이나 시계열 데이터가 있으면 충분하다고 판단
-                    has_table_data = any('단위:' in getattr(data[idx], 'content', '') or 
+                    has_table_data = any('단위:' in getattr(data[idx], 'content', '') or
                                        '구분' in getattr(data[idx], 'content', '') or
                                        ('년' in getattr(data[idx], 'content', '') and '월' in getattr(data[idx], 'content', ''))
                                        for idx in valid_use_contents if 0 <= idx < len(data))
-                    
+
                     # 가격/단가 정보도 차트 생성 가능하다고 판단
                     has_price_data = any(('원/' in getattr(data[idx], 'content', '') or
                                         '가격' in getattr(data[idx], 'title', ''))
                                        for idx in valid_use_contents if 0 <= idx < len(data))
-                    
+
                     actually_sufficient = (has_numeric_data and numeric_count >= 2) or has_table_data or has_price_data
-                    
+
                     print(f"        💡 테이블 형태 데이터 발견: {has_table_data}")
                     print(f"        💰 가격/단가 데이터 발견: {has_price_data}")
                     print(f"        📊 최종 충분성 판단: 수치({numeric_count}개) + 테이블({has_table_data}) + 가격({has_price_data}) = {actually_sufficient}")
-                    
+
                     if is_sufficient and not actually_sufficient:
                         print(f"      🔧 LLM 판단 오류 감지: sufficient=true였지만 실제 수치 데이터 부족 ({numeric_count}개)")
                         print(f"      🔄 is_sufficient를 false로 수정하고 추가 검색 요청 생성")
@@ -1559,9 +1816,25 @@ class ProcessorAgent:
 
         print(f"  - 섹션 '{section_title}' 생성에 '{persona_name}' 페르소나 스타일 적용 (전체 구조 인지)")
 
-        # 섹션 시작 시 H2 헤더로 출력
-        section_header = f"\n\n## {section_title}\n\n"
-        yield section_header
+        # 보고서 제목과 중복되지 않도록 섹션 제목 확인
+        report_title = state.get("report_title", "") if state else ""
+
+        # 첫 번째 섹션이고 제목이 보고서 제목과 유사한 경우 헤더 생략
+        is_duplicate_title = (
+            report_title and
+            (section_title.replace(" ", "").lower() in report_title.replace(" ", "").lower() or
+             report_title.replace(" ", "").lower() in section_title.replace(" ", "").lower())
+        )
+
+        # 중복되지 않는 경우에만 섹션 헤더 출력
+        if not is_duplicate_title:
+            section_header = f"\n\n## {section_title}\n\n"
+            yield section_header
+            print(f"  - 섹션 헤더 출력: {section_title}")
+        else:
+            print(f"  - 섹션 헤더 생략 (보고서 제목과 중복): {section_title} ≈ {report_title}")
+            # 중복인 경우 간격만 추가
+            yield "\n\n"
 
         prompt = "" # 최종 프롬프트를 담을 변수
 
@@ -1618,30 +1891,30 @@ class ProcessorAgent:
     5. **데이터 기반**: 참고 데이터에 있는 구체적인 수치, 사실, 인용구를 적극적으로 활용하여 내용을 구성하세요.
     6. **전문가적 문체**: 명확하고 간결하며 논리적인 전문가의 톤으로 글을 작성하세요.
     7. **⭐ 노션 스타일 마크다운 적극 활용 (매우 중요) - 반드시 지켜야 함**:
-    
+
     **기본 포맷팅 (필수)**:
     - **핵심 키워드나 중요한 수치**: 반드시 **굵은 글씨**로 강조 (예: **58,000원/10kg**, **전년 대비 81.4% 하락**)
     - *변화나 추세*: 반드시 *기울임체*로 표현 (예: *전년 대비 감소*, *집중호우로 인한 피해*)
     - 문단별로 **반드시 2-3개 이상의 강조** 포함할 것
-    
+
     **구조화 (필수)**:
     - **중요한 인사이트나 결론**: 반드시 `> **핵심 요약**: 내용` 형태로 블록쿼트 사용
     - **비교 정보가 3개 이상**: 반드시 마크다운 테이블 사용
     - **목록 형태 정보**: 반드시 `-` 불릿 포인트 사용
     - **세부 카테고리가 있으면**: 반드시 `### 소제목` 사용
-    
+
     **필수 예시 패턴**:
     ```
     **배(Pear)**의 전체 재배면적은 **9,361ha**로 전년 대비 **0.6% 감소**했으며, *집중호우 피해 지역*으로 분류되는 강원 및 호남 지역에서의 변동이 두드러졌습니다. [SOURCE:2, 3]
-    
+
     | 식재료 | 주요 생산지 | 재배면적 변화 | 주요 원인 |
     | :--- | :--- | :--- | :--- |
     | **배** | 전국 | **-0.6%** (전년 대비) | *전국적 재배면적 감소 추세* [SOURCE:2] |
     | **포도** | 전국 | **-2.3% ~ -6.7%** | *작형별 면적 감소* [SOURCE:4] |
-    
+
     > **핵심 결론**: 집중호우 직접 피해는 *미미한 수준*이었으나, 고온 및 가뭄이 **과비대 지연** 등 품질에 미치는 영향이 더 컸습니다.
     ```
-    
+
     **⚠️ 강제 요구사항**: 모든 문단에서 **굵은 글씨** 2개 이상, *기울임체* 1개 이상 반드시 사용
 
     **표 작성 지침**:
@@ -1685,15 +1958,15 @@ class ProcessorAgent:
     □ 중요한 결론에 `> **핵심 요약**:` 블록쿼트를 사용했는가?
     □ [SOURCE:숫자] 형식으로 출처를 정확히 표기했는가?
     □ 단락 간 공백 라인이 있는가?
-    
+
     **🚫 절대 금지 사항**:
     ❌ "추가 정보 요청", "더 많은 데이터가 필요합니다", "구체적인 데이터 부족" 등의 표현 사용 금지
     ❌ "...에 대한 추가 분석이 필요합니다" 같은 미완성 결론 제시 금지
     ✅ **현재 확보된 데이터로 최대한 구체적이고 완전한 분석 및 결론 제시 필수**
     ✅ 부족한 정보가 있어도 현재 데이터 기반으로 최선의 인사이트와 표 제공
-    
+
     **⭐ 지금 바로 위 체크리스트를 모두 만족하는 마크다운 형식으로 섹션을 작성하세요:**
-    
+
     **보고서 섹션 내용**:
     """
 
@@ -1848,10 +2121,11 @@ class ProcessorAgent:
                 error_content = f"*'{section_title}' 섹션 생성 중 오류가 발생했습니다: {str(e)}*\n\n"
                 yield error_content
 
-    async def _create_charts(self, section_data: List[SearchResult], section_title: str, generated_content: str = "", yield_callback=None, state: Dict[str, Any] = None):
+    async def _create_charts(self, section_data: List[SearchResult], section_title: str, generated_content: str = "", description: str = "", yield_callback=None, state: Dict[str, Any] = None):
         """⭐ 수정: 페르소나 관점을 반영하여 섹션별 선택된 데이터와 생성된 내용을 바탕으로 정확한 차트 생성"""
         print(f"  - 차트 데이터 생성: '{section_title}' (데이터 {len(section_data)}개)")
-
+        if description:
+            print(f"  - 섹션 목표: '{description}'")
 
 
         # 주어진 데이터로만 차트 생성 (추가 검색 없음)
@@ -1897,49 +2171,92 @@ class ProcessorAgent:
                     context_info += "\n"
 
                 chart_prompt = f"""
-        당신은 데이터 분석 전문가입니다. Chain of Thought 방식으로 데이터를 분석한 후 차트를 생성하세요.
+        당신은 데이터의 **관련성**을 판단하고 **의미 있는 시각화**를 만드는 데이터 시각화 전문가입니다.
 
-        **STEP 1: 데이터 컨텍스트 추론 및 분석**
-        
-        **섹션 정보**:
-        - 제목: "{section_title}"
-        - 페르소나: {persona_name}
-        - 시도: {attempt}회차
+        ---
 
-        **수집된 원본 데이터**:
+        **[PART 1: 입력 정보]**
+        당신이 분석해야 할 정보는 다음과 같습니다.
+
+        1.  **생성 목표:** '{section_title}'에 대한 차트 생성
+        1.1. **섹션 목표:** '{description}'
+        2.  **페르소나:** '{persona_name}' (시도: {attempt}회차)
+        3.  **참고 컨텍스트:**
+            - 이전에 생성된 텍스트: {context_info}
+            - 이전에 생성된 차트: (중복 방지용)
+        4.  **분석할 원본 데이터:**
         {data_summary}
-        {context_info}
 
-        **⚠️ 중요**: Vector DB에서 가져온 데이터가 숫자 표만 있고 무엇에 대한 통계인지 불분명할 수 있습니다.
-        다음 단계로 컨텍스트를 추론하고 분석하세요:
+        ---
 
-        ```
+        **[PART 2: 수행할 명령]**
+        이제, 다음 3단계 사고 프로세스에 따라 명령을 **반드시 순서대로** 수행하세요.
+
+        **STEP 1: 상세 데이터 분석 및 차트 아이디어 구상**
+        - `[PART 1]`의 정보를 바탕으로 시각화할 데이터(항목, 수치, 라벨)를 최대한 추출하고, 만들 수 있는 차트의 주제를 구체화합니다.
+        - 이 과정은 아래 **`분석 템플릿`**을 채우는 방식으로 진행합니다.
+
+        **STEP 2: 주제 일관성 검증**
+        - **질문:** "STEP 1에서 구상한 차트 주제가 `[PART 1]`의 **생성 목표**인 '{section_title}'및 **섹션 목표**인 '{description}'과 직접적으로 관련이 있습니까?"
+        - 이 질문에 대해 **"답변 (Yes/No)"**과 **"근거"**를 명확히 결정합니다.
+
+        **STEP 3: 조건부 JSON 출력**
+        - **만약 STEP 2의 답변이 'No'라면:** **`PLACEHOLDER_JSON`**을 출력합니다.
+        - **만약 STEP 2의 답변이 'Yes'라면:** **`실제 차트 JSON`**을 생성하여 출력합니다.
+
+        ---
+
+        **[PART 3: 출력 형식 및 가이드]**
+        최종 결과물은 아래 가이드에 따라 **'분석'**과 **'JSON'** 두 부분으로 구성되어야 합니다.
+
+        **1. 분석 (Analysis Block):**
+        - STEP 1과 STEP 2에서 당신이 생각한 과정을 아래 `분석 템플릿`에 맞춰 작성합니다.
+        - ⚠️ Vector DB 데이터가 불분명할 수 있으니, 섹션 제목과 데이터 내용을 종합적으로 추론해야 합니다.
+
         분석:
-        1. 컨텍스트 추론:
-           - 섹션 제목 "{section_title}"을 보고 이 데이터가 무엇에 관한 통계인지 추론
-           - 단위 정보 (원/20개, 원/50개 등)를 보고 어떤 상품/품목인지 추론
-           - 출처 URL이나 문서명에서 추가 힌트 찾기
-           - 추론된 품목/상품: [예: 계란, 배추, 쌀 등]
-           
-        2. 섹션 목적: [이 섹션이 보여주려는 핵심 내용]
-        
-        3. 추출 가능한 수치 데이터:
-           - 항목A: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 X)
-           - 항목B: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 Y)
-           - 항목C: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 Z)
-           
-        4. 추출된 라벨/카테고리: [실제 연도, 월, 지역명 등]
-        
-        5. 최적 차트 타입: [시계열이면 line, 비교면 bar, 구성비면 pie]
-        
-        6. 차트 구성:
-           - X축: [추론된 품목명의 시간/지역/카테고리]
-           - Y축: [추론된 품목명의 가격/수량 + 단위]
-           - 데이터셋: [의미있는 라벨들과 해당 수치들]
-        ```
+        1. 상세 분석 및 아이디어 (STEP 1):
+            (1) 컨텍스트 추론:
+                - 섹션 제목 "{section_title}"과 **섹션 목표 "{description}"**을 보고 이 데이터가 무엇에 관한 통계인지 추론
+                - 단위 정보 (원/20개, 원/50개 등)를 보고 어떤 상품/품목인지 추론
+                - 출처 URL이나 문서명에서 추가 힌트 찾기
+                - 추론된 품목/상품: [예: 계란, 배추, 쌀 등]
 
-        **STEP 2: JSON 차트 생성**
-        
+            (2) 섹션 목적: [이 섹션이 보여주려는 핵심 내용, **섹션 목표**를 기반으로 작성]
+
+            (3) 추출 가능한 수치 데이터:
+                - 항목A: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 X)
+                - 항목B: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 Y)
+                - 항목C: [정확한 수치] + [추론된 의미] (출처: 데이터 인덱스 Z)
+
+            (4) 추출된 라벨/카테고리: [실제 연도, 월, 지역명 등]
+
+            (5) 최적 차트 타입: [시계열이면 line, 비교면 bar, 구성비면 pie]
+
+            (6) 차트 구성:
+                - X축: [추론된 품목명의 시간/지역/카테고리]
+                - Y축: [추론된 품목명의 가격/수량 + 단위]
+                - 데이터셋: [의미있는 라벨들과 해당 수치들]
+        2. 주제 일관성 검증 (STEP 2):
+            - 답변: [Yes 또는 No]
+            - 근거: [예: '미생물 발효 R&D'와 '호주 기업 설립 연도'는 전혀 다른 주제이므로 No. 섹션 목표는 R&D 동향 분석인데, 기업 설립 연도는 관련성이 낮음.]
+
+
+        **2. JSON (JSON Block):**
+        - 위 '분석' 블록 바로 다음에, STEP 3의 규칙에 따라 아래 두 JSON 중 하나를 출력합니다.
+
+        **[PLACEHOLDER_JSON]**
+        ```json
+        {{
+            "type": "placeholder",
+            "labels": ["'{section_title}' 관련 데이터 부족"],
+            "datasets": [{{ "label": "데이터 분석 불가", "data": [0], "backgroundColor": ["#FFB1C1"] }}],
+            "title": "관련 데이터 부족",
+            "palette": "modern",
+            "options": {{ "responsive": true, "plugins": {{ "title": {{ "display": true, "text": "현재 섹션 주제와 일치하는 데이터가 부족하여 차트를 생성할 수 없습니다." }} }} }}
+        }}
+
+
+        **[실제 차트 JSON 생성 가이드]**
         **중요 제약사항**:
         1. **절대 할루시네이션 금지** - STEP 1에서 추출한 실제 수치만 사용
         2. **정확한 출처 기반** - 각 수치는 원본 데이터에서 추출된 것만
@@ -1958,26 +2275,19 @@ class ProcessorAgent:
         2. **지역명이 있으면 지역별 분포** - 여러 지역이 언급되면 지역별 차트 생성
         3. **품목명이 있으면 품목별 분석** - 구체적 수치가 없어도 "언급 빈도" 등으로 차트 생성
         4. **시계열 정보가 있으면 추세 분석** - 날짜나 기간 정보가 있으면 timeline 차트
-        
+
         **placeholder 차트는 오직 다음 경우에만**:
         - 정말로 아무런 분석 가능한 정보가 없을 때
         - 모든 데이터가 null이거나 빈 값일 때
-        
+
         **데이터 부족 시에도 만들 수 있는 차트 예시**:
         - 노드/항목 개수 → bar 차트 (예: "농산물 카테고리: 15개, 축산물 카테고리: 8개")
         - 지역 분포 → pie 차트 (예: "언급된 지역 분포")
         - 키워드 빈도 → bar 차트 (예: "핵심 키워드 언급 횟수")
-        
+
         **⚠️ 중요**: 96개 항목이나 여러 지역이 언급되면 **반드시 의미있는 차트 생성**하세요. placeholder는 최후의 수단입니다.
 
-        **충분한 데이터시 출력 형식**:
-        
-        먼저 STEP 1 분석을 보여주고, 이어서 JSON을 출력하세요:
-
-        분석:
-        [여기에 데이터 분석 내용]
-
-        JSON:
+        JSON 형식 예시:
         {{
             "type": "STEP1분석_기반_차트타입",
             "data": {{
@@ -1985,13 +2295,11 @@ class ProcessorAgent:
                 "datasets": [{{
                     "label": "STEP1정의_데이터셋명",
                     "data": [STEP1추출_실제수치1, 실제수치2, 실제수치3],
-                    "backgroundColor": ["#4F46E5", "#7C3AED", "#EC4899"],
-                    "borderColor": "#4F46E5",
-                    "borderWidth": 2
+                    "backgroundColor": ["#4F46E5", "#7C3AED", "#EC4899", "#EF4444", "#F59E0B"],
+                    "borderColor": ["#4F46E5", "#7C3AED", "#EC4899", "#EF4444", "#F59E0B"],
+                    "borderWidth": 1
                 }}]
             }},
-            "title": "{section_title}",
-            "palette": "modern",
             "options": {{
                 "responsive": true,
                 "plugins": {{
@@ -2000,9 +2308,16 @@ class ProcessorAgent:
                         "text": "{section_title}"
                     }}
                 }},
+                        "text": "{section_title}"
+                    }}
+                }},
                 "scales": {{
                     "y": {{
-                        "beginAtZero": true
+                        "beginAtZero": true,
+                        "title": {{
+                            "display": true,
+                            "text": "값"
+                        }}
                     }}
                 }}
             }}
@@ -2020,7 +2335,7 @@ class ProcessorAgent:
                 def clean_js_functions(json_str):
                     """JSON에서 JavaScript 함수 코드를 더 견고하게 제거"""
                     import re
-                    
+
                     # 1. 가장 안전한 방법: callbacks 객체 전체를 빈 객체로 교체
                     # 중첩된 중괄호까지 모두 포함하여 제거
                     def find_and_replace_callbacks(text):
@@ -2029,65 +2344,65 @@ class ProcessorAgent:
                         match = re.search(pattern, text)
                         if not match:
                             return text
-                            
+
                         start_pos = match.start()
                         brace_pos = text.find('{', match.end() - 1)
-                        
+
                         if brace_pos == -1:
                             return text
-                            
+
                         # 중괄호 균형 맞추기
                         brace_count = 1
                         i = brace_pos + 1
-                        
+
                         while i < len(text) and brace_count > 0:
                             if text[i] == '{':
                                 brace_count += 1
                             elif text[i] == '}':
                                 brace_count -= 1
                             i += 1
-                            
+
                         if brace_count == 0:
                             # callbacks 객체 전체를 빈 객체로 교체
                             before = text[:start_pos]
                             after = text[i:]
                             return before + '"callbacks": {}' + after
-                        
+
                         return text
-                    
+
                     # 2. callbacks 객체 교체
                     json_str = find_and_replace_callbacks(json_str)
-                    
+
                     # 3. 남은 function 패턴들 제거
                     # function(...) { ... } 패턴을 null로 교체
                     json_str = re.sub(r'function\s*\([^)]*\)\s*\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', 'null', json_str, flags=re.DOTALL)
-                    
+
                     # 4. 키-값에서 function으로 시작하는 값들 제거
                     json_str = re.sub(r':\s*function\s*\([^)]*\)\s*\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', ': null', json_str, flags=re.DOTALL)
-                    
+
                     # 5. 잘못된 JSON 구조 정리
                     # null 뒤에 오는 잘못된 코드 패턴 제거
                     json_str = re.sub(r'null\s+[^,}\]]*(?:if|let|var|return|context)[^,}\]]*', 'null', json_str, flags=re.DOTALL)
-                    
+
                     # 6. 여러 줄에 걸친 함수 본문 정리
                     json_str = re.sub(r'null\s*\n\s*if\s*\([^)]*\)\s*\{[^}]*\}\s*return[^;}]*;?\s*\}?', 'null', json_str, flags=re.DOTALL)
-                    
+
                     # 7. 남은 JavaScript 코드 조각들 제거
                     json_str = re.sub(r'if\s*\([^)]*\)\s*\{[^}]*\}', '', json_str, flags=re.DOTALL)
                     json_str = re.sub(r'return\s+[^;}]*;?', '', json_str, flags=re.DOTALL)
                     json_str = re.sub(r'let\s+\w+\s*=\s*[^;]*;', '', json_str, flags=re.DOTALL)
                     json_str = re.sub(r'var\s+\w+\s*=\s*[^;]*;', '', json_str, flags=re.DOTALL)
-                    
+
                     # 8. 빈 문자열이나 null 값들 정리
                     json_str = re.sub(r',\s*null\s*,', ',', json_str)
                     json_str = re.sub(r',\s*null\s*}', '}', json_str)
                     json_str = re.sub(r'{\s*null\s*,', '{', json_str)
-                    
+
                     # 9. 불완전한 구조 정리
                     json_str = re.sub(r'\s*\n\s*\n\s*', '\n', json_str)  # 빈 줄 정리
                     json_str = re.sub(r',\s*}', '}', json_str)  # trailing comma 제거
                     json_str = re.sub(r',\s*]', ']', json_str)  # trailing comma 제거
-                    
+
                     return json_str
 
                 # 간단하고 정확한 JSON 추출 함수
@@ -2099,7 +2414,7 @@ class ProcessorAgent:
                         end = text.find("```", start)
                         if end != -1:
                             return text[start:end].strip()
-                    
+
                     # 2. JSON: 다음에서 추출
                     if "JSON:" in text:
                         start = text.find("JSON:") + 5
@@ -2107,7 +2422,7 @@ class ProcessorAgent:
                         json_start = text.find("{", start)
                         if json_start == -1:
                             return None
-                            
+
                         # 균형잡힌 } 찾기
                         brace_count = 0
                         for i in range(json_start, len(text)):
@@ -2117,12 +2432,12 @@ class ProcessorAgent:
                                 brace_count -= 1
                                 if brace_count == 0:
                                     return text[json_start:i+1]
-                    
+
                     # 3. 첫 번째 { }블록 추출
                     json_start = text.find("{")
                     if json_start == -1:
                         return None
-                        
+
                     brace_count = 0
                     for i in range(json_start, len(text)):
                         if text[i] == '{':
@@ -2131,22 +2446,22 @@ class ProcessorAgent:
                             brace_count -= 1
                             if brace_count == 0:
                                 return text[json_start:i+1]
-                    
+
                     return None
 
-                # COT 응답에서 JSON 추출 
+                # COT 응답에서 JSON 추출
                 try:
                     print(f"  - 원본 LLM 응답 (처음 500자): {response_text[:500]}...")
                     print(f"  - 원본 응답 길이: {len(response_text)}자")
-                    
+
                     # 간단한 JSON 추출 적용
                     json_part = extract_json_simple(response_text)
                     if not json_part:
                         print(f"  - JSON 추출 실패: JSON 블록을 찾을 수 없음")
                         raise ValueError("JSON 블록을 찾을 수 없음")
-                    
+
                     print(f"  - JSON 추출 성공: {len(json_part)}자")
-                    
+
                     print(f"  - 추출된 JSON 파트: {json_part[:300]}...")
 
                     # JavaScript 함수 제거 (JSON 파싱 전에 실행)
@@ -2155,7 +2470,7 @@ class ProcessorAgent:
 
                     # JSON 파싱
                     chart_response = json.loads(cleaned_json)
-                    
+
                     # 리스트 형태의 JSON 응답 처리
                     if isinstance(chart_response, list) and len(chart_response) > 0:
                         print(f"  - JSON 파싱 성공: 리스트 형태 ({len(chart_response)}개 항목), 첫 번째 항목 사용")
@@ -2164,10 +2479,10 @@ class ProcessorAgent:
                         print(f"  - JSON 파싱 성공: 딕셔너리 형태")
                     else:
                         raise ValueError(f"올바르지 않은 JSON 형식: {type(chart_response)}")
-                    
+
                     print(f"  - 차트 타입: {chart_response.get('type', 'unknown')}")
                     print(f"  - insufficient_data 여부: {chart_response.get('insufficient_data', False)}")
-                    
+
                     if chart_response.get('insufficient_data', False):
                         print(f"  - 부족한 데이터 정보: {chart_response.get('missing_info', 'N/A')}")
                         print(f"  - 제안된 검색어: {chart_response.get('suggested_search_query', 'N/A')}")
@@ -2215,7 +2530,7 @@ class ProcessorAgent:
                     print(f"  - 추출된 JSON 길이: {len(json_part)}자")
                     print(f"  - JSON 시작: {json_part[:200]}...")
                     print(f"  - JSON 끝: ...{json_part[-200:]}")
-                    
+
                     # 간단한 재시도: 전체 응답에서 다시 JSON 추출 시도
                     retry_success = False
                     try:
@@ -2233,28 +2548,28 @@ class ProcessorAgent:
                                         retry_json = response_text[json_start:i+1]
                                         cleaned_retry = clean_js_functions(retry_json)
                                         chart_response = json.loads(cleaned_retry)
-                                        
+
                                         # 리스트 형태의 JSON 응답 처리
                                         if isinstance(chart_response, list) and len(chart_response) > 0:
                                             print(f"  - 재시도: 리스트 형태 ({len(chart_response)}개 항목), 첫 번째 항목 사용")
                                             chart_response = chart_response[0]
-                                        
+
                                         print(f"  - 재시도 JSON 파싱 성공! ({len(retry_json)}자)")
                                         retry_success = True
                                         break
                     except Exception as retry_e:
                         print(f"  - JSON 파싱 재시도도 실패: {retry_e}")
-                    
+
                     # 재시도 성공한 경우 처리
                     if retry_success:
                         print(f"  - JSON 파싱 재시도 성공! 차트 생성 진행")
-                        
+
                         # insufficient_data 체크
                         if chart_response.get('insufficient_data', False):
                             print(f"  - 부족한 데이터 정보: {chart_response.get('missing_info', 'N/A')}")
                             print(f"  - 제안된 검색어: {chart_response.get('suggested_search_query', 'N/A')}")
                             # 이제 추가 검색은 보고서 구조 단계에서 처리됨
-                        
+
                         # 정상적인 차트 데이터인 경우
                         elif "type" in chart_response and "data" in chart_response:
                             # 필수 필드 검증
@@ -2290,7 +2605,7 @@ class ProcessorAgent:
                             return
                         else:
                             print(f"  - 재시도 성공했지만 올바르지 않은 JSON 형식")
-                    
+
                     print(f"  - JSON 파싱 재시도도 실패, fallback 차트로 진행")
 
                     # 최종 fallback 차트

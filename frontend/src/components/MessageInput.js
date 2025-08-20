@@ -25,8 +25,7 @@ const MessageInput = ({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={onKeyPress}
-            placeholder="메시지 보내기..."
-            disabled={isStreaming}
+            placeholder={isStreaming ? "답변 생성 중... (미리 다음 질문을 입력해보세요)" : "메시지 보내기..."}
             className="message-input"
             rows={1}
           />

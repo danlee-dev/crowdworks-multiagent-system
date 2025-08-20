@@ -12,7 +12,7 @@ def check_api_keys():
     print("=" * 50)
     load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', '.env'))
 
-    required_keys = ["OPENAI_API_KEY", "SERPER_API_KEY", "LANGSMITH_API_KEY", "GOOGLE_API_KEY", "COHERE_API_KEY"]
+    required_keys = ["OPENAI_API_KEY", "SERPER_API_KEY", "LANGSMITH_API_KEY", "GOOGLE_API_KEY", "COHERE_API_KEY", "PUBMED_API_KEY"]
 
     missing_keys = []
 

@@ -21,7 +21,7 @@ DEFAULT_NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
 DEFAULT_NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "")
 
 # 단일 풀텍스트 인덱스 이름
-FULLTEXT_UNIFIED_INDEX = "product_idx"  # 품목/국가/지역/영양소/기업/문서 등 통합 검색
+FULLTEXT_UNIFIED_INDEX = "search_idx"  # 품목/국가/지역/영양소/기업/문서 등 통합 검색
 
 
 # =========================
@@ -111,7 +111,7 @@ class GraphDBSearchService:
     """
     - 키워드 추출(LLM + 폴백) : 구분 없이 단일 리스트
     - DB 호출은 단 하나의 쿼리 형태만 사용:
-        CALL db.index.fulltext.queryNodes('product_idx', $kw)
+        CALL db.index.fulltext.queryNodes('search_idx', $kw)
         YIELD node AS n, score
         MATCH (n)-[r0]-(m)
         RETURN n, r, m, score

@@ -17,7 +17,7 @@ import {
   BubbleController,
   PolarAreaController,
   registerables,
-} from "chart.js";
+} from "chart.js"
 
 import {
   Line,
@@ -411,6 +411,7 @@ const chartComponents = {
   heatmap: Bar, // 히트맵 (바 차트로 구현)
   treemap: Bar, // 트리맵 (바 차트로 구현)
   sankey: Bar, // 산키 다이어그램 (바 차트로 근사)
+  placeholder: null, // placeholder 타입 처리
   candlestick: Line, // 캔들스틱 (라인 차트로 근사)
   violin: Bar, // 바이올린 플롯 (바 차트로 근사)
   boxplot: Bar, // 박스 플롯 (바 차트로 근사)
@@ -870,7 +871,7 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
           onImageReady(imageData);
         }
       }, 500); // 차트 렌더링 완료를 위한 지연
-      
+
       return () => clearTimeout(timer);
     }
   }, [chartConfig, onImageReady, getChartImage]);
@@ -924,8 +925,11 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
   }
 
   // 데이터 검증 강화 - 백엔드 데이터 형태도 허용
-  if (!chartConfig.data) {
-    console.error("chartConfig.data가 없습니다");
+  // 백엔드에서 중첩된 data 구조로 올 수 있음: { data: { data: { labels, datasets } } }
+  const actualData = chartConfig.data?.data || chartConfig.data || chartConfig;
+  
+  if (!actualData) {
+    console.error("차트 데이터가 없습니다:", chartConfig);
     return (
       <div
         className="chart-error"
@@ -949,19 +953,20 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
   // 백엔드 데이터 변환 시도
   const hasValidData =
     // Chart.js 표준 형태
-    (chartConfig.data.datasets && Array.isArray(chartConfig.data.datasets)) ||
-    // 백엔드 이벤트 데이터 형태
-    (chartConfig.data.events && Array.isArray(chartConfig.data.events)) ||
+    (actualData.datasets && Array.isArray(actualData.datasets)) ||
+    // 백엔드 이벤트 데이터 형태  
+    (actualData.events && Array.isArray(actualData.events)) ||
     // 기타 백엔드 데이터 형태들
-    Object.keys(chartConfig.data).length > 0;
+    Object.keys(actualData).length > 0;
 
   if (!hasValidData) {
     console.error("데이터 구조 오류:", {
-      hasData: !!chartConfig.data,
-      hasDatasets: !!chartConfig.data?.datasets,
-      datasetsType: typeof chartConfig.data?.datasets,
-      isArray: Array.isArray(chartConfig.data?.datasets),
-      actualData: chartConfig.data,
+      hasData: !!actualData,
+      hasDatasets: !!actualData?.datasets,
+      datasetsType: typeof actualData?.datasets,
+      isArray: Array.isArray(actualData?.datasets),
+      actualData: actualData,
+      originalConfig: chartConfig,
     });
 
     return (
@@ -990,7 +995,7 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
           <pre
             style={{ textAlign: "left", overflow: "auto", maxHeight: "200px" }}
           >
-            {JSON.stringify(chartConfig.data, null, 2)}
+            {JSON.stringify(actualData, null, 2)}
           </pre>
         </details>
       </div>
@@ -999,6 +1004,33 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
 
   const chartType = chartConfig.type.toLowerCase();
   const ChartTypeComponent = chartComponents[chartType];
+
+  // placeholder 타입 처리
+  if (chartType === 'placeholder') {
+    return (
+      <div
+        className="chart-placeholder"
+        style={{
+          padding: "32px",
+          textAlign: "center",
+          color: "#6B7280",
+          border: "2px dashed #D1D5DB",
+          borderRadius: "12px",
+          backgroundColor: "#F9FAFB",
+          fontFamily: "'Inter', sans-serif",
+          fontSize: "14px",
+          fontWeight: "500",
+        }}
+      >
+        <div style={{ fontSize: "16px", marginBottom: "8px" }}>
+          데이터 부족으로 차트를 생성할 수 없습니다
+        </div>
+        <small style={{ color: "#9CA3AF", fontSize: "12px" }}>
+          추가 데이터가 필요합니다
+        </small>
+      </div>
+    );
+  }
 
   if (!ChartTypeComponent) {
     return (
@@ -1032,7 +1064,7 @@ export const ChartComponent = React.forwardRef(({ chartConfig, onImageReady }, r
   // 데이터 전처리
   const processedData = preprocessAdvancedChartData(
     chartType,
-    chartConfig.data,
+    actualData,
     chartConfig
   );
 

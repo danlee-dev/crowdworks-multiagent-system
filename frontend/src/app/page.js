@@ -557,10 +557,24 @@ export default function Home() {
     try {
       const loadedProjects = await projectAPI.getAll();
       console.log('📦 로드된 프로젝트:', loadedProjects);
-      setProjects(loadedProjects);
-      console.log('✅ 프로젝트 state 업데이트 완료');
+      
+      if (loadedProjects && Array.isArray(loadedProjects)) {
+        setProjects(loadedProjects);
+        console.log('✅ 프로젝트 state 업데이트 완료');
+      } else {
+        console.warn('⚠️ 프로젝트 데이터가 배열이 아님:', loadedProjects);
+        setProjects([]); // 빈 배열로 초기화
+      }
     } catch (error) {
       console.error('❌ 프로젝트 로드 실패:', error);
+      // 실패해도 빈 배열로 초기화해서 UI가 깨지지 않도록
+      setProjects([]);
+      
+      // 잠시 후 재시도
+      setTimeout(() => {
+        console.log('🔄 프로젝트 로드 재시도...');
+        loadProjects();
+      }, 2000);
     }
   }, []);
 
@@ -904,6 +918,27 @@ export default function Home() {
       const controller = new AbortController();
       setAbortController(controller);
 
+      // 메모리 기능: 현재 채팅방의 최근 대화 히스토리 준비
+      const currentChatMessages = currentConversation.filter(msg => 
+        // 현재 메시지 제외 (아직 추가되지 않은 새 사용자 메시지와 어시스턴트 메시지)
+        msg.id !== userMessage.id && msg.id !== assistantMessage.id
+      );
+      
+      const recentMessages = currentChatMessages
+        .slice(-6)  // 최근 6개 메시지 (현재 채팅방에서만)
+        .map(msg => ({
+          type: msg.type,
+          content: msg.content ? msg.content.substring(0, 500) : '', // 길이 제한
+          timestamp: msg.timestamp
+        }));
+
+      console.log("🧠 채팅방별 메모리 컨텍스트 준비:", {
+        conversationId: currentConversationId,
+        totalMessagesInChat: currentChatMessages.length,
+        recentMessagesCount: recentMessages.length,
+        memoryEnabled: recentMessages.length > 0
+      });
+
       // AI 자동 선택이 활성화된 경우 적절한 팀 추천받기
       let finalTeamId = null;
 
@@ -958,6 +993,8 @@ export default function Home() {
         session_id: currentConversationId,
         message_id: assistantMessage.id,
         team_id: finalTeamId,
+        conversation_history: recentMessages,
+        memoryEnabled: recentMessages.length > 0
       });
 
       console.log("fetch 요청 시작!");
@@ -975,6 +1012,7 @@ export default function Home() {
           session_id: currentConversationId,
           message_id: String(assistantMessage.id),
           team_id: finalTeamId, // AI 자동 선택 고려한 최종 팀 ID
+          conversation_history: recentMessages, // 메모리 히스토리 추가
         }),
       }).catch(error => {
         console.error("fetch 요청 자체가 실패:", error);

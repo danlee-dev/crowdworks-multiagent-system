@@ -13,6 +13,7 @@ from ..models.models import StreamingAgentState, SearchResult
 from .worker_agents import DataGathererAgent, ProcessorAgent
 from sentence_transformers import SentenceTransformer
 from ...utils.session_logger import get_session_logger
+from ...services.utils.deduplication import GlobalDeduplicator
 
 # --- 페르소나 프롬프트 로드 ---
 PERSONA_PROMPTS = {}
@@ -110,13 +111,186 @@ JSON으로 응답:
 class OrchestratorAgent:
     """고성능 비동기 스케줄러 및 지능형 계획 수립 Agent"""
 
-    def __init__(self, model: str = "gemini-2.5-flash-lite", temperature: float = 0.2):
+    def __init__(self, model: str = "gemini-2.5-pro", temperature: float = 0.2):
         self.llm = ChatGoogleGenerativeAI(model=model, temperature=temperature)
-        self.llm_openai_mini = ChatOpenAI(model="gpt-4o-mini", temperature=temperature)
+        self.llm_openai_mini = ChatOpenAI(model="gpt-4o", temperature=temperature)
         self.data_gatherer = DataGathererAgent()
         self.processor = ProcessorAgent()
         self.personas = PERSONA_PROMPTS
 
+    def _build_memory_context(self, conversation_history: List[dict]) -> str:
+        """현재 채팅방의 대화 히스토리를 메모리 컨텍스트로 변환 (OrchestratorAgent용)"""
+        if not conversation_history:
+            return ""
+
+        memory_parts = []
+
+        for msg in conversation_history:
+            msg_type = msg.get("type", "")
+            content = msg.get("content", "")
+
+            if not content.strip():
+                continue
+
+            # 사용자 메시지
+            if msg_type == "user":
+                memory_parts.append(f"**사용자**: {content}")
+            # 어시스턴트 메시지 (요약)
+            elif msg_type == "assistant":
+                # 긴 답변은 요약 (보고서는 더 짧게)
+                if len(content) > 150:
+                    summary = content[:150] + "..."
+                    memory_parts.append(f"**AI**: {summary}")
+                else:
+                    memory_parts.append(f"**AI**: {content}")
+
+        if memory_parts:
+            context = "### 이 채팅방의 이전 대화 내용\n" + "\n\n".join(memory_parts[-3:]) + "\n"  # 보고서용은 3개만
+            print(f"🧠 OrchestratorAgent 메모리 컨텍스트 생성: {len(memory_parts)}개 메시지 → {len(context)}자")
+            return context
+
+        return ""
+
+    def _extract_key_data_from_content(self, content: str) -> dict:
+        """AI 답변에서 핵심 데이터를 추출"""
+        import re
+
+        extracted = {
+            "regions": [],
+            "food_items": [],
+            "numbers": [],
+            "dates": [],
+            "key_facts": []
+        }
+
+        # 지역명 추출 (예: 경기 가평, 충남 서산, 경남 산청 등)
+        region_patterns = [
+            r'(경기|충남|충북|전남|전북|경남|경북|강원|제주)\s*([가-힣]+[시군구]?)',
+            r'([가-힣]+[시군구])',
+            r'([가-힣]+군|[가-힣]+시)'
+        ]
+        for pattern in region_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if isinstance(match, tuple):
+                    region = ' '.join(match).strip()
+                else:
+                    region = match.strip()
+                if region and len(region) > 1 and region not in extracted["regions"]:
+                    extracted["regions"].append(region)
+
+        # 식재료/농산물 추출
+        food_keywords = ["포도", "배", "사과", "쌀", "채소", "과일", "농산물", "축산물", "수산물", "곡물", "닭고기", "돼지고기", "소고기"]
+        for keyword in food_keywords:
+            if keyword in content and keyword not in extracted["food_items"]:
+                extracted["food_items"].append(keyword)
+
+        # 수치 정보 추출 (퍼센트, 억원, 톤 등)
+        number_patterns = [
+            r'(\d+(?:\.\d+)?)\s*%',
+            r'(\d+(?:,\d+)*)\s*억',
+            r'(\d+(?:,\d+)*)\s*만',
+            r'(\d+(?:\.\d+)?)\s*톤',
+            r'(\d+(?:,\d+)*)\s*원'
+        ]
+        for pattern in number_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["numbers"]:
+                    extracted["numbers"].append(match)
+
+        # 날짜/기간 추출
+        date_patterns = [
+            r'20\d{2}년\s*\d+월',
+            r'\d+월\s*\d+일',
+            r'20\d{2}년'
+        ]
+        for pattern in date_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["dates"]:
+                    extracted["dates"].append(match)
+
+        # 특별재난지역, 피해지역 등 핵심 키워드 추출
+        key_fact_patterns = [
+            r'(특별재난지역)',
+            r'(집중호우\s*피해)',
+            r'(생산량\s*[증가감소])',
+            r'(가격\s*[상승하락])'
+        ]
+        for pattern in key_fact_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["key_facts"]:
+                    extracted["key_facts"].append(match)
+
+        return extracted
+
+    def _generate_memory_summary_for_report(self, conversation_history: List[dict], current_query: str) -> str:
+        """보고서 생성용 메모리 요약 생성"""
+        if not conversation_history:
+            return ""
+
+        # 연속성 키워드 확인
+        continuation_keywords = [
+            "그", "그것", "그거", "위", "앞서", "이전", "방금", "아까", "저기", "거기",
+            "그 중", "그중", "그런데", "그럼", "그래서", "따라서", "이어서", "계속해서",
+            "추가로", "더", "또한", "그리고", "또", "한편", "반면", "대신"
+        ]
+
+        has_continuation = any(keyword in current_query for keyword in continuation_keywords)
+
+        if has_continuation and len(conversation_history) >= 2:
+            # 최근 사용자 질문과 AI 답변 추출
+            recent_user = None
+            recent_ai = None
+
+            # 이전 대화에서 핵심 데이터 추출
+            extracted_data = {
+                "regions": set(),
+                "food_items": set(),
+                "key_facts": set()
+            }
+
+            for msg in reversed(conversation_history):
+                if msg.get("type") == "user" and not recent_user:
+                    recent_user = msg.get("content", "")
+                elif msg.get("type") == "assistant" and not recent_ai and recent_user:
+                    recent_ai = msg.get("content", "")
+                    # 핵심 데이터 추출
+                    key_data = self._extract_key_data_from_content(recent_ai)
+                    extracted_data["regions"].update(key_data["regions"])
+                    extracted_data["food_items"].update(key_data["food_items"])
+                    extracted_data["key_facts"].update(key_data["key_facts"])
+                    break
+
+            if recent_user and recent_ai:
+                ai_summary = recent_ai[:80] + "..." if len(recent_ai) > 80 else recent_ai
+
+                # 핵심 데이터를 포함한 요약 생성
+                context_parts = []
+                if extracted_data["regions"]:
+                    context_parts.append(f"**관련 지역**: {', '.join(list(extracted_data['regions'])[:5])}")
+                if extracted_data["food_items"]:
+                    context_parts.append(f"**언급된 식재료**: {', '.join(list(extracted_data['food_items'])[:5])}")
+                if extracted_data["key_facts"]:
+                    context_parts.append(f"**핵심 사실**: {', '.join(list(extracted_data['key_facts'])[:3])}")
+
+                context_info = "\n".join(context_parts) if context_parts else ""
+
+                summary = f"""
+## 이전 대화 요약
+
+이전에 문의하신 **'{recent_user[:40]}{'...' if len(recent_user) > 40 else ''}'**에 대해 {ai_summary}라고 답변드렸으며, 이를 바탕으로 추가 분석을 진행하겠습니다.
+
+{context_info}
+
+---
+"""
+                print(f"🧠 보고서용 메모리 요약 생성: 지역 {len(extracted_data['regions'])}개, 식재료 {len(extracted_data['food_items'])}개")
+                return summary
+
+        return ""
 
     def get_available_personas(self) -> List[str]:
         """
@@ -259,11 +433,13 @@ class OrchestratorAgent:
 
         planning_prompt = f"""
 당신은 **'{persona_name}'의 유능한 AI 수석 보좌관**이자 **실행 계획 설계 전문가**입니다.
-당신의 임무는 **'{persona_name}'의 관점에서 가장 중요한 정보를 찾아내기 위한, 논리적이고 효율적인 실행 계획**을 수립하는 것입니다.
+당신의 임무는 사용자의 요청을 **있는 그대로** 분석하고, **'{persona_name}'의 전문성을 활용하여 가장 효율적인 데이터 수집 계획**을 수립하는 것입니다.
 
-**핵심 임무 (반드시 준수할 것)**:
-1.  **페르소나 관점 반영 (What to ask)**: 생성하는 모든 하위 질문은 철저히 '{persona_name}'의 관심사에 부합해야 합니다. 이들의 핵심 니즈(예: 구매-원가/시세, 마케팅-트렌드/소비자, R&D-신원료/성분)를 만족시키는 데 집중하세요.
-2.  **논리적 계획 수립 (How to ask)**: 페르소나의 관점에서 도출된 질문들의 선후 관계를 분석하여, 의존성이 있는 작업은 순차적으로, 없는 작업은 병렬로 처리하는 최적의 실행 단계를 설계하세요.
+**### Strict Adherence Mandate (엄격한 준수 명령) ###**
+**1. 절대 사용자 요청을 확장하거나 추측하지 마세요.** 사용자가 "A와 B를 알려줘"라고 했다면, 오직 A와 B에 대한 정보만 수집해야 합니다. 관련될 수 있는 C(예: 시장 규모, 소비자 선호도)를 묻지 않았다면 절대 계획에 포함하지 마세요.
+**2. 페르소나는 '어떻게(How)' 데이터를 수집하고 분석할지에 대한 관점이지, '무엇을(What)' 수집할지를 결정하는 역할이 아닙니다.** 페르소나의 관심사를 이유로 사용자가 묻지 않은 새로운 주제를 추가해서는 안 됩니다.
+**3. 최종 목표는 사용자의 질문에 대한 '직접적인 답변'을 찾는 것입니다.** 광범위한 배경 조사를 하는 것이 아닙니다.
+**4. 논리적 계획 수립 (How to ask): 하위 질문들의 선후 관계를 분석하여, 의존성이 있는 작업은 순차적으로, 없는 작업은 병렬로 처리하는 최적의 실행 단계를 설계하세요.
 
 **사용자 원본 요청**: "{query}"
 **현재 날짜**: {current_date_str}
@@ -279,7 +455,7 @@ class OrchestratorAgent:
 
 **2. vector_db_search (Elasticsearch) - 1순위 활용**
    - **데이터 종류**: 비정형 데이터 (뉴스기사, 논문, 보고서 전문).
-   - **사용 시점**: 시장분석, 정책문서, 트렌드분석, 배경정보, 실무가이드 등 서술형 정보나 분석이 필요할 때.
+   - **사용 시점**: 정책문서, 배경정보, 실무가이드 등 서술형 정보나 분석이 필요할 때.
    - **특징**: 의미기반 검색으로 질문의 맥락과 가장 관련성 높은 문서를 찾아줌.
 
 **3. graph_db_search (Neo4j) - 1순위 활용**
@@ -289,15 +465,15 @@ class OrchestratorAgent:
    - **특징**: 지식그래프 경로 탐색에 최적화. 키워드는 **품목명/지역명/영양소/수산물 상태(fishState)**로 간결히 표현하고, 질문은 **"A의 원산지", "A의 영양소", "지역 B의 특산품/원산지", "활어 A의 원산지"**처럼 **관계를 명시**할수록 정확도 상승.
    - **예시 질의 의도**: "사과의 원산지", "오렌지의 영양소", "제주도의 감귤 원산지", "활어 문어 원산지", "경상북도 사과 산지 연결"
 
-**4. arxiv_search - 1순위 활용 (학술 연구 필요시)**
-   - **데이터 종류**: 최신 학술 논문 (arXiv 프리프린트 논문).
-   - **사용 시점**: 신제품 개발, 과학적 근거, 최신 연구 동향, AI/ML 기술, 대체식품 연구, 지속가능성 연구가 필요할 때.
-   - **특징**: 영문 검색 필수. 식품과학(food science), 생명공학(biotechnology), AI/ML, 대체단백질(alternative protein) 등 학술 용어로 검색.
-   - **예시 질의 의도**: "대체육 개발 연구", "발효 기술 논문", "AI 기반 품질 예측", "지속가능한 포장재 연구"
+**4. pubmed_search - 1순위 활용 (학술 연구 필요시)**
+   - **데이터 종류**: 최신 학술 논문 (pubmed 프리프린트 논문).
+   - **사용 시점**: 신제품 개발, 과학적 근거, 최신 연구 동향, 대체식품 연구, 지속가능성 연구가 필요할 때.
+   - **특징**: **반드시 쿼리를 영어로 번역 후 검색 필수.** food science, biotechnology, alternative protein 등 영문 학술 용어로 검색. 예시: plant-based meat alternatives, alternative protein, functional food, sustainable food 등
+   - **예시 질의 의도**: "Plant-based alternative meat development papers", "Latest research on fermentation technology", "Bioplastic packaging materials"
 
 **5. web_search - 최신 정보 필수 시 우선 사용**
    - **데이터 종류**: 실시간 최신 정보, 시사 정보, 재해/재난 정보, 최근 뉴스.
-   - **사용 조건**: 
+   - **사용 조건**:
      * **필수 사용**: 2025년 특정 월/일, 최근, 현재, 기상이변, 집중폭우, 재해, 재난 등이 포함된 질문
      * **우선 사용**: 내부 DB에 없을 가능성이 높은 최신 사건/상황 정보
      * **보조 사용**: 내부 DB로 해결되지 않는 일반 지식
@@ -308,25 +484,31 @@ class OrchestratorAgent:
 2. **수치/통계 데이터 (식자재 영양성분, 농축수산물 시세)** → `rdb_search`
 3. **관계/분류 정보 (품목-원산지, 품목-영양소, 지역-특산품, 수산물 상태별 원산지)** → `graph_db_search`
 4. **분석/연구 문서 (시장분석, 소비자 조사)** → `vector_db_search`
-5. **학술 논문/연구 (신제품 개발, 과학적 근거, AI/ML 응용)** → `arxiv_search`
+5. **학술 논문/연구 (신제품 개발, 과학적 근거)** → `pubmed_search`
 
 **각 도구별 적용 예시:**
 - `rdb_search`: "식자재 영양성분", "농축수산물 시세", "가격 추이/비교", "영양성분 상위 TOP"
 - `graph_db_search`: "사과의 원산지", "오렌지의 영양소", "제주-감귤 관계", "활어 문어 원산지", "지역별 특산품 연결"
 - `vector_db_search`: "시장 분석 보고서", "소비자 행동 연구", "정책 문서"
-- `arxiv_search`: "식물성 대체육 개발 논문", "발효 기술 최신 연구", "AI 품질 예측 모델", "바이오플라스틱 포장재"
+- `pubmed_search`: "Plant-based alternative meat development papers", "Latest research on fermentation technology", "Bioplastic packaging materials"
 - `web_search`: "2025년 최신 트렌드", "실시간 업계 동향", "2025년 7월 집중폭우 피해지역", "기상이변 농업 피해", "최근 재해 발생 지역", "현재 농산물 공급 상황"
 
 ---
 **## 계획 수립을 위한 단계별 사고 프로세스 (반드시 준수할 것)**
 
-**1단계: 목표 재해석**
-- 사용자의 원본 요청을 분석하여, 최종 목표가 무엇인지 **'{persona_name}'의 입장에서** 명확하게 재정의합니다.
-- (예: 원본 요청이 "만두 시장 조사"일 때, 페르소나가 '마케팅 담당자'라면 최종 목표는 '신제품 만두의 성공적인 시장 진입을 위한 마케팅 전략 보고서'로 구체화합니다.)
+**1단계: 사용자 요청 분해 (Decomposition)**
+- 사용자의 원본 요청을 의미적, 논리적 단위로 나눕니다. 각 단위는 사용자가 명시적으로 요구한 하나의 정보 조각이어야 합니다.
+- 예: "대체식품의 유형을 원료에 따라 구분하고, 미생물 발효 식품의 연구개발 현황을 분석해줘."
+  - 단위 1: "대체식품의 유형을 원료에 따라 구분하여 정리"
+  - 단위 2: "미생물 발효 식품의 연구개발 현황 분석 및 정리"
 
-**2단계: 페르소나 기반 정보 식별 및 질문 구체화**
-- 1단계에서 재정의한 목표를 달성하기 위해, **'{persona_name}'가 가장 중요하게 생각할 핵심 키워드(예: 구매 담당자-원가/시세, 마케터-트렌드/소비자, R&D-신원료/성분)를 중심으로** 필요한 정보 조각들을 식별합니다.
-- 식별된 정보 조각들을 바탕으로, 각각 완결된 형태의 구체적인 질문으로 분해합니다.
+**2단계: 각 단위에 대한 하위 질문 생성**
+- 1단계에서 분해된 각 단위를 해결하기 위해 필요한 구체적인 질문들을 생성합니다.
+- 이 질문들은 페르소나의 전문성을 반영해야 합니다. (예: '제품 개발 연구원'은 기술, 성분, 논문에 초점을 맞춘 질문 생성)
+- 예 (제품 개발 연구원 관점):
+  - (단위 1 관련): "식물성, 곤충, 배양육 등 원료 기반 대체식품 유형별 기술적 정의 및 분류", "주요 원료별 대체식품의 핵심 성분 및 특성"
+  - (단위 2 관련): "미생물 발효 대체식품 관련 최신 연구 논문 및 특허 동향", "미생물 발효 기술을 활용한 상용화 제품 사례 및 적용 기술"
+- 각각 완결된 형태의 구체적인 질문으로 분해합니다.
 - 생성된 모든 하위 질문은 원본 요청의 핵심 맥락(예: '대한민국', '건강기능식품')을 반드시 포함해야 합니다.
 
 **3단계: 질문 간 의존성 분석 (가장 중요한 단계)**
@@ -335,7 +517,7 @@ class OrchestratorAgent:
 - 예시: `A분야의 시장 규모`를 알아야 `A분야의 주요 경쟁사`를 조사할 수 있으므로, 두 질문은 의존성이 있습니다. 반면, `A분야의 시장 규모`와 `B분야의 시장 규모` 조사는 서로 독립적입니다.
 
 **4단계: 실행 단계 그룹화 (Grouping)**
-- **Step 1**: 서로 의존성이 없는, 가장 먼저 수행되어야 할 병렬 실행 가능한 질문들을 배치합니다. (예: 시장 규모 조사, 최신 트렌드 조사)
+- **Step 1**: 서로 의존성이 없는, 가장 먼저 수행되어야 할 병렬 실행 가능한 질문들을 배치합니다.
 - **Step 2 이후**: 이전 단계의 결과(`[step-X의 결과]` 플레이스홀더 사용)를 입력으로 사용하는 의존성 있는 질문들을 배치합니다. (예: 1단계에서 찾은 '성장 분야'의 경쟁사 조사)
 
 **5단계: 각 질문에 대한 최적 도구 선택 전략**
@@ -346,14 +528,14 @@ class OrchestratorAgent:
     - **"성분", "영양", "시세", "가격"** 포함 → `rdb_search`
     - **"원산지", "관계", "제조사", "특산품", "fishState(활어/선어/냉동/건어)"** 포함 → `graph_db_search`
     - **"분석", "연구", "조사", "보고서", "동향"** 포함 → `vector_db_search`
-    - **"신제품 개발", "과학적 근거", "논문", "학술", "AI/ML", "대체식품", "지속가능성", "발효 기술"** 포함 → `arxiv_search`
+    - **"신제품 개발", "과학적 근거", "논문", "학술", "대체식품", "지속가능성", "발효 기술"** 포함 → `pubmed_search`
     - **"최신 트렌드", "실시간 정보", "2025년", "최근", "현재", "기상이변", "집중폭우", "홍수", "태풍", "재해", "재난", "피해", "뉴스", "사건", "발생"** 등 최신성 강조 또는 시사 정보 관련 시 → `web_search`
 
 **도구 선택 예시**:
 - **단순 케이스**: "사과의 영양성분" → `rdb_search` 1개만
-- **중간 케이스**: "2025년 식품 트렌드" → `web_search` 1개만  
+- **중간 케이스**: "2025년 식품 트렌드" → `web_search` 1개만
 - **복합 케이스**: "최신 재해 피해지역 농업 현황" → `web_search` + `vector_db_search` + `graph_db_search` 조합
-- **고도 복합**: "신제품 개발 전략" → `web_search` + `arxiv_search` + `vector_db_search` + `rdb_search` 조합
+- **고도 복합**: "신제품 개발 전략" → `web_search` + `pubmed_search` + `vector_db_search` + `rdb_search` 조합
 
 **6단계: 최종 JSON 형식화**
 - 위에서 결정된 모든 내용을 아래 '최종 출력 포맷'에 맞춰 JSON으로 작성합니다.
@@ -362,16 +544,16 @@ class OrchestratorAgent:
 ---
 **## 계획 수립 예시**
 
-**요청 (단순)**: "사과의 영양성분과 칼로리 정보를 알려줘."
-
+**[예시 1: 단순 조회 - 단일 Step, 단일 작업]**
+**요청**: "사과의 영양성분과 칼로리 정보를 알려줘."
 **생성된 계획(JSON)**:
 {{
     "title": "사과 영양성분 및 칼로리 정보",
-    "reasoning": "단순한 영양성분 조회 질문이므로 RDB 검색 1개 도구만으로 충분합니다.",
+    "reasoning": "사용자의 요청은 '사과의 영양성분 및 칼로리'라는 단일 정보 조각으로 구성됩니다. 이는 RDB에서 직접 조회가 가능하므로, rdb_search 도구를 사용한 단일 단계 계획을 수립합니다.",
     "execution_steps": [
         {{
             "step": 1,
-            "reasoning": "영양성분과 칼로리는 RDB에 정형화되어 저장된 데이터이므로 rdb_search만으로 해결 가능",
+            "reasoning": "영양성분과 칼로리는 RDB에 정형화된 데이터이므로 rdb_search만으로 해결 가능합니다.",
             "sub_questions": [
                 {{"question": "사과의 상세 영양성분 정보 및 칼로리", "tool": "rdb_search"}}
             ]
@@ -379,60 +561,62 @@ class OrchestratorAgent:
     ]
 }}
 
-**요청 (복합)**: "만두 신제품 개발을 위해, 해외 수출 사례와 최신 식품 트렌드에 맞는 원료를 추천해줘."
-
+**[예시 2: 병렬 조회 - 단일 Step, 다중 작업]**
+**요청**: "대체식품의 유형을 원료에 따라 구분하여 정리하고 이중에서 미생물 발효 식품의 연구개발 현황을 분석하고 정리해줘."
+**페르소나**: "제품 개발 연구원"
 **생성된 계획(JSON)**:
 {{
-    "title": "신제품 만두 개발을 위한 시장 조사 및 원료 추천",
-    "reasoning": "시장 조사와 트렌드 분석을 1단계에서 병렬로 수행한 뒤, 그 결과를 바탕으로 2단계에서 구체적인 원료를 추천하는 2단계 계획을 수립합니다.",
-    "execution_steps": [
+  "title": "원료별 대체식품 유형 및 미생물 발효 식품 R&D 현황 분석",
+  "reasoning": "사용자 요청을 '원료별 유형 분류'와 '미생물 발효 식품 R&D 현황' 두 가지 독립적인 축으로 분해했습니다. 두 주제는 의존성이 없으므로 단일 단계에서 병렬로 정보를 수집하는 것이 가장 효율적입니다. '제품 개발 연구원'의 관점에 맞춰 기술 및 연구 자료 수집에 집중합니다.",
+  "execution_steps": [
+    {{
+      "step": 1,
+      "reasoning": "대체식품의 기술적 분류와 미생물 발효 식품의 연구 동향에 대한 기반 정보를 병렬로 수집합니다. 시장 동향 등 사용자가 묻지 않은 내용은 의도적으로 제외했습니다.",
+      "sub_questions": [
         {{
-            "step": 1,
-            "reasoning": "기반 정보인 '수출 사례'와 '최신 트렌드'를 병렬로 수집합니다.",
-            "sub_questions": [
-                {{"question": "대한민국 냉동만두 해외 수출 성공 사례 및 인기 제품 특징 분석", "tool": "vector_db_search"}},
-                {{"question": "2025년 최신 글로벌 식품 트렌드 및 소비자 선호 원료", "tool": "web_search"}}
-            ]
+          "question": "원료(식물, 곤충, 배양육, 균류 등)에 따른 대체식품의 기술적 유형 분류 및 정의",
+          "tool": "vector_db_search"
         }},
         {{
-            "step": 2,
-            "reasoning": "1단계 결과를 바탕으로 신제품에 적용할 구체적인 원료를 탐색합니다.",
-            "sub_questions": [
-                {{"question": "[step-1의 결과]를 바탕으로, '건강 및 웰빙' 트렌드에 맞는 식물성 만두 원료 추천", "tool": "vector_db_search"}},
-                {{"question": "추천된 신규 원료(예: 대체육)의 영양성분 정보", "tool": "rdb_search"}}
-            ]
+          "question": "microbial fermentation for alternative protein or food ingredients latest research papers",
+          "tool": "pubmed_search"
+        }},
+        {{
+          "question": "국내외 미생물 발효 기술 기반 대체식품 연구 개발 프로젝트 또는 상용화 사례",
+          "tool": "vector_db_search"
         }}
-    ]
+      ]
+    }}
+  ]
 }}
 
-**요청**: "2025년 7월과 8월의 지구온난화 기상이변에 따른 집중폭우 피해지역에서 생산되는 주요 식재료들 목록과 생산지를 표로 정리해줘"
-
+**[예시 3: 순차(의존성) 조회 - 다중 Step]**
+**요청**: "2025년 7월과 8월의 집중폭우 피해지역에서 생산되는 주요 식재료들 목록과 생산지를 표로 정리해줘"
 **생성된 계획(JSON)**:
 {{
-    "title": "2025년 여름 기상이변 피해지역 식재료 생산 현황 종합 분석",
-    "reasoning": "최신 재해 정보(web_search), 농업 피해 분석(vector_db), 지역-식재료 매핑(graph_db), 가격/생산량 통계(rdb_search)를 조합한 3단계 종합 분석",
+    "title": "2025년 여름 집중폭우 피해지역의 주요 식재료 및 생산지 분석",
+    "reasoning": "이 요청은 여러 정보가 논리적으로 연결되어야 해결 가능합니다. 먼저 '피해 지역'을 특정하고(Step 1), 그 지역의 '주요 식재료와 생산지'를 찾아(Step 2) 최종적으로 종합 분석(Step 3)하는 순차적인 계획이 필요합니다.",
     "execution_steps": [
         {{
             "step": 1,
-            "reasoning": "최신 재해 정보와 기존 농업 피해 분석을 병렬로 수집",
+            "reasoning": "가장 먼저 최신 재해 정보를 통해 '집중폭우 피해 지역'을 명확히 특정해야 합니다.",
             "sub_questions": [
-                {{"question": "2025년 7월 8월 대한민국 집중호우 피해 심각 지역 목록", "tool": "web_search"}},
-                {{"question": "집중호우 농업 피해 분석 보고서 및 생산량 감소 통계", "tool": "vector_db_search"}}
+                {{"question": "2025년 7월 8월 대한민국 집중호우 피해 심각 지역 목록", "tool": "web_search"}}
             ]
         }},
         {{
             "step": 2,
-            "reasoning": "1단계에서 확인된 피해 지역의 주요 생산 식재료 매핑 및 시세 정보 수집",
+            "reasoning": "Step 1에서 식별된 피해 지역을 바탕으로 해당 지역에서 주로 생산되는 식재료 정보를 수집합니다.",
             "sub_questions": [
-                {{"question": "[step-1의 결과] 피해 지역별 주요 농산물 및 축산물 생산지 매핑", "tool": "graph_db_search"}},
-                {{"question": "[step-1의 결과] 해당 지역 주요 식재료 최근 시세 및 가격 변동", "tool": "rdb_search"}}
+                {{"question": "[step-1의 결과]로 확인된 피해 지역들 각각의 주요 생산 농축수산물(특산품) 목록", "tool": "graph_db_search"}},
+                {{"question": "[step-1의 결과]로 확인된 피해 지역들의 농업 피해 현황 분석 보고서", "tool": "vector_db_search"}}
             ]
         }},
         {{
             "step": 3,
-            "reasoning": "수집된 정보를 종합하여 피해 규모와 공급망 영향을 분석",
+            "reasoning": "Step 2까지 수집된 정보를 종합하여, 사용자가 최종적으로 요청한 '피해 지역별 주요 식재료 및 생산지' 목록을 완성합니다.",
             "sub_questions": [
-                {{"question": "[step-2의 결과]를 바탕으로 집중호우가 농산물 공급망에 미치는 영향 분석", "tool": "vector_db_search"}}
+                {{"question": "[step-2의 결과]를 바탕으로, 집중호우 피해 지역과 해당 지역의 주요 식재료 및 생산지를 연결하여 표 형태로 요약", "tool": "vector_db_search"}}
             ]
         }}
     ]
@@ -441,11 +625,12 @@ class OrchestratorAgent:
 ---
 **## 최종 출력 포맷**
 
-**중요 규칙**: 
+**중요 규칙**:
 - **질문 복잡성에 따라 적절한 도구 개수 선택**: 단순하면 1개, 복합적이면 필요한 만큼만
 - **최신 정보** 포함 시 → **web_search 포함**, 추가로 필요한 분석/통계 도구만 보완
-- **일반 정보** → 내부 DB(rdb, vector, graph, arxiv) 중 가장 적합한 것 선택
+- **일반 정보** → 내부 DB(rdb, vector, graph, pubmed) 중 가장 적합한 것 선택
 - **과도한 도구 사용 금지**: 불필요한 중복 검색으로 성능 저하 방지
+- **pubmed_search 주의사항**: pubmed를 사용하는 경우, 영어로 쿼리를 번역한 후 question에 넣어야 함
 - 반드시 아래 JSON 형식으로만 응답해야 합니다.
 
 {{
@@ -620,11 +805,11 @@ class OrchestratorAgent:
             # 인덱스 유효성 검증
             max_index = len(current_collected_data) - 1
             valid_indexes = [idx for idx in selected_indexes if isinstance(idx, int) and 0 <= idx <= max_index]
-            
+
             # ⭐ 핵심 수정: 차트 생성용 최소 데이터 확보
             total_available = len(current_collected_data)
             min_selection = max(3, min(6, total_available))  # 최소 3개, 최대 6개 (전체 개수 고려)
-            
+
             if len(valid_indexes) < min_selection:
                 print(f"  - ⚠️ 차트 생성을 위해 최소 {min_selection}개 데이터가 필요하지만 {len(valid_indexes)}개만 선택됨")
                 # 선택되지 않은 인덱스들 중에서 추가 선택 (첫 번째부터 순서대로)
@@ -657,10 +842,20 @@ class OrchestratorAgent:
             return list(range(len(current_collected_data)))
 
 
-   
+
     async def execute_report_workflow(self, state: StreamingAgentState) -> AsyncGenerator[str, None]:
         """단계별 계획에 따라 순차적, 병렬적으로 데이터 수집 및 보고서 생성"""
         query = state["original_query"]
+
+        # 메모리 컨텍스트 추출 및 요약 생성
+        conversation_history = state.get("metadata", {}).get("conversation_history", [])
+        conversation_id = state.get("conversation_id", "unknown")
+        memory_summary = self._generate_memory_summary_for_report(conversation_history, query)
+
+        if memory_summary:
+            print(f"🧠 채팅방 {conversation_id}: 보고서에 메모리 요약 포함 ({len(conversation_history)}개 메시지)")
+        else:
+            print(f"🧠 채팅방 {conversation_id}: 메모리 없음 (새 대화 또는 연속성 없음)")
 
         # --- 추가: 페르소나 확인 및 상태 알림 ---
         # 사용자가 선택한 페르소나가 state에 이미 포함되어 있다고 가정합니다.
@@ -706,6 +901,9 @@ class OrchestratorAgent:
         step_results_context: Dict[int, str] = {}
         cumulative_selected_indexes: List[int] = []
 
+        # 중복 제거를 위한 글로벌 디듀플리케이터 초기화
+        deduplicator = GlobalDeduplicator()
+
         for i, step_info in enumerate(execution_steps):
             current_step_index = step_info["step"]
             yield self._create_status_event("GATHERING", "STEP_START", f"데이터 수집 ({i + 1}/{len(execution_steps)}) 시작.")
@@ -717,19 +915,30 @@ class OrchestratorAgent:
             if not tasks_for_this_step:
                 continue
 
+            # step_collected_data를 SearchResult 객체 리스트로 초기화합니다.
             step_collected_data: List[SearchResult] = []
 
             async for event in self.data_gatherer.execute_parallel_streaming(tasks_for_this_step, state=state):
                 if event["type"] == "search_results":
                     yield event
                 elif event["type"] == "collection_complete":
-                    step_collected_data = event["data"]["collected_data"]
+                    # worker로부터 받은 dict 리스트를 다시 SearchResult 객체 리스트로 변환합니다.
+                    collected_dicts = event["data"]["collected_data"]
+                    step_collected_data = [SearchResult(**data_dict) for data_dict in collected_dicts]
 
-            summary_of_step = " ".join([res.content for res in step_collected_data])
+            # 수집된 데이터에 대해 중복 제거 적용 (임시 비활성화)
+            try:
+                unique_step_data = self._apply_deduplication(step_collected_data, deduplicator)
+            except AttributeError:
+                print("⚠️ 중복 제거 메서드 로딩 중... 임시로 원본 데이터 사용")
+                unique_step_data = step_collected_data
+
+            # 이제 unique_step_data는 List[SearchResult] 타입이므로 .content 접근이 가능합니다.
+            summary_of_step = " ".join([res.content for res in unique_step_data])
             step_results_context[current_step_index] = summary_of_step[:2000]
-            final_collected_data.extend(step_collected_data)
+            final_collected_data.extend(unique_step_data)
 
-            print(f">> {current_step_index}단계 완료: {len(step_collected_data)}개 데이터 수집. (총 {len(final_collected_data)}개)")
+            print(f">> {current_step_index}단계 완료: {len(step_collected_data)}개 수집 → {len(unique_step_data)}개 유지 (총 {len(final_collected_data)}개)")
 
             if len(final_collected_data) > 0:
                 yield self._create_status_event("PROCESSING", "FILTER_DATA_START", "수집 데이터 선별 중...")
@@ -804,58 +1013,67 @@ class OrchestratorAgent:
         insufficient_sections = []
         for i, section in enumerate(design.get("structure", [])):
             if not section.get("is_sufficient", True):
-                insufficient_sections.append((i, section))
-        
+                insufficient_sections.append({"original_index": i, "section_info": section})
+
         if insufficient_sections:
-            print(f"🔍 데이터 부족 섹션 {len(insufficient_sections)}개 발견, 추가 검색 실행")
-            
-            # 추가 검색 수행
-            additional_data_collected = []
-            for section_index, section in insufficient_sections:
+            print(f"🔍 데이터 부족 섹션 {len(insufficient_sections)}개 발견, 추가 데이터 수집 실행")
+            yield self._create_status_event("GATHERING", "ADDITIONAL_SEARCH_START", f"{len(insufficient_sections)}개 항목에 대한 데이터 보강을 시작합니다.")
+
+            additional_tasks = []
+            for item in insufficient_sections:
+                section = item["section_info"]
                 feedback = section.get("feedback_for_gatherer", {})
                 if isinstance(feedback, dict) and feedback:
                     tool = feedback.get("tool", "vector_db_search")
-                    query = feedback.get("query", f"{section.get('section_title', '')} 상세 데이터")
-                    
-                    print(f"  - 섹션 '{section.get('section_title', '')}' 추가 검색: {tool} - '{query}'")
-                    
-                    yield self._create_status_event("PROCESSING", "ADDITIONAL_SEARCH", f"'{query[:50]}...' 관련 추가 데이터 수집 중")
-                    
-                    try:
-                        # DataGatherer 인스턴스를 통해 추가 검색
-                        from .worker_agents import DataGathererAgent
-                        gatherer = DataGathererAgent()
-                        additional_results, _ = await gatherer.execute(tool, {"query": query})
-                        
-                        if additional_results:
-                            additional_data_collected.extend(additional_results)
-                            print(f"    추가 데이터 {len(additional_results)}개 수집 완료")
-                        else:
-                            print(f"    추가 데이터 없음")
-                            
-                    except Exception as e:
-                        print(f"    추가 검색 실패: {e}")
-                        continue
-            
-            # 추가 데이터가 있으면 기존 데이터와 병합 (구조 재설계 없이)
-            if additional_data_collected:
-                print(f"✅ 총 {len(additional_data_collected)}개 추가 데이터 수집 완료")
-                
-                # 기존 데이터와 병합하여 데이터만 보강
-                enhanced_data = final_collected_data + additional_data_collected
-                final_collected_data = enhanced_data  # 데이터 업데이트
-                
-                print(f"🔄 데이터 보강 완료: 기존 {len(final_collected_data) - len(additional_data_collected)}개 → {len(final_collected_data)}개")
-                
-                # 보강된 데이터로 부족 섹션의 is_sufficient 상태 업데이트
-                for section_index, section in insufficient_sections:
-                    section["is_sufficient"] = True
-                    section["feedback_for_gatherer"] = ""
-                    print(f"  - 섹션 '{section.get('section_title', '')}' 데이터 보강으로 충분 상태로 변경")
-                
-                yield self._create_status_event("PROCESSING", "DATA_ENHANCED", f"데이터 보강 완료. 총 {len(final_collected_data)}개 데이터로 보고서 생성 시작")
+                    query_to_run = feedback.get("query", f"{section.get('section_title', '')} 상세 데이터")
+                    additional_tasks.append({"tool": tool, "inputs": {"query": query_to_run}})
+
+            additional_data_collected_objects: List[SearchResult] = []
+            if additional_tasks:
+                async for event in self.data_gatherer.execute_parallel_streaming(additional_tasks, state=state):
+                    if event["type"] == "search_results":
+                        yield event
+                    elif event["type"] == "collection_complete":
+                        additional_data_dicts = event["data"]["collected_data"]
+                        for data_dict in additional_data_dicts:
+                            additional_data_collected_objects.append(SearchResult(**data_dict))
+
+            # if 문의 조건 변수를 additional_data_collected_objects로 변경합니다.
+            if additional_data_collected_objects:
+                print(f"✅ 총 {len(additional_data_collected_objects)}개 추가 데이터 수집 완료. 보고서 구조를 업데이트합니다.")
+                yield self._create_status_event("PROCESSING", "DATA_ENHANCED", f"{len(additional_data_collected_objects)}개의 추가 데이터로 보고서 구조를 보강합니다.")
+
+                original_data_count = len(final_collected_data)
+                new_data_indexes = list(range(original_data_count, original_data_count + len(additional_data_collected_objects)))
+                # final_collected_data에 추가하는 변수도 변경합니다.
+                final_collected_data.extend(additional_data_collected_objects)
+
+                for item in insufficient_sections:
+                    section_index = item["original_index"]
+                    section_info = item["section_info"]
+                    original_indexes = section_info.get("use_contents", [])
+
+                    updated_use_contents = await self._update_use_contents_after_recollection(
+                        section_info, final_collected_data, original_indexes, new_data_indexes, query
+                    )
+
+                    design["structure"][section_index]["use_contents"] = updated_use_contents
+                    design["structure"][section_index]["is_sufficient"] = True
+                    design["structure"][section_index]["feedback_for_gatherer"] = ""
+
+                print(f"🔄 데이터 보강 및 구조 업데이트 완료. 최종 데이터 수: {len(final_collected_data)}개")
+
             else:
                 print(f"⚠️ 추가 데이터 수집 실패, 기존 데이터로 진행")
+
+        # 5. 모든 데이터 수집/보강이 끝난 후, 최종 데이터 목록으로 full_data_dict 생성 및 전송
+        print(f"\n>> 최종 데이터 목록으로 딕셔너리 생성 및 전송 (총 {len(final_collected_data)}개)")
+        full_data_dict = {}
+        for idx, data in enumerate(final_collected_data):
+            # SearchResult 객체를 JSON으로 변환 가능한 dict로 변환
+            full_data_dict[idx] = data.model_dump()
+
+        yield {"type": "full_data_dict", "data": {"data_dict": full_data_dict}}
 
         section_titles = [s.get('section_title', '제목 없음') for s in design.get('structure', [])]
         yield self._create_status_event("PROCESSING", "DESIGN_STRUCTURE_COMPLETE", "보고서 구조 설계 완료.", details={
@@ -863,12 +1081,27 @@ class OrchestratorAgent:
             "section_titles": section_titles
         })
 
-        # 보고서 제목을 가장 먼저 스트리밍
-        yield {"type": "content", "data": {"chunk": f"# {design.get('title', query)}\n\n---\n\n"}}
+        # 보고서 제목과 메모리 요약을 가장 먼저 스트리밍
+        report_start = f"# {design.get('title', query)}\n\n"
+
+        # 메모리 요약이 있으면 포함
+        if memory_summary:
+            report_start += memory_summary
+
+        report_start += "---\n\n"
+
+        yield {"type": "content", "data": {"chunk": report_start}}
 
         # 4. 전체 보고서 구조 컨텍스트 생성
         # 각 섹션 생성 Agent가 전체 그림을 인지하도록 컨텍스트를 만들어 전달합니다.
         awareness_context = "아래는 전체 보고서의 목차입니다. 당신은 이 중 하나의 섹션 작성을 담당합니다.\n\n"
+
+        # 메모리 컨텍스트 추가
+        if conversation_history:
+            memory_context = self._build_memory_context(conversation_history)
+            if memory_context:
+                awareness_context += memory_context + "\n"
+
         structure = design.get("structure", [])
         for i, sec in enumerate(structure):
             awareness_context += f"- **섹션 {i+1}. {sec.get('section_title', '')}**: {sec.get('description', '')}\n"
@@ -1357,4 +1590,63 @@ _________________________________________________________________________
 """
 
         return content
+
+
+    def _apply_deduplication(self, results: List[SearchResult], deduplicator: GlobalDeduplicator) -> List[SearchResult]:
+        """SearchResult 객체 리스트에 중복 제거 적용"""
+        if not results:
+            return results
+
+        # SearchResult 객체를 딕셔너리로 변환하여 중복 제거 적용
+        results_as_dicts = []
+        for result in results:
+            result_dict = {
+                "page_content": result.content,
+                "meta_data": getattr(result, "metadata", {}),
+                "name": result.title,
+                "source": result.source,
+                "url": getattr(result, "url", ""),
+                "score": getattr(result, "score", 0.0),
+                "document_type": getattr(result, "document_type", "unknown")
+            }
+
+            # meta_data에서 chunk_id 추출 시도
+            if hasattr(result, "metadata") and result.metadata:
+                result_dict["meta_data"] = result.metadata
+            elif hasattr(result, "source") and result.source:
+                # source 기반으로 고유성 판단
+                result_dict["meta_data"] = {"chunk_id": f"source_{hash(result.source)}"}
+
+            results_as_dicts.append(result_dict)
+
+        # 소스별로 중복 제거 적용
+        source_type = self._determine_source_type(results[0])
+        unique_dicts = deduplicator.deduplicate_results(results_as_dicts, source_type)
+
+        # 다시 SearchResult 객체로 변환
+        unique_results = []
+        for result_dict in unique_dicts:
+            # 원본 SearchResult와 매칭하여 복원
+            for original_result in results:
+                if (original_result.content == result_dict.get("page_content", "") and
+                    original_result.title == result_dict.get("name", "")):
+                    unique_results.append(original_result)
+                    break
+
+        return unique_results
+
+    def _determine_source_type(self, result: SearchResult) -> str:
+        """SearchResult 객체로부터 소스 타입 결정"""
+        source = getattr(result, "source", "").lower()
+
+        if "elasticsearch" in source or "vector" in source:
+            return "elasticsearch"
+        elif "neo4j" in source or "graph" in source:
+            return "neo4j"
+        elif "web" in source or "google" in source:
+            return "web"
+        elif "rdb" in source or "postgres" in source:
+            return "rdb"
+        else:
+            return "unknown"
 

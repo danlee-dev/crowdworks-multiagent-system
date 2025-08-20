@@ -472,7 +472,11 @@ class MultiIndexRAGSearchEngine:
             result["search_type"] = "hybrid"
             hybrid_results.append(result)
         hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
-        return hybrid_results[:top_k]
+        
+        # chunk_id 기반 중복 제거 적용
+        deduplicated_results = self.deduplicate_by_chunk_id(hybrid_results)
+        
+        return deduplicated_results[:top_k]
 
     def dense_retrieval_index(self, query: str, index: str, top_k: int = 20) -> List[Dict]:
         vector = self.embed_text(query)
@@ -558,9 +562,31 @@ class MultiIndexRAGSearchEngine:
     def _get_doc_id(self, result: Dict) -> str:
         meta_data = result.get("meta_data", {})
         chunk_id = meta_data.get("chunk_id", "")
+        if chunk_id:
+            return chunk_id  # chunk_id가 있으면 고유 ID로 사용
+        # 백업: name + content hash 조합
         name = result.get("name", "")
         page_content_hash = str(hash(result.get("page_content", "")))
-        return f"{chunk_id}_{name}_{page_content_hash}"
+        return f"{name}_{page_content_hash}"
+    
+    def deduplicate_by_chunk_id(self, results: List[Dict]) -> List[Dict]:
+        """chunk_id 기반 중복 제거"""
+        seen_ids = set()
+        unique_results = []
+        
+        for result in results:
+            chunk_id = result.get("meta_data", {}).get("chunk_id")
+            
+            if chunk_id and chunk_id in seen_ids:
+                print(f"중복 제거: chunk_id={chunk_id}")
+                continue
+            
+            if chunk_id:
+                seen_ids.add(chunk_id)
+            unique_results.append(result)
+        
+        print(f"중복 제거 결과: {len(results)} → {len(unique_results)}")
+        return unique_results
 
     def cohere_reranking(self, results: List[Dict], query: str, top_k: int = 20) -> List[Dict]:
         """
@@ -692,7 +718,7 @@ class MultiIndexRAGSearchEngine:
         """
         return self.cohere_reranking(results, query, top_k) # rerank-v3.5, api 호출을 통한 빠른 속도
         # return self.BGE_rerank(results, query, top_k) # bge-reranker-v2-m3-ko, 로컬 실행
-        # return self.qwen3_reranking(results, query, top_k) # Qwen3-Reranker, 로컬 실행, 버그 수정 중
+        # return self.qwen3_reranking(results, query, top_k) # Qwen3-Reranker, 로컬 실행
 
     def document_summarization(self, results: List[Dict], query: str) -> List[Dict]:
         summarized_results = []

@@ -196,10 +196,14 @@ class SimpleAnswererAgent:
                 yield json.dumps(search_event)
                 print(f"- 벡터 검색 결과 스트리밍 완료: {len(vector_results)}개 결과")
 
-        # 메모리 컨텍스트 추출
-        memory_context = state.get("metadata", {}).get("memory_context", "")
+        # 대화 히스토리 추출 및 메모리 컨텍스트 생성
+        conversation_history = state.get("metadata", {}).get("conversation_history", [])
+        conversation_id = state.get("conversation_id", "unknown")
+        memory_context = self._build_memory_context(conversation_history)
         if memory_context:
-            print(f"- 메모리 컨텍스트 사용: {len(memory_context)}자")
+            print(f"- 채팅방 {conversation_id}: 메모리 컨텍스트 사용 ({len(conversation_history)}개 메시지, {len(memory_context)}자)")
+        else:
+            print(f"- 채팅방 {conversation_id}: 메모리 없음 (새 대화 또는 첫 메시지)")
 
         full_response = ""
         prompt = self._create_enhanced_prompt_with_memory(
@@ -289,6 +293,189 @@ class SimpleAnswererAgent:
                 print(f"- SimpleAnswerer full_data_dict 전송 완료: {len(full_data_dict)}개 항목")
 
         print(f"- 스트리밍 답변 생성 완료 (길이: {len(full_response)}자)")
+
+    def _extract_key_data_from_content(self, content: str) -> dict:
+        """AI 답변에서 핵심 데이터를 추출"""
+        import re
+        
+        extracted = {
+            "regions": [],
+            "food_items": [],
+            "numbers": [],
+            "dates": [],
+            "key_facts": []
+        }
+        
+        # 지역명 추출 (예: 경기 가평, 충남 서산, 경남 산청 등)
+        region_patterns = [
+            r'(경기|충남|충북|전남|전북|경남|경북|강원|제주)\s*([가-힣]+[시군구]?)',
+            r'([가-힣]+[시군구])',
+            r'([가-힣]+군|[가-힣]+시)'
+        ]
+        for pattern in region_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if isinstance(match, tuple):
+                    region = ' '.join(match).strip()
+                else:
+                    region = match.strip()
+                if region and len(region) > 1 and region not in extracted["regions"]:
+                    extracted["regions"].append(region)
+        
+        # 식재료/농산물 추출
+        food_keywords = ["포도", "배", "사과", "쌀", "채소", "과일", "농산물", "축산물", "수산물", "곡물", "닭고기", "돼지고기", "소고기"]
+        for keyword in food_keywords:
+            if keyword in content and keyword not in extracted["food_items"]:
+                extracted["food_items"].append(keyword)
+        
+        # 수치 정보 추출 (퍼센트, 억원, 톤 등)
+        number_patterns = [
+            r'(\d+(?:\.\d+)?)\s*%',
+            r'(\d+(?:,\d+)*)\s*억',
+            r'(\d+(?:,\d+)*)\s*만',
+            r'(\d+(?:\.\d+)?)\s*톤',
+            r'(\d+(?:,\d+)*)\s*원'
+        ]
+        for pattern in number_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["numbers"]:
+                    extracted["numbers"].append(match)
+        
+        # 날짜/기간 추출
+        date_patterns = [
+            r'20\d{2}년\s*\d+월',
+            r'\d+월\s*\d+일',
+            r'20\d{2}년'
+        ]
+        for pattern in date_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["dates"]:
+                    extracted["dates"].append(match)
+        
+        # 특별재난지역, 피해지역 등 핵심 키워드 추출
+        key_fact_patterns = [
+            r'(특별재난지역)',
+            r'(집중호우\s*피해)',
+            r'(생산량\s*[증가감소])',
+            r'(가격\s*[상승하락])'
+        ]
+        for pattern in key_fact_patterns:
+            matches = re.findall(pattern, content)
+            for match in matches:
+                if match not in extracted["key_facts"]:
+                    extracted["key_facts"].append(match)
+        
+        return extracted
+
+    def _build_memory_context(self, conversation_history: List[dict]) -> str:
+        """현재 채팅방의 대화 히스토리를 메모리 컨텍스트로 변환"""
+        if not conversation_history:
+            return ""
+        
+        # 최근 메시지부터 처리 (프론트엔드에서 이미 현재 채팅방의 slice(-6) 되어있음)
+        memory_parts = []
+        extracted_data = {
+            "regions": set(),
+            "food_items": set(),
+            "numbers": [],
+            "dates": set(),
+            "key_facts": set()
+        }
+        
+        for msg in conversation_history:
+            msg_type = msg.get("type", "")
+            content = msg.get("content", "")
+            
+            if not content.strip():
+                continue
+                
+            # 사용자 메시지
+            if msg_type == "user":
+                memory_parts.append(f"**사용자**: {content}")
+            # 어시스턴트 메시지 (요약 + 핵심 데이터 추출)
+            elif msg_type == "assistant":
+                # 핵심 데이터 추출
+                key_data = self._extract_key_data_from_content(content)
+                extracted_data["regions"].update(key_data["regions"])
+                extracted_data["food_items"].update(key_data["food_items"])
+                extracted_data["numbers"].extend(key_data["numbers"])
+                extracted_data["dates"].update(key_data["dates"])
+                extracted_data["key_facts"].update(key_data["key_facts"])
+                
+                # 긴 답변은 요약
+                if len(content) > 200:
+                    # 핵심 정보 추출 (첫 200자 + 마지막 100자)
+                    summary = content[:200] + "..." + content[-100:] if len(content) > 300 else content[:200] + "..."
+                    memory_parts.append(f"**AI**: {summary}")
+                else:
+                    memory_parts.append(f"**AI**: {content}")
+        
+        if memory_parts:
+            # 기본 대화 컨텍스트
+            context = "### 이 채팅방의 이전 대화 내용\n" + "\n\n".join(memory_parts[-4:]) + "\n"
+            
+            # 추출된 핵심 데이터 추가
+            if any([extracted_data["regions"], extracted_data["food_items"], extracted_data["key_facts"]]):
+                context += "\n### 이전 대화에서 언급된 핵심 정보\n"
+                
+                if extracted_data["regions"]:
+                    context += f"**언급된 지역**: {', '.join(list(extracted_data['regions'])[:10])}\n"
+                
+                if extracted_data["food_items"]:
+                    context += f"**언급된 식재료/농산물**: {', '.join(list(extracted_data['food_items'])[:10])}\n"
+                
+                if extracted_data["key_facts"]:
+                    context += f"**핵심 사실**: {', '.join(list(extracted_data['key_facts'])[:5])}\n"
+                
+                if extracted_data["dates"]:
+                    context += f"**관련 기간**: {', '.join(list(extracted_data['dates'])[:5])}\n"
+            
+            print(f"🧠 채팅방별 메모리 컨텍스트 생성: {len(memory_parts)}개 메시지 → {len(context)}자")
+            print(f"   - 추출된 지역: {list(extracted_data['regions'])[:5]}")
+            print(f"   - 추출된 식재료: {list(extracted_data['food_items'])[:5]}")
+            return context
+        
+        return ""
+
+    def _generate_memory_summary(self, conversation_history: List[dict], current_query: str) -> str:
+        """이전 대화 내용과 현재 질문을 분석하여 메모리 요약 가이드 생성"""
+        if not conversation_history:
+            return "새로운 대화를 시작합니다."
+        
+        # 현재 질문에서 연속성 키워드 확인
+        continuation_keywords = [
+            "그", "그것", "그거", "위", "앞서", "이전", "방금", "아까", "저기", "거기",
+            "그 중", "그중", "그런데", "그럼", "그래서", "따라서", "이어서", "계속해서",
+            "추가로", "더", "또한", "그리고", "또", "한편", "반면", "대신"
+        ]
+        
+        has_continuation = any(keyword in current_query for keyword in continuation_keywords)
+        
+        if has_continuation and len(conversation_history) >= 2:
+            # 최근 사용자 질문과 AI 답변 추출
+            recent_user = None
+            recent_ai = None
+            
+            # 역순으로 찾기 (최근 것부터)
+            for msg in reversed(conversation_history):
+                if msg.get("type") == "user" and not recent_user:
+                    recent_user = msg.get("content", "")
+                elif msg.get("type") == "assistant" and not recent_ai and recent_user:
+                    recent_ai = msg.get("content", "")
+                    break
+            
+            if recent_user and recent_ai:
+                # AI 답변 요약 (첫 100자)
+                ai_summary = recent_ai[:100] + "..." if len(recent_ai) > 100 else recent_ai
+                
+                return f"""이전 대화 맥락을 고려하여 답변하세요. 
+답변 시작 시 다음 형식으로 이전 대화를 간단히 요약해주세요:
+"이전에 문의하신 '{recent_user[:50]}{'...' if len(recent_user) > 50 else ''}'에 대해 {ai_summary}라고 답변드렸는데, 이를 바탕으로 말씀드리겠습니다."
+그 다음 본격적인 답변을 이어서 해주세요."""
+        
+        return "이전 대화 내용을 참고하여 답변하세요."
 
     async def _simple_web_search(self, query: str) -> List[SearchResult]:
         """간단한 웹 검색"""
@@ -471,7 +658,10 @@ Vector DB 검색이 필요하면 True, 아니면 False를 반환하세요.
         # state에서 페르소나와 메모리 정보 추출
         persona_name = state.get("persona", "기본")
         persona_instruction = self.personas.get(persona_name, {}).get("prompt", "당신은 친절하고 도움이 되는 AI 어시스턴트입니다.")
-        memory_context = state.get("metadata", {}).get("memory_context", "")
+        
+        # 대화 히스토리에서 메모리 컨텍스트 생성
+        conversation_history = state.get("metadata", {}).get("conversation_history", [])
+        memory_context = self._build_memory_context(conversation_history)
 
         # 검색 결과 요약
         context_summary = ""
@@ -492,7 +682,12 @@ Vector DB 검색이 필요하면 True, 아니면 False를 반환하세요.
             context_summary = "\n\n".join(summary_parts)
 
         # 메모리 컨텍스트 처리
-        memory_info = f"\n## 이전 대화\n{memory_context[:500]}...\n" if memory_context else ""
+        memory_info = f"\n{memory_context}\n" if memory_context else ""
+
+        # 메모리 기반 답변인지 확인하고 컨텍스트 요약 생성
+        memory_summary = ""
+        if memory_context and conversation_history:
+            memory_summary = self._generate_memory_summary(conversation_history, query)
 
         return f"""{persona_instruction}
 
@@ -509,6 +704,7 @@ Vector DB 검색이 필요하면 True, 아니면 False를 반환하세요.
 {query}
 
 ## 응답 가이드
+- **메모리 기반 답변**: {memory_summary}
 - **페르소나 유지**: 당신의 역할에 맞는 말투와 관점을 일관되게 유지하세요.
 - 자연스럽고 친근한 톤으로 답변
 - 참고 정보가 있으면 이를 활용하되, 정확한 정보만 사용

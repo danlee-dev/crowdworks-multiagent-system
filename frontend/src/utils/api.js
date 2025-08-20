@@ -2,45 +2,68 @@
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8000';
 
-// API 호출 기본 함수
+// API 호출 기본 함수 (재시도 로직 포함)
 async function apiCall(endpoint, options = {}) {
   const fullUrl = `${API_BASE_URL}${endpoint}`;
   console.log(`🌐 API_BASE_URL: ${API_BASE_URL}`);
   console.log(`🔗 전체 URL: ${fullUrl}`);
   
-  try {
-    const response = await fetch(fullUrl, {
-      headers: {
-        'Content-Type': 'application/json',
-        ...options.headers,
-      },
-      ...options,
-    });
-    
-    console.log(`📡 응답 상태: ${response.status} ${response.statusText}`);
+  const maxRetries = 3;
+  const baseDelay = 1000; // 1초
+  
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 10000); // 10초 타임아웃
+      
+      const response = await fetch(fullUrl, {
+        headers: {
+          'Content-Type': 'application/json',
+          ...options.headers,
+        },
+        signal: controller.signal,
+        ...options,
+      });
+      
+      clearTimeout(timeoutId);
+      console.log(`📡 응답 상태 (시도 ${attempt}): ${response.status} ${response.statusText}`);
 
-    if (!response.ok) {
-      const error = new Error(`API 호출 실패: ${response.status} ${response.statusText}`);
-      error.status = response.status;
-      error.statusText = response.statusText;
+      if (!response.ok) {
+        const error = new Error(`API 호출 실패: ${response.status} ${response.statusText}`);
+        error.status = response.status;
+        error.statusText = response.statusText;
+        
+        // 재시도 가능한 오류인지 확인
+        if (attempt < maxRetries && (response.status >= 500 || response.status === 429)) {
+          console.log(`🔄 재시도 (${attempt}/${maxRetries}): ${error.message}`);
+          await new Promise(resolve => setTimeout(resolve, baseDelay * attempt));
+          continue;
+        }
+        
+        throw error;
+      }
+
+      return await response.json();
+    } catch (error) {
+      if (error.name === 'AbortError') {
+        console.log(`⏰ 타임아웃 (시도 ${attempt}/${maxRetries}): ${fullUrl}`);
+      } else {
+        console.log(`❌ 네트워크 오류 (시도 ${attempt}/${maxRetries}): ${error.message}`);
+      }
+      
+      if (attempt < maxRetries) {
+        await new Promise(resolve => setTimeout(resolve, baseDelay * attempt));
+        continue;
+      }
+      
+      // 모든 재시도 실패
+      if (error.status === 404) {
+        console.log(`ℹ️ 리소스 없음 [${endpoint}]: ${error.message}`);
+      } else {
+        console.error(`❌ API 호출 최종 실패 [${endpoint}]:`, error);
+      }
       throw error;
     }
-
-    return await response.json();
-  } catch (error) {
-    // 404 오류는 정상적인 상황이므로 간단하게 로그
-    if (error.status === 404) {
-      console.log(`ℹ️ 리소스 없음 [${endpoint}]: ${error.message}`);
-    } else {
-      // 404가 아닌 실제 오류들만 상세 로그
-      console.error(`💥 네트워크 오류 상세 정보:`);
-      console.error(`  🔗 URL: ${fullUrl}`);
-      console.error(`  🚨 오류 타입: ${error.name}`);
-      console.error(`  📝 오류 메시지: ${error.message}`);
-      console.error(`  🔍 전체 오류 객체:`, error);
-      console.error(`❌ API 호출 오류 [${endpoint}]:`, error);
-    }
-    throw error;
   }
 }
 
