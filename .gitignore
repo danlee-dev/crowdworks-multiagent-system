@@ -1,0 +1,162 @@
+# ====================================
+# Crowdworks Multiagent System
+# ====================================
+
+# Development environments  
+multiagent-rag-system-dev/
+
+# Large files and build artifacts (GitHub file size limits)
+Neo4J/data/transactions/
+Neo4J/neo4j/data/transactions/
+Neo4J/plugins/*.jar
+crawler/.venv/
+
+# Database data (runtime generated)
+postgresql/
+Neo4J/data/
+elasticsearch/data/
+
+# ====================================
+# From multiagent-rag-system/.gitignore
+# ====================================
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python/Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+crowdworks-py3.10/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Node.js/Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Production builds
+/build
+/dist
+
+# RAG System Specific
+memory_checkpoint.json
+*.checkpoint
+hierarchical_memory_*.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database files
+chroma_db/
+pinecone_cache/
+vector_store/
+
+# Model files
+*.pkl
+*.joblib
+*.model
+*.bin
+checkpoints/
+
+# LangChain cache
+.langchain/
+langchain_cache/
+
+# API Keys and sensitive data
+api_keys.json
+secrets.json
+config_local.py
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and Reports
+logs/
+*.log
+
+# Temporary and Cache
+temp/
+tmp/
+*.tmp
+.cache/
+temp_img/
+
+# Project Specific
+generated_charts/
+exports/
+uploads/
+user_data/
+*.bak
+*.backup
+data/raw/
+data/processed/
+*.csv.gz
+*.parquet
+notebooks/output/
+*.html
+*.pdf
+
+rag_config.py
