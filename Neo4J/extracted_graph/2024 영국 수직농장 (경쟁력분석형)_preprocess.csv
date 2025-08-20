@@ -1,0 +1,22 @@
+엔터티1,엔터티1유형,관계,엔터티2,엔터티2유형,속성
+캠브리지HOK,기업,생산,수직농장,품목,설립연도:1956;지역:이스트 요크셔;홈페이지:www.cambridgehok.co.uk
+인텔리전트 그로우스 솔루션,기업,생산,수직농장,품목,설립연도:2013;지역:스코틀랜드;홈페이지:www.intelligentgrowthsolutions.com
+버티컬 퓨처,기업,생산,수직농장,품목,설립연도:2016;지역:런던;홈페이지:www.verticalfuture.com
+아이팜,기업,생산,수직농장,품목,설립연도:2017;지역:헬싱키;홈페이지:www.ifarm.fi
+브이팜,기업,생산,수직농장,품목,설립연도:2006;지역:코번트리;홈페이지:www.v-farm.co.uk
+그로우스펙,기업,생산,수직농장,품목,설립연도:2014;지역:노퍽;홈페이지:www.growspec.co.uk
+Harvest London,고객사,이용,캠브리지HOK,기업,적용제품:Vertical Farm
+ReFarm,고객사,이용,인텔리전트 그로우스 솔루션,기업,적용제품:GigaFarm
+Mindful Chef,고객사,이용,버티컬 퓨처,기업,적용제품:수직농장
+Bather Smart Farm,고객사,이용,아이팜,기업,적용제품:아이팜 리피 그린스
+Pershore College,고객사,이용,V-Farm,기관,적용제품:수직농장 설비
+Growmore Crops,고객사,이용,그로우스펙,기업,적용제품:FarmCube Ultra
+Refarm,레퍼런스,공급,인텔리전트 그로우스 솔루션,기업,적용제품:GigaFarm
+Harvest London,레퍼런스,공급,캠브리지HOK,기업,적용제품:수직농장
+Growspec,레퍼런스,공급,그로우스펙,기업,적용제품:수직농장
+Vertical Future,레퍼런스,공급,버티컬 퓨처,기업,적용제품:수직농장
+V-Farm,레퍼런스,공급,브이팜,기업,적용제품:수직농장
+CambridgeHOK,레퍼런스,공급,Harvest London,기업,적용제품:수직농장
+Intelligent Growth Solutions,레퍼런스,공급,ReFarm,기업,적용제품:GigaFarm
+Growspec,레퍼런스,공급,Growmore Crops,기업,적용제품:FarmCube Ultra
+Vertical Future,레퍼런스,공급,Pershore College,기관,적용제품:수직농장 설비

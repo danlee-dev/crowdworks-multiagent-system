@@ -1,0 +1,2150 @@
+[
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n1) 경쟁제품 10개의 평균 1 0g당 가격은 0.85달러로 고객사 제품의 10g당 가격(0.90달러)과 비슷함 2) 고객사 제품의 중량(40g)은 경쟁제품 평균(59.3g)보다 적은 편으로 중량을 늘려 제품 현지화가 가능함\n\n1) 경쟁기업 3개사 중 3개사 모두 제품 포장 디자인 및 홍보문구 미국 현지화한 것으로 나타남 2) 경쟁기업 3개사 중 3개사는 글로벌 자사 흉페이지틀 활용해 기업 및 제품들 홍보하고 잇는 것으로 나타남\n\n0중(기존유통 제품 디자인문구 현지화) 0하(기존유통 제품 그대로출시)",
+    "name": "1) 경쟁제품 10개의 평균 1 0g당 가격은 0.85달러로 고객사 제품의 10g당 가격(0.90달러)과 비슷함 2) 고객사 제품의 중량(40g)은 경쟁제품 평균(59.3g)보다 적은 편으로 중량을 늘려 제품 현지화가 가능함",
+    "meta_data": {
+      "chunk_id": "517c1b46-27e5-43e2-a8d8-e843a7a24fb5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "517c1b46-27e5-43e2-a8d8-e843a7a24fb5",
+        "06e56df9-b628-4536-b546-f7d1f5ae62bf",
+        "d6757379-4c94-436f-a3b2-6bde0dcf2788"
+      ],
+      "chunked_count": 3,
+      "index": 66,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 300,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "1) 경쟁제품 10개의 평균 1 0g당 가격은 0.85달러로 고객사 제품의 10g당 가격(0.90달러)과 비슷함 2) 고객사 제품의 중량(40g)은 경쟁제품 평균(59.3g)보다 적은 편으로 중량을 늘려 제품 현지화가 가능함"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 1) 주요 프로세스\n\n●\n고객사 제품 특징\n제품명 맛있는 비건\n제품 종류 부각 3.62달러\n1) 소비자가격 (5000원 )\n중량 40g\n포장 파우치 맛 원물의 담백함에 바삭함만을\n동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 부각명인이 추가한 맛\n특징 이미향 HACCP 인증시설에서 직접 생산한 제품\n\n제품명 맛있는 비건\n제품 종류 부각\n소비자가격 3.62달러 (5000원 1) )\n중량 40g\n포장 파우치\n맛 원물의 담백함에 바삭함만을 추가한 맛\n특징 동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP 인증시설에서\n\n사전건설팅기록지 수령\n고객사 제품 분석 제품명: 맛있는 비건 제품 종류: 부각 소비자가격: 3.62달러 (5000원) 중량: 40g 포장 형태: 파우치 특징: 동물성 원료가 전혀 없는 비건 부각",
+    "name": "1) 주요 프로세스",
+    "meta_data": {
+      "chunk_id": "f3a1970a-e1a5-48e4-81dc-5d8706c458bd",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 92,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 1) 주요 프로세스",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2d70ff53-0772-403c-b6f5-f4380ab1c8ac",
+          "content": "<table><tbody><tr><td colspan=\"2\">●</td><td></td></tr><tr><td colspan=\"2\">고객사 제품 특징</td><td></td></tr><tr><td>제품명</td><td>맛있는 비건</td><td></td></tr><tr><td>제품 종류</td><td>부각</td><td>3.62달러</td></tr><tr><td></td><td>1)</td><td>소비자가격 (5,000원 )</td></tr><tr><td>중량</td><td>40g</td><td></td></tr><tr><td>포장</td><td>파우치</td><td>맛 원물의 담백함에 바삭함만을</td></tr><tr><td></td><td>동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 부각명인이</td><td>추가한 맛</td></tr><tr><td>특징</td><td>이미향 HACCP 인증시설에서 직접 생산한 제품</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "fc67a397-cb63-453a-87b8-a5db2caab7da",
+          "content": "<table><tbody><tr><th>제품명</th><th>맛있는 비건</th></tr><tr><td>제품 종류</td><td>부각</td></tr><tr><td>소비자가격</td><td>3.62달러 (5,000원 1) )</td></tr><tr><td>중량</td><td>40g</td></tr><tr><td>포장</td><td>파우치</td></tr><tr><td>맛</td><td>원물의 담백함에 바삭함만을 추가한 맛</td></tr><tr><td>특징</td><td>동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP 인증시설에서</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "d2b6bcd7-a731-4cc3-b58a-63f52245b841",
+          "content": "<table><tbody><tr><td>사전건설팅기록지 수령</td></tr><tr><td>고객사 제품 분석 제품명: 맛있는 비건 제품 종류: 부각 소비자가격: 3.62달러 (5,000원) 중량: 40g 포장 형태: 파우치 특징: 동물성 원료가 전혀 없는 비건 부각</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP 인증시설에서 직접 생산한 제품",
+    "name": "동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP 인증시설에서 직접 생산한 제품",
+    "meta_data": {
+      "chunk_id": "53bbf673-cf4d-4cc8-80ec-d8234b30408e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "53bbf673-cf4d-4cc8-80ec-d8234b30408e"
+      ],
+      "chunked_count": 1,
+      "index": 104,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 64,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP 인증시설에서 직접 생산한 제품"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Step 01 제품 분석\n\n현지 식품 취급 주요 온라인 쇼핑물 확인 1. 아마존 (Amazon) 2. 월마트(Walmart) 3. 크로거(Kroger)\n주요 온라인 쇼핑물 내 유사 인기제품 확인\n\n현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓 아시안/ 한인마트 오프라인 매장 조사 제품 선정\n조사 지표 선정",
+    "name": "Step 01 제품 분석",
+    "meta_data": {
+      "chunk_id": "d8b917a9-75c7-4a12-a8fe-df076f829e6b",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 108,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Step 01 제품 분석",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "c4e4b2ff-8999-43d8-93b3-151302ceaac0",
+          "content": "<table><tbody><tr><td>현지 식품 취급 주요 온라인 쇼핑물 확인 1. 아마존 (Amazon) 2. 월마트(Walmart) 3. 크로거(Kroger)</td></tr><tr><td>주요 온라인 쇼핑물 내 유사 인기제품 확인</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "116d36cb-3b2d-4869-940e-7b44a3fe3265",
+          "content": "<table><tbody><tr><td>현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓, 아시안/ 한인마트 오프라인 매장 조사 제품 선정</td></tr><tr><td>조사 지표 선정</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Step 04. 조사 및 분석\n\n현지 조사 경쟁제품 조사 경쟁기업 조사\n제품 분석 (온 오프라인) 인기 제품 요인 분석\n\n1) 1달러=1,382.40원(2024.07.01., KEB 하나은행 매매기준율 적용)",
+    "name": "Step 04. 조사 및 분석",
+    "meta_data": {
+      "chunk_id": "13fc0909-d97d-4a22-9e8a-cb88d0eaf82d",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 114,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Step 04. 조사 및 분석",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "73426849-52e0-42ee-af70-6a10ba7f0d9f",
+          "content": "<table><tbody><tr><td>현지 조사 경쟁제품 조사, 경쟁기업 조사</td></tr><tr><td>제품 분석 (온 오프라인) 인기 제품 요인 분석</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "90797715-e204-473a-8011-7316fb1a0f05",
+          "content": "1) 1달러=1,382.40원(2024.07.01., KEB 하나은행 매매기준율 적용)"
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 부각 제품의 경쟁제품군을 선정하였음",
+    "name": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 부각 제품의 경쟁제품군을 선정하였음",
+    "meta_data": {
+      "chunk_id": "895ed46b-153a-434d-91ec-03ec5346f14f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "895ed46b-153a-434d-91ec-03ec5346f14f"
+      ],
+      "chunked_count": 1,
+      "index": 128,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 60,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 부각 제품의 경쟁제품군을 선정하였음"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사\n\n사이트명 취급 종류\n아마존 유아용품 화장품 건강 식품 전자제품\n월마트 가전제품 사무용품 음료 주류 식품등\n식품 학용품 사무용품 생활용품 스포츠용품등",
+    "name": "▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+    "meta_data": {
+      "chunk_id": "c3dd189a-1e31-4fee-bfaf-baf8bc2fb7b8",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 129,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d2a3742c-bd37-46c9-b6ca-e7c35930d683",
+          "content": "<table><tbody><tr><th>사이트명</th><th>취급 종류</th></tr><tr><td>아마존</td><td>유아용품, 화장품, 건강, 식품, 전자제품,</td></tr><tr><td>월마트</td><td>가전제품, 사무용품, 음료, 주류, 식품등</td></tr><tr><td></td><td>식품, 학용품, 사무용품, 생활용품, 스포츠용품등</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n앞서 선정한 경쟁제품군 내 미국 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 아마존과 월마트에서는 D사의 제품이, 크로거에서는 캘리포니아 골드 뉴트리션 푸드의 제품이 주요 인기 제품인 것으로 확인됨",
+    "name": "앞서 선정한 경쟁제품군 내 미국 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 아마존과 월마트에서는 D사의 제품이, 크로거에서는 캘리포니아 골드 뉴트리션 푸드의 제품이 주요 인기 제품인 것으로 확인됨",
+    "meta_data": {
+      "chunk_id": "52326be3-0814-4e8d-8f99-fee53785728d",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "52326be3-0814-4e8d-8f99-fee53785728d"
+      ],
+      "chunked_count": 1,
+      "index": 132,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 132,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "앞서 선정한 경쟁제품군 내 미국 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 아마존과 월마트에서는 D사의 제품이, 크로거에서는 캘리포니아 골드 뉴트리션 푸드의 제품이 주요 인기 제품인 것으로 확인됨"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 2.2] 미국 주요 온라인 쇼핑몰별 인기 제품(Top 3)\n\n아마존 입점 상위 3개 제품 리스트(베스트셀러 기준) 2)\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 부각 D사 다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips) 한국 16.93달러 (23404원) 150g\n2 부각 E사 씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips) 한국 21.99달러 (30399원) 30g*4\n3 부각 E사 칠리 페퍼 스낵 칩스 (Chili Pepper Snack Chips) 한국 20.99달러 (29017원) 30g*4\n\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 부각 D사 다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips) 한국 17.98달러 (24856원) 150g\n2 부각 E사 씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips) 미국 15.99달러 (22105원) 30g*4ea\n3 부각 A사 양반 오리지널 플레이버 씨위드 칩스 (Yangban Original Flavor Seaweed Chips) 미국 11.99달러 (16575원) 50g\n\n[표 2.2] 미국 주요 온라인 쇼핑몰별 인기 제품(Top 3) 월마트 입점 상위 3개 제품\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 부각 D사 다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips) 한국 17.98달러 (24856원) 150g\n2 부각 E사 씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips) 미국 15.99달러 (22105원) 30g*4ea\n3 부각 A사 양반 오리지널 플레이버 씨위드 칩스 (Yangban Original Flavor Seaweed Chips) 미국 11.99달러 (16575원) 50g\n크로거 입점 상위 3개 제품\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 부각 캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition Foods) 씨위드 라이스 칩스 핫 앤 스파이시 (Seaweed Rice Chips Hot &amp; Spicy) 한국 4.01달러 (5543원) 60g\n2 부각 씨스낵스 (Seasnax) 촘퍼스 크런치 씨위드 칩스 - 오리지널 (Chomperz Crunchy Seaweed Chips - Original) 미국 55.58달러 (76834원) 30g*8ea\n3 부각 캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition 씨위드 라이스 칩스 치즈 (Seaweed Rice Chips Cheese) 한국 4.01달러 (5543원) 60g\n\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 부각 캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition 씨위드 라이스 칩스 핫 앤 스파이시 (Seaweed Rice Chips Hot &amp; Spicy) 한국 4.01달러 (5543원) 60g\n2 부각 씨스낵스 (Seasnax) 촘퍼스 크런치 씨위드 칩스 - 오리지널 (Chomperz Crunchy Seaweed Chips - Original) 미국 55.58달러 (76834원) 30g*8ea\n3 부각 캘리포니아 골드 뉴트리션 푸드 (California 씨위드 라이스 칩스 치즈 (Seaweed Rice Chips Cheese) 한국 4.01달러 (5543원) 60g\n\n3) 조사일(2024.08.17) 기준\n\n4) 조사일(2024.08.17) 기준",
+    "name": "[표 2.2] 미국 주요 온라인 쇼핑몰별 인기 제품(Top 3)",
+    "meta_data": {
+      "chunk_id": "4b19ea77-20fa-4890-ab15-457d18eb350a",
+      "page_number": [
+        7,
+        8
+      ],
+      "item_label": "merged",
+      "index": 134,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 2.2] 미국 주요 온라인 쇼핑몰별 인기 제품(Top 3)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "180357a4-c95c-450c-b043-68f16f85c624",
+          "content": "<table><tbody><tr><th colspan=\"8\">아마존 입점 상위 3개 제품 리스트(베스트셀러 기준) 2)</th></tr><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>부각</td><td>D사</td><td>다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips)</td><td>한국</td><td>16.93달러 (23,404원)</td><td>150g</td><td></td></tr><tr><td>2</td><td>부각</td><td>E사</td><td>씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips)</td><td>한국</td><td>21.99달러 (30,399원)</td><td>30g*4</td><td></td></tr><tr><td>3</td><td>부각</td><td>E사</td><td>칠리 페퍼 스낵 칩스 (Chili Pepper Snack Chips)</td><td>한국</td><td>20.99달러 (29,017원)</td><td>30g*4</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "0c121de7-5d08-4179-89b8-a109ce1fa96b",
+          "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>부각</td><td>D사</td><td>다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips)</td><td>한국</td><td>17.98달러 (24,856원)</td><td>150g</td><td></td></tr><tr><td>2</td><td>부각</td><td>E사</td><td>씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips)</td><td>미국</td><td>15.99달러 (22,105원)</td><td>30g*4ea</td><td></td></tr><tr><td>3</td><td>부각</td><td>A사</td><td>양반 오리지널 플레이버 씨위드 칩스 (Yangban Original Flavor Seaweed Chips)</td><td>미국</td><td>11.99달러 (16,575원)</td><td>50g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "33c9874d-7ea5-4d5a-b49d-bc1ed1baf599",
+          "content": "<table><tbody><tr><th colspan=\"8\">[표 2.2] 미국 주요 온라인 쇼핑몰별 인기 제품(Top 3) 월마트 입점 상위 3개 제품</th></tr><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>부각</td><td>D사</td><td>다시마 부각 바이트 사이즈 씨위드 칩스 (Dashima Bugak Bite Size Seaweed Chips)</td><td>한국</td><td>17.98달러 (24,856원)</td><td>150g</td><td></td></tr><tr><td>2</td><td>부각</td><td>E사</td><td>씨위드 레이버 스낵 칩스 (Seaweed Laver Snack Chips)</td><td>미국</td><td>15.99달러 (22,105원)</td><td>30g*4ea</td><td></td></tr><tr><td>3</td><td>부각</td><td>A사</td><td>양반 오리지널 플레이버 씨위드 칩스 (Yangban Original Flavor Seaweed Chips)</td><td>미국</td><td>11.99달러 (16,575원)</td><td>50g</td><td></td></tr><tr><th colspan=\"8\">크로거 입점 상위 3개 제품</th></tr><tr><td>순번</td><td>구분</td><td>브랜드명</td><td>제품명</td><td>원산지</td><td>가격</td><td>중량</td><td>이미지</td></tr><tr><td>1</td><td>부각</td><td>캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition Foods)</td><td>씨위드 라이스 칩스 핫 앤 스파이시 (Seaweed Rice Chips Hot &amp; Spicy)</td><td>한국</td><td>4.01달러 (5,543원)</td><td>60g</td><td></td></tr><tr><td>2</td><td>부각</td><td>씨스낵스 (Seasnax)</td><td>촘퍼스 크런치 씨위드 칩스 - 오리지널 (Chomperz Crunchy Seaweed Chips - Original)</td><td>미국</td><td>55.58달러 (76,834원)</td><td>30g*8ea</td><td></td></tr><tr><td>3</td><td>부각</td><td>캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition</td><td>씨위드 라이스 칩스 치즈 (Seaweed Rice Chips Cheese)</td><td>한국</td><td>4.01달러 (5,543원)</td><td>60g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "b6aac232-0528-41ab-9437-824f65adae38",
+          "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>부각</td><td>캘리포니아 골드 뉴트리션 푸드 (California Gold Nutrition</td><td>씨위드 라이스 칩스 핫 앤 스파이시 (Seaweed Rice Chips Hot &amp; Spicy)</td><td>한국</td><td>4.01달러 (5,543원)</td><td>60g</td><td></td></tr><tr><td>2</td><td>부각</td><td>씨스낵스 (Seasnax)</td><td>촘퍼스 크런치 씨위드 칩스 - 오리지널 (Chomperz Crunchy Seaweed Chips - Original)</td><td>미국</td><td>55.58달러 (76,834원)</td><td>30g*8ea</td><td></td></tr><tr><td>3</td><td>부각</td><td>캘리포니아 골드 뉴트리션 푸드 (California</td><td>씨위드 라이스 칩스 치즈 (Seaweed Rice Chips Cheese)</td><td>한국</td><td>4.01달러 (5,543원)</td><td>60g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "dfd1433f-71a6-4b26-96fd-4698f990c2c4",
+          "content": "3) 조사일(2024.08.17) 기준"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "5076fef3-7809-44cf-b885-60f0f3475f5c",
+          "content": "4) 조사일(2024.08.17) 기준"
+        }
+      ],
+      "merged_count": 7
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 3) 조사 지역 및\n\n인구 3953만 8223명\n면적 약155812.8 mi²",
+    "name": "3) 조사 지역 및",
+    "meta_data": {
+      "chunk_id": "42b7195b-755f-47b4-80ef-c0447236a8e7",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 163,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 3) 조사 지역 및",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "edc222a8-aeb1-48ea-9086-df4bfb3ecf25",
+          "content": "<table><tbody><tr><td>인구</td><td>3,953만 8,223명</td></tr><tr><td>면적</td><td>약155,812.8 mi²</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n미국 캘리포니아를 방문지역으로 선정함. 캘리포니아 주는 경제 규모가 세계 5-7위 국가의 수준이며 약 3,900만 명 이상의 인구를 보유한 미국 최대 주임. 다른 주 및 국가에서 다양한 인종이 유입되어 사회, 경제, 정치적인 부문에서 유동적인 특성을 보임. 아시아계 이민 급증으로 인해 대규모 아시아계 거주지가 형성됐으며, 특히 캘리포니아에서 가장 인구가 많은 로스앤젤레스 지역은 미국 전체에서 뉴욕에 이어 두 번째로 큰 도시로 해외 도시 중 가장 많은 한국인 인구가 모여있음6)",
+    "name": "미국 캘리포니아를 방문지역으로 선정함. 캘리포니아 주는 경제 규모가 세계 5-7위 국가의 수준이며 약 3,900만 명 이상의 인구를 보유한 미국 최대 주임. 다른 주 및 국가에서 다양한 인종이 유입되어 사회, 경제, 정치적인 부문에서 유동적인 특성을 보임. 아시아계 이민 급증으로 인해 대규모 아시아계 거주지가 형성됐으며, 특히 캘리포니아에서 가장 인구가 많은 로스앤젤레스 지역은 미국 전체에서 뉴욕에 이어 두 번째로 큰 도시로 해외 도시 중 가장 많은 한국인 인구가 모여있음6)",
+    "meta_data": {
+      "chunk_id": "10425e90-7772-43ce-b6c3-8dd0645cdb9e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "10425e90-7772-43ce-b6c3-8dd0645cdb9e"
+      ],
+      "chunked_count": 1,
+      "index": 173,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 271,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "미국 캘리포니아를 방문지역으로 선정함. 캘리포니아 주는 경제 규모가 세계 5-7위 국가의 수준이며 약 3,900만 명 이상의 인구를 보유한 미국 최대 주임. 다른 주 및 국가에서 다양한 인종이 유입되어 사회, 경제, 정치적인 부문에서 유동적인 특성을 보임. 아시아계 이민 급증으로 인해 대규모 아시아계 거주지가 형성됐으며, 특히 캘리포니아에서 가장 인구가 많은 로스앤젤레스 지역은 미국 전체에서 뉴욕에 이어 두 번째로 큰 도시로 해외 도시 중 가장 많은 한국인 인구가 모여있음6)"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 현지조사 매장 선정, 하이퍼마켓/슈퍼마켓, 아시안/한인마트\n\n채널 분류 주요 매장\n하이퍼마켓/슈퍼마켓 월마트(Walmart) 홀 푸드 마켓(Whole Foods Market) 타겟(Target) 스프라우츠 파머스 마켓(Sprouts Farmers Market) 코스트코(Costco) 트레이더 조(Trader Joe&#x27;s)\n아시안/한인마트 에이치마트(H-mart) 시온마켓(Zion Market) 아리랑 슈퍼마켓(Arirang Supermarket) 한남체인(Hannam Chain)\n드럭스토어 월그린(Walgreen) 지엔씨(GNC)\n편의점 세븐일레븐(7-Eleven) 써클케이(Circle K) 와와(Wawa)\n온라인 아마존(Amazon) 월마트(Walmart) 크로거(Kroger) 코스트코(Costco)\n\n5) 자료: 미국 인구조사국(www.census.gov)\n\n6) 자료: 브리태니커 백과사전 (www.britannica.com)",
+    "name": "▶ 현지조사 매장 선정, 하이퍼마켓/슈퍼마켓, 아시안/한인마트",
+    "meta_data": {
+      "chunk_id": "2abec112-4ab2-4f2a-a021-e1b106192297",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 174,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 현지조사 매장 선정, 하이퍼마켓/슈퍼마켓, 아시안/한인마트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9aa6eab3-cb77-4c0e-9114-6a981c00770b",
+          "content": "<table><tbody><tr><th>채널 분류</th><th>주요 매장</th></tr><tr><td>하이퍼마켓/슈퍼마켓</td><td>월마트(Walmart), 홀 푸드 마켓(Whole Foods Market), 타겟(Target), 스프라우츠 파머스 마켓(Sprouts Farmers Market), 코스트코(Costco), 트레이더 조(Trader Joe&#x27;s)</td></tr><tr><td>아시안/한인마트</td><td>에이치마트(H-mart), 시온마켓(Zion Market), 아리랑 슈퍼마켓(Arirang Supermarket), 한남체인(Hannam Chain)</td></tr><tr><td>드럭스토어</td><td>월그린(Walgreen), 지엔씨(GNC)</td></tr><tr><td>편의점</td><td>세븐일레븐(7-Eleven), 써클케이(Circle K), 와와(Wawa)</td></tr><tr><td>온라인</td><td>아마존(Amazon), 월마트(Walmart), 크로거(Kroger), 코스트코(Costco)</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "ae9bb36d-a3c1-40d3-a855-ba62aa2d90cb",
+          "content": "5) 자료: 미국 인구조사국(www.census.gov)"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "d73501b6-eb0d-41d6-a80a-71d4d8a09acd",
+          "content": "6) 자료: 브리태니커 백과사전 (www.britannica.com)"
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n고객사 희망 조사매장 지표를 고려하여 하이퍼마켓 및 슈퍼마켓, 아시안마트 및 한인마트를 주요 현지조사 매장으로 선정함",
+    "name": "고객사 희망 조사매장 지표를 고려하여 하이퍼마켓 및 슈퍼마켓, 아시안마트 및 한인마트를 주요 현지조사 매장으로 선정함",
+    "meta_data": {
+      "chunk_id": "e5f7caf8-7d02-4a5b-80c2-b4bf15e44ed7",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e5f7caf8-7d02-4a5b-80c2-b4bf15e44ed7"
+      ],
+      "chunked_count": 1,
+      "index": 175,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 76,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "고객사 희망 조사매장 지표를 고려하여 하이퍼마켓 및 슈퍼마켓, 아시안마트 및 한인마트를 주요 현지조사 매장으로 선정함"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n-부각 : 한국 전통의 튀김류 음식으로, 채소 및 해초를 말린 후 보존을 위해 찹쌀풀을 먹여 튀긴 음식\n\n-유기농 채소칩 : 유기농 채소를 재료로 사용하여 만든 얇은 스낵\n\n고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함",
+    "name": "-부각 : 한국 전통의 튀김류 음식으로, 채소 및 해초를 말린 후 보존을 위해 찹쌀풀을 먹여 튀긴 음식",
+    "meta_data": {
+      "chunk_id": "7d181be7-aba3-4bd5-8efd-5ee67f345d83",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7d181be7-aba3-4bd5-8efd-5ee67f345d83",
+        "28a52948-f980-4815-b8c7-26b9f802e6d8",
+        "65d998ad-fd88-4919-87c8-d0c51ccd54c0"
+      ],
+      "chunked_count": 3,
+      "index": 187,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 159,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "-부각 : 한국 전통의 튀김류 음식으로, 채소 및 해초를 말린 후 보존을 위해 찹쌀풀을 먹여 튀긴 음식"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 2.4] 미국 부각 경쟁제품 조사지표 선정\n\n조사 지표 지표 값 지표 값 정의\n제품명 제품의 한국어 원어 명칭\n제조사 제조사의 한국어 원어 명칭\n제품 종류 부각 또는 유기농 채소칩\n중량 중량(g) 제품의 포장 단위\n소비자 가격 매장에서 판매되고 있는 제품 가격\n가격\n10g당 가격 원산지 제품의 10g당 제품의 원산지\n포장 형태 파우치 포장\n홍보문구 제품 포장지에 표기된 홍보문구\n인증 제품의 인증 사항\n수입자 정보 제품 수입자의 정보\n원료 및 첨가물 제품의 원료 및 첨가물",
+    "name": "[표 2.4] 미국 부각 경쟁제품 조사지표 선정",
+    "meta_data": {
+      "chunk_id": "ed11d166-b388-43d9-8145-1f6a81e3eb8b",
+      "page_number": [
+        10
+      ],
+      "item_label": "merged",
+      "index": 191,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 2.4] 미국 부각 경쟁제품 조사지표 선정",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e27728b3-a494-4341-8fcb-06bfb3fbc09a",
+          "content": "<table><tbody><tr><th>조사 지표</th><th>지표 값</th><th>지표 값 정의</th></tr><tr><td></td><td>제품명</td><td>제품의 한국어, 원어 명칭</td></tr><tr><td></td><td>제조사</td><td>제조사의 한국어, 원어 명칭</td></tr><tr><td></td><td>제품 종류</td><td>부각 또는 유기농 채소칩</td></tr><tr><td>중량</td><td>중량(g)</td><td>제품의 포장 단위</td></tr><tr><td></td><td>소비자 가격</td><td>매장에서 판매되고 있는 제품 가격</td></tr><tr><td>가격</td><td></td><td></td></tr><tr><td></td><td>10g당 가격 원산지</td><td>제품의 10g당 제품의 원산지</td></tr><tr><td></td><td>포장 형태</td><td>파우치 포장</td></tr><tr><td></td><td>홍보문구</td><td>제품 포장지에 표기된 홍보문구</td></tr><tr><td></td><td>인증</td><td>제품의 인증 사항</td></tr><tr><td></td><td>수입자 정보</td><td>제품 수입자의 정보</td></tr><tr><td></td><td>원료 및 첨가물</td><td>제품의 원료 및 첨가물</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 3. 미국 부각 경쟁제품 현지조사 결과\n\n방문 매장명 스프라우츠 파머스 마켓 (Sprouts 시온마켓 (Zion Market) 에이치마트 (H-Mart) 코스트코 (Costco)\nFarmers Market)\n\n구분 하이퍼마켓/슈퍼마켓 아시안/한인마트 아시안/한인마트 하이퍼마켓/슈퍼마켓\n조사 제품 수 2개 2개 5개 1개\n조사 매장 특징 · 유기농 식품 및 천연 제품 취급 · 미국 전역 내 약 400개 이상 매장 운영 · 미국 캘리포니아주 중심 한인마트 체인 · 미국 내 7개 매장 운영 · 미국 최대 아시안 마켓 체인 · 미국 전역 97개 이상 매장 운영 · 미국 최대 멤버십 기반 창고형 마켓 체인 · 미국과 푸에르토리코에\n\n[표 2.5] 미국 방문 매장 및 특징\n방문 매장명 파머스 마켓 (Sprouts Farmers Market) 시온마켓 (Zion Market) 에이치마트 (H-Mart) 코스트코 (Costco)\n방문 매장 전경\n구분 하이퍼마켓/슈퍼마켓 아시안/한인마트 아시안/한인마트 하이퍼마켓/슈퍼마켓\n조사 제품 수 2개 2개 5개 1개\n조사 매장 특징 · 유기농 식품 및 천연 제품 취급 · 미국 전역 내 약 400개 이상 매장 운영 · 미국 캘리포니아주 중심 한인마트 체인 · 미국 내 7개 매장 운영 · 미국 최대 아시안 마켓 체인 · 미국 전역 97개 이상 · 미국 최대 멤버십 기반 창고형 마켓 체인 · 미국과",
+    "name": "3. 미국 부각 경쟁제품 현지조사 결과",
+    "meta_data": {
+      "chunk_id": "c8993370-dbc5-4937-9ede-ee72d4c8e25a",
+      "page_number": [
+        11
+      ],
+      "item_label": "merged",
+      "index": 199,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 3. 미국 부각 경쟁제품 현지조사 결과",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e2b58072-3540-492b-9736-d73657c417cd",
+          "content": "<table><tbody><tr><td>방문 매장명</td><td>스프라우츠 파머스 마켓 (Sprouts</td><td>시온마켓 (Zion Market)</td><td>에이치마트 (H-Mart)</td><td>코스트코 (Costco)</td></tr><tr><td>Farmers Market)</td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "4977c730-7261-4f4d-b7c6-1815da3573b9",
+          "content": "<table><tbody><tr><td>구분</td><td>하이퍼마켓/슈퍼마켓</td><td>아시안/한인마트</td><td>아시안/한인마트</td><td>하이퍼마켓/슈퍼마켓</td></tr><tr><td>조사 제품 수</td><td>2개</td><td>2개</td><td>5개</td><td>1개</td></tr><tr><td>조사 매장 특징</td><td>· 유기농 식품 및 천연 제품 취급 · 미국 전역 내 약 400개 이상 매장 운영</td><td>· 미국 캘리포니아주 중심 한인마트 체인 · 미국 내 7개 매장 운영</td><td>· 미국 최대 아시안 마켓 체인 · 미국 전역 97개 이상 매장 운영</td><td>· 미국 최대 멤버십 기반 창고형 마켓 체인 · 미국과 푸에르토리코에</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "f62cd4b2-8a0e-49b5-ac17-fd4e5416de44",
+          "content": "<table><tbody><tr><th>[표 2.5] 미국</th><th>방문 매장 및 특징</th><td></td><td></td><td></td></tr><tr><td>방문 매장명</td><td>파머스 마켓 (Sprouts Farmers Market)</td><td>시온마켓 (Zion Market) 에이치마트 (H-Mart)</td><td></td><td>코스트코 (Costco)</td></tr><tr><td>방문 매장 전경</td><td></td><td></td><td></td><td></td></tr><tr><td>구분</td><td>하이퍼마켓/슈퍼마켓</td><td>아시안/한인마트</td><td>아시안/한인마트</td><td>하이퍼마켓/슈퍼마켓</td></tr><tr><td>조사 제품 수</td><td>2개</td><td>2개</td><td>5개</td><td>1개</td></tr><tr><td>조사 매장 특징</td><td>· 유기농 식품 및 천연 제품 취급 · 미국 전역 내 약 400개 이상 매장 운영</td><td>· 미국 캘리포니아주 중심 한인마트 체인 · 미국 내 7개 매장 운영</td><td>· 미국 최대 아시안 마켓 체인 · 미국 전역 97개 이상</td><td>· 미국 최대 멤버십 기반 창고형 마켓 체인 · 미국과</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n▶ 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓, 아시안/한인마트 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓인 스프라우츠 파머스 마켓과 코스트코, 아시안/한인마트인 시온마켓과 에이치마트에 방문함. 스프라우츠 파머스 마켓은 미국의 유기농 식품 및 천연 제품을 취급하는 마켓 체인이며, 코스트코는 멤버십 기반 창고형 마켓 체인임. 시온마켓은 캘리포니아주 중심 한인마트 체인임. 에이치마트는 미국 최대 아시안마트 체인으로 아시안 식품 및 한국 식품을 주로 취급함",
+    "name": "▶ 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓, 아시안/한인마트 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓인 스프라우츠 파머스 마켓과 코스트코, 아시안/한인마트인 시온마켓과 에이치마트에 방문함. 스프라우츠 파머스 마켓은 미국의 유기농 식품 및 천연 제품을 취급하는 마켓 체인이며, 코스트코는 멤버십 기반 창고형 마켓 체인임. 시온마켓은 캘리포니아주 중심 한인마트 체인임. 에이치마트는 미국 최대 아시안마트 체인으로 아시안 식품 및 한국 식품을 주로 취급함",
+    "meta_data": {
+      "chunk_id": "1f498223-bab6-41b9-bdba-6570232f8f6d",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1f498223-bab6-41b9-bdba-6570232f8f6d"
+      ],
+      "chunked_count": 1,
+      "index": 200,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 319,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "▶ 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓, 아시안/한인마트 미국 캘리포니아에 위치한 하이퍼마켓/슈퍼마켓인 스프라우츠 파머스 마켓과 코스트코, 아시안/한인마트인 시온마켓과 에이치마트에 방문함. 스프라우츠 파머스 마켓은 미국의 유기농 식품 및 천연 제품을 취급하는 마켓 체인이며, 코스트코는 멤버십 기반 창고형 마켓 체인임. 시온마켓은 캘리포니아주 중심 한인마트 체인임. 에이치마트는 미국 최대 아시안마트 체인으로 아시안 식품 및 한국 식품을 주로 취급함"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 경쟁제품, 10개 제품 중 3개 제품만 2개의 매장에서만 판매\n\n스프라우츠 파머스 마켓, 시온마켓, 에이치마트, 코스트코 총 4개 매장 방문 후 인기 제품을 조사한 결과, 부각 경쟁제품 10개 중 3개 제품만 시온마켓과 에이치마트에서 중복 판매 되고 있으며, 나머지 7개 제품은 1개의 매장에서만 판매되고 있는 것으로 확인됨. 또한, 경쟁제품 10개 중 4개 제품은 온라인 매장에서도 판매 중인 것으로 확인됨",
+    "name": "▶ 경쟁제품, 10개 제품 중 3개 제품만 2개의 매장에서만 판매",
+    "meta_data": {
+      "chunk_id": "fada7791-3d1c-4ef0-964a-24a7ce789267",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "fada7791-3d1c-4ef0-964a-24a7ce789267",
+        "658f0f5f-632d-442d-af4b-844fefd791a2"
+      ],
+      "chunked_count": 2,
+      "index": 214,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 237,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁제품, 10개 제품 중 3개 제품만 2개의 매장에서만 판매"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 2.6] 경쟁제품 판매 현황\n\n매장 입점 여부 제품 종류\n경쟁제품(제조사) 오프라인 온라인 부각 유기농 채소칩\n① 브래드스 크런치 케일 (브래드스 로 칩스) ○ (스프라우츠 파머스 마켓) ○ (아마존 월마트 크로거) ○\n② 포파델릭 (펀 갈 스낵) ○ (스프라우츠 파머스 마켓) ○ (아마존 월마트) ○\n③ 김부각 레이버 스낵 (F사) ○ (시온마켓 에이치마트) - ○\n④ 씨위드 칩 (A사) ○ (시온마켓 에이치마트) ○ (월마트) ○\n⑤ 토푸 씨위드 라이스 크리스프-블랙 갈릭 (G사) ○ (에이치마트) - ○\n⑥ 레이버 칩 (H사) ○ (에이치마트) - ○\n⑦ 시즌드 켈프 칩 (C사) ○ (에이치마트) - ○\n⑧ 씨위드 칩 브라운 라이스 (B사) ○ (에이치마트) - ○\n⑨ 켈프 칩 (I사) ○ (시온마켓 에이치마트) - ○\n⑩ 다시마 부각 칩 바이트 사이즈 (D사) ○ (코스트코) ○ (아마존 월마트) ○\n(*) 현지 판매 부각 경쟁제품 10개",
+    "name": "[표 2.6] 경쟁제품 판매 현황",
+    "meta_data": {
+      "chunk_id": "ac403504-0348-44e4-85f8-f96f219e20e2",
+      "page_number": [
+        12
+      ],
+      "item_label": "merged",
+      "index": 216,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 2.6] 경쟁제품 판매 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "99387874-325d-4942-bd25-639a16faf7ec",
+          "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">매장 입점 여부</th><th colspan=\"2\">제품 종류</th></tr><tr><td></td><th>경쟁제품(제조사)</th><th>오프라인</th><th>온라인</th><th>부각</th><th>유기농 채소칩</th></tr><tr><td>①</td><td>브래드스 크런치 케일 (브래드스 로 칩스)</td><td>○ (스프라우츠 파머스 마켓)</td><td>○ (아마존, 월마트, 크로거)</td><td></td><td>○</td></tr><tr><td>②</td><td>포파델릭 (펀 갈 스낵)</td><td>○ (스프라우츠 파머스 마켓)</td><td>○ (아마존, 월마트)</td><td></td><td>○</td></tr><tr><td>③</td><td>김부각 레이버 스낵 (F사)</td><td>○ (시온마켓, 에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>④</td><td>씨위드 칩 (A사)</td><td>○ (시온마켓, 에이치마트)</td><td>○ (월마트)</td><td>○</td><td></td></tr><tr><td>⑤</td><td>토푸 씨위드 라이스 크리스프-블랙 갈릭 (G사)</td><td>○ (에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>⑥</td><td>레이버 칩 (H사)</td><td>○ (에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>⑦</td><td>시즌드 켈프 칩 (C사)</td><td>○ (에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>⑧</td><td>씨위드 칩 브라운 라이스 (B사)</td><td>○ (에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>⑨</td><td>켈프 칩 (I사)</td><td>○ (시온마켓, 에이치마트)</td><td>-</td><td>○</td><td></td></tr><tr><td>⑩</td><td>다시마 부각 칩 바이트 사이즈 (D사)</td><td>○ (코스트코)</td><td>○ (아마존, 월마트)</td><td>○</td><td></td></tr><tr><td>(*)</td><td>현지 판매 부각 경쟁제품 10개</td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n농산물, 육류, 해산물, 비타민, 천연 화장품, 가정용품 등 유기농 식품 및 천연 제품을 취급함",
+    "name": "농산물, 육류, 해산물, 비타민, 천연 화장품, 가정용품 등 유기농 식품 및 천연 제품을 취급함",
+    "meta_data": {
+      "chunk_id": "3baae003-ca13-4d0c-85a6-8b54d1b0d04e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3baae003-ca13-4d0c-85a6-8b54d1b0d04e"
+      ],
+      "chunked_count": 1,
+      "index": 227,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 69,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "농산물, 육류, 해산물, 비타민, 천연 화장품, 가정용품 등 유기농 식품 및 천연 제품을 취급함"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)\n\n도시(지역) 캘리포니아\n상세주소 9848 Chapman ave Garden Grove CA\n\n매대 분석 매대 분류 복도식 매대 부각 제품군 그룹 진열\n진열 방식\n브랜드 국적 구성 미국\n\n브랜드 기본 정보 농산물 벌크 포장 식품 비타민 해산물 천연 화장품 가정용품 식품 및 천연 제품을 취급함.\n매장 정보\n도시(지역) 캘리포니아\n매장 내부\n매대 분석 진열 방식 부각 제품군 그룹 진열 상·하단 제품 구성 상단: 부각 및 채소칩 / 하단: 건강 관련 파우더 및 유기농 브랜드 국적 구성 미국 주요 브랜드 브래드스 로 칩스 펀 갈 스낵",
+    "name": "Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)",
+    "meta_data": {
+      "chunk_id": "b4e93bf8-4cc5-4016-923a-a05423b244b8",
+      "page_number": [
+        13
+      ],
+      "item_label": "merged",
+      "index": 234,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "de1fd1c5-09e9-4ece-9b73-8b9e088d4d1c",
+          "content": "<table><tbody><tr><td>도시(지역)</td><td>캘리포니아</td></tr><tr><td>상세주소</td><td>9848 Chapman ave, Garden Grove, CA</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "96bcfc1a-b92c-4538-8a9d-3eb17090f4ec",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><td>매대 분류</td><td>복도식 매대 부각 제품군 그룹 진열</td></tr><tr><td>진열 방식</td><td></td></tr><tr><td>브랜드 국적 구성</td><td>미국</td></tr><tr><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "7c66cc19-46dc-4f1e-960c-0cd2b32bef97",
+          "content": "<table><tbody><tr><td>브랜드 기본 정보</td><td>농산물, 벌크 포장 식품, 비타민 해산물, 천연 화장품, 가정용품 식품 및 천연 제품을 취급함.</td></tr><tr><td>매장 정보</td><td></td></tr><tr><td></td><td>도시(지역) 캘리포니아</td></tr><tr><td>매장 내부</td><td></td></tr><tr><td>매대 분석</td><td>진열 방식 부각 제품군 그룹 진열 상·하단 제품 구성 상단: 부각 및 채소칩 / 하단: 건강 관련 파우더 및 유기농 브랜드 국적 구성 미국 주요 브랜드 브래드스 로 칩스, 펀 갈 스낵</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)\n\n제품명 브래드스 크런치 케일 포파델릭\n(현지어) (BRAD&#x27;s Crunchy kale) (Popadelics)\n제조사 브래드스 로 칩스 (Brad&#x27;s Raw Chips) 펀 갈 스낵 (Fun Gal Snack)\n제품 종류 유기농 채소칩 유기농 채소칩\n중량 57g 40g\n소비자가격 4.99달러 (6898원) 5.99달러 (8281원)\n0.88달러 1.50달러\n10g당 가격 (1210원) (2070원)\n원산지 멕시코 미국\n포장 형태 파우치 파우치\n홍보문구 프로바이오틱스 표고버섯이 통째로 들어있어요!\n인증 CCOF USDA Oranic Non GMO Gluten Free Non GMO Vegan Gluten Free\n수입자 정보 브래드스 로 칩스 (Brad&#x27;s Raw Chips) (-)\n원료 및 케일 해바라기씨 병아리콩 된장(쌀 병아리콩 천일염 물 누룩 포자(아스페르길루스 오리제)) 레몬즙 당근 양파 마늘 토마토 히말라야 소금 강황 가루 가네덴 BC30 건표고버섯 해바라기유 유기농 조미료 블렌드(유기농 타피오카 말토덱스트린 소금\n\n경쟁제품 ① 경쟁제품\n제품 사진\n제품명 (현지어) 브래드스 크런치 케일 (BRAD&#x27;s Crunchy kale) 포파델릭 (Popadelics)\n제조사 (현지어) 브래드스 로 칩스 (Brad&#x27;s Raw Chips) 펀 갈 스낵 (Fun Gal Snack)\n제품 종류 유기농 채소칩 유기농 채소칩\n중량 57g 40g\n소비자가격 4.99달러 (6898원) 5.99달러 (8281원)\n10g당 가격 0.88달러 (1210원) 1.50달러 (2070원)\n원산지 멕시코 미국\n포장 형태 파우치 파우치\n홍보문구 프로바이오틱스 표고버섯이 통째로 들어있어요!\n인증 CCOF USDA Oranic Non GMO Gluten Free Non GMO Vegan Gluten Free\n수입자 정보 브래드스 로 칩스 (Brad&#x27;s Raw Chips) (-)\n원료 및 첨가물 케일 해바라기씨 병아리콩 된장(쌀 병아리콩 천일염 물 누룩 포자(아스페르길루스 오리제)) 레몬즙 당근 양파 마늘 토마토 히말라야 소금 강황 가루 가네덴 BC30 건표고버섯 해바라기유 유기농 조미료 블렌드(유기농 타피오카 말토덱스트린 소금 유기농 마늘 가루 유기농 향신료) 엿당 시럽",
+    "name": "Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)",
+    "meta_data": {
+      "chunk_id": "2d8d1144-0816-4287-ae76-3d98e4f547c7",
+      "page_number": [
+        14
+      ],
+      "item_label": "merged",
+      "index": 251,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ① 스프라우츠 파머스 마켓(Sprouts Farmers Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b54255e2-ef18-41bc-b7b7-43fc361c58fa",
+          "content": "<table><tbody><tr><td>제품명</td><td>브래드스 크런치 케일</td><td>포파델릭</td></tr><tr><td>(현지어)</td><td>(BRAD&#x27;s Crunchy kale)</td><td>(Popadelics)</td></tr><tr><td>제조사</td><td>브래드스 로 칩스 (Brad&#x27;s Raw Chips)</td><td>펀 갈 스낵 (Fun Gal Snack)</td></tr><tr><td>제품 종류</td><td>유기농 채소칩</td><td>유기농 채소칩</td></tr><tr><td>중량</td><td>57g</td><td>40g</td></tr><tr><td>소비자가격</td><td>4.99달러 (6,898원)</td><td>5.99달러 (8,281원)</td></tr><tr><td></td><td>0.88달러</td><td>1.50달러</td></tr><tr><td>10g당 가격</td><td>(1,210원)</td><td>(2,070원)</td></tr><tr><td>원산지</td><td>멕시코</td><td>미국</td></tr><tr><td>포장 형태</td><td>파우치</td><td>파우치</td></tr><tr><td>홍보문구</td><td>프로바이오틱스</td><td>표고버섯이 통째로 들어있어요!</td></tr><tr><td>인증</td><td>CCOF, USDA Oranic, Non GMO, Gluten Free</td><td>Non GMO, Vegan, Gluten Free</td></tr><tr><td>수입자 정보</td><td>브래드스 로 칩스 (Brad&#x27;s Raw Chips)</td><td>(-)</td></tr><tr><td>원료 및</td><td>케일, 해바라기씨, 병아리콩 된장(쌀, 병아리콩, 천일염, 물, 누룩 포자(아스페르길루스 오리제)), 레몬즙, 당근, 양파, 마늘, 토마토, 히말라야 소금, 강황 가루, 가네덴 BC30</td><td>건표고버섯, 해바라기유, 유기농 조미료 블렌드(유기농 타피오카, 말토덱스트린, 소금,</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e63e8aba-e5eb-489b-b27b-b4d167ea358e",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ①</th><th>경쟁제품</th><td></td></tr><tr><td>제품 사진</td><td></td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>브래드스 크런치 케일 (BRAD&#x27;s Crunchy kale)</td><td colspan=\"2\">포파델릭 (Popadelics)</td></tr><tr><td>제조사 (현지어)</td><td>브래드스 로 칩스 (Brad&#x27;s Raw Chips)</td><td colspan=\"2\">펀 갈 스낵 (Fun Gal Snack)</td></tr><tr><td>제품 종류</td><td>유기농 채소칩</td><td colspan=\"2\">유기농 채소칩</td></tr><tr><td>중량</td><td>57g</td><td colspan=\"2\">40g</td></tr><tr><td>소비자가격</td><td>4.99달러 (6,898원)</td><td colspan=\"2\">5.99달러 (8,281원)</td></tr><tr><td>10g당 가격</td><td>0.88달러 (1,210원)</td><td colspan=\"2\">1.50달러 (2,070원)</td></tr><tr><td>원산지</td><td>멕시코</td><td colspan=\"2\">미국</td></tr><tr><td>포장 형태</td><td>파우치</td><td colspan=\"2\">파우치</td></tr><tr><td>홍보문구</td><td>프로바이오틱스</td><td colspan=\"2\">표고버섯이 통째로 들어있어요!</td></tr><tr><td>인증</td><td>CCOF, USDA Oranic, Non GMO, Gluten Free</td><td colspan=\"2\">Non GMO, Vegan, Gluten Free</td></tr><tr><td>수입자 정보</td><td>브래드스 로 칩스 (Brad&#x27;s Raw Chips)</td><td colspan=\"2\">(-)</td></tr><tr><td>원료 및 첨가물</td><td>케일, 해바라기씨, 병아리콩 된장(쌀, 병아리콩, 천일염, 물, 누룩 포자(아스페르길루스 오리제)), 레몬즙, 당근, 양파, 마늘, 토마토, 히말라야 소금, 강황 가루, 가네덴 BC30</td><td colspan=\"2\">건표고버섯, 해바라기유, 유기농 조미료 블렌드(유기농 타피오카, 말토덱스트린, 소금, 유기농 마늘 가루, 유기농 향신료), 엿당 시럽</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n· 판매 제품 특징: 신선식품 및 가공식품, 식료품, 냉장/냉동식품 등 다양한 제품을 판매함\n\n· 매장 주변 특징: 맥콤버(McComber) 쇼핑센터 내에 위치",
+    "name": "· 판매 제품 특징: 신선식품 및 가공식품, 식료품, 냉장/냉동식품 등 다양한 제품을 판매함",
+    "meta_data": {
+      "chunk_id": "68dfa084-7b21-4c85-8f7b-4168acbe065f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "68dfa084-7b21-4c85-8f7b-4168acbe065f",
+        "d92d0c82-dab3-4999-9265-bfc2af582d38"
+      ],
+      "chunked_count": 2,
+      "index": 266,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 103,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "· 판매 제품 특징: 신선식품 및 가공식품, 식료품, 냉장/냉동식품 등 다양한 제품을 판매함"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ② 시온마켓(Zion Market)\n\n도시(지역)\n상세주소 5400 Beach blvd buena park CA\n\n매대 분석 매대 분류 복도식 매대\n진열 방식 김 관련 제품군 그룹\n브랜드 국적 구성 한국\n주요 브랜드 F사 A사\n\n표제목: 사진자료: 현지조사원 자료\n브랜드 기본 정보\n조사 제품 수: 2개\n매장 정보\n매장 내부\n매대 분석 제품 판매 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드 김부각 레이버 스낵 (F사)\n정보",
+    "name": "Shop ② 시온마켓(Zion Market)",
+    "meta_data": {
+      "chunk_id": "a9fee808-2120-4cd1-a246-7e37ba310ea9",
+      "page_number": [
+        15
+      ],
+      "item_label": "merged",
+      "index": 270,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ② 시온마켓(Zion Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e5227fb0-0c9d-42bd-a618-bc696524f90c",
+          "content": "<table><tbody><tr><td>도시(지역)</td><td></td></tr><tr><td>상세주소</td><td>5400 Beach blvd, buena park, CA</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "982ab834-a8e2-4cc2-a3b6-1a7b3f2fcd22",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><th>매대 분류</th><th>복도식 매대</th></tr><tr><td>진열 방식</td><td>김 관련 제품군 그룹</td></tr><tr><td>브랜드 국적 구성</td><td>한국</td></tr><tr><td>주요 브랜드</td><td>F사, A사</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "dc721717-fe38-4522-8b3c-a421a2f9b5a5",
+          "content": "<table><caption>사진자료: 현지조사원 자료</caption><tbody><tr><th>브랜드 기본 정보</th><td></td><td></td></tr><tr><td></td><th colspan=\"3\">조사 제품 수: 2개</th></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td>매대 분석 제품 판매</td><td></td><td>상·하단 제품 구성 브랜드 국적 구성 주요 브랜드 김부각 레이버 스낵 (F사)</td></tr><tr><td>정보</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n5400 Beach blvd, buena park, CA",
+    "name": "5400 Beach blvd, buena park, CA",
+    "meta_data": {
+      "chunk_id": "b8e6fcc6-2d8c-4112-9462-93201c8740ed",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "b8e6fcc6-2d8c-4112-9462-93201c8740ed"
+      ],
+      "chunked_count": 1,
+      "index": 277,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 10,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "5400 Beach blvd, buena park, CA"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ② 시온마켓(Zion Market)\n\n제품명 (현지어) 김부각 레이버 스낵 (Kimbugak Laver Snacks) 씨위드 칩 (Seaweed Chips)\n제조사 (현지어) F사 A사\n제품 종류 부각 부각\n중량 40g 50g\n소비자가격 2.99달러 (4133원) 3.99달러 (5516원)\n0.75달러 0.80달러\n10g당 가격 (1033원) (1103원)\n원산지 한국 한국\n포장 형태 파우치 파우치\n홍보문구 바삭하게 맛있는 김부각! 양반철학 재료가 살아야 맛이 산다\n인증 (-) HACCP\n수입자 정보 J사 A사\n원료 및 첨가물 라이스페이퍼 대두유 팜유 김 김 조미료 라이스페이퍼(타피오카 전분 쌀가루) 카놀라유 해조류 혼합 조미료[간장 분말(밀 대두) 글루탐산나트륨 해조류 가루 오일 파우더(카제인나트륨 유청 단백질 가루) 스테비올 배당체] 찹쌀가루 소금 허브 추출물\n\n경쟁제품 ③ 경쟁제품 ④\n제품 사진\n제품명 (현지어) 김부각 레이버 스낵 (Kimbugak Laver Snacks) 씨위드 (Seaweed 칩 Chips)\n제조사 (현지어) F사 A사\n제품 종류 부각 부각\n중량 40g 50g\n소비자가격 2.99달러 (4133원) 3.99달러 (5516원)\n10g당 가격 0.75달러 (1033원) 0.80달러 (1103원)\n원산지 한국 한국\n포장 형태 파우치 파우치\n홍보문구 바삭하게 맛있는 김부각! 양반철학 재료가 살아야 맛이 산다\n인증 (-) HACCP\n수입자 정보 J사 A사\n원료 및 첨가물 라이스페이퍼 대두유 팜유 김 김 조미료 라이스페이퍼(타피오카 전분 쌀가루) 카놀라유 해조류 혼합 조미료[간장 분말(밀 대두) 글루탐산나트륨 해조류 가루 오일 파우더(카제인나트륨 유청 단백질 가루) 스테비올 배당체] 찹쌀가루 소금 허브 추출물",
+    "name": "Shop ② 시온마켓(Zion Market)",
+    "meta_data": {
+      "chunk_id": "722ab2fa-940c-44a0-915a-fa4c2295b883",
+      "page_number": [
+        16
+      ],
+      "item_label": "merged",
+      "index": 291,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ② 시온마켓(Zion Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d619947a-e829-4426-be0b-965d116dfc29",
+          "content": "<table><tbody><tr><th>제품명 (현지어)</th><th>김부각 레이버 스낵 (Kimbugak Laver Snacks)</th><th>씨위드 칩 (Seaweed Chips)</th></tr><tr><td>제조사 (현지어)</td><td>F사</td><td>A사</td></tr><tr><td>제품 종류</td><td>부각</td><td>부각</td></tr><tr><td>중량</td><td>40g</td><td>50g</td></tr><tr><td>소비자가격</td><td>2.99달러 (4,133원)</td><td>3.99달러 (5,516원)</td></tr><tr><td></td><td>0.75달러</td><td>0.80달러</td></tr><tr><td>10g당 가격</td><td>(1,033원)</td><td>(1,103원)</td></tr><tr><td>원산지</td><td>한국</td><td>한국</td></tr><tr><td>포장 형태</td><td>파우치</td><td>파우치</td></tr><tr><td>홍보문구</td><td>바삭하게 맛있는 김부각!</td><td>양반철학 재료가 살아야 맛이 산다</td></tr><tr><td>인증</td><td>(-)</td><td>HACCP</td></tr><tr><td>수입자 정보</td><td>J사</td><td>A사</td></tr><tr><td>원료 및 첨가물</td><td>라이스페이퍼, 대두유, 팜유, 김, 김 조미료</td><td>라이스페이퍼(타피오카 전분, 쌀가루), 카놀라유, 해조류, 혼합 조미료[간장 분말(밀, 대두), 글루탐산나트륨, 해조류 가루, 오일 파우더(카제인나트륨, 유청 단백질 가루), 스테비올 배당체], 찹쌀가루, 소금, 허브 추출물</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "7c03f5c3-4df0-40ae-a30b-a5c02140a1ca",
+          "content": "<table><tbody><tr><td></td><th colspan=\"2\">경쟁제품 ③</th><th colspan=\"2\">경쟁제품 ④</th><td></td></tr><tr><td>제품 사진</td><td></td><td></td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>김부각 레이버 스낵 (Kimbugak Laver Snacks)</td><td>씨위드 (Seaweed</td><td>칩 Chips)</td><td></td></tr><tr><td>제조사 (현지어)</td><td colspan=\"2\">F사</td><td colspan=\"2\">A사</td><td></td></tr><tr><td>제품 종류</td><td colspan=\"2\">부각</td><td colspan=\"2\">부각</td><td></td></tr><tr><td>중량</td><td colspan=\"2\">40g</td><td colspan=\"2\">50g</td><td></td></tr><tr><td>소비자가격</td><td colspan=\"2\">2.99달러 (4,133원)</td><td colspan=\"2\">3.99달러 (5,516원)</td><td></td></tr><tr><td>10g당 가격</td><td colspan=\"2\">0.75달러 (1,033원)</td><td colspan=\"2\">0.80달러 (1,103원)</td><td></td></tr><tr><td>원산지</td><td colspan=\"2\">한국</td><td colspan=\"2\">한국</td><td></td></tr><tr><td>포장 형태</td><td colspan=\"2\">파우치</td><td colspan=\"2\">파우치</td><td></td></tr><tr><td>홍보문구</td><td colspan=\"2\">바삭하게 맛있는 김부각!</td><td colspan=\"2\">양반철학 재료가 살아야 맛이 산다</td><td></td></tr><tr><td>인증</td><td colspan=\"2\">(-)</td><td colspan=\"2\">HACCP</td><td></td></tr><tr><td>수입자 정보</td><td colspan=\"2\">J사</td><td colspan=\"2\">A사</td><td></td></tr><tr><td>원료 및 첨가물</td><td colspan=\"2\">라이스페이퍼, 대두유, 팜유, 김, 김 조미료</td><td colspan=\"2\">라이스페이퍼(타피오카 전분, 쌀가루), 카놀라유, 해조류, 혼합 조미료[간장 분말(밀, 대두), 글루탐산나트륨, 해조류 가루, 오일 파우더(카제인나트륨, 유청 단백질 가루), 스테비올 배당체], 찹쌀가루, 소금, 허브 추출물</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ③ 에이치마트(H-Mart)\n\n매대 분석 매대 분류 진열 방식 복도식 매대\n상·하단 제품 구성 상·하단: 부각류\n브랜드 국적 구성 한국\n주요 브랜드 G사 H사 C사 B사 I사\n\n매대 분류 복도식 매대\n진열 방식 비건 수프 및 브로드 제품군\n상·하단 제품 구성 상·하단: 부각류\n브랜드 국적 구성 한국\n주요 브랜드 G사 H사 C사 B사 I사\n\n브랜드 기본 정보 에이치마트는 미국에서 가장 큰 아시아 슈퍼마켓 체인임. 1982년 단일 매장으로 시작한 에이치마트는 미국 전역에 97개 이상의 매장을 운영하며 서양 식료품뿐만 아니라 다양한 아시아 식품을 제공하고 있음. 에이치마트는 전국 소매 연맹(National Retail Federation)에서 가장 빠르게 성장하는 소매업체 중 하나로 인정받고 있음\n매장 정보\n도시(지역) 캘리포니아\n매장 내부 5111 Beach blvd buean\n매대 분류 진열 방식 복도식 매대 비건 수프 및 브로드 상·하단: 부각류 한국 G사 H사 B사 I사\n매대 분석 제품 판매 정보 상·하단 제품 구성 브랜드 국적 구성\n주요 브랜드 레이버 칩 (H사) 시즌드 켈프 칩 (C사) 씨위드\n\n유형: 아시안/한인마트 매장 정보 브랜드 에이치마트는 미국에서 가장 큰 아시아 슈퍼마켓 체인임. 1982년 단일 매장으로 시작한 에이치마트는 미국 전역에 97개 이상의 매장을 운영하며 서양 식료품뿐만 아니라 다양한 아시아 식품을 제공하고 정보\n판매 제품 특징: 아시아 식품 및 서양 식료품을 비롯한 다양한 식재료와\n생활용품을 취급하며 매장 내 식당 서비스를 제공함\n· 매장 주변 특징: 맥콤버(McComber) 쇼핑센터 내에 위치\n현지 주민 한국 교민\n도시(지역)\n상세주소\n매대 분류 매대\n진열 방식 비건 수프 및 브로드 제품군\n분석 상·하단 제품 구성 상·하단: 부각류\n브랜드 국적 구성 한국\n주요 브랜드 H사 C사\nG사 B사 I사\n레이버\n씨위드 갈릭\n정보\n라이스 랙\n(G사)\n토푸 크리스프-블",
+    "name": "Shop ③ 에이치마트(H-Mart)",
+    "meta_data": {
+      "chunk_id": "0418cf1f-b45b-4f76-8076-7b4b4d3ccbeb",
+      "page_number": [
+        17
+      ],
+      "item_label": "merged",
+      "index": 304,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 에이치마트(H-Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "a6aaa061-0df2-422e-bc69-8374538d475b",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><th>매대 분류 진열 방식</th><th>복도식 매대</th></tr><tr><td>상·하단 제품 구성</td><td>상·하단: 부각류</td></tr><tr><td>브랜드 국적 구성</td><td>한국</td></tr><tr><td>주요 브랜드</td><td>G사, H사, C사, B사, I사</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "692e518b-7daf-467d-8b06-6a898d863226",
+          "content": "<table><tbody><tr><th>매대 분류</th><th>복도식 매대</th></tr><tr><td>진열 방식</td><td>비건 수프 및 브로드 제품군</td></tr><tr><td>상·하단 제품 구성</td><td>상·하단: 부각류</td></tr><tr><td>브랜드 국적 구성</td><td>한국</td></tr><tr><td>주요 브랜드</td><td>G사, H사, C사, B사, I사</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "180763e9-5193-4d03-9b24-73bfdf0631e6",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><td></td><th>에이치마트는 미국에서 가장 큰 아시아 슈퍼마켓 체인임. 1982년 단일 매장으로 시작한 에이치마트는 미국 전역에 97개 이상의 매장을 운영하며 서양 식료품뿐만 아니라 다양한 아시아 식품을 제공하고 있음. 에이치마트는 전국 소매 연맹(National Retail Federation)에서 가장 빠르게 성장하는 소매업체 중 하나로 인정받고 있음</th></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td>도시(지역)</td><td>캘리포니아</td></tr><tr><td>매장</td><td>내부</td><td>5111 Beach blvd, buean</td></tr><tr><td></td><td>매대 분류 진열 방식</td><td>복도식 매대 비건 수프 및 브로드 상·하단: 부각류 한국 G사, H사, B사, I사</td></tr><tr><td>매대 분석 제품 판매 정보</td><td>상·하단 제품 구성 브랜드 국적 구성</td><td></td></tr><tr><td></td><td>주요 브랜드</td><td>레이버 칩 (H사) 시즌드 켈프 칩 (C사) 씨위드</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "a5297b4f-8225-450d-ad42-0a12344687e2",
+          "content": "<table><tbody><tr><td>유형: 아시안/한인마트 매장 정보</td><td colspan=\"9\">브랜드 에이치마트는 미국에서 가장 큰 아시아 슈퍼마켓 체인임. 1982년 단일 매장으로 시작한 에이치마트는 미국 전역에 97개 이상의 매장을 운영하며 서양 식료품뿐만 아니라 다양한 아시아 식품을 제공하고</td><td>정보</td></tr><tr><td>판매 제품 특징: 아시아 식품 및 서양 식료품을 비롯한 다양한 식재료와</td><td></td><td></td><td></td></tr><tr><td>생활용품을 취급하며 매장 내 식당 서비스를 제공함</td><td></td><td></td><td></td></tr><tr><td>· 매장 주변 특징: 맥콤버(McComber) 쇼핑센터 내에 위치</td><td></td><td></td><td></td></tr><tr><td>현지 주민, 한국 교민</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>도시(지역)</td><td></td></tr><tr><td></td><td></td><td>상세주소</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>매대 분류</td><td colspan=\"4\">매대</td></tr><tr><td></td><td></td><td>진열 방식</td><td colspan=\"4\">비건 수프 및 브로드 제품군</td></tr><tr><td></td><td></td><td>분석 상·하단 제품 구성</td><td colspan=\"4\">상·하단: 부각류</td></tr><tr><td></td><td></td><td>브랜드 국적 구성</td><td colspan=\"4\">한국</td></tr><tr><td></td><td></td><td>주요 브랜드</td><td colspan=\"4\">H사, C사,</td></tr><tr><td></td><td></td><td></td><td colspan=\"4\">G사, B사, I사</td></tr><tr><td></td><td></td><td>레이버</td><td></td></tr><tr><td></td><td></td><td>씨위드 갈릭</td><td></td></tr><tr><td></td><td></td><td>정보</td><td></td></tr><tr><td></td><td></td><td>라이스 랙</td><td></td></tr><tr><td></td><td></td><td>(G사)</td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>토푸 크리스프-블</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ③ 에이치마트(H-Mart)\n\n제품명 (현지어) 토푸 씨위드 라이스 크리스프-블랙 갈릭 (Tofu Seaweed Rice Crisps-Black Garlic) 레이버 칩 (Laver chips)\n제조사 (현지어) G사 H사\n제품 종류 부각 부각\n중량 30g 75g\n소비자가격 3.99달러 (5516원) 4.99달러 (6898원)\n10g당 가격 1.33달러 (1839원) 0.67달러 (920원)\n원산지 한국 한국\n포장 형태 파우치 파우치\n홍보문구 진짜 두부가 들어간 청정바다의 신선한 원초만 골라 선별하여 정성스럽게 만든 제품으로 색택과 맛이 풍부한 영양간식입니다.\n인증 (-) (-)\n수입자 정보 그랜드 슈퍼센터 (Grand Supercenter Inc) 그랜드 슈퍼센터 (Grand Supercenter Inc)\n원료 및 첨가물 김 쌀 두부 현미유 마늘 흑마늘 고구마 전분 설탕 감자 전분 김 옥수수유 찹쌀 참깨 소금\n\n경쟁제품 ⑤ 경쟁제품\n제품 사진\n제품명 (현지어) 토푸 씨위드 라이스 크리스프-블랙 갈릭 (Tofu Seaweed Rice Crisps-Black Garlic) 레이버 칩 (Laver chips)\n제조사 (현지어) G사 H사\n제품 종류 부각 부각\n중량 30g 75g\n소비자가격 3.99달러 (5516원) 4.99달러 (6898원)\n10g당 가격 1.33달러 (1839원) 0.67달러 (920원)\n원산지 한국 한국\n포장 형태 파우치 파우치\n홍보문구 진짜 두부가 들어간 청정바다의 신선한 원초만 골라 선별하여 정성스럽게 만든 제품으로 색택과 맛이 풍부한 영양간식입니다.\n인증 (-) (-)\n수입자 정보 그랜드 슈퍼센터 (Grand Supercenter Inc) 그랜드 슈퍼센터 (Grand Supercenter Inc)\n원료 및 첨가물 김 쌀 두부 현미유 마늘 흑마늘 고구마 전분 설탕 감자 전분 김 옥수수유 찹쌀 참깨 소금",
+    "name": "Shop ③ 에이치마트(H-Mart)",
+    "meta_data": {
+      "chunk_id": "c3599ac1-f66d-42c7-bbd3-b446434333a9",
+      "page_number": [
+        18
+      ],
+      "item_label": "merged",
+      "index": 324,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 에이치마트(H-Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "f6f2f46f-2cdc-4482-9364-3aa0b554c5ad",
+          "content": "<table><tbody><tr><td>제품명 (현지어)</td><td>토푸 씨위드 라이스 크리스프-블랙 갈릭 (Tofu Seaweed Rice Crisps-Black Garlic)</td><td>레이버 칩 (Laver chips)</td></tr><tr><td>제조사 (현지어)</td><td>G사</td><td>H사</td></tr><tr><td>제품 종류</td><td>부각</td><td>부각</td></tr><tr><td>중량</td><td>30g</td><td>75g</td></tr><tr><td>소비자가격</td><td>3.99달러 (5,516원)</td><td>4.99달러 (6,898원)</td></tr><tr><td>10g당 가격</td><td>1.33달러 (1,839원)</td><td>0.67달러 (920원)</td></tr><tr><td>원산지</td><td>한국</td><td>한국</td></tr><tr><td>포장 형태</td><td>파우치</td><td>파우치</td></tr><tr><td>홍보문구</td><td>진짜 두부가 들어간</td><td>청정바다의 신선한 원초만 골라 선별하여 정성스럽게 만든 제품으로 색택과 맛이 풍부한 영양간식입니다.</td></tr><tr><td>인증</td><td>(-)</td><td>(-)</td></tr><tr><td>수입자 정보</td><td>그랜드 슈퍼센터 (Grand Supercenter Inc)</td><td>그랜드 슈퍼센터 (Grand Supercenter Inc)</td></tr><tr><td>원료 및 첨가물</td><td>김, 쌀, 두부, 현미유, 마늘, 흑마늘, 고구마 전분, 설탕, 감자 전분</td><td>김, 옥수수유, 찹쌀, 참깨, 소금</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "2894d9d7-72d9-4f8f-8050-ff0155d6a7e2",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑤</th><td></td><th>경쟁제품</th></tr><tr><td>제품 사진</td><td></td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>토푸 씨위드 라이스 크리스프-블랙 갈릭 (Tofu Seaweed Rice Crisps-Black Garlic)</td><td>레이버 칩</td><td>(Laver chips)</td></tr><tr><td>제조사 (현지어)</td><td>G사</td><td colspan=\"2\">H사</td></tr><tr><td>제품 종류</td><td colspan=\"3\">부각 부각</td></tr><tr><td>중량</td><td>30g</td><td colspan=\"2\">75g</td></tr><tr><td>소비자가격</td><td>3.99달러 (5,516원)</td><td colspan=\"2\">4.99달러 (6,898원)</td></tr><tr><td>10g당 가격</td><td>1.33달러 (1,839원)</td><td colspan=\"2\">0.67달러 (920원)</td></tr><tr><td>원산지</td><td>한국</td><td colspan=\"2\">한국</td></tr><tr><td>포장 형태</td><td>파우치</td><td colspan=\"2\">파우치</td></tr><tr><td>홍보문구</td><td>진짜 두부가 들어간</td><td colspan=\"2\">청정바다의 신선한 원초만 골라 선별하여 정성스럽게 만든 제품으로 색택과 맛이 풍부한 영양간식입니다.</td></tr><tr><td>인증</td><td>(-)</td><td colspan=\"2\">(-)</td></tr><tr><td>수입자 정보</td><td>그랜드 슈퍼센터 (Grand Supercenter Inc)</td><td colspan=\"2\">그랜드 슈퍼센터 (Grand Supercenter Inc)</td></tr><tr><td>원료 및 첨가물</td><td>김, 쌀, 두부, 현미유, 마늘, 흑마늘, 고구마 전분, 설탕, 감자 전분</td><td colspan=\"2\">김, 옥수수유, 찹쌀, 참깨, 소금</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ③ 에이치마트(H-Mart)\n\n제품명 (현지어) 시즌드 켈프 칩 (Seasoned Kelp Chips) 씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)\n제조사 (현지어) C사 B사\n제품 종류 부각 부각\n중량 51g 40g\n소비자가격 3.49달러 (4825원) 3.99달러 (5516원)\n10g당 가격 0.68달러 (946원) 1.00달러\n원산지 한국 (1379원) 한국\n포장 형태 파우치 파우치\n홍보문구 수라상 다시마튀각은 다시마의 요드 칼슘 등 미네랄과 알긴산이 다량 함유되어 성장기 어린이들의 밑반찬은 물론 간식 술안주로 드시면 좋습니다. 전통 김부각을 스낵으로 바삭하게!\n인증 Vegan Gluten Free Dairy Free -\n수입자 정보 K사 B사\n원료 및 첨가물 다시마 옥수수유 설탕 소금 쌀칩(타피오카 전분 현미 소금) 팜올레인유 해조류 조미료[설탕 간장 맛 조미료(포도당 대두 밀 땅콩 가루 이노신산나트륨 이노시네이트 추출물)] 로즈마리 오일레오레진\n\n경쟁제품 ⑦ 경쟁제품 ⑧\n제품 사진\n제품명 (현지어) 시즌드 켈프 칩 (Seasoned Kelp Chips) 씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)\n제조사 (현지어) C사 B사\n제품 종류 부각 부각\n중량 51g 40g\n소비자가격 3.49달러 (4825원) 3.99달러 (5516원)\n10g당 가격 0.68달러 (946원) 1.00달러 (1379원)\n원산지 한국 한국\n포장 형태 파우치 파우치\n홍보문구 수라상 다시마튀각은 다시마의 요드 칼슘 등 미네랄과 알긴산이 다량 함유되어 성장기 어린이들의 밑반찬은 물론 간식 술안주로 드시면 좋습니다. 전통 김부각을 스낵으로 바삭하게!\n인증 Vegan Gluten Free Dairy Free -\n수입자 정보 K사 B사\n원료 및 첨가물 다시마 옥수수유 설탕 소금 쌀칩(타피오카 전분 현미 소금) 팜올레인유 해조류 조미료[설탕 간장 맛 조미료(포도당 대두 밀 땅콩 가루 이노신산나트륨 이노시네이트 추출물)] 로즈마리 오일레오레진",
+    "name": "Shop ③ 에이치마트(H-Mart)",
+    "meta_data": {
+      "chunk_id": "6ec89b87-cf08-4a3b-afd9-e5cfae5d50a3",
+      "page_number": [
+        19
+      ],
+      "item_label": "merged",
+      "index": 337,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 에이치마트(H-Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4ccd00e9-7758-47b0-a9a1-d6501843cc38",
+          "content": "<table><tbody><tr><th>제품명 (현지어)</th><th>시즌드 켈프 칩 (Seasoned Kelp Chips)</th><th>씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)</th></tr><tr><td>제조사 (현지어)</td><td>C사</td><td>B사</td></tr><tr><td>제품 종류</td><td>부각</td><td>부각</td></tr><tr><td>중량</td><td>51g</td><td>40g</td></tr><tr><td>소비자가격</td><td>3.49달러 (4,825원)</td><td>3.99달러 (5,516원)</td></tr><tr><td>10g당 가격</td><td>0.68달러 (946원)</td><td>1.00달러</td></tr><tr><td>원산지</td><td>한국</td><td>(1,379원) 한국</td></tr><tr><td>포장 형태</td><td>파우치</td><td>파우치</td></tr><tr><td>홍보문구</td><td>수라상 다시마튀각은 다시마의 요드, 칼슘 등 미네랄과 알긴산이 다량 함유되어 성장기 어린이들의 밑반찬은 물론 간식, 술안주로 드시면 좋습니다.</td><td>전통 김부각을 스낵으로 바삭하게!</td></tr><tr><td>인증</td><td>Vegan, Gluten Free, Dairy Free</td><td>-</td></tr><tr><td>수입자 정보</td><td>K사</td><td>B사</td></tr><tr><td>원료 및 첨가물</td><td>다시마, 옥수수유, 설탕, 소금</td><td>쌀칩(타피오카 전분, 현미, 소금), 팜올레인유, 해조류, 조미료[설탕, 간장 맛 조미료(포도당, 대두, 밀, 땅콩 가루, 이노신산나트륨, 이노시네이트 추출물)], 로즈마리 오일레오레진</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "38fe9881-c14a-40b3-8ac8-ff59ec079fba",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑦</th><th>경쟁제품 ⑧</th></tr><tr><td>제품 사진</td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>시즌드 켈프 칩 (Seasoned Kelp Chips)</td><td>씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)</td></tr><tr><td>제조사 (현지어)</td><td>C사</td><td>B사</td></tr><tr><td>제품 종류</td><td>부각</td><td>부각</td></tr><tr><td>중량</td><td>51g</td><td>40g</td></tr><tr><td>소비자가격</td><td>3.49달러 (4,825원)</td><td>3.99달러 (5,516원)</td></tr><tr><td>10g당 가격</td><td>0.68달러 (946원)</td><td>1.00달러 (1,379원)</td></tr><tr><td>원산지</td><td>한국</td><td>한국</td></tr><tr><td>포장 형태</td><td>파우치</td><td>파우치</td></tr><tr><td>홍보문구</td><td>수라상 다시마튀각은 다시마의 요드, 칼슘 등 미네랄과 알긴산이 다량 함유되어 성장기 어린이들의 밑반찬은 물론 간식, 술안주로 드시면 좋습니다.</td><td>전통 김부각을 스낵으로 바삭하게!</td></tr><tr><td>인증</td><td>Vegan, Gluten Free, Dairy Free</td><td>-</td></tr><tr><td>수입자 정보</td><td>K사</td><td>B사</td></tr><tr><td>원료 및 첨가물</td><td>다시마, 옥수수유, 설탕, 소금</td><td>쌀칩(타피오카 전분, 현미, 소금), 팜올레인유, 해조류, 조미료[설탕, 간장 맛 조미료(포도당, 대두, 밀, 땅콩 가루, 이노신산나트륨, 이노시네이트 추출물)], 로즈마리 오일레오레진</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ③ 에이치마트(H-Mart)\n\n경쟁제품 ⑨\n제품 사진\n제품명 (현지어) 켈프 칩 (Kelp Chips)\n제조사 (현지어) I사\n제품 종류 부각\n중량 60g\n소비자가격 2.99달러 (4133원)\n10g당 가격 0.50달러 (689원)\n원산지 한국\n포장 형태 파우치\n홍보문구 뼈사랑 칼슘이 듬뿍\n인증 -\n수입자 정보 그랜드 슈퍼센터 (Grand Supercenter Inc)\n원료 및 첨가물 다시마 옥수수유 설탕 참깨 고추씨유 함초 분말 칼슘",
+    "name": "Shop ③ 에이치마트(H-Mart)",
+    "meta_data": {
+      "chunk_id": "c76899cd-24ef-468f-82ef-5fcff44dbefc",
+      "page_number": [
+        20
+      ],
+      "item_label": "merged",
+      "index": 350,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 에이치마트(H-Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d34e15e6-9459-49f2-a921-e1675a1132dc",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑨</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td>켈프 칩 (Kelp Chips)</td></tr><tr><td>제조사 (현지어)</td><td>I사</td></tr><tr><td>제품 종류</td><td>부각</td></tr><tr><td>중량</td><td>60g</td></tr><tr><td>소비자가격</td><td>2.99달러 (4,133원)</td></tr><tr><td>10g당 가격</td><td>0.50달러 (689원)</td></tr><tr><td>원산지</td><td>한국</td></tr><tr><td>포장 형태</td><td>파우치</td></tr><tr><td>홍보문구</td><td>뼈사랑 칼슘이 듬뿍</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>수입자 정보</td><td>그랜드 슈퍼센터 (Grand Supercenter Inc)</td></tr><tr><td>원료 및 첨가물</td><td>다시마, 옥수수유, 설탕, 참깨, 고추씨유, 함초 분말, 칼슘</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ④ 코스트코(Costco)\n\n브랜드 기본 정보 체인으로 세계에 코스트코는 미국의 멤버십 전용 대형 창고형 마켓 세계에서 세 번째로 큰 소매업체임. 전 884개의 매장을 보유하고 있으며 미국과 푸에르토리코에 611개의 매장을 운영함. 연회비를 결제한 멤버십 가입자를 대상으로 유기농 식품 가공식품 생필품 등을 유통함\n조사 제품 수: 1개\n매장 정보\n도시(지역) 캘리포니아\n위치 상세주소 13225 Beach Blvd Westminster CA 92683\n매장 내부\n매대 분석 매대 분류 진열 상·하단 제품 브랜드 국적 방식 구성 상단: 재고 적재 / 하단: 아시아 식품류\n구성\n제품 판매 정보 주요 브랜드 다시마 부각 칩 바이트 사이즈\n\n● 매장 정보 유형: 하이퍼마켓/슈퍼마켓 판매 제품 특징: 브랜드 코스트코는 미국의 멤버십 전용 대형 창고형 체인으로 세계에서 세 번째로 큰 소매업체임. 세계에 884개의 매장을 보유하고 있으며 미국과 푸에르토리코에 611개의 매장을 운영함. 연회비를 결제한 멤버십 가입자를 대상으로 유기농 가공식품 생필품 등을 유통함\n가입자를 가공식품 의류 등을 대량으로 판매함 매장 주변 특징: 상업 구역 내 위치 멤버십 신선식품 조사 제품 수: 1개\n·\n매장 정보 · 주요 고객층:\n현지 주민\n매장 내부 위치 상세주소\n매대 분류\n진열 방식\n매대 분석 브랜드 국적 구성\n제품 판매 정보\n브랜드\n주요",
+    "name": "Shop ④ 코스트코(Costco)",
+    "meta_data": {
+      "chunk_id": "1f180ad7-34e5-4ee4-a7f5-1ddfc07b628e",
+      "page_number": [
+        21
+      ],
+      "item_label": "merged",
+      "index": 360,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ④ 코스트코(Costco)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ae016676-e662-4e4e-8e63-e5a6aaa9c02e",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"2\">체인으로 세계에</th><th>코스트코는 미국의 멤버십 전용 대형 창고형 마켓 세계에서 세 번째로 큰 소매업체임. 전 884개의 매장을 보유하고 있으며 미국과 푸에르토리코에 611개의 매장을 운영함. 연회비를 결제한 멤버십 가입자를 대상으로 유기농 식품, 가공식품, 생필품 등을 유통함</th></tr><tr><td></td><th colspan=\"3\">조사 제품 수: 1개</th></tr><tr><td>매장 정보</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td colspan=\"2\">도시(지역) 캘리포니아</td></tr><tr><td></td><td>위치</td><td>상세주소</td><td>13225 Beach Blvd, Westminster, CA 92683</td></tr><tr><td>매장 내부</td><td></td><td></td><td></td></tr><tr><td>매대 분석</td><td>매대 분류 진열 상·하단 제품 브랜드 국적</td><td>방식 구성</td><td>상단: 재고 적재 / 하단: 아시아 식품류</td></tr><tr><td></td><td></td><td>구성</td><td></td></tr><tr><td>제품 판매 정보</td><td></td><td>주요 브랜드 다시마</td><td>부각 칩 바이트 사이즈</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "42bcaaa5-c051-4e3b-845f-6ff47048f1ef",
+          "content": "<table><tbody><tr><td>● 매장 정보 유형: 하이퍼마켓/슈퍼마켓 판매 제품 특징:</td><td>브랜드</td><td></td><td>코스트코는 미국의 멤버십 전용 대형 창고형 체인으로 세계에서 세 번째로 큰 소매업체임. 세계에 884개의 매장을 보유하고 있으며 미국과 푸에르토리코에 611개의 매장을 운영함. 연회비를 결제한 멤버십 가입자를 대상으로 유기농 가공식품, 생필품 등을 유통함</td><td></td></tr><tr><td>가입자를 가공식품, 의류 등을 대량으로 판매함 매장 주변 특징: 상업 구역 내 위치</td><td></td><td>멤버십 신선식품,</td><td>조사 제품 수: 1개</td><td></td></tr><tr><td></td><td></td><td>·</td><td></td><td></td></tr><tr><td></td><td>매장 정보</td><td></td><td></td><td>· 주요 고객층:</td></tr><tr><td></td><td></td><td>현지</td><td></td><td>주민</td></tr><tr><td></td><td>매장 내부</td><td></td><td>위치 상세주소</td><td></td></tr><tr><td></td><td></td><td></td><td>매대 분류</td><td></td></tr><tr><td></td><td></td><td></td><td>진열 방식</td><td></td></tr><tr><td></td><td>매대 분석</td><td></td><td>브랜드 국적 구성</td><td></td></tr><tr><td></td><td>제품 판매 정보</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>브랜드</td><td></td></tr><tr><td></td><td></td><td></td><td>주요</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Shop ④ 코스트코(Costco)\n\n경쟁제품 ⑩\n제품 사진\n제품명 (현지어) 다시마 부각 칩 바이트 사이즈 (Dashima Bugak Chips Bite Size)\n제조사 (현지어) D사\n제품 종류 부각\n중량 150g\n소비자가격 6.49달러 (8972원)\n10g당 가격 0.43달러 (598원)\n원산지 한국\n포장 형태 파우치\n홍보문구 한입에 먹기 편하게 만들었습니다.\n인증 Non GMO Gluten Free\n수입자 정보 (-)\n원료 및 첨가물 다시마 찹쌀 고올레산 해바라기유 참깨 설탕 천일염 양파 가루 다시마 가루 멸치 가루",
+    "name": "Shop ④ 코스트코(Costco)",
+    "meta_data": {
+      "chunk_id": "91acec5a-de46-4088-9407-b4a006e5633a",
+      "page_number": [
+        22
+      ],
+      "item_label": "merged",
+      "index": 376,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Shop ④ 코스트코(Costco)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "1b3b38c6-95ae-4666-98fa-af2e2bad1728",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑩</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td>다시마 부각 칩 바이트 사이즈 (Dashima Bugak Chips Bite Size)</td></tr><tr><td>제조사 (현지어)</td><td>D사</td></tr><tr><td>제품 종류</td><td>부각</td></tr><tr><td>중량</td><td>150g</td></tr><tr><td>소비자가격</td><td>6.49달러 (8,972원)</td></tr><tr><td>10g당 가격</td><td>0.43달러 (598원)</td></tr><tr><td>원산지</td><td>한국</td></tr><tr><td>포장 형태</td><td>파우치</td></tr><tr><td>홍보문구</td><td>한입에 먹기 편하게 만들었습니다.</td></tr><tr><td>인증</td><td>Non GMO, Gluten Free</td></tr><tr><td>수입자 정보</td><td>(-)</td></tr><tr><td>원료 및 첨가물</td><td>다시마, 찹쌀, 고올레산 해바라기유, 참깨, 설탕, 천일염, 양파 가루, 다시마 가루, 멸치 가루</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 대표 경쟁기업으로 현지화가 잘 되어있는 기업 총 3개사 선정\n\n오프라인 유통채널에서 경쟁제품을 판매하고 있는 경쟁기업 중, 현지화가 잘 되어있는 현지 진출 기업 3개사를 경쟁기업으로 선정함. 선정된 경쟁기업 3개사는 평균 약 60년간 사업을 이어오고 있는 것으로 확인됨. A사는 1969년에 설립되어 55년의 업력을 보유하고 있으며 C사는 1970년 설립 이후 54년째 사업을 이어오고 있음. B사는 1953년에 설립되어 가장 오래된 71년의 업력을 보유하고 있음\n\n미국에 진출한 경쟁기업 3개사가 판매하고 있는 부각 동일 품목 수를 조사한 결과, A사가 총 4개로 경쟁기업 3개사 중 가장 많은 동일 품목을 판매 중인 것으로 조사됨. 그다음으로는 B사가 3개, C사가 2개의 동일 품목을 판매 중인 것으로 확인됨",
+    "name": "▶ 대표 경쟁기업으로 현지화가 잘 되어있는 기업 총 3개사 선정",
+    "meta_data": {
+      "chunk_id": "adf7c99d-f0d7-4e27-bc99-948dcabec9cf",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "adf7c99d-f0d7-4e27-bc99-948dcabec9cf",
+        "4a1e626e-7bed-4032-8dec-7afaf0be8644",
+        "66879c2e-7f9a-4868-bc07-70468ebb6354"
+      ],
+      "chunked_count": 3,
+      "index": 392,
+      "page_number": [
+        24
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 388,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 대표 경쟁기업으로 현지화가 잘 되어있는 기업 총 3개사 선정"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.1] 부각 경쟁기업 일반 현황\n\n경쟁기업 국적 업력 동일 품목 수\nA사 한국 55년 4개\nC사 한국 54년 2개\nB사 한국 71년 3개",
+    "name": "[표 3.1] 부각 경쟁기업 일반 현황",
+    "meta_data": {
+      "chunk_id": "3463ca8d-119a-4682-90fc-bb77d2ea4389",
+      "page_number": [
+        24
+      ],
+      "item_label": "merged",
+      "index": 396,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.1] 부각 경쟁기업 일반 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "33015c49-7414-4d74-82b8-3323682a083f",
+          "content": "<table><tbody><tr><th>경쟁기업</th><th>국적</th><th>업력</th><th>동일 품목 수</th></tr><tr><td>A사</td><td>한국</td><td>55년</td><td>4개</td></tr><tr><td>C사</td><td>한국</td><td>54년</td><td>2개</td></tr><tr><td>B사</td><td>한국</td><td>71년</td><td>3개</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.2] 경쟁기업 기본 정보\n\n기준 설명\n① 기업명 기업의 이름\n② 위치 기업 본사 위치\n③ 매출액 기업 23년도 매출액\n직원 수 기업 23년도 직원 수\n설립연도 기업의 설립연도\n동일품목 부각 및 유기농 채소칩",
+    "name": "[표 3.2] 경쟁기업 기본 정보",
+    "meta_data": {
+      "chunk_id": "3a95473d-c31a-4c6c-98a9-15bc9416764b",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 407,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.2] 경쟁기업 기본 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5aadd4c4-3458-4965-90ac-56026bcf65f3",
+          "content": "<table><tbody><tr><th colspan=\"2\">기준</th><th>설명</th></tr><tr><td>①</td><td>기업명</td><td>기업의 이름</td></tr><tr><td>②</td><td>위치</td><td>기업 본사 위치</td></tr><tr><td rowspan=\"4\">③</td><td>매출액</td><td>기업 23년도 매출액</td></tr><tr><td>직원 수</td><td>기업 23년도 직원 수</td></tr><tr><td>설립연도</td><td>기업의 설립연도</td></tr><tr><td>동일품목</td><td>부각 및 유기농 채소칩</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류",
+    "name": "▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류",
+    "meta_data": {
+      "chunk_id": "e76a83a7-acac-4bec-914f-784242e8c638",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e76a83a7-acac-4bec-914f-784242e8c638"
+      ],
+      "chunked_count": 1,
+      "index": 409,
+      "page_number": [
+        25
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 33,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.3] 경쟁기업 홍보 현지화 정도\n\n기준 설명 현지화 정도\n①현지화 미진행 경쟁기업 국적 외 홈페이지 및 SNS 홍보 계정 없음 ○ (하)\n②홍보 글로벌화 글로벌 홈페이지 및 SNS 홍보 계정 활용 ◐ (중)\n③홍보 현지화 현지 전용 홈페이지 및 SNS 홍보 계정 활용 ● (상)",
+    "name": "[표 3.3] 경쟁기업 홍보 현지화 정도",
+    "meta_data": {
+      "chunk_id": "d7e52dca-273b-4622-8d99-26ce5a2ef668",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 410,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.3] 경쟁기업 홍보 현지화 정도",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "521df792-5161-431c-8f61-7dd576344de2",
+          "content": "<table><tbody><tr><th>기준</th><th>설명</th><th>현지화 정도</th></tr><tr><td>①현지화 미진행</td><td>경쟁기업 국적 외 홈페이지 및 SNS 홍보 계정 없음</td><td>○ (하)</td></tr><tr><td>②홍보 글로벌화</td><td>글로벌 홈페이지 및 SNS 홍보 계정 활용</td><td>◐ (중)</td></tr><tr><td>③홍보 현지화</td><td>현지 전용 홈페이지 및 SNS 홍보 계정 활용</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류",
+    "name": "▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류",
+    "meta_data": {
+      "chunk_id": "22a976f3-5c6a-4a00-a97c-97c58749e6b2",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "22a976f3-5c6a-4a00-a97c-97c58749e6b2"
+      ],
+      "chunked_count": 1,
+      "index": 412,
+      "page_number": [
+        25
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 32,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.4] 경쟁기업 포장 현지화 정도 기준\n\n기준 설명 현지화 정도\n①개선사항 無 별도 포장 없이 벌크 판매하거나 경쟁기업 국적 내에서 유통하는 포장 방식 그대로 사용 ○ (하)\n②포장 개선 경쟁기업 국적 내에서 유통되는 제품의 포장 디자인 문구 현지화 ◐ (중)\n③포장 현지화 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 ● (상)",
+    "name": "[표 3.4] 경쟁기업 포장 현지화 정도 기준",
+    "meta_data": {
+      "chunk_id": "b7436f6e-df01-43f1-9b36-f30cc6724d8a",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 413,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.4] 경쟁기업 포장 현지화 정도 기준",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "92700637-313c-468b-99bd-b5d25fac8019",
+          "content": "<table><tbody><tr><th>기준</th><th>설명</th><th>현지화 정도</th></tr><tr><td>①개선사항 無</td><td>별도 포장 없이 벌크 판매하거나 경쟁기업 국적 내에서 유통하는 포장 방식 그대로 사용</td><td>○ (하)</td></tr><tr><td>②포장 개선</td><td>경쟁기업 국적 내에서 유통되는 제품의 포장 디자인 문구 현지화</td><td>◐ (중)</td></tr><tr><td>③포장 현지화</td><td>현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.5] 경쟁기업 제품 제조 방식 기준\n\n기준 설명 적극성\n①OEM 간접 제조 제조 전문 OEM 업체와 제휴를 맺어 제조 위탁 ○ (하)\n②국내제조 직접 경쟁기업 본국에서 직접 제조하여 현지 수출 ◐ (중)\n③현지제조 제조 현지에 제조시설을 구비하여 직접 제조 ● (상)",
+    "name": "[표 3.5] 경쟁기업 제품 제조 방식 기준",
+    "meta_data": {
+      "chunk_id": "50e85abc-cac0-4345-9118-9fe99aaf6c3e",
+      "page_number": [
+        26
+      ],
+      "item_label": "merged",
+      "index": 422,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.5] 경쟁기업 제품 제조 방식 기준",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e2b308a4-7627-468a-a606-6040c0d7e9fe",
+          "content": "<table><tbody><tr><th colspan=\"2\">기준</th><th>설명</th><th>적극성</th></tr><tr><td>①OEM</td><td>간접 제조</td><td>제조 전문 OEM 업체와 제휴를 맺어 제조 위탁</td><td>○ (하)</td></tr><tr><td>②국내제조</td><td>직접</td><td>경쟁기업 본국에서 직접 제조하여 현지 수출</td><td>◐ (중)</td></tr><tr><td>③현지제조</td><td>제조</td><td>현지에 제조시설을 구비하여 직접 제조</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.6] 경쟁기업 유통채널\n\n기준 채널 종류\n오프라인 스프라우츠 파머스 마켓 시온마켓 에이치마트 코스트코\n온라인 아마존 월마트 크로거",
+    "name": "[표 3.6] 경쟁기업 유통채널",
+    "meta_data": {
+      "chunk_id": "2d1ae4a9-a5bc-4fed-9226-cb4a5be540d5",
+      "page_number": [
+        26
+      ],
+      "item_label": "merged",
+      "index": 426,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.6] 경쟁기업 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "24651a41-e6b9-4820-9a16-7e21c6feb94f",
+          "content": "<table><tbody><tr><th>기준</th><th>채널 종류</th></tr><tr><td>오프라인</td><td>스프라우츠 파머스 마켓, 시온마켓, 에이치마트, 코스트코</td></tr><tr><td>온라인</td><td>아마존, 월마트, 크로거</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n미국에 진출한 경쟁기업 3개사 모두 현지조사를 진행한 오프라인 매장에 입점해 있는 것으로 확인됨. A사와 B사는 시온마켓과 에이치마트 두 곳에, C사는 에이치마트에 입점한 것으로 조사됨. 또한 A사는 미국 인기 온라인 쇼핑몰인 월마트에 입점하여 제품을 유통하고 있음\n\n# ▶ 경쟁기업 3개사 글로벌 자사 홈페이지와 SNS 플랫폼 활용\n\n미국 시장에 진출한 경쟁기업 3개사의 홍보 채널을 조사한 결과, 3개사 모두 글로벌 자사 홈페이지를 통해 기업 정보 및 자사 제품의 정보를 제공하고 있는 것으로 확인됨. 또한, 3사 모두 페이스북, 인스타그램, 유튜브 등 SNS 플랫폼을 운영하고 있음. 특히, C사는 글로벌 홈페이지와 SNS 플랫폼에 자사 제품을 활용한 레시피 콘텐츠를 업로드하며 온라인 마케팅을 전개하고 있음",
+    "name": "미국에 진출한 경쟁기업 3개사 모두 현지조사를 진행한 오프라인 매장에 입점해 있는 것으로 확인됨. A사와 B사는 시온마켓과 에이치마트 두 곳에, C사는 에이치마트에 입점한 것으로 조사됨. 또한 A사는 미국 인기 온라인 쇼핑몰인 월마트에 입점하여 제품을 유통하고 있음",
+    "meta_data": {
+      "chunk_id": "fe01e4f4-b17d-43f3-a2bd-efacfc5ca910",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "fe01e4f4-b17d-43f3-a2bd-efacfc5ca910",
+        "1ad781d2-8d6d-439d-8fc8-74b4dca0a746",
+        "c787678d-2710-4ff6-8a34-74a55beba8a7"
+      ],
+      "chunked_count": 3,
+      "index": 436,
+      "page_number": [
+        27
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 409,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "미국에 진출한 경쟁기업 3개사 모두 현지조사를 진행한 오프라인 매장에 입점해 있는 것으로 확인됨. A사와 B사는 시온마켓과 에이치마트 두 곳에, C사는 에이치마트에 입점한 것으로 조사됨. 또한 A사는 미국 인기 온라인 쇼핑몰인 월마트에 입점하여 제품을 유통하고 있음"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 경쟁기업, 홍보문구로 제품의 섭취 방법, 영양소 등을 강조\n\n미국 시장에 진출한 경쟁기업은 제품을 홍보할 때 섭취 방법, 영양소 등을 강조하는 문구를 주로 사용하고 있음. B사는 바삭한 식감을 살린 스낵으로 섭취하는 것을 제안하였으며, C사는 자사 제품의 영양소 설명과 더불어 섭취 방법으로 밑반찬, 간식, 술안주 등을 추천함. A사는 자사가 추구하는 슬로건을 홍보문구로 활용하고 있는 것으로 조사됨",
+    "name": "▶ 경쟁기업, 홍보문구로 제품의 섭취 방법, 영양소 등을 강조",
+    "meta_data": {
+      "chunk_id": "fc61277b-428d-4c7d-ba75-0ea82a1191ed",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "fc61277b-428d-4c7d-ba75-0ea82a1191ed",
+        "e0a1b320-f17f-4eb6-9191-aab974d0762e"
+      ],
+      "chunked_count": 2,
+      "index": 445,
+      "page_number": [
+        28
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 226,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업, 홍보문구로 제품의 섭취 방법, 영양소 등을 강조"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 3.7] 미국 부각 경쟁기업 현황\n\n경쟁사 진출 채널 홍보 채널 홍보문구 홍보문구 사진\nA사 Ÿ 오프라인 매장 - 시온마켓 - 에이치마트 Ÿ 온라인 매장 - 월마트 Ÿ 자사 홈페이지 (한국/글로벌) Ÿ SNS 플랫폼 (한국) - 페이스북 - 유튜브 - 양반철학 - 재료가 살아야 맛이 산다 - Good Taste From Good Ingredients - Since 1986\nC사 Ÿ 오프라인 매장 - 에이치마트 Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브 - 다시마의 요드 칼슘 등 미네랄과 알긴산이 다량 함유 - 성장기 어린이들의 밑반찬은 물론 간식 술안주로 드시면\nB사 Ÿ 오프라인 매장 - 시온마켓 - 에이치마트 Ÿ 자사 홈페이지 (한국/글로벌) Ÿ SNS 플랫폼 (한국) - 페이스북 - 인스타그램 - 전통 김부각을 스낵으로 바삭하게!",
+    "name": "[표 3.7] 미국 부각 경쟁기업 현황",
+    "meta_data": {
+      "chunk_id": "16780360-db27-49b8-a1bf-bd5daf965bd9",
+      "page_number": [
+        28
+      ],
+      "item_label": "merged",
+      "index": 447,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 3.7] 미국 부각 경쟁기업 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e75a1353-b683-44a8-89d4-5f13c9195f12",
+          "content": "<table><tbody><tr><th>경쟁사</th><th>진출 채널</th><th>홍보 채널</th><th>홍보문구</th><th>홍보문구 사진</th></tr><tr><td>A사</td><td>Ÿ 오프라인 매장 - 시온마켓 - 에이치마트 Ÿ 온라인 매장 - 월마트</td><td>Ÿ 자사 홈페이지 (한국/글로벌) Ÿ SNS 플랫폼 (한국) - 페이스북 - 유튜브</td><td>- 양반철학 - 재료가 살아야 맛이 산다 - Good Taste From Good Ingredients - Since 1986</td><td></td></tr><tr><td>C사</td><td>Ÿ 오프라인 매장 - 에이치마트</td><td>Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브</td><td>- 다시마의 요드, 칼슘 등 미네랄과 알긴산이 다량 함유 - 성장기 어린이들의 밑반찬은 물론 간식, 술안주로 드시면</td><td></td></tr><tr><td>B사</td><td>Ÿ 오프라인 매장 - 시온마켓 - 에이치마트</td><td>Ÿ 자사 홈페이지 (한국/글로벌) Ÿ SNS 플랫폼 (한국) - 페이스북 - 인스타그램</td><td>- 전통 김부각을 스낵으로 바삭하게!</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ① A사\n\n표제목: 사진자료: 현지조사원 자료\n기업명 A사\n기업 기업 설명 A사는 대한민국 소재의 그룹으로 식문화 해양 및 운송 생활 투자 등의 분야에서 여러 자회사를 운영하고 있음. A사의 분야의 자회사는 미국 일본 중국에 해외 법인을 설립하여 육류 가공품 유제품 간편식 음료 반려동물식품 등 다양한 제품을 생산해 국내·외에 유통하고 있음 및 식문화 참치 식음료\n위치 서울시 서초구 마방로 68(양재동 275)\n동일 품목 수 4개\n규모 설립연도 1969년\n기업 &lt;오프라인 매장&gt; 시온마켓 에이치마트 제품명 중량 씨위드 칩 (Seaweed Chips) 50g\n진출 채널 &lt;온라인 매장&gt; 소비자가격 3.99달러 (5516원 7) )\n현지 진출 방법 포장 현지화 ● (상) 미국 현지 포장 특성에 맞춘 포장 방식 및 디자인 문구 사용\n홍보 현지화 ◐ (중) 글로벌 홈페이지 및 SNS 홍보 계정 활용\n\n기업명 A사\n기업 기본 정보 기업 설명 A사는 대한민국 소재의 그룹으로 식문화 해양 및 운송 생활 및 투자 등의 분야에서 여러 자회사를 운영하고 있음. A사의 식문화 분야의 자회사는 미국 일본 중국에 해외 법인을 설립하여 참치 육류 가공품 유제품 간편식 음료 반려동물식품 등 다양한 식음료 제품을 생산해 국내·외에 유통하고 있음 서울시 서초구 마방로 68(양재동 275)\n동일 품목 수 4개\n기업 진출 채널 &lt;오프라인 매장&gt; 시온마켓 에이치마트 &lt;온라인 매장&gt; 제품명 중량 소비자가격 씨위드 칩 (Seaweed Chips) 50g 3.99달러 (5516원 7) )\n현지 진출 방법 포장 현지화 미국 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용\n홍보 채널 자사 홈페이지(한국/글로벌) 유튜브(한국) 식음료 분야 자회사 페이스북/유튜브(한국)\n홍보 방식",
+    "name": "① A사",
+    "meta_data": {
+      "chunk_id": "be685bf7-5e91-46a8-aee6-b99abd29cab0",
+      "page_number": [
+        29
+      ],
+      "item_label": "merged",
+      "index": 459,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ① A사",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "863ea97e-f2c4-4c76-8a1c-b98868c2ea27",
+          "content": "<table><caption>사진자료: 현지조사원 자료</caption><tbody><tr><td></td><th>기업명</th><th colspan=\"3\">A사</th></tr><tr><td>기업</td><td>기업 설명</td><td>A사는 대한민국 소재의 그룹으로, 식문화, 해양 및 운송, 생활 투자 등의 분야에서 여러 자회사를 운영하고 있음. A사의 분야의 자회사는 미국, 일본, 중국에 해외 법인을 설립하여, 육류 가공품, 유제품, 간편식, 음료, 반려동물식품 등 다양한 제품을 생산해 국내·외에 유통하고 있음</td><td></td><td>및 식문화 참치, 식음료</td></tr><tr><td></td><td>위치</td><td colspan=\"3\">서울시 서초구 마방로 68(양재동 275)</td></tr><tr><td></td><td></td><td colspan=\"3\">동일 품목 수 4개</td></tr><tr><td></td><td>규모</td><td colspan=\"3\">설립연도 1969년</td></tr><tr><td>기업</td><td>&lt;오프라인 매장&gt; 시온마켓 에이치마트</td><td></td><td>제품명 중량</td><td>씨위드 칩 (Seaweed Chips) 50g</td></tr><tr><td>진출 채널</td><td>&lt;온라인 매장&gt;</td><td></td><td>소비자가격</td><td>3.99달러 (5,516원 7) )</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>● (상)</td><td>미국 현지 포장</td><td>특성에 맞춘 포장 방식 및 디자인 문구 사용</td></tr><tr><td></td><td>홍보 현지화</td><td>◐ (중)</td><td>글로벌 홈페이지</td><td>및 SNS 홍보 계정 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "68bb3d3c-0273-474f-8448-4e2e83486b67",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"2\">A사</th></tr><tr><td>기업 기본 정보</td><td>기업 설명</td><td colspan=\"2\">A사는 대한민국 소재의 그룹으로, 식문화, 해양 및 운송, 생활 및 투자 등의 분야에서 여러 자회사를 운영하고 있음. A사의 식문화 분야의 자회사는 미국, 일본, 중국에 해외 법인을 설립하여, 참치, 육류 가공품, 유제품, 간편식, 음료, 반려동물식품 등 다양한 식음료 제품을 생산해 국내·외에 유통하고 있음 서울시 서초구 마방로 68(양재동 275)</td></tr><tr><td></td><td></td><td colspan=\"2\">동일 품목 수 4개</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 시온마켓 에이치마트 &lt;온라인 매장&gt;</td><td>제품명 중량 소비자가격</td><td>씨위드 칩 (Seaweed Chips) 50g 3.99달러 (5,516원 7) )</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>미국 현지</td><td>특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td></tr><tr><td></td><td>홍보 채널</td><td>자사 홈페이지(한국/글로벌), 유튜브(한국), 식음료 분야 자회사 페이스북/유튜브(한국)</td><td></td></tr><tr><td>홍보 방식</td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n7) 1달러=1,382.40원(2024.07.01., KEB 하나은행 매매기준율 적용)",
+    "name": "7) 1달러=1,382.40원(2024.07.01., KEB 하나은행 매매기준율 적용)",
+    "meta_data": {
+      "chunk_id": "de974280-9fe5-4d5a-9551-1690f0cae747",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "de974280-9fe5-4d5a-9551-1690f0cae747"
+      ],
+      "chunked_count": 1,
+      "index": 466,
+      "page_number": [
+        29
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 42,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "7) 1달러=1,382.40원(2024.07.01., KEB 하나은행 매매기준율 적용)"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ② C사\n\n기업명 C사\n기업 기본 정보 기업 설명 C사는 한국의 전통 식품을 해외 교민들에게 공급하는 것을 목표로 시작하여 식품 수출 사업을 지속해서 이어가고 있는 한국의 기업임. 음료 즉석식품 소스류 해산물 가공식품 등 다양한 제품을 생산 및 유통함. 미국 중국 등에 지사를 보유하고 미국 캐나다 일본 홍콩 호주 뉴질랜드 유럽 동남아시아 중동 등 세계 각국으로 식품을 수출하고 있음 식품군의 있으며 대만\n위치 서울특별시 강남구 삼성로 562\n규모 동일품목 수 2개\n설립연도 1970년\n기업 진출 채널 &lt;오프라인 매장&gt; 에이치마트 &lt;온라인 매장&gt; 제품명 중량 소비자가격 (Seasoned Kelp Chips) 51g 3.49달러\n현지 진출 방법 포장 현지화 홍보 현지화 ● (상) 미국 ● 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 전용 홈페이지 및 SNS 홍보 계정 활용\n\n기업명 C사\n기업 기본 정보 기업 설명 C사는 한국의 전통 식품을 해외 교민들에게 공급하는 것을 목표로 시작하여 식품 수출 사업을 지속해서 이어가고 있는 한국의 기업임. 음료 즉석식품 소스류 해산물 가공식품 등 다양한 식품군의 제품을 생산 및 유통함. 미국 중국 등에 지사를 보유하고 있으며 미국 캐나다 일본 홍콩 호주 뉴질랜드 유럽 동남아시아 대만 중동 등 세계 각국으로 식품을 수출하고 있음\n위치 서울특별시 강남구 삼성로 562\n규모 동일품목 수 2개\n기업 진출 채널 &lt;오프라인 매장&gt; 에이치마트 &lt;온라인 매장&gt; 제품명 시즌드 켈프 칩 (Seasoned Kelp Chips) 중량 51g 소비자가격 3.49달러 (4825원)\n제품 종류 부각\n현지 진출 방법 포장 현지화 ● (상) 미국 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 ●\n홍보 방식\n홍보 채널 자사 홈페이지(글로벌) 페이스북/인스타그램/유튜브(글로벌)\n게시 주기 2주에 1~2건 게시물 유형 기업 소개 브랜드 및 제품 소개 레시피 안내",
+    "name": "② C사",
+    "meta_data": {
+      "chunk_id": "9a810274-a20b-43c8-a4be-15f447063d8a",
+      "page_number": [
+        30
+      ],
+      "item_label": "merged",
+      "index": 473,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ② C사",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8a1bcb43-dfb8-4aa2-833f-3c170f415408",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"2\">C사</th></tr><tr><td>기업 기본 정보</td><td>기업 설명</td><td>C사는 한국의 전통 식품을 해외 교민들에게 공급하는 것을 목표로 시작하여 식품 수출 사업을 지속해서 이어가고 있는 한국의 기업임. 음료, 즉석식품, 소스류, 해산물 가공식품 등 다양한 제품을 생산 및 유통함. 미국, 중국 등에 지사를 보유하고 미국, 캐나다, 일본, 홍콩, 호주, 뉴질랜드, 유럽, 동남아시아, 중동 등 세계 각국으로 식품을 수출하고 있음</td><td>식품군의 있으며 대만,</td></tr><tr><td></td><th>위치</th><th colspan=\"2\">서울특별시 강남구 삼성로 562</th></tr><tr><td></td><th>규모</th><th colspan=\"2\">동일품목 수 2개</th></tr><tr><td></td><td></td><th>설립연도</th><th>1970년</th></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 에이치마트 &lt;온라인 매장&gt;</td><td>제품명 중량 소비자가격</td><td>(Seasoned Kelp Chips) 51g 3.49달러</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화 홍보 현지화</td><td>● (상) 미국 ●</td><td>현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 전용 홈페이지 및 SNS 홍보 계정 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "19c79752-36e3-453c-a1cf-fd8009f46d1f",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th>C사</th></tr><tr><td>기업 기본 정보</td><td>기업 설명</td><td>C사는 한국의 전통 식품을 해외 교민들에게 공급하는 것을 목표로 시작하여 식품 수출 사업을 지속해서 이어가고 있는 한국의 기업임. 음료, 즉석식품, 소스류, 해산물 가공식품 등 다양한 식품군의 제품을 생산 및 유통함. 미국, 중국 등에 지사를 보유하고 있으며 미국, 캐나다, 일본, 홍콩, 호주, 뉴질랜드, 유럽, 동남아시아, 대만, 중동 등 세계 각국으로 식품을 수출하고 있음</td></tr><tr><td></td><td colspan=\"2\">위치 서울특별시 강남구 삼성로 562</td></tr><tr><td></td><td>규모</td><td>동일품목 수 2개</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 에이치마트 &lt;온라인 매장&gt;</td><td>제품명 시즌드 켈프 칩 (Seasoned Kelp Chips) 중량 51g 소비자가격 3.49달러 (4,825원)</td></tr><tr><td></td><td></td><td>제품 종류 부각</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>● (상) 미국 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 ●</td></tr><tr><td>홍보 방식</td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">홍보 채널 자사 홈페이지(글로벌), 페이스북/인스타그램/유튜브(글로벌)</td></tr><tr><td></td><td colspan=\"2\">게시 주기 2주에 1~2건 게시물 유형 기업 소개, 브랜드 및 제품 소개, 레시피 안내</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ③ B사\n\nB사\n기업 기본 정보 기업 설명 B사는 식문화 사업 및 바이오 사업을 생활문화기업임. 조미료 간편식 스낵류 등 식품 카테고리 전반을 글로벌 시장에서는 한국의 육류 및 아우르는 맛을 세계화한 중심으로 어류 가공품 소스 김 제품을 개발해 유통하며 제품 라인을 출시해\n위치 서울특별시 중구 동호로 330\n동일 품목 수\n규모 설립연도 3개\n기업 1953년 씨위드 칩 브라운 라이스 (Seaweed\n&lt;오프라인 매장&gt; 시온마켓 에이치마트 제품명 중량 Chip Brown Rice) 40g\n진출 채널 소비자가격 3.99달러 (5516원)\n&lt;온라인 매장&gt; ◐ (중)\n- 제품 종류 부각 내에서 유통되는 제품의\n현지 진출 방법 포장 현지화 경쟁기업 국적 포장 디자인 문구 현지화\n홍보 현지화 ● (상) 현지 전용 홈페이지 및 SNS 홍보 계정 활용\n\n기업명 B사\n기업 기본 정보 기업 설명 B사는 식문화 사업 및 바이오 사업을 중심으로 생활문화기업임. 조미료 간편식 육류 및 스낵류 등 식품 카테고리 전반을 아우르는 글로벌 시장에서는 한국의 맛을 세계화한 인기를 끌고 있음 하는 한국의 어류 가공품 소스 김 제품을 개발해 유통하며 제품 라인을 출시해\n위치 서울특별시 중구 동호로 330\n동일 품목 수 3개\n기업 진출 채널 &lt;오프라인 매장&gt; 시온마켓 에이치마트 &lt;온라인 매장&gt; 소비자가격 제품명 중량 씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice) 40g 3.99달러 (5516원)\n현지 진출 방법 포장 현지화 ◐ (중) ● 경쟁기업 국적 포장 내에서 유통되는 제품의 디자인 문구 현지화\n홍보 방식 홈페이지(한국/글로벌) 페이스북/인스타그램/(한국)\n\n제품명 씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)\n중량 40g\n소비자가격 3.99달러 (5516원)\n제품 종류 부각",
+    "name": "③ B사",
+    "meta_data": {
+      "chunk_id": "057a8825-6401-429b-91ab-69d4a4ea9f44",
+      "page_number": [
+        31
+      ],
+      "item_label": "merged",
+      "index": 489,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ③ B사",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ab56bde7-1ef0-4434-aec0-6ac11f481c62",
+          "content": "<table><tbody><tr><td></td><th colspan=\"4\">B사</th></tr><tr><td>기업 기본 정보</td><td>기업 설명</td><td>B사는 식문화 사업 및 바이오 사업을 생활문화기업임. 조미료, 간편식, 스낵류 등 식품 카테고리 전반을 글로벌 시장에서는 한국의</td><td>육류 및 아우르는 맛을 세계화한</td><td>중심으로 어류 가공품, 소스, 김, 제품을 개발해 유통하며, 제품 라인을 출시해</td></tr><tr><td></td><td>위치</td><td colspan=\"3\">서울특별시 중구 동호로 330</td></tr><tr><td></td><td></td><td>동일 품목 수</td><td></td><td></td></tr><tr><td></td><td>규모</td><td>설립연도</td><td colspan=\"2\">3개</td></tr><tr><td>기업</td><td></td><td></td><td colspan=\"2\">1953년 씨위드 칩 브라운 라이스 (Seaweed</td></tr><tr><td></td><td>&lt;오프라인 매장&gt; 시온마켓 에이치마트</td><td></td><td>제품명 중량</td><td>Chip Brown Rice) 40g</td></tr><tr><td>진출 채널</td><td></td><td></td><td>소비자가격</td><td>3.99달러 (5,516원)</td></tr><tr><td></td><td>&lt;온라인 매장&gt;</td><td>◐ (중)</td><td></td><td></td></tr><tr><td></td><td>-</td><td></td><td>제품 종류</td><td>부각 내에서 유통되는 제품의</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td></td><td>경쟁기업 국적 포장 디자인</td><td>문구 현지화</td></tr><tr><td></td><td>홍보 현지화</td><td>● (상)</td><td>현지 전용 홈페이지 및</td><td>SNS 홍보 계정 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "010a52e0-c140-47ee-9a82-7e0ad2a85bc3",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"3\">B사</th></tr><tr><td rowspan=\"3\">기업 기본 정보</td><td>기업 설명</td><td>B사는 식문화 사업 및 바이오 사업을 중심으로 생활문화기업임. 조미료, 간편식, 육류 및 스낵류 등 식품 카테고리 전반을 아우르는 글로벌 시장에서는 한국의 맛을 세계화한 인기를 끌고 있음</td><td></td><td>하는 한국의 어류 가공품, 소스, 김, 제품을 개발해 유통하며, 제품 라인을 출시해</td></tr><tr><td>위치</td><td colspan=\"3\">서울특별시 중구 동호로 330</td></tr><tr><td></td><td>동일 품목 수</td><td colspan=\"2\">3개</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 시온마켓 에이치마트 &lt;온라인 매장&gt;</td><td>소비자가격</td><td>제품명 중량</td><td>씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice) 40g 3.99달러 (5,516원)</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>◐ (중) ●</td><td>경쟁기업 국적 포장</td><td>내에서 유통되는 제품의 디자인 문구 현지화</td></tr><tr><td>홍보 방식</td><td></td><td></td><td>홈페이지(한국/글로벌), 페이스북/인스타그램/(한국)</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "2a41ff86-5565-4350-99e8-ba0d33a8f8bc",
+          "content": "<table><tbody><tr><th>제품명</th><th>씨위드 칩 브라운 라이스 (Seaweed Chip Brown Rice)</th></tr><tr><td>중량</td><td>40g</td></tr><tr><td>소비자가격</td><td>3.99달러 (5,516원)</td></tr><tr><td>제품 종류</td><td>부각</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n-1995년 설립된 한국의 유통업체로 2009년 미국 진출\n\n-육류, 유제품, 수산물, 냉동식품, 즉석 가공품 등 식료품 취급",
+    "name": "-1995년 설립된 한국의 유통업체로 2009년 미국 진출",
+    "meta_data": {
+      "chunk_id": "d4fac5f7-9ba6-44fa-867d-fbfd9b0557af",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d4fac5f7-9ba6-44fa-867d-fbfd9b0557af",
+        "2a617abd-e611-4f49-9736-ad955a412dd4"
+      ],
+      "chunked_count": 2,
+      "index": 515,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 82,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "-1995년 설립된 한국의 유통업체로 2009년 미국 진출"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 담당자 정보\n\n소비자가격 3.62달러 (5000원 9) )\n중량 40g\n포장 형태 파우치\n특징 동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품",
+    "name": "담당자 정보",
+    "meta_data": {
+      "chunk_id": "63fa01fa-d234-483c-8379-93dd442bb34e",
+      "page_number": [
+        33
+      ],
+      "item_label": "merged",
+      "index": 518,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 담당자 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "53b601ed-e8a7-492e-bf51-6a72c0f4151d",
+          "content": "<table><tbody><tr><td>소비자가격</td><td>3.62달러 (5,000원 9) )</td></tr><tr><td>중량</td><td>40g</td></tr><tr><td>포장 형태</td><td>파우치</td></tr><tr><td>특징</td><td>동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품\n\n# 메가마트(Mega Mart) Retail Supervisor\n\n# Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다.\n\n당사에서 판매되는 다시마 부각 스낵은 보통 65g당 4.99달러 (6,898원)에 판매되며, 현재 40% 할인을 적용해 2.99달러(4,133원)에 판매되고 있습니다. 고객사의 제품은 이보다 약간 작은 용량으로 3.66달러(5,000원)의 가격은 미국 시장에서 적합하다고 판단됩니다. 참고로, 부각 스낵의 가격은 5달러(6,912원)를 넘지 않는 경우가 대부분입니다. 다른 브랜드의 부각 제품과 유사하게 소비하고 남은 제품의 신선도를 유지할 수 있도록 지퍼형으로 재밀봉할 수 있는 포장 옵션을 추가하는 것이 좋아 보입니다.\n\n# Q2. 고객사 제품을 현지에서 꾸준히 판매하기 위해 필요한 준비사항이나 보완점은 무엇인가요?\n\n적합한 유통 채널을 찾아 제품을 자주 구매하는 소비자층을 확보하는 것이 중요합니다. 제품의 장점을 강조하는 마케팅 전략을 지속적으로 펼치는 것이 좋습니다. 특히, 부각 스낵이 비건 제품이라는 점을 부각시키는 것이 효과적일 것입니다. 미국에서 비건 인구가 꾸준히 증가하고 있으므로, 비건 소비자들을 타겟으로 하는 마케팅에 집중하는 것이 바람직합니다.",
+    "name": "동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품",
+    "meta_data": {
+      "chunk_id": "92111406-f7cb-46d7-bff1-082b72064e57",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "92111406-f7cb-46d7-bff1-082b72064e57",
+        "58627119-9ddc-43a3-974f-a2d887064f5e",
+        "a3d93331-50c8-431d-b7e1-3459ae04aae6",
+        "9a333f5f-1ea3-4e8f-9d25-7d1a7027c925",
+        "729fc6a6-b90f-4794-81f5-91d9cc786af0",
+        "0e8b3542-8dfd-42cc-99ed-cf4c634cc082"
+      ],
+      "chunked_count": 6,
+      "index": 529,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 670,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q3. 부각 구매 시 바이어(수입 유통업체) 입장에서 주요 고려 사항은 무엇인가요?\n\n8) 사진자료: 메가마트(Mega Mart) 공식 홈페이지\n\n9) 1달러=1,382.4원(2024.07.01., KEB하나은행 매매기준율 적용)",
+    "name": "Q3. 부각 구매 시 바이어(수입 유통업체) 입장에서 주요 고려 사항은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "6eb412cf-853a-41c6-a07d-0182391fc1ab",
+      "page_number": [
+        33
+      ],
+      "item_label": "merged",
+      "index": 538,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q3. 부각 구매 시 바이어(수입 유통업체) 입장에서 주요 고려 사항은 무엇인가요?",
+      "merged_children": [
+        {
+          "item_label": "text",
+          "chunk_id": "a88b0a79-9d1c-4133-a4b6-237163c16e6e",
+          "content": "8) 사진자료: 메가마트(Mega Mart) 공식 홈페이지"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "26947602-9788-46ca-a053-3b8b518054ea",
+          "content": "9) 1달러=1,382.4원(2024.07.01., KEB하나은행 매매기준율 적용)"
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n바이어들은 현지 시장의 수요와 소비자들의 선호도를 고려합니다. 부각 스낵이 다양한 맛으로 제공되지만, 가장 인기 있는 오리지널 맛이 다른 맛에 비해 더 많이 수입될 것입니다. 가격도 중요한 요소입니다. 소비자들이 제품을 구매할 때 가격에 대해 크게 고민하지 않도록 적절한 가격 책정이 필요합니다.",
+    "name": "바이어들은 현지 시장의 수요와 소비자들의 선호도를 고려합니다. 부각 스낵이 다양한 맛으로 제공되지만, 가장 인기 있는 오리지널 맛이 다른 맛에 비해 더 많이 수입될 것입니다. 가격도 중요한 요소입니다. 소비자들이 제품을 구매할 때 가격에 대해 크게 고민하지 않도록 적절한 가격 책정이 필요합니다.",
+    "meta_data": {
+      "chunk_id": "a6737ff9-5849-47c0-b8d4-d112d87295d9",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a6737ff9-5849-47c0-b8d4-d112d87295d9"
+      ],
+      "chunked_count": 1,
+      "index": 539,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 147,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "바이어들은 현지 시장의 수요와 소비자들의 선호도를 고려합니다. 부각 스낵이 다양한 맛으로 제공되지만, 가장 인기 있는 오리지널 맛이 다른 맛에 비해 더 많이 수입될 것입니다. 가격도 중요한 요소입니다. 소비자들이 제품을 구매할 때 가격에 대해 크게 고민하지 않도록 적절한 가격 책정이 필요합니다."
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?\n\n부각은 모든 연령대의 소비자에게 인기 있는 스낵입니다. 미국 시장에서는 부각이 김, 새우, 마늘 등 다양한 맛으로 제공되지만, 부각 본연의 맛을 살린 오리지널 맛이 가장 인기가 많습니다. 다른 맛은 특정한 취향을 가진 소비자에게만 어필하는 경향이 있습니다. 소비자들은 주로 부각의 바삭한 식감을 즐기기 위해 구매하는데, 이 독특한 식감이 부각의 주요 구매 요인으로 작용합니다.\n\n# Q5. 해외 기업이 현지 시장에 공급할 때의 절차와 유통 과정은 어떻게 되나요?\n\n해외에서 수입되는 모든 제품은 미국 시장에 진입하기 위해 건강 및 안전 지침을 준수해야 합니다. 특정 제품에 대한 수요를 정확히 파악하는 것도 중요한데, 적절한 수입량을 결정하는 데 도움이 되기 때문입니다. 당사의 경우, 제품이 미국에 도착하면 당사의 창고로 운송된 후 각 소매점으로 바로 배급됩니다.",
+    "name": "Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "d440af3a-f714-4571-a3b7-e9a549b97d31",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d440af3a-f714-4571-a3b7-e9a549b97d31",
+        "f0f868bc-3fc5-49bb-a3de-580c9e3e4e03",
+        "79a0d29d-7dff-4a06-a534-8e46e8923cbe",
+        "7aec9015-8114-4da8-9bb7-6780670da4fd"
+      ],
+      "chunked_count": 4,
+      "index": 548,
+      "page_number": [
+        34
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 450,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?\n\n요약 경쟁제품 경쟁기업 인터뷰 경쟁력파악",
+    "name": "Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "4df9b2e8-e2c8-46b1-a9f7-6ab591159697",
+      "page_number": [
+        34,
+        35
+      ],
+      "item_label": "merged",
+      "index": 552,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "cac2d0a9-51da-49eb-bbb9-d67505c20e70",
+          "content": "<table><tbody><tr><td>요약</td><td>경쟁제품</td><td>경쟁기업</td><td>인터뷰</td><td>경쟁력파악</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n부각이 미국 소비자들 사이에서 인기를 얻고 있지만, 주로 아시안마트나 온라인 쇼핑몰에서 판매되고 있습니다. 다른 유형의 소매점에서는 아직 찾아보기 어렵습니다. 부각 제품을 판매하기 위한 가장 적절한 유통 채널은 야미(Yami)와 같은 온라인 쇼핑 플랫폼일 것입니다. 많은 소비자들이 특정 간식을 찾을 때, 지역 상점에 직접 방문하기보다는 온라인에서 검색하는 경우가 많기 때문입니다.",
+    "name": "부각이 미국 소비자들 사이에서 인기를 얻고 있지만, 주로 아시안마트나 온라인 쇼핑몰에서 판매되고 있습니다. 다른 유형의 소매점에서는 아직 찾아보기 어렵습니다. 부각 제품을 판매하기 위한 가장 적절한 유통 채널은 야미(Yami)와 같은 온라인 쇼핑 플랫폼일 것입니다. 많은 소비자들이 특정 간식을 찾을 때, 지역 상점에 직접 방문하기보다는 온라인에서 검색하는 경우가 많기 때문입니다.",
+    "meta_data": {
+      "chunk_id": "d7c7ef0e-3e67-4d43-b2ac-98ff2b3b30ec",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d7c7ef0e-3e67-4d43-b2ac-98ff2b3b30ec"
+      ],
+      "chunked_count": 1,
+      "index": 553,
+      "page_number": [
+        34
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 204,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "부각이 미국 소비자들 사이에서 인기를 얻고 있지만, 주로 아시안마트나 온라인 쇼핑몰에서 판매되고 있습니다. 다른 유형의 소매점에서는 아직 찾아보기 어렵습니다. 부각 제품을 판매하기 위한 가장 적절한 유통 채널은 야미(Yami)와 같은 온라인 쇼핑 플랫폼일 것입니다. 많은 소비자들이 특정 간식을 찾을 때, 지역 상점에 직접 방문하기보다는 온라인에서 검색하는 경우가 많기 때문입니다."
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?\n\n부각이 비건 식품이고, 건강상 많은 이점이 있기 때문에 헬스장이나 스포츠 센터 근처의 슈퍼마켓 또는 편의점에서 프로모션을 진행하는 것이 좋은 전략이 될 것입니다. 또한 온라인 스토어에서 1+1 행사나 특별 할인과 같은 혜택을 제공하면, 새로운 제품에 관심이 있는 소비자들을 유인하는 데 도움이 될 것입니다.",
+    "name": "Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "831e95c0-55d8-4950-a97a-48a36b78e875",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "831e95c0-55d8-4950-a97a-48a36b78e875",
+        "488e7f92-66e9-4eec-9347-3b3c4182ef9d"
+      ],
+      "chunked_count": 2,
+      "index": 556,
+      "page_number": [
+        35
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 236,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n-1982년 미국 뉴욕에 설립된 미국 최대의 아시아 슈퍼마켓 체인\n\n-수산물, 육류, 간식류, 냉동식품, 즉석 가공품 등 글로벌 식료품 취급",
+    "name": "-1982년 미국 뉴욕에 설립된 미국 최대의 아시아 슈퍼마켓 체인",
+    "meta_data": {
+      "chunk_id": "561361b9-7a7a-4d69-9141-affcf1eda21d",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "561361b9-7a7a-4d69-9141-affcf1eda21d",
+        "59140bc2-cf6c-456b-ba43-9a54d7a08e82"
+      ],
+      "chunked_count": 2,
+      "index": 570,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 96,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "-1982년 미국 뉴욕에 설립된 미국 최대의 아시아 슈퍼마켓 체인"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 고객사 제품 정보\n\n소비자가격 3.62달러 (5000원)\n중량 40g\n포장 형태 파우치\n특징 동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품",
+    "name": "고객사 제품 정보",
+    "meta_data": {
+      "chunk_id": "008f9566-fa63-4230-a00c-cddaf26b6870",
+      "page_number": [
+        36
+      ],
+      "item_label": "merged",
+      "index": 576,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 고객사 제품 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "08367adc-bc78-46da-8526-a6972def867d",
+          "content": "<table><tbody><tr><td>소비자가격</td><td>3.62달러 (5,000원)</td></tr><tr><td>중량</td><td>40g</td></tr><tr><td>포장 형태</td><td>파우치</td></tr><tr><td>특징</td><td>동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서 직접 생산한 제품</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다.\n\n당사에서 판매되는 부각은 250g에 8.99달러(12,428원)입니다. 포장과 중량의 차이가 있어 고객사 제품의 가격이 미국 시장에 적합한지 평가하기 어렵습니다. 시범 판매를 통해 해당 가격대에서 제품이 잘 판매되는지 확인한다면 고객사 제품의 가격 경쟁력을 파악할 수 있습니다. 제품의 포장은 미국에서 판매되는 다른 아시아 스낵과 유사합니다. 고객들은 이러한 포장 형태에 익숙하기 때문에 문제 없이 수용할 수 있을 것입니다.\n\n# Q2. 고객사 제품을 현지에서 꾸준히 판매하기 위해 필요한 준비사항이나 보완점은 무엇인가요?\n\n질문에 대한 답변을 제공하기 어려운 점 양해 부탁드립니다. 저희의 전문 분야가 아니라 정확한 조언을 드리기 어렵습니다.\n\n# Q3. 부각 구매 시 바이어(수입 유통업체) 입장에서 주요 고려 사항은 무엇인가요?\n\n바이어는 트렌드를 항상 고려합니다. 부각은 인기 있는 제품이지만 오리지널 맛이 다른 맛보다 인기가 더 높아, 오리지널 맛을 더 많이 구매하는 경향이 있습니다. 특정 부각 맛의 판매가 저조할 경우 할인 판매를 진행하기도 합니다. 브랜드의 인지도도 중요한 고려 사항입니다. 일부 브랜드는 다른 브랜드에 비해 소비자들의 충성도가 더 높아서, 상대적으로 비싼 가격에도 구매하는 경우가 많습니다.\n\n10) 사진자료: 에이치마트(H-Mart) 공식 홈페이지",
+    "name": "Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다.",
+    "meta_data": {
+      "chunk_id": "e856ae28-e167-49af-8784-c46ab51bfabd",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e856ae28-e167-49af-8784-c46ab51bfabd",
+        "55d65c75-c518-42bd-ac78-f01a9e386e9e",
+        "10e99b92-6e65-49c2-8510-f2f01f8435a1",
+        "c80f6ea3-8807-4eab-9a6a-9f843a52fad2",
+        "5629b611-8807-4a58-9cdc-7b5ab62efe21",
+        "fe728140-c190-49a4-9fe1-2e262eb860df",
+        "a8e3f97e-2e27-474e-9133-dbea7ffab10b"
+      ],
+      "chunked_count": 7,
+      "index": 581,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 676,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다."
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?\n\n부각은 아시아 커뮤니티에서 매우 인기 있는 간식입니다. 일반적으로 젊은 소비자보다 연령대가 높은 고객들이 부각을 더 자주 구매합니다. 이들은 제품의 가격보다는 맛과 브랜드를 더 중요시 합니다. 부각은 다양한 맛으로 생산되지만, 대부분의 고객은 오리지널 맛을 가장 선호합니다.\n\n# Q5. 해외 기업이 현지 시장에 공급할 때의 절차와 유통 과정은 어떻게 되나요?\n\n수입 제품은 모두 세관 신고와 건강 및 안전 검사를 거쳐야 합니다. 제품의 인증을 증명하는 유효한 문서가 필요합니다. 수입된 제품이 신석식품이거나, 동물 또는 식물에서 유래된 경우 건강 위험을 최소화하기 위한 추가적인 절차가 필요할 수 있습니다. 절차가 원활하게 진행되면, 제품은 신선도를 유지하기 위해 냉장 트럭으로 운송됩니다. 도착 후 일부 제품은 소매점에서 바로 판매되며, 나머지는 매장의 저장 공간에 보관됩니다.",
+    "name": "Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "86af6717-051c-4661-b4af-e02961348ed1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "86af6717-051c-4661-b4af-e02961348ed1",
+        "c3369b27-a386-4b4f-9c25-1bdd38441274",
+        "219f877e-52f8-45ed-ac83-1961f62ad55a",
+        "f039be35-d3a5-4a05-aa26-320cccaa2382"
+      ],
+      "chunked_count": 4,
+      "index": 594,
+      "page_number": [
+        37
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 472,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?\n\n요약 경쟁제품 경쟁기업 인터뷰 경쟁력파악",
+    "name": "Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "0b96d8b1-43b5-416f-923d-1e0b63e2274d",
+      "page_number": [
+        37,
+        38
+      ],
+      "item_label": "merged",
+      "index": 598,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "6434eedd-9671-44e3-aa92-2c4e0c6913bd",
+          "content": "<table><tbody><tr><td>요약</td><td>경쟁제품</td><td>경쟁기업</td><td>인터뷰</td><td>경쟁력파악</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n고객사 제품의 성공적인 현지 진출을 위해 아시안 슈퍼마켓 또는 온라인 아시안 스토어를 활용하는 것을 추천합니다. 당사와 같은 아시안 슈퍼마켓은 아시안 제품을 찾는 소비자들 사이에서 인기가 높아 고객사 제품의 유통에 효과적일 것입니다. 또한 야미나, 위!(Weee!)와 같은 온라인 스토어를 통해 넓은 소비자층에게 접근할 수 있습니다.",
+    "name": "고객사 제품의 성공적인 현지 진출을 위해 아시안 슈퍼마켓 또는 온라인 아시안 스토어를 활용하는 것을 추천합니다. 당사와 같은 아시안 슈퍼마켓은 아시안 제품을 찾는 소비자들 사이에서 인기가 높아 고객사 제품의 유통에 효과적일 것입니다. 또한 야미나, 위!(Weee!)와 같은 온라인 스토어를 통해 넓은 소비자층에게 접근할 수 있습니다.",
+    "meta_data": {
+      "chunk_id": "541dfa85-e7b6-4973-8748-a99f08a8c507",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "541dfa85-e7b6-4973-8748-a99f08a8c507"
+      ],
+      "chunked_count": 1,
+      "index": 599,
+      "page_number": [
+        37
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 188,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "고객사 제품의 성공적인 현지 진출을 위해 아시안 슈퍼마켓 또는 온라인 아시안 스토어를 활용하는 것을 추천합니다. 당사와 같은 아시안 슈퍼마켓은 아시안 제품을 찾는 소비자들 사이에서 인기가 높아 고객사 제품의 유통에 효과적일 것입니다. 또한 야미나, 위!(Weee!)와 같은 온라인 스토어를 통해 넓은 소비자층에게 접근할 수 있습니다."
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?\n\n소셜 미디어, 특히 인스타그램을 활용하는 것이 효과적으로 보입니다. 인스타그램을 통해 제품을 대중에게 소개하고, 제품의 건강상 이점을 알리는 캠페인을 진행하는 것을 추천합니다. 이를 통해 소비자들에게 제품의 장점을 직접 전달하고 제품에 대한 관심을 유도할 수 있습니다.",
+    "name": "Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "3662e4aa-a11d-41af-b566-c2b534f491a1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3662e4aa-a11d-41af-b566-c2b534f491a1",
+        "94abff69-8e70-44f7-bdb5-ba992bd63295"
+      ],
+      "chunked_count": 2,
+      "index": 602,
+      "page_number": [
+        38
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 208,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n-2013년 캘리포니아에서 영업을 시작한 미국의 온라인 쇼핑 플랫폼\n\n-북미 중국인 커뮤니티에서 가장 인기 있는 쇼핑 플랫폼이며 200만 이상의 회원이 이용중\n\n-식료품, 뷰티 및 건강 제품, 가전제품 및 서적 등 다양한 제품 취급",
+    "name": "-2013년 캘리포니아에서 영업을 시작한 미국의 온라인 쇼핑 플랫폼",
+    "meta_data": {
+      "chunk_id": "24786bec-1c2b-4501-a4ea-2fef89a11a28",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "24786bec-1c2b-4501-a4ea-2fef89a11a28",
+        "ef2d8662-34b2-47a4-9a0d-5486423b93ae",
+        "05cc7b1c-da73-43c8-8a83-bfe775acc599"
+      ],
+      "chunked_count": 3,
+      "index": 615,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 146,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "-2013년 캘리포니아에서 영업을 시작한 미국의 온라인 쇼핑 플랫폼"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 담당자 정보\n\n소비자가격 3.62달러 (5000원)\n중량 40g\n포장 형태 파우치\n특징 동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서",
+    "name": "담당자 정보",
+    "meta_data": {
+      "chunk_id": "f148ab14-a9d7-4bbb-8056-f29650063ba7",
+      "page_number": [
+        39
+      ],
+      "item_label": "merged",
+      "index": 618,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 담당자 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8d8b876f-0648-4b47-a547-7c9e4f5677b9",
+          "content": "<table><tbody><tr><td>소비자가격</td><td>3.62달러 (5,000원)</td></tr><tr><td>중량</td><td>40g</td></tr><tr><td>포장 형태</td><td>파우치</td></tr><tr><td>특징</td><td>동물성 원료가 전혀 없는 비건 부각. 한국무형문화유산 이미향 부각명인이 HACCP인증시설에서</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다.\n\n현재 고객사 제품의 중량은 평균에 비해 약간 작은 편으로, 대부분의 스낵 포장이 약 100g인 것을 고려할 때, 더 큰 사이즈 옵션을 제공하는 것이 좋아 보입니다. 가격 면에서는 미국 시장에서 적절한 수준으로 너무 비싸지도 저렴하지도 않습니다. 현재 당사에서 판매되는 경쟁 제품은 100g 짜리 명태맛 부각이 5.89달러(8,142원), 110g짜리 김맛 부각은 4.50달러(6,221원)에 판매되고 있습니다.\n\n# Q2. 고객사 제품을 현지에서 꾸준히 판매하기 위해 필요한 준비사항이나 보완점은 무엇인가요?\n\n현지 소비자들에게 맞춘 타겟 마케팅 캠페인을 개발하는 것이 중요합니다. 디지털 미디어 채널을 활용하여 브랜드 인지도를 높이고 소비자들과의 소통을 강화해야 합니다. 현지 고객의 선호도를 이해하는 것은 필수적입니다. 고객의 구매 행동과 트렌드를 모니터링하여 왜 특정 제품을 구매하는지 파악하는 것이 도움이 될 것입니다.\n\n# Q3. 부각 구매 시 바이어(수입 유통업체) 입장에서 주요 고려 사항은 무엇인가요?\n\n당사는 제품의 진정성과 정통성을 가장 중요하게 생각합니다. 이는 당사의 제품이 고객들에게 인기를 끄는 이유이기도 합니다. 가격은 두 번째로 고려되는 요소로, 당사의 고객들은 다른 곳에서 찾기 어려운 독특한 맛을 찾기 위해 제품을 구매하는 경향이 있습니다.",
+    "name": "Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다.",
+    "meta_data": {
+      "chunk_id": "b4543969-7d69-4965-8dd1-4c4094a8883f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "b4543969-7d69-4965-8dd1-4c4094a8883f",
+        "5083af6b-75c6-47ee-bdf2-6d928b7130fa",
+        "14e0bed5-1776-4ac4-9f87-11285a990d54",
+        "5796996c-ddc0-4155-9bb4-e842d03d037c",
+        "c5a9e72a-d253-449d-9468-3886a5488a98",
+        "e231825d-1bcc-4821-bf98-7430804cc6b6"
+      ],
+      "chunked_count": 6,
+      "index": 638,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 688,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q1. 고객사 부각 제품에 대한 피드백(가격, 포장, 원료, 홍보문구 등 개선해야 할 점 등)을 부탁드립니다."
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?\n\n현지 시장엔 다양한 종류의 부각 스낵이 판매되고 있으며, 최근에는 명태맛 부각이 고객들 사이에서 어느 정도 인기를 얻었습니다. 그러나 대부분의 고객들은 여전히 김맛 부각을 선호하는 경향이 강합니다. 부각의 가격도 중요한 요소로 고려되지만, 고객들이 부각을 구매하는 주된 이유는 제품의 인지도로 보입니다.\n\n# Q5. 해외 기업이 현지 시장에 공급할 때의 절차와 유통 과정은 어떻게 되나요?\n\n해외에서 수입된 제품은 미국에 도착하면 수입사의 물류창고로 바로 운송됩니다. 이후 제품은 유사 제품의 경쟁 상황을 면밀히 분석한 후, 손실을 최소화하고 오해를 방지할 수 있는 방법으로 일반 소비자들에게 유통됩니다.\n\n# Q6. 고객사 제품이 현지 시장에 진출하기 위해 적절한 유통채널은 무엇인가요?\n\n부각 제품의 유통에 가장 적합한 채널에 대해 확신할 수는 없지만, 이 제품이 미국 내 아시아 커뮤니티에서 가장 인기 있다는 점을 고려할 때, 아시아계 대형 프랜차이즈 슈퍼마켓에서 판매하는 것이 가장 효과적으로 보입니다. 에이치마트나 99 랜치 마켓(99 Ranch Market)과 같은 대형 아시아 슈퍼마켓을 유통 채널로 추천합니다.",
+    "name": "Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "7eb658d5-39c8-4787-bf99-160957550dc5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7eb658d5-39c8-4787-bf99-160957550dc5",
+        "377c3d0b-57ad-4a09-8527-d9f6ed3af182",
+        "0a908a92-03fe-4dc8-9551-3836cca453ea",
+        "17b109ec-d2cf-48d8-901e-7853adb89323",
+        "e537e774-e1fc-4464-8b64-2654b3da3cf0",
+        "60335a69-f3cb-44f1-97bf-91e1813d03a1"
+      ],
+      "chunked_count": 6,
+      "index": 651,
+      "page_number": [
+        40
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 602,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q4. 부각 시장의 소비 트렌드와 소비자들의 구매 고려 사항은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?\n\n부각은 저칼로리와 다양한 건강상의 이점을 갖춘 건강한 간식으로 특히 비건 제품이라는 점에서 미국 시장에서 큰 강점을 가질 수 있습니다. 비건 인구가 증가하고 있는 만큼, 비건 소비자를 타겟으로 하는 마케팅 전략이 효과적일 것입니다. 비건 식단이 건강에 좋다고 홍보되는 만큼, 이를 강조하는 것이 중요합니다. 또한 소셜 미디어 인플루언서와의 협업을 통해 제품을 홍보하는 것이 제품 인지도를 높이는 데 도움이 될 것입니다. 더불어, 사람들이 많이 다니는 지역에 큰 디스플레이를 설치하여 새로운 고객들이 부각을 접할 수 있도록 하는 것도 좋은 방법입니다.",
+    "name": "Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "83adeb1a-492a-4a0e-8055-d660f4134149",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "83adeb1a-492a-4a0e-8055-d660f4134149",
+        "c5259716-52c8-45b0-9029-3b9e83f90fb5"
+      ],
+      "chunked_count": 2,
+      "index": 663,
+      "page_number": [
+        41
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 363,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# Q7. 고객사 제품이 현지 시장에 진출하기 위한 효과적인 마케팅 방법과 채널은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# ▶ 경쟁제품 10개의 10g당 평균 가격, 0.85달러\n\n고객사 제품의 10g당 가격은 0.90달러(1,250원 12) )로 경쟁제품 10개의 평균 10g당 가격인 0.85달러(1,179원)보다 소폭 높은 수준임. 비율로 살펴보면, 고객사 제품의 소비자 가격은 부각 경쟁제품 10개의 평균 소비자가격의 약 106% 수준임\n\n12) 1달러=1,382.4원(2024.07.01., KEB하나은행 매매기준율 적용)",
+    "name": "▶ 경쟁제품 10개의 10g당 평균 가격, 0.85달러",
+    "meta_data": {
+      "chunk_id": "21bb955f-211c-4389-b7bd-828526850dd8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "21bb955f-211c-4389-b7bd-828526850dd8",
+        "895133c0-db79-42ce-bcb3-89b34adfe238",
+        "8176c5cf-7d98-4359-b154-eb1062558cad"
+      ],
+      "chunked_count": 3,
+      "index": 688,
+      "page_number": [
+        43
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 232,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁제품 10개의 10g당 평균 가격, 0.85달러"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# 경쟁제품(제조사)\n\n① 브래드스 크런치 케일 (브래드스 로 칩스)\n② 포파델릭 (펀 갈 스낵)\n③ 김 부각 레이버 스낵 (F사)\n④ 씨위드 칩 (A사)\n⑤ 토푸 씨위드 라이스 크리스프-블랙 갈릭\n⑥ (G사) 레이버 칩 (H사)\n⑦ 시즌드 켈프 칩 (C사) 씨위드 칩 브라운 라이스 (B사)\n⑨ 켈프 칩 (I사)\n⑩ 다시마 부각 칩 바이트 사이즈\n(D사)",
+    "name": "경쟁제품(제조사)",
+    "meta_data": {
+      "chunk_id": "c7bce35e-cec7-41de-aed4-4eb51bbf3fb9",
+      "page_number": [
+        44
+      ],
+      "item_label": "merged",
+      "index": 703,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# 경쟁제품(제조사)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "25f4e613-09f3-41e5-a2dd-68f8bb6da1ea",
+          "content": "<table><tbody><tr><td>①</td><td>브래드스 크런치 케일 (브래드스 로 칩스)</td></tr><tr><td>②</td><td>포파델릭 (펀 갈 스낵)</td></tr><tr><td>③</td><td>김 부각 레이버 스낵 (F사)</td></tr><tr><td>④</td><td>씨위드 칩 (A사)</td></tr><tr><td>⑤</td><td>토푸 씨위드 라이스 크리스프-블랙 갈릭</td></tr><tr><td>⑥</td><td>(G사) 레이버 칩 (H사)</td></tr><tr><td>⑦</td><td>시즌드 켈프 칩 (C사) 씨위드 칩 브라운 라이스 (B사)</td></tr><tr><td>⑨</td><td>켈프 칩 (I사)</td></tr><tr><td>⑩</td><td>다시마 부각 칩 바이트 사이즈</td></tr><tr><td></td><td>(D사)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n고객사 제품의 중량은 40g으로 부각 경쟁제품 10개의 평균 중량인 59.3g보다 낮은 수준임. 비율로 살펴보면 고객사 제품의 중량은 부각 평균 중량의 약 67% 수준으로 조사되어 평균 중량과의 편차를 확인할 수 있음. 고객사는 제품의 중량을 다양화해 시장에 진출하는 방향을 고려할 수 있음",
+    "name": "고객사 제품의 중량은 40g으로 부각 경쟁제품 10개의 평균 중량인 59.3g보다 낮은 수준임. 비율로 살펴보면 고객사 제품의 중량은 부각 평균 중량의 약 67% 수준으로 조사되어 평균 중량과의 편차를 확인할 수 있음. 고객사는 제품의 중량을 다양화해 시장에 진출하는 방향을 고려할 수 있음",
+    "meta_data": {
+      "chunk_id": "ff10a379-b67b-4d47-99ee-66f3c9cff47e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ff10a379-b67b-4d47-99ee-66f3c9cff47e"
+      ],
+      "chunked_count": 1,
+      "index": 706,
+      "page_number": [
+        44
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 166,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "고객사 제품의 중량은 40g으로 부각 경쟁제품 10개의 평균 중량인 59.3g보다 낮은 수준임. 비율로 살펴보면 고객사 제품의 중량은 부각 평균 중량의 약 67% 수준으로 조사되어 평균 중량과의 편차를 확인할 수 있음. 고객사는 제품의 중량을 다양화해 시장에 진출하는 방향을 고려할 수 있음"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 5.2] 미국 부각 중량 경쟁력 분석\n\n요약 경쟁제품 경쟁기업 인터뷰 경쟁력파악\n\n3) ▶ 경쟁제품 10개 중 8개 원산지 한국 미국에서 판매되고 있는 부각 경쟁제품 10개의 원산지를 조사한 결과 10개 제품 중 8개 제품이 한국산 제품임을 확인함. 그 외 멕시코 미국산 제품 각 1개가 조사됨\n4) 인증13) [표 5.3] 미국 부각 원산지 경쟁력 분석\n▶ 현지 경쟁제품 10개 중 4개의 인증 글루텐 프리 미국에서 판매되고 있는 부각 경쟁제품 10개의 인증을 조사한 결과 10개 제품 중 4개 제품의 인증이 글루텐 프리임을 확인함. 나머지 5개 제품은 인증을 표기하지 않았음. 그 외 Non-GMO 비건 인증이 3개 CCOF USDA Organic HACCP 데어리 프리 인증이 각 1개씩 조사됨\n[표 5.4] 미국 부각 인증 경쟁력 분석\n\n요약 경쟁제품 경쟁기업 인터뷰 경쟁력파악\n\n요약 경쟁제품 경쟁기업\n5) 포장 형태 ▶ 현지 경쟁제품 10개 모두 파우치 사용 미국에서 판매 중인 부각 경쟁제품 10개의 포장 형태를 조사한 결과 10개 제품 모두 파우치를 사용해 제품을 포장한 것으로 확인됨 [표 5.5] 미국 부각 포장 형태 경쟁력 분석\n6) 홍보문구 ▶ 현지 경쟁제품 10개 중 5개 제품 원재료 강조하는 홍보문구 사용 미국에서 판매 중인 부각 경쟁제품 10개의 홍보문구를 조사한 결과 5개 제품이 &#x27;진짜 두부가 들어간&#x27; &#x27;표고버섯이 통째로 들어있어요&#x27; 등 원재료와 관련된 문구를 활용한 것으로 확인됨. 그 외 2개 제품은 &#x27;바삭하게 맛있는&#x27; 등 제품의 맛을 강조한 홍보문구를 사용함. 또 다른 2개 제품은 &#x27;칼슘이 듬뿍&#x27; 등의 문구로 제품의 건강상 이점을 강조함. 그 외에도 &#x27;한입에 먹기 편한&#x27;과 같은 제품의 간편함을 강조한 홍보문구 1개가 조사됨\n[표 5.6] 미국 부각 홍보문구 경쟁력 분석",
+    "name": "[표 5.2] 미국 부각 중량 경쟁력 분석",
+    "meta_data": {
+      "chunk_id": "07b38858-1fae-4c90-b366-fad33ad3718e",
+      "page_number": [
+        44,
+        45,
+        46
+      ],
+      "item_label": "merged",
+      "index": 707,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 5.2] 미국 부각 중량 경쟁력 분석",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "7539c49e-e021-430f-a750-63cb74e9755b",
+          "content": "<table><tbody><tr><td>요약</td><td>경쟁제품</td><td>경쟁기업</td><td>인터뷰</td><td>경쟁력파악</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "3be4dca2-c953-4508-9968-c9b10d3e56c0",
+          "content": "<table><tbody><tr><td>3)</td><td>▶ 경쟁제품 10개 중 8개 원산지, 한국 미국에서 판매되고 있는 부각 경쟁제품 10개의 원산지를 조사한 결과, 10개 제품 중 8개 제품이 한국산 제품임을 확인함. 그 외 멕시코, 미국산 제품 각 1개가 조사됨</td></tr><tr><td>4) 인증13)</td><td>[표 5.3] 미국 부각 원산지 경쟁력 분석</td></tr><tr><td></td><td>▶ 현지 경쟁제품 10개 중 4개의 인증, 글루텐 프리 미국에서 판매되고 있는 부각 경쟁제품 10개의 인증을 조사한 결과, 10개 제품 중 4개 제품의 인증이 글루텐 프리임을 확인함. 나머지 5개 제품은 인증을 표기하지 않았음. 그 외 Non-GMO, 비건 인증이 3개, CCOF, USDA Organic, HACCP, 데어리 프리 인증이 각 1개씩 조사됨</td></tr><tr><td></td><td>[표 5.4] 미국 부각 인증 경쟁력 분석</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "f31277e5-21b4-4f35-a426-3549c9f0b9d3",
+          "content": "<table><tbody><tr><td>요약</td><td>경쟁제품</td><td>경쟁기업</td><td>인터뷰</td><td>경쟁력파악</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "8dbfb4ab-28e2-40e7-855a-cffc79c7fb55",
+          "content": "<table><tbody><tr><th>요약</th><th>경쟁제품 경쟁기업</th></tr><tr><td>5) 포장 형태</td><td>▶ 현지 경쟁제품 10개 모두 파우치 사용 미국에서 판매 중인 부각 경쟁제품 10개의 포장 형태를 조사한 결과, 10개 제품 모두 파우치를 사용해 제품을 포장한 것으로 확인됨 [표 5.5] 미국 부각 포장 형태 경쟁력 분석</td></tr><tr><td>6) 홍보문구</td><td>▶ 현지 경쟁제품 10개 중 5개 제품, 원재료 강조하는 홍보문구 사용 미국에서 판매 중인 부각 경쟁제품 10개의 홍보문구를 조사한 결과 5개 제품이 &#x27;진짜 두부가 들어간&#x27;, &#x27;표고버섯이 통째로 들어있어요&#x27; 등 원재료와 관련된 문구를 활용한 것으로 확인됨. 그 외 2개 제품은 &#x27;바삭하게 맛있는&#x27; 등 제품의 맛을 강조한 홍보문구를 사용함. 또 다른 2개 제품은 &#x27;칼슘이 듬뿍&#x27; 등의 문구로 제품의 건강상 이점을 강조함. 그 외에도 &#x27;한입에 먹기 편한&#x27;과 같은 제품의 간편함을 강조한 홍보문구 1개가 조사됨</td></tr><tr><td></td><td>[표 5.6] 미국 부각 홍보문구 경쟁력 분석</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n13) 한 제품에 두 개 이상의 인증을 표기한 제품이 있음",
+    "name": "13) 한 제품에 두 개 이상의 인증을 표기한 제품이 있음",
+    "meta_data": {
+      "chunk_id": "21ca7ddb-6df9-43fe-b863-435ebfd53377",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "21ca7ddb-6df9-43fe-b863-435ebfd53377"
+      ],
+      "chunked_count": 1,
+      "index": 715,
+      "page_number": [
+        45
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 29,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "13) 한 제품에 두 개 이상의 인증을 표기한 제품이 있음"
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n# [표 5.7] 부각 기업 마케팅 벤치마킹\n\n기업명 C사\n선정 기업 기본 정보 기업 설명 C사는 1970년에 설립된 한국의 전통 식품 수출업체임. 유럽 아시아 등 전세계 93개국에 진출함. ISO HACCP 등 위생 인증을 받은 제품을 취급하며 15개의 브랜드와 3274개의 품목을 유통함\n다양한 상품군\n다양한 상품을 통한\n글로벌 식품 박람회 참가로 글로벌 SNS인 인스타그램과 페이스북 유튜브 채널을 운영\n판매채널 오프라인 매장(에이치마트)\n온라인 매장(아마존) 자사 홈페이지(한국)",
+    "name": "[표 5.7] 부각 기업 마케팅 벤치마킹",
+    "meta_data": {
+      "chunk_id": "f02d9c45-0a17-41d9-8f54-0282a8cce2e2",
+      "page_number": [
+        47
+      ],
+      "item_label": "merged",
+      "index": 727,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "# [표 5.7] 부각 기업 마케팅 벤치마킹",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "c9cbce1f-19ce-440c-9e19-bad4e500d121",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th>C사</th></tr><tr><td>선정 기업 기본 정보</td><td>기업 설명</td><td>C사는 1970년에 설립된 한국의 전통 식품 수출업체임. 유럽, 아시아 등 전세계 93개국에 진출함. ISO, HACCP 등 위생 인증을 받은 제품을 취급하며 15개의 브랜드와 3,274개의 품목을 유통함</td></tr><tr><td>다양한 상품군</td><td></td><td></td></tr><tr><td></td><td></td><th>다양한 상품을 통한</th></tr><tr><td></td><td></td><th>글로벌 식품 박람회 참가로 글로벌 SNS인 인스타그램과 페이스북, 유튜브 채널을 운영</th></tr><tr><td></td><td>판매채널</td><th>오프라인 매장(에이치마트)</th></tr><tr><td></td><td colspan=\"2\">온라인 매장(아마존) 자사 홈페이지(한국)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 미국 부각 (경쟁력분석형)\n\n본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.\n\nCopyright 2024 aT 한국농수산식품유통공사AllRightsReserved. Printed in Korea",
+    "name": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.",
+    "meta_data": {
+      "chunk_id": "14e9afc6-b190-4620-8e8a-2709fb064e6f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "14e9afc6-b190-4620-8e8a-2709fb064e6f",
+        "56087420-6ceb-4c7c-9f8a-15f1ab373f74"
+      ],
+      "chunked_count": 2,
+      "index": 749,
+      "page_number": [
+        49
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 143,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 미국 부각 (경쟁력분석형)",
+      "original_page_content": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다."
+    }
+  }
+]

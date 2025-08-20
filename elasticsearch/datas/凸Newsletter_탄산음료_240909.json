@@ -1,0 +1,1085 @@
+{
+  "documents": [
+    {
+      "page_content": " ",
+      "meta_data": {
+        "chunk_id": "e013b200-2412-4547-8ea9-6393b22a70dc",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "e8d23972-4acd-4481-ac0a-7b0ed82a33e7",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "6411addc-c38f-4c8b-a7bd-5543a0c8d16d",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-",
+      "meta_data": {
+        "chunk_id": "b0919c80-58bc-4741-92b9-9431ee7735db",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "ad0d23f7-2ad5-4ace-886f-c82f155dd30e",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "f6d17b40-c40c-4131-a136-764fc0dba62b",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/c5616df7-9216-46b1-b601-3f0d8d62c97e.png",
+      "meta_data": {
+        "chunk_id": "c5616df7-9216-46b1-b601-3f0d8d62c97e",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 7,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/99da8cd7-1e69-44e1-8ece-1ac7c975e61e.png",
+      "meta_data": {
+        "chunk_id": "99da8cd7-1e69-44e1-8ece-1ac7c975e61e",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 8,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/2658f719-ea0f-4d39-ab0a-88ef39ef70e1.png",
+      "meta_data": {
+        "chunk_id": "2658f719-ea0f-4d39-ab0a-88ef39ef70e1",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/c6f1710f-23cb-4827-a6ab-bf0ef273b10b.png",
+      "meta_data": {
+        "chunk_id": "c6f1710f-23cb-4827-a6ab-bf0ef273b10b",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 10,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/74b33731-2e6a-4bc4-bf4f-26e91a7ec04c.png",
+      "meta_data": {
+        "chunk_id": "74b33731-2e6a-4bc4-bf4f-26e91a7ec04c",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 11,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>제로</td></tr><tr><td>환다</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "a825a7e2-b99a-4950-a83d-d4fc9bab742f",
+        "page_number": [
+          2
+        ],
+        "item_label": "table",
+        "index": 12,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/8aa9339c-cd15-4389-931d-29403ef8fce1.png",
+      "meta_data": {
+        "chunk_id": "8aa9339c-cd15-4389-931d-29403ef8fce1",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 13,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/588a2534-589e-44c5-ad05-d02170a3835a.png",
+      "meta_data": {
+        "chunk_id": "588a2534-589e-44c5-ad05-d02170a3835a",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 14,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "3846514a-60b4-447c-9d5d-f2f13a2d64db",
+        "next_content": "2f51a6d2-33a8-490a-8278-ba91297cd790"
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/e6526c4a-0f4d-4233-bc10-e64c7670a653.png",
+      "meta_data": {
+        "chunk_id": "e6526c4a-0f4d-4233-bc10-e64c7670a653",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 16,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/613906b9-7c8a-4929-bcbf-90c17171245c.png",
+      "meta_data": {
+        "chunk_id": "613906b9-7c8a-4929-bcbf-90c17171245c",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 17,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/93cf9e71-7e30-477a-a3e9-b1c4718bcd45.png",
+      "meta_data": {
+        "chunk_id": "93cf9e71-7e30-477a-a3e9-b1c4718bcd45",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 18,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/a1672230-d8f9-4cb7-88a7-501842567a95.png",
+      "meta_data": {
+        "chunk_id": "a1672230-d8f9-4cb7-88a7-501842567a95",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 19,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/d7a25744-0769-4a94-be1d-77c770ec26ff.png",
+      "meta_data": {
+        "chunk_id": "d7a25744-0769-4a94-be1d-77c770ec26ff",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 20,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/6f907294-50f9-44c6-869e-f1c57ef00418.png",
+      "meta_data": {
+        "chunk_id": "6f907294-50f9-44c6-869e-f1c57ef00418",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 21,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ec306b54-f766-4e68-8115-e26f70aec2e6.png",
+      "meta_data": {
+        "chunk_id": "ec306b54-f766-4e68-8115-e26f70aec2e6",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 22,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/9b602d8d-3507-4fbe-9814-511f4ac683fe.png",
+      "meta_data": {
+        "chunk_id": "9b602d8d-3507-4fbe-9814-511f4ac683fe",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 23,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "2f51a6d2-33a8-490a-8278-ba91297cd790",
+        "next_content": "408230a4-104a-4586-be74-82ba77a032a5"
+      }
+    },
+    {
+      "page_content": "-",
+      "meta_data": {
+        "chunk_id": "408230a4-104a-4586-be74-82ba77a032a5",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/d316c1c1-a9a1-44f7-912a-ac28f6955c92.png",
+      "meta_data": {
+        "chunk_id": "d316c1c1-a9a1-44f7-912a-ac28f6955c92",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 25,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/2403745c-fe35-4c40-a01d-0d900983015a.png",
+      "meta_data": {
+        "chunk_id": "2403745c-fe35-4c40-a01d-0d900983015a",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 26,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/dbfaf359-9cd6-40ab-a62f-74a5596629e4.png",
+      "meta_data": {
+        "chunk_id": "dbfaf359-9cd6-40ab-a62f-74a5596629e4",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 27,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "9abcb212-abcf-4795-b8a8-f9aedf704410",
+        "page_number": [
+          5
+        ],
+        "item_label": "table",
+        "index": 28,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/8e701a2b-a90a-412e-811c-86f131f5d45b.png",
+      "meta_data": {
+        "chunk_id": "8e701a2b-a90a-412e-811c-86f131f5d45b",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 29,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/cb25e16a-2543-4522-a0d5-a6853b87600f.png",
+      "meta_data": {
+        "chunk_id": "cb25e16a-2543-4522-a0d5-a6853b87600f",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 30,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/d5f7b12b-5886-4a5e-a114-4b087534f9ff.png",
+      "meta_data": {
+        "chunk_id": "d5f7b12b-5886-4a5e-a114-4b087534f9ff",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 31,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/a1172e94-6040-4054-8eb8-1bd52b90adee.png",
+      "meta_data": {
+        "chunk_id": "a1172e94-6040-4054-8eb8-1bd52b90adee",
+        "page_number": [
+          5,
+          6
+        ],
+        "item_label": "picture",
+        "index": 32,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/a465f9d0-3017-4d54-9250-90ac513f53a1.png",
+      "meta_data": {
+        "chunk_id": "a465f9d0-3017-4d54-9250-90ac513f53a1",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 33,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ac64a800-d2d3-4860-bc73-217fff11654f.png",
+      "meta_data": {
+        "chunk_id": "ac64a800-d2d3-4860-bc73-217fff11654f",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 34,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>FIBER PLUs brrr FUS</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "98190fe9-afa7-4725-a1cc-f3379b6c430a",
+        "page_number": [
+          6
+        ],
+        "item_label": "table",
+        "index": 35,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/860d707b-ddc5-49d2-989e-617b6bd7e464.png",
+      "meta_data": {
+        "chunk_id": "860d707b-ddc5-49d2-989e-617b6bd7e464",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 36,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/2101ce81-0f4d-4249-9940-02220a0b7d3a.png",
+      "meta_data": {
+        "chunk_id": "2101ce81-0f4d-4249-9940-02220a0b7d3a",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 37,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/24844053-b479-468c-a63f-3c7d1d9b5625.png",
+      "meta_data": {
+        "chunk_id": "24844053-b479-468c-a63f-3c7d1d9b5625",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 38,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/25556479-d539-4aa2-9ab9-97a803e5c16d.png",
+      "meta_data": {
+        "chunk_id": "25556479-d539-4aa2-9ab9-97a803e5c16d",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 39,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/0966123a-f9ba-4a38-a347-e1cad681ec64.png",
+      "meta_data": {
+        "chunk_id": "0966123a-f9ba-4a38-a347-e1cad681ec64",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 40,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>&#x27;6ungo</td><td>ZERO CALORIE Chupa @iip STRAWBERRY MILK</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "93aa85cf-4cdc-44bd-a7be-737c07ea99cd",
+        "page_number": [
+          6
+        ],
+        "item_label": "table",
+        "index": 41,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/00003b34-07fb-4ab1-a99a-8e25dbd0adc2.png",
+      "meta_data": {
+        "chunk_id": "00003b34-07fb-4ab1-a99a-8e25dbd0adc2",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 42,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/55f96dc7-51fd-4466-8c73-78dff518a81a.png",
+      "meta_data": {
+        "chunk_id": "55f96dc7-51fd-4466-8c73-78dff518a81a",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 43,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/e63cdb3e-a32a-4117-9ce0-6eee30e1b6db.png",
+      "meta_data": {
+        "chunk_id": "e63cdb3e-a32a-4117-9ce0-6eee30e1b6db",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 44,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/fae02bb8-f227-4c28-9de0-0dda8ba1b2ae.png",
+      "meta_data": {
+        "chunk_id": "fae02bb8-f227-4c28-9de0-0dda8ba1b2ae",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 45,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/df4288e3-9c88-49b9-ab4e-91487eeec5ff.png",
+      "meta_data": {
+        "chunk_id": "df4288e3-9c88-49b9-ab4e-91487eeec5ff",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 46,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ad1c4fad-371b-4552-9f74-0e25f0d68319.png",
+      "meta_data": {
+        "chunk_id": "ad1c4fad-371b-4552-9f74-0e25f0d68319",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 47,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/856f409e-1ded-49c2-ade2-2366ff3395e3.png",
+      "meta_data": {
+        "chunk_id": "856f409e-1ded-49c2-ade2-2366ff3395e3",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 48,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/aca02d22-7339-4113-b92f-e00e9c90e69c.png",
+      "meta_data": {
+        "chunk_id": "aca02d22-7339-4113-b92f-e00e9c90e69c",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 49,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/71ebdd54-620e-4ec4-b063-6538b488d170.png",
+      "meta_data": {
+        "chunk_id": "71ebdd54-620e-4ec4-b063-6538b488d170",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 50,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>IWISTED LMONADE</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "48f4b7af-1177-42e6-8b64-0d4c262ec763",
+        "page_number": [
+          8
+        ],
+        "item_label": "table",
+        "index": 51,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/62e6ce73-f09c-420e-bba0-e7702fd7e686.png",
+      "meta_data": {
+        "chunk_id": "62e6ce73-f09c-420e-bba0-e7702fd7e686",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 52,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/b8da84ed-5143-487b-a581-9300c90a5647.png",
+      "meta_data": {
+        "chunk_id": "b8da84ed-5143-487b-a581-9300c90a5647",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 53,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "408230a4-104a-4586-be74-82ba77a032a5",
+        "next_content": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc"
+      }
+    },
+    {
+      "page_content": "--",
+      "meta_data": {
+        "chunk_id": "c5ab1221-7e2d-4f01-ba54-957c5b6db7fc",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 54,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/001a8af6-e0d2-4144-8f7b-4ee9560e6a4b.png",
+      "meta_data": {
+        "chunk_id": "001a8af6-e0d2-4144-8f7b-4ee9560e6a4b",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 56,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>Audo CHILL</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "f70404d9-1bd7-47fc-900a-b0c9df2ab8f2",
+        "page_number": [
+          8
+        ],
+        "item_label": "table",
+        "index": 57,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ce797058-9483-4122-ba3e-577126d68f36.png",
+      "meta_data": {
+        "chunk_id": "ce797058-9483-4122-ba3e-577126d68f36",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 58,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ccde9c9e-c89c-4f77-b720-d441cb632257.png",
+      "meta_data": {
+        "chunk_id": "ccde9c9e-c89c-4f77-b720-d441cb632257",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 59,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/7df2e2e9-05e2-407e-be84-58a128a38c22.png",
+      "meta_data": {
+        "chunk_id": "7df2e2e9-05e2-407e-be84-58a128a38c22",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 60,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/998b04fb-2e4d-469a-a7e7-9426bc518ced.png",
+      "meta_data": {
+        "chunk_id": "998b04fb-2e4d-469a-a7e7-9426bc518ced",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 61,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/3b2d6545-d803-4165-9600-20f3a2bba61a.png",
+      "meta_data": {
+        "chunk_id": "3b2d6545-d803-4165-9600-20f3a2bba61a",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 62,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/851249de-990c-437c-9b45-8b06bd48d0df.png",
+      "meta_data": {
+        "chunk_id": "851249de-990c-437c-9b45-8b06bd48d0df",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 63,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/47b9f107-7b68-45b6-9b74-80fcf681d8c2.png",
+      "meta_data": {
+        "chunk_id": "47b9f107-7b68-45b6-9b74-80fcf681d8c2",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 64,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/79eac439-f0ba-4dc2-a8ce-aa78227c8503.png",
+      "meta_data": {
+        "chunk_id": "79eac439-f0ba-4dc2-a8ce-aa78227c8503",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 65,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>&#x27;CAN BIRTHDAY CAKE CANDY</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "49aedfe9-3cf3-4558-9ac1-131c0515e67e",
+        "page_number": [
+          9
+        ],
+        "item_label": "table",
+        "index": 66,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/8f41c8a0-b33c-4b55-9bf9-2c8075287f49.png",
+      "meta_data": {
+        "chunk_id": "8f41c8a0-b33c-4b55-9bf9-2c8075287f49",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 67,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/ca7485ee-f4b3-4d0c-bb31-c0967c66f4c4.png",
+      "meta_data": {
+        "chunk_id": "ca7485ee-f4b3-4d0c-bb31-c0967c66f4c4",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 68,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/bb70a4fb-0c16-4d0f-bcf3-0d91091a9eee.png",
+      "meta_data": {
+        "chunk_id": "bb70a4fb-0c16-4d0f-bcf3-0d91091a9eee",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 69,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/5c1fa0d7-f309-4c0e-a461-16ed4c64b411.png",
+      "meta_data": {
+        "chunk_id": "5c1fa0d7-f309-4c0e-a461-16ed4c64b411",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 70,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/result/images/88e33f07-64ed-4a37-be71-5dcb38f036bf.png",
+      "meta_data": {
+        "chunk_id": "88e33f07-64ed-4a37-be71-5dcb38f036bf",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 71,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>In TANSAN</td><td>NITRO</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "bd4573a8-357f-4260-a4b9-1376656bb53b",
+        "page_number": [
+          9
+        ],
+        "item_label": "table",
+        "index": 72,
+        "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+        "hierarchy": null,
+        "prev_content": "f1ff0ab1-9635-4106-81d1-f194b9b634b3",
+        "next_content": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "",
+    "document_id": "f5e01ea1-5a0e-58a3-96c7-f0edc74dd440",
+    "timestamp": "2025-07-17T07:58:34.928339Z",
+    "document_file_path": "/app/output/e19cbdec-02fc-4d65-9afb-407ae0b37e93/Newsletter_탄산음료_240909.pdf",
+    "document_title": "Newsletter_탄산음료_240909"
+  }
+}

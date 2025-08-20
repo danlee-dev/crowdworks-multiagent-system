@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:14
+    container_name: crowdworks_db
+    environment:
+      POSTGRES_USER: crowdworks_user
+      POSTGRES_PASSWORD: 2025
+      POSTGRES_DB: crowdworks_db
+    volumes:
+      - ../postgresql:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  crawler:
+    build: .
+    container_name: crawler_kamis
+    env_file:
+      - ./.env
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+    restart: "no"

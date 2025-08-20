@@ -1,0 +1,3166 @@
+{
+  "documents": [
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/f1a8eabc-ca94-4190-882c-e1a1dea7e0fb.png",
+      "meta_data": {
+        "chunk_id": "f1a8eabc-ca94-4190-882c-e1a1dea7e0fb",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 0,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null,
+        "next_content": "210d0b66-fce2-4960-aebf-d54fb2c86cb4"
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/f82d7782-ff94-4d73-b916-e88b0df84f7b.png",
+      "meta_data": {
+        "chunk_id": "f82d7782-ff94-4d73-b916-e88b0df84f7b",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 1,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null,
+        "next_content": "210d0b66-fce2-4960-aebf-d54fb2c86cb4"
+      }
+    },
+    {
+      "page_content": "본 보고서는 한국농수산식품유통공사 <2025 농식품 수출이수조사> 사업으로 추진된 결과물로서, 저작물의 무단 복제, 배포, 또는 변형올 금지합니다. 이 자료틀 이용하시는 경우 저작권번에 따라 저작물의 제목과 출처v 반드시 명기하시기 바람니다.",
+      "meta_data": {
+        "chunk_id": "210d0b66-fce2-4960-aebf-d54fb2c86cb4",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/4eeb49d5-520d-49fd-94d6-7eaba3846ee1.png",
+      "meta_data": {
+        "chunk_id": "4eeb49d5-520d-49fd-94d6-7eaba3846ee1",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 3,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null,
+        "prev_content": "210d0b66-fce2-4960-aebf-d54fb2c86cb4",
+        "next_content": "37585db8-446e-4dc7-a9f5-7eef65198d5c"
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/1d9bf2d5-cee9-416d-8022-2ea1f69169a9.png",
+      "meta_data": {
+        "chunk_id": "1d9bf2d5-cee9-416d-8022-2ea1f69169a9",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 4,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null,
+        "prev_content": "210d0b66-fce2-4960-aebf-d54fb2c86cb4",
+        "next_content": "37585db8-446e-4dc7-a9f5-7eef65198d5c"
+      }
+    },
+    {
+      "page_content": "# 표목차",
+      "meta_data": {
+        "chunk_id": "37585db8-446e-4dc7-a9f5-7eef65198d5c",
+        "page_number": [
+          3,
+          4
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 그림목차",
+      "meta_data": {
+        "chunk_id": "1be27fe8-37fa-4da4-be5f-e420922d216d",
+        "page_number": [
+          4,
+          5
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "4798eede-99e5-4dbe-91f6-192e1635e979",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅰ.이슈배경",
+      "meta_data": {
+        "chunk_id": "58987e79-47b5-4b53-b2f1-ecaf092525e0",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1",
+      "meta_data": {
+        "chunk_id": "4a4c48aa-600b-469f-b3fa-c286155f558d",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 9,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 미국 상호관세 조치 도입 배경",
+      "meta_data": {
+        "chunk_id": "5bec3429-027b-4432-b057-562d2bda8ee1",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 10,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 도널드 트럼프(Donald J. Trump) 대통령은 취임과 함께 '미국 우선주의(America First)'에 기반한 '미국 우선 무역정책(America First Trade Policy) ' 기조를 발표",
+      "meta_data": {
+        "chunk_id": "a8b8cb87-434e-4cf4-8e02-b8d7b7c60195",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 11,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 트럼프 2기 행정부는 미국 우선주의 기조로의 회귀를 선언하며, '미국 우선 무역정책'에 따라 자국 산업 보호와 불균형한 무역 환경 및 관행을 시정하기 위한 정책을 다각도로 추진하겠다고 발표",
+      "meta_data": {
+        "chunk_id": "2a21bf0c-6bcd-44ba-a460-712bde6d6072",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-'미국 우선 무역정책'은 △관세 체계의 광범위한 재조정을 통한 무역적자 축소 △불공정한 무역 관행 시정 △상호주의에 기반한 대외무역시스템 개혁을 주요 골자로 함",
+      "meta_data": {
+        "chunk_id": "b6537b25-4fd4-4e6c-8758-6d8525fb3f9f",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 트럼프 대통령은 미국의 오랜 무역적자 문제와 산업 공동화 현상에 따른 제조업 기반 약화 및 지역경제 붕괴를 '불공정 무역'의 결과로 인식하고, 이를 시정하기 위한 정책의 필요성을 강하게 피력함",
+      "meta_data": {
+        "chunk_id": "d8976022-26a8-4449-8166-8cb2d32620ec",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 또한 '상호 호혜 무역 및 관세에 관한 각서(Reciprocal Trade and Tariff)'에 서명하며 미국이 세계에서 가장 낮은 평균 관세율을 적용하고 있음에도 불구하고 동맹국을 포함한 미국의 주요 교역국은 미국보다 높은 관세율이나 비관세장벽을 유지하는 등 불공정한 교역조건으로 상품 거래가 이루 어지고 있다고 지적",
+      "meta_data": {
+        "chunk_id": "df1a2e79-998a-4009-9c0b-439ec2fc6c20",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이는 거대한 무역적자를 초래하는 원인일 뿐만 아니라 △미국 경제와 국가 안보 저해 △산업 기반 약화 △국가 경쟁력 감소의 주요 요인이라고 설명",
+      "meta_data": {
+        "chunk_id": "3419f450-bd16-4f4b-a3e9-db333f5989fc",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 16,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "이에 따라 트럼프 2기 행정부는 상호주의에 기반한 대외무역시스템 개혁을 통해 미국의 거대한 무역적자를 축소하겠다는 전략을 본격화",
+      "meta_data": {
+        "chunk_id": "44f001a9-4702-47fe-a886-768640342741",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 17,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '미국 우선 무역정책'의 핵심 원칙으로 국가 간 등가 교환을 전제로 동일 조치를 취하는 '상호주의 (Reciprocity)'를 도입하고, 대등한 교역조건 수립의 필요성을 강조",
+      "meta_data": {
+        "chunk_id": "3d1ddc59-e51f-43b5-adce-3327fb7d1a8c",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 관세 체계의 광범위한 재조정을 통해 △미국의 무역적자 폭을 줄이고 △불공정한 교역환경 및 관행을 시정하며 △상호주의에 기반한 대외무역시스템을 새롭게 구축하고자 함",
+      "meta_data": {
+        "chunk_id": "611870ef-b375-47ca-9287-ab9c852cfaa9",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 19,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-특히 트럼프 2기 행정부는 '관세'를 불균형한 교역환경을 수정하는 핵심 수단으로 간주하고 상호관세 등을 포함한 전방위적인 통상 전략 본격화",
+      "meta_data": {
+        "chunk_id": "aeec42df-92df-4a1d-ae76-07e49a6536a8",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 20,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-1 -",
+      "meta_data": {
+        "chunk_id": "198b75ee-1ec0-4c7f-b231-9f1f7f97a5e0",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "af5d4f65-cfb2-487b-9b55-1271d8c2163d",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2 미국 상호관세 조치 현황",
+      "meta_data": {
+        "chunk_id": "2517935a-5ac5-4515-be6a-cf5ce323e612",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 23,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2025년 4월 2일, 트럼프 2기 행정부는 '행정명령 14257호(Executive order 14257)'를 통해 상호관세 부과를 발표",
+      "meta_data": {
+        "chunk_id": "e7092665-3663-4600-ab5f-9778853b00f3",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '행정명령 14257호'에 따라 2025년 4월 2일부터 전 세계 모든 국가로부터 미국으로 수입되는 제품에 10%의 상호관세가 부과",
+      "meta_data": {
+        "chunk_id": "759fe387-709f-4a17-b7eb-578ad287cbbc",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 25,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 또한, 2025년 4월 9일부터 '행정명령 14257호 부속서Ⅰ'에 명시된 교역상대국과의 무역적자 규모를 고려하여 산출한 상호관세를 적용하겠다고 발표",
+      "meta_data": {
+        "chunk_id": "ebedd57f-a8de-4d57-a6b9-34868c3516c6",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 26,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-상호관세 적용 대상으로 지정된 국가는 한국, 일본, 유럽연합 등 미국의 주요 교역상대국을 포함한 총 57개국으로, 국가별 차등 적용되는 상호관세율은 미국산 제품이 해당 국가로 수출될 때 부과되는 관세나 미국산 제품에 적용되는 비관세장벽을 고려하여 산출",
+      "meta_data": {
+        "chunk_id": "92c78d5d-ec74-4f29-910b-71182634f87d",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 27,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅰ-1 미국의 상호관세 산출법",
+      "meta_data": {
+        "chunk_id": "f7b5f4ed-285c-437e-a8f3-cc374b5b70ea",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 28,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(    미국이  국에대해부과하는관세율   수입가격에대한수입의탄력성      국으로부터의총수입     국에대한총수출 )",
+      "meta_data": {
+        "chunk_id": "0167ff22-e35c-4f11-99d2-b17341c0241f",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 29,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "관세전가율",
+      "meta_data": {
+        "chunk_id": "46171f41-3ada-49f4-881b-c323ef6a5acc",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 30,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "*출처: 미국 무역대표부 홈페이지(https://ustr.gov)(검색일: 2025.07.28.)",
+      "meta_data": {
+        "chunk_id": "c7fb12a6-5e95-4dc2-8484-90a71f73305a",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 31,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 미국으로 수출되는 한국산 제품의 관세 부과 체계는 기본세율 또는 한-미 FTA 세율에 △무역확장법 제232조에 근거한 관세 또는 △국가비상경제권한법 등에 근거한 상호관세 등이 더해지는 구조",
+      "meta_data": {
+        "chunk_id": "b7b84082-56a3-49b7-9f30-79f4cce44143",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 32,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 그림Ⅰ-1 미국의 관세부과 체계",
+      "meta_data": {
+        "chunk_id": "4a2944e8-f7e9-4bd6-b9f2-c71383b666c8",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 33,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/00d65e9c-abe6-402f-ad6d-01ef1b208123.png",
+      "meta_data": {
+        "chunk_id": "00d65e9c-abe6-402f-ad6d-01ef1b208123",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 34,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "4a2944e8-f7e9-4bd6-b9f2-c71383b666c8",
+        "prev_content": "4a2944e8-f7e9-4bd6-b9f2-c71383b666c8",
+        "next_content": "03621469-6a75-4b39-8fbf-70b7dd5bbda0"
+      }
+    },
+    {
+      "page_content": "*출처: 미국 비특혜원산지 판정 대응 체크포인트-제3편 식품류, 관세청·한국원산지정보원(2025.05)",
+      "meta_data": {
+        "chunk_id": "03621469-6a75-4b39-8fbf-70b7dd5bbda0",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-2 -",
+      "meta_data": {
+        "chunk_id": "eb16a7d2-7340-4eea-b3dd-faa11ecd7ce8",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 36,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "650f8dd2-4820-4bf9-9f1c-4e5b5a71bf59",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 37,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2025년 4월 9일, '행정명령 14266호(Executive order 14266) ' 발표를 통해 특정된 57개국에 적용 예정이었던 상호관세 부과 시점을 7월 9일로 90일간 연기함1)",
+      "meta_data": {
+        "chunk_id": "16b2dd78-b6c8-4fe0-bcc4-3e5a01bb3cd0",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국 행정부는 자국의 국가 및 경제적 안보 문제를 해결에 협조하려는 교역상대국의 진심과 의지를 고려하여 상호관세 적용일을 연기했다고 밝힘",
+      "meta_data": {
+        "chunk_id": "ae2c4651-d825-49eb-b5b6-14aaa6295db0",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 39,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이에 따라, 한국, 일본, 유럽연합 등 미국의 주요 교역국이 포함된 '행정명령 14257호 부속서Ⅰ'에 명시된 국가는 7월 9일까지 여타 다른 국가들과 동일한 10%의 기본 상호관세가 적용",
+      "meta_data": {
+        "chunk_id": "9aa5302e-2400-4e49-8eee-35ddb78b3379",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 40,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 트럼프 행정부는 '무역 상대국이 비상호적인 무역 환경을 개선하고 경제 및 국가 안보 문제에 관해 미국과 협력하기 위한 상당한 조치를 취할 경우, '행정명령 14257호'에 따라 부과되는 관세율을 조정할 수 있다고 언급하며 미국과의 협상을 촉구",
+      "meta_data": {
+        "chunk_id": "026f3935-4b77-4a4c-be23-2893a90bc0ea",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 41,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2025년 7월 7일, 트럼프 2기 행정부는 '행정명령 14316호(Executive order 14316)'를 통해 국가별 차등 상호관세 적용일을 2025년 8월 1일로 재차 연기",
+      "meta_data": {
+        "chunk_id": "9f735852-8166-487f-bf3d-50dce8c84e2e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 42,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 트럼프 행정부는 '교역국과의 논의 현황 및 내각의 권고를 고려하여 상호관세 부과일을 8월 1일까지 추가 연장하기로 결정했다'고 발표",
+      "meta_data": {
+        "chunk_id": "c92825ac-4014-41e4-ad1f-7f70bcbf1111",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 43,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 따라서, 8월 1일부터 식품을 포함한 '행정명령 14257호 부속서Ⅰ'에 명시된 국가에서 미국으로 수입되는 물품에 국가별 차등 상호관세가 부과될 예정이었음",
+      "meta_data": {
+        "chunk_id": "ecd20b03-678f-4126-8335-e89838b78ff3",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 44,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-단, 한국을 포함하여 영국, 베트남, 인도네시아, 필리핀, 일본, 유럽연합과 같이 미국과의 별도 무역협정을 통해 상호관세율을 합의한 경우, 행정명령 14257호에 명시된 관세율이 아닌, 양국 간 합의한 관세율이 적용",
+      "meta_data": {
+        "chunk_id": "dfb2420a-65d1-41e2-b169-7b354bce1f00",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 45,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅰ-2 미국 상호관세 관련 발표 타임라인",
+      "meta_data": {
+        "chunk_id": "5a1cb80f-3137-429a-91e0-94e6d4c7bad8",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>발표일</th><th>법안</th><th>주요 내용</th></tr><tr><td>2025.04.02.</td><td>행정명령 14257호</td><td>- 4월 2일부터 전 세계를 대상으로 10%의 상호관세 부과 - 4월 9일부터 50여 개국에 차등 상호관세 부과하며, 한국에는 25%의 상호관세 부과 예정</td></tr><tr><td>2025.04.09.</td><td>행정명령 14266호</td><td>- 4월 9일부터 부과될 예정이었던 국가별 차등 상호관세를 7월 9일 0시 1분까지 90일간 유예 (7월 9일 0시 1분 이후로 상호관세 적용)</td></tr><tr><td>2025.07.07.</td><td>행정명령 14316호</td><td>- 국가별 차등 상호관세 적용일(7월 9일 적용 예정)을 8월 1일로 연기 - 한국 포함 14개국에 최종 상호관세율 및 상호관세 시행일 연기를 통지하는 내용의 서한 발송</td></tr><tr><td>2025.07.09</td><td>상호관세 서한 공개</td><td>- 필리핀을 포함한 8개국에 상호관세 통보 서한 발송 - 브라질(50%), 알제리(30%), 이라크(30%), 리비아(30%), 스리랑카(30%), 브루나이(25%), 몰도바(25%), 필리핀(20%)</td></tr><tr><td colspan=\"3\">▼</td></tr><tr><td>2025.08.01.</td><td>상호관세율 추가 수정 1)</td><td>- 8월 7일부터 한국산 제품에 15%의 상호관세 부과 - 일본 등 68개국과 유럽연합에 적용할 조정된 관세율 명시</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "ea436db0-7b8b-49aa-a801-6e4996762eb5",
+        "page_number": [
+          7
+        ],
+        "item_label": "table",
+        "index": 47,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "5a1cb80f-3137-429a-91e0-94e6d4c7bad8",
+        "prev_content": "5a1cb80f-3137-429a-91e0-94e6d4c7bad8",
+        "next_content": "c98c9cf0-6673-46d2-96f8-da36f3ad3813"
+      }
+    },
+    {
+      "page_content": "*주1: FURTHER MODIFYING THE RECIPROCAL TARIFF RATES",
+      "meta_data": {
+        "chunk_id": "c98c9cf0-6673-46d2-96f8-da36f3ad3813",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 48,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "*출처: 미국 연방관보 홈페이지(www.federalregister.gov), 백악관 홈페이지(www.whitehouse.gov)(검색일: 2025.07.28.)",
+      "meta_data": {
+        "chunk_id": "d8b3e1a9-099b-4fb2-b4de-3a0807d2d0ba",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 49,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1) 백악관 발표 자료에 따르면 해당 상호관세 부과 유예 시한은 7월 9일 0시 1분(美 동부시간)까지로, 7월 8일까지는 관세 부과가 유예되나 이후 7월 9일(0시 1분 이후)부터 상호관세가 부과될 예정이었음",
+      "meta_data": {
+        "chunk_id": "85ef8af9-289d-450f-9361-d1cb0b9d4d05",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 50,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "5a1cb80f-3137-429a-91e0-94e6d4c7bad8"
+      }
+    },
+    {
+      "page_content": "-3 -",
+      "meta_data": {
+        "chunk_id": "01b471f1-945b-4261-873e-2d1cab234851",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 51,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "5483b24c-910b-4d1d-9c3b-7fa8bf1583d2",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 52,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2025년 8월 1일 기준, 총 7개국이 미국과의 무역 협상을 완료",
+      "meta_data": {
+        "chunk_id": "819885b4-3fad-406c-b611-1015cac89250",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 53,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 미국은 한국을 포함해 △영국 △베트남 △인도네시아 △일본 △필리핀 △유럽연합과의 상호관세 관련 무역 협상을 완료함",
+      "meta_data": {
+        "chunk_id": "b012376a-69a9-4f85-8e33-32bec7954eb8",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 54,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅰ-3 미국과 무역협정을 타결한 국가 목록(`25.7.31. 기준)",
+      "meta_data": {
+        "chunk_id": "619c7c98-fe5e-4c97-b1c8-ca4805d958a1",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>구분</th><th>국가명</th><th>종전 관세율(A) (`25.4.5~)</th><th>협상 관세율(B) (`25.8.7~)</th><th>차이(B-A) (%p)</th><th>협상완료일 (美동부시간 기준)</th></tr><tr><td>1</td><td>영국</td><td>10%</td><td>10%</td><td>-</td><td>`25.5.8</td></tr><tr><td>2</td><td>베트남</td><td>46%</td><td>20%</td><td>△26%p</td><td>`25.7.2</td></tr><tr><td>3</td><td>인도네시아</td><td>32%</td><td>19%</td><td>△13%p</td><td>`25.7.15</td></tr><tr><td>4</td><td>일본</td><td>(4.2) 17% (7.9) 20%</td><td>19%</td><td>△1%p</td><td>`25.7.22</td></tr><tr><td>5</td><td>필리핀</td><td>(4/2) 24% (7/7) 25%</td><td>15%</td><td>△10%p</td><td>`25.7.22</td></tr><tr><td>6</td><td>EU</td><td>(4/2) 20% (7/7) 30%</td><td>15%</td><td>△15%p</td><td>`25.7.27</td></tr><tr><td>7</td><td>한국</td><td>25%</td><td>15%</td><td>△10%p</td><td>`25.7.30</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "d1dd0cb2-e7fc-4aa8-b0d2-04189e1007ce",
+        "page_number": [
+          8
+        ],
+        "item_label": "table",
+        "index": 56,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "619c7c98-fe5e-4c97-b1c8-ca4805d958a1",
+        "prev_content": "619c7c98-fe5e-4c97-b1c8-ca4805d958a1",
+        "next_content": "f1fe1b41-f161-4ebb-9026-06afe039dfc2"
+      }
+    },
+    {
+      "page_content": "*출처: 美 국가별 상호관세율 발표 현황(8.4 기준), KATI 농식품 수출정보(검색일: 2025.08.04. 검색)",
+      "meta_data": {
+        "chunk_id": "f1fe1b41-f161-4ebb-9026-06afe039dfc2",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 57,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025년 8월 7일부로 미국으로 수출되는 모든 한국산 농식품에 15%의 관세가 부과될 예정이나, 8월 7일 2) 이전 선적 제품 중 2025년 10월 5일 3) 이전에 통관되는 물품에는 기존 관세율 적용",
+      "meta_data": {
+        "chunk_id": "55428cce-4041-4d22-bc98-a27f865ce62a",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 58,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 지난 2008년 발효된 한-미 FTA 협정에 의거하여 2024년 기준 對미국 주요 한국산 농식품 수출 품목은 대부분 무관세가 적용",
+      "meta_data": {
+        "chunk_id": "bc6299f1-e8f6-4939-b080-04b0e82c3bc4",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 59,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 그러나 이번 트럼프 2기 행정부의 조치(행정명령 14257호)에 따라 2025년 4월 2일부터 미국으로 수입되는 모든 한국산 농식품에 10%의 상호관세가 부과",
+      "meta_data": {
+        "chunk_id": "a25121ed-238c-4ab0-a8c5-59e7be115e2c",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 60,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2025년 7월 31일에 발표된 한국산 농식품에 대한 상호관세는 15%의 관세율이 8월 7일(현지 시간)부로 적용될 예정",
+      "meta_data": {
+        "chunk_id": "ce97c6fe-d84e-4d75-91fb-1f4deac7ebf6",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 61,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이에 라면, 음료, 쌀가공식품, 김치, 신선 배, 베이커리류, 소스류, 조제식료품 등 미국으로 수출되는 모든 한국산 농식품에는 향후 15%의 세율이 일괄 적용",
+      "meta_data": {
+        "chunk_id": "c7213330-6bc3-46bf-886e-843cc2bdcbd6",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 62,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 다만 미국산 원재료의 가치의 제품 내 비중이 20% 이상인 경우, 미국산 원재료에 대해서는 상호 관세 적용이 면제",
+      "meta_data": {
+        "chunk_id": "ff04c58e-68b8-40b3-9258-e445ab507b5e",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 63,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한, 4월 14일 무역확장법 제232조에 근거하여 알루미늄 및 철강 제품에도 상호관세 적용이 면제되는 대신 별도의 관세율을 적용하겠다고 발표하였으며, 이에 따라 미국으로 수입되는 알루미늄 캔에 포장된 맥주에는 25%의 관세가 부과됨",
+      "meta_data": {
+        "chunk_id": "a1b228c8-2d15-4938-b60f-073539b53759",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 64,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2) 8월 7일 00시 01분 이전 기준",
+      "meta_data": {
+        "chunk_id": "54bf678a-ff47-4235-916b-46db80051e78",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 65,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "619c7c98-fe5e-4c97-b1c8-ca4805d958a1"
+      }
+    },
+    {
+      "page_content": "3) 10월 5일 00시 01분 이전 기준",
+      "meta_data": {
+        "chunk_id": "c02c8be5-c19c-4a5b-95df-d590ca15c06d",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 66,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "619c7c98-fe5e-4c97-b1c8-ca4805d958a1"
+      }
+    },
+    {
+      "page_content": "-4 -",
+      "meta_data": {
+        "chunk_id": "b74cda71-24e3-49bd-bd42-56700dbe780f",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 67,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "23ab79e8-a1f6-4b4f-89ef-e1203f981ce7",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 68,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅱ.영향분석",
+      "meta_data": {
+        "chunk_id": "036273de-e0b8-47c6-bfd9-8aa9ad91cd4e",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 69,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1",
+      "meta_data": {
+        "chunk_id": "066fa20e-b396-4d0f-86bd-199b261daa83",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 70,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 미국 수입·유통업체 설문조사 결과 및 시사점",
+      "meta_data": {
+        "chunk_id": "4b1be6bd-8fa1-473b-8627-3967b3c589ac",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 71,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "본 절은 ㈜트레이드파트너스에서 2025년 7월 25일부터 7월 29일까지(5일간) 미국 내 한국 식품 수입·유통업체 12개사를 대상으로 진행한 설문조사 결과에 기반하여 작성한 것으로, 미국 내 전체 한국 식품 수입·유통업체 의견을 대표하는 것은 아님. 또한 본 절의 내용은 미국의 對한국 상호관세율 발표일(7/31) 이전에 작성된 것으로 시간의 흐름에 따라 현지의 상황은 달라질 수 있음",
+      "meta_data": {
+        "chunk_id": "ac47ecb2-724f-497f-a813-4f6d36074b4c",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 72,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 한국 농식품에 대한 미국의 상호관세 조치에 대응하기 위해 현지 수입·유통업체는 △판매 가격 인상이 불가피하며 △마진 감소로 수익성이 저하될 것으로 예상4)",
+      "meta_data": {
+        "chunk_id": "d1840731-0057-4c2f-b886-e9ea6882dd5e",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 73,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 한국산 농식품에 추가 관세가 부과될 경우, 설문에 참여한 모든 응답 기업(12개사, 100%)가 '소비자 판매 가격 인상이 불가피할 것'이라고 인식",
+      "meta_data": {
+        "chunk_id": "971eadf8-373c-4f05-8e88-39fc97ede025",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 74,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 뒤이어 '마진 감소로 수익성이 저하될 것(9개사, 22.5%) ', '기존 대비 발주량이 축소될 것(6개사, 15.0%) ', '대체 국가 또는 대체상품 발굴을 검토할 것(6개사, 15.0%) ', '기존 거래처의 수요 감소(5개사, 12.5%) ' 등의 영향이 있을 것으로 예상",
+      "meta_data": {
+        "chunk_id": "ad4a30b7-f62d-429d-bb79-0459280199f0",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 75,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이 외에도 기존 '오프라인 판매채널의 온라인 전환 검토(1개사, 2.5%) ' 등의 의견이 수렴",
+      "meta_data": {
+        "chunk_id": "a1872120-12ff-4ba8-9f93-e052d5af6e55",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 76,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-일부 업체(1개사, 2.5%)는 기타 의견으로 한국산 농식품에 대한 추가 관세 부과 조치에 따라 '바이어의 구매력이 감소하고 가격경쟁력이 약화될 것이며, 타 국가 제품과의 경쟁이 심화되어 일부 한국 브랜드의 미국 시장 진출 타이밍이 지연될 수 있을 것으로 예상되어, 미국 시장 진입 시기를 재조정하거나 주요 품목군 구성을 재편하는 등 시장 진출 전략 수정이 불가피하다'는 의견을 제시",
+      "meta_data": {
+        "chunk_id": "cd15fd65-a6fa-4509-bb63-b0f2bb2092f3",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 77,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅱ-1 미국 상호관세 적용 시 한국산 농식품 수입에 미치는 영향에 대한 의견",
+      "meta_data": {
+        "chunk_id": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 78,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>연번</th><th colspan=\"2\">답변 응답</th><th>수</th><th>응답 비중</th></tr><tr><td>1</td><td>소비자 판매</td><td>가격 인상 불가피</td><td>12</td><td>30.0</td></tr><tr><td>2</td><td>마진 감소로 인한</td><td>수익성 저하</td><td>9</td><td>22.5</td></tr><tr><td>3</td><td colspan=\"2\">기존 대비 발주량 축소</td><td>6</td><td>15.0</td></tr><tr><td>4</td><td>대체 국가 또는 대체상품</td><td>발굴</td><td>6</td><td>15.0</td></tr><tr><td>5</td><td>기존 거래처 수요</td><td>감소 예상</td><td>5</td><td>12.5</td></tr><tr><td>6</td><td></td><td>판매채널 전환 검토</td><td>1</td><td>2.5</td></tr><tr><td>7</td><td colspan=\"2\">기타 *</td><td>1</td><td>2.5</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "bf6cfa6c-31c8-4c4e-9aa5-54a8379d7745",
+        "page_number": [
+          9
+        ],
+        "item_label": "table",
+        "index": 79,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "prev_content": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "next_content": "32b53835-0df6-4e1f-9ef5-7d866f88a30a"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>연번</td><td>답변 응답 수</td><td>비중 30.0</td></tr><tr><td>1</td><td>가격 인상 불가피 12</td><td></td></tr><tr><td>2</td><td>인한 수익성 저하 9</td><td>22.5</td></tr><tr><td>3</td><td>대비 발주량 축소 6</td><td>15.0</td></tr><tr><td>4</td><td>대체상품 발굴 검토 6</td><td>15.0</td></tr><tr><td>5</td><td>수요 감소 예상 5</td><td>12.5</td></tr><tr><td>6</td><td>판매채널 전환 검토 1</td><td>2.5</td></tr><tr><td>7</td><td>기타 * 1</td><td>2.5</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "66490cc6-f165-49f0-9998-087164fe984d",
+        "page_number": [
+          9
+        ],
+        "item_label": "table",
+        "index": 80,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "prev_content": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "next_content": "32b53835-0df6-4e1f-9ef5-7d866f88a30a"
+      }
+    },
+    {
+      "page_content": "(단위:",
+      "meta_data": {
+        "chunk_id": "32b53835-0df6-4e1f-9ef5-7d866f88a30a",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 81,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "개사,",
+      "meta_data": {
+        "chunk_id": "b2c59311-0f09-47ec-94c8-d84cc622b79e",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 82,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "%)",
+      "meta_data": {
+        "chunk_id": "f4ac4feb-43f2-4afe-a260-6a2acac63ac8",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 83,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/df0d236d-37b6-4a24-a90c-7fca5394b83c.png",
+      "meta_data": {
+        "chunk_id": "df0d236d-37b6-4a24-a90c-7fca5394b83c",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 84,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "38541271-6658-4432-9e47-3b5b709cf4a9",
+        "prev_content": "f4ac4feb-43f2-4afe-a260-6a2acac63ac8",
+        "next_content": "7b140ca2-1bf3-47af-a1dd-84b06eeeb156"
+      }
+    },
+    {
+      "page_content": "*주: [기타] 바이어의 구매력 감소, 가격경쟁력 약화, 현지 유통채널 확장 시 타 국가 제품과의 경쟁 격화. 일부 한국 브랜드의 미국 진출 타이밍이 지연되거나, 제품 라인업 조정, 전략 수정이 불가피할 것으로 예상",
+      "meta_data": {
+        "chunk_id": "7b140ca2-1bf3-47af-a1dd-84b06eeeb156",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 85,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "*출처: 미국 내 한국 식품 수입·유통업체를 대상으로 한 의견 수렴 결과, 트레이드파트너스(2025.07.)",
+      "meta_data": {
+        "chunk_id": "3ebbb98c-6b4a-4cef-9578-c0bb34ea7301",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 86,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "4) 2025년 7월 25일부터 7월 29일까지 5일간 미국 내 한국 식품 수입·유통업체 12개사를 대상으로 진행한 설문조사 결과, 트레이드파트너스",
+      "meta_data": {
+        "chunk_id": "89e9ec85-d6d0-449f-a90e-fa9767712dce",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 87,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "38541271-6658-4432-9e47-3b5b709cf4a9"
+      }
+    },
+    {
+      "page_content": "-5 -",
+      "meta_data": {
+        "chunk_id": "044f1a92-e0c8-43d0-a34a-876851ab775b",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 88,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "5384b1f7-3ab4-42e7-878a-2e258a94d2d1",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 89,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "한국산 농식품에 대한 상호관세 부과 시, 현지 한국산 농식품 수입·유통업체의 22.6% 7개사 는 △주요 품목군을 중심으로 발주량을 조정할 것이며, △한국의 공급업체와 가격 재협상을 시도할 계획",
+      "meta_data": {
+        "chunk_id": "f1e223b9-2c9a-416e-801b-8763a6d5776d",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 90,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ △한인 시장 외 소비층을 강화하여 시장 내 입지를 확보할 계획인 기업은 5개사 16.1% 로 나타났으며, △수입 시기 또는 분할선적 등 물류 전략을 조정하거나 △수출자, 협회 등 한국 측과 공동 대응할 계획인 기업은 각각 4개사 12.9% 로 확인",
+      "meta_data": {
+        "chunk_id": "cf91e5a4-5b06-464f-b9e1-f84bd8eadff4",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 91,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이 외에도 응답 기업의 9.7% 3개사 는 △타 국가산으로 대체 수입을 추진할 계획으로 나타났으며, 기타 의견으로 △가격 민감도가 높은 미국의 유통환경을 고려해, 관세 리스크에 따라 제품 현지화 전략을 조정하고, 현지 바이어와 공동 프로모션 또는 B2B 라이선싱 모델을 검토할 계획이라는 응답 수렴",
+      "meta_data": {
+        "chunk_id": "7a99ca06-b7e9-4ada-bc8f-e44bef14fe6e",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 92,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅱ-2 미국 상호관세 적용 시 현지 수입·유통업체의 대응 방안에 대한 의견",
+      "meta_data": {
+        "chunk_id": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 93,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>연번</th><th>답변 응답 수</th><th>응답 비중</th></tr><tr><td>1 주요 품목군</td><td>중심으로 발주량 조정 7</td><td>22.6</td></tr><tr><td>2 한국 공급업체와</td><td>가격 재협상 시도 7</td><td>22.6</td></tr><tr><td>3 한인시장</td><td>소비층 공략 강화 5</td><td>16.1</td></tr><tr><td>4 수입시기 또는 분할선적 등 물류전략 조정</td><td>4</td><td>12.9</td></tr><tr><td>5 한국 측(수출자, 협회 등)과 공동 대응</td><td>4</td><td>12.9</td></tr><tr><td>6 타 국가산으로</td><td>대체 수입 추진 3</td><td>9.7</td></tr><tr><td>7</td><td>기타 * 1</td><td>3.2</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "dc3be481-52f1-4fd9-87dc-c0aacdbb7616",
+        "page_number": [
+          10
+        ],
+        "item_label": "table",
+        "index": 94,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "prev_content": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "next_content": "2b29ec6a-abfc-4e83-a1af-9d2f1facd3c9"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td></td><td></td><th>(단위: 개사, %)</th></tr><tr><th>연번</th><th>답변</th><th>응답 수 응답 비중</th><td></td></tr><tr><td>1</td><td>중심으로 발주량 조정 7</td><td>22.6</td><td></td></tr><tr><td>2</td><td>공급업체와 가격 재협상 시도 7</td><td>22.6</td><td></td></tr><tr><td>3</td><td>소비층 공략 강화 5</td><td>16.1</td><td></td></tr><tr><td>4</td><td>분할선적 등 물류전략 조정 4</td><td>12.9</td><td></td></tr><tr><td>5</td><td>협회 등)과 공동 대응 4</td><td>12.9</td><td></td></tr><tr><td>6</td><td>국가산으로 대체 수입 추진 3</td><td>9.7</td><td></td></tr><tr><td>7</td><td>기타 * 1</td><td>3.2</td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "cbf10132-aa09-40e7-a0ec-d49ac5035ca9",
+        "page_number": [
+          10
+        ],
+        "item_label": "table",
+        "index": 95,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "prev_content": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "next_content": "2b29ec6a-abfc-4e83-a1af-9d2f1facd3c9"
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/bc63329f-5e29-4917-859e-6b0546442a26.png",
+      "meta_data": {
+        "chunk_id": "bc63329f-5e29-4917-859e-6b0546442a26",
+        "page_number": [
+          10
+        ],
+        "item_label": "picture",
+        "index": 96,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "prev_content": "52dcae35-2a49-44d3-9c8a-7e20d5cf15b0",
+        "next_content": "2b29ec6a-abfc-4e83-a1af-9d2f1facd3c9"
+      }
+    },
+    {
+      "page_content": "*주: [기타] 가격 민감도가 높은 미국 유통환경을 고려해, 관세 리스크에 따라 제품 현지화 전략(가격·패키징·브랜드 메시지 등)을 조정하고, 현지 바이어와의 공동 프로모션 또는 B2B 라이선싱 모델 검토",
+      "meta_data": {
+        "chunk_id": "2b29ec6a-abfc-4e83-a1af-9d2f1facd3c9",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 97,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "*출처: 미국 내 한국 식품 수입·유통업체를 대상으로 한 의견 수렴 결과, 트레이드파트너스(2025.07.)",
+      "meta_data": {
+        "chunk_id": "bb6b1f4f-65a5-41fb-98e9-336ac414524e",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 98,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국에서 한국 농식품을 수입하는 업체는 추가 관세 부담을 완화하기 위해 △현지에서의 마케팅 전략을 수정하거나 △취급 제품이나 원재료를 타국산으로 전환할 계획인 것으로 나타남",
+      "meta_data": {
+        "chunk_id": "fd50f8d6-1f62-4365-9d5d-73dc4e8bde16",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 99,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 또한 △현지 생산으로 전환하거나 △비교적 관세의 영향을 받지 않는 품목으로 취급 제품을 전환 하려는 대응 방안도 확인",
+      "meta_data": {
+        "chunk_id": "403d5852-e5cb-4810-b00a-a9d54f83e976",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 100,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 대부분의 현지 수입·유통업체는 △추가 관세 부담분 중 일부를 한국 공급사와 공동으로 분담하고 공동 마케팅(이벤트)을 추진하는 등 '한국 측과 공동 대응'하거나 △미국 관세 신고 기준가격의 재설정 (CIF→FOB) △미국 시장 내 소비자 가격 민감도 분석을 통한 가격 범위 재산정을 통한 판매전략 수정 등으로 수입 전략을 재편할 계획인 것으로 나타남",
+      "meta_data": {
+        "chunk_id": "537fe86b-8ab6-404f-a12b-90e3e92ee40d",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 101,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 일부 기업은 수입업체 측에서 수입단가를 인상할 계획(추가 관세 인상분 수입자 부담)이라고 응답하였으며, 이 외에도 수출육성책이나 환율 대응 등과 관련해 다방면으로 정부의 대책 마련이 필요함을 시사 하는 응답이 확인됨",
+      "meta_data": {
+        "chunk_id": "81fa96a6-9adc-4405-adcf-ec6d7cac3580",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 102,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-6 -",
+      "meta_data": {
+        "chunk_id": "7eeb0347-1456-47e4-8f50-456e8e779c7a",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 103,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "fe0e04b5-6735-4b56-97a8-6a7245230338",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 104,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2",
+      "meta_data": {
+        "chunk_id": "868f87d3-2a3a-41c0-8796-cb40d944003b",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 105,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 관세조치에 따른 미국 소비 동향 전망",
+      "meta_data": {
+        "chunk_id": "5fa34c1a-db50-488d-b7c5-0c5da527dce4",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 106,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "글로벌 및 현지 기관은 공통적으로 미국의 상호관세 조치가 물가상승을 초래할 가능성이 높으며, 관세 인상에 따른 실질적 부담은 소비자에게 전가될 것이라는 우려의 입장을 표명",
+      "meta_data": {
+        "chunk_id": "3dcfaed4-3615-4b4d-9569-6db94f5097e6",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 107,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 미국 노동통계국(U.S. Bureau of Labor Statistics)에 따르면 2025년 6월(최신자료) 미국의 소비자물가 지수(물가상승률)는 2.7%로 전월 대비 0.3%p 상승하였으며, 동년 2월 이후 최고 수준을 기록",
+      "meta_data": {
+        "chunk_id": "ec54dfcb-5947-421d-a6ad-4d4ddba6ab5c",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 108,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-특히 식품 부문의 소비자물가지수는 3%로 전월(`25.5월) 2.9% 대비 0.1%p 증가하였으며, 동월(`25.6월) 평균(2.7%)을 웃도는 수준으로 나타남",
+      "meta_data": {
+        "chunk_id": "0e7e560a-9909-4e46-857c-540f80836fd4",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 109,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅱ-3 2025년 미국 소비자물가지수(Consumer Price Index) 추이",
+      "meta_data": {
+        "chunk_id": "dc020653-026d-4fa8-a397-592bf4a45d2f",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 110,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>구분</td><td>1월</td><td>2월</td><td>3월</td><td>4월</td><td>5월</td><td>6월</td></tr><tr><td>전체</td><td>3.0%</td><td>2.8%</td><td>2.4%</td><td>2.3%</td><td>2.4%</td><td>2.7%</td></tr><tr><td>식품 부문</td><td>2.5%</td><td>2.6%</td><td>3.0%</td><td>2.8%</td><td>2.9%</td><td>3.0%</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "99d6a682-2819-4421-a17c-87eec82cc6e4",
+        "page_number": [
+          11
+        ],
+        "item_label": "table",
+        "index": 111,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "dc020653-026d-4fa8-a397-592bf4a45d2f",
+        "prev_content": "dc020653-026d-4fa8-a397-592bf4a45d2f",
+        "next_content": "72bc7c12-1df5-4031-8cff-dea15ba08269"
+      }
+    },
+    {
+      "page_content": "*출처: 미국 노동통계국(www.bls.gov)(검색일: 2025.08.05.)",
+      "meta_data": {
+        "chunk_id": "72bc7c12-1df5-4031-8cff-dea15ba08269",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 112,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (골드만삭스 Goldman Sachs ) 상호관세 조치에 따른 소비 위축으로 2025년 미국의 경제성장률 전망치를 연초 2.4%에서 3월 1.7%, 7월 1.1%로 하향 조정함",
+      "meta_data": {
+        "chunk_id": "36a5b571-d428-4cb7-9067-b275466add71",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 113,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국 내 소비 지출 추이가 불안정성을 보이는 상황에서 단발성 가격 인상만으로도 실질소득이 감소할 것으로 예측하며, 개인소비지출물가지수(PCE 5) ) 6)를 기반으로 측정한 인플레이션은 2025년 3.3%에 달할 것으로 전망",
+      "meta_data": {
+        "chunk_id": "4dba97c1-6870-4b5d-bdf5-3d47291baffd",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 114,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 미국의 상호관세 조치 시행은 2026년 경제성장률의 0.8%p를 하락하게 만들 것이라고 예측",
+      "meta_data": {
+        "chunk_id": "63b98c68-d8fe-4410-bb21-2a40c41e1f1a",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 115,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-골드만삭스는 관세조치에 따른 비용상승 중 5분의 1 수준을 해외 수출업자가 부담하며, 나머지 5분의 4는 미국 기업 및 미국 소비자에게 전가되었다고 분석",
+      "meta_data": {
+        "chunk_id": "1e0d59e4-81c0-4eb4-9963-551dd44c80ed",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 116,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· AP통신 역시 이번 관세 조치가 외국에 부과되는 세금처럼 묘사되나, 실제로는 미국 내 수입업체가 관세를 부담하는 것이므로 이에 따른 영향은 미국 내 가격을 올리는 방식으로 소비자에게 전가될 것이라고 지적",
+      "meta_data": {
+        "chunk_id": "2fec2d36-495f-4bce-9cc5-cdfca6d07a6e",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 117,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (예일대학교 예산연구소7) ) 상호관세 조치는 소비자의 부담을 확대하고 소득의 불균형을 심화하는 부작용을 초래할 가능성이 있다고 평가",
+      "meta_data": {
+        "chunk_id": "042c9520-3093-4fd6-b4e4-39922e04ee3e",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 118,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-2025년 7월 28일 기준 미국이 수입 상품에 부과하는 평균 실효세율(Effective Tariff Rate)은 18.3%에 달할 것으로 추정하였으며, 이는 2024년도 2.4%에서 약 7배 이상 높은 수준, 1933년 이후 최고 수준으로 나타남",
+      "meta_data": {
+        "chunk_id": "7a357741-0402-4673-83fe-64a7ea1585b0",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 119,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· BBC의 인용 보도에 따르면 2025년 6월 미국의 관세 수입은 280억 달러(한화 약 39조 원)로, 2024년 월평균 수입의 3배에 달하는 수준으로 집계",
+      "meta_data": {
+        "chunk_id": "595afb3d-a5de-470d-a5aa-d9041caee02d",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 120,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-2025년 미국 상호관세 조치에 따른 물가 상승률은 1.8%로 예측되었으며, 가구당 평균 2,435달러(한화 약 337만 원)의 경제손실이 발생할 것으로 예측",
+      "meta_data": {
+        "chunk_id": "e500032e-02b4-4487-8e11-ff1d83b19552",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 121,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 이번 관세 부과조치로 미국의 실질 국내총생산(GDP) 성장률은 2025년과 2026년 각각 0.5%p 감소할 것으로 전망되었으며, 이후에도 지속적으로 매년 0.4%p의 감소를 유발할 것으로 예측",
+      "meta_data": {
+        "chunk_id": "67ac7943-ef86-4322-8eee-be40fe4caeda",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 122,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 이는 2024년 달러 가치를 기준으로 연간 1,200억 달러(한화 약 166조 원) 규모의 손실로 나타남",
+      "meta_data": {
+        "chunk_id": "e2a01f78-0582-4aff-949d-2087a00cfc86",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 123,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "5) personal consumption expenditures price index",
+      "meta_data": {
+        "chunk_id": "ab24bec3-a5dc-409d-98d7-fc3b8fa1f695",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 124,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "dc020653-026d-4fa8-a397-592bf4a45d2f"
+      }
+    },
+    {
+      "page_content": "6) 국내 소비 물가의 전체 평균 상승도에 대한 지표",
+      "meta_data": {
+        "chunk_id": "7ef51b0b-46ad-412d-abbc-4738ff341bdd",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 125,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "dc020653-026d-4fa8-a397-592bf4a45d2f"
+      }
+    },
+    {
+      "page_content": "7) The Budget Lab at Yale",
+      "meta_data": {
+        "chunk_id": "815f07a2-425a-4bc0-8a88-1f1035916d3c",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 126,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "dc020653-026d-4fa8-a397-592bf4a45d2f"
+      }
+    },
+    {
+      "page_content": "-7 -",
+      "meta_data": {
+        "chunk_id": "4ebfdc50-70d5-4d40-b03c-fd45d0ffa91a",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 127,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "0987ac5c-bf02-43dd-b916-72b6c80ca9ad",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 128,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (미국진보센터 CAP 8) ) 미국의 상호관세 조치로 미국 가구에 연평균 5,200달러(한화 약 720만 원)의 손실이 발생할 것으로 추산",
+      "meta_data": {
+        "chunk_id": "d1b7a6f4-ae5b-462e-88cc-17c481df5e89",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 129,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이번 관세 조치는 수입품 가격의 상승을 야기하여 미국의 물가수준 Price level 은 최소 1.7%에서 최대 2.1% 증가할 것으로 예측되었으며, 미국진보센터는 이러한 가격 인상이 특히 저소득층에 가장 큰 영향을 줄 것으로 평가",
+      "meta_data": {
+        "chunk_id": "678133e4-7a35-4c7c-a987-0b62bd72a24d",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 130,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (미국기업연구소 AEI 9) ) 미국의 상호관세 정책은 비현실적인 경제 모델에 기반하고 있으며, 해당 조치에 따른 실질적 부담은 소비자에게 전가될 가능성이 있다고 비판",
+      "meta_data": {
+        "chunk_id": "af86ca7e-add1-4fcc-a43d-87c8a314605f",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 131,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이 외에도 미국상공회의소 USCC10) , 전미제조업협회 NAM11) , 부르킹스연구소 Brookings Institution 등은 미국의 상호관세 조치가 도입 목적인 무역적자의 개선 효과보다 경기 침체를 유발할 가능성이 크고, 공급망 붕괴, 비용상승 등을 야기하여 전반적으로 부정적인 파급효과가 발생할 것이라고 경고",
+      "meta_data": {
+        "chunk_id": "b0cbe313-ff19-494e-af40-64762091b29f",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 132,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 내 한국식품 수입·유통업체를 대상으로 의견 수렴을 진행한 결과(`25년 7월), 추가 관세로 판매가격이 인상될 경우 △필수품이 아닌 선택품의 수요 축소 △일부 고객 이탈 △구매량 즉시 감소 △대체품으로의 수요 전환 등의 영향이 발생할 것으로 예상12)",
+      "meta_data": {
+        "chunk_id": "b51b4dc7-c7d9-4568-bcad-0f1590d9b4b2",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 133,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 응답 기업의 41.7% 5개사 는 필수품의 수요는 유지될 것으로 보이나 선택품의 수요는 축소될 것이라고 예상하였으며, 25.0% 3개사 는 일부 고객의 이탈이 예상된다고 응답",
+      "meta_data": {
+        "chunk_id": "8c9ff7f5-4e63-4f47-95bd-9fecd1809e17",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 134,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 또한 △미국 소비자는 가격에 민감하여 구매량이 즉시 감소할 것이라는 의견과 △대체 제품으로 수요가 전환될 것이라는 의견이 각각 16.7% 각 2개사 로 나타남",
+      "meta_data": {
+        "chunk_id": "1557d541-9315-4fef-81e3-8d1de59b1255",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 135,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이번 추가 관세로 판매 가격이 인상되더라도, △미국 소비자에 미치는 영향은 크지 않을 것이라는 응답은 집계되지 않음",
+      "meta_data": {
+        "chunk_id": "a21acc3c-1ac8-42ca-a790-e0488ddd4252",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 136,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅱ-4 미국 상호관세 적용 시 미국 소비자의 예상 반응에 대한 의견",
+      "meta_data": {
+        "chunk_id": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 137,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>연번</th><th>답변</th><th>응답 수</th><th>응답 비중</th></tr><tr><td>1</td><td>품목별 차별화 발생 (필수품은 수요 유지될 것이나 선택품은</td><td>5</td><td>41.7</td></tr><tr><td>2</td><td>주요 소비자는 구매를 유지할 것이나 일부 고객의 이탈 예상</td><td>3</td><td>25.0</td></tr><tr><td>3</td><td>가격에 민감하여 구매량 즉시 감소 예상</td><td>2</td><td>16.7</td></tr><tr><td>4</td><td>대체 제품으로의 전환 증가 예상</td><td>2</td><td>16.7</td></tr><tr><td>5</td><td>큰 영향 없을 것으로 예상</td><td>0</td><td>-</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "7c96432c-bda1-42a0-b258-b9f03964842b",
+        "page_number": [
+          12
+        ],
+        "item_label": "table",
+        "index": 138,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "prev_content": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "next_content": "efab8a5e-7a88-4caa-9148-f6b07b031c4e"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>연번</th><th>답변</th><th>응답 수</th><th>응답 비중</th></tr><tr><td>1</td><td>품목별 차별화 발생 (필수품은 수요 유지될 것이나 선택품은</td><td>5 41.7</td><td></td></tr><tr><td>2</td><td>주요 소비자는 구매를 유지할 것이나 일부 고객의 이탈 예상</td><td>3</td><td>25.0</td></tr><tr><td>3</td><td>가격에 민감하여 구매량 즉시 감소 예상</td><td>2</td><td>16.7</td></tr><tr><td>4</td><td>대체 제품으로의 전환 증가</td><td>2</td><td>16.7</td></tr><tr><td>5</td><td>큰 영향 없을 것으로</td><td>0</td><td>-</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "24a5b2fc-1419-483a-b85c-d9ea388fe055",
+        "page_number": [
+          12
+        ],
+        "item_label": "table",
+        "index": 139,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "prev_content": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "next_content": "efab8a5e-7a88-4caa-9148-f6b07b031c4e"
+      }
+    },
+    {
+      "page_content": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/result/images/3ee81db6-4223-4919-a44b-ccc39dd530e6.png",
+      "meta_data": {
+        "chunk_id": "3ee81db6-4223-4919-a44b-ccc39dd530e6",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 140,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "prev_content": "1f94c867-8d06-4788-a2fd-b801523f45b8",
+        "next_content": "efab8a5e-7a88-4caa-9148-f6b07b031c4e"
+      }
+    },
+    {
+      "page_content": "*출처: 미국 내 한국 식품 수입·유통업체를 대상으로 한 의견 수렴, 트레이드파트너스(2025.07.)",
+      "meta_data": {
+        "chunk_id": "efab8a5e-7a88-4caa-9148-f6b07b031c4e",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 141,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "8) Center for American Progress",
+      "meta_data": {
+        "chunk_id": "193c2755-9ad1-4dfa-8e42-62fa50649009",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 142,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8"
+      }
+    },
+    {
+      "page_content": "9) American Enterprise Institute",
+      "meta_data": {
+        "chunk_id": "3f42c78f-72da-4354-b41b-9333ec89a5a7",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 143,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8"
+      }
+    },
+    {
+      "page_content": "10) U.S. Chamber of Commerce",
+      "meta_data": {
+        "chunk_id": "0eb31416-4bd1-4791-8c22-4e20568c4f7f",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 144,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8"
+      }
+    },
+    {
+      "page_content": "11) National Association of Manufacturers",
+      "meta_data": {
+        "chunk_id": "bc5e55a0-3015-4d23-a3b8-cb9e01d729be",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 145,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8"
+      }
+    },
+    {
+      "page_content": "12) 2025년 7월 25일부터 7월 29일까지 5일간 미국 내 한국 식품 수입·유통업체 12개사를 대상으로 진행한 설문조사 결과, 트레이드파트너스",
+      "meta_data": {
+        "chunk_id": "8e5ce5b5-0e63-4916-8d75-0fd81e74546e",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 146,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "1f94c867-8d06-4788-a2fd-b801523f45b8"
+      }
+    },
+    {
+      "page_content": "-8 -",
+      "meta_data": {
+        "chunk_id": "4ef08e18-125e-4002-9b20-41df76337dac",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 147,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "8e36a203-2b32-4b18-9c8a-1ff22f534897",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 148,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅲ.결론",
+      "meta_data": {
+        "chunk_id": "6eead35a-8134-4d2d-a8e3-0349a543d430",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 149,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1 미국 관세조치가 對美 농식품 수출에 미치는 영향",
+      "meta_data": {
+        "chunk_id": "658c229c-0d62-48aa-8494-fac2654cc912",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 150,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 이번 상호관세 조치로 對美 수출 농식품은 관세율 인상에 따른 가격 상승이 불가피할 전망",
+      "meta_data": {
+        "chunk_id": "80e911f1-a5b3-41b3-bf01-68e676c771a3",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 151,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 가격 전가가 어렵고 가격탄력성이 높은13) 농식품의 특성상, 관세 인상에 따른 가격 인상은 단기적 관점에서 미국 시장 내 수요 감소를 유발할 것으로 전망",
+      "meta_data": {
+        "chunk_id": "7a982851-e09b-4565-a250-c254f2248837",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 152,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2025년 7월, 미국 내 한국 식품 수입·유통업체 12개사를 대상으로 조사한 결과, 30.0%가 미국 상호관세 적용 시 '소비자 판매가격 인상이 불가피'할 것이라고 응답",
+      "meta_data": {
+        "chunk_id": "f8581ce1-9398-4bc4-9f2f-f51e80da9579",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 153,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 '마진 감소로 수익성이 저하(22.5%)'될 것이며, '수입 가격 인상에 대한 부담으로 기존 대비 발주량이 축소(15.0%)'되거나, '기존 거래처의 수요가 감소(12.5%)'할 것이라고 예상",
+      "meta_data": {
+        "chunk_id": "08d70f52-80e7-4567-8065-3b668007a9ef",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 154,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 글로벌 경제 전문 기관 및 언론보도 등에서도 이번 관세 조치에 따라 미국 시장에 공급되는 수입산 제품의 가격이 인상되어 실질적인 부담은 미국 소비자에게 전가될 것이라는 전망이 지배적",
+      "meta_data": {
+        "chunk_id": "a7137e1f-5818-4ef3-a82c-c41cace97098",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 155,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-관세 조치로 수입품 가격이 상승하며 수요가 위축되어 對美 농식품 수출에도 부정적 파급효과 발생 전망 -미국 내 한국 식품 수입·유통업체의 41.7%는 '필수품을 제외한 선택품의 수요가 축소될 것'이라고 예상 하였으며, 25.0%는 '일부 고객의 이탈이 예상'된다고 응답",
+      "meta_data": {
+        "chunk_id": "2be49c3b-8f8e-4981-b7ea-a99f6876099c",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 156,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 이 외에도 '가격에 민감한 소비자 특성상 구매량이 즉시 감소할 것'이며, '대체 제품으로의 전환이 증가할 것'이라는 응답이 각각 16.7% 차지",
+      "meta_data": {
+        "chunk_id": "1f2b6b9a-35c2-464b-a8c5-fe7362e2c6bc",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 157,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "또한 미국으로 수입되는 제품의 원산지를 기준으로 관세를 부과하게 되어 이를 증명하기 위한 절차가 강화될 것으로 예상되며, 이에 따른 농식품 수출기업의 철저한 대비가 필요",
+      "meta_data": {
+        "chunk_id": "1373cefd-905c-4477-a849-bd4db1708104",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 158,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2025년 8월 7일부로 한국을 포함한 미국의 주요 교역국14)을 대상으로 확정된 상호관세 행정 명령이 시행될 예정임에 따라 원산지를 증명하기 위한 제반 서류의 철저한 준비가 요구됨",
+      "meta_data": {
+        "chunk_id": "e9ed6eb7-5c19-4263-bf6b-6ef0cf9dca27",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 159,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국은 연방규정 19 CFR 134에 따라, 식품의 원산지를 '수출국이 아닌 식품이 제조, 생산 또는 재배된 국가'로 간주하며 특히 품명(Name), 특성(Character), 용도(Use)가 변화하는 경우 원산지로 간주",
+      "meta_data": {
+        "chunk_id": "fe1efb8c-2715-4bf7-98c3-a0776b06353b",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 160,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 미국 관세국경보호청(CBP)은 미국으로 수입되는 제품에 대한 원산지 판정에 대한 권한을 보유하며, 원산지 판정 시 개별 사례에 대해 전체 상황을 고려하여 원산지를 판정한 뒤 관세를 부과",
+      "meta_data": {
+        "chunk_id": "64bbbfa3-bda1-4883-a568-956d9cbb3b5e",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 161,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 한국산 농식품에는 15%의 관세가 부과될 예정이며, 미국으로 수입되는 최종 제품의 '원산지 (Country of Origin)'에 따라 관세율이 결정됨",
+      "meta_data": {
+        "chunk_id": "36e7e61c-802a-4b4f-a32f-89c3f26e1f38",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 162,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이에 중국산, 베트남산 등 타국가에서 원료를 수입한 뒤 한국에서 추가 가공 후 미국으로 수출되는 제품 등에 대해서는 '한국에서의 가공이 충분히 실질적인 변형을 거쳐 생산되었는지'를 기준으로 제품의 최종 원산지가 결정되므로 원산지 판정 및 원산지증명과 관련한 준비가 요구됨",
+      "meta_data": {
+        "chunk_id": "b0b5674f-824e-4c66-bd88-92de16c7a9a4",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 163,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "13) 가격이 올랐을 때 소비자가 소비량(수요)을 얼마나 줄이는지를 비교하는 것으로, 가격 변화에 비해 수요량이 변화가 크면 가격탄력성이 높음. 대체재가 많은 농식품의 경우 가격 변화에 민감하게 반응하여 가격탄력성이 높은 품목에 해당",
+      "meta_data": {
+        "chunk_id": "f819d507-4a44-4a7f-9b4e-c2ec4b217512",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 164,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "80e911f1-a5b3-41b3-bf01-68e676c771a3"
+      }
+    },
+    {
+      "page_content": "14) 한국을 포함한 69개국(유럽연합 포함)",
+      "meta_data": {
+        "chunk_id": "30aab687-2444-430f-9149-f4e11875c23f",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 165,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "80e911f1-a5b3-41b3-bf01-68e676c771a3"
+      }
+    },
+    {
+      "page_content": "-9 -",
+      "meta_data": {
+        "chunk_id": "974c54a2-b280-496e-a600-2639bda38408",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 166,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "2df675fc-294e-4fcc-876f-892d2e12536c",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 167,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2 대응방안 및",
+      "meta_data": {
+        "chunk_id": "e36c80d1-d7e3-4772-a8cb-697033b86ff4",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 168,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 시사점",
+      "meta_data": {
+        "chunk_id": "c5ac3899-16e4-4401-8923-9ce01575b4e5",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 169,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 트럼프 2기 행정부는 무역적자 및 국가 안보 위협을 이유로 우리나라를 포함한 주요 교역국에 2025년 8월 7일부로 상호관세를 부과",
+      "meta_data": {
+        "chunk_id": "cb6c0c8b-1956-471e-a336-7de0c786961b",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 170,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이번 상호관세 부과 조치는 일시적 보호무역 조치가 아닌 통상 구조를 재편하려는 움직임으로, 對美 농식품 수출기업은 변화한 통상 환경에 부합하는 수출전략 수립이 불가피",
+      "meta_data": {
+        "chunk_id": "d1b24091-3161-47f2-b550-e7825308c19f",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 171,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (관세 대응형 수출전략 수립) 미국의 이례적인 고관세 부과에 대응하는 수출전략 재편 필요",
+      "meta_data": {
+        "chunk_id": "fc5a5e8b-66c7-437a-ad46-f81424c5a16b",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 172,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이번 트럼프 2기 행정부의 상호관세 부과조치로 미국의 수입 관세율은 91년 만에 최고치를 기록",
+      "meta_data": {
+        "chunk_id": "065141d5-2cf1-4c58-b9ec-7fc42301c73c",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 173,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 美예일대학교 예산연구소에 따르면 미국의 유효관세율은 2025년 초 2.5%에서 7개월 만에 18.3%로 급격히 상승하였으며, 이는 1934년 이래 최고 수준으로 나타남",
+      "meta_data": {
+        "chunk_id": "825182a1-2885-4bbd-8352-fc37c10c2473",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 174,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 이에 높아진 관세에 대응하기 위한 수출전략 수립이 요구되는 상황으로, 현지 수입·유통업체는 △주요 품목군을 중심으로 발주량 조정 △한국 공급업체와 가격 재협상 시도 등을 계획 중인 것으로 나타남15)",
+      "meta_data": {
+        "chunk_id": "8422fddc-2b33-42e9-9eb1-48cf73e180b8",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 175,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국산 원재료(U.S. Content)가 차지하는 가치(value)가 20% 이상인 경우, 상호관세 적용 대상에서 제외되므로 對美 수출전략 수립 시 참고 가능",
+      "meta_data": {
+        "chunk_id": "8a01790c-0d25-4da5-9d62-3c8a02bfa7c3",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 176,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 미국산 원재료란, 해당 제품에 포함된 구성요소 중 미국에서 완전히 생산되었거나, 미국 내에서 실질적 변형(substantial transformation)을 거친 부분의 가치를 의미하며, 미국산 원재료에 대한 조달비용 (원자재 및 구성품 등의 인보이스 가격 또는 구매가)을 기준으로 원재료의 가치를 평가할 수 있음",
+      "meta_data": {
+        "chunk_id": "addb8db1-b968-49e0-b0b9-a101ef497054",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 177,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 다만 미국산 원재료가 20% 이상이더라도, 이를 입증할 수 있는 관련 증빙 서류16)가 제출되지 않는 경우, 미국 관세국경보호청(CBP)은 해당 제품 전체에 상호관세를 전액 부과할 수 있으므로 유의 필요",
+      "meta_data": {
+        "chunk_id": "be1cc33b-3e37-4f11-a292-1979ca6a5ac1",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 178,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 또한 한국에서 미국으로 원재료를 수출하여 완제품을 미국에서 생산하는 경우라고 하더라도 수입 통관 시점에서 해당 원료에는 관세가 부과되므로 이 점을 고려하여 수출전략을 수립해야 함",
+      "meta_data": {
+        "chunk_id": "28e377e6-1af3-4079-a2b6-b90ab5a2f0c6",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 179,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-관세를 회피하기 위한 제3국 우회 수출 역시 고관세 대상에 해당하며, 수출가격을 인위적으로 조정하는 행위 역시 규정 위반에 해당하므로 유의 필요",
+      "meta_data": {
+        "chunk_id": "b76e2978-3245-4bdc-b9a8-f9ce1f1b7729",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 180,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 2025년 7월 8일 트럼프 대통령이 소셜 미디어 플랫폼 Truth Social에 공개한 무역 관련 서한에서는 '관세를 회피하기 위해 환적한 상품에는 더 높은 관세가 부과된다(Goods transshipped to evade a higher Tariff will be subject to that higher Tariff)'고 명시하며, 미국 관세국경보호청(CBP)이 높은 관세를 피하기 위해 환적했다고 여기는 물품에 대해서는 40%의 관세를 부과할 수 있도록 함",
+      "meta_data": {
+        "chunk_id": "69fb2ed6-63a2-48fc-88b7-5e8bf1482b85",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 181,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국 통관 시 관세를 회피하기 위해 인보이스의 가격을 낮추어 신고하는 것은 미국 관세법 위반에 해당하여 민사적 제재뿐만 아니라 형사 처벌의 대상이 될 수 있으므로 고의로 가격을 낮추어 세관 신고를 하는 방법은 철저하게 지양해야 함",
+      "meta_data": {
+        "chunk_id": "fec5fdc3-3baf-4d38-b6c8-4ee82034c354",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 182,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 관세를 회피할 목적으로 수출 단가를 인위적으로 낮추는 행위는 미국 관세국경보호청(CBP) 규정 위반에 해당 하므로 가격 조정은 경제적 실질에 부합하고 문서화된 상업적 조건(commercial terms)에 따라 이루어져야 함",
+      "meta_data": {
+        "chunk_id": "859b3592-e836-4c76-bd4c-4e42d882e009",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 183,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 수출가격 조정은 수출자-수입자 간 판매 계약 조건, 거래 방식, 당사자 간 리스크 분담 구조 등을 종합적으로 고려하여 이루어져야 하며, 필요 시 계약서에 관세 인상에 따른 가격 조정 조항을 명시해두는 것이 바람직",
+      "meta_data": {
+        "chunk_id": "bcec475f-f06f-4973-ac7b-1b91cdea506f",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 184,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "15) 2025년 7월, 미국 내 한국 식품 수입·유통업체 12개사 대상 조사 결과, 트레이드파트너스",
+      "meta_data": {
+        "chunk_id": "af2939be-a6b4-4386-a63d-4e91c53f080c",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 185,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "cb6c0c8b-1956-471e-a336-7de0c786961b"
+      }
+    },
+    {
+      "page_content": "16) 미국 공급업체의 인보이스, 구매주문서, 지불내역, 원산지증명서, 수출입서류 등 전체 제품 가치 중 미국산 원재료 가치의 비중을 입증할 수 있는 서류 및 미국산 원산지를 증명할 수 있는 관련 모든 자료",
+      "meta_data": {
+        "chunk_id": "43ecffbe-c16b-4048-9058-9a5e543c55cf",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 186,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "cb6c0c8b-1956-471e-a336-7de0c786961b"
+      }
+    },
+    {
+      "page_content": "-10 -",
+      "meta_data": {
+        "chunk_id": "ea783584-f64c-49c8-8ac9-f193ce0db75d",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 187,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "1f6c0ed8-b454-49ec-b178-55e6841e166e",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 188,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (공급망 전략 재정비) 미국 내 인프라를 활용한 현지화 전략과 더불어 미국 외 국가로의 수출 시장 다변화 필요",
+      "meta_data": {
+        "chunk_id": "b9e14d55-40a9-44ab-80f8-92eb34d34a83",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 189,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국 현지의 OEM 방식 제조 및 패킹센터 활용 등과 같이 공급망 현지화 전략에 대한 검토 필요",
+      "meta_data": {
+        "chunk_id": "c78a0cde-55ba-422e-8add-3bc8d8019f20",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 190,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 미국 내 한국 식품 수입·유통업체를 대상으로 조사한 결과17) , 일부 기업은 추가 관세 부담을 완화하기 위해 취급 제품을 현지 생산으로 전환하거나, 비교적 관세의 영향을 받지 않는 품목으로 전환하겠다는 계획을 보유한 것으로 나타남",
+      "meta_data": {
+        "chunk_id": "830e5f17-86ea-429e-9423-604c3c3c3a66",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 191,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-장기적인 관점에서 그간 한국 농식품의 對글로벌 농식품 수출 호조세를 유지하기 위해 미국 외 국가로의 시장 다변화 전략 수립이 필요",
+      "meta_data": {
+        "chunk_id": "e98be069-c656-4807-aad1-031214c14acb",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 192,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 2024년 기준 한국 농식품의 對美 수출 비중은 18.2%로 수출 상위 1위 국가로 나타났으나, 그간 한국 농식품의 편중된 수출구조(미·중·일)를 탈피하고 장기적 관점에서 안정적인 수출을 도모하기 위해 주요 수출국 외 국가로의 수출전략을 병행해야 할 것으로 분석",
+      "meta_data": {
+        "chunk_id": "af4bd2f8-57cf-4023-828f-9ab9920221bd",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 193,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (원산지 검증 대응 체계 마련) 미국 관세국경보호청(CBP)은 미국으로 수입되는 제품의 원산지 검 증을 강화할 것으로 예상되어 이에 대한 대비가 필요",
+      "meta_data": {
+        "chunk_id": "57406ede-42e5-4c30-8edb-8389034b266d",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 194,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-미국으로 수입되는 제품이 한국산임을 증명하기 위해 다음과 같은 서류를 필수적으로 구비 및 관리해야 함",
+      "meta_data": {
+        "chunk_id": "49722422-6a85-433e-9de4-4439b818af62",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 195,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표Ⅲ-1 미국으로 수입되는 제품의 원산지증명을 위한 구비 서류",
+      "meta_data": {
+        "chunk_id": "0ebf54c6-ea74-4e25-aa52-4f36d3cf3098",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 196,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>구분</th><th>설명</th></tr><tr><td>생산공정도 (Manufacturing Process Flow Chart)</td><td>제품이 한국에서 어떻게 제조, 가공, 조립되었는지를 단계별로 나타낸 문서</td></tr><tr><td>제조원가 명세서 (Bill of Materials, BOM)</td><td>제품을 구성하는 모든 원재료 및 부품의 목록과 각 구성요소의 원산지 정보</td></tr><tr><td>원재료 구매계약서 및 인보이스</td><td>사용된 원재료 및 부품의 구매내역과 공급자의 원산지 증명 관련 자료</td></tr><tr><td>(Purchase Contracts and Invoices for Materials) 제품 설명서</td><td>제품의 성질, 용도, 주요 기능 등을 명시한 문서</td></tr><tr><td>(Product Specification Sheets) 원산지증명서 (Certificate of Origin)</td><td></td></tr><tr><td>제조 및 가공공정기록</td><td>제품의 주요 제조 단계가 한국에서 수행되었음을 나타내는</td></tr><tr><td>(Manufacturing and Processing Records)</td><td>작업지시서, 생산일지, 품질관리기록 등</td></tr><tr><td>수출입서류 (Shipping and Customs Documents)</td><td>한국에서의 수출신고서, 미국 수입신고서(Entry Summary, CBP Form 7501 등)</td></tr><tr><td>지불내역서 (Payment Records)</td><td>원자재 구매 및 제조 관련 비용 지불 내역(송금기록 등)</td></tr><tr><td>사진 및 기타 보조자료 (Photographs and Supplementary</td><td>생산 공정 또는 완제품을 보여주는 사진 자료 등</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c915cba5-2be7-4476-a08e-791080b567f1",
+        "page_number": [
+          15
+        ],
+        "item_label": "table",
+        "index": 197,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "0ebf54c6-ea74-4e25-aa52-4f36d3cf3098",
+        "prev_content": "0ebf54c6-ea74-4e25-aa52-4f36d3cf3098",
+        "next_content": "7aa7057a-8644-406b-bbcf-fc1a7861c66a"
+      }
+    },
+    {
+      "page_content": "*출처: 미국 상호관세 행정명령 관련 FAQ-한국 농식품 수출기업을 위한 핵심 내용 정리와 실무 대응 가이드, KATI 농식품 수출정보(2025.04)",
+      "meta_data": {
+        "chunk_id": "7aa7057a-8644-406b-bbcf-fc1a7861c66a",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 198,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 미국 관세국경보호청은 원산지 검증을 위한 단순 서류만 요구하는 것이 아니라 실제로 한국에서 해당 제품이 실질적 변형이 이루어졌는지를 입증할 수 있는 충분하고 구체적인 자료를 요구할 것으로 예상되어, 구비 서류 간 일관성과 명확한 원산지의 흐름(traceability)을 증명하는 것이 중요",
+      "meta_data": {
+        "chunk_id": "0cd53c27-091e-4049-9364-fd851b2f2379",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 199,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 미국 수입 시 관세율은 최종 완제품의 원산지에 따라 결정되며, 제3국에서 수행된 가공이 단순 조립이나 포장 수준을 넘어, 제품의 성질·용도·상업적 인식이 변경될 정도의 실질적인 변형이 이루어진 경우 해당 제3국에 적용되는 관세율이 부과되므로 유의 필요",
+      "meta_data": {
+        "chunk_id": "596deaae-46c2-4003-8b9b-8575085eba9e",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 200,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "17) 2025년 7월, 미국 내 한국 식품 수입·유통업체 12개사 대상 조사 결과, 트레이드파트너스",
+      "meta_data": {
+        "chunk_id": "d29ee0ee-f224-4c36-9af9-7b0ee2fb1da8",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 201,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "0ebf54c6-ea74-4e25-aa52-4f36d3cf3098"
+      }
+    },
+    {
+      "page_content": "-11 -",
+      "meta_data": {
+        "chunk_id": "223aa6de-18aa-4e58-b746-e4529f2caf6c",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 202,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "169d193f-8c84-47d8-84f8-f4d4a55e7a35",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 203,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 미국 상호관세 부과에 대응하기 위해 정부와 관계기관은 對美 수출업체를 대상으로 다양한 지원사업을 추진하고 있으므로, 이를 활용한 수출 리스크 완화 전략 수립 필요",
+      "meta_data": {
+        "chunk_id": "b465ad27-96c1-4312-804d-0d7ce1a636c9",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 204,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이번 트럼프 2기 행정부의 상호관세 부과는 단일 기업 차원의 대응 수준을 벗어난 조치로, 정부 및 유관기관의 대응 및 지원정책을 적극 활용하여 對美 수출 리스크 완화에 활용해야 함",
+      "meta_data": {
+        "chunk_id": "3d4f3af3-8bc7-4882-b02b-61b09439a42a",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 205,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 농림축산식품부는 對美 농식품 수출기업의 부담 완화를 위해 업계 애로사항을 신속하게 파악하고, 상호관세의 영향을 최소화하기 위한 대응방안을 지속 추진할 계획임",
+      "meta_data": {
+        "chunk_id": "068a0d3b-dbbe-4135-b058-2530502f9f4c",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 206,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-수출기업 부담 완화 및 리스크 대응 강화를 위해 수출기업 원료 구매자금 추가 지원, 농식품 수출바우처 및 수출보험 확대 등을 검토 중임",
+      "meta_data": {
+        "chunk_id": "fb6f6277-d1d7-4f3c-9753-8dbc8445b2e2",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 207,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한, 시장 다변화를 위한 현지 유통업체 연계 판촉, 해외 박람회 참가, 온라인몰 한국식품관 입점 등의 온·오프라인 마케팅 지원사업을 강화할 예정임",
+      "meta_data": {
+        "chunk_id": "026a9c84-087e-4157-9b15-9a6ca3114ea1",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 208,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ aT에서는 對美 상호관세를 비롯한 농식품 수출 관련 기업 애로를 해소하기 위해 전문가 자문 및 컨설팅·정보 등을 제공하고 있음",
+      "meta_data": {
+        "chunk_id": "ca5e7a98-7ae2-4d62-8b0a-af5759b07e7f",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 209,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(애로해소) K-Food 對美 수출 애로해소센터 4.22~ 운영",
+      "meta_data": {
+        "chunk_id": "1146dcfe-6cd0-4cee-8503-af4b85cdf347",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 210,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 온라인 상담 게시판 운영을 통해 대미 상호관세 피해·애로사항 접수 및 분야별 전문가 답변 제공",
+      "meta_data": {
+        "chunk_id": "0855acb5-59eb-4d1b-8891-1566d7a9e6a2",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 211,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " aT 공사 홈페이지(www.at.or.kr) 접속 > 고객참여 > K-Food 대미수출 애로해소센터",
+      "meta_data": {
+        "chunk_id": "a90337d5-cf90-46b2-a5d4-8b29ef0d5473",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 212,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(정보제공) KATI 농식품 수출정보 사이트 운영",
+      "meta_data": {
+        "chunk_id": "dc4f06a0-93cb-4fc6-a2a7-ec1f65ad7942",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 213,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 대미 상호관세 조치와 관련된 뉴스 및 보고서 등 농식품 수출기업을 위한 다양한 정보 제공",
+      "meta_data": {
+        "chunk_id": "f6422e8b-11fc-496f-948c-233c47e6beab",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 214,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " KATI 농식품 수출정보(www.kati.net)",
+      "meta_data": {
+        "chunk_id": "0900868a-e61a-4a15-a3c4-28c0572bc573",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 215,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(컨설팅 제공) FTA 특혜관세 활용 지원사업 운영",
+      "meta_data": {
+        "chunk_id": "37366887-4044-4a59-a54e-48348ba8e44d",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 216,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 공사 지정 전문 관세사를 통해 HS품목 분류, 원산지증명서 발급 지원 등 제공",
+      "meta_data": {
+        "chunk_id": "57813071-8051-44bb-a843-f97102297225",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 217,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 수출종합지원시스템(global.at.or.kr)에서 `25.10.31(목)까지 수시 접수",
+      "meta_data": {
+        "chunk_id": "c62fc8e1-37d2-4e2d-81ff-a470baeda716",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 218,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-12 -",
+      "meta_data": {
+        "chunk_id": "425dfe2e-ac20-497c-9351-44835b2083ac",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 219,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점",
+      "meta_data": {
+        "chunk_id": "53260560-da5d-409f-b605-85a7e37c97ea",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 220,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 별첨 미국 상호관세 조치에 따른 현지 의견 수렴을 위한 설문지18)",
+      "meta_data": {
+        "chunk_id": "a1dbce50-4781-4464-950d-e18d529294d2",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 221,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "본 설문은 미국의 상호관세 조치와 관련해 한국산 농식품 수입·유통에 대한 의견을 수렴하기 위한 목적으로 추진됩니다. 응답해주시는 소중한 의견은 향후 우리나라 식품 수출 대응 방안 마련에 큰 도움이 되오니 잠시만 시간을 내시어 응답 부탁드립니다.",
+      "meta_data": {
+        "chunk_id": "3fc2a336-cceb-4c6b-bc51-12b06c74cbd6",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 222,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(설문목적) 미국 상호관세 조치에 따라 한국산 농식품에 대해 최대 25%의 추가 관세가 부과될 예정으로, 對미국 수출 식품기업의 대응 방안을 마련하기 위해 현지(미국)의 한국 식품 수입/유통업체의 의견을 수렴하고자 함",
+      "meta_data": {
+        "chunk_id": "966d2c7e-5db1-44fe-9244-10b18036a3b0",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 223,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Q1. 한국산 농식품에 대해 최대 25%의 추가 관세가 부과될 경우, 귀사의 수입 또는 유통에 어떤 영향이 있을 것으로 예상하십니까? (복수응답 가능)",
+      "meta_data": {
+        "chunk_id": "c106f72c-0172-4d30-8abf-966e63ce2730",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 224,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>A 1</td><td>소비자 판매가격 인상 불가피</td></tr><tr><td>2</td><td>기존 대비 발주량</td></tr><tr><td>3</td><td>마진 감소로 인한 수익성 저하</td></tr><tr><td>4</td><td>기존 거래처(소매점/식당 등) 수요 감소 예상</td></tr><tr><td>5</td><td>대체국가 또는 대체상품 발굴 검토</td></tr><tr><td>6</td><td>판매채널(오프라인→온라인 등) 전환 검토</td></tr><tr><td>7</td><td>기타(주관식)</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "bd009b1b-9dd2-478a-833d-ac0ef2815c42",
+        "page_number": [
+          17
+        ],
+        "item_label": "table",
+        "index": 225,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "c106f72c-0172-4d30-8abf-966e63ce2730",
+        "prev_content": "c106f72c-0172-4d30-8abf-966e63ce2730",
+        "next_content": "7b450159-7b4b-4915-bc77-c51e48863447"
+      }
+    },
+    {
+      "page_content": "# Q2. 상호관세 조치에 따른 추가 관세 부과 시, 귀사는 어떤 대응 방안을 고려 중이십니까? (복수응답 가능)",
+      "meta_data": {
+        "chunk_id": "7b450159-7b4b-4915-bc77-c51e48863447",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 226,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>1</td><td>A</td><td>주요 품목군을</td><td>중심으로</td><td></td><td></td><td>발주량 조정</td><td></td><td></td></tr><tr><td>2</td><td></td><td>국가산</td><td>농식품으로</td><td>수입</td><td>추진</td><td>대체</td><td></td><td></td></tr><tr><td>3</td><td></td><td>타</td><td>한국 공급업체와</td><td></td><td>시도</td><td>가격 재협상</td><td></td><td></td></tr><tr><td>4 5</td><td></td><td>수입시기 한국</td><td>또는 측(수출자,</td><td>등)과</td><td>전략 대응</td><td>분할선적 등 물류 협회</td><td>공동</td><td>조정</td></tr><tr><td>6</td><td></td><td>미국 내</td><td>한인시장 이외</td><td></td><td>공략</td><td>타 인종</td><td>소비층</td><td>강화</td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td>기타(주관식)</td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "d6766efd-f825-4c4f-81ab-e51949bae64f",
+        "page_number": [
+          17
+        ],
+        "item_label": "table",
+        "index": 227,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "7b450159-7b4b-4915-bc77-c51e48863447",
+        "prev_content": "7b450159-7b4b-4915-bc77-c51e48863447",
+        "next_content": "22e47a13-941a-47dd-84f5-0c5114a62adb"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>1</td><td>A</td><td>주요 품목군을</td><td>중심으로</td><td></td><td></td><td>발주량 조정</td><td></td><td></td></tr><tr><td>2</td><td></td><td>국가산</td><td>농식품으로</td><td>수입</td><td>추진</td><td>대체</td><td></td><td></td></tr><tr><td>3</td><td></td><td>타</td><td>한국 공급업체와</td><td></td><td>시도</td><td>가격 재협상</td><td></td><td></td></tr><tr><td>4 5</td><td></td><td>수입시기 한국</td><td>또는 측(수출자,</td><td>등)과</td><td>전략 대응</td><td>분할선적 등 물류 협회</td><td>공동</td><td>조정</td></tr><tr><td>6</td><td></td><td>미국 내</td><td>한인시장 이외</td><td></td><td>공략</td><td>타 인종</td><td>소비층</td><td>강화</td></tr><tr><td>7</td><td></td><td></td><td></td><td></td><td></td><td>기타(주관식)</td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c730ea41-d410-4194-b458-6855f0c7850b",
+        "page_number": [
+          17
+        ],
+        "item_label": "table",
+        "index": 228,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "7b450159-7b4b-4915-bc77-c51e48863447",
+        "prev_content": "7b450159-7b4b-4915-bc77-c51e48863447",
+        "next_content": "22e47a13-941a-47dd-84f5-0c5114a62adb"
+      }
+    },
+    {
+      "page_content": "# Q3. 한국산 농식품에 대한 추가 관세 부담을 완화하기 위한 구체적인 계획이나 대응 방안이 있다면 자유롭게 작성해 주십시오.",
+      "meta_data": {
+        "chunk_id": "22e47a13-941a-47dd-84f5-0c5114a62adb",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 229,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>주관식</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "59ab40cf-7a90-4480-8797-8c6c654917f3",
+        "page_number": [
+          17
+        ],
+        "item_label": "table",
+        "index": 230,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "22e47a13-941a-47dd-84f5-0c5114a62adb",
+        "prev_content": "22e47a13-941a-47dd-84f5-0c5114a62adb",
+        "next_content": "06a2e47c-8f01-4f17-b3cb-fb32ac7ae998"
+      }
+    },
+    {
+      "page_content": "# Q4. 상호관세 조치에 따른 추가 관세로 판매 가격이 인상될 경우, 미국 소비자의 반응은 어떨 것으로 예상하십니까?",
+      "meta_data": {
+        "chunk_id": "06a2e47c-8f01-4f17-b3cb-fb32ac7ae998",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 231,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>A</td><th colspan=\"11\">가격에 민감하여 구매량이 즉시 감소할 것</th></tr><tr><td></td><td colspan=\"2\">주요 소비자는</td><td colspan=\"2\">구매를 유지할</td><td colspan=\"2\">것이나, 일부</td><td colspan=\"2\">고객의</td><td>이탈이 예상됨</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td>유지될</td><td>것이나 선택품은 축소)</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>품목별</td><td>차별화 발생(예:</td><td>필수품은</td><td>수요가 수요 전환</td><td>및 수요</td><td>증가 예상</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>것으로</td><td>대체 제품으로의</td><td>영향</td><td></td><td>예상</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>6</td><td>없을</td><td>큰</td><td></td><td>기타(주관식)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "232f01bd-ad9b-4b70-bc4f-20e264fecec4",
+        "page_number": [
+          17
+        ],
+        "item_label": "table",
+        "index": 232,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "06a2e47c-8f01-4f17-b3cb-fb32ac7ae998",
+        "prev_content": "06a2e47c-8f01-4f17-b3cb-fb32ac7ae998",
+        "next_content": "675314a0-4534-4d51-b3f1-3068c02b7dfb"
+      }
+    },
+    {
+      "page_content": "18) 본 설문조사는 미국의 對한국 상호관세율(15%)이 확정(2025년 7월 31일)되기 이전에 추진되어, 당시 시점의 예상 관세율인 25%를 기준으로 문항을 작성하였음",
+      "meta_data": {
+        "chunk_id": "675314a0-4534-4d51-b3f1-3068c02b7dfb",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 233,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "06a2e47c-8f01-4f17-b3cb-fb32ac7ae998"
+      }
+    },
+    {
+      "page_content": "-13 -",
+      "meta_data": {
+        "chunk_id": "288c84a7-a7f4-487f-b768-3cf220aca2cd",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 234,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2025농식품수출이슈조사",
+      "meta_data": {
+        "chunk_id": "1f37b915-794b-4aaa-88d0-ee2b9e8cf7f1",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 235,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 출처 참고문헌 및 참고사이트",
+      "meta_data": {
+        "chunk_id": "e261e678-66d6-4513-aad1-9ecec7679058",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 236,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>1</td><td>ITC Trademap(www.trademap.org)</td></tr><tr><td>2</td><td>KATI 농식품수출정보(www.kati.net)</td></tr><tr><td>3</td><td>Truth Social(https://truthsocial.com)</td></tr><tr><td>4</td><td>관세법령정보포털(https://unipass.customs.go.kr)</td></tr><tr><td>5</td><td>미국 Federal Register(www.federalregister.gov)</td></tr><tr><td>6</td><td>미국 노동통계국(https://www.bls.gov)</td></tr><tr><td>7</td><td>미국 무역대표부 홈페이지(https://ustr.gov)</td></tr><tr><td>8</td><td>미국 백악관 홈페이지(www.whitehouse.gov)</td></tr><tr><td>9</td><td>미국 연방관보 홈페이지(www.federalregister.gov)</td></tr><tr><td>10</td><td>관세청·한국원산지정보원, 미국 비특혜원산지 판정 대응 체크포인트-제3편 식품류(2025.05)</td></tr><tr><td>11</td><td>KATI 농식품 수출정보, 미국 상호관세 행정명령 관련 FAQ-한국</td></tr><tr><td>12</td><td>대외경제정책연구원(KIEP), 트럼프 2기 행정조치의 주요 내용과 시사점(2025.02.)</td></tr><tr><td>13</td><td>대한무역투자진흥공사(KOTRA), 트럼프 행정부 출범 100일, 무역 정책 추진 동향 및 시사점(2025.05)</td></tr><tr><td>14</td><td>abcNEWS, &#x27;Huge week&#x27; of economic data set to test Trump&#x27;s tariffs(2025.07.30.)</td></tr><tr><td>15</td><td>BBC NEWS 코리아, 미국은 관세로 얼마나 많은 돈을 벌었나?(2025.08.01.)</td></tr><tr><td>16</td><td>BBC, How much cash is the US raising from tariffs?(2025.08.01.)</td></tr><tr><td>17</td><td>Center for American Progress, What Will Trump&#x27;s Tariffs Do for U.S. Consumers, Workers, and Businesses?(2025.04.01.)</td></tr><tr><td>18</td><td>CNBC, Goldman Sachs is getting worried about the economy(2025.07.22.)</td></tr><tr><td>19</td><td>FORTUNE, Goldman Sachs&#x27; chief economist just downgraded the entire U.S. economy as Trump&#x27;s latest tariff salvo rattles markets(2025.03.11.)</td></tr><tr><td>20</td><td>Newsweek, IMF Upgrades Global Growth After Trump Backtracks(2025.07.30.)</td></tr><tr><td>21</td><td>NHK World, Trump reveals tariff letters for 8 more countries(2025.07.10.)</td></tr><tr><td>22</td><td>The Budget Lab, Trade State of U.S. Tariffs: July 30, 2025(2025.07.30.)</td></tr><tr><td>23</td><td>yahoo!finance, Goldman Sachs slashes US economic forecasts as tariff impacts grow &#x27;considerably more adverse&#x27;(2025.03.11.)</td></tr><tr><td>24</td><td>경향신문, 트럼프, 한국 관세 15% 명시·7일부터 시행···69개국 상호관세 행정명령(2025.08.01.)</td></tr><tr><td>25</td><td>디지털타임스, &#x27;옷·신발 가격 이게 맞아?&#x27;… &#x27;트럼프 관세&#x27; 역풍, 美소비자들 &#x27;깜짝&#x27;(2025.08.03.)</td></tr><tr><td>26</td><td>연합뉴스, 美소비자 &#x27;트럼프 관세&#x27; 부메랑…세율 18%로 91년만에 최고치(2025.08.03.)</td></tr><tr><td>27</td><td>한국농정, 미국발 상호관세 25%, 한국 농업 &#x27;비관세장벽&#x27; 타격(2025.04.13.)</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "e1c17f8f-33c8-49d0-a1be-60cd86bdb44c",
+        "page_number": [
+          18
+        ],
+        "item_label": "table",
+        "index": 237,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": "e261e678-66d6-4513-aad1-9ecec7679058",
+        "prev_content": "e261e678-66d6-4513-aad1-9ecec7679058",
+        "next_content": "b02bc6ae-760d-4950-b440-020255e7bf49"
+      }
+    },
+    {
+      "page_content": "-14 -",
+      "meta_data": {
+        "chunk_id": "b02bc6ae-760d-4950-b440-020255e7bf49",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 238,
+        "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 표목차\n# 그림목차\n# Ⅰ.이슈배경\n# 미국 상호관세 조치 도입 배경\n# 2 미국 상호관세 조치 현황\n# 2025년 4월 2일, 트럼프 2기 행정부는 '행정명령 14257호(Executive order 14257)'를 통해 상호관세 부과를 발표\n# 표Ⅰ-1 미국의 상호관세 산출법\n# 그림Ⅰ-1 미국의 관세부과 체계\n# 2025년 7월 7일, 트럼프 2기 행정부는 '행정명령 14316호(Executive order 14316)'를 통해 국가별 차등 상호관세 적용일을 2025년 8월 1일로 재차 연기\n# 표Ⅰ-2 미국 상호관세 관련 발표 타임라인\n# 2025년 8월 1일 기준, 총 7개국이 미국과의 무역 협상을 완료\n# 표Ⅰ-3 미국과 무역협정을 타결한 국가 목록(`25.7.31. 기준)\n# Ⅱ.영향분석\n# 미국 수입·유통업체 설문조사 결과 및 시사점\n# 한국 농식품에 대한 미국의 상호관세 조치에 대응하기 위해 현지 수입·유통업체는 △판매 가격 인상이 불가피하며 △마진 감소로 수익성이 저하될 것으로 예상4)\n# 표Ⅱ-1 미국 상호관세 적용 시 한국산 농식품 수입에 미치는 영향에 대한 의견\n# 표Ⅱ-2 미국 상호관세 적용 시 현지 수입·유통업체의 대응 방안에 대한 의견\n# 관세조치에 따른 미국 소비 동향 전망\n# 표Ⅱ-3 2025년 미국 소비자물가지수(Consumer Price Index) 추이\n# 표Ⅱ-4 미국 상호관세 적용 시 미국 소비자의 예상 반응에 대한 의견\n# Ⅲ.결론\n# 1 미국 관세조치가 對美 농식품 수출에 미치는 영향\n# 이번 상호관세 조치로 對美 수출 농식품은 관세율 인상에 따른 가격 상승이 불가피할 전망\n# 2 대응방안 및\n# 시사점\n# 트럼프 2기 행정부는 무역적자 및 국가 안보 위협을 이유로 우리나라를 포함한 주요 교역국에 2025년 8월 7일부로 상호관세를 부과\n# 표Ⅲ-1 미국으로 수입되는 제품의 원산지증명을 위한 구비 서류\n# 미국 상호관세 부과에 대응하기 위해 정부와 관계기관은 對美 수출업체를 대상으로 다양한 지원사업을 추진하고 있으므로, 이를 활용한 수출 리스크 완화 전략 수립 필요\n# 별첨 미국 상호관세 조치에 따른 현지 의견 수렴을 위한 설문지18)\n# Q1. 한국산 농식품에 대해 최대 25%의 추가 관세가 부과될 경우, 귀사의 수입 또는 유통에 어떤 영향이 있을 것으로 예상하십니까? (복수응답 가능)\n# Q2. 상호관세 조치에 따른 추가 관세 부과 시, 귀사는 어떤 대응 방안을 고려 중이십니까? (복수응답 가능)\n# Q3. 한국산 농식품에 대한 추가 관세 부담을 완화하기 위한 구체적인 계획이나 대응 방안이 있다면 자유롭게 작성해 주십시오.\n# Q4. 상호관세 조치에 따른 추가 관세로 판매 가격이 인상될 경우, 미국 소비자의 반응은 어떨 것으로 예상하십니까?\n# 출처 참고문헌 및 참고사이트",
+    "document_id": "7bbdfe17-0beb-5e80-98c5-b8c3028d8089",
+    "timestamp": "2025-08-13T01:44:07.033108Z",
+    "document_file_path": "/app/output/8a57a239-6315-4947-86d9-f3b6458a2ded/미국 상호관세 조치에 따른 현지 수입 동향 및 시사점.pdf",
+    "document_title": "미국 상호관세 조치에 따른 현지 수입 동향 및 시사점"
+  }
+}

@@ -1,0 +1,120 @@
+version: '3.8'
+
+services:
+  atfis_krei:
+    build: .
+    container_name: crawler_atfis_krei
+    command: python -u atfis_investigation_reports_KREI.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  atfis_related:
+    build: .
+    container_name: crawler_atfis_related
+    command: python -u atfis_investigation_reports_related.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  market_segment:
+    build: .
+    container_name: crawler_market_segment
+    command: python -u atfis_Market_segment.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  newsletters:
+    build: .
+    container_name: crawler_newsletters
+    command: python -u atfis_newsletters.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  static_reports:
+    build: .
+    container_name: crawler_static_reports
+    command: python -u atfis_static_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kamis_foreign:
+    build: .
+    container_name: crawler_kamis_foreign
+    command: python -u KAMIS_foreign_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kamis_investigation:
+    build: .
+    container_name: crawler_kamis_investigation
+    command: python -u KAMIS_investigation_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kati_country:
+    build: .
+    container_name: crawler_kati_country
+    command: python -u KATI_export_country_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kati_issue:
+    build: .
+    container_name: crawler_kati_issue
+    command: python -u KATI_export_issue_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kati_item:
+    build: .
+    container_name: crawler_kati_item
+    command: python -u KATI_export_item_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  krei_observation:
+    build: .
+    container_name: crawler_krei_observation
+    command: python -u KREI_observation_reports.py
+    volumes:
+      - .:/app
+      - ../elasticsearch:/elasticsearch
+    restart: 'no'
+
+  kc_processor:
+    build: .
+    container_name: crawler_kc
+    command: python -u KC.py
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - ../elasticsearch/datas:/datas
+    restart: 'no'
+
+  clear_report_pdf:
+    build: .
+    container_name: crawler_clear_report_pdf
+    command: python -u clear_ReportPDF.py
+    volumes:
+      - .:/app
+    restart: 'no'

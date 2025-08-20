@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
+    container_name: es-demo
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true # 인증은 켜고
+      - xpack.security.http.ssl.enabled=false # HTTPS는 끕니다
+      - ELASTIC_PASSWORD=changeme
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.11.0
+    container_name: kibana-demo
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200 # HTTP 로 연결
+      - ELASTICSEARCH_USERNAME=kibana_system # ← 이 계정으로
+      - ELASTICSEARCH_PASSWORD=y4Y+qtP5m9PPdAd3HtS2
+      - xpack.security.enabled=true
+      - server.ssl.enabled=false # Kibana 자체 HTTPS 도 끕니다
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+
+volumes:
+  es_data:

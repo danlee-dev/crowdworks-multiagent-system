@@ -1,0 +1,1488 @@
+{
+  "documents": [
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "041aad4c-9e4e-4083-861d-fffc6302b88a",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "86df2762-5c11-48b0-9645-c176eaf022cf",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "82335727-1ea8-4781-9ff3-5bda8fd7d8cd",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "afb7c266-4f58-454a-883f-c62b12eb69c1",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "6cf57c0f-ad79-4293-845a-4b9082d28c3b",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "f2e8dba4-2f0d-4ed3-bc54-bbe7beb531b2",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 년 8월 4주",
+      "meta_data": {
+        "chunk_id": "f576a4c7-b2b3-4f55-b0e1-4021a0d3b9a5",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 스처 학신",
+      "meta_data": {
+        "chunk_id": "0a2a0790-692c-440b-87f8-212ebf2127eb",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 기분 전환에 도움올 주는 식감(텍스처)",
+      "meta_data": {
+        "chunk_id": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/c47af6e9-5f44-403d-a7e7-98459204c6e0.png",
+      "meta_data": {
+        "chunk_id": "c47af6e9-5f44-403d-a7e7-98459204c6e0",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "prev_content": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "next_content": "07f3aa38-432c-4b88-ac5e-f2968ae3f286"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/345a0f03-4dcf-40d4-97bd-f158e0713c4e.png",
+      "meta_data": {
+        "chunk_id": "345a0f03-4dcf-40d4-97bd-f158e0713c4e",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 10,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "prev_content": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "next_content": "07f3aa38-432c-4b88-ac5e-f2968ae3f286"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/7d27cdff-dc33-47ee-808a-0f8534faf224.png",
+      "meta_data": {
+        "chunk_id": "7d27cdff-dc33-47ee-808a-0f8534faf224",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 11,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "prev_content": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "next_content": "07f3aa38-432c-4b88-ac5e-f2968ae3f286"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/28bd9d61-2c88-43d7-8075-277e3733066c.png",
+      "meta_data": {
+        "chunk_id": "28bd9d61-2c88-43d7-8075-277e3733066c",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 12,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "prev_content": "53f7f20d-4480-4d50-972d-eba76006bc2d",
+        "next_content": "07f3aa38-432c-4b88-ac5e-f2968ae3f286"
+      }
+    },
+    {
+      "page_content": "# PICK 2",
+      "meta_data": {
+        "chunk_id": "07f3aa38-432c-4b88-ac5e-f2968ae3f286",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 잡짝한 간식(Savory Snack)과 푸드데크",
+      "meta_data": {
+        "chunk_id": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 통해 품질과 맛을 개선하고 있음",
+      "meta_data": {
+        "chunk_id": "124fe18a-a5ea-4064-9fdc-bbea7a6330a1",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 예름 들어 고기 대신 식물성 단백질올 활용한 스웨이 개발되고 이러한 제품들은 채식주의자나 건강을 중시하는 소비자들에게 인기름 끝고 있음",
+      "meta_data": {
+        "chunk_id": "37c7d60b-13c4-4934-80c0-3705eb139ccd",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 16,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 출처 Synthetic foods & the Food-Mood-Connection; 4Gamechagersl2024,05.75.)",
+      "meta_data": {
+        "chunk_id": "ed5229b3-8469-4880-bba2-dafca74404f3",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 17,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " (미국) 식물성 대체 육류 제조 회사인 Beyond Meat(비온드 미트에서 출시된 육포는 육포의 맛과 질감을 재현하면서도 고기 성분이 전혀 포함되지 않은 완두콩 단백질과 기타 식물성 재료지 사용해 만들어진 비건 제품임",
+      "meta_data": {
+        "chunk_id": "fb665454-03f2-4741-a0ca-1b84cb9ff42c",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " (미국) 주로 병아리콩올 기반으로 한 건강한 스색올 만드는 Hippeas(히피즈의 대표 제품인 병아리콩 퍼프(Chickpea Puffs)논 바삭하고 가버운 텍스처로 글루렌 프리이면서 비건 인종올 받은 제품임",
+      "meta_data": {
+        "chunk_id": "2d0639cb-8710-463d-8922-948a94e1b4a8",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 19,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " (캐나다) 식물성 대체 식품 제조 회사인 Gardein(가르단-에서 출시한 크리스피 렌더는 식물성 단백질로 만들어진 것으로; 닭고기의 맛과 질감을 재현한 비건 제품임",
+      "meta_data": {
+        "chunk_id": "cdae70cf-c9b4-4e75-8011-1c6c83746216",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 20,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " (미국) 주로 식물성 대체 식품들 제조하는 Primal Spirit Foods(프라이멀 스피릿 푸드)의 대표적인 제품군인 식물성 육포는 주로 대두, 밀, 글루렌 버섯 등의 재료플 활용하여 만들어짐",
+      "meta_data": {
+        "chunk_id": "0e887174-d44e-43e4-91aa-b8e6996050c2",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "출처",
+      "meta_data": {
+        "chunk_id": "231020fc-8186-4a30-b1c4-ca2c457bbc40",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/0f84e8de-5255-4b66-af53-9aa3c9268c98.png",
+      "meta_data": {
+        "chunk_id": "0f84e8de-5255-4b66-af53-9aa3c9268c98",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 23,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "231020fc-8186-4a30-b1c4-ca2c457bbc40",
+        "next_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458"
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/b6680beb-9de6-43d3-848f-6ee1c2f06e85.png",
+      "meta_data": {
+        "chunk_id": "b6680beb-9de6-43d3-848f-6ee1c2f06e85",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 25,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "next_content": "cdc00e94-e00f-47eb-b352-c521f1a99eae"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/a1b341ba-ad7a-417d-9c26-d668b0adc643.png",
+      "meta_data": {
+        "chunk_id": "a1b341ba-ad7a-417d-9c26-d668b0adc643",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 26,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "next_content": "cdc00e94-e00f-47eb-b352-c521f1a99eae"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/bec3e830-e691-4d85-8d36-ec6190677d39.png",
+      "meta_data": {
+        "chunk_id": "bec3e830-e691-4d85-8d36-ec6190677d39",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 27,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "next_content": "cdc00e94-e00f-47eb-b352-c521f1a99eae"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/bd8b1327-7aa8-4d10-a572-5f844381184d.png",
+      "meta_data": {
+        "chunk_id": "bd8b1327-7aa8-4d10-a572-5f844381184d",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 28,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "next_content": "cdc00e94-e00f-47eb-b352-c521f1a99eae"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/98e816de-4bd5-40d4-84b6-5a4239910f78.png",
+      "meta_data": {
+        "chunk_id": "98e816de-4bd5-40d4-84b6-5a4239910f78",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 29,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "45270c04-41a0-4dd1-91ca-d95d6b5f6458",
+        "next_content": "cdc00e94-e00f-47eb-b352-c521f1a99eae"
+      }
+    },
+    {
+      "page_content": " 주기 위해서라고 응답햇으며, 이외에도 지루함과 스트레스틀 해소하기 위해 먹기도 함. 새롭고",
+      "meta_data": {
+        "chunk_id": "cdc00e94-e00f-47eb-b352-c521f1a99eae",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 30,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "출처 Kantar Profiles; Mintell2027.70,)",
+      "meta_data": {
+        "chunk_id": "0821b95c-7616-4af4-b504-4ea8ef0f5e88",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 31,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "e501d9e4-cdf0-4afb-a644-0de8b700de6f",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 32,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "79b48955-83e2-41be-854d-c6800279f971",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 33,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "c496fb9e-1b62-41fb-a320-c22746ca0d3f",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 34,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "9916e18c-999c-47cc-9e5e-991a8c82e20f",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/8e69c9c4-1fde-45b3-b4da-6920d0a1e095.png",
+      "meta_data": {
+        "chunk_id": "8e69c9c4-1fde-45b3-b4da-6920d0a1e095",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 36,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "9916e18c-999c-47cc-9e5e-991a8c82e20f",
+        "next_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/2ea69a9f-f941-4d7d-b1c6-466fd2397cb6.png",
+      "meta_data": {
+        "chunk_id": "2ea69a9f-f941-4d7d-b1c6-466fd2397cb6",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 37,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "9916e18c-999c-47cc-9e5e-991a8c82e20f",
+        "next_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda"
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/ba35c4b6-1449-4ea8-a21f-0d68b4687910.png",
+      "meta_data": {
+        "chunk_id": "ba35c4b6-1449-4ea8-a21f-0d68b4687910",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 39,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda",
+        "next_content": "275558fa-f7e4-431a-8d61-38573df8f2b4"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/25ed6778-25d3-4de0-ae2a-db007ed92063.png",
+      "meta_data": {
+        "chunk_id": "25ed6778-25d3-4de0-ae2a-db007ed92063",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 40,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda",
+        "next_content": "275558fa-f7e4-431a-8d61-38573df8f2b4"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/ed7bc72d-d987-4c28-bd4e-c862039b5532.png",
+      "meta_data": {
+        "chunk_id": "ed7bc72d-d987-4c28-bd4e-c862039b5532",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 41,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda",
+        "next_content": "275558fa-f7e4-431a-8d61-38573df8f2b4"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/508cb704-2f32-468d-bd81-5ee2452822eb.png",
+      "meta_data": {
+        "chunk_id": "508cb704-2f32-468d-bd81-5ee2452822eb",
+        "page_number": [
+          3,
+          4
+        ],
+        "item_label": "picture",
+        "index": 42,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "28b25c64-08cb-4111-a162-e37e656d357c",
+        "prev_content": "dcc09e84-ae47-49a0-bdef-ceb76b2b5eda",
+        "next_content": "275558fa-f7e4-431a-8d61-38573df8f2b4"
+      }
+    },
+    {
+      "page_content": "# K. 3",
+      "meta_data": {
+        "chunk_id": "275558fa-f7e4-431a-8d61-38573df8f2b4",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 43,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 텍스처와 심리 활동과의 관계",
+      "meta_data": {
+        "chunk_id": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 44,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 스처와 심리 활동 사이의 연관성에 대한 연구는 식품 뿐만 아니라 건축물의 내외관에 이르기 까지 양한 분야에서 진행되고 있음. 이러한 연구에 따르면 부드럽고 따뜻한 텍스처는 심리적 안정흘 진하는 반면, 거친 텍스처는 고양감과 흥분 등올 유발할 수 있음",
+      "meta_data": {
+        "chunk_id": "337af7ab-8e4b-412c-8014-1400da969eaf",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 45,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "Sad Times Call for Soft Textures; Psychology Today(2077.06.20) How do Textures Change the emotions in a space?, Rethinking The Future; How The brain responds to texture; Medical Press(2079,02.08)",
+      "meta_data": {
+        "chunk_id": "1bb4dd10-26a5-4fa2-a8eb-c8838fad2c2f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "746c802d-7ea4-40a8-88e7-47fea460203e",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 47,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 부드러워지는 식감이 특징임",
+      "meta_data": {
+        "chunk_id": "e607b50b-0c20-441a-9b7e-b27c320633f6",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 48,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "f8389fc9-87d8-49be-b7d3-523bb592df06",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 49,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 마카로니 파스타에 치플레 소스의 맛을 가미한 한 입 크기의 튀김 제품올 출시함",
+      "meta_data": {
+        "chunk_id": "ada1f12f-766e-4110-af76-1619ac16934e",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 50,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/75de3849-1a89-4a90-80cd-f6eeb33c49c7.png",
+      "meta_data": {
+        "chunk_id": "75de3849-1a89-4a90-80cd-f6eeb33c49c7",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 51,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "prev_content": "ada1f12f-766e-4110-af76-1619ac16934e",
+        "next_content": "d4718838-2d99-4e29-a47c-6b3ad4f1b74f"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/bc8e313a-1c6f-4e09-901b-beb77a29614f.png",
+      "meta_data": {
+        "chunk_id": "bc8e313a-1c6f-4e09-901b-beb77a29614f",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 52,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "prev_content": "ada1f12f-766e-4110-af76-1619ac16934e",
+        "next_content": "d4718838-2d99-4e29-a47c-6b3ad4f1b74f"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/f2c8d950-fd96-405c-bf13-b55243e49e4a.png",
+      "meta_data": {
+        "chunk_id": "f2c8d950-fd96-405c-bf13-b55243e49e4a",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 53,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "prev_content": "ada1f12f-766e-4110-af76-1619ac16934e",
+        "next_content": "d4718838-2d99-4e29-a47c-6b3ad4f1b74f"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/77e06c10-4c47-49f4-b37c-f755bec105cd.png",
+      "meta_data": {
+        "chunk_id": "77e06c10-4c47-49f4-b37c-f755bec105cd",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 54,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "prev_content": "ada1f12f-766e-4110-af76-1619ac16934e",
+        "next_content": "d4718838-2d99-4e29-a47c-6b3ad4f1b74f"
+      }
+    },
+    {
+      "page_content": "독일)",
+      "meta_data": {
+        "chunk_id": "d4718838-2d99-4e29-a47c-6b3ad4f1b74f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(영국)",
+      "meta_data": {
+        "chunk_id": "aa091584-b484-42de-a500-599f289bf63e",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 56,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(영국",
+      "meta_data": {
+        "chunk_id": "872e482a-1066-487b-9178-532500b4e0f0",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 57,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "112b8ddc-e014-4bd6-9fad-9c1143a47b6c",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 58,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/1a2e08fa-0dff-4aec-8a6e-dce0c9d0b331.png",
+      "meta_data": {
+        "chunk_id": "1a2e08fa-0dff-4aec-8a6e-dce0c9d0b331",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 59,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "3966cf3f-7a61-4b8f-8db3-a9206d532ed3",
+        "prev_content": "112b8ddc-e014-4bd6-9fad-9c1143a47b6c",
+        "next_content": "eca94716-0c2c-47c8-b31e-9e8a2dfda7d5"
+      }
+    },
+    {
+      "page_content": "# PICK. 4",
+      "meta_data": {
+        "chunk_id": "eca94716-0c2c-47c8-b31e-9e8a2dfda7d5",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 60,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 텍스처클 통해 인식올 바꾸다",
+      "meta_data": {
+        "chunk_id": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 61,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "727a0b69-86a9-42ae-aa9e-2a55a8e1337f",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 62,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 엉글리아 러스권 대학교(ARU)의 심리학 교수인 안손-보이드 박사의 연구에 따르면 통곡물 비스컷과 같이 표면이 거칠거나 뚜럿한 제품은 소비자에게 건강한 식품으로 인식되는 반면 표면이 부드럽고 거칠지 않은 제품은 상대적으로더 맛있고 바삭할 것이라고 인식되다는 연구결과루 발표함",
+      "meta_data": {
+        "chunk_id": "9c907b4e-db8a-49ec-87d9-83fd5c0423ed",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 63,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "출저 Food Textures affect perceptions of healthiness Science Daily(2020.07.09) Flavour innovations: pleasure and escapism Mintell2022,08.)",
+      "meta_data": {
+        "chunk_id": "23ef58b3-0a39-4527-a52d-83b98d3abf0e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 64,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "c8c2d017-f12f-4194-9f9f-f30ceaff2567",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 65,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 식감올 느길 수 있음",
+      "meta_data": {
+        "chunk_id": "4aa12988-e3d6-4f8f-a2da-574da66681af",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 66,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "b0ee800d-5d66-4b02-8024-fcfd7fce294e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 67,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " (한국) 로데월푸드에서 출시한 식물성 디저트는 식물성 원료지 100% 사용해 소재 본연의 맛과 식감들 살려 맛있고 건강한 느낌으로 부담 없이 먹울 수 잇는 것이 특징임. 스웨의 경우 오트밀과 완두콩 같은 통에이장 공법올 적용하여 특유의 식감이 특징임",
+      "meta_data": {
+        "chunk_id": "217c7cbf-09da-48f9-b202-f6bc507e5de7",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 68,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "카라기난(Carrageenan) 널리 쓰이는 식품점가제",
+      "meta_data": {
+        "chunk_id": "74a17e6a-c1a7-46ac-be01-1d6f1e56144a",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 69,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/62a24786-0d68-4669-8583-3817bf212e18.png",
+      "meta_data": {
+        "chunk_id": "62a24786-0d68-4669-8583-3817bf212e18",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 70,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "74a17e6a-c1a7-46ac-be01-1d6f1e56144a",
+        "next_content": "613b2693-25f8-416b-9c36-9e02f28c0216"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/66b5d973-3cbf-4287-bc77-c8741a420973.png",
+      "meta_data": {
+        "chunk_id": "66b5d973-3cbf-4287-bc77-c8741a420973",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 71,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "74a17e6a-c1a7-46ac-be01-1d6f1e56144a",
+        "next_content": "613b2693-25f8-416b-9c36-9e02f28c0216"
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 72,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/77644edc-c6b8-4c33-a5c1-7bd1a6d3dd32.png",
+      "meta_data": {
+        "chunk_id": "77644edc-c6b8-4c33-a5c1-7bd1a6d3dd32",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 73,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "next_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/8f384614-c969-4a7f-8e62-c40e197262cf.png",
+      "meta_data": {
+        "chunk_id": "8f384614-c969-4a7f-8e62-c40e197262cf",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 74,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "next_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/4b0ec708-ed2c-477c-a5b3-2e95e427a94a.png",
+      "meta_data": {
+        "chunk_id": "4b0ec708-ed2c-477c-a5b3-2e95e427a94a",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 75,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "next_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/c5ab8c4d-f24a-4002-9063-bdfef2c20e0a.png",
+      "meta_data": {
+        "chunk_id": "c5ab8c4d-f24a-4002-9063-bdfef2c20e0a",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 76,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "next_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/2fe8f79a-ea0b-4292-a7ae-b6a9a0bf2b25.png",
+      "meta_data": {
+        "chunk_id": "2fe8f79a-ea0b-4292-a7ae-b6a9a0bf2b25",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 77,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "613b2693-25f8-416b-9c36-9e02f28c0216",
+        "next_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b"
+      }
+    },
+    {
+      "page_content": "(한국)",
+      "meta_data": {
+        "chunk_id": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 78,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/760fb64a-0fc6-43f5-8b21-821ec18f232d.png",
+      "meta_data": {
+        "chunk_id": "760fb64a-0fc6-43f5-8b21-821ec18f232d",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 79,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "2dfaf5bb-1a97-47f9-ab8a-604413ba9bdb",
+        "prev_content": "afe13a19-ff29-4b5c-9047-c53b5bf9c11b",
+        "next_content": "bb8dd611-e199-48c2-8cd6-6439a4f12326"
+      }
+    },
+    {
+      "page_content": "# PICK. 5",
+      "meta_data": {
+        "chunk_id": "bb8dd611-e199-48c2-8cd6-6439a4f12326",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 80,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 음료와 새로운 텍스처의 만남",
+      "meta_data": {
+        "chunk_id": "0626e6c9-58c9-4893-8339-79a4ef06836a",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 81,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 음료에서의 텍스처 중심의 학신은 마실 때 다양한 질감을 경험을 제공하는 것이 특징임. 이러한 음료들은 단순히 마시는 행위 이상으로 씹거나 느끼는 등 축각적인 요소 포함하여 소비자에게 독특한 경험올 제공함",
+      "meta_data": {
+        "chunk_id": "023f10d6-a49e-4109-86d6-2e8ea65a074a",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 82,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 버불티는 타피오카 펼이나 절리와 같이 씹흘 수 잇는 요소가 포함된 음료로 음료 자체는 차 또는",
+      "meta_data": {
+        "chunk_id": "8856a41a-1f37-403f-955b-1e69f4f64f4b",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 83,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 13~34세에서; 6496눈 여성에게서 나와 음료의 질감에 대한 관심이 높은 것으로 나타남. 이처럼 음료에 신선한 텍스처버불티 강한 탄산)가 더해지면서 음료록 특별한 간식이라는 인식올 보임",
+      "meta_data": {
+        "chunk_id": "72420786-4dac-464f-a888-d5045310e8a0",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 84,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 타피오카 펼보다 작은 크기로더 부드럽고 씹기 쉬운 텍스처로 편안하고 가져운 식감올 경험활 수 있음",
+      "meta_data": {
+        "chunk_id": "81eecbb2-86cd-42a8-a8fc-36c27aef4838",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 85,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "출처",
+      "meta_data": {
+        "chunk_id": "774a3bc3-9594-49d1-a8bc-ce866c478c0c",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 86,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 음료와 새로운 텍스처의 만남_ 버불티",
+      "meta_data": {
+        "chunk_id": "05b1d82f-75db-494f-b94c-9a960f65d050",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 87,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/cda3c3fc-26ea-4e11-aab0-cb241bc660f4.png",
+      "meta_data": {
+        "chunk_id": "cda3c3fc-26ea-4e11-aab0-cb241bc660f4",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 88,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "05b1d82f-75db-494f-b94c-9a960f65d050",
+        "prev_content": "05b1d82f-75db-494f-b94c-9a960f65d050",
+        "next_content": "b25d1473-3998-419a-90bc-65664fea9b24"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/fbd457f1-d4ff-4419-800d-bbb5856b9878.png",
+      "meta_data": {
+        "chunk_id": "fbd457f1-d4ff-4419-800d-bbb5856b9878",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 89,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "05b1d82f-75db-494f-b94c-9a960f65d050",
+        "prev_content": "05b1d82f-75db-494f-b94c-9a960f65d050",
+        "next_content": "b25d1473-3998-419a-90bc-65664fea9b24"
+      }
+    },
+    {
+      "page_content": "# -(프랑스) [Bubble Go] Wild",
+      "meta_data": {
+        "chunk_id": "b25d1473-3998-419a-90bc-65664fea9b24",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 90,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/6d934fa2-2581-4244-8f45-4f1420629eee.png",
+      "meta_data": {
+        "chunk_id": "6d934fa2-2581-4244-8f45-4f1420629eee",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 91,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "b25d1473-3998-419a-90bc-65664fea9b24",
+        "prev_content": "b25d1473-3998-419a-90bc-65664fea9b24",
+        "next_content": "9b84f9f4-5b8b-4dab-86d3-f95054d0e282"
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "9b84f9f4-5b8b-4dab-86d3-f95054d0e282",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 92,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "外",
+      "meta_data": {
+        "chunk_id": "6989fde0-4454-47e8-9a9d-495cd6db1214",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 93,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "음료의 텍스처, 특히 탄산의 강도는 음료의 식감에 중요한 영향을 끼침. 단순히 맛 뿐만 아니라 ",
+      "meta_data": {
+        "chunk_id": "fdfcbf46-e72e-4248-aeca-5f2851360efb",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 94,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 수요가 존재하다, 당분 섭취에 부담울 느끼는 소비자들이 탄산음료의 대체재로 탄산수름 선택하고 있음. 특히 식욕 억제 및 다이어트 효과큼 기대할 수 있다는 점으로 인하 건강과 미용에 관심이 있는 소비자들 또한 선택하는 경향을 보임",
+      "meta_data": {
+        "chunk_id": "facb65f6-eda3-479b-885c-d84187a9b091",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 95,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/99a8fd90-871f-4f6e-bb40-07ede3e0357d.png",
+      "meta_data": {
+        "chunk_id": "99a8fd90-871f-4f6e-bb40-07ede3e0357d",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 96,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "b25d1473-3998-419a-90bc-65664fea9b24",
+        "prev_content": "facb65f6-eda3-479b-885c-d84187a9b091",
+        "next_content": "ffe59170-cf2a-4708-ac0b-2c69d0b1a6c4"
+      }
+    },
+    {
+      "page_content": "출처 코로나79로 인해 변화하는 일본 음료시장 동향, Kotra 해외시장뉴스(2022.03.02)",
+      "meta_data": {
+        "chunk_id": "ffe59170-cf2a-4708-ac0b-2c69d0b1a6c4",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 97,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 음료와 새로운 텍스처의 만남_탄산음료",
+      "meta_data": {
+        "chunk_id": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 98,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/cf99e320-bdc4-44cb-a6cf-822b050b931a.png",
+      "meta_data": {
+        "chunk_id": "cf99e320-bdc4-44cb-a6cf-822b050b931a",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 99,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "prev_content": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "next_content": "fd8f14de-9454-4825-a5b4-e51f212bb954"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/db062ad9-7b34-4dfd-adea-700c3381efa8.png",
+      "meta_data": {
+        "chunk_id": "db062ad9-7b34-4dfd-adea-700c3381efa8",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 100,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "prev_content": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "next_content": "fd8f14de-9454-4825-a5b4-e51f212bb954"
+      }
+    },
+    {
+      "page_content": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/result/images/b2b9880a-9946-4ba5-b0b9-ffa1a768843a.png",
+      "meta_data": {
+        "chunk_id": "b2b9880a-9946-4ba5-b0b9-ffa1a768843a",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 101,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "prev_content": "e482eb24-6374-482a-a50a-2ced88f03aa4",
+        "next_content": "fd8f14de-9454-4825-a5b4-e51f212bb954"
+      }
+    },
+    {
+      "page_content": "출처",
+      "meta_data": {
+        "chunk_id": "fd8f14de-9454-4825-a5b4-e51f212bb954",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 102,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# (참고) 푸드데크관?",
+      "meta_data": {
+        "chunk_id": "5db8a32d-32f4-4968-9b67-c09df5513cd1",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 103,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 푸드데크란 식품(Food와 기술(Technology)의 합성어로;  식품 관련 산업에 인공지능(A), 사물 인터넷(oT; Internet of Things) 정보통신기술이ICT Information and Communication Technologies) 등",
+      "meta_data": {
+        "chunk_id": "25a4c0b3-541c-40eb-b8ad-1d9455f9236b",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 104,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "75e97797-bf06-43d3-bb5a-50edeceb0b4d",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 105,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024-08-27",
+      "meta_data": {
+        "chunk_id": "23709c45-945e-488e-923c-17257b244b0d",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 106,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "7 ",
+      "meta_data": {
+        "chunk_id": "7ed64bd7-d901-4019-9357-d3363306c237",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 107,
+        "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 년 8월 4주\n# 스처 학신\n# 기분 전환에 도움올 주는 식감(텍스처)\n# PICK 2\n# 잡짝한 간식(Savory Snack)과 푸드데크\n# K. 3\n# 텍스처와 심리 활동과의 관계\n# PICK. 4\n# 텍스처클 통해 인식올 바꾸다\n# PICK. 5\n# 음료와 새로운 텍스처의 만남\n# 음료와 새로운 텍스처의 만남_ 버불티\n# -(프랑스) [Bubble Go] Wild\n# 음료와 새로운 텍스처의 만남_탄산음료\n# (참고) 푸드데크관?",
+    "document_id": "8a918f9a-1f77-5543-977c-27eedb7cd8ea",
+    "timestamp": "2025-07-17T07:59:05.371316Z",
+    "document_file_path": "/app/output/6fe3f2e3-8a2c-48cd-a931-0f0934d3e089/TrendPick_다양한 미각(텍스처 혁신)_240827.pdf",
+    "document_title": "TrendPick_다양한 미각(텍스처 혁신)_240827"
+  }
+}

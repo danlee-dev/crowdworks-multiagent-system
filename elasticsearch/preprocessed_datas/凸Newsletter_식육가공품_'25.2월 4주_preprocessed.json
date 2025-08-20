@@ -1,0 +1,30 @@
+[
+  {
+    "page_content": "Newsletter_식육가공품_'25.2월 4주\n\nー",
+    "name": "",
+    "meta_data": {
+      "chunk_id": "16b28894-8474-4b9c-95ca-6e62098163cd",
+      "page_number": [
+        8
+      ],
+      "item_label": "table",
+      "index": 73,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "prev_content": "e4ef7a65-18c6-4822-bc57-baa018adb982",
+      "next_content": "24859439-c09a-4efa-8741-1c96ce15d6c3",
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "Newsletter_식육가공품_'25.2월 4주",
+      "original_page_content": "<table><tbody><tr><td>ー</td></tr></tbody></table>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "16b28894-8474-4b9c-95ca-6e62098163cd",
+          "content": "<table><tbody><tr><td>ー</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ]
+    }
+  }
+]

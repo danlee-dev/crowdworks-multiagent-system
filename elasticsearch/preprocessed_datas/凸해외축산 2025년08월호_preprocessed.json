@@ -1,0 +1,77 @@
+[
+  {
+    "page_content": "해외축산 2025년08월호\n\n주 1) 정육(Fresh pig meat, Frozen pig meat) 기준임.",
+    "name": "주 1) 정육(Fresh pig meat, Frozen pig meat) 기준임.",
+    "meta_data": {
+      "chunk_id": "8312215b-7752-40f7-9dc9-c504e8c87f0f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8312215b-7752-40f7-9dc9-c504e8c87f0f"
+      ],
+      "chunked_count": 1,
+      "index": 42,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 21,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "해외축산 2025년08월호",
+      "original_page_content": "주 1) 정육(Fresh pig meat, Frozen pig meat) 기준임."
+    }
+  },
+  {
+    "page_content": "해외축산 2025년08월호\n\n주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임. 2) 브라질 닭고기 도매가격은 냉장 기준임.\n\n3) 월별 미화환산율올 적용하여 유로/ kg올 달러/ kg으로 환산함",
+    "name": "주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임. 2) 브라질 닭고기 도매가격은 냉장 기준임.",
+    "meta_data": {
+      "chunk_id": "9c8e6142-ceb9-4d9f-a6da-e730c32f9684",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9c8e6142-ceb9-4d9f-a6da-e730c32f9684",
+        "e0451020-5423-4a8a-b30e-3ba6e5bddd31"
+      ],
+      "chunked_count": 2,
+      "index": 61,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 102,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "해외축산 2025년08월호",
+      "original_page_content": "주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임. 2) 브라질 닭고기 도매가격은 냉장 기준임."
+    }
+  },
+  {
+    "page_content": "해외축산 2025년08월호\n\n주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임.\n\n주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임.\n\n2) 수출랑은 HS CODE(020713, 020714, 020717,020712 160232)틀 기준으로 집계한 값임\n\n주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임. 2) 수출량은 HS CODE(020713,020714,020711,020712 160232)틀 기준으로 집계한 값임. 자료: UN Comtrade Database\n\n주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임.\n\n2) 수출랑은 HS CODE(020713, 020714,020711,020712 160232)틀 기준으로 집계한 값임. 자료: UN Comtrade Database",
+    "name": "주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임.",
+    "meta_data": {
+      "chunk_id": "61e6069b-8aeb-4f58-8aa1-abfc0d68f390",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "61e6069b-8aeb-4f58-8aa1-abfc0d68f390",
+        "4d2de49d-196c-43d8-b7a3-b525785d4fb9",
+        "fcf1ad37-c25e-4737-9257-bce5487078c0",
+        "0d76a9d8-f541-4334-9733-3e5c9dba6d0f",
+        "dbb4a85c-14be-402b-924e-5f275e81078c",
+        "ef4334ce-ecab-4d7e-916c-b9832cecd98f"
+      ],
+      "chunked_count": 6,
+      "index": 70,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 279,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "해외축산 2025년08월호",
+      "original_page_content": "주 1) 평년은 최근 5개년의 최대, 최소홀 제외한 평균임."
+    }
+  }
+]

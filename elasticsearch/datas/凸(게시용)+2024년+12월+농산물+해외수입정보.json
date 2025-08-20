@@ -1,0 +1,3977 @@
+{
+  "documents": [
+    {
+      "page_content": "`24-12호 (2025. 1. 10.)",
+      "meta_data": {
+        "chunk_id": "4ec908b2-2981-4833-b9b6-af0dc6851941",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# IMPORTINFORMATION",
+      "meta_data": {
+        "chunk_id": "d63b90bd-9990-4779-a283-3abb8d259fb3",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# [12월]",
+      "meta_data": {
+        "chunk_id": "3fae73a1-8745-4c46-b243-ed40aa60a2f6",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다.",
+      "meta_data": {
+        "chunk_id": "2a031202-5f14-443c-9208-39b9de04fa70",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/ed76068b-248b-43b0-b889-804bb70fc05f.png",
+      "meta_data": {
+        "chunk_id": "ed76068b-248b-43b0-b889-804bb70fc05f",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 4,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3fae73a1-8745-4c46-b243-ed40aa60a2f6",
+        "prev_content": "2a031202-5f14-443c-9208-39b9de04fa70",
+        "next_content": "2df34302-68c3-469d-a0de-a0d319a14d59"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/7487b50f-a2b1-416f-8bbc-2e340b4cf9e5.png",
+      "meta_data": {
+        "chunk_id": "7487b50f-a2b1-416f-8bbc-2e340b4cf9e5",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 5,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3fae73a1-8745-4c46-b243-ed40aa60a2f6",
+        "prev_content": "2a031202-5f14-443c-9208-39b9de04fa70",
+        "next_content": "2df34302-68c3-469d-a0de-a0d319a14d59"
+      }
+    },
+    {
+      "page_content": "# 부 류 별 산 지 가 격 동 향 부 류 별 산 지 가 격 동 향",
+      "meta_data": {
+        "chunk_id": "2df34302-68c3-469d-a0de-a0d319a14d59",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위 :",
+      "meta_data": {
+        "chunk_id": "d20e128c-430c-4433-b279-10beaf631199",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "US$/톤)",
+      "meta_data": {
+        "chunk_id": "804d677a-9006-4527-b557-f9af9615d387",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/febd1775-827b-4933-8e84-72b2ae6c1c71.png",
+      "meta_data": {
+        "chunk_id": "febd1775-827b-4933-8e84-72b2ae6c1c71",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "2df34302-68c3-469d-a0de-a0d319a14d59",
+        "prev_content": "804d677a-9006-4527-b557-f9af9615d387",
+        "next_content": "ed279615-613e-49e3-a294-047ea9125d15"
+      }
+    },
+    {
+      "page_content": "# 식 량 작 물 류",
+      "meta_data": {
+        "chunk_id": "ed279615-613e-49e3-a294-047ea9125d15",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 10,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "양",
+      "meta_data": {
+        "chunk_id": "5f8db5ec-43de-40aa-81c1-9eacf376b4e4",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 11,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "념",
+      "meta_data": {
+        "chunk_id": "d10fc31d-bf86-4fbb-8ca8-7a47f6c6a468",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "류",
+      "meta_data": {
+        "chunk_id": "a83738a9-d9ca-4469-a82e-d5a14d398c0d",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/69f00e2e-296c-4d0d-b4f8-26d25ee9899e.png",
+      "meta_data": {
+        "chunk_id": "69f00e2e-296c-4d0d-b4f8-26d25ee9899e",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 14,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "ed279615-613e-49e3-a294-047ea9125d15",
+        "prev_content": "a83738a9-d9ca-4469-a82e-d5a14d398c0d",
+        "next_content": "27b1d2ea-ef49-4646-a659-7bdd547ca41a"
+      }
+    },
+    {
+      "page_content": "# 특 작 류",
+      "meta_data": {
+        "chunk_id": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/26f632b0-6904-4f30-a9e2-badb6a16e7ff.png",
+      "meta_data": {
+        "chunk_id": "26f632b0-6904-4f30-a9e2-badb6a16e7ff",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 16,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "prev_content": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "next_content": "b686497f-a328-4937-b93e-46b67150cb35"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">품목</th><th>전월 대비(%)</th><th>가격동향</th></tr><tr><td colspan=\"2\">쌀(중국)</td><td>0</td><td>-</td></tr><tr><td colspan=\"2\">팥(중국)</td><td>0</td><td>-</td></tr><tr><td>콩</td><td>(중국)</td><td>-1.3</td><td>▼</td></tr><tr><td></td><td>(미국)</td><td>-5.6</td><td>▼</td></tr><tr><td colspan=\"2\">녹두(중국)</td><td>1.9</td><td>▲</td></tr><tr><td colspan=\"2\">메밀(중국)</td><td>0</td><td>-</td></tr><tr><td colspan=\"2\">콩나물콩(중국)</td><td>-1.5</td><td>▼</td></tr><tr><td colspan=\"2\">건고추(중국)</td><td>0</td><td>-</td></tr><tr><td colspan=\"2\">신선마늘(중국)</td><td>-3.6</td><td>▼</td></tr><tr><td colspan=\"2\">신선양파(중국)</td><td>-13.4</td><td>▼</td></tr><tr><td rowspan=\"2\">참깨</td><td>(중국)</td><td>-1.3</td><td>▼</td></tr><tr><td>(인도)</td><td>0</td><td>-</td></tr><tr><td colspan=\"2\">알땅콩(중국)</td><td>1.4</td><td>▲</td></tr><tr><td colspan=\"2\">생강(중국)</td><td>-2.1</td><td>▼</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "dbd6bf99-c1b2-418f-81ef-a1e37f29c181",
+        "page_number": [
+          1
+        ],
+        "item_label": "table",
+        "index": 17,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "prev_content": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "next_content": "b686497f-a328-4937-b93e-46b67150cb35"
+      }
+    },
+    {
+      "page_content": "* 중국산지가격은 위안화를 관세청 고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격 동향과 달라질 수 있음",
+      "meta_data": {
+        "chunk_id": "b686497f-a328-4937-b93e-46b67150cb35",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/d82ed5e5-7355-4f7c-bc6f-b0ded9fafbee.png",
+      "meta_data": {
+        "chunk_id": "d82ed5e5-7355-4f7c-bc6f-b0ded9fafbee",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 19,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "prev_content": "b686497f-a328-4937-b93e-46b67150cb35",
+        "next_content": "1b981775-655f-46d4-9b89-0734f569cf6f"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/7bb3eaf3-4b35-4d68-b0b0-f9c2117e528b.png",
+      "meta_data": {
+        "chunk_id": "7bb3eaf3-4b35-4d68-b0b0-f9c2117e528b",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 20,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "prev_content": "b686497f-a328-4937-b93e-46b67150cb35",
+        "next_content": "1b981775-655f-46d4-9b89-0734f569cf6f"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/96937a61-ccab-47dc-a6c0-99e2fd994ccc.png",
+      "meta_data": {
+        "chunk_id": "96937a61-ccab-47dc-a6c0-99e2fd994ccc",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 21,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b1d2ea-ef49-4646-a659-7bdd547ca41a",
+        "prev_content": "b686497f-a328-4937-b93e-46b67150cb35",
+        "next_content": "1b981775-655f-46d4-9b89-0734f569cf6f"
+      }
+    },
+    {
+      "page_content": "# 쌀 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "1b981775-655f-46d4-9b89-0734f569cf6f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "2f673a6c-ec86-4293-ac96-80c8a39b49aa",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 23,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 동북지역 자포니카 벼 거래가격 지역별 등락, 전반 적인 거래가격은 전월대비 보합",
+      "meta_data": {
+        "chunk_id": "78546838-f5a5-41ff-9a76-402e7adeae87",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "a6ea7f35-b7b6-4313-8eaf-2cdca169678f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 25,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 양질품 물량 감소 및 명절수요 증가 예상되어 거래가격 강보합세 전망",
+      "meta_data": {
+        "chunk_id": "32945fb0-2041-4c68-aa08-78dc27cae659",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 26,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향(단립종 현미 기준)",
+      "meta_data": {
+        "chunk_id": "6b4a0cc5-90e7-4b05-a04a-73b0333e4a3c",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 27,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 금월 중국산 쌀 거래가격은 $368~379/톤 수준으로, 전월 $368~379/톤 대비 보합",
+      "meta_data": {
+        "chunk_id": "d9411a82-d9f3-4599-a22e-adab98444ce6",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 28,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "efba0e2a-d3f8-434c-9ef2-8df108e24118",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 29,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 399,728톤 이며, 중국산 수입량 은 170,597톤 으로 전체 물량의 42.7% 차지",
+      "meta_data": {
+        "chunk_id": "2a59d953-2395-4ea1-b1a4-a82835b7b842",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 30,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/efc19557-8aae-4a88-a5a6-7cec448acb7c.png",
+      "meta_data": {
+        "chunk_id": "efc19557-8aae-4a88-a5a6-7cec448acb7c",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 31,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "efba0e2a-d3f8-434c-9ef2-8df108e24118",
+        "prev_content": "2a59d953-2395-4ea1-b1a4-a82835b7b842",
+        "next_content": "ca633799-f3c3-404b-a7de-9deccf4a1a58"
+      }
+    },
+    {
+      "page_content": "# 팥 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "ca633799-f3c3-404b-a7de-9deccf4a1a58",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 32,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "9a0b4249-1811-40a5-bcfc-87aafd6ca793",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 33,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 산지 수집상 및 도매상 집중구매 마무리로 실수요 위주 거래 진행되어 거래가격 전월대비 보합",
+      "meta_data": {
+        "chunk_id": "abcc2874-373c-4494-9ab1-546678766f00",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 34,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "a8beaa0d-c864-4ea0-879f-5249cffee658",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 설 연휴로 인한 농가 및 산지 수집상들 자금 마련을 위한 출하의향 증가로 거래가격 약보합 전망",
+      "meta_data": {
+        "chunk_id": "c6e694d3-68d8-454e-9383-d903501c52ef",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 36,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "52cb945e-7c84-4431-a8da-f87979bab580",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 37,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 금월 중국산 팥 거래가격은 $1,196~1,223/톤 수준으로, 전월 $1,196~1,223/톤 대비 보합",
+      "meta_data": {
+        "chunk_id": "612aa760-3419-4c67-a930-265e1f3ef102",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "b6335e5a-83b6-41a6-84de-7ab7a1fca929",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 39,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 38,955톤 이며, 중국산 수입량 은 36,522톤 으로 전체 물량의 93.7% 차지",
+      "meta_data": {
+        "chunk_id": "98284e02-1366-4084-911f-2a3265b7fda3",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 40,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "c01ec316-40a9-4c8a-b74c-d81ad7b56ac4",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 41,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "0bf9bf50-c902-4cd3-b245-3a0ef4344d31",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 42,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>111,102</td><td>108,182</td></tr><tr><td>`23.11</td><td>66,658</td><td>65,628</td></tr><tr><td>`24.11</td><td>170,597</td><td>154,326</td></tr><tr><td>전체</td><td>`24.11</td><td>399,728</td><td>375,898</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "d80bc60a-f573-4005-8911-4518bfca886a",
+        "page_number": [
+          2
+        ],
+        "item_label": "table",
+        "index": 43,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "c01ec316-40a9-4c8a-b74c-d81ad7b56ac4",
+        "prev_content": "0bf9bf50-c902-4cd3-b245-3a0ef4344d31",
+        "next_content": "90fb286c-e6ce-4a32-a10a-6936453bf20f"
+      }
+    },
+    {
+      "page_content": "※",
+      "meta_data": {
+        "chunk_id": "90fb286c-e6ce-4a32-a10a-6936453bf20f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 44,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "자료",
+      "meta_data": {
+        "chunk_id": "e5693ca9-85d9-494b-9c18-8781169f3e7e",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 45,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": ":",
+      "meta_data": {
+        "chunk_id": "3f9f66da-909d-40f3-94f2-1612fe27b718",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "관세청",
+      "meta_data": {
+        "chunk_id": "36c0664c-9b6c-467e-817b-2f2a62e001e3",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 47,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1006.30-1000,",
+      "meta_data": {
+        "chunk_id": "ff3fa1a9-23c1-4cac-9013-355ec913f3b4",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 48,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1006.20-1000",
+      "meta_data": {
+        "chunk_id": "3ae2a444-1794-4a71-8e43-22f442024495",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 49,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적추이(중국)",
+      "meta_data": {
+        "chunk_id": "6a548f11-1bf0-4485-9cdc-6b0af0eaa8d7",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 50,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/18a6f000-f6fb-4318-817f-5c61a0f021e5.png",
+      "meta_data": {
+        "chunk_id": "18a6f000-f6fb-4318-817f-5c61a0f021e5",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 51,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6a548f11-1bf0-4485-9cdc-6b0af0eaa8d7",
+        "prev_content": "6a548f11-1bf0-4485-9cdc-6b0af0eaa8d7",
+        "next_content": "e92a258b-9e92-4910-bded-7ca114d6e605"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "e92a258b-9e92-4910-bded-7ca114d6e605",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 52,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "5806f0e4-64ae-452f-aa1f-4ab7c5472f7e",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 53,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>39,568</td><td>56,781</td></tr><tr><td>`23.11</td><td>34,927</td><td>49,946</td></tr><tr><td>`24.11</td><td>36,522</td><td>49,017</td></tr><tr><td>전체</td><td>`24.11</td><td>38,955</td><td>54,019</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "40704daa-3150-4e26-afae-a0cdbee372d6",
+        "page_number": [
+          2
+        ],
+        "item_label": "table",
+        "index": 54,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "e92a258b-9e92-4910-bded-7ca114d6e605",
+        "prev_content": "5806f0e4-64ae-452f-aa1f-4ab7c5472f7e",
+        "next_content": "64acabe9-9dc0-4828-93f1-d84130816f4a"
+      }
+    },
+    {
+      "page_content": "※",
+      "meta_data": {
+        "chunk_id": "64acabe9-9dc0-4828-93f1-d84130816f4a",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "자료",
+      "meta_data": {
+        "chunk_id": "65d832f7-ad2d-4c7e-83f3-99f567831e0c",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 56,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": ":",
+      "meta_data": {
+        "chunk_id": "9354a033-0bac-4e6b-9c5f-8abbf22562a7",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 57,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "관세청",
+      "meta_data": {
+        "chunk_id": "fd14b0cc-d3d2-40de-a3de-2856f889e622",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 58,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※",
+      "meta_data": {
+        "chunk_id": "3ec5fb70-092b-461e-b1e7-11f33426c92b",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 59,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "hs-code",
+      "meta_data": {
+        "chunk_id": "c92dd4d6-86f8-4d8b-9bfd-1b8feb33ae8f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 60,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "0713.32-9000,2005.51-2000,",
+      "meta_data": {
+        "chunk_id": "9d8cb2b0-f97b-4ede-bd9f-4c29314bdd55",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 61,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2005.59-2000",
+      "meta_data": {
+        "chunk_id": "39038c32-20c2-4f07-968a-d4f07ba894e9",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 62,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 63,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/02e70648-a500-48c4-b28c-824d5ec19d46.png",
+      "meta_data": {
+        "chunk_id": "02e70648-a500-48c4-b28c-824d5ec19d46",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 64,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "prev_content": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "next_content": "ed34c0b2-5d79-4651-95cf-6724d758df4b"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/0de3ba78-9cb8-49ae-9472-fc68fc8e92f5.png",
+      "meta_data": {
+        "chunk_id": "0de3ba78-9cb8-49ae-9472-fc68fc8e92f5",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 65,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "prev_content": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "next_content": "ed34c0b2-5d79-4651-95cf-6724d758df4b"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/93d7d554-5173-4528-9fad-2d41d82aecc3.png",
+      "meta_data": {
+        "chunk_id": "93d7d554-5173-4528-9fad-2d41d82aecc3",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 66,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "prev_content": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "next_content": "ed34c0b2-5d79-4651-95cf-6724d758df4b"
+      }
+    },
+    {
+      "page_content": "2",
+      "meta_data": {
+        "chunk_id": "ed34c0b2-5d79-4651-95cf-6724d758df4b",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 67,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "곡 물 류",
+      "meta_data": {
+        "chunk_id": "a82fe32b-651c-445c-a114-27b7eb051e48",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 68,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/d95c0c3a-5478-4cd9-8c80-3e8648be58be.png",
+      "meta_data": {
+        "chunk_id": "d95c0c3a-5478-4cd9-8c80-3e8648be58be",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 69,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6fc688cb-fb57-4bdf-8a76-d39428db96ae",
+        "prev_content": "a82fe32b-651c-445c-a114-27b7eb051e48",
+        "next_content": "cbf7b2f5-f229-476c-80a8-d7bf5811d5d4"
+      }
+    },
+    {
+      "page_content": "# 콩 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "cbf7b2f5-f229-476c-80a8-d7bf5811d5d4",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 70,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "d7905d91-0bf4-498f-baed-e40a288624c5",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 71,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 선물 가격 하락으로 현물 거래가격 영향 및 수요부진으로 가공공장 등 관망 심리 높아 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "0bd781a3-463f-49f4-8882-534f194fc8f4",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 72,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "c3a498f0-fce2-4baa-af29-ef28850e7f56",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 73,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 대두 소비 회복전으로 가격 상승 여지는 없으나 명절 전 재고 보충 등으로 소비수요 회복 전망",
+      "meta_data": {
+        "chunk_id": "680a8d2f-27f1-4212-a032-6057e90ca19a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 74,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "326647bd-1045-4630-b5bc-1dc383ff7e19",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 75,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 금월 중국산 콩 거래가격은 $521~525/톤으로, 전월 $528~530/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "99234ce7-f171-48f0-a5d4-fa77bda99408",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 76,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "27b37788-bff3-4ee5-af99-f816541fe5e8",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 77,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 251,822톤 이며, 중국산 수입량 은 9,101톤 으로 전체 물량의 3.6% 차지",
+      "meta_data": {
+        "chunk_id": "050f4ec2-2cd6-4c4e-b74b-42911ccd858a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 78,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/59d6e5c7-b3f4-4755-8378-4a2cb5b4f0e9.png",
+      "meta_data": {
+        "chunk_id": "59d6e5c7-b3f4-4755-8378-4a2cb5b4f0e9",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 79,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "27b37788-bff3-4ee5-af99-f816541fe5e8",
+        "prev_content": "050f4ec2-2cd6-4c4e-b74b-42911ccd858a",
+        "next_content": "2bec079f-4136-478d-92fa-a5ffb6d4975a"
+      }
+    },
+    {
+      "page_content": "# 콩 ( 미 국 )",
+      "meta_data": {
+        "chunk_id": "2bec079f-4136-478d-92fa-a5ffb6d4975a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 80,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "45f3a32f-b1ba-49da-b277-94eca832f081",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 81,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 브라질 풍작 전망으로 미국산 대두 수요 둔화 우려되어 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "b0b26464-5e8a-4b31-ada0-edadb53970cc",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 82,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "29de44d1-7883-4614-b8f1-da743b2ead7a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 83,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국 수요 둔화 및 남미 대두 생산 변수에 따라 보합권내 소폭 등락 전망",
+      "meta_data": {
+        "chunk_id": "cb60f09e-8332-4387-9830-9c5ce99290ee",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 84,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 가격동향",
+      "meta_data": {
+        "chunk_id": "aa05cf93-5b9b-4ac2-98f4-f55dab6a7556",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 85,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 금월 미국산 콩 거래가격은 $330 ~ $345/톤으로, 전월 $350/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "2f624d48-bf4b-4ad7-bac6-98f0f4d4e266",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 86,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "860de93b-c63c-49b5-b749-e3f17345b706",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 87,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 251,822톤 이며, 미국산 수입량 은 200,847톤으 로 전체 수입량의 79.7% 차지",
+      "meta_data": {
+        "chunk_id": "c78562f1-9f27-4d07-b23e-fb525ae47846",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 88,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "6f0ac962-81fd-4f8c-af06-661eb2ec5f77",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 89,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "36fe6d1c-20ed-46a1-b022-c909f5a573a6",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 90,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>12,940</td><td>15,371</td></tr><tr><td>`23.11</td><td>8,473</td><td>10,625</td></tr><tr><td>`24.11</td><td>9,101</td><td>9,176</td></tr><tr><td>전체</td><td>`24.11</td><td>251,822</td><td>207,851</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "f2331589-8fe2-486a-b984-2a7c652fd7af",
+        "page_number": [
+          3
+        ],
+        "item_label": "table",
+        "index": 91,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "6f0ac962-81fd-4f8c-af06-661eb2ec5f77",
+        "prev_content": "36fe6d1c-20ed-46a1-b022-c909f5a573a6",
+        "next_content": "2f237cf1-9d51-4886-b9e7-fd114a3930da"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "2f237cf1-9d51-4886-b9e7-fd114a3930da",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 92,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1201.90-9000",
+      "meta_data": {
+        "chunk_id": "c0527c0b-4f0e-4358-bb46-1a8834e820d1",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 93,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "dbe20aae-c69d-44ba-9fee-95205a38012e",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 94,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/867bf0af-83e5-494e-a0ef-efe3c8e6a2f1.png",
+      "meta_data": {
+        "chunk_id": "867bf0af-83e5-494e-a0ef-efe3c8e6a2f1",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 95,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "dbe20aae-c69d-44ba-9fee-95205a38012e",
+        "prev_content": "dbe20aae-c69d-44ba-9fee-95205a38012e",
+        "next_content": "2382a95b-47e2-4eb0-bca6-d84865de947e"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "2382a95b-47e2-4eb0-bca6-d84865de947e",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 96,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "bd3b518d-239a-4714-a6b9-6eae6cc9a815",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 97,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td>미국</td><td>`23.12</td><td>200,865</td><td>176,031</td></tr><tr><td></td><td>`23.11</td><td>198,043</td><td>173,471</td></tr><tr><td></td><td>`24.11</td><td>200,847</td><td>161,609</td></tr><tr><td>전체</td><td>`24.11</td><td>251,822</td><td>207,851</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "d8b17145-4170-4b32-9494-3a98b83b6b58",
+        "page_number": [
+          3
+        ],
+        "item_label": "table",
+        "index": 98,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "2382a95b-47e2-4eb0-bca6-d84865de947e",
+        "prev_content": "bd3b518d-239a-4714-a6b9-6eae6cc9a815",
+        "next_content": "ad84c075-a0f1-4ae6-b2f6-9ced824c4883"
+      }
+    },
+    {
+      "page_content": "※",
+      "meta_data": {
+        "chunk_id": "ad84c075-a0f1-4ae6-b2f6-9ced824c4883",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 99,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "자료",
+      "meta_data": {
+        "chunk_id": "dc587ef9-bff7-481e-8c7e-d0a355291b5a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 100,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": ":",
+      "meta_data": {
+        "chunk_id": "4c3d0ecf-8438-4bae-a3d7-3ce680943b42",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 101,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "관세청",
+      "meta_data": {
+        "chunk_id": "79b60c57-1ad1-4733-bf7a-7ae9868e0871",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 102,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1201.90-9000",
+      "meta_data": {
+        "chunk_id": "402d8ea8-80f3-4ac6-ac0e-469de4aa57f8",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 103,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적추이(미국)",
+      "meta_data": {
+        "chunk_id": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 104,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/03797fd4-4c8f-4f08-9105-8aeaa8343a99.png",
+      "meta_data": {
+        "chunk_id": "03797fd4-4c8f-4f08-9105-8aeaa8343a99",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 105,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "prev_content": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "next_content": "8578c220-7bc7-4259-8fd2-a5cb69b65576"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/3b7e2e5a-6390-4e6b-8906-62e6b17d472e.png",
+      "meta_data": {
+        "chunk_id": "3b7e2e5a-6390-4e6b-8906-62e6b17d472e",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 106,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "prev_content": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "next_content": "8578c220-7bc7-4259-8fd2-a5cb69b65576"
+      }
+    },
+    {
+      "page_content": "3",
+      "meta_data": {
+        "chunk_id": "8578c220-7bc7-4259-8fd2-a5cb69b65576",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 107,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "곡 물 류",
+      "meta_data": {
+        "chunk_id": "2335f09c-d7ae-4745-b973-929c5b1404b0",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 108,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/4c43809d-c0fe-4d49-853c-4b2ae3e7ca33.png",
+      "meta_data": {
+        "chunk_id": "4c43809d-c0fe-4d49-853c-4b2ae3e7ca33",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 109,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "2e1e2559-a58d-435d-83b5-41d652a3628e",
+        "prev_content": "2335f09c-d7ae-4745-b973-929c5b1404b0",
+        "next_content": "6a503c6a-8658-449d-bfe6-28eff1ea346e"
+      }
+    },
+    {
+      "page_content": "# 녹 두 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "6a503c6a-8658-449d-bfe6-28eff1ea346e",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 110,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "23da959e-7a92-4fc0-9cfc-0b42782e93a6",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 111,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 수입산 녹두 공급물량 부족 영향으로 중국산 녹두 수요 증가로 인한 거래가격 전월대비 강보합",
+      "meta_data": {
+        "chunk_id": "65fbca5e-9f85-4ae3-bd80-939e6d455733",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 112,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "d9143500-6fac-4aad-aa6c-fda0760f0070",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 113,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 녹두 생산량 증가 및 일반용 녹두 비중 증가 예상에 따라 가격 지속 상승이 어렵고 보합권내 등락 전망",
+      "meta_data": {
+        "chunk_id": "b05f00ef-6a80-4709-a176-be1baef59d09",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 114,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "9392857c-5a9f-42cc-9177-f05adace1dbb",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 115,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 녹두 금월 거래가격은 $1,084~1,112/톤 수준으로, 전월 $1,037~1,093/톤 대비 강보합",
+      "meta_data": {
+        "chunk_id": "01fe24da-b5f6-42f8-9ad5-38cb3787dae8",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 116,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "b7b037e8-80ca-44b7-8211-fb66b14542c5",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 117,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 10,616톤 이며, 중국산 수입량 은 2,186톤으로 전체 수입량의 20.6% 차지",
+      "meta_data": {
+        "chunk_id": "b8d73ddf-0309-4b22-986e-e7107b939d59",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 118,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/d27070d4-a699-462b-974e-6ba0f5301a6a.png",
+      "meta_data": {
+        "chunk_id": "d27070d4-a699-462b-974e-6ba0f5301a6a",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 119,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "b7b037e8-80ca-44b7-8211-fb66b14542c5",
+        "prev_content": "b8d73ddf-0309-4b22-986e-e7107b939d59",
+        "next_content": "9016bc61-59ee-4e68-9f17-85fec48b9974"
+      }
+    },
+    {
+      "page_content": "# 메 밀 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "9016bc61-59ee-4e68-9f17-85fec48b9974",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 120,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "d7240c16-d4df-4d12-b687-fd6c418a56d0",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 121,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 수요 안정으로 가공업체 기존 보유재고 위주로 소모 중이며 구매 수요는 부족하여 거래가격 전월대비 보합",
+      "meta_data": {
+        "chunk_id": "509fa747-fd98-438d-b85e-d18a7f0ce623",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 122,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "55cb7c28-7512-4893-bd47-9fbdd3249b72",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 123,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 수입산 메밀 수입물량 및 가격에 따라 가격 변동이 예상 되어 향후 수입산 모니터링 필요하며 보합권내 등락 전망",
+      "meta_data": {
+        "chunk_id": "b5bac7ad-6060-4585-8e59-de1b83a86ac9",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 124,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "9e3fe56f-1f5e-4d8c-8f42-d59e56b4cdba",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 125,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 메밀 금월 거래가격은 $500~556/톤 수준으로, 전월 $500~556/톤 대비 보합",
+      "meta_data": {
+        "chunk_id": "00f53523-9c97-406b-b578-a2e23a0d66db",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 126,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "0f2e28ab-e5ff-4484-91a5-de65854981de",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 127,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 1,840톤 이며, 중국산 수입량은 720톤으로 전체 수입량의 39.1% 차지",
+      "meta_data": {
+        "chunk_id": "b6c1f213-c8cc-4083-aa80-168b3b3ebdb2",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 128,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "cc21eb66-b99b-487a-b12e-d26de73143df",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 129,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "d3cddbb7-397b-4e7d-9a2c-9454e7513979",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 130,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>3,897</td><td>7,078</td></tr><tr><td>`23.11</td><td>2,995</td><td>5,450</td></tr><tr><td>`24.11</td><td>2,186</td><td>4,145</td></tr><tr><td>전체</td><td>`24.11</td><td>10,616</td><td>24,230</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "6a3ce385-f593-45c0-b64e-609a61161309",
+        "page_number": [
+          4
+        ],
+        "item_label": "table",
+        "index": 131,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "cc21eb66-b99b-487a-b12e-d26de73143df",
+        "prev_content": "d3cddbb7-397b-4e7d-9a2c-9454e7513979",
+        "next_content": "bb5d15a8-05f2-415d-babe-f29366a5abf9"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "bb5d15a8-05f2-415d-babe-f29366a5abf9",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 132,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 0713.31-9000",
+      "meta_data": {
+        "chunk_id": "997c85fb-1456-49ca-a21c-1d606653cb30",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 133,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "5cf37f6a-d6e9-4413-851e-ce62e227e5e1",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 134,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/da901226-9019-451e-adc3-8e484871cc6a.png",
+      "meta_data": {
+        "chunk_id": "da901226-9019-451e-adc3-8e484871cc6a",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 135,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "5cf37f6a-d6e9-4413-851e-ce62e227e5e1",
+        "prev_content": "5cf37f6a-d6e9-4413-851e-ce62e227e5e1",
+        "next_content": "3d22b32b-3308-4c85-8285-ab53f1fe1100"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "3d22b32b-3308-4c85-8285-ab53f1fe1100",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 136,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "0d7501b3-3e4f-4e62-91f2-f60c8238fcd6",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 137,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>1,236</td><td>1,212</td></tr><tr><td>`23.11</td><td>939</td><td>946</td></tr><tr><td>`24.11</td><td>720</td><td>471</td></tr><tr><td>전체</td><td>`24.11</td><td>1,840</td><td>2,063</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "4088bac4-a683-40ab-803f-b70667c41f98",
+        "page_number": [
+          4
+        ],
+        "item_label": "table",
+        "index": 138,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3d22b32b-3308-4c85-8285-ab53f1fe1100",
+        "prev_content": "0d7501b3-3e4f-4e62-91f2-f60c8238fcd6",
+        "next_content": "f4f5d35a-8987-4f87-b841-2083823747f1"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "f4f5d35a-8987-4f87-b841-2083823747f1",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 139,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1008.10-0000",
+      "meta_data": {
+        "chunk_id": "ba3c69bb-de07-4ad6-b02d-fdd0028c9142",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 140,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 141,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/5ff0a944-d217-4d89-8386-3a9431da7cfb.png",
+      "meta_data": {
+        "chunk_id": "5ff0a944-d217-4d89-8386-3a9431da7cfb",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 142,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "prev_content": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "next_content": "4e0d6351-6d4c-42a4-8cbd-37f83d3e6b0b"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/86ea8749-9e57-428c-800d-50673f5454d6.png",
+      "meta_data": {
+        "chunk_id": "86ea8749-9e57-428c-800d-50673f5454d6",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 143,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "prev_content": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "next_content": "4e0d6351-6d4c-42a4-8cbd-37f83d3e6b0b"
+      }
+    },
+    {
+      "page_content": "4",
+      "meta_data": {
+        "chunk_id": "4e0d6351-6d4c-42a4-8cbd-37f83d3e6b0b",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 144,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "곡 물 류",
+      "meta_data": {
+        "chunk_id": "2835e18f-918b-443c-9923-7df8ad55a4b0",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 145,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/b0b1f53e-a53a-4257-93bc-0544f90b9c3a.png",
+      "meta_data": {
+        "chunk_id": "b0b1f53e-a53a-4257-93bc-0544f90b9c3a",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 146,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "260ad2e2-4ee5-472f-a871-a80a009b3c2b",
+        "prev_content": "2835e18f-918b-443c-9923-7df8ad55a4b0",
+        "next_content": "53f00e67-9c46-4d15-8e79-30cdf270da92"
+      }
+    },
+    {
+      "page_content": "# 콩나물콩 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "53f00e67-9c46-4d15-8e79-30cdf270da92",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 147,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "e7f139bb-3344-4b09-8c56-04fc7552808d",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 148,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 겨울철 저가 채소류(배추,무) 출하량 증가에 따라 콩나물 소비 감소되어 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "09a904e7-f5b1-40c9-8290-db40005508f2",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 149,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "6ce6f112-b0cd-42bc-8733-e2ead2f9f68b",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 150,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 추위 지속으로 채소류 공급 감소 예상 및 명절 수요로 인한 콩나물 소비 회복 예상되어 거래가격 안정세 전망",
+      "meta_data": {
+        "chunk_id": "0a8e650e-b4aa-427c-9d9f-1e9778815966",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 151,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향(소립종 기준)",
+      "meta_data": {
+        "chunk_id": "da705d1c-7b6e-4866-84a6-eac2ba5a336a",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 152,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 콩나물콩 금월 거래가격은 $917~931/톤 수준 으로, 전월 가격인 $931~945/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "478d0712-1d25-4544-b953-8015ce7cf62b",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 153,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "d4f61c1e-1471-4633-83d3-a57a58a6d206",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 154,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 22,160톤 이며, 그중 중국산 수입량 은 16,839톤으로 전체 물량의 75.9% 차지",
+      "meta_data": {
+        "chunk_id": "9c35fa2d-7df4-49bd-beba-b753fd67fa6b",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 155,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/ac117880-029b-4d98-abdc-b8976e964ff6.png",
+      "meta_data": {
+        "chunk_id": "ac117880-029b-4d98-abdc-b8976e964ff6",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 156,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "d4f61c1e-1471-4633-83d3-a57a58a6d206",
+        "prev_content": "9c35fa2d-7df4-49bd-beba-b753fd67fa6b",
+        "next_content": "d2223941-6a8c-4e7c-8e6a-ea871b12d060"
+      }
+    },
+    {
+      "page_content": "# 알땅콩 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "d2223941-6a8c-4e7c-8e6a-ea871b12d060",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 157,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "9a5a3b77-c372-47a2-88e0-cf72a8f4197e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 158,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 착유용 위주 거래진행 중이며 식용 수요가 미미하여 거래량 감소로 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "1c43c641-49e5-48db-8acf-4976b730502e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 159,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "24eb9e4e-59db-479e-b0cd-45ab15623406",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 160,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 춘절 대비 시장수요 증가 전망되어 향후 거래가격 강보합 전망",
+      "meta_data": {
+        "chunk_id": "24be6f06-8e92-4cc1-9a23-a1a2f453c5c1",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 161,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "e0ab16cb-2326-4d06-bd28-71b36ce3956a",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 162,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 알땅콩 거래가격은 $1,279/톤 수준으로, 전월 가격인 $1,307~1,316/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "1293d7a4-59da-4a6b-96ab-d7baf301afa5",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 163,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "6b6365c3-3533-4c8f-a11d-1774918863ac",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 164,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 1,033톤 이며, 그중 중국산 수입량 은 803톤 으로 전체 물량의 77.7% 차지",
+      "meta_data": {
+        "chunk_id": "06996362-8da9-4184-8e07-b458b14c9dec",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 165,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "470ec3b2-b54d-4a40-a95f-e32d0628f674",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 166,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "fbdf4d59-7a2b-4443-b90f-8f92ef1cedae",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 167,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>27,222</td><td>35,898</td></tr><tr><td>`23.11</td><td>21,797</td><td>29,413</td></tr><tr><td>`24.11</td><td>16,839</td><td>19,408</td></tr><tr><td>전체</td><td>`24.11</td><td>22,160</td><td>26,888</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "f21ee6aa-e8f8-4609-baab-12f7a4c43036",
+        "page_number": [
+          5
+        ],
+        "item_label": "table",
+        "index": 168,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "470ec3b2-b54d-4a40-a95f-e32d0628f674",
+        "prev_content": "fbdf4d59-7a2b-4443-b90f-8f92ef1cedae",
+        "next_content": "61c47a1a-7870-45d9-a020-4803b716a46f"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "61c47a1a-7870-45d9-a020-4803b716a46f",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 169,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1201.90-3000",
+      "meta_data": {
+        "chunk_id": "d4b85299-9610-49e7-8bc8-cd1dc98ee3b3",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 170,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "f0346c5a-b393-4f04-bc2d-ae4429f48994",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 171,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/83f08dc5-d525-440d-8581-25d05b2fad2a.png",
+      "meta_data": {
+        "chunk_id": "83f08dc5-d525-440d-8581-25d05b2fad2a",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 172,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "f0346c5a-b393-4f04-bc2d-ae4429f48994",
+        "prev_content": "f0346c5a-b393-4f04-bc2d-ae4429f48994",
+        "next_content": "d3e81094-ca94-4a46-ba64-30514a97e632"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "d3e81094-ca94-4a46-ba64-30514a97e632",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 173,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "e13bf4e0-a2f5-480d-8ae8-b5fc8783b487",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 174,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>1,167</td><td>2,236</td></tr><tr><td>`23.11</td><td>1,060</td><td>2,047</td></tr><tr><td>`24.11</td><td>803</td><td>1,390</td></tr><tr><td>전체</td><td>`24.11</td><td>1,033</td><td>1,884</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "a979c09e-ab77-48e3-a0af-5adb29a1e659",
+        "page_number": [
+          5
+        ],
+        "item_label": "table",
+        "index": 175,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "d3e81094-ca94-4a46-ba64-30514a97e632",
+        "prev_content": "e13bf4e0-a2f5-480d-8ae8-b5fc8783b487",
+        "next_content": "34f1b968-9f37-48a0-996a-a1c498abdd94"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "34f1b968-9f37-48a0-996a-a1c498abdd94",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 176,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1202.30-2000, 1202.42-0000",
+      "meta_data": {
+        "chunk_id": "0fea892f-d7cd-468a-93eb-8b4ca8a36ed6",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 177,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 178,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/be3664f0-63c0-4663-8f00-7b9c0b36925c.png",
+      "meta_data": {
+        "chunk_id": "be3664f0-63c0-4663-8f00-7b9c0b36925c",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 179,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "prev_content": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "next_content": "53e9492c-cc3b-4b6d-8c17-ce9845afa466"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/f36a827e-1e4c-4565-bed5-1fd936853c3e.png",
+      "meta_data": {
+        "chunk_id": "f36a827e-1e4c-4565-bed5-1fd936853c3e",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 180,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "prev_content": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "next_content": "53e9492c-cc3b-4b6d-8c17-ce9845afa466"
+      }
+    },
+    {
+      "page_content": "5",
+      "meta_data": {
+        "chunk_id": "53e9492c-cc3b-4b6d-8c17-ce9845afa466",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 181,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "양 념 류",
+      "meta_data": {
+        "chunk_id": "863ce050-9a66-49e9-92b9-b37c0443bac4",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 182,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/0900e176-e3bb-481c-960a-3003cc1f93eb.png",
+      "meta_data": {
+        "chunk_id": "0900e176-e3bb-481c-960a-3003cc1f93eb",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 183,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "1c22368c-ef73-419a-b789-d398ff06e9dc",
+        "prev_content": "863ce050-9a66-49e9-92b9-b37c0443bac4",
+        "next_content": "a1e040e0-5b21-4f39-aebd-c5fe7e5dce86"
+      }
+    },
+    {
+      "page_content": "# 건고추 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "a1e040e0-5b21-4f39-aebd-c5fe7e5dce86",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 184,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "301e6de9-dc15-4f01-9f0f-06da173556ca",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 185,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 거래량이 많은(신강/금탑) 지속적인 공급량 증가하였으나 수요량이미미하여실거래량감소하여 거래가격전월대비보합",
+      "meta_data": {
+        "chunk_id": "5f06ca4c-a89e-4bb6-ae91-75c516aff98f",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 186,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "d35da9c3-97b9-41f7-a6e1-93ac272678bb",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 187,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 수요 대비 공급량이 많을 것으로 예상되며, 공급자의 현재 가격 유지 의향이 강하여 보합권 유지 전망",
+      "meta_data": {
+        "chunk_id": "6e154485-e084-45f9-a65c-d27667410033",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 188,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "6fffd487-9d5d-468b-a32e-ef8714fb78d9",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 189,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 건고추 금월 거래가격은 $1,391~1,529/톤 수준으로, 전월 가격인 $1,391~1,529/톤 대비 보합",
+      "meta_data": {
+        "chunk_id": "96e197a3-9fef-4725-8b95-1fa092de46f1",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 190,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "3c1fc83a-2e84-430f-89e0-65a9246ac9e4",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 191,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 4,740톤 이며, 중국산 수입량 은 4,695톤으로 전체 물량의 99.0% 차지",
+      "meta_data": {
+        "chunk_id": "888eb685-0954-4ad0-ad76-bc17cf21ee0a",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 192,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/e0be812e-5918-4a52-9b9b-a12822237cd3.png",
+      "meta_data": {
+        "chunk_id": "e0be812e-5918-4a52-9b9b-a12822237cd3",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 193,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3c1fc83a-2e84-430f-89e0-65a9246ac9e4",
+        "prev_content": "888eb685-0954-4ad0-ad76-bc17cf21ee0a",
+        "next_content": "881cd51b-c562-4dac-b457-0eb35597511e"
+      }
+    },
+    {
+      "page_content": "# 신선마늘 ( 중 국, Soft )",
+      "meta_data": {
+        "chunk_id": "881cd51b-c562-4dac-b457-0eb35597511e",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 194,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "bc9f6c3d-3a75-4ce1-83c0-dd59eb4a7057",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 195,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 주산지 출하물량 점차 증가추세이나 실수요자 재고 확보 수요 감소하여 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "095be787-5d28-43a2-a341-4928178b104b",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 196,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "9141e5f7-2085-4c31-9a16-f4d1ed4af57f",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 197,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ `24년산 저온창고 저장물량이 충분하며 시장 수급에 따라 거래가격 보합권내 등락 전망",
+      "meta_data": {
+        "chunk_id": "0dffca00-ea9f-48ab-bbbb-ddf76f7fba3e",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 198,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "f09def71-87f4-45ff-9c3b-2d9112cb1bd7",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 199,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 마늘 금월 거래가격은 $1,279~1,349/톤 수준이며, 전월 가격인 $1,335~1,390/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "60715676-0c8c-46f8-b0b1-603038c612e9",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 200,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "9726bd7c-b44b-42cc-82e2-edf3165dac8c",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 201,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 416톤 이며, 전체물량을 중국산이 차지",
+      "meta_data": {
+        "chunk_id": "6106543f-3135-4ef3-8dbf-d60b633850e9",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 202,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "32444f00-b4be-4e13-be21-bd60740b95f0",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 203,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "f17c427a-62a5-4165-a119-7d5106b5a17b",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 204,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>6,420</td><td>23,229</td></tr><tr><td>`23.11</td><td>5,230</td><td>19,069</td></tr><tr><td>`24.11</td><td>4,695</td><td>14,743</td></tr><tr><td>전체</td><td>`24.11</td><td>4,740</td><td>15,155</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "92b5bff4-ea44-4770-a888-d5b32a5297fb",
+        "page_number": [
+          6
+        ],
+        "item_label": "table",
+        "index": 205,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "32444f00-b4be-4e13-be21-bd60740b95f0",
+        "prev_content": "f17c427a-62a5-4165-a119-7d5106b5a17b",
+        "next_content": "a6692ecb-9748-4167-bbbf-70f9e223f557"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "a6692ecb-9748-4167-bbbf-70f9e223f557",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 206,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 0904.21-0000",
+      "meta_data": {
+        "chunk_id": "8c38979b-eec9-404c-b377-1ce15087f421",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 207,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "dc9fb1c9-fda7-42c7-86ea-9dca0cfe7cc3",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 208,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/6ad441d2-9afb-4d24-a7a3-bfb82a1f81fb.png",
+      "meta_data": {
+        "chunk_id": "6ad441d2-9afb-4d24-a7a3-bfb82a1f81fb",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 209,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "dc9fb1c9-fda7-42c7-86ea-9dca0cfe7cc3",
+        "prev_content": "dc9fb1c9-fda7-42c7-86ea-9dca0cfe7cc3",
+        "next_content": "8854eded-8843-4149-b0b6-f63535439c14"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "8854eded-8843-4149-b0b6-f63535439c14",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 210,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "ee3ea602-5205-4684-95cc-c07a55122894",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 211,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td></td><td>`23.12</td><td>2,980</td><td>2,544</td></tr><tr><td>중국</td><td>`23.11</td><td>2,960</td><td>2,498</td></tr><tr><td></td><td>`24.11</td><td>416</td><td>887</td></tr><tr><td>전체</td><td>`24.11</td><td>416</td><td>887</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "158288f3-394f-4bbf-ba31-4d8e1fe60ad9",
+        "page_number": [
+          6
+        ],
+        "item_label": "table",
+        "index": 212,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "8854eded-8843-4149-b0b6-f63535439c14",
+        "prev_content": "ee3ea602-5205-4684-95cc-c07a55122894",
+        "next_content": "0fffe441-af94-43cc-8116-8a9dc22852de"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "0fffe441-af94-43cc-8116-8a9dc22852de",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 213,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 0703.20-1000, 0703.20-9000",
+      "meta_data": {
+        "chunk_id": "c201f56a-e8d7-4d52-93df-be3effe7b490",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 214,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 215,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/6341a866-d2fb-43df-8d90-8fb686a0f3f1.png",
+      "meta_data": {
+        "chunk_id": "6341a866-d2fb-43df-8d90-8fb686a0f3f1",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 216,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "prev_content": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "next_content": "ee2bf910-0d96-44ef-a179-becc33127480"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/39df14ca-b15b-41f6-8afe-b35ffc028038.png",
+      "meta_data": {
+        "chunk_id": "39df14ca-b15b-41f6-8afe-b35ffc028038",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 217,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "prev_content": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "next_content": "ee2bf910-0d96-44ef-a179-becc33127480"
+      }
+    },
+    {
+      "page_content": "6",
+      "meta_data": {
+        "chunk_id": "ee2bf910-0d96-44ef-a179-becc33127480",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 218,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "양 념 특 작 류",
+      "meta_data": {
+        "chunk_id": "515b7dd4-6ee6-4761-9e2e-7664ffe5408e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 219,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/3bc0d060-9ecd-4a51-aaf5-204df08e3116.png",
+      "meta_data": {
+        "chunk_id": "3bc0d060-9ecd-4a51-aaf5-204df08e3116",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 220,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "4cebe9a2-8f5d-4956-8361-57bd87f0c0ff",
+        "prev_content": "515b7dd4-6ee6-4761-9e2e-7664ffe5408e",
+        "next_content": "52b6f361-a80c-4246-bec0-21f60b56d1bd"
+      }
+    },
+    {
+      "page_content": "# 신선양파 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "52b6f361-a80c-4246-bec0-21f60b56d1bd",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 221,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "fe918370-4817-440d-b77f-b3dd725ad7e3",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 222,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 감숙성 기온 지속 하락하여 저장품 판매 증가하였으나 해외시장 수요 감소되어 거래가격 전월대비 하락",
+      "meta_data": {
+        "chunk_id": "224a9804-8fcd-41e8-90ef-0f8ecc2bab0d",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 223,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "5c4f7b1d-822d-481e-ad64-16428dde10b8",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 224,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 1월 국내·외 시장수요 감소 및 감숙성 저장품 장기보관으로 품위 저하에 따른 공급량 증가하여 거래가격 약세 전망",
+      "meta_data": {
+        "chunk_id": "e2709181-0cc4-413e-a752-e8dea2730285",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 225,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "b8f18b05-8fea-4d61-b7b8-7e74b5071569",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 226,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 수요 증가하여 금월 거래가격은 $166~194/톤 수준이며, 전월 가격인 $194~222/톤 대비 하락",
+      "meta_data": {
+        "chunk_id": "26a8d83f-bc6d-49a0-88ae-a9e0381d526e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 227,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "d975d7cd-4594-4bf5-9189-7c6999d80eba",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 228,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 76,761톤 이며, 중국산 수입량 은 75,778톤 으로 전체 물량의 98.7% 차지",
+      "meta_data": {
+        "chunk_id": "b2b1f62d-cc7d-4ce0-9f22-f52dcb028f78",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 229,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/c46e6bca-7f8f-4d7d-b1c3-b01e8c170629.png",
+      "meta_data": {
+        "chunk_id": "c46e6bca-7f8f-4d7d-b1c3-b01e8c170629",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 230,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "d975d7cd-4594-4bf5-9189-7c6999d80eba",
+        "prev_content": "b2b1f62d-cc7d-4ce0-9f22-f52dcb028f78",
+        "next_content": "fa24503f-0d8e-461e-a4e7-4332dd00e4d9"
+      }
+    },
+    {
+      "page_content": "# 참 깨 ( 인 도, 황백색 )",
+      "meta_data": {
+        "chunk_id": "fa24503f-0d8e-461e-a4e7-4332dd00e4d9",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 231,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "23baefee-6c64-4d31-b5ca-a23ee3f6b2b3",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 232,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 인도 내수 및 수출수요 증가 영향으로 거래가격 전월 대비 강보합",
+      "meta_data": {
+        "chunk_id": "a51cfbf2-69eb-4fae-8e53-e0ae17c1b1f1",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 233,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "63bd3b32-37a0-4cc9-814b-ceac48812cb8",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 234,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 국내 및 중동 등 수요가 지속적으로 증가하는 추세이나 브라질산 참깨의 저가 시세 형성으로 보합권내 등락 전망",
+      "meta_data": {
+        "chunk_id": "1a637990-df23-4347-a4f1-bddb7899964d",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 235,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "7a144007-5695-4f49-a3f7-e5a562fd84d4",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 236,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 인도산 참깨 금월 거래가격은 $1,322~1,438/톤 수준으로, 전월 $1,363~1,457/톤 대비 강보합",
+      "meta_data": {
+        "chunk_id": "d0ed6433-aad9-449c-bdf1-d62c16d5c044",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 237,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "17d1c6d1-4417-46d1-9c0c-a2b5011dcf20",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 238,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24.11월 까지 전체 수입량 은 80,632톤 이며, 그중 인도산 수입량 은 21,270톤 으로 전체 수입량의 26.3% 차지",
+      "meta_data": {
+        "chunk_id": "88c73f4c-b47b-4757-9f71-28d8d531593e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 239,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "e52f2406-617e-4dad-b7c8-3cbeb1013e83",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 240,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "8774178b-b0f2-486d-8e74-841ff06b35f9",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 241,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>121,606</td><td>48,614</td></tr><tr><td>`23.11</td><td>113,631</td><td>45,630</td></tr><tr><td>`24.11</td><td>75,778</td><td>25,332</td></tr><tr><td>전체</td><td>`24.11</td><td>76,761</td><td>25,735</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "785fb3c9-475d-43cf-bcc3-4e606f2f7372",
+        "page_number": [
+          7
+        ],
+        "item_label": "table",
+        "index": 242,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "e52f2406-617e-4dad-b7c8-3cbeb1013e83",
+        "prev_content": "8774178b-b0f2-486d-8e74-841ff06b35f9",
+        "next_content": "7d45265f-01a8-4359-8f04-fc01023eda7e"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "7d45265f-01a8-4359-8f04-fc01023eda7e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 243,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 0703.10-1000",
+      "meta_data": {
+        "chunk_id": "344aac31-67c3-4413-8d3e-03b04edb872b",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 244,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "b7648b2e-6bc0-4572-bbe9-b474207a880c",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 245,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/19498937-c35d-4939-a2a8-007f32ae58ef.png",
+      "meta_data": {
+        "chunk_id": "19498937-c35d-4939-a2a8-007f32ae58ef",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 246,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "b7648b2e-6bc0-4572-bbe9-b474207a880c",
+        "prev_content": "b7648b2e-6bc0-4572-bbe9-b474207a880c",
+        "next_content": "b313e572-2f9b-4da3-a994-a0767ff9bdf0"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "b313e572-2f9b-4da3-a994-a0767ff9bdf0",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 247,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "6a31604c-888b-4b86-9495-e2d60643e27e",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 248,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">인도</td><td>`23.12</td><td>16,931</td><td>34,034</td></tr><tr><td>`23.11</td><td>16,771</td><td>33,644</td></tr><tr><td>`24.11</td><td>21,270</td><td>40,602</td></tr><tr><td>전체</td><td>`24.11</td><td>80,632</td><td>173,265</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "2191818f-d82a-4369-9f75-81419090aafb",
+        "page_number": [
+          7
+        ],
+        "item_label": "table",
+        "index": 249,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "b313e572-2f9b-4da3-a994-a0767ff9bdf0",
+        "prev_content": "6a31604c-888b-4b86-9495-e2d60643e27e",
+        "next_content": "ffd6e5d2-7b35-46d9-bd7b-d2d80e1c5545"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "ffd6e5d2-7b35-46d9-bd7b-d2d80e1c5545",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 250,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1207.40-0000",
+      "meta_data": {
+        "chunk_id": "4ec92789-1af5-42fd-9abd-1004383545f2",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 251,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(인도)",
+      "meta_data": {
+        "chunk_id": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 252,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/98bfd1ac-37d9-46db-a508-26fcea309ba8.png",
+      "meta_data": {
+        "chunk_id": "98bfd1ac-37d9-46db-a508-26fcea309ba8",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 253,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "prev_content": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "next_content": "d41bac62-655a-43b7-81ce-5aaf4ac426b2"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/b6b9a911-258c-4f68-825d-a469a02ef7df.png",
+      "meta_data": {
+        "chunk_id": "b6b9a911-258c-4f68-825d-a469a02ef7df",
+        "page_number": [
+          7
+        ],
+        "item_label": "picture",
+        "index": 254,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "prev_content": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "next_content": "d41bac62-655a-43b7-81ce-5aaf4ac426b2"
+      }
+    },
+    {
+      "page_content": "7",
+      "meta_data": {
+        "chunk_id": "d41bac62-655a-43b7-81ce-5aaf4ac426b2",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 255,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/7d564c10-ed1c-4a66-90f8-ce43f24ef73b.png",
+      "meta_data": {
+        "chunk_id": "7d564c10-ed1c-4a66-90f8-ce43f24ef73b",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 256,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "3b1913dc-f891-490d-94ee-f662a82edab5",
+        "prev_content": "d41bac62-655a-43b7-81ce-5aaf4ac426b2",
+        "next_content": "fd2edf79-bc37-4fcb-ac82-47c0ec12ce03"
+      }
+    },
+    {
+      "page_content": "# 신선생강 ( 중 국 )",
+      "meta_data": {
+        "chunk_id": "fd2edf79-bc37-4fcb-ac82-47c0ec12ce03",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 257,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "4a9927b1-ae11-4485-a675-3700589f97e4",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 258,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ `23년산 저장생강 집중 출하에 따라 시장 공급량 증가 하였으나 구매수요 감소로 거래가격 전월대비 약보합",
+      "meta_data": {
+        "chunk_id": "f48c2df1-e400-40d5-8223-c72b4a41422d",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 259,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "f3c9f807-6a89-41a4-a9ad-cd07dec35256",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 260,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 1월 햇생강 출하와 더불어 저장생강 출하로 공급량 지속 증가되나 수요 부족으로 거래가격 약세전망",
+      "meta_data": {
+        "chunk_id": "b337b1ef-0bfe-4835-882e-a97db615051b",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 261,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "42534d6f-0e18-4898-8e81-efffbc2b4d54",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 262,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 생강 금월 거래가격은 $917~1,029/톤 수준이며, 전월 가격인 $973~1,001/톤 대비 약보합",
+      "meta_data": {
+        "chunk_id": "5e664f18-6c32-47ec-aa90-33f34ac2acd5",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 263,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "82a46210-2af3-4b29-9188-9dfc56d81a55",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 264,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '24. 11월 까지 전체 수입량 은 4,421톤 이며, 그중 중국산 수입량은 4,336톤으로 전체 수입량의 98% 차지",
+      "meta_data": {
+        "chunk_id": "dd103f90-7d7b-4029-8ff3-e7f744161bad",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 265,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/94c6de6f-1ed9-4a1e-be2c-48fff3ac8dcf.png",
+      "meta_data": {
+        "chunk_id": "94c6de6f-1ed9-4a1e-be2c-48fff3ac8dcf",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 266,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "82a46210-2af3-4b29-9188-9dfc56d81a55",
+        "prev_content": "dd103f90-7d7b-4029-8ff3-e7f744161bad",
+        "next_content": "4a577d2e-7f35-4884-97b4-d0e0a0f716dc"
+      }
+    },
+    {
+      "page_content": "# 참 깨 ( 중 국, 황백색 )",
+      "meta_data": {
+        "chunk_id": "4a577d2e-7f35-4884-97b4-d0e0a0f716dc",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 267,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지동향",
+      "meta_data": {
+        "chunk_id": "f1499ab6-cd55-42c0-b325-dd3373be3d6c",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 268,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 시장수요 미미하여 가공업체 소량구매로 거래량이 적어 거래가격 전월대비 보합",
+      "meta_data": {
+        "chunk_id": "4797787d-0dc0-4fdf-b93c-09decc9c1db6",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 269,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 향후전망",
+      "meta_data": {
+        "chunk_id": "8f7b9d6b-1f4a-42cb-851f-7caa2b1ad911",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 270,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 보유 재고량이 적고 춘절 대비 시장수요 증가 전망되어 거래가격 강보합 추세 전망",
+      "meta_data": {
+        "chunk_id": "79829d3b-91de-4bb7-ab77-9e3acc3cc9cb",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 271,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 산지가격동향",
+      "meta_data": {
+        "chunk_id": "202a8e48-fb75-4289-b4a5-dbffa6a45e7a",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 272,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 중국산 참깨 금월 거래가격은 $2,002~2,030/톤 수준으로, 전월 가격인 $2,002~2,030/톤 대비 보합",
+      "meta_data": {
+        "chunk_id": "e58c0cbe-a686-4bc0-80cf-2428c0775a92",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 273,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입동향",
+      "meta_data": {
+        "chunk_id": "a11bd6be-26fe-4d59-8ad5-1f9d5a69927d",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 274,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ ' 24. 11월 까지 전체 수입량 은 80,632톤 이며, 그중 중국산 수입량 은 27,655톤으로 전체 수입량의 34.3% 차지",
+      "meta_data": {
+        "chunk_id": "e4fe441b-66e7-4492-bb9d-b1ec64269916",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 275,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "d1b141c3-f0fa-40f6-8b6c-58b55be76872",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 276,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위:톤,천불)",
+      "meta_data": {
+        "chunk_id": "517a5215-6291-40f9-ac1c-54dc20bfd6e4",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 277,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>4,081</td><td>6,900</td></tr><tr><td>`23.11</td><td>3,919</td><td>6,694</td></tr><tr><td>`24.11</td><td>4,336</td><td>5,505</td></tr><tr><td>전체</td><td>`24.11</td><td>4,421</td><td>5,587</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "17195efb-a9ce-4396-992e-91805a1ddee5",
+        "page_number": [
+          8
+        ],
+        "item_label": "table",
+        "index": 278,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "d1b141c3-f0fa-40f6-8b6c-58b55be76872",
+        "prev_content": "517a5215-6291-40f9-ac1c-54dc20bfd6e4",
+        "next_content": "abc9cd74-42b1-4ac8-bc66-8cafa5570334"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "abc9cd74-42b1-4ac8-bc66-8cafa5570334",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 279,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 0910.11-1000, 0910.11-9000",
+      "meta_data": {
+        "chunk_id": "5f5d2e12-397e-49ab-a7e4-8610ca8b75f1",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 280,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "b53b40e4-7968-4a73-9317-cdefa28478ab",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 281,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/e31bbda6-68ac-4aa9-b0d4-b8925577a1dc.png",
+      "meta_data": {
+        "chunk_id": "e31bbda6-68ac-4aa9-b0d4-b8925577a1dc",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 282,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "b53b40e4-7968-4a73-9317-cdefa28478ab",
+        "prev_content": "b53b40e4-7968-4a73-9317-cdefa28478ab",
+        "next_content": "727e98a9-1e2f-477a-b304-7c1315261df9"
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적",
+      "meta_data": {
+        "chunk_id": "727e98a9-1e2f-477a-b304-7c1315261df9",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 283,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 톤,천불)",
+      "meta_data": {
+        "chunk_id": "06708253-cbba-46b1-952e-498bfeabb9de",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 284,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>32,308</td><td>81,251</td></tr><tr><td>`23.11</td><td>28,830</td><td>72,693</td></tr><tr><td>`24.11</td><td>27,655</td><td>69,206</td></tr><tr><td>전체</td><td>`24.11</td><td>80,632</td><td>173,265</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "7b2800ff-b684-431c-8030-5ad7c453944f",
+        "page_number": [
+          8
+        ],
+        "item_label": "table",
+        "index": 285,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "727e98a9-1e2f-477a-b304-7c1315261df9",
+        "prev_content": "06708253-cbba-46b1-952e-498bfeabb9de",
+        "next_content": "54932174-84be-4dee-9e36-2f39238135aa"
+      }
+    },
+    {
+      "page_content": "※ 자료 : 관세청",
+      "meta_data": {
+        "chunk_id": "54932174-84be-4dee-9e36-2f39238135aa",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 286,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ hs-code 1207.40-0000",
+      "meta_data": {
+        "chunk_id": "5582c4f3-86db-4e45-9f9c-bf1e041512e7",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 287,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ▣ 수입실적 추이(중국)",
+      "meta_data": {
+        "chunk_id": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 288,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/b4ac4e79-38c4-40c8-901d-984a1d859a2c.png",
+      "meta_data": {
+        "chunk_id": "b4ac4e79-38c4-40c8-901d-984a1d859a2c",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 289,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "prev_content": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "next_content": "ecc066e2-54e0-4883-9a27-b4efd9cbd57f"
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/f24c989d-15b5-4f1b-863f-aab46a2fcf5a.png",
+      "meta_data": {
+        "chunk_id": "f24c989d-15b5-4f1b-863f-aab46a2fcf5a",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 290,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "prev_content": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "next_content": "ecc066e2-54e0-4883-9a27-b4efd9cbd57f"
+      }
+    },
+    {
+      "page_content": "8",
+      "meta_data": {
+        "chunk_id": "ecc066e2-54e0-4883-9a27-b4efd9cbd57f",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 291,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급관리처 061-931-1067로 연락주시기 바랍니다.",
+      "meta_data": {
+        "chunk_id": "b9811313-fb1b-440f-9054-261001efae33",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 292,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " Clean aT, 우리의 자부심입니다! ",
+      "meta_data": {
+        "chunk_id": "f70376a8-a182-4e42-a784-aec352905542",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 293,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/result/images/df118417-8ffb-43c7-9f07-05dce0323fbd.png",
+      "meta_data": {
+        "chunk_id": "df118417-8ffb-43c7-9f07-05dce0323fbd",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 294,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": "68b8b264-109f-4a63-8178-0bb227fbacb9",
+        "prev_content": "f70376a8-a182-4e42-a784-aec352905542",
+        "next_content": "e6a475b5-084a-4b9d-b468-dcdbeb41c10a"
+      }
+    },
+    {
+      "page_content": "9",
+      "meta_data": {
+        "chunk_id": "e6a475b5-084a-4b9d-b468-dcdbeb41c10a",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 295,
+        "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# IMPORTINFORMATION\n# [12월]\n# 부 류 별 산 지 가 격 동 향 부 류 별 산 지 가 격 동 향\n# 식 량 작 물 류\n# 특 작 류\n# 쌀 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향(단립종 현미 기준)\n# ▣ 수입동향\n# 팥 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# 콩 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# 콩 ( 미 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적추이(미국)\n# 녹 두 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# 메 밀 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# 콩나물콩 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향(소립종 기준)\n# ▣ 수입동향\n# 알땅콩 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# 건고추 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# 신선마늘 ( 중 국, Soft )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# 신선양파 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# 참 깨 ( 인 도, 황백색 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(인도)\n# 신선생강 ( 중 국 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# 참 깨 ( 중 국, 황백색 )\n# ▣ 산지동향\n# ▣ 향후전망\n# ▣ 산지가격동향\n# ▣ 수입동향\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)\n# ▣ 수입실적\n# ▣ 수입실적 추이(중국)",
+    "document_id": "de2ed703-05b3-5605-a2ed-aae18423f40f",
+    "timestamp": "2025-07-16T01:10:45.338206Z",
+    "document_file_path": "/app/output/27c1f236-08d6-4cac-a508-3d33343b36d2/(게시용)+2024년+12월+농산물+해외수입정보.pdf",
+    "document_title": "(게시용)+2024년+12월+농산물+해외수입정보"
+  }
+}

@@ -1,0 +1,774 @@
+[
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다.",
+    "name": "이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다.",
+    "meta_data": {
+      "chunk_id": "65585e75-1079-4ff1-a8ce-e06de416ad75",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "65585e75-1079-4ff1-a8ce-e06de416ad75"
+      ],
+      "chunked_count": 1,
+      "index": 3,
+      "page_number": [
+        1
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 121,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다."
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# 양 념 류\n\n품목 전월 대비(%) 가격동향\n쌀(중국) 1.3 ▲\n팥(중국) -0.8 ▼\n(중국) 0.7 ▲\n(미국) 2.6 ▲\n녹두(중국) -3.7 ▼\n메밀(중국) 0.4 ▲\n콩나물콩(중국) 0.2 ▲\n건고추(중국) 0.3 ▲\n신선마늘(중국) 4.1 ▲\n신선양파(중국) -39 ▼\n생강(중국) 14.5 ▲\n(중국) 0.2 ▲\n(인도) -1.9 ▼\n알땅콩(중국) 4.6 ▲",
+    "name": "양 념 류",
+    "meta_data": {
+      "chunk_id": "600a89b9-717a-4490-be43-bd75d9f2acc0",
+      "page_number": [
+        1
+      ],
+      "item_label": "merged",
+      "index": 8,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# 양 념 류",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2ddc0bf8-7ded-4289-8a9f-6c81e159d73a",
+          "content": "<table><tbody><tr><th>품목</th><th>전월 대비(%)</th><th>가격동향</th></tr><tr><td>쌀(중국)</td><td>1.3</td><td>▲</td></tr><tr><td>팥(중국)</td><td>-0.8</td><td>▼</td></tr><tr><td>(중국)</td><td>0.7</td><td>▲</td></tr><tr><td>(미국)</td><td>2.6</td><td>▲</td></tr><tr><td>녹두(중국)</td><td>-3.7</td><td>▼</td></tr><tr><td>메밀(중국)</td><td>0.4</td><td>▲</td></tr><tr><td>콩나물콩(중국)</td><td>0.2</td><td>▲</td></tr><tr><td>건고추(중국)</td><td>0.3</td><td>▲</td></tr><tr><td>신선마늘(중국)</td><td>4.1</td><td>▲</td></tr><tr><td>신선양파(중국)</td><td>-39</td><td>▼</td></tr><tr><td>생강(중국)</td><td>14.5</td><td>▲</td></tr><tr><td rowspan=\"2\">(중국)</td><td>0.2</td><td>▲</td></tr><tr><td>(인도)</td><td>-1.9</td><td>▼</td></tr><tr><td>알땅콩(중국)</td><td>4.6</td><td>▲</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n* 중국산지가격은 위안화(CNY)를 관세청고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격동향과 달라질 수 있음",
+    "name": "* 중국산지가격은 위안화(CNY)를 관세청고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격동향과 달라질 수 있음",
+    "meta_data": {
+      "chunk_id": "daf88a04-f010-49c1-ad15-1935e2b47973",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "daf88a04-f010-49c1-ad15-1935e2b47973"
+      ],
+      "chunked_count": 1,
+      "index": 18,
+      "page_number": [
+        1
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 79,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "* 중국산지가격은 위안화(CNY)를 관세청고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격동향과 달라질 수 있음"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 산지 재고물량 소진 및 보유자 출하기피 심리가 강해 거래가격 전월대비 강보합\n\n◦ 수요 감소 및 출하기피 심리 지속 예상되어 거래가격 보합권 내 등락 전망\n\n◦ 금월 거래가격은 $393~410/톤 수준으로, 전월 가격인 $389~403/톤 대비 강보합\n\n◦ '25. 5월 까지 전체 수입량 은 135,655톤 이며, 중국산 수입량 은 68,298톤 으로 전체 수입량의 50.3% 차지\n\n◦ 공급물량 소폭 증가 및 수요 부진하여 거래가격 전월 대비 약보합\n\n◦ 수요 감소 및 시장 거래 활발하지 않을 것으로 예상되어 거래가격 보합 추세 전망\n\n◦ 금월 거래가격은 $1,212~1,240/톤 수준으로, 전월 가격인 $1,222~1,250/톤 대비 약보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 16,728톤 이며, 중국산 수입량 은 15,470톤 으로 전체 수입량의 92.5% 차지",
+    "name": "◦ 산지 재고물량 소진 및 보유자 출하기피 심리가 강해 거래가격 전월대비 강보합",
+    "meta_data": {
+      "chunk_id": "4023dc67-365c-49ea-9fbd-4cb3bb232048",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "4023dc67-365c-49ea-9fbd-4cb3bb232048",
+        "313048bd-3959-49ac-9989-9e8da80fe4a0",
+        "e97258db-5e64-4dd1-81d0-6ff7fff46684",
+        "127c9215-5894-4c30-8487-8fee0511d4f7",
+        "15d7f21c-22c0-44d0-bc7f-557f21fb0218",
+        "6e92e658-ea39-4199-9b0d-ea59817f3804",
+        "8558ff39-6740-4817-97a1-e88f81f5c115",
+        "790370d5-a63c-4af2-b71c-f16b43753746"
+      ],
+      "chunked_count": 8,
+      "index": 22,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 427,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 산지 재고물량 소진 및 보유자 출하기피 심리가 강해 거래가격 전월대비 강보합"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 170597 154327\n`24.5 85774 82391\n`25.5 68298 58131\n전체 `25.5 135655 108163",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "12d963f1-578e-44ea-a822-210c65f9a1a7",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 39,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "99523700-ff4e-4aaa-b5ce-6a7206ad9be1",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>170,597</td><td>154,327</td></tr><tr><td>`24.5</td><td>85,774</td><td>82,391</td></tr><tr><td>`25.5</td><td>68,298</td><td>58,131</td></tr><tr><td>전체</td><td>`25.5</td><td>135,655</td><td>108,163</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 42123 55733\n`24.5 16215 21809\n`25.5 15470 19752\n전체 `25.5 16728 22130",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "95498825-a406-456f-9a0a-dc2065a89154",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 52,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9f256b2e-cc27-4c86-ae57-3dd27aff9972",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>42,123</td><td>55,733</td></tr><tr><td>`24.5</td><td>16,215</td><td>21,809</td></tr><tr><td>`25.5</td><td>15,470</td><td>19,752</td></tr><tr><td>전체</td><td>`25.5</td><td>16,728</td><td>22,130</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 수입산 대두 재고량 충족 및 식용 소비 비수기 등 예상되어 거래가격 보합권 내 등락 전망\n\n◦ 금월 거래가격은 $579/톤 수준으로, 전월 가격인 $575/톤 대비 강보합\n\n◦ '25. 5월 까지 전체 수입량 은 133,142톤 이며, 중국산 수입량 은 4,162톤 으로 전체 수입량의 3.1% 차지\n\n◦ 미국 바이오연료 수요 증가 기대감으로 거래가격 전월 대비 강보합\n\n◦ 중동 전쟁 휴전 및 파종면적 증가 소식으로 거래가격 약보합 추세 전망\n\n◦ 금월 거래가격은 $388/톤 수준으로, 전월 가격인 $378/톤 대비 강보합\n\n◦ '25. 5월 까지 전체 수입량 은 133,142톤 이며, 미국산 수입량 은 112,650톤 으로 전체 수입량의 84.6% 차지",
+    "name": "◦ 수입산 대두 재고량 충족 및 식용 소비 비수기 등 예상되어 거래가격 보합권 내 등락 전망",
+    "meta_data": {
+      "chunk_id": "3e25f45f-c40e-42c0-aa63-545f755733ba",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3e25f45f-c40e-42c0-aa63-545f755733ba",
+        "da61bfc0-6c29-4fca-b76e-13ad6f86ac83",
+        "a2ab3842-abcf-4ca7-8fbf-4cd38d52d81f",
+        "1c181660-a0ca-4b25-9910-f90198a8a341",
+        "681a8947-0590-4352-9b7a-b966ff600832",
+        "8e01d339-6afe-4303-ad4d-774168f827fe",
+        "81f677c9-f091-4bfc-b3a5-1b4b63ae762d"
+      ],
+      "chunked_count": 7,
+      "index": 69,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 368,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 수입산 대두 재고량 충족 및 식용 소비 비수기 등 예상되어 거래가격 보합권 내 등락 전망"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 10908 11044\n`24.5 3491 3671\n`25.5 4162 3757\n전체 `25.5 133142 100265",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "a9de5fdb-4eb1-4992-807a-bddb7929e495",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 84,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e99729d6-009d-427e-9ad9-b5ec54fb63d6",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>10,908</td><td>11,044</td></tr><tr><td>`24.5</td><td>3,491</td><td>3,671</td></tr><tr><td>`25.5</td><td>4,162</td><td>3,757</td></tr><tr><td>전체</td><td>`25.5</td><td>133,142</td><td>100,265</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n미국 `24.12 205129 165115\n`24.5 96372 79485\n`25.5 112650 83644\n전체 `25.5 133142 100265",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "178de13e-87cf-4dbf-a262-25b9cb561045",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 92,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5c38e504-03ba-4911-88cd-d99c7e9993c5",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">미국</td><td>`24.12</td><td>205,129</td><td>165,115</td></tr><tr><td>`24.5</td><td>96,372</td><td>79,485</td></tr><tr><td>`25.5</td><td>112,650</td><td>83,644</td></tr><tr><td>전체</td><td>`25.5</td><td>133,142</td><td>100,265</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 높은 가격으로 인해 수요 부진하여 거래가격 전월대비 약보합\n\n◦ 성수기 도래하나, 높은 가격이 수요를 제한하여 거래가격 보합권 내 등락 전망\n\n◦ 금월 거래가격은 $1,351~1,379/톤 수준으로, 전월 가격인 $1,403~1,431/톤 대비 약보합\n\n◦ '25. 5월 까지 전체 수입량 은 5,142톤 이며, 중국산 수입량 은 128톤 으로 전체 수입량의 2.5% 차지\n\n◦ 수급 안정하나, 환율 변동 영향으로 거래가격 전월대비 강보합\n\n◦ 농가 출하 기피 심리가 강하고 수입산 물량 충분하여 거래가격 보합 추세 전망\n\n◦ 금월 거래가격은 $446~474/톤 수준으로, 전월 가격인 $444~472/톤 대비 강보합\n\n◦ '25. 5월 까지 전체 수입량 은 1,203톤 이며, 중국산 수입량 은 480톤 으로 전체 수입량의 39.9% 차지",
+    "name": "◦ 높은 가격으로 인해 수요 부진하여 거래가격 전월대비 약보합",
+    "meta_data": {
+      "chunk_id": "e8184165-f971-438b-9f2d-70fe19446e8e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e8184165-f971-438b-9f2d-70fe19446e8e",
+        "1a93d88b-eaaa-4f5d-b83f-f015f3a547fd",
+        "4e9a0b51-6e33-44c1-a8bc-63e686814fc2",
+        "b7d1ab76-4775-4826-98f8-2613bf14476d",
+        "fca3f70f-4253-4ae7-825b-7ef01cabe7a6",
+        "7d968efc-b143-430d-8d0a-c1c272f17e13",
+        "deae2aa9-ffbe-4804-838f-fe422488c34c",
+        "034266af-c033-4954-8fd4-11878403e3f7"
+      ],
+      "chunked_count": 8,
+      "index": 105,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 405,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 높은 가격으로 인해 수요 부진하여 거래가격 전월대비 약보합"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n중국 `24.12 3509 6317\n`24.5 130 270\n`25.5 128 266\n전체 `25.5 5142 11277",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "9eab8637-74ab-4404-a951-b41025f66694",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 123,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "87bbf26a-1b96-4392-ac30-06dd36d907f9",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>3,509</td><td>6,317</td></tr><tr><td>`24.5</td><td>130</td><td>270</td></tr><tr><td>`25.5</td><td>128</td><td>266</td></tr><tr><td>전체</td><td>`25.5</td><td>5,142</td><td>11,277</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n중국 `24.12 820 546\n`24.5 660 425\n`25.5 480 271\n전체 `25.5 1203 1164",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "f6ecbc9c-4111-40f9-9af8-6faee7efa770",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 130,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "210f3c93-ec68-4df0-8d45-b32d357dd793",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>820</td><td>546</td></tr><tr><td>`24.5</td><td>660</td><td>425</td></tr><tr><td>`25.5</td><td>480</td><td>271</td></tr><tr><td>전체</td><td>`25.5</td><td>1,203</td><td>1,164</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 수급 안정하나, 환율 변동 영향으로 거래가격 전월대비 강보합\n\n◦ 양질품 물량 감소 예상됨에 따라 거래가격 강보합 추세 전망\n\n◦ 금월 거래가격은 $891~906/톤 수준으로, 전월 가격인 $888~902/톤 대비 강보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 11,670톤 이며, 중국산 수입량 은 7,994톤으로 전체 수입량의 68.5% 차지\n\n◦ 거래량 적으므로 산지 가격 변동 없으나 환율 영향으로 거래가격 전월대비 강보합\n\n◦ 외식 소비 침체에 따라 수요 감소하여 거래가격 보합 추세 전망\n\n◦ 금월 거래가격은 $1,254~1,532/톤 수준으로, 전월 가격인 $1,250~1,528/톤 대비 강보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 1,915톤 이며, 중국산 수입량 은 1,890톤으로 전체 수입량의 98.7% 차지",
+    "name": "◦ 수급 안정하나, 환율 변동 영향으로 거래가격 전월대비 강보합",
+    "meta_data": {
+      "chunk_id": "7714c94b-6025-4f80-9b46-6573246be869",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7714c94b-6025-4f80-9b46-6573246be869",
+        "8abd0e4f-c292-4419-bab6-22da049bc0cb",
+        "3f183552-2acd-4d66-aa0e-d5277515dd94",
+        "753d3b18-0246-480c-a66b-7e2314440320",
+        "e5a662db-bc1e-4655-811c-ccc9fe0576f1",
+        "fc2dd3bd-5e00-4ebd-93a3-44166b2189f1",
+        "935e124d-faaa-4db3-90f8-d00e3c492367",
+        "314c5a51-8632-4520-adaf-195fcb12c12b"
+      ],
+      "chunked_count": 8,
+      "index": 142,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 408,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 수급 안정하나, 환율 변동 영향으로 거래가격 전월대비 강보합"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n중국 `24.12 20751 23572\n`24.5 7139 8413\n`25.5 7994 9000\n전체 `25.5 11670 13590",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "800335d9-eedd-4985-b4d8-f01ae96b4605",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 160,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "84b3edd9-0b8c-4e72-9700-69f93da5c7d2",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>20,751</td><td>23,572</td></tr><tr><td>`24.5</td><td>7,139</td><td>8,413</td></tr><tr><td>`25.5</td><td>7,994</td><td>9,000</td></tr><tr><td>전체</td><td>`25.5</td><td>11,670</td><td>13,590</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 5135 15973\n`24.5 1526 4609\n`25.5 1890 5148\n전체 `25.5 1915 5411",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "3caf3748-2bd4-4151-87d8-5f42e9d93ec7",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 185,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9108fae2-992d-40f7-a495-3d75265a0802",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>5,135</td><td>15,973</td></tr><tr><td>`24.5</td><td>1,526</td><td>4,609</td></tr><tr><td>`25.5</td><td>1,890</td><td>5,148</td></tr><tr><td>전체</td><td>`25.5</td><td>1,915</td><td>5,411</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ '25년 햇품 생산량 증가하고, 입고량 또한 증가하여 거래가격 보합권 내 등락 전망\n\n◦ 금월 거래가격은 $738~794/톤 수준으로, 전월 가격인 $722~750/톤 대비 강보합\n\n◦ '25. 5월 까지 전체 수입량 은 219톤 이며, 전체 수입량 을 중국산이 차지\n\n◦ 시장 공급물량 증가 및 해외수요 감소하여 거래가격 전월대비 하락\n\n◦ 7월 감숙성 햇양파 수확 예정으로, 물량 증가 지속 예상되어 거래가격 약보합 추세 전망\n\n◦ 금월 거래가격은 $39~56/톤 수준으로, 전월 가격인 $72~82/톤 대비 하락\n\n◦ ' 25. 5월 까지 전체 수입량 은 63,396톤 이며, 중국산 수입량 은 62,639톤으로 전체 수입량의 98.8% 차지",
+    "name": "◦ '25년 햇품 생산량 증가하고, 입고량 또한 증가하여 거래가격 보합권 내 등락 전망",
+    "meta_data": {
+      "chunk_id": "3b185178-e97c-4260-b3a2-a48a7b2e07d6",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3b185178-e97c-4260-b3a2-a48a7b2e07d6",
+        "9d12bcf5-c493-438e-a333-873afae0b716",
+        "34d67815-53e4-4225-abb8-36313b3ea988",
+        "e06aa297-6437-46b5-aa19-dadc270320c6",
+        "e84dd57f-246d-4171-b354-a1605fedc8b1",
+        "45610f28-5f76-4231-b409-115e2313d694",
+        "b5d2e030-ae98-4146-9c7f-cce5d577828c"
+      ],
+      "chunked_count": 7,
+      "index": 218,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 370,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ '25년 햇품 생산량 증가하고, 입고량 또한 증가하여 거래가격 보합권 내 등락 전망"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n`24.12 463 987\n중국 `24.5 170 392\n`25.5 219 437\n전체 `25.5 219 437",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "03a48649-2a2c-4d7b-bccc-8dbb907da8d8",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 234,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5891ff2f-b553-48ce-bddc-5897da86eff3",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td></td><td>`24.12</td><td>463</td><td>987</td></tr><tr><td>중국</td><td>`24.5</td><td>170</td><td>392</td></tr><tr><td></td><td>`25.5</td><td>219</td><td>437</td></tr><tr><td>전체</td><td>`25.5</td><td>219</td><td>437</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n※ hs-code : 0703.20-1000, 0703.20-9000",
+    "name": "※ hs-code : 0703.20-1000, 0703.20-9000",
+    "meta_data": {
+      "chunk_id": "94ecb37a-81f6-4168-a595-943d5b36f545",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "94ecb37a-81f6-4168-a595-943d5b36f545"
+      ],
+      "chunked_count": 1,
+      "index": 237,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 21,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "※ hs-code : 0703.20-1000, 0703.20-9000"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 85169 28145\n`24.5 34362 13723\n`25.5 62639 19893\n전체 `25.5 63396 20175",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "51bcf7ae-f2ca-447d-80ab-b7e9de2d4533",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 240,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5a8b72ed-a03f-4445-b60c-9a9394b76749",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>85,169</td><td>28,145</td></tr><tr><td>`24.5</td><td>34,362</td><td>13,723</td></tr><tr><td>`25.5</td><td>62,639</td><td>19,893</td></tr><tr><td>전체</td><td>`25.5</td><td>63,396</td><td>20,175</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n※ hs-code 0703.10-1090, 0703.10-1010",
+    "name": "※ hs-code 0703.10-1090, 0703.10-1010",
+    "meta_data": {
+      "chunk_id": "8a16a6af-752a-4cab-94b9-f3db1d5196ac",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8a16a6af-752a-4cab-94b9-f3db1d5196ac"
+      ],
+      "chunked_count": 1,
+      "index": 262,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "※ hs-code 0703.10-1090, 0703.10-1010"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 해외 수요 증가 및 농가들 높은 판매가격을 고수하여 거래가격 전월대비 상승\n\n◦ 수요 증가 지속되고, 햇품 공급 전 재고 출하 시작되어 거래가격 강보합 추세 전망\n\n◦ 금월 거래가격은 $724~836/톤 수준으로, 전월 가격인 $667~694/톤 대비 상승\n\n◦ '25. 5월 까지 전체 수입량 은 3,269톤 이며, 전체 수입량 을 중국산이 차지\n\n◦ 시장 거래물량 많지 않으나, 환율 변동 영향으로 거래 가격 전월대비 강보합\n\n◦ 금월 거래가격은 $2,006~2,033/톤 수준으로, 전월 가격인 $1,997~2,025/톤 대비 강보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 30,245톤 이며, 중국산 수입량 은 14,753톤으로 전체 수입량의 48.8% 차지",
+    "name": "◦ 해외 수요 증가 및 농가들 높은 판매가격을 고수하여 거래가격 전월대비 상승",
+    "meta_data": {
+      "chunk_id": "a6e5b5a0-53ae-4813-9ec7-1ffc83274bf9",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a6e5b5a0-53ae-4813-9ec7-1ffc83274bf9",
+        "fb2d8833-426d-48e2-891e-4022b9e28494",
+        "cfec5681-19ef-49b3-af2b-bfe46d67d598",
+        "127aa8a9-4d66-4a58-935c-855e03944314",
+        "9eb81215-e27b-4d8d-a386-7737b88ee0aa",
+        "a3c1ffd9-9256-475d-bdee-7194cf681bb3",
+        "cd6c68e6-441d-4e82-9f4d-43d318af3325"
+      ],
+      "chunked_count": 7,
+      "index": 270,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 367,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 해외 수요 증가 및 농가들 높은 판매가격을 고수하여 거래가격 전월대비 상승"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위:톤,천불)\n\n구 분 수입물량 수입금액\n중국 `24.12 4417 5606\n`24.5 3564 4540\n`25.5 3269 4061\n전체 `25.5 3269 4061",
+    "name": "(단위:톤,천불)",
+    "meta_data": {
+      "chunk_id": "6d5a641b-94e9-426e-8291-519379393857",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 288,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위:톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "6900f08c-e29d-42d5-a662-ff8e82d602a3",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>4,417</td><td>5,606</td></tr><tr><td>`24.5</td><td>3,564</td><td>4,540</td></tr><tr><td>`25.5</td><td>3,269</td><td>4,061</td></tr><tr><td>전체</td><td>`25.5</td><td>3,269</td><td>4,061</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n※ hs-code : 0910.11-1000, 0910.11-9000",
+    "name": "※ hs-code : 0910.11-1000, 0910.11-9000",
+    "meta_data": {
+      "chunk_id": "3c4c25b4-313b-4c7f-b544-d5730f4f4c4e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3c4c25b4-313b-4c7f-b544-d5730f4f4c4e"
+      ],
+      "chunked_count": 1,
+      "index": 291,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 21,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "※ hs-code : 0910.11-1000, 0910.11-9000"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n중국 `24.12 27709 69329\n`24.5 9252 24094\n`25.5 14753 35029\n전체 `25.5 30245 61762",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "681f42bf-057d-454b-b11c-fc89ccb48d96",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 296,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e6467d68-b4fa-4c9f-a550-7836d0f397ee",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>27,709</td><td>69,329</td></tr><tr><td>`24.5</td><td>9,252</td><td>24,094</td></tr><tr><td>`25.5</td><td>14,753</td><td>35,029</td></tr><tr><td>전체</td><td>`25.5</td><td>30,245</td><td>61,762</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n◦ 해외 수요 증가하겠으나, 햇곡 출하량 또한 증가 예상 되므로 거래가격 약보합 추세 전망\n\n◦ 금월 거래가격은 $930~1,198/톤 수준으로, 전월 가격인 $939~1,206/톤 대비 약보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 30,245톤 이며, 인도산 수입량 은 4,648톤 으로 전체 수입량의 15.4% 차지\n\n◦ 기온 상승으로 보관료 증가하였으며, 가공업체 재고 보충 수요 증가하여 거래가격전월대비강보합\n\n◦ 재고물량 감소 및 가공업체 수요 지속될 것으로 예상되어 거래가격 강보합 추세 전망\n\n◦ 금월 거래가격은 $1,351/톤 수준으로, 전월 가격인 $1,291/톤 대비 강보합\n\n◦ ' 25. 5월 까지 전체 수입량 은 440톤 이며, 중국산 수입량 은 375톤 으로 전체 수입량의 85.2% 차지",
+    "name": "◦ 해외 수요 증가하겠으나, 햇곡 출하량 또한 증가 예상 되므로 거래가격 약보합 추세 전망",
+    "meta_data": {
+      "chunk_id": "9bd59c2a-b7c7-4baa-aaff-9a6fe907b36b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9bd59c2a-b7c7-4baa-aaff-9a6fe907b36b",
+        "42c32d80-103c-4fab-a9bb-6c038dfb3247",
+        "26785549-f919-4186-8dda-add6679c944f",
+        "62dc50ea-a864-4822-8426-54bf465fbd44",
+        "b89066f0-b537-42e0-8de8-80a4a65df9f4",
+        "e5921b88-4f83-48dd-b05e-280c00c1fdbd",
+        "6e199588-5709-48b9-8708-d5597d1a577d"
+      ],
+      "chunked_count": 7,
+      "index": 309,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 401,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "◦ 해외 수요 증가하겠으나, 햇곡 출하량 또한 증가 예상 되므로 거래가격 약보합 추세 전망"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# (단위: 톤,천불)\n\n구 분 수입물량 수입금액\n`24.12 21303 40668\n인도 `24.5 4434 9366\n`25.5 4648 7891\n전체 `25.5 30245 61762",
+    "name": "(단위: 톤,천불)",
+    "meta_data": {
+      "chunk_id": "13428873-bae3-4deb-99fb-67b652264bcd",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 325,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# (단위: 톤,천불)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "dc7bcc14-42bc-4de0-bd37-f480fcb2a419",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td></td><td>`24.12</td><td>21,303</td><td>40,668</td></tr><tr><td>인도</td><td>`24.5</td><td>4,434</td><td>9,366</td></tr><tr><td></td><td>`25.5</td><td>4,648</td><td>7,891</td></tr><tr><td>전체</td><td>`25.5</td><td>30,245</td><td>61,762</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `24.12 934 1628\n`24.5 306 534\n`25.5 375 628\n전체 `25.5 440 760",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "bf0d16e9-338a-421f-bda6-6f46d136f57d",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 335,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "60c5eac2-3b37-4298-8c08-9d35bc321493",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`24.12</td><td>934</td><td>1,628</td></tr><tr><td>`24.5</td><td>306</td><td>534</td></tr><tr><td>`25.5</td><td>375</td><td>628</td></tr><tr><td>전체</td><td>`25.5</td><td>440</td><td>760</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n※ hs-code 1202.30-2000, 1202.42-0000",
+    "name": "※ hs-code 1202.30-2000, 1202.42-0000",
+    "meta_data": {
+      "chunk_id": "20732474-bae3-4a06-bd0a-12111d664517",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "20732474-bae3-4a06-bd0a-12111d664517"
+      ],
+      "chunked_count": 1,
+      "index": 342,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "※ hs-code 1202.30-2000, 1202.42-0000"
+    }
+  },
+  {
+    "page_content": "(게시용) 2025년 6월 농산물 해외수입정보\n\n※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급전략처 061-931-1086으로 연락주시기 바랍니다.",
+    "name": "※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급전략처 061-931-1086으로 연락주시기 바랍니다.",
+    "meta_data": {
+      "chunk_id": "79bacda4-6836-4fe9-bc07-4e0ced912315",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "79bacda4-6836-4fe9-bc07-4e0ced912315"
+      ],
+      "chunked_count": 1,
+      "index": 346,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 163,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용) 2025년 6월 농산물 해외수입정보",
+      "original_page_content": "※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급전략처 061-931-1086으로 연락주시기 바랍니다."
+    }
+  }
+]

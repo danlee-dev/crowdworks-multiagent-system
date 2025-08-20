@@ -1,0 +1,641 @@
+{
+  "documents": [
+    {
+      "page_content": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/result/images/06ed8241-f04a-46b8-a422-99e994842842.png",
+      "meta_data": {
+        "chunk_id": "06ed8241-f04a-46b8-a422-99e994842842",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 0,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null,
+        "next_content": "f260ddfd-0bf5-4e35-9782-3be0598aaa5a"
+      }
+    },
+    {
+      "page_content": "# 07",
+      "meta_data": {
+        "chunk_id": "f260ddfd-0bf5-4e35-9782-3be0598aaa5a",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1. 요약",
+      "meta_data": {
+        "chunk_id": "83251f93-f512-4813-8aa7-b0c00a78b05e",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1.7 조사 보고서 요약",
+      "meta_data": {
+        "chunk_id": "b330eeba-c371-4b44-8630-7dd2f43e7a13",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "07",
+      "meta_data": {
+        "chunk_id": "824a1d26-640a-44db-9380-2f143ebed3a4",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1. 요약",
+      "meta_data": {
+        "chunk_id": "4dd12daf-e10e-4dfb-b466-9b28c74d2de6",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024 말레이시아",
+      "meta_data": {
+        "chunk_id": "96bc42bd-a4ee-41d7-a981-c701e61a51e3",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 말레이시야 딸기 시장 규모",
+      "meta_data": {
+        "chunk_id": "e2415974-53aa-4375-af4b-634b66c5251d",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# '지국생산량 1,000여 톤규모 전체 생산량의 99.89가 카메론하이랜드에서재배'",
+      "meta_data": {
+        "chunk_id": "5eeda343-9ca0-4178-91fb-4eacb88d3a8f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "말레이시아 농업부(DOA Department of Agriculture) 통계 자료에 따르면 2022년 기준 말레이시아 딸기 수확량은 산랑의 99.89v 차지하여 재배면적은 2022년 기준 34.3ha로 2019년 27.2ha에l 비하여 증가하는 주세이나 2022 년 기준 재배 면적당(Tha) 딸기 연간 생산랑은 25톤으로 2019년도 기준 재배 면적당(Tha) 딸기 연간 생산량 28톤 대",
+      "meta_data": {
+        "chunk_id": "e5a68d67-d71e-4b95-8a76-e5a7776c73ef",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 9,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>표1-5 2019년 2022년 말레이시아 딸기 생산 규모</caption><tbody><tr><th>재배지</th><th>2019년</th><th>2020년</th><th>2021년</th><th>2022년</th></tr><tr><td>생산량(톤)</td><td>767.1</td><td>945.5</td><td>1,104.5</td><td>882.7</td></tr><tr><td>재배면적(ha)</td><td>27.2</td><td>34.3</td><td>40.7</td><td>34.3</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "31e323fd-31f7-40d9-9711-d7da4ca19ba5",
+        "page_number": [
+          2
+        ],
+        "item_label": "table",
+        "index": 10,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "5eeda343-9ca0-4178-91fb-4eacb88d3a8f",
+        "prev_content": "e5a68d67-d71e-4b95-8a76-e5a7776c73ef",
+        "next_content": "01b3211a-eed9-45c4-8066-2adf517c8353"
+      }
+    },
+    {
+      "page_content": "출처 : DOA Department of Agriculture",
+      "meta_data": {
+        "chunk_id": "01b3211a-eed9-45c4-8066-2adf517c8353",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 11,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. 말레이시아 딸기 수입동향",
+      "meta_data": {
+        "chunk_id": "b9a475a3-9624-4465-8f25-f49fd889af79",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# '2023년 딸기 수입량 2,938톤으로 2019년대비 559 증가'",
+      "meta_data": {
+        "chunk_id": "22ad56f8-04e0-422d-96f1-35e72ac7728e",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "최근 5년간 딸기 수입량 주이름 분석해 보면 2079년 1,897튼에서 2023년 2,938톤으로 2019년 대비 약 559가 증 가하여음 2023년 기준 총 19개 국가에서 말레이시아로 딸기름 수출하엿으다 가장 수입량이 많은 딸기는 이집트산으 (359톤)틀 차지함.",
+      "meta_data": {
+        "chunk_id": "6db24649-c42e-425f-9b6e-1fe3c66a0970",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/result/images/0d6e2573-3098-45fa-ab05-8b4b336097bf.png",
+      "meta_data": {
+        "chunk_id": "0d6e2573-3098-45fa-ab05-8b4b336097bf",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 15,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "22ad56f8-04e0-422d-96f1-35e72ac7728e",
+        "prev_content": "6db24649-c42e-425f-9b6e-1fe3c66a0970",
+        "next_content": "84afa3b1-6a35-44cb-8910-cce7e9f4cab4"
+      }
+    },
+    {
+      "page_content": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/result/images/37ac2308-0593-420e-aab1-e71928001e62.png",
+      "meta_data": {
+        "chunk_id": "37ac2308-0593-420e-aab1-e71928001e62",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 16,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "22ad56f8-04e0-422d-96f1-35e72ac7728e",
+        "prev_content": "6db24649-c42e-425f-9b6e-1fe3c66a0970",
+        "next_content": "84afa3b1-6a35-44cb-8910-cce7e9f4cab4"
+      }
+    },
+    {
+      "page_content": "출서 말레이시야 통계청",
+      "meta_data": {
+        "chunk_id": "84afa3b1-6a35-44cb-8910-cce7e9f4cab4",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 17,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1. 요약",
+      "meta_data": {
+        "chunk_id": "47743862-e5b7-4e6e-aea8-f05130122d83",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024 말레이시아",
+      "meta_data": {
+        "chunk_id": "36f3bfec-ee68-435d-bf5e-655e80a7af1d",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 19,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 3. 말레이시아 딸기 판매 현황",
+      "meta_data": {
+        "chunk_id": "dd4d7d79-72b9-4929-9eaa-7bdf1930bc42",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 20,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# '한국딸기는 중 고소득증올 대상으로하는 하이퍼마켓에서 주로유통'",
+      "meta_data": {
+        "chunk_id": "00fbff0e-b76f-4d1c-963a-250761d128d4",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2023년 12월부터 2024년 4월까지 현지 하이퍼마켓올 방문하여 조사결과 판매되는 딸기의 포장규격은 대부분 250g 330g 단위의 플라스틱 팩에 소포장으로 판매되고 있음 소매 판매 가격은 하이퍼마켓별 중량별 원산지별 판매 시기별 등에 따라 다양함 한국산 딸기의 경우도 같은 포장 규격임에도 불구하고 프로모선 및 판매 소매점에 따라 차이가 나고있음 일본산 딸기의 경우는 한국 딸기의 2~3배 높은 가격으로 판매가 되고 있으려 호주 미국산의 경우는 한국 딸기와 비슷하거나 저럼하게 판매되고 있음 그 외 이집트 딸기 말레이시야산 딸기 등은 저럼한 가격에 판매.",
+      "meta_data": {
+        "chunk_id": "c38eff6b-5c49-4d98-8020-eefbc0c127b9",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 표 3-1 하이퍼마켓별 딸기 원산지 판매",
+      "meta_data": {
+        "chunk_id": "1b5d8a68-71b8-4554-8adf-39c3ddcb21f7",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 23,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>구분</th><th>한국</th><th>말레이시야</th><th>알본</th><th>미국</th><th>이집트</th><th>호주</th></tr><tr><td>ISETAN</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>JAYAGROCER</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>VILLAGE GROCER</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>AEON</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>BIG</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>GIANT</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>LOTUS&#x27;S</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "e364f775-8cb4-45b6-892c-5acb037716a1",
+        "page_number": [
+          3
+        ],
+        "item_label": "table",
+        "index": 24,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "1b5d8a68-71b8-4554-8adf-39c3ddcb21f7",
+        "prev_content": "1b5d8a68-71b8-4554-8adf-39c3ddcb21f7",
+        "next_content": "2b32f394-1597-44d3-9bfc-a3d7f7276624"
+      }
+    },
+    {
+      "page_content": "# 4. 소비자 설문조사",
+      "meta_data": {
+        "chunk_id": "2b32f394-1597-44d3-9bfc-a3d7f7276624",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 25,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# '딸기 구매에 대한 선호도는 20~30대의연령송이 높으며 월평균 1~2회 딸기 구매'",
+      "meta_data": {
+        "chunk_id": "bfed69e9-72b8-477d-b543-2fef649c843a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 26,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>조사방법</th><th>오프라인</th></tr><tr><td>조사지역</td><td>Jaya Grocer 앞 One Utama Shopping Mall</td></tr><tr><td></td><td>성별 남성 여성</td></tr><tr><td>조사대상</td><td>연령대 1C때-60대 이상</td></tr><tr><td></td><td>선정이유 신선 딸기 소비가 담은 것으로 예상되논 소비 지역올 선정</td></tr><tr><td>표본구성</td><td>총 100 명</td></tr><tr><td>조사기간</td><td>2024.2.24-2.25</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "04cb087f-e909-4830-9232-97dee029d4f5",
+        "page_number": [
+          3
+        ],
+        "item_label": "table",
+        "index": 27,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "bfed69e9-72b8-477d-b543-2fef649c843a",
+        "prev_content": "bfed69e9-72b8-477d-b543-2fef649c843a",
+        "next_content": "3d103669-a6f9-4c0e-8eb5-e4ef7fb227bf"
+      }
+    },
+    {
+      "page_content": "# Q 어느 연령대가 딸기름 선호함까?",
+      "meta_data": {
+        "chunk_id": "3d103669-a6f9-4c0e-8eb5-e4ef7fb227bf",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 28,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Q 한 달에 딸기흘 몇 번 살까?",
+      "meta_data": {
+        "chunk_id": "e5c30d98-bb8f-4378-8637-f9cc344d983d",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 29,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "A 딸기 구매에 대한 선호도는 20-30대에서 높음",
+      "meta_data": {
+        "chunk_id": "fe0e4e6d-6606-4a10-9a45-5ee9fbc725c5",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 30,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/result/images/72a60f1e-f6d4-451c-a148-144ba9f539ee.png",
+      "meta_data": {
+        "chunk_id": "72a60f1e-f6d4-451c-a148-144ba9f539ee",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 31,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "e5c30d98-bb8f-4378-8637-f9cc344d983d",
+        "prev_content": "fe0e4e6d-6606-4a10-9a45-5ee9fbc725c5",
+        "next_content": "023f0994-3f05-43c5-9371-8b6fb6e29662"
+      }
+    },
+    {
+      "page_content": "A 응답자의 56% 이상이 월 평균 7~2회 딸기름 구매 한다고용답함",
+      "meta_data": {
+        "chunk_id": "023f0994-3f05-43c5-9371-8b6fb6e29662",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 32,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/result/images/ca316d5d-d59c-4751-88ca-43f0bed291f7.png",
+      "meta_data": {
+        "chunk_id": "ca316d5d-d59c-4751-88ca-43f0bed291f7",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 33,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "e5c30d98-bb8f-4378-8637-f9cc344d983d",
+        "prev_content": "023f0994-3f05-43c5-9371-8b6fb6e29662",
+        "next_content": "2e9329da-d212-42ed-8d6a-cd43c359ccab"
+      }
+    },
+    {
+      "page_content": "2",
+      "meta_data": {
+        "chunk_id": "2e9329da-d212-42ed-8d6a-cd43c359ccab",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 34,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1. 요약",
+      "meta_data": {
+        "chunk_id": "2d29d041-bada-4541-9be8-f3a6d6f8926f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024 말레이시아",
+      "meta_data": {
+        "chunk_id": "bb1a138d-39a2-42ef-beeb-576e617583c2",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 36,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 5. 통관 및 수입 절차",
+      "meta_data": {
+        "chunk_id": "879e2b2f-f1cb-47e4-9ead-c84f3fc35f5b",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 37,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# '한-아세안 FTA 적용시 딸기 수입세 0%'",
+      "meta_data": {
+        "chunk_id": "85ed9f01-1622-4bd1-ab69-da86c4424810",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "정부는 사치품 및 국내산업올 보호하기 위한 품목 이외 물품에 대한 수입 관세름 지속해서 인하-철-하고 있음",
+      "meta_data": {
+        "chunk_id": "b7d41455-b729-41eb-9742-31016002de6a",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 39,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <말레이시이에서 신선 딸기(HS 0810100000) 수입 시 부과되는 관세 및 소비세",
+      "meta_data": {
+        "chunk_id": "2a1e4d75-0c7c-4ce1-82bf-6738a5a0a630",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 40,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "관세 - 0%(한-아세안 FTA 현정세율 적용 시) 596(일반수입 시)",
+      "meta_data": {
+        "chunk_id": "0a23fabf-50aa-4be4-8dd0-dc28c70b8edd",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 41,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 6. 한국산 딸기 수출 확대 방안",
+      "meta_data": {
+        "chunk_id": "01de4650-9af0-4b3a-bfc5-4c2994fce5e9",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 42,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>Phase 1 시장 여건들 고려한 상품성 강화 전락 수립</th><th>Phase 2 소비 특성들 고려한 상업성 강화 전락 추진</th><th>Phase 3 시장진출 미래 로드맵 대비 지속가능성 강화 전락</th><th>수출확대 지속 추진</th></tr><tr><td>생산 및 공급 여건 고려</td><td>차별화 전락 추진</td><td>효율성 생산기반 조성</td><td></td></tr><tr><td>숙도물 개선</td><td>판매 공급처 다양화 판매망 다양화 부분은 기존 소비 계층 보다 젊은 소비자 중저소득증올 타짓</td><td>스파트기술 + 여름말기 활용 최적의 품종 탑재와 함께 적시적 판매</td><td>R8D 투자 확대 (육성 품종수 증가)</td></tr><tr><td>안전생산 기술 신선도 유지 강화름 위한 포장재 개선</td><td>포장 차별화 명절이나 특정 기간에 소비랑이 많이 축진월 수 있으며 이러한 선물용 모양 포장재, 포장 방식 등 판매 전락</td><td>CA 건테이너 활용방안 건테이너률 활용하여 많은 물량울 소화 하고 수출단가 면에서 경쟁력 향상 Al, 로봇 기술 적용 재배 도입 노동력올 줄이논 데 핵심 역할을 하고 있으며 한국에서는 각 지방자치단세와</td><td></td></tr><tr><td>정부지원 &#x27;대량 증식 기술 시범 사업&#x27; , &#x27;선도 유지제&#x27; , 안전생산 기술 시범 사업 등 적극적으로 활용</td><td>프로모션 차별화 말레이시아는 다인종, 다문화로 인종 별, 지역별, 소득별 정보수집 및 시장 진출의 전락의 차별화</td><td>협력올 확대</td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "aaeb1743-4299-475f-92c5-02dd7a99b551",
+        "page_number": [
+          4
+        ],
+        "item_label": "table",
+        "index": 43,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "01de4650-9af0-4b3a-bfc5-4c2994fce5e9",
+        "prev_content": "01de4650-9af0-4b3a-bfc5-4c2994fce5e9",
+        "next_content": "5458f9ce-0f03-4ae6-8929-9c5aee55f878"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>Phase 1 시장 여건들 고려한 상품성 강화 전락</th><th>Phase 2 소비 특성들 고려한 상업성 강화 전락 추진</th><th>Phase 3 시장진출 미래 로드맵 대비 지속가능성 강화 전락</th><th>수출확대 지속 추진</th></tr><tr><td>수립</td><td>차별화 전락 추진</td><td></td><td></td></tr><tr><td>생산 및 공급 여건 고려</td><td></td><td>효율성 생산기반 조성</td><td></td></tr><tr><td>숙도물 개선 더 맛있게 잘 의은 상태로 출하</td><td>판매 공급처 다양화 판매망 다양화 부분은 기존 소비 계층 보다 젊은 소비자 중저소득증올 타짓</td><td>스파트기술 + 여름말기 활용 최적의 품종 탑재와 함께 적시적 판매 수확시기름 고려</td><td>R8D 투자 확대 (육성 품종수 증가)</td></tr><tr><td>안전생산 기술 신선도 유지 강화름 위한 포장재 개선 정부지원 &#x27;대량 증식 기술 시범 사업&#x27; , &#x27;선도</td><td>포장 차별화 명절이나 특정 기간에 소비랑이 많이 축진월 수 있으며 이러한 선물용 모양 포장재, 포장 방식 등 판매 전락 프로모션 차별화 말레이시아는 다인종, 다문화로 인종 별, 지역별, 소득별 정보수집 및 시장</td><td>CA 건테이너 활용방안 건테이너률 활용하여 많은 물량울 소화 하고 수출단가 면에서 경쟁력 향상 Al, 로봇 기술 적용 재배 도입 노동력올 줄이논 데 핵심 역할을 하고 있으며 한국에서는 각 지방자치단세와 협력올 확대</td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "a2458eda-27a0-4f7d-916e-8d7e40293b61",
+        "page_number": [
+          4
+        ],
+        "item_label": "table",
+        "index": 44,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": "01de4650-9af0-4b3a-bfc5-4c2994fce5e9",
+        "prev_content": "01de4650-9af0-4b3a-bfc5-4c2994fce5e9",
+        "next_content": "5458f9ce-0f03-4ae6-8929-9c5aee55f878"
+      }
+    },
+    {
+      "page_content": "최근 5년간 지속 상승한 딸기 수입량과 소비주세는 지속할 전망이며 현재까지 한국 딸기에 대한 중은 이미지와 수출 (288톤)에서 509 상승한 USD 600만 불로 전망해 보고자 함 한국산 딸기의 말레이시아 시장 진출 확대지 위해서는 첫째 시장 여건을 고려한 상품성 강화 전락올 수립하여 숙도움 개선과 포장재 개선 등올 통하여 현지에 한국의 우수한 품위 딸기름 그대로 현지에 공급하여 한국 딸기에 대한 인지도 향상과 정부 지원올 통한 최적의 딸기 공급방안 마련. 둘째 소비특성올 고려한 상업성 강화 전락은 말레이시야 시장 소비 현황 및 현지 조사름 반영하여 소비자 유형별 소비 특성 및 특징올 고려한 딸기 상품의 차별화 전락올 추진하여 판매 공급처 다양화 포장 차별화 프로모선 차별화 등 전 탁 수립. 셋째 미래 로드맵 대비 지속가능성 강화전락은 '4차 산업' '스마트 판'울 활용한 지속 가능한 경쟁력 강화 부 분올 고려하여 수출단가 및 비용 절감 방안올 도출해 스마트기술 및 여름말기 활용 CA 건테이너 활용방안 Al 로봇 기술 적용 재배 도입 등 고렇화와 노동력 부족 높아지논 인건비 농자재나 에너지 비용의 상승 기후변화 등 수출단가",
+      "meta_data": {
+        "chunk_id": "5458f9ce-0f03-4ae6-8929-9c5aee55f878",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 45,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "3",
+      "meta_data": {
+        "chunk_id": "bfe30e25-7237-4e98-929f-05ff8ba331bc",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 07\n# 1. 말레이시야 딸기 시장 규모\n# '지국생산량 1,000여 톤규모 전체 생산량의 99.89가 카메론하이랜드에서재배'\n# 2. 말레이시아 딸기 수입동향\n# '2023년 딸기 수입량 2,938톤으로 2019년대비 559 증가'\n# 3. 말레이시아 딸기 판매 현황\n# '한국딸기는 중 고소득증올 대상으로하는 하이퍼마켓에서 주로유통'\n# 표 3-1 하이퍼마켓별 딸기 원산지 판매\n# 4. 소비자 설문조사\n# '딸기 구매에 대한 선호도는 20~30대의연령송이 높으며 월평균 1~2회 딸기 구매'\n# Q 어느 연령대가 딸기름 선호함까?\n# Q 한 달에 딸기흘 몇 번 살까?\n# 5. 통관 및 수입 절차\n# '한-아세안 FTA 적용시 딸기 수입세 0%'\n# <말레이시이에서 신선 딸기(HS 0810100000) 수입 시 부과되는 관세 및 소비세\n# 6. 한국산 딸기 수출 확대 방안",
+    "document_id": "ce46b61e-8642-55ee-a46e-7566ab0e72a8",
+    "timestamp": "2025-07-17T03:15:21.157036Z",
+    "document_file_path": "/app/output/f832794a-457d-4398-a7ac-b6158ac2e62f/2024년 말레이시아 딸기 이슈조사.pdf",
+    "document_title": "2024년 말레이시아 딸기 이슈조사"
+  }
+}

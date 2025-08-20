@@ -1,0 +1,1232 @@
+{
+  "documents": [
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "0c33e523-fd16-43fe-90f5-1441a10db12e",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "2c0c0bb0-224c-4da5-8ed0-35d4855c9f37",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/5ea58115-7d33-4bea-979a-bd442edfc27c.png",
+      "meta_data": {
+        "chunk_id": "5ea58115-7d33-4bea-979a-bd442edfc27c",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 2,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null,
+        "prev_content": "2c0c0bb0-224c-4da5-8ed0-35d4855c9f37",
+        "next_content": "7f1babab-432d-4038-9fd4-a4150bb343c2"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/4f8ad056-7a13-418b-ae17-046ae7d73c84.png",
+      "meta_data": {
+        "chunk_id": "4f8ad056-7a13-418b-ae17-046ae7d73c84",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 3,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null,
+        "prev_content": "2c0c0bb0-224c-4da5-8ed0-35d4855c9f37",
+        "next_content": "7f1babab-432d-4038-9fd4-a4150bb343c2"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/8735dc8f-1a8d-4c7a-a954-ebc40984ac44.png",
+      "meta_data": {
+        "chunk_id": "8735dc8f-1a8d-4c7a-a954-ebc40984ac44",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 4,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null,
+        "prev_content": "2c0c0bb0-224c-4da5-8ed0-35d4855c9f37",
+        "next_content": "7f1babab-432d-4038-9fd4-a4150bb343c2"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/c40b16fe-5055-4440-b571-bacb637ca7b2.png",
+      "meta_data": {
+        "chunk_id": "c40b16fe-5055-4440-b571-bacb637ca7b2",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 5,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null,
+        "prev_content": "2c0c0bb0-224c-4da5-8ed0-35d4855c9f37",
+        "next_content": "7f1babab-432d-4038-9fd4-a4150bb343c2"
+      }
+    },
+    {
+      "page_content": "# 께 읽는 품산업통계정보시스템 2024년 10월 4주",
+      "meta_data": {
+        "chunk_id": "7f1babab-432d-4038-9fd4-a4150bb343c2",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# {키징의 변화",
+      "meta_data": {
+        "chunk_id": "9f45799d-c467-41e0-b3e9-2690f131c396",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 식품때키지 소재의 변화",
+      "meta_data": {
+        "chunk_id": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/ea70dc9a-a00e-4a96-a61f-ba1f40b0964e.png",
+      "meta_data": {
+        "chunk_id": "ea70dc9a-a00e-4a96-a61f-ba1f40b0964e",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "prev_content": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "next_content": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/9feabbbe-13ce-4d3f-a51a-aaf2493ee73c.png",
+      "meta_data": {
+        "chunk_id": "9feabbbe-13ce-4d3f-a51a-aaf2493ee73c",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 10,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "prev_content": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "next_content": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/442911f8-e02d-42fd-b767-eebb6711889b.png",
+      "meta_data": {
+        "chunk_id": "442911f8-e02d-42fd-b767-eebb6711889b",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 11,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "prev_content": "4a726a63-4d5c-42ef-a44d-088181c37030",
+        "next_content": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5"
+      }
+    },
+    {
+      "page_content": "# 무라벌 PET으로 플라스틱 폐기물 절감",
+      "meta_data": {
+        "chunk_id": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "1551666f-289c-43eb-8090-306756928a22",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "재활용 떼트(recycled PET, rPET) 사용된 PET틀 수거하여 세척, 분쇄, 재가공을 통해 만들어진 것으로 플라스틱 폐기물들 줄이고 자원올 재활용해 환경에 미치는 영향을 최소화하는데 도움올 중",
+      "meta_data": {
+        "chunk_id": "7d42a1f3-e344-413e-a8c6-2f9856ff131a",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2023년 무라벌 상품 판매량은 2079년 대비 8배 증가함",
+      "meta_data": {
+        "chunk_id": "0a64e962-cdde-4070-9eaa-f4c376794108",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "제품들 한시적으로 판매함",
+      "meta_data": {
+        "chunk_id": "b7cfd083-b077-47ad-973d-c40a2b0216eb",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 16,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/88ce4452-cb3f-48cd-bba6-fe1e674f3089.png",
+      "meta_data": {
+        "chunk_id": "88ce4452-cb3f-48cd-bba6-fe1e674f3089",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 17,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "prev_content": "b7cfd083-b077-47ad-973d-c40a2b0216eb",
+        "next_content": "49989212-c358-481a-9f79-61e30f479f0f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/394950cc-799c-4e92-9384-b17d2b6767d4.png",
+      "meta_data": {
+        "chunk_id": "394950cc-799c-4e92-9384-b17d2b6767d4",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 18,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "prev_content": "b7cfd083-b077-47ad-973d-c40a2b0216eb",
+        "next_content": "49989212-c358-481a-9f79-61e30f479f0f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/471fe9ae-a5f8-461e-8a45-be4aabd47796.png",
+      "meta_data": {
+        "chunk_id": "471fe9ae-a5f8-461e-8a45-be4aabd47796",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 19,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "prev_content": "b7cfd083-b077-47ad-973d-c40a2b0216eb",
+        "next_content": "49989212-c358-481a-9f79-61e30f479f0f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/728c2cbd-dcc9-4907-8846-63240fbc2f9f.png",
+      "meta_data": {
+        "chunk_id": "728c2cbd-dcc9-4907-8846-63240fbc2f9f",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 20,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "prev_content": "b7cfd083-b077-47ad-973d-c40a2b0216eb",
+        "next_content": "49989212-c358-481a-9f79-61e30f479f0f"
+      }
+    },
+    {
+      "page_content": "출처",
+      "meta_data": {
+        "chunk_id": "49989212-c358-481a-9f79-61e30f479f0f",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "人 環境 配慮 世界 商品 拡大 >NL 분주해진 음료업계 , 머니투데이(2022.77.27 )",
+      "meta_data": {
+        "chunk_id": "221b3d68-5514-4de5-8cc2-d935f4cc86fe",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/685a3715-202a-484b-93d7-7fbbc15ae3af.png",
+      "meta_data": {
+        "chunk_id": "685a3715-202a-484b-93d7-7fbbc15ae3af",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 23,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "3cbf1520-a30e-4da5-9895-a1c62ccf33c5",
+        "prev_content": "221b3d68-5514-4de5-8cc2-d935f4cc86fe",
+        "next_content": "df163b7e-8e5d-4cb5-91b7-b217b21e6354"
+      }
+    },
+    {
+      "page_content": "# 생분해 용기의 활용",
+      "meta_data": {
+        "chunk_id": "df163b7e-8e5d-4cb5-91b7-b217b21e6354",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 플라스틱 폐기물 문제틀 해결하기 위해 한국에서는 친환경 때키지 및 용기 개발을 중심으로 생분해성 성분들 활용하고 있음",
+      "meta_data": {
+        "chunk_id": "e71f4607-4b5f-41cf-94dd-afdd5b207a41",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 25,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "로데월푸드는 일부 도시락 용기와 샌드위치 포장에 친환경 용기름 적용함 이 친환경 용기는 플라스틱올 화학적 방식으로 재활용한 원료와 일반 플리프로필렌(PP)올 섞어 사용해 플라스틱 사용량 절감이 가능함",
+      "meta_data": {
+        "chunk_id": "d5eac836-76a3-4b0b-801c-cc7c6e2bfd47",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 26,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "CJ제일제당은 산업 생분해 소재인 PLA와 자체 개발한 PHA*틀 혼합한 종이",
+      "meta_data": {
+        "chunk_id": "a689c310-65eb-494c-9da3-ca293cc1f987",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 27,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "PHA Polyhydroxyalkanoate(돌리하이드록시알카노에이트]는 미생물이 식물 성분들 먹고 세포 안에 생성하는 고분자 물질로 토양과 해양 등 자연환경에서 분해 성능이 우수함",
+      "meta_data": {
+        "chunk_id": "e4f180bc-3ce7-4572-8165-3b821686cf37",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 28,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024-10-10 2 外",
+      "meta_data": {
+        "chunk_id": "f03fb244-b2d5-4c2e-a51e-73688478d898",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 29,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/04bb5b98-3193-40c3-8b44-5fac23b8dd7a.png",
+      "meta_data": {
+        "chunk_id": "04bb5b98-3193-40c3-8b44-5fac23b8dd7a",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 30,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "df163b7e-8e5d-4cb5-91b7-b217b21e6354",
+        "prev_content": "f03fb244-b2d5-4c2e-a51e-73688478d898",
+        "next_content": "0e8a3375-0900-4e52-9d28-ae47f67f4924"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/add8117b-64bb-4624-8ffc-d63b636f27c1.png",
+      "meta_data": {
+        "chunk_id": "add8117b-64bb-4624-8ffc-d63b636f27c1",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 31,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "df163b7e-8e5d-4cb5-91b7-b217b21e6354",
+        "prev_content": "f03fb244-b2d5-4c2e-a51e-73688478d898",
+        "next_content": "0e8a3375-0900-4e52-9d28-ae47f67f4924"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/542023a3-5176-4fe4-ae55-4b79b39685c8.png",
+      "meta_data": {
+        "chunk_id": "542023a3-5176-4fe4-ae55-4b79b39685c8",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 32,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "df163b7e-8e5d-4cb5-91b7-b217b21e6354",
+        "prev_content": "f03fb244-b2d5-4c2e-a51e-73688478d898",
+        "next_content": "0e8a3375-0900-4e52-9d28-ae47f67f4924"
+      }
+    },
+    {
+      "page_content": "# 2",
+      "meta_data": {
+        "chunk_id": "0e8a3375-0900-4e52-9d28-ae47f67f4924",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 33,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 인공지능(시I)틀 활용한 때키징 방식의 변화",
+      "meta_data": {
+        "chunk_id": "b5aa37f2-e0a1-4f5b-99a9-a7386f0006f1",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 34,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " Y품때키징은 식품 산업에서 생산성 증대와 비용 절감, 환경적 지속가능성 향상울 목표로 극",
+      "meta_data": {
+        "chunk_id": "d5855a5d-fa57-48f0-9ad0-36c006b262e6",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " l품의 크기, 무게, 모양 등들 고려하여 포장 재료 및 구조름 최적화함",
+      "meta_data": {
+        "chunk_id": "c1d4f5f9-a623-4b4d-9983-fa0a34375e5a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 36,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "국적 식품 기업이 네슬레는 인공지능울 활용하여 포장의 크기와 모양을 최적화하여 물류 물성올 높이고 재료 사용올 줄이고자 노력하고 있음 이름 통해 시스템 적용 이전 대비 폐기물은 감소 효율성은 609 상승함",
+      "meta_data": {
+        "chunk_id": "92e638c1-6ccb-4c1c-a8bb-4d6962e70e44",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 37,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 생산 중단을 최소화하고 포장 효율올 극대화 할 수 있음",
+      "meta_data": {
+        "chunk_id": "2ab44540-65f6-4631-9645-bbaee564f307",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "국의 물류기업인 CJ대H한통운은 때키장 자동화 설비 고도화에 주력하고 있음 높이 맞출형 자동 [징 시스템은 박스 내 반 공간을 최소화하여 사용 박스의 종류름 줄일 수 있고 반 공간 제거지 # 완충재 절감과 포장 공정 효율화 배송 체적 축소로 친환경에 기여함",
+      "meta_data": {
+        "chunk_id": "bd4c9f26-6122-4afc-a62f-ecb3431f7115",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 39,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 다양한 정보클 제공하는 식품패키지",
+      "meta_data": {
+        "chunk_id": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 40,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " H한 투명성 요구 증가와 식품 안전성 강화 그리고 브랜드와 소비자 간 상호작용 및 신회 I하게 되는 계기름 마련함",
+      "meta_data": {
+        "chunk_id": "ba6e5816-0562-426d-91db-f1f0dce41a62",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 41,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "소비자들에게 원료나 성분들 투명하고 직관적으로 제공하는 식품 및 제품의 라빌림 방식올 말함. 플린라벌 제품은 일반적으로 합성",
+      "meta_data": {
+        "chunk_id": "65adfba7-6358-426b-9885-a86605b4deba",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 42,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "22b34754-1e06-4427-afb8-66adaebafab2",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 43,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024-10-10",
+      "meta_data": {
+        "chunk_id": "317f3556-b468-4e91-a99c-e2cddeee51db",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 44,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/9a189262-25a7-4028-acdc-f62e1fa03aaa.png",
+      "meta_data": {
+        "chunk_id": "9a189262-25a7-4028-acdc-f62e1fa03aaa",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 45,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "317f3556-b468-4e91-a99c-e2cddeee51db",
+        "next_content": "d865916c-4826-4265-ba49-14c9b9e19e82"
+      }
+    },
+    {
+      "page_content": " 신속하게 파악이 가능함",
+      "meta_data": {
+        "chunk_id": "d865916c-4826-4265-ba49-14c9b9e19e82",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(한국) 식품이약품안전처는  식품의 '스마트 푸드QR'로 제공하는 정보름 이력주적까지 확대하여 소비자에게 제공함 '스마트 푸드QR'은 식품의 원재료 제조 과정, 유통 경로 등의 정보률 제공하고 만약 제품에 이상이 있을 경우 소비자들은 빠르게 확인하고 필요한 조치틀 취할 수 있음",
+      "meta_data": {
+        "chunk_id": "44fc1753-672b-4bdb-a193-ed8342a03655",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 47,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 단순한 정보 외에도 브랜드가 소비자와 상호작용할 수 있는 효과적인 마게팅 도구로 활용이 가능함. 레시피틀 확인할 수도 있음",
+      "meta_data": {
+        "chunk_id": "a9a164cf-6214-4feb-8f00-7e54a1780d06",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 48,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 소비자들의 환경 의식이 높아지면서 제품의 포장재가 재활용이 가능한지, 생분해성인지, 혹은 생산 포함하기도함",
+      "meta_data": {
+        "chunk_id": "3a6c629d-2fe2-4cad-be75-90c30ed3130d",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 49,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(프랑스) 대형 유통업체인 Carrefour에l서는 에코 점수(Eco-Score) 라빌림올 활용하여 식품의 환경적 영향력올 시각적으로 표시하고 있음 에코 점수는 A에서 E까지의 등급으로 나뉘며 점수는 제품의 생산 방식 원산지; 포장 재료의 재활용 가능성, 생물 다양성에 미치는 영향 등들 고려하여 산정팀",
+      "meta_data": {
+        "chunk_id": "2430976d-21d9-4241-a4a6-d70262d94f6a",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 50,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/46dedb75-21c3-42c4-982c-35fcf221c479.png",
+      "meta_data": {
+        "chunk_id": "46dedb75-21c3-42c4-982c-35fcf221c479",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 51,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "2430976d-21d9-4241-a4a6-d70262d94f6a",
+        "next_content": "182d7f37-0e23-4eb2-88fc-a20c5905d47f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/7635fb1e-be7e-4a73-89bc-2470f780762b.png",
+      "meta_data": {
+        "chunk_id": "7635fb1e-be7e-4a73-89bc-2470f780762b",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 52,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "2430976d-21d9-4241-a4a6-d70262d94f6a",
+        "next_content": "182d7f37-0e23-4eb2-88fc-a20c5905d47f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/360cac58-fb4e-4723-bec9-a76e05cabb22.png",
+      "meta_data": {
+        "chunk_id": "360cac58-fb4e-4723-bec9-a76e05cabb22",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 53,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "2430976d-21d9-4241-a4a6-d70262d94f6a",
+        "next_content": "182d7f37-0e23-4eb2-88fc-a20c5905d47f"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/3cbd67f5-338d-4b3b-a12f-088ff15868f7.png",
+      "meta_data": {
+        "chunk_id": "3cbd67f5-338d-4b3b-a12f-088ff15868f7",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 54,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "2430976d-21d9-4241-a4a6-d70262d94f6a",
+        "next_content": "182d7f37-0e23-4eb2-88fc-a20c5905d47f"
+      }
+    },
+    {
+      "page_content": "-",
+      "meta_data": {
+        "chunk_id": "182d7f37-0e23-4eb2-88fc-a20c5905d47f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024-10-10",
+      "meta_data": {
+        "chunk_id": "9573de81-c6e8-4880-a1c3-401ed9992f74",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 56,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "4",
+      "meta_data": {
+        "chunk_id": "0fc489c1-d653-409e-a79e-1bbe7d347201",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 57,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/b14d7d8b-0db0-4539-8b72-57e1137593d4.png",
+      "meta_data": {
+        "chunk_id": "b14d7d8b-0db0-4539-8b72-57e1137593d4",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 58,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "6b6b11c1-3858-4111-87a7-3625e1e0e897",
+        "prev_content": "0fc489c1-d653-409e-a79e-1bbe7d347201",
+        "next_content": "de749bf3-0bda-48af-a0bb-de4445d8bfdf"
+      }
+    },
+    {
+      "page_content": "# ICK. 4",
+      "meta_data": {
+        "chunk_id": "de749bf3-0bda-48af-a0bb-de4445d8bfdf",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 59,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 새롭게 변화하는 식품때키지 디자인",
+      "meta_data": {
+        "chunk_id": "0b1916dd-b667-4df0-93ce-d12485a9b460",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 60,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "6f65d2c5-5901-4614-812a-c2189ffd1202",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 61,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 때키지 디자인에 대한 소비자 인식",
+      "meta_data": {
+        "chunk_id": "def1b0ca-3433-4882-afe8-c9440c0f508e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 62,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/7d67dec5-00c4-4fd5-8a1c-e3e1aea16b20.png",
+      "meta_data": {
+        "chunk_id": "7d67dec5-00c4-4fd5-8a1c-e3e1aea16b20",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 63,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "def1b0ca-3433-4882-afe8-c9440c0f508e",
+        "prev_content": "def1b0ca-3433-4882-afe8-c9440c0f508e",
+        "next_content": "2fcde7a7-51f4-4e68-844b-0b4f9eeb0645"
+      }
+    },
+    {
+      "page_content": "Packaging updates are an efficient route to innovation; Mintell2022.05.)",
+      "meta_data": {
+        "chunk_id": "2fcde7a7-51f4-4e68-844b-0b4f9eeb0645",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 64,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/f38e1e1c-6b10-4f46-855e-4dedda84a9b2.png",
+      "meta_data": {
+        "chunk_id": "f38e1e1c-6b10-4f46-855e-4dedda84a9b2",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 65,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "def1b0ca-3433-4882-afe8-c9440c0f508e",
+        "prev_content": "2fcde7a7-51f4-4e68-844b-0b4f9eeb0645",
+        "next_content": "05c7c63d-0a75-401e-80bc-46ec8018e267"
+      }
+    },
+    {
+      "page_content": "# 식품때키지의 리뉴얼(Renewal)",
+      "meta_data": {
+        "chunk_id": "05c7c63d-0a75-401e-80bc-46ec8018e267",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 66,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2076년 리브랜딩올 통해 뉴트럭한 색상의 때키지 디자인으로 전환함. 하지만 2022년에 패키지",
+      "meta_data": {
+        "chunk_id": "7367f196-55d4-4250-978f-9ce30bceb3c9",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 67,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/54e7cd2d-fa7d-47c2-8849-c1fddb3b106c.png",
+      "meta_data": {
+        "chunk_id": "54e7cd2d-fa7d-47c2-8849-c1fddb3b106c",
+        "page_number": [
+          5
+        ],
+        "item_label": "picture",
+        "index": 68,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "05c7c63d-0a75-401e-80bc-46ec8018e267",
+        "prev_content": "7367f196-55d4-4250-978f-9ce30bceb3c9",
+        "next_content": "73019354-f4fe-49d7-9a41-15179bed6f89"
+      }
+    },
+    {
+      "page_content": "2024-10-10",
+      "meta_data": {
+        "chunk_id": "73019354-f4fe-49d7-9a41-15179bed6f89",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 69,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/e29f6681-78f4-409d-adfb-57c51f782c51.png",
+      "meta_data": {
+        "chunk_id": "e29f6681-78f4-409d-adfb-57c51f782c51",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 70,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "05c7c63d-0a75-401e-80bc-46ec8018e267",
+        "prev_content": "73019354-f4fe-49d7-9a41-15179bed6f89",
+        "next_content": "580e52ce-9618-44bb-89da-f08b3d8720cf"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/bf7efbe1-8330-4175-a9d8-38a7ec08d5f8.png",
+      "meta_data": {
+        "chunk_id": "bf7efbe1-8330-4175-a9d8-38a7ec08d5f8",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 71,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "05c7c63d-0a75-401e-80bc-46ec8018e267",
+        "prev_content": "73019354-f4fe-49d7-9a41-15179bed6f89",
+        "next_content": "580e52ce-9618-44bb-89da-f08b3d8720cf"
+      }
+    },
+    {
+      "page_content": "# 레트로 디자인의 활용",
+      "meta_data": {
+        "chunk_id": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 72,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "",
+      "meta_data": {
+        "chunk_id": "4dc6d2a9-ff65-483f-8ebb-7ac82f52f3f1",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 73,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(베트님) 스백 브랜드인 오리온에서 출시한 크래커는 일반적으로 박스 포장으로 유통되고 있으나",
+      "meta_data": {
+        "chunk_id": "2480ba82-8aae-4e53-b40c-a28e20cf8364",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 74,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "è 맞이하여 레트로한 디자인으로 한정 출시몸 egg)는",
+      "meta_data": {
+        "chunk_id": "267cb9b5-d632-4162-a0f8-d033f78aa5c4",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 75,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(미국) 스백 브랜드인 프리로레O(Frito Lay)에l서 출시한 *토스는 2022년 'That's So Retro '라는 한정 때키지로 출시I 레트로한 디자인과 메시지가 소비자의 향수름 자극함",
+      "meta_data": {
+        "chunk_id": "5256b881-55d7-4b3e-b8d1-acdd3e4844f8",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 76,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/bb82509a-59b2-4c9b-97ef-db0fcd594581.png",
+      "meta_data": {
+        "chunk_id": "bb82509a-59b2-4c9b-97ef-db0fcd594581",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 77,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "prev_content": "5256b881-55d7-4b3e-b8d1-acdd3e4844f8",
+        "next_content": "1b179305-b266-42b3-8fb6-701448a9c8a7"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/bd2624d4-e832-4af8-ac69-417f8131b0f1.png",
+      "meta_data": {
+        "chunk_id": "bd2624d4-e832-4af8-ac69-417f8131b0f1",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 78,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "prev_content": "5256b881-55d7-4b3e-b8d1-acdd3e4844f8",
+        "next_content": "1b179305-b266-42b3-8fb6-701448a9c8a7"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/861a2bc2-1c22-4e9b-8202-d6c97732fbda.png",
+      "meta_data": {
+        "chunk_id": "861a2bc2-1c22-4e9b-8202-d6c97732fbda",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 79,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "prev_content": "5256b881-55d7-4b3e-b8d1-acdd3e4844f8",
+        "next_content": "1b179305-b266-42b3-8fb6-701448a9c8a7"
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/257dbc4c-4054-4af4-8640-9e19a356fbaa.png",
+      "meta_data": {
+        "chunk_id": "257dbc4c-4054-4af4-8640-9e19a356fbaa",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 80,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "prev_content": "5256b881-55d7-4b3e-b8d1-acdd3e4844f8",
+        "next_content": "1b179305-b266-42b3-8fb6-701448a9c8a7"
+      }
+    },
+    {
+      "page_content": "출처 : Packaging updates are an efficient route to innovation; Mintell2022.05 ), 각 사 흉페이지",
+      "meta_data": {
+        "chunk_id": "1b179305-b266-42b3-8fb6-701448a9c8a7",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 81,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/9c59c22a-0e6b-421f-809f-bf2578741e2f.png",
+      "meta_data": {
+        "chunk_id": "9c59c22a-0e6b-421f-809f-bf2578741e2f",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 82,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "580e52ce-9618-44bb-89da-f08b3d8720cf",
+        "prev_content": "1b179305-b266-42b3-8fb6-701448a9c8a7",
+        "next_content": "98a814df-ddbd-4c8f-b807-a54b3459680a"
+      }
+    },
+    {
+      "page_content": "# 한정판 디자인의 활용",
+      "meta_data": {
+        "chunk_id": "98a814df-ddbd-4c8f-b807-a54b3459680a",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 83,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": " 한정판 디자인은 소비자에게 계절별 음식이나 음료 트렌드트 알려주는데 활용되기도 하여, 기업의",
+      "meta_data": {
+        "chunk_id": "a9ba5ceb-8dd3-4ad6-bf93-005b8f491993",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 84,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(미국) 스마트 농업 회사인 보위리 파망(Bowery Farming)은 2022년 지구의 날을 맞이해 한정판 The Nature 복원  지역에 서식하는 동물모양올 한정판 패키지에 반영함",
+      "meta_data": {
+        "chunk_id": "f055c697-7031-4ff9-aae3-215ef037825c",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 85,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/result/images/d510665f-ca8f-43fb-907d-b7b5d65be0a8.png",
+      "meta_data": {
+        "chunk_id": "d510665f-ca8f-43fb-907d-b7b5d65be0a8",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 86,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": "98a814df-ddbd-4c8f-b807-a54b3459680a",
+        "prev_content": "f055c697-7031-4ff9-aae3-215ef037825c",
+        "next_content": "45411a96-6e8c-4464-83de-a47d7eb2ac61"
+      }
+    },
+    {
+      "page_content": "2024-10-10",
+      "meta_data": {
+        "chunk_id": "45411a96-6e8c-4464-83de-a47d7eb2ac61",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 87,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "식품산업통계정보시스템 FIS, WWWatfis orkr",
+      "meta_data": {
+        "chunk_id": "210a2f9b-9ff2-4afc-a6d6-f4dd6b33de8e",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 88,
+        "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 께 읽는 품산업통계정보시스템 2024년 10월 4주\n# {키징의 변화\n# 식품때키지 소재의 변화\n# 무라벌 PET으로 플라스틱 폐기물 절감\n# 생분해 용기의 활용\n# 2\n# 인공지능(시I)틀 활용한 때키징 방식의 변화\n# 다양한 정보클 제공하는 식품패키지\n# ICK. 4\n# 새롭게 변화하는 식품때키지 디자인\n# 때키지 디자인에 대한 소비자 인식\n# 식품때키지의 리뉴얼(Renewal)\n# 레트로 디자인의 활용\n# 한정판 디자인의 활용",
+    "document_id": "9b27dc65-7240-55cc-ad9d-414da11daa26",
+    "timestamp": "2025-07-17T07:57:55.613618Z",
+    "document_file_path": "/app/output/efd3457a-209d-460c-b5cc-f597f4657462/TrendPick_식품패키징의 변화_241021.pdf",
+    "document_title": "TrendPick_식품패키징의 변화_241021"
+  }
+}

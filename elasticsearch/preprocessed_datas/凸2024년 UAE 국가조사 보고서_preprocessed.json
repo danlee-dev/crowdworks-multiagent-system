@@ -1,0 +1,2609 @@
+[
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망",
+    "name": "3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망",
+    "meta_data": {
+      "chunk_id": "1a0c01bf-3af0-4edb-9d3b-74ed6ecccc27",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1a0c01bf-3af0-4edb-9d3b-74ed6ecccc27"
+      ],
+      "chunked_count": 1,
+      "index": 5,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 38,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2 식품 유통현황\n\n1 국가 개황 3 수출품목 소비트렌드\n1-1국가 개관\n1-2경제지표 1 수출품목\n1-3농업현황 1-1수출품목 선정기준\n1-4FTA체결현황 1-2한국산 수출품목\n2 식품 시장규모 2 소비트렌드\n3 식품 소비규모\n3-11인당 식품 소비액 4 수출절차\n3-21인당 식품 소비량 1\n4 식품 시장전망 수출입절차\n5 식품 수출현황 통관 및 검역제도\n5-1수출국 3 수출가능·불가능품목\n5-2수출품목 3-1수출가능품목\n6 식품 수입현황 3-2수출불가능품목\n6-2수입품목 5 비관세장벽\n7 對아랍에미리트 한국산 수출현황 1 라벨링제도\n7-1부문별 수출현황 1-1주요 라벨링 표기사항\n7-2수출품목 1-2라벨링 예시\n식품 유통현황 2 인증제도\n1 오프라인 유통현황 3 통관거부사례\n1-1오프라인 유통채널 규모 4 비관세장벽 이슈\n1-2오프라인 유통채널 매장 수 1-3오프라인 유통채널 6 요약\n1-4주요 오프라인 유통채널\n2 온라인 유통현황 1 보고서 소개",
+    "name": "2 식품 유통현황",
+    "meta_data": {
+      "chunk_id": "5bbba424-0170-42ed-8655-07ce1000c0e4",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 6,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2 식품 유통현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "6beb23e5-4ec9-45a9-9f0a-94f8dbd83d54",
+          "content": "<table><tbody><tr><td>1</td><td>국가 개황</td><td></td><td>3</td><td>수출품목</td><td>소비트렌드</td></tr><tr><td></td><td>1-1국가 개관</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1-2경제지표</td><td></td><td colspan=\"3\">1 수출품목</td></tr><tr><td></td><td>1-3농업현황</td><td></td><td></td><td colspan=\"2\">1-1수출품목 선정기준</td></tr><tr><td></td><td>1-4FTA체결현황</td><td></td><td></td><td colspan=\"2\">1-2한국산 수출품목</td></tr><tr><td>2</td><td>식품 시장규모</td><td></td><td>2</td><td colspan=\"2\">소비트렌드</td></tr><tr><td>3</td><td>식품 소비규모</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>3-11인당 식품 소비액</td><td>4</td><td colspan=\"3\">수출절차</td></tr><tr><td></td><td>3-21인당 식품 소비량</td><td></td><td></td><td>1</td><td></td></tr><tr><td>4</td><td>식품 시장전망</td><td></td><td colspan=\"3\">수출입절차</td></tr><tr><td>5</td><td>식품 수출현황</td><td></td><td colspan=\"3\">통관 및 검역제도</td></tr><tr><td></td><td>5-1수출국</td><td></td><td colspan=\"3\">3 수출가능·불가능품목</td></tr><tr><td></td><td>5-2수출품목</td><td></td><td></td><td colspan=\"2\">3-1수출가능품목</td></tr><tr><td>6</td><td>식품 수입현황</td><td></td><td colspan=\"3\">3-2수출불가능품목</td></tr><tr><td></td><td>6-2수입품목</td><td>5</td><td colspan=\"3\">비관세장벽</td></tr><tr><td>7</td><td>對아랍에미리트 한국산 수출현황</td><td></td><td></td><td colspan=\"2\">1 라벨링제도</td></tr><tr><td></td><td>7-1부문별 수출현황</td><td></td><td></td><td colspan=\"2\">1-1주요 라벨링 표기사항</td></tr><tr><td></td><td>7-2수출품목</td><td></td><td></td><td colspan=\"2\">1-2라벨링 예시</td></tr><tr><td>식품</td><td>유통현황</td><td></td><td>2</td><td colspan=\"2\">인증제도</td></tr><tr><td>1</td><td>오프라인 유통현황</td><td></td><td>3</td><td colspan=\"2\">통관거부사례</td></tr><tr><td></td><td>1-1오프라인 유통채널 규모</td><td></td><td>4</td><td colspan=\"2\">비관세장벽 이슈</td></tr><tr><td></td><td>1-2오프라인 유통채널 매장 수 1-3오프라인 유통채널</td><td>6</td><td colspan=\"3\">요약</td></tr><tr><td></td><td>1-4주요 오프라인 유통채널</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>온라인 유통현황</td><td></td><td>1</td><td colspan=\"2\">보고서 소개</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 1.1.1 국가 개관\n\n표제목: *출처: CIA Factbook(2024.09.)\n인구 (2024년 추정치) 10032213명 전 세계 94위\n민족구성 (2015년 추정치) 에미리트인 11.6% 남아시아인 59.4% (인도인 38.2% 방글라데시인 9.5% 파키스탄인 9.4% 기타 2.3%) 이집트인 10.2% 필리핀인 6.1% 기타 12.8%\n언어 아랍어 영어 힌디어 말라얄람어 우르두어 파슈토어 타갈로그어 페르시아어\n종교 (2020년 추정치) 무슬림 74.5% (공식) (수니파 63.3% 시아파 6.7% 기타 4.4%) 기독교 12.9% 힌두교 6.2% 불교 3.2% 불가지론자 1.3% 기타 1.9%\n연령구조 (2023년 추정치) 0~14세: 16.4% (남성 842577명/여성 802302명) 15~64세: 81.4% (남성 5812470명/여성 2353750명) 65세 이상: 2.2% (2024년 추정) (남성 169084명/여성 52030명)\n중위연령 (2024년 추정치) 전체: 35.8세 전 세계 95위 남성: 38.1세 여성: 29.8세",
+    "name": "1.1.1 국가 개관",
+    "meta_data": {
+      "chunk_id": "861e4ac7-fed1-4054-8116-dd5ec0ec94d7",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 10,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 1.1.1 국가 개관",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d618ccd9-edfd-40c5-ace6-4fdfe7c5a0df",
+          "content": "<table><caption>*출처: CIA Factbook(2024.09.)</caption><tbody><tr><th>인구 (2024년 추정치)</th><th>10,032,213명, 전 세계 94위</th></tr><tr><td>민족구성 (2015년 추정치)</td><td>에미리트인 11.6%, 남아시아인 59.4% (인도인 38.2%, 방글라데시인 9.5%, 파키스탄인 9.4%, 기타 2.3%), 이집트인 10.2%, 필리핀인 6.1%, 기타 12.8%</td></tr><tr><td>언어</td><td>아랍어, 영어, 힌디어, 말라얄람어, 우르두어, 파슈토어, 타갈로그어, 페르시아어</td></tr><tr><td>종교 (2020년 추정치)</td><td>무슬림 74.5% (공식) (수니파 63.3%, 시아파 6.7%, 기타 4.4%), 기독교 12.9%, 힌두교 6.2%, 불교 3.2%, 불가지론자 1.3%, 기타 1.9%</td></tr><tr><td>연령구조 (2023년 추정치)</td><td>0~14세: 16.4% (남성 842,577명/여성 802,302명) 15~64세: 81.4% (남성 5,812,470명/여성 2,353,750명) 65세 이상: 2.2% (2024년 추정) (남성 169,084명/여성 52,030명)</td></tr><tr><td>중위연령 (2024년 추정치)</td><td>전체: 35.8세, 전 세계 95위 남성: 38.1세 여성: 29.8세</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n무슬림 74.5% (공식) (수니파 63.3%, 시아파 6.7%, 기타 4.4%), 기독교 12.9%, 힌두교 6.2%, 불교 3.2%, 불가지론자 1.3%, 기타 1.9%",
+    "name": "무슬림 74.5% (공식) (수니파 63.3%, 시아파 6.7%, 기타 4.4%), 기독교 12.9%, 힌두교 6.2%, 불교 3.2%, 불가지론자 1.3%, 기타 1.9%",
+    "meta_data": {
+      "chunk_id": "3334e944-cee4-4cd4-999f-efbcde6ddfeb",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3334e944-cee4-4cd4-999f-efbcde6ddfeb"
+      ],
+      "chunked_count": 1,
+      "index": 46,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 93,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "무슬림 74.5% (공식) (수니파 63.3%, 시아파 6.7%, 기타 4.4%), 기독교 12.9%, 힌두교 6.2%, 불교 3.2%, 불가지론자 1.3%, 기타 1.9%"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 1.1.2 경제지표\n\n실질GDP (2021년 달러 기준) $719.733십억 (2023년 추정치) 전 세계 68위 $696.041십억 (2022년 추정치) $645.376십억 (2021년 추정치)\n실질GDP 성장률 3.4% (2023년 추정치) 전 세계 176위 7.85% (2022년 추정치) 4.35% (2021년 추정치)\n1인당 실질GDP (2021년 달러 기준) $75600 (2023년 추정치) 전 세계 13위 $73700 (2022년 추정치) $68900 (2021년 추정치.)",
+    "name": "1.1.2 경제지표",
+    "meta_data": {
+      "chunk_id": "fc14b795-9afc-4b4e-965a-cd311ba5a5b9",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 75,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 1.1.2 경제지표",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "92b40be0-3b19-4864-9e40-bc46bca93957",
+          "content": "<table><tbody><tr><td>실질GDP (2021년 달러 기준)</td><td>$719.733십억 (2023년 추정치), 전 세계 68위 $696.041십억 (2022년 추정치) $645.376십억 (2021년 추정치)</td></tr><tr><td>실질GDP 성장률</td><td>3.4% (2023년 추정치), 전 세계 176위 7.85% (2022년 추정치) 4.35% (2021년 추정치)</td></tr><tr><td>1인당 실질GDP (2021년 달러 기준)</td><td>$75,600 (2023년 추정치), 전 세계 13위 $73,700 (2022년 추정치) $68,900 (2021년 추정치.)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n$719.733십억 (2023년 추정치), 전 세계 68위",
+    "name": "$719.733십억 (2023년 추정치), 전 세계 68위",
+    "meta_data": {
+      "chunk_id": "d53f6009-4eaa-4723-8b09-1f9ae220b8b6",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d53f6009-4eaa-4723-8b09-1f9ae220b8b6"
+      ],
+      "chunked_count": 1,
+      "index": 77,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 25,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "$719.733십억 (2023년 추정치), 전 세계 68위"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 1.1.3 농업현황\n\n농업 GDP 비중 (2022년 추정치) 0.8%\n주요 생산품 (2022년 추정치) 대추 오이/오이 낙타젖 염소젖 토마토 계란 염소고기 우유 닭고기 낙타고기",
+    "name": "1.1.3 농업현황",
+    "meta_data": {
+      "chunk_id": "dc8bc07e-5b74-4b17-905c-99c6ade1898d",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 94,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 1.1.3 농업현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "3a820c49-83cc-4543-a8b9-9b26202aa0dc",
+          "content": "<table><tbody><tr><td>농업 GDP 비중 (2022년 추정치)</td><td>0.8%</td></tr><tr><td>주요 생산품 (2022년 추정치)</td><td>대추, 오이/오이, 낙타젖, 염소젖, 토마토, 계란, 염소고기, 우유, 닭고기, 낙타고기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n대추, 오이/오이, 낙타젖, 염소젖, 토마토, 계란, 염소고기, 우유, 닭고기, 낙타고기",
+    "name": "대추, 오이/오이, 낙타젖, 염소젖, 토마토, 계란, 염소고기, 우유, 닭고기, 낙타고기",
+    "meta_data": {
+      "chunk_id": "1a95e1e3-1139-4aa6-bd14-050515a66ea3",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1a95e1e3-1139-4aa6-bd14-050515a66ea3"
+      ],
+      "chunked_count": 1,
+      "index": 98,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 58,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "대추, 오이/오이, 낙타젖, 염소젖, 토마토, 계란, 염소고기, 우유, 닭고기, 낙타고기"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <FTA 체결현황>\n\n구분 내용\nUAE의 체결현황 1) 기체결(발효) 싱가포르\n우리나라와의 체결현황 2) 발효 해당사항 없음\n서명/타결 GCC FTA UAE FTA\n협상 중 해당사항 없음\n재개·개시·여건조성 해당사항 없음",
+    "name": "<FTA 체결현황>",
+    "meta_data": {
+      "chunk_id": "3e7f6330-1002-4427-b984-698d8613ba8c",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 102,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <FTA 체결현황>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "fd94c498-f62f-4c25-a00f-f41e3751c9ed",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>내용</th></tr><tr><td>UAE의 체결현황 1)</td><td>기체결(발효)</td><td>싱가포르</td></tr><tr><td rowspan=\"4\">우리나라와의 체결현황 2)</td><td>발효</td><td>해당사항 없음</td></tr><tr><td>서명/타결</td><td>GCC FTA, UAE FTA</td></tr><tr><td>협상 중</td><td>해당사항 없음</td></tr><tr><td>재개·개시·여건조성</td><td>해당사항 없음</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)",
+    "name": "*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)",
+    "meta_data": {
+      "chunk_id": "a8621b93-ea29-482f-8edc-2650f6d030ef",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a8621b93-ea29-482f-8edc-2650f6d030ef"
+      ],
+      "chunked_count": 1,
+      "index": 106,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 33,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n아랍에미리트 식품 시장은 2019년 305억 달러에서 연평균 4.4% 성장하여, 2023년 361억 달러로 증가했다.\n\n스낵류 시장규모는 2019년 65억 달러에서 연평균 4.3% 성장하여, 2023년 77억 달러로 증가했다. 2023년 스낵류 시장규모는 전체 식품 시장의 21.3%를 차지했다.\n\n육류 시장규모는 2019년 44억 달러에서 연평균 4.1% 성장하여, 2023년 52억 달러로 증가했다. 2023년 육류 시장규모는 전체 식품 시장의 14.3%를 차지했다.\n\n베이커리 및 곡물류 시장규모는 2019년 43억 달러에서 연평균 3.6% 성장하여, 2023년 49억 달러로 증가했다. 2023년 베이커리 및 곡물류 시장규모는 전체 식품 시장의 13.6%를 차지했다.",
+    "name": "아랍에미리트 식품 시장은 2019년 305억 달러에서 연평균 4.4% 성장하여, 2023년 361억 달러로 증가했다.",
+    "meta_data": {
+      "chunk_id": "1610a744-cd9e-4f9e-ad8a-e26b76125ab7",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1610a744-cd9e-4f9e-ad8a-e26b76125ab7",
+        "d1452bef-6f96-42c0-991f-54e5b7864001",
+        "fa8f8bb0-8ecf-4fee-aec0-7a3028ae44a5",
+        "f481c95b-ebd7-444e-b252-32d4013093aa"
+      ],
+      "chunked_count": 4,
+      "index": 112,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 386,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "아랍에미리트 식품 시장은 2019년 305억 달러에서 연평균 4.4% 성장하여, 2023년 361억 달러로 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 품목별 식품 시장규모(2019~2023)>\n\n표제목: (단위: 십억 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 30.5 31.3 32.3 34.3 36.1 100.0 5.4 4.4\n스낵류 6.5 6.7 7.0 7.4 7.7 21.3 3.8 4.3\n육류 4.4 4.5 4.7 4.9 5.2 14.3 5.3 4.1\n베이커리 및 곡물류 4.3 4.3 4.4 4.6 4.9 13.6 6.1 3.6\n채소류 3.3 3.4 3.5 3.8 4.0 11.1 6.6 4.8\n낙농품 3.1 3.2 3.4 3.6 3.9 10.7 6.6 5.4\n과일 및 견과류 2.8 2.8 2.9 3.1 3.2 9.0 5.2 4.2\n수산물 2.2 2.2 2.3 2.4 2.6 7.1 5.8 4.4\n편의식품 1.5 1.6 1.6 1.7 1.8 5.0 5.8 4.1\n유지류 1.1 1.1 1.2 1.2 1.3 3.6 5.7 5.5\n소스 및 향신료 0.6 0.6 0.6 0.7 0.7 2.0 7.4 5.0\n스프레드 및 당류 0.6 0.6 0.6 0.6 0.6 1.7 3.4 1.3\n펫푸드 0.1 0.1 0.1 0.1 0.1 0.4 8.3 12.9\n영유아식품 0.1 0.1 0.1 0.1 0.1 0.3 0.0 5.1",
+    "name": "<아랍에미리트 품목별 식품 시장규모(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "fb2630d3-bb11-49f8-9815-343cfd57ff39",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 119,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 품목별 식품 시장규모(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "48d335a0-85a5-48f9-8fbd-2a6b7f04432d",
+          "content": "<table><caption>(단위: 십억 달러, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>30.5</td><td>31.3</td><td>32.3</td><td>34.3</td><td>36.1</td><td>100.0</td><td>5.4</td><td>4.4</td></tr><tr><td>스낵류</td><td>6.5</td><td>6.7</td><td>7.0</td><td>7.4</td><td>7.7</td><td>21.3</td><td>3.8</td><td>4.3</td></tr><tr><td>육류</td><td>4.4</td><td>4.5</td><td>4.7</td><td>4.9</td><td>5.2</td><td>14.3</td><td>5.3</td><td>4.1</td></tr><tr><td>베이커리 및 곡물류</td><td>4.3</td><td>4.3</td><td>4.4</td><td>4.6</td><td>4.9</td><td>13.6</td><td>6.1</td><td>3.6</td></tr><tr><td>채소류</td><td>3.3</td><td>3.4</td><td>3.5</td><td>3.8</td><td>4.0</td><td>11.1</td><td>6.6</td><td>4.8</td></tr><tr><td>낙농품</td><td>3.1</td><td>3.2</td><td>3.4</td><td>3.6</td><td>3.9</td><td>10.7</td><td>6.6</td><td>5.4</td></tr><tr><td>과일 및 견과류</td><td>2.8</td><td>2.8</td><td>2.9</td><td>3.1</td><td>3.2</td><td>9.0</td><td>5.2</td><td>4.2</td></tr><tr><td>수산물</td><td>2.2</td><td>2.2</td><td>2.3</td><td>2.4</td><td>2.6</td><td>7.1</td><td>5.8</td><td>4.4</td></tr><tr><td>편의식품</td><td>1.5</td><td>1.6</td><td>1.6</td><td>1.7</td><td>1.8</td><td>5.0</td><td>5.8</td><td>4.1</td></tr><tr><td>유지류</td><td>1.1</td><td>1.1</td><td>1.2</td><td>1.2</td><td>1.3</td><td>3.6</td><td>5.7</td><td>5.5</td></tr><tr><td>소스 및 향신료</td><td>0.6</td><td>0.6</td><td>0.6</td><td>0.7</td><td>0.7</td><td>2.0</td><td>7.4</td><td>5.0</td></tr><tr><td>스프레드 및 당류</td><td>0.6</td><td>0.6</td><td>0.6</td><td>0.6</td><td>0.6</td><td>1.7</td><td>3.4</td><td>1.3</td></tr><tr><td>펫푸드</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.4</td><td>8.3</td><td>12.9</td></tr><tr><td>영유아식품</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.3</td><td>0.0</td><td>5.1</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 아랍에미리트의 1인당 식품 소비액은 2019년 약 3,307달러에서 연평균 3.5% 증가한 약 3,796달러로 집계되었다.\n\n2023년 스낵류 소비액은 2019년 1인당 약 706달러에서 연평균 3.5% 증가한 약 809달러로 집계되었으며, 전체 식품 소비액의 21.3%를 차지했다.\n\n2023년 육류 소비액은 2019년 1인당 약 478달러에서 연평균 3.2% 증가한 약 543달러로 집계되었으며, 전체 식품 소비액의 14.3%를 차지했다.\n\n2023년 베이커리 및 곡물류 소비액은 1인당 2019년 약 462달러에서 연평균 2.7% 증가한 약 515달러로 집계되었으며, 전체 식품 소비액의 13.6%를 차지했다.",
+    "name": "2023년 아랍에미리트의 1인당 식품 소비액은 2019년 약 3,307달러에서 연평균 3.5% 증가한 약 3,796달러로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "073697df-1cf2-4043-b870-49f7440cdcf1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "073697df-1cf2-4043-b870-49f7440cdcf1",
+        "ccb59d25-23ee-413a-b815-709f6b107a4a",
+        "16d32555-4c4d-47fc-a86f-10b5fff13384",
+        "75ac7f21-dcb4-40bb-8b29-adae1e90d217"
+      ],
+      "chunked_count": 4,
+      "index": 129,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 363,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 아랍에미리트의 1인당 식품 소비액은 2019년 약 3,307달러에서 연평균 3.5% 증가한 약 3,796달러로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 품목별 1인당 식품 소비액(2019~2023)>\n\n표제목: (단위: 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 3307.0 3365.0 3453.0 3629.0 3796.0 100.0 4.6 3.5\n스낵류 706.0 722.1 743.0 786.1 808.7 21.3 2.9 3.5\n육류 478.0 484.8 496.2 519.9 542.7 14.3 4.4 3.2\n베이커리 및 곡물류 461.6 465.1 473.0 488.9 514.5 13.6 5.2 2.7\n채소류 361.8 368.0 377.8 399.7 422.5 11.1 5.7 4.0\n낙농품 339.4 347.9 360.4 383.0 405.4 10.7 5.8 4.5\n과일 및 견과류 298.3 303.7 312.1 325.7 340.1 9.0 4.4 3.3\n수산물 234.7 238.4 244.5 257.0 269.9 7.1 5.0 3.6\n편의식품 166.7 168.9 172.8 181.3 190.1 5.0 4.9 3.3\n유지류 113.8 118.0 123.5 129.7 136.6 3.6 5.3 4.7\n소스 및 향신료 65.5 66.6 68.3 72.3 76.4 2.0 5.7 3.9\n스프레드 및 당류 61.9 60.6 59.8 61.5 63.1 1.7 2.6 0.5\n펫푸드 9.0 10.6 11.0 12.5 14.1 0.4 13.0 12.1\n영유아식품 10.2 10.3 10.8 11.3 11.5 0.3 1.9 3.1",
+    "name": "<아랍에미리트 품목별 1인당 식품 소비액(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "bfc0ab6c-b724-4a22-848e-aebdef998237",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 136,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 품목별 1인당 식품 소비액(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "329f3d0c-b2af-4e1e-a637-4d8bad794ad7",
+          "content": "<table><caption>(단위: 달러, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>3,307.0</td><td>3,365.0</td><td>3,453.0</td><td>3,629.0</td><td>3,796.0</td><td>100.0</td><td>4.6</td><td>3.5</td></tr><tr><td>스낵류</td><td>706.0</td><td>722.1</td><td>743.0</td><td>786.1</td><td>808.7</td><td>21.3</td><td>2.9</td><td>3.5</td></tr><tr><td>육류</td><td>478.0</td><td>484.8</td><td>496.2</td><td>519.9</td><td>542.7</td><td>14.3</td><td>4.4</td><td>3.2</td></tr><tr><td>베이커리 및 곡물류</td><td>461.6</td><td>465.1</td><td>473.0</td><td>488.9</td><td>514.5</td><td>13.6</td><td>5.2</td><td>2.7</td></tr><tr><td>채소류</td><td>361.8</td><td>368.0</td><td>377.8</td><td>399.7</td><td>422.5</td><td>11.1</td><td>5.7</td><td>4.0</td></tr><tr><td>낙농품</td><td>339.4</td><td>347.9</td><td>360.4</td><td>383.0</td><td>405.4</td><td>10.7</td><td>5.8</td><td>4.5</td></tr><tr><td>과일 및 견과류</td><td>298.3</td><td>303.7</td><td>312.1</td><td>325.7</td><td>340.1</td><td>9.0</td><td>4.4</td><td>3.3</td></tr><tr><td>수산물</td><td>234.7</td><td>238.4</td><td>244.5</td><td>257.0</td><td>269.9</td><td>7.1</td><td>5.0</td><td>3.6</td></tr><tr><td>편의식품</td><td>166.7</td><td>168.9</td><td>172.8</td><td>181.3</td><td>190.1</td><td>5.0</td><td>4.9</td><td>3.3</td></tr><tr><td>유지류</td><td>113.8</td><td>118.0</td><td>123.5</td><td>129.7</td><td>136.6</td><td>3.6</td><td>5.3</td><td>4.7</td></tr><tr><td>소스 및 향신료</td><td>65.5</td><td>66.6</td><td>68.3</td><td>72.3</td><td>76.4</td><td>2.0</td><td>5.7</td><td>3.9</td></tr><tr><td>스프레드 및 당류</td><td>61.9</td><td>60.6</td><td>59.8</td><td>61.5</td><td>63.1</td><td>1.7</td><td>2.6</td><td>0.5</td></tr><tr><td>펫푸드</td><td>9.0</td><td>10.6</td><td>11.0</td><td>12.5</td><td>14.1</td><td>0.4</td><td>13.0</td><td>12.1</td></tr><tr><td>영유아식품</td><td>10.2</td><td>10.3</td><td>10.8</td><td>11.3</td><td>11.5</td><td>0.3</td><td>1.9</td><td>3.1</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 아랍에미리트의 1인당 식품 소비량은 2019년 약 808㎏에서 연평균 1.5% 증가한 약 859㎏으로 집계되었다.\n\n2023년 채소류 소비량은 2019년 1인당 약 233㎏에서 연평균 2.2% 증가한 약 254㎏으로 집계되었으며, 전체 식품 소비량의 29.5%를 차지했다.\n\n2023년 베이커리 및 곡물류 소비량은 2019년 1인당 약 137㎏에서 연평균 0.7% 증가한 약 141㎏으로 집계되었으며, 전체 식품 소비량의 16.5%를 차지했다.",
+    "name": "2023년 아랍에미리트의 1인당 식품 소비량은 2019년 약 808㎏에서 연평균 1.5% 증가한 약 859㎏으로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "31ad299c-98ca-4383-ab93-8655cea3d732",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "31ad299c-98ca-4383-ab93-8655cea3d732",
+        "9cf1bf24-6ebb-4ef1-9060-81064a707c2a",
+        "842c61ab-39c7-4440-9deb-dc1c3925419e"
+      ],
+      "chunked_count": 3,
+      "index": 145,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 268,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 아랍에미리트의 1인당 식품 소비량은 2019년 약 808㎏에서 연평균 1.5% 증가한 약 859㎏으로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 낙농품\n\n표제목: (단위: ㎏, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 808.2 834.1 829.2 840.2 858.6 100.0 2.2 1.5\n채소류 232.8 241.7 241.3 246.5 253.5 29.5 2.8 2.2\n베이커리 및 곡물류 137.3 140.4 138.3 138.0 141.3 16.5 2.4 0.7\n낙농품 105.4 109.5 109.5 112.2 115.8 13.5 3.2 2.4\n과일 및 견과류 97.7 99.6 97.9 98.6 100.1 11.7 1.6 0.6\n스낵류 81.3 83.8 83.7 84.4 84.2 9.8 -0.2 0.9\n육류 57.9 60.4 60.7 61.5 62.4 7.3 1.4 1.9\n편의식품 28.0 28.8 28.4 28.8 29.4 3.4 2.0 1.2\n유지류 22.3 23.4 23.6 23.9 24.4 2.8 2.1 2.3\n스프레드 및 당류 17.3 17.0 16.2 16.1 16.0 1.9 -0.3 -1.8\n소스 및 향신료 11.9 12.3 12.3 12.6 13.0 1.5 3.0 2.3\n수산물 12.3 12.6 12.4 12.6 12.9 1.5 2.5 1.3\n펫푸드 3.6 4.2 4.3 4.7 5.1 0.6 9.9 8.9\n영유아식품 0.5 0.5 0.5 0.5 0.5 0.1 0.0 1.5",
+    "name": "낙농품",
+    "meta_data": {
+      "chunk_id": "995046aa-97b6-42e9-b9a1-512b1f47de1b",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 150,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 낙농품",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b3b2fc6d-a3c4-4cbd-9786-ffabebe87aa5",
+          "content": "<table><caption>(단위: ㎏, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>808.2</td><td>834.1</td><td>829.2</td><td>840.2</td><td>858.6</td><td>100.0</td><td>2.2</td><td>1.5</td></tr><tr><td>채소류</td><td>232.8</td><td>241.7</td><td>241.3</td><td>246.5</td><td>253.5</td><td>29.5</td><td>2.8</td><td>2.2</td></tr><tr><td>베이커리 및 곡물류</td><td>137.3</td><td>140.4</td><td>138.3</td><td>138.0</td><td>141.3</td><td>16.5</td><td>2.4</td><td>0.7</td></tr><tr><td>낙농품</td><td>105.4</td><td>109.5</td><td>109.5</td><td>112.2</td><td>115.8</td><td>13.5</td><td>3.2</td><td>2.4</td></tr><tr><td>과일 및 견과류</td><td>97.7</td><td>99.6</td><td>97.9</td><td>98.6</td><td>100.1</td><td>11.7</td><td>1.6</td><td>0.6</td></tr><tr><td>스낵류</td><td>81.3</td><td>83.8</td><td>83.7</td><td>84.4</td><td>84.2</td><td>9.8</td><td>-0.2</td><td>0.9</td></tr><tr><td>육류</td><td>57.9</td><td>60.4</td><td>60.7</td><td>61.5</td><td>62.4</td><td>7.3</td><td>1.4</td><td>1.9</td></tr><tr><td>편의식품</td><td>28.0</td><td>28.8</td><td>28.4</td><td>28.8</td><td>29.4</td><td>3.4</td><td>2.0</td><td>1.2</td></tr><tr><td>유지류</td><td>22.3</td><td>23.4</td><td>23.6</td><td>23.9</td><td>24.4</td><td>2.8</td><td>2.1</td><td>2.3</td></tr><tr><td>스프레드 및 당류</td><td>17.3</td><td>17.0</td><td>16.2</td><td>16.1</td><td>16.0</td><td>1.9</td><td>-0.3</td><td>-1.8</td></tr><tr><td>소스 및 향신료</td><td>11.9</td><td>12.3</td><td>12.3</td><td>12.6</td><td>13.0</td><td>1.5</td><td>3.0</td><td>2.3</td></tr><tr><td>수산물</td><td>12.3</td><td>12.6</td><td>12.4</td><td>12.6</td><td>12.9</td><td>1.5</td><td>2.5</td><td>1.3</td></tr><tr><td>펫푸드</td><td>3.6</td><td>4.2</td><td>4.3</td><td>4.7</td><td>5.1</td><td>0.6</td><td>9.9</td><td>8.9</td></tr><tr><td>영유아식품</td><td>0.5</td><td>0.5</td><td>0.5</td><td>0.5</td><td>0.5</td><td>0.1</td><td>0.0</td><td>1.5</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 낙농품 소비량은 2019년 1인당 약 105㎏에서 연평균 2.4% 증가한 약 116㎏으로 집계되었으며, 전체 식품 소비량의 13.5%를 차지했다.",
+    "name": "2023년 낙농품 소비량은 2019년 1인당 약 105㎏에서 연평균 2.4% 증가한 약 116㎏으로 집계되었으며, 전체 식품 소비량의 13.5%를 차지했다.",
+    "meta_data": {
+      "chunk_id": "45302d39-6853-450a-8ebd-c480c6757127",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "45302d39-6853-450a-8ebd-c480c6757127"
+      ],
+      "chunked_count": 1,
+      "index": 151,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 96,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 낙농품 소비량은 2019년 1인당 약 105㎏에서 연평균 2.4% 증가한 약 116㎏으로 집계되었으며, 전체 식품 소비량의 13.5%를 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n아랍에미리트 식품 시장규모는 2023년 이후 연평균 5.2% 성장하여, 2027년 443억 달러 규모에 달할 전망이다.\n\n스낵류 시장규모는 2023년 이후 연평균 5.2% 성장하여, 2027년 94억 달러 규모에 달할 전망이다.\n\n육류 시장규모는 2023년 이후 연평균 5.5% 성장하여, 2027년 64억 달러 규모에 달할 전망이다.\n\n베이커리 및 곡물류 시장규모는 2023년 이후 연평균 4.7% 성장하여, 2027년 59억 달러 규모에 달할 전망이다.",
+    "name": "아랍에미리트 식품 시장규모는 2023년 이후 연평균 5.2% 성장하여, 2027년 443억 달러 규모에 달할 전망이다.",
+    "meta_data": {
+      "chunk_id": "1a7a6770-399b-4f86-8555-9b1abf06c8e6",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1a7a6770-399b-4f86-8555-9b1abf06c8e6",
+        "c82d73d1-6103-4843-a455-3523539d4356",
+        "8e36f193-cfaf-4d52-ba85-128dae8bf5e5",
+        "2bcac8b6-dc78-4e0c-9b01-fe2601b28564"
+      ],
+      "chunked_count": 4,
+      "index": 161,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 266,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "아랍에미리트 식품 시장규모는 2023년 이후 연평균 5.2% 성장하여, 2027년 443억 달러 규모에 달할 전망이다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 품목별 식품 시장규모 전망(2023~2027)>\n\n표제목: (단위: 십억 달러, %)\n구분 2023 2024 2025 2026 2027 비중 (27) YoY (26/27) CAGR (23/27)\n전체 36.1 38.3 40.3 42.3 44.3 100.0 4.6 5.2\n스낵류 7.7 8.1 8.5 9.0 9.4 21.3 4.8 5.2\n육류 5.2 5.5 5.8 6.1 6.4 14.5 4.7 5.5\n베이커리 및 곡물류 4.9 5.2 5.4 5.7 5.9 13.3 3.9 4.7\n채소류 4.0 4.3 4.5 4.8 5.0 11.2 4.8 5.5\n낙농품 3.9 4.1 4.4 4.6 4.9 11.0 5.0 5.9\n과일 및 견과류 3.2 3.4 3.6 3.7 3.9 8.7 3.8 4.5\n수산물 2.6 2.7 2.9 3.0 3.1 7.0 4.4 4.7\n편의식품 1.8 1.9 2.0 2.1 2.2 5.0 4.3 5.0\n유지류 1.3 1.4 1.5 1.6 1.7 3.7 5.1 6.1\n소스 및 향신료 0.7 0.8 0.8 0.9 0.9 2.0 4.7 5.4\n스프레드 및 당류 0.6 0.6 0.7 0.7 0.7 1.6 4.5 3.9\n펫푸드 0.1 0.2 0.2 0.2 0.2 0.5 11.1 11.4\n영유아식품 0.1 0.1 0.1 0.1 0.1 0.3 0.0 2.2",
+    "name": "<아랍에미리트 품목별 식품 시장규모 전망(2023~2027)>",
+    "meta_data": {
+      "chunk_id": "18fa9050-62ba-43d2-bb93-52281c65529b",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 168,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 품목별 식품 시장규모 전망(2023~2027)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4a390fb9-cdbc-4166-9416-71f43e2c1858",
+          "content": "<table><caption>(단위: 십억 달러, %)</caption><tbody><tr><th>구분</th><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>비중 (27)</th><th>YoY (26/27)</th><th>CAGR (23/27)</th></tr><tr><td>전체</td><td>36.1</td><td>38.3</td><td>40.3</td><td>42.3</td><td>44.3</td><td>100.0</td><td>4.6</td><td>5.2</td></tr><tr><td>스낵류</td><td>7.7</td><td>8.1</td><td>8.5</td><td>9.0</td><td>9.4</td><td>21.3</td><td>4.8</td><td>5.2</td></tr><tr><td>육류</td><td>5.2</td><td>5.5</td><td>5.8</td><td>6.1</td><td>6.4</td><td>14.5</td><td>4.7</td><td>5.5</td></tr><tr><td>베이커리 및 곡물류</td><td>4.9</td><td>5.2</td><td>5.4</td><td>5.7</td><td>5.9</td><td>13.3</td><td>3.9</td><td>4.7</td></tr><tr><td>채소류</td><td>4.0</td><td>4.3</td><td>4.5</td><td>4.8</td><td>5.0</td><td>11.2</td><td>4.8</td><td>5.5</td></tr><tr><td>낙농품</td><td>3.9</td><td>4.1</td><td>4.4</td><td>4.6</td><td>4.9</td><td>11.0</td><td>5.0</td><td>5.9</td></tr><tr><td>과일 및 견과류</td><td>3.2</td><td>3.4</td><td>3.6</td><td>3.7</td><td>3.9</td><td>8.7</td><td>3.8</td><td>4.5</td></tr><tr><td>수산물</td><td>2.6</td><td>2.7</td><td>2.9</td><td>3.0</td><td>3.1</td><td>7.0</td><td>4.4</td><td>4.7</td></tr><tr><td>편의식품</td><td>1.8</td><td>1.9</td><td>2.0</td><td>2.1</td><td>2.2</td><td>5.0</td><td>4.3</td><td>5.0</td></tr><tr><td>유지류</td><td>1.3</td><td>1.4</td><td>1.5</td><td>1.6</td><td>1.7</td><td>3.7</td><td>5.1</td><td>6.1</td></tr><tr><td>소스 및 향신료</td><td>0.7</td><td>0.8</td><td>0.8</td><td>0.9</td><td>0.9</td><td>2.0</td><td>4.7</td><td>5.4</td></tr><tr><td>스프레드 및 당류</td><td>0.6</td><td>0.6</td><td>0.7</td><td>0.7</td><td>0.7</td><td>1.6</td><td>4.5</td><td>3.9</td></tr><tr><td>펫푸드</td><td>0.1</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.2</td><td>0.5</td><td>11.1</td><td>11.4</td></tr><tr><td>영유아식품</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.3</td><td>0.0</td><td>2.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2022년(최신자료) 아랍에미리트의 식품 수출액은 약 182억 9,862만 달러로 전년 대비 20.0% 증가했다. 최근 5년간 수출액은 2018년 약 124억 1,419만 달러에서 연평균 10.2% 증가했다.\n\n한국으로의 식품 수출 비중은 0.2%로, 수출 상위 65위에 위치한다. 2022년 수출액은 전년 대비 11.1% 감소한 약 3,199만 달러로 집계되었다. 한국으로의 식품 수출액은 2018년 이후 연평균 39.3% 증가했다.",
+    "name": "2022년(최신자료) 아랍에미리트의 식품 수출액은 약 182억 9,862만 달러로 전년 대비 20.0% 증가했다. 최근 5년간 수출액은 2018년 약 124억 1,419만 달러에서 연평균 10.2% 증가했다.",
+    "meta_data": {
+      "chunk_id": "0dd4cf44-45b4-42ec-9899-9cb22ea88e9c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "0dd4cf44-45b4-42ec-9899-9cb22ea88e9c",
+        "8e6b0271-a66e-4611-ae60-9d51b87d3814"
+      ],
+      "chunked_count": 2,
+      "index": 178,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 233,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2022년(최신자료) 아랍에미리트의 식품 수출액은 약 182억 9,862만 달러로 전년 대비 20.0% 증가했다. 최근 5년간 수출액은 2018년 약 124억 1,419만 달러에서 연평균 10.2% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 주요 수출국\n\n구분 2018 2019 2020 2021 2022 비중 (22) YoY (21/22) CAGR (18/22)\n전체 12414187 13408481 13466267 15243376 18298620 100.0 20.0 10.2\n1 사우디아라비아 1495501 1548245 1734210 1671219 2014776 11.0 20.6 7.7\n2 이라크 1895416 1681954 1284527 1274511 1733576 9.5 36.0 -2.2\n3 오만 1154623 1269930 1029455 1158698 1490337 8.1 28.6 6.6\n4 이란 1511678 1650752 729535 1008520 1416402 7.7 40.4 -1.6\n5 소말리아 447904 616125 755328 730522 929543 5.1 27.2 20.0\n6 쿠웨이트 549328 590158 704392 727301 790622 4.3 8.7 9.5\n7 중국 89543 307978 575941 881381 652117 3.6 -26.0 64.3\n8 예멘 283407 423735 445256 498876 594098 3.2 19.1 20.3\n9 리비아 290643 364641 559656 572484 503818 2.8 -12.0 14.7\n10 아프가니스탄 458622 428451 575069 380723 450157 2.5 18.2 -0.5\nː\n65 한국 8492 38259 23276 35986 31993 0.2 -11.1 39.3",
+    "name": "주요 수출국",
+    "meta_data": {
+      "chunk_id": "0b6ae4ef-1c33-490e-bf2f-ebb41ed9eec6",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 181,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 주요 수출국",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b885dac7-1262-409c-a7f1-d88e13620a2d",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>비중 (22)</th><th>YoY (21/22)</th><th>CAGR (18/22)</th></tr><tr><td colspan=\"2\">전체</td><td>12,414,187</td><td>13,408,481</td><td>13,466,267</td><td>15,243,376</td><td>18,298,620</td><td>100.0</td><td>20.0</td><td>10.2</td></tr><tr><td>1</td><td>사우디아라비아</td><td>1,495,501</td><td>1,548,245</td><td>1,734,210</td><td>1,671,219</td><td>2,014,776</td><td>11.0</td><td>20.6</td><td>7.7</td></tr><tr><td>2</td><td>이라크</td><td>1,895,416</td><td>1,681,954</td><td>1,284,527</td><td>1,274,511</td><td>1,733,576</td><td>9.5</td><td>36.0</td><td>-2.2</td></tr><tr><td>3</td><td>오만</td><td>1,154,623</td><td>1,269,930</td><td>1,029,455</td><td>1,158,698</td><td>1,490,337</td><td>8.1</td><td>28.6</td><td>6.6</td></tr><tr><td>4</td><td>이란</td><td>1,511,678</td><td>1,650,752</td><td>729,535</td><td>1,008,520</td><td>1,416,402</td><td>7.7</td><td>40.4</td><td>-1.6</td></tr><tr><td>5</td><td>소말리아</td><td>447,904</td><td>616,125</td><td>755,328</td><td>730,522</td><td>929,543</td><td>5.1</td><td>27.2</td><td>20.0</td></tr><tr><td>6</td><td>쿠웨이트</td><td>549,328</td><td>590,158</td><td>704,392</td><td>727,301</td><td>790,622</td><td>4.3</td><td>8.7</td><td>9.5</td></tr><tr><td>7</td><td>중국</td><td>89,543</td><td>307,978</td><td>575,941</td><td>881,381</td><td>652,117</td><td>3.6</td><td>-26.0</td><td>64.3</td></tr><tr><td>8</td><td>예멘</td><td>283,407</td><td>423,735</td><td>445,256</td><td>498,876</td><td>594,098</td><td>3.2</td><td>19.1</td><td>20.3</td></tr><tr><td>9</td><td>리비아</td><td>290,643</td><td>364,641</td><td>559,656</td><td>572,484</td><td>503,818</td><td>2.8</td><td>-12.0</td><td>14.7</td></tr><tr><td>10</td><td>아프가니스탄</td><td>458,622</td><td>428,451</td><td>575,069</td><td>380,723</td><td>450,157</td><td>2.5</td><td>18.2</td><td>-0.5</td></tr><tr><td colspan=\"10\">ː</td></tr><tr><td>65</td><td>한국</td><td>8,492</td><td>38,259</td><td>23,276</td><td>35,986</td><td>31,993</td><td>0.2</td><td>-11.1</td><td>39.3</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n사우디아라비아 로의 식품 수출 비중은 11.0%로, 2022년 수출액은 전년 대비 20.6% 증가한 약 20억 1,478만 달러로 집계되었다. 사우디아라비아로의 식품 수출액은 2018년 이후 연평균 7.7% 증가했다.\n\n이라크 로의 식품 수출 비중은 9.5%로, 2022년 수출액은 전년 대비 36.0% 증가한 약 17억 3,358만 달러로 집계되었다. 이라크로의 식품 수출액은 2018년 이후 연평균 2.2% 감소했다.\n\n이 밖에도, 오만(8.1%), 이란(7.7%), 소말리아(5.1%) 등으로 식품을 수출하고 있다.\n\n*출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "사우디아라비아 로의 식품 수출 비중은 11.0%로, 2022년 수출액은 전년 대비 20.6% 증가한 약 20억 1,478만 달러로 집계되었다. 사우디아라비아로의 식품 수출액은 2018년 이후 연평균 7.7% 증가했다.",
+    "meta_data": {
+      "chunk_id": "56cd4265-ad69-414e-a0ab-daed7c2c4df0",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "56cd4265-ad69-414e-a0ab-daed7c2c4df0",
+        "66c3a8df-1b14-4e31-9fce-1b03142b394e",
+        "caace51c-a5c1-4e53-b89b-11463e20738b",
+        "24d40a14-f618-47c6-8821-2229db5cf4c8"
+      ],
+      "chunked_count": 4,
+      "index": 182,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 300,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "사우디아라비아 로의 식품 수출 비중은 11.0%로, 2022년 수출액은 전년 대비 20.6% 증가한 약 20억 1,478만 달러로 집계되었다. 사우디아라비아로의 식품 수출액은 2018년 이후 연평균 7.7% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2022년(최신자료) 수출액 기준 무첨가 우유·크림, 유채유(조유), 사탕수수(기타), 렌즈콩, 조제식료품 등 순으로 큰 비중을 차지했다.",
+    "name": "2022년(최신자료) 수출액 기준 무첨가 우유·크림, 유채유(조유), 사탕수수(기타), 렌즈콩, 조제식료품 등 순으로 큰 비중을 차지했다.",
+    "meta_data": {
+      "chunk_id": "dd26f5de-8bf7-4bb6-9009-75b87d7039b5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "dd26f5de-8bf7-4bb6-9009-75b87d7039b5"
+      ],
+      "chunked_count": 1,
+      "index": 195,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 87,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2022년(최신자료) 수출액 기준 무첨가 우유·크림, 유채유(조유), 사탕수수(기타), 렌즈콩, 조제식료품 등 순으로 큰 비중을 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 주요 수출품목\n\n표제목: (단위: 천 달러, %)\n구분 2018 2019 2020 2021 2022 비중 (22) YoY (21/22) CAGR (18/22)\n전체 12414187 13408481 13466267 15243376 18298620 100.0 20.0 10.2\n1 무첨가 우유·크림 578581 549705 534966 567827 663890 3.6 16.9 3.5\n2 유채유(조유) 5311 165276 287017 361013 493906 2.7 36.8 210.5\n3 사탕수수(기타) 338555 138396 576990 697151 410738 2.2 -41.1 5.0\n4 렌즈콩 107037 123668 184079 239590 389750 2.1 62.7 38.1\n5 조제식료품 300964 246519 286412 257751 313066 1.7 21.5 1.0\n6 홍차(3kg 이하) 182783 173856 236110 241935 295202 1.6 22.0 12.7\n7 신선·건조 대추야자 197553 218566 228768 272015 285506 1.6 5.0 9.6\n8 아몬드 177685 234542 200282 226386 273678 1.5 20.9 11.4\n9 유채씨 추출 유박 80055 117153 163896 215346 249650 1.4 15.9 32.9\n10 팜유(기타) 92311 45989 70732 162100 222686 1.2 37.4 24.6",
+    "name": "주요 수출품목",
+    "meta_data": {
+      "chunk_id": "1aa521ab-cf32-4237-be2d-4e846178bcc1",
+      "page_number": [
+        10
+      ],
+      "item_label": "merged",
+      "index": 196,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 주요 수출품목",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "38d1d8fc-69cd-44e0-935f-a3f01d7b74a8",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2018</th><th>2019</th><th>2020</th><td></td><th>2021</th><th>2022</th><th>비중 (22)</th><th>YoY (21/22)</th><th>CAGR (18/22)</th></tr><tr><td colspan=\"2\">전체</td><td>12,414,187</td><td>13,408,481</td><td>13,466,267</td><td></td><td>15,243,376</td><td>18,298,620</td><td>100.0</td><td>20.0</td><td>10.2</td></tr><tr><td>1</td><td>무첨가 우유·크림</td><td>578,581</td><td></td><td>549,705</td><td>534,966</td><td>567,827</td><td>663,890</td><td>3.6</td><td>16.9</td><td>3.5</td></tr><tr><td>2</td><td>유채유(조유)</td><td>5,311</td><td></td><td>165,276</td><td>287,017</td><td>361,013</td><td>493,906</td><td>2.7</td><td>36.8</td><td>210.5</td></tr><tr><td>3</td><td>사탕수수(기타)</td><td>338,555</td><td></td><td>138,396</td><td>576,990</td><td>697,151</td><td>410,738</td><td>2.2</td><td>-41.1</td><td>5.0</td></tr><tr><td>4</td><td>렌즈콩</td><td>107,037</td><td></td><td>123,668</td><td>184,079</td><td>239,590</td><td>389,750</td><td>2.1</td><td>62.7</td><td>38.1</td></tr><tr><td>5</td><td>조제식료품</td><td>300,964</td><td></td><td>246,519</td><td>286,412</td><td>257,751</td><td>313,066</td><td>1.7</td><td>21.5</td><td>1.0</td></tr><tr><td>6</td><td>홍차(3kg 이하)</td><td>182,783</td><td>173,856</td><td></td><td>236,110</td><td>241,935</td><td>295,202</td><td>1.6</td><td>22.0</td><td>12.7</td></tr><tr><td>7</td><td>신선·건조 대추야자</td><td>197,553</td><td>218,566</td><td></td><td>228,768</td><td>272,015</td><td>285,506</td><td>1.6</td><td>5.0</td><td>9.6</td></tr><tr><td>8</td><td>아몬드</td><td>177,685</td><td>234,542</td><td></td><td>200,282</td><td>226,386</td><td>273,678</td><td>1.5</td><td>20.9</td><td>11.4</td></tr><tr><td>9</td><td>유채씨 추출 유박</td><td>80,055</td><td>117,153</td><td></td><td>163,896</td><td>215,346</td><td>249,650</td><td>1.4</td><td>15.9</td><td>32.9</td></tr><tr><td>10</td><td>팜유(기타)</td><td>92,311</td><td>45,989</td><td></td><td>70,732</td><td>162,100</td><td>222,686</td><td>1.2</td><td>37.4</td><td>24.6</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n무첨가 우유·크림 수출 비중은 3.6%로, 2022년 수출액은 전년 대비 16.9% 증가한 약 6억 6,389만 달러로 집계되었다. 2018년 이후 수출액은 연평균 3.5% 증가했다.\n\n유채유(조유) 수출 비중은 2.7%로, 2022년 수출액은 전년 대비 36.8% 증가한 약 4억 9,391만 달러로 집계되었다. 2018년 이후 수출액은 연평균 210.5% 증가했다.\n\n사탕수수(기타) 수출 비중은 2.2%로, 2022년 수출액은 전년 대비 41.1% 감소한 약 4억 1,074만 달러로 집계되었다. 2018년 이후 수출액은 연평균 24.8% 증가했다.\n\n렌즈콩 수출 비중은 2.1%로, 2022년 수출액은 전년 대비 62.7% 증가한 약 3억 8,975만 달러로 집계되었다. 2018년 이후 수출액은 연평균 38.1% 증가했다.\n\n조제식료품 수출 비중은 1.7%로, 2022년 수출액은 전년 대비 21.5% 증가한 약 3억 1,307만 달러로 집계되었다. 2018년 이후 수출액은 연평균 1.0% 증가했다.\n\n이 밖에도, 홍차(3kg 이하)(1.6%), 신선·건조 대추야자(1.6%), 아몬드(1.5%) 등을 수출했다.\n\nHS CODE(0402.21, 1514.11, 1701.99, 0713.40, 2106.90, 0902.30, 0804.10, 0802.12, 2306.41, 1511.90)\n\n**출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "무첨가 우유·크림 수출 비중은 3.6%로, 2022년 수출액은 전년 대비 16.9% 증가한 약 6억 6,389만 달러로 집계되었다. 2018년 이후 수출액은 연평균 3.5% 증가했다.",
+    "meta_data": {
+      "chunk_id": "26d887d0-ad67-40d6-af68-944264c18597",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "26d887d0-ad67-40d6-af68-944264c18597",
+        "fa1dbde8-868e-4dc8-bfad-d62fc40d9e48",
+        "da50981b-fbc6-45c7-9122-a5dfc0a71cd2",
+        "166e6fb9-67e6-4e62-8d28-f5cba9d7a528",
+        "69e58461-872c-4e7f-8fb7-978e4f859fec",
+        "a2bff75b-3ebc-4831-bf4c-d2a37fb6e03f",
+        "eee97a1c-e46e-4290-9e10-2f81696d218c",
+        "c7d59834-2440-4bbf-b7ed-3740d655eaf7"
+      ],
+      "chunked_count": 8,
+      "index": 197,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 651,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "무첨가 우유·크림 수출 비중은 3.6%로, 2022년 수출액은 전년 대비 16.9% 증가한 약 6억 6,389만 달러로 집계되었다. 2018년 이후 수출액은 연평균 3.5% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2022년(최신자료) 아랍에미리트의 식품 수입액은 전년 대비 26.8% 증가한 약 232억 218만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.2% 증가했다.\n\n한국에서의 식품 수입 비중은 1.8%로, 수입 상위 17위에 위치한다. 2022년 수입액은 전년 대비 16.8% 증가한 약 4억 1,960만 달러로 집계되었다. 2018년 이후 수입액은 연평균 6.5% 증가했다.",
+    "name": "2022년(최신자료) 아랍에미리트의 식품 수입액은 전년 대비 26.8% 증가한 약 232억 218만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.2% 증가했다.",
+    "meta_data": {
+      "chunk_id": "5ed1f669-9053-4180-9888-1402b0336b5c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "5ed1f669-9053-4180-9888-1402b0336b5c",
+        "d12ae978-9901-4e10-8a28-6659171a3f2b"
+      ],
+      "chunked_count": 2,
+      "index": 213,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 211,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2022년(최신자료) 아랍에미리트의 식품 수입액은 전년 대비 26.8% 증가한 약 232억 218만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.2% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 주요 수입국\n\n표제목: (단위: 천 달러, %)\n구분 2018 2019 2020 2021 2022 비중 (22) YoY (21/22)\n전체 17582365 17653088 16661232 18292472 23202181 100.0 26.8\n인도 1826308 1544506 1544298 1957248 2397082 10.3 22.5\n브라질 1454799 1623859 1255787 1443216 2099560 9.0 45.5\n호주 788078 606346 541431 882425 1661033 7.2 88.2\n미국 1281976 1594097 1286542 1287097 1481200 6.4 15.1\n사우디아라비아 827310 852570 786898 845509 1034809 4.5 22.4\n중국 507204 528114 467123 531353 793629 3.4 49.4\n프랑스 557789 530451 397589 539883 771086 3.3 42.8\n영국 534916 499187 449536 491100 659003 2.8 34.2\n캐나다 506678 531486 798142 815473 628078 2.7 -23.0\n뉴질랜드 600922 501199 507599 504560 588278 2.5 16.6\nː\n한국 326484 242606 475391 359360 419601 1.8 16.8",
+    "name": "주요 수입국",
+    "meta_data": {
+      "chunk_id": "bf925521-f28b-4f86-bd2a-3d8c6d064eb6",
+      "page_number": [
+        11
+      ],
+      "item_label": "merged",
+      "index": 216,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 주요 수입국",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ad75ecd6-23e3-49bc-a96b-fe0ce23d242e",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><td></td><td>구분</td><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>비중 (22)</th><th>YoY (21/22)</th></tr><tr><td></td><td>전체</td><td>17,582,365</td><td>17,653,088</td><td>16,661,232</td><td>18,292,472</td><td>23,202,181</td><td>100.0</td><td>26.8</td></tr><tr><td></td><td>인도</td><td>1,826,308</td><td>1,544,506</td><td>1,544,298</td><td>1,957,248</td><td>2,397,082</td><td>10.3</td><td>22.5</td></tr><tr><td></td><td>브라질</td><td>1,454,799</td><td>1,623,859</td><td>1,255,787</td><td>1,443,216</td><td>2,099,560</td><td>9.0</td><td>45.5</td></tr><tr><td></td><td>호주</td><td>788,078</td><td>606,346</td><td>541,431</td><td>882,425</td><td>1,661,033</td><td>7.2</td><td>88.2</td></tr><tr><td></td><td>미국</td><td>1,281,976</td><td>1,594,097</td><td>1,286,542</td><td>1,287,097</td><td>1,481,200</td><td>6.4</td><td>15.1</td></tr><tr><td></td><td>사우디아라비아</td><td>827,310</td><td>852,570</td><td>786,898</td><td>845,509</td><td>1,034,809</td><td>4.5</td><td>22.4</td></tr><tr><td></td><td>중국</td><td>507,204</td><td>528,114</td><td>467,123</td><td>531,353</td><td>793,629</td><td>3.4</td><td>49.4</td></tr><tr><td></td><td>프랑스</td><td>557,789</td><td>530,451</td><td>397,589</td><td>539,883</td><td>771,086</td><td>3.3</td><td>42.8</td></tr><tr><td></td><td>영국</td><td>534,916</td><td>499,187</td><td>449,536</td><td>491,100</td><td>659,003</td><td>2.8</td><td>34.2</td></tr><tr><td></td><td>캐나다</td><td>506,678</td><td>531,486</td><td>798,142</td><td>815,473</td><td>628,078</td><td>2.7</td><td>-23.0</td></tr><tr><td></td><td>뉴질랜드</td><td>600,922</td><td>501,199</td><td>507,599</td><td>504,560</td><td>588,278</td><td>2.5</td><td>16.6</td></tr><tr><td colspan=\"10\">ː</td></tr><tr><td></td><td>한국</td><td>326,484</td><td>242,606</td><td>475,391</td><td>359,360</td><td>419,601</td><td>1.8</td><td>16.8</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n인도 에서의 식품 수입 비중은 10.3%로, 2022년 수입액은 전년 대비 22.5% 증가한 약 23억 9,708만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.0% 증가했다.\n\n브라질 에서의 식품 수입 비중은 9.0%로, 2022년 수입액은 전년 대비 45.5% 증가한 약 20억 9,956만 달러로 집계되었다. 2018년 이후 수입액은 연평균 9.6% 증가했다.\n\n이 밖에도, 호주(7.2%), 미국(6.4%), 사우디아라비아(4.5%) 등에서 식품을 수입하고 있다.\n\n*출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "인도 에서의 식품 수입 비중은 10.3%로, 2022년 수입액은 전년 대비 22.5% 증가한 약 23억 9,708만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.0% 증가했다.",
+    "meta_data": {
+      "chunk_id": "6391a00b-88fe-4a86-8f31-dd26e18e89f5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6391a00b-88fe-4a86-8f31-dd26e18e89f5",
+        "b1b2196c-3536-479f-bf4d-60b0f7269a5c",
+        "10ce0ba7-ecd1-49fb-8054-544f62f6ddd8",
+        "b8b22220-22fd-49ea-a4d7-3743a6ef2825"
+      ],
+      "chunked_count": 4,
+      "index": 217,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 279,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "인도 에서의 식품 수입 비중은 10.3%로, 2022년 수입액은 전년 대비 22.5% 증가한 약 23억 9,708만 달러로 집계되었다. 2018년 이후 수입액은 연평균 7.0% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2022년(최신자료) 수입액 기준 유채씨(기타), 조제식료품, 무첨가 우유·크림, 미절단 냉동 닭고기, 닭(기타) 등 순으로 큰 비중을 차지했다.\n\n유채씨(기타) 수입 비중은 3.8%로, 2022년 수입액은 전년 대비 25.2% 증가한 약 8억 9,093만 달러로 집계되었다. 2018년 이후 수입액은 연평균 25.3% 증가했다.\n\n조제식료품 수입 비중은 3.2%로, 2022년 수입액은 전년 대비 26.0% 증가한 약 7억 5,168만 달러로 집계되었다. 2018년 이후 수입액은 연평균 10.5% 증가했다.\n\n무첨가 우유·크림 수입 비중은 3.1%로, 2022년 수입액은 전년 대비 29.8% 증가한 약 7억 2,004만 달러로 집계되었다. 2018년 이후 수입액은 연평균 42.6% 증가했다.\n\n미절단 냉동 닭고기 수입 비중은 2.8%로, 2022년 수입액은 전년 대비 83.4% 증가한 약 6억 3,961만 달러로 집계되었다. 2018년 이후 수입액은 연평균 19.3% 증가했다.\n\n닭(기타) 수입 비중은 2.5%로, 2022년 수입액은 전년 대비 51.3% 증가한 약 5억 8,341만 달러로 집계되었다. 2018년 이후 수입액은 연평균 10.1% 증가했다.\n\n이 밖에도, 밀(기타)(2.4%), 쌀(정미)(2.3%), 팜유(기타)(1.9%) 등을 수입했다.",
+    "name": "2022년(최신자료) 수입액 기준 유채씨(기타), 조제식료품, 무첨가 우유·크림, 미절단 냉동 닭고기, 닭(기타) 등 순으로 큰 비중을 차지했다.",
+    "meta_data": {
+      "chunk_id": "d3c89dec-01cb-40c4-8f63-09f4484c600a",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d3c89dec-01cb-40c4-8f63-09f4484c600a",
+        "d644feb6-0d0f-4664-a4c5-a47b53095e92",
+        "90fb0b28-e0a5-4df5-a6b0-bdfffefb32bd",
+        "11573d12-f225-494e-9b08-ec86bc431497",
+        "5560d85e-cee0-4706-a67c-c56f1df63e7f",
+        "ed206764-4159-4b46-8897-947c6dc3f8c5",
+        "69862629-5c6a-4d57-b916-5d2585b3f803"
+      ],
+      "chunked_count": 7,
+      "index": 228,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 659,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2022년(최신자료) 수입액 기준 유채씨(기타), 조제식료품, 무첨가 우유·크림, 미절단 냉동 닭고기, 닭(기타) 등 순으로 큰 비중을 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 수입품목 현황(2018~2022)>\n\n표제목: (단위: 천 달러, %)\n구분 2018 2019 2020 2021 2022 비중 (22) YoY (21/22) CAGR (18/22)\n전체 17 582365 17 653088 16 661232 18 292472 23 202181 100.0 26.8 7.2\n유채씨(기타) 361988 317169 499923 711628 890928 3.8 25.2 25.3\n조제식료품 504878 481529 552435 596537 751677 3.2 26.0 10.5\n무첨가 우유·크림 519173 448692 563396 554912 720037 3.1 29.8 8.5\n미절단 냉동 닭고기 316219 328245 309918 348823 639614 2.8 83.4 19.3\n닭(기타) 396792 448681 306601 385635 583412 2.5 51.3 10.1\n밀(기타) 330283 333440 374306 415415 545601 2.4 31.3 13.4\n쌀(정미) 692386 528622 558013 391253 540472 2.3 38.1 -6.0\n팜유(기타) 261378 212496 187805 342671 437777 1.9 27.8 13.8\n렌즈콩 103223 114192 130232 175900 399219 1.7 127.0 40.2\n냉동 쇠고기 293955 624439 264990 310611 395599 1.7 27.4 7.7",
+    "name": "<아랍에미리트 수입품목 현황(2018~2022)>",
+    "meta_data": {
+      "chunk_id": "4e8a5171-94da-47ad-acab-355adbe4f563",
+      "page_number": [
+        12
+      ],
+      "item_label": "merged",
+      "index": 236,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 수입품목 현황(2018~2022)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "59801e2d-d09f-4381-8a84-4b178b686751",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2018</th><th>2019</th><td></td><th>2020</th><th>2021</th><th>2022</th><th>비중 (22)</th><th>YoY (21/22)</th><th>CAGR (18/22)</th></tr><tr><td colspan=\"2\">전체</td><td>17, 582,365</td><td>17, 653,088</td><td>16, 661,232</td><td>18, 292,472</td><td>23, 202,181</td><td>100.0</td><td>26.8</td><td>7.2</td></tr><tr><td></td><td>유채씨(기타)</td><td>361,988</td><td>317,169</td><td>499,923</td><td>711,628</td><td>890,928</td><td>3.8</td><td>25.2</td><td>25.3</td></tr><tr><td></td><td>조제식료품</td><td>504,878</td><td>481,529</td><td>552,435</td><td>596,537</td><td>751,677</td><td>3.2</td><td>26.0</td><td>10.5</td></tr><tr><td></td><td>무첨가 우유·크림</td><td>519,173</td><td>448,692</td><td>563,396</td><td>554,912</td><td>720,037</td><td>3.1</td><td>29.8</td><td>8.5</td></tr><tr><td></td><td>미절단 냉동 닭고기</td><td>316,219</td><td>328,245</td><td>309,918</td><td>348,823</td><td>639,614</td><td>2.8</td><td>83.4</td><td>19.3</td></tr><tr><td></td><td>닭(기타)</td><td>396,792</td><td>448,681</td><td>306,601</td><td>385,635</td><td>583,412</td><td>2.5</td><td>51.3</td><td>10.1</td></tr><tr><td></td><td>밀(기타)</td><td>330,283</td><td>333,440</td><td>374,306</td><td>415,415</td><td>545,601</td><td>2.4</td><td>31.3</td><td>13.4</td></tr><tr><td></td><td>쌀(정미)</td><td>692,386</td><td>528,622</td><td>558,013</td><td>391,253</td><td>540,472</td><td>2.3</td><td>38.1</td><td>-6.0</td></tr><tr><td></td><td>팜유(기타)</td><td>261,378</td><td>212,496</td><td>187,805</td><td>342,671</td><td>437,777</td><td>1.9</td><td>27.8</td><td>13.8</td></tr><tr><td></td><td>렌즈콩</td><td>103,223</td><td>114,192</td><td>130,232</td><td>175,900</td><td>399,219</td><td>1.7</td><td>127.0</td><td>40.2</td></tr><tr><td></td><td>냉동 쇠고기</td><td>293,955</td><td>624,439</td><td>264,990</td><td>310,611</td><td>395,599</td><td>1.7</td><td>27.4</td><td>7.7</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*주: HS CODE(1205.10, 2106.90, 0402.21, 0207.12, 0207.14, 1001.99, 1006.30, 1511.90, 0713.40, 0202.30) **출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "*주: HS CODE(1205.10, 2106.90, 0402.21, 0207.12, 0207.14, 1001.99, 1006.30, 1511.90, 0713.40, 0202.30) **출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "meta_data": {
+      "chunk_id": "f3a8ac9d-13b4-4430-977c-561a4b58e6fa",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "f3a8ac9d-13b4-4430-977c-561a4b58e6fa"
+      ],
+      "chunked_count": 1,
+      "index": 238,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 86,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*주: HS CODE(1205.10, 2106.90, 0402.21, 0207.12, 0207.14, 1001.99, 1006.30, 1511.90, 0713.40, 0202.30) **출처: ITC Trademap(www.trademap.org)(2024.07.)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 한국산 식품의 對아랍에미리트 수출액은 약 2억 4,795만 달러로 2019년 약 1억 3,756만 달러에서 연평균 15.9% 증가했다.\n\n농산물 수출 비중은 96.9%로, 2023년 수출액은 전년 대비 5.5% 증가한 약 2억 4,026만 달러로 집계되었다. 2019년 이후 수출액은 연평균 16.0%의 증가세를 보인다.\n\n수산물 수출 비중은 1.5%로, 2023년 수출액은 전년 대비 9.0% 증가한 약 371만 달러로 집계되었다. 2019년 이후 수출액은 연평균 21.6%의 증가세를 보인다.\n\n임산물 수출 비중은 1.3%로, 2023년 수출액은 전년 대비 20.9% 감소한 약 320만 달러로 집계되었다. 2019년 이후 수출액은 연평균 7.3%의 증가세를 보인다.",
+    "name": "2023년 한국산 식품의 對아랍에미리트 수출액은 약 2억 4,795만 달러로 2019년 약 1억 3,756만 달러에서 연평균 15.9% 증가했다.",
+    "meta_data": {
+      "chunk_id": "06aee713-ba78-4f7c-a993-e32d33c50b40",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "06aee713-ba78-4f7c-a993-e32d33c50b40",
+        "6bd99dea-2718-4292-8e6b-caa033fe2fb6",
+        "9acaa39a-3019-4f93-b97f-6de0d08ce519",
+        "25925015-ab31-4fae-8532-4dc2c97fc064"
+      ],
+      "chunked_count": 4,
+      "index": 246,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 374,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 한국산 식품의 對아랍에미리트 수출액은 약 2억 4,795만 달러로 2019년 약 1억 3,756만 달러에서 연평균 15.9% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 축산물\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 137557 262604 202193 235934 247949 100.0 5.1 15.9\n농산물 132721 259526 198002 227664 240261 96.9 5.5 16.0\n수산물 1696 1752 2275 3405 3712 1.5 9.0 21.6\n임산물 2418 817 1171 4046 3202 1.3 -20.9 7.3\n축산물 723 510 745 819 773 0.3 -5.6 1.7",
+    "name": "축산물",
+    "meta_data": {
+      "chunk_id": "da2d5ec9-ed98-45e7-8753-cbbe0fb08f60",
+      "page_number": [
+        13
+      ],
+      "item_label": "merged",
+      "index": 253,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 축산물",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d5d0131d-3824-4860-86c8-efd3af2645a1",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>137,557</td><td>262,604</td><td>202,193</td><td>235,934</td><td>247,949</td><td>100.0</td><td>5.1</td><td>15.9</td></tr><tr><td>농산물</td><td>132,721</td><td>259,526</td><td>198,002</td><td>227,664</td><td>240,261</td><td>96.9</td><td>5.5</td><td>16.0</td></tr><tr><td>수산물</td><td>1,696</td><td>1,752</td><td>2,275</td><td>3,405</td><td>3,712</td><td>1.5</td><td>9.0</td><td>21.6</td></tr><tr><td>임산물</td><td>2,418</td><td>817</td><td>1,171</td><td>4,046</td><td>3,202</td><td>1.3</td><td>-20.9</td><td>7.3</td></tr><tr><td>축산물</td><td>723</td><td>510</td><td>745</td><td>819</td><td>773</td><td>0.3</td><td>-5.6</td><td>1.7</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n축산물 수출 비중은 0.3%로, 2023년 수출액은 전년 대비 5.6% 감소한 약 77만 달러로 집계되었다. 2019년 이후 수출액은 연평균 1.7%의 증가세를 보인다.\n\n*출처: KATI 농식품 수출정보(www.kati.net)(2024.07.)",
+    "name": "축산물 수출 비중은 0.3%로, 2023년 수출액은 전년 대비 5.6% 감소한 약 77만 달러로 집계되었다. 2019년 이후 수출액은 연평균 1.7%의 증가세를 보인다.",
+    "meta_data": {
+      "chunk_id": "ded25c81-961d-4a61-bdb9-5e80cf39a6fa",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ded25c81-961d-4a61-bdb9-5e80cf39a6fa",
+        "a10747e3-ba1d-4215-8a3a-6d42ac883c68"
+      ],
+      "chunked_count": 2,
+      "index": 254,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 125,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "축산물 수출 비중은 0.3%로, 2023년 수출액은 전년 대비 5.6% 감소한 약 77만 달러로 집계되었다. 2019년 이후 수출액은 연평균 1.7%의 증가세를 보인다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 한국의 對아랍에미리트 주요 수출 품목은 수출액 기준 라면, 조제식료품(기타), 차, 마태(설탕 대용물 함유), 비스킷류, 아이스크림 등으로 나타난다.\n\n2019년부터 2023년까지 연평균 수출성장률이 높은 품목에는 '조제식료품 기타(109.7%↑)'과 '조미김(69.9%↑)' 등이 있다.",
+    "name": "2023년 한국의 對아랍에미리트 주요 수출 품목은 수출액 기준 라면, 조제식료품(기타), 차, 마태(설탕 대용물 함유), 비스킷류, 아이스크림 등으로 나타난다.",
+    "meta_data": {
+      "chunk_id": "9769aeec-563a-43bb-a8c2-e85934ddbc19",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9769aeec-563a-43bb-a8c2-e85934ddbc19",
+        "a03f3663-3461-437f-a44f-d6e526370728"
+      ],
+      "chunked_count": 2,
+      "index": 264,
+      "page_number": [
+        14
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 162,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 한국의 對아랍에미리트 주요 수출 품목은 수출액 기준 라면, 조제식료품(기타), 차, 마태(설탕 대용물 함유), 비스킷류, 아이스크림 등으로 나타난다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 주요 수출품목\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23)\n전체 137557 262604 202193 235934 247949 100.0 5.1\n라면 3882 5079 10827 17225 15017 6.1 -12.8\n조제식료품(기타) 155 259 344 399 3000 1.2 651.2\n차 마태(설탕대용물함유) 1 39 12 3 2454 1.0 74257.6\n비스킷류 2225 1792 1916 2264 2420 1.0 6.9\n아이스크림 1256 1715 1891 1212 1934 0.8 59.6\n조미김 196 745 939 1012 1630 0.7 61.1\n소스 조제품(기타) 274 496 991 1258 955 0.4 -24.1\n속을 채운 파스타 582 526 388 626 946 0.4 51.1\n베이커리 제품 541 563 916 903 935 0.4 3.6\n쌀가루 조제식료품 114 340 368 336 825 0.3 145.2",
+    "name": "주요 수출품목",
+    "meta_data": {
+      "chunk_id": "7e444006-5b73-4436-be15-9748a21721ba",
+      "page_number": [
+        14
+      ],
+      "item_label": "merged",
+      "index": 266,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 주요 수출품목",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "52cc27f4-ec48-4c65-a9d0-f8ea52d564fe",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2019 2020</th><td></td><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th></tr><tr><td colspan=\"2\">전체</td><td>137,557</td><td>262,604</td><td>202,193</td><td>235,934</td><td>247,949</td><td>100.0</td><td>5.1</td></tr><tr><td></td><td>라면</td><td>3,882</td><td>5,079</td><td>10,827</td><td>17,225</td><td>15,017</td><td>6.1</td><td>-12.8</td></tr><tr><td></td><td>조제식료품(기타)</td><td>155</td><td>259</td><td>344</td><td>399</td><td>3,000</td><td>1.2</td><td>651.2</td></tr><tr><td></td><td>차, 마태(설탕대용물함유)</td><td>1</td><td>39</td><td>12</td><td>3</td><td>2,454</td><td>1.0</td><td>74,257.6</td></tr><tr><td></td><td>비스킷류</td><td>2,225</td><td>1,792</td><td>1,916</td><td>2,264</td><td>2,420</td><td>1.0</td><td>6.9</td></tr><tr><td></td><td>아이스크림</td><td>1,256</td><td>1,715</td><td>1,891</td><td>1,212</td><td>1,934</td><td>0.8</td><td>59.6</td></tr><tr><td></td><td>조미김</td><td>196</td><td>745</td><td>939</td><td>1,012</td><td>1,630</td><td>0.7</td><td>61.1</td></tr><tr><td></td><td>소스 조제품(기타)</td><td>274</td><td>496</td><td>991</td><td>1,258</td><td>955</td><td>0.4</td><td>-24.1</td></tr><tr><td></td><td>속을 채운 파스타</td><td>582</td><td>526</td><td>388</td><td>626</td><td>946</td><td>0.4</td><td>51.1</td></tr><tr><td></td><td>베이커리 제품</td><td>541</td><td>563</td><td>916</td><td>903</td><td>935</td><td>0.4</td><td>3.6</td></tr><tr><td></td><td>쌀가루 조제식료품</td><td>114</td><td>340</td><td>368</td><td>336</td><td>825</td><td>0.3</td><td>145.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n라면 수출 비중은 6.1%로, 2023년 수출액은 전년 대비 12.8% 감소한 약 1,502만 달러로 집계되었다. 2019년 이후 수출액은연평균 40.2% 증가했다.\n\n조제식료품(기타) 수출 비중은 1.2%로, 2023년 수출액은 전년 대비 651.2% 증가한 약 300만 달러로 집계되었다. 2019년 이후 수출액은 연평균 109.7% 증가했다.\n\n차, 마태(설탕 대용물 함유) 수출 비중은 1.0%로, 2023년 수출액은 전년 대비 74,257.6% 증가한 약 245만 달러로 집계되었다.\n\n비스킷류 수출 비중은 1.0%로, 2023년 수출액은 전년 대비 6.9% 증가 약 242만 달러로 집계되었다. 2019년 이후 수출액은 연평균 2.1% 증가했다.\n\n아이스크림 수출 비중은 0.8%로, 2023년 수출액은 전년 대비 59.6% 증가한 약 193만 달러로 집계되었다. 2019년 이후 수출액은 연평균 11.4% 증가했다.\n\n*주1: HS CODE(1902.30-1010, 2106.90-9099, 2101.20-1000, 1905.90-1040, 2105.00-1090, 2008.99-5010, 2103.90-9090, 1902.20-0000, 1905.90-1090, 1901.90-9091)\n\n**주2: 'N/A'는 해당사항(또는 해당값) 없음을 의미\n\n***출처: KATI 농식품 수출정보(www.kati.net)(2024.07.)",
+    "name": "라면 수출 비중은 6.1%로, 2023년 수출액은 전년 대비 12.8% 감소한 약 1,502만 달러로 집계되었다. 2019년 이후 수출액은연평균 40.2% 증가했다.",
+    "meta_data": {
+      "chunk_id": "a0911a21-b002-48f5-bcc0-a863bc4b5fb8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a0911a21-b002-48f5-bcc0-a863bc4b5fb8",
+        "541d3f52-de44-4f1f-807a-6edb3512695a",
+        "d5315d23-a555-4a07-8237-e0fb0f6efebb",
+        "49b21784-35b2-465b-bc7a-57c928d33dc2",
+        "9c65fb1d-ea66-4d87-9f2f-60fb9070a530",
+        "db355ed5-a6a0-4895-addb-cd0b2c93ddd2",
+        "466159e4-92f5-40aa-b46d-0ce1eac44d39",
+        "7c84dca6-ddfa-43d7-b180-8386d5b34681"
+      ],
+      "chunked_count": 8,
+      "index": 267,
+      "page_number": [
+        14
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 605,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "라면 수출 비중은 6.1%로, 2023년 수출액은 전년 대비 12.8% 감소한 약 1,502만 달러로 집계되었다. 2019년 이후 수출액은연평균 40.2% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 아랍에미리트의 오프라인 식품 유통채널 규모는 2019년 642억 1,410만 디르함에서 연평균 3.8% 성장한 745억 9,280만 디르함으로 집계되었다.\n\n2023년 하이퍼마켓의 규모는 2019년 354억 6,670만 디르함에서 연평균 3.7% 성장한 410억 7,440만 디르함으로 집계되었으며, 전체 오프라인 유통채널에서 55.1%를 차지했다.\n\n2023년 슈퍼마켓의 규모는 2019년 145억 9,470만 디르함에서 연평균 6.2% 성장한 185억 3,330만 디르함으로 집계되었으며, 전체 오프라인 유통채널에서 24.8%를 차지했다.",
+    "name": "2023년 아랍에미리트의 오프라인 식품 유통채널 규모는 2019년 642억 1,410만 디르함에서 연평균 3.8% 성장한 745억 9,280만 디르함으로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "631c68f2-b14a-4293-bd5c-c700efb08978",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "631c68f2-b14a-4293-bd5c-c700efb08978",
+        "e583da0a-8bc0-45ab-bf54-d8edc27b8e23",
+        "0c99980c-2888-4e58-bea0-783d8e135416"
+      ],
+      "chunked_count": 3,
+      "index": 283,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 316,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 아랍에미리트의 오프라인 식품 유통채널 규모는 2019년 642억 1,410만 디르함에서 연평균 3.8% 성장한 745억 9,280만 디르함으로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 전문판매점\n\n표제목: (단위:백만 디르함, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 64214.1 69082.0 68358.2 71567.8 74592.8 100.0 4.2 3.8\n하이퍼마켓 35466.7 39525.9 37905.3 39839.3 41074.4 55.1 3.1 3.7\n슈퍼마켓 14594.7 16565.0 16912.9 17432.3 18533.3 24.8 6.3 6.2\n전문판매점 6734.0 6303.0 6454.0 6692.5 6942.7 9.3 3.7 0.8\n소규모식료품점 3569.9 3341.4 3421.5 3596.9 3722.1 5.0 3.5 1.0\n포코트리테일러 2196.8 1909.6 2035.6 2273.6 2361.1 3.2 3.8 1.8\n편의점 1580.3 1295.8 1395.6 1431.9 1479.2 2.0 3.3 -1.6\n할인점 71.8 141.3 233.3 301.2 480.0 0.6 59.4 60.8",
+    "name": "전문판매점",
+    "meta_data": {
+      "chunk_id": "79264ac1-c39c-4458-a950-b6ed587b4d2c",
+      "page_number": [
+        15
+      ],
+      "item_label": "merged",
+      "index": 288,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 전문판매점",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "44c66827-bdba-49e0-9687-5f983d73082c",
+          "content": "<table><caption>(단위:백만 디르함, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>64,214.1</td><td>69,082.0</td><td>68,358.2</td><td>71,567.8</td><td>74,592.8</td><td>100.0</td><td>4.2</td><td>3.8</td></tr><tr><td>하이퍼마켓</td><td>35,466.7</td><td>39,525.9</td><td>37,905.3</td><td>39,839.3</td><td>41,074.4</td><td>55.1</td><td>3.1</td><td>3.7</td></tr><tr><td>슈퍼마켓</td><td>14,594.7</td><td>16,565.0</td><td>16,912.9</td><td>17,432.3</td><td>18,533.3</td><td>24.8</td><td>6.3</td><td>6.2</td></tr><tr><td>전문판매점</td><td>6,734.0</td><td>6,303.0</td><td>6,454.0</td><td>6,692.5</td><td>6,942.7</td><td>9.3</td><td>3.7</td><td>0.8</td></tr><tr><td>소규모식료품점</td><td>3,569.9</td><td>3,341.4</td><td>3,421.5</td><td>3,596.9</td><td>3,722.1</td><td>5.0</td><td>3.5</td><td>1.0</td></tr><tr><td>포코트리테일러</td><td>2,196.8</td><td>1,909.6</td><td>2,035.6</td><td>2,273.6</td><td>2,361.1</td><td>3.2</td><td>3.8</td><td>1.8</td></tr><tr><td>편의점</td><td>1,580.3</td><td>1,295.8</td><td>1,395.6</td><td>1,431.9</td><td>1,479.2</td><td>2.0</td><td>3.3</td><td>-1.6</td></tr><tr><td>할인점</td><td>71.8</td><td>141.3</td><td>233.3</td><td>301.2</td><td>480.0</td><td>0.6</td><td>59.4</td><td>60.8</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 전문판매점의 규모는 2019년 67억 3,400만 디르함에서 연평균 0.8% 성장한 69억 4,270만 디르함으로 집계되었으며, 전체 오프라인 유통채널에서 9.3%를 차지했다.\n\n*주: 전문판매점-식품·주류·담배만을 전문적으로 판매하는 매장, 포코트리테일러-주유소 내 위치한 소규모 **출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "2023년 전문판매점의 규모는 2019년 67억 3,400만 디르함에서 연평균 0.8% 성장한 69억 4,270만 디르함으로 집계되었으며, 전체 오프라인 유통채널에서 9.3%를 차지했다.",
+    "meta_data": {
+      "chunk_id": "7a8adba9-e59d-4920-ace4-57e865ed14f0",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7a8adba9-e59d-4920-ace4-57e865ed14f0",
+        "4702e5c9-5ae0-4ad8-9abc-c1447c73d851"
+      ],
+      "chunked_count": 2,
+      "index": 289,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 199,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 전문판매점의 규모는 2019년 67억 3,400만 디르함에서 연평균 0.8% 성장한 69억 4,270만 디르함으로 집계되었으며, 전체 오프라인 유통채널에서 9.3%를 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 아랍에미리트의 오프라인 유통채널 매장 수는 2019년 1만 316개에서 연평균 1.1% 성장한 1만 769개로 집계되었다.\n\n2023년 전문판매점 매장 수는 2019년 5,379개에서 연평균 0.3% 성장한 5,442개로, 전체 오프라인 유통채널 매장 수의 50.5%를 차지했다.\n\n2023년 소규모 식료품점 매장 수는 2019년 3,514개에서 성장한 3,520개로, 전체 오프라인 유통채널 매장 수의 32.7%를 차지했다.\n\n2023년 포코트리테일러 매장 수는 2019년 413개에서 연평균 7.5% 성장한 551개로, 전체 오프라인 유통채널 매장 수의 5.1%를 차지했다.",
+    "name": "2023년 아랍에미리트의 오프라인 유통채널 매장 수는 2019년 1만 316개에서 연평균 1.1% 성장한 1만 769개로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "96c61cd5-4d80-47e9-a75e-344490d04086",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "96c61cd5-4d80-47e9-a75e-344490d04086",
+        "a2d6500d-d5b5-41c4-9a62-2421117ed56b",
+        "785ca411-1b1f-45a7-933c-ce302b64f3a4",
+        "52ac1a7d-5062-4699-ab21-4650f0cc0b04"
+      ],
+      "chunked_count": 4,
+      "index": 298,
+      "page_number": [
+        16
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 313,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 아랍에미리트의 오프라인 유통채널 매장 수는 2019년 1만 316개에서 연평균 1.1% 성장한 1만 769개로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 오프라인 식품 유통채널 매장수(2019~2023)>\n\n표제목: (단위: 개, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 10316 10439 10519 10618 10769 100.0 1.4 1.1\n전문판매점 5379 5406 5397 5430 5442 50.5 0.2 0.3\n소규모 식료품점 3514 3531 3526 3528 3520 32.7 -0.2 0.0\n포코트리테일러 413 458 466 510 551 5.1 8.0 7.5\n슈퍼마켓 409 440 495 494 541 5.0 9.5 7.2\n편의점 389 381 387 398 424 3.9 6.5 2.2\n하이퍼마켓 196 193 200 203 208 1.9 2.5 1.5\n할인점 16 30 48 55 83 0.8 50.9 50.9",
+    "name": "<아랍에미리트 오프라인 식품 유통채널 매장수(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "27442011-8415-4cf3-adf1-5609b859a6fb",
+      "page_number": [
+        16
+      ],
+      "item_label": "merged",
+      "index": 305,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 오프라인 식품 유통채널 매장수(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b0d5937d-e719-445f-bb8a-faac1fa4662c",
+          "content": "<table><caption>(단위: 개, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>10,316</td><td>10,439</td><td>10,519</td><td>10,618</td><td>10,769</td><td>100.0</td><td>1.4</td><td>1.1</td></tr><tr><td>전문판매점</td><td>5,379</td><td>5,406</td><td>5,397</td><td>5,430</td><td>5,442</td><td>50.5</td><td>0.2</td><td>0.3</td></tr><tr><td>소규모 식료품점</td><td>3,514</td><td>3,531</td><td>3,526</td><td>3,528</td><td>3,520</td><td>32.7</td><td>-0.2</td><td>0.0</td></tr><tr><td>포코트리테일러</td><td>413</td><td>458</td><td>466</td><td>510</td><td>551</td><td>5.1</td><td>8.0</td><td>7.5</td></tr><tr><td>슈퍼마켓</td><td>409</td><td>440</td><td>495</td><td>494</td><td>541</td><td>5.0</td><td>9.5</td><td>7.2</td></tr><tr><td>편의점</td><td>389</td><td>381</td><td>387</td><td>398</td><td>424</td><td>3.9</td><td>6.5</td><td>2.2</td></tr><tr><td>하이퍼마켓</td><td>196</td><td>193</td><td>200</td><td>203</td><td>208</td><td>1.9</td><td>2.5</td><td>1.5</td></tr><tr><td>할인점</td><td>16</td><td>30</td><td>48</td><td>55</td><td>83</td><td>0.8</td><td>50.9</td><td>50.9</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*주: 전문판매점-식품·주류·담배만을 전문적으로 판매하는 매장, 포코트리테일러-주유소 내 위치한 소규모 매점\n\n**출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "*주: 전문판매점-식품·주류·담배만을 전문적으로 판매하는 매장, 포코트리테일러-주유소 내 위치한 소규모 매점",
+    "meta_data": {
+      "chunk_id": "a43dd9d1-520b-48da-9c55-a83603596e2c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a43dd9d1-520b-48da-9c55-a83603596e2c",
+        "62047a97-70c1-4fa4-94a1-43f6233bbdc5"
+      ],
+      "chunked_count": 2,
+      "index": 307,
+      "page_number": [
+        16
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 95,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*주: 전문판매점-식품·주류·담배만을 전문적으로 판매하는 매장, 포코트리테일러-주유소 내 위치한 소규모 매점"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nCarrefour SA의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 22.4%로 집계되었다.\n\nLulu Group International LLC의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 16.3%로 집계되었다.\n\nNew West Zone Supermarket의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 4.6%로 집계되었다.\n\n의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 3.5%로 집계되었다.\n\nAl Madina Group의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 3.1%로 집계되었다.",
+    "name": "Carrefour SA의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 22.4%로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "7c02cf30-bdb7-472d-914a-a32c3d194c7a",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7c02cf30-bdb7-472d-914a-a32c3d194c7a",
+        "1ec0d51f-6027-44a9-a802-c6b0db809e35",
+        "acb8121b-3569-414a-b763-127615bc139c",
+        "2fb5471c-f5d5-489f-94e3-1368abd51bb2",
+        "27b1a0e9-369c-4d3a-9195-c6322e26ea8a"
+      ],
+      "chunked_count": 5,
+      "index": 315,
+      "page_number": [
+        17
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 343,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "Carrefour SA의 유통채널 브랜드로, 전체 오프라인 식품 유통채널에서 차지하는 비중은 2023년 22.4%로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 오프라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>\n\n구분 2020 2021 2022 2023 YoY (22/23) CAGR (20/23)\n1 Carrefour 23.3 20.4 22.2 22.4 0.9 -1.3\n2 LuLu 15.0 15.6 16.4 16.3 -0.6 2.8\n3 West Zone 4.1 4.4 4.4 4.6 4.5 3.9\n4 Carrefour Market 3.2 3.1 3.4 3.5 2.9 3.0\n5 Al Madina 2.5 2.9 3.0 3.1 3.3 7.4\n6 Al Maya Supermarket 2.7 3.0 2.7 2.7 0.0 0.0\n7 Union Co-operative Society 3.1 2.8 2.2 2.1 -4.5 -12.2\n8 Buy &#x27;N&#x27; Save 2.1 2.0 2.0 2.0 0.0 -1.6\n9 Waitrose 1.2 1.8 1.8 2.0 11.1 18.6\n10 Spinneys 2.5 2.6 2.0 2.0 0.0 -7.2",
+    "name": "<아랍에미리트 오프라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>",
+    "meta_data": {
+      "chunk_id": "b3723586-e76c-45f4-a8c9-9ac61a07f761",
+      "page_number": [
+        17
+      ],
+      "item_label": "merged",
+      "index": 324,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 오프라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "bb2cbac1-c81b-466a-a594-aa90e7612ef8",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>YoY (22/23)</th><th>CAGR (20/23)</th></tr><tr><td>1</td><td>Carrefour</td><td>23.3</td><td>20.4</td><td>22.2</td><td>22.4</td><td>0.9</td><td>-1.3</td></tr><tr><td>2</td><td>LuLu</td><td>15.0</td><td>15.6</td><td>16.4</td><td>16.3</td><td>-0.6</td><td>2.8</td></tr><tr><td>3</td><td>West Zone</td><td>4.1</td><td>4.4</td><td>4.4</td><td>4.6</td><td>4.5</td><td>3.9</td></tr><tr><td>4</td><td>Carrefour Market</td><td>3.2</td><td>3.1</td><td>3.4</td><td>3.5</td><td>2.9</td><td>3.0</td></tr><tr><td>5</td><td>Al Madina</td><td>2.5</td><td>2.9</td><td>3.0</td><td>3.1</td><td>3.3</td><td>7.4</td></tr><tr><td>6</td><td>Al Maya Supermarket</td><td>2.7</td><td>3.0</td><td>2.7</td><td>2.7</td><td>0.0</td><td>0.0</td></tr><tr><td>7</td><td>Union Co-operative Society</td><td>3.1</td><td>2.8</td><td>2.2</td><td>2.1</td><td>-4.5</td><td>-12.2</td></tr><tr><td>8</td><td>Buy &#x27;N&#x27; Save</td><td>2.1</td><td>2.0</td><td>2.0</td><td>2.0</td><td>0.0</td><td>-1.6</td></tr><tr><td>9</td><td>Waitrose</td><td>1.2</td><td>1.8</td><td>1.8</td><td>2.0</td><td>11.1</td><td>18.6</td></tr><tr><td>10</td><td>Spinneys</td><td>2.5</td><td>2.6</td><td>2.0</td><td>2.0</td><td>0.0</td><td>-7.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "meta_data": {
+      "chunk_id": "f4108898-626f-4d7e-b123-a5340aec78af",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "f4108898-626f-4d7e-b123-a5340aec78af"
+      ],
+      "chunked_count": 1,
+      "index": 327,
+      "page_number": [
+        17
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 28,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2.1.4 주요 오프라인 유통채널\n\n브랜드명 Carrefour 창립연도 1958년\n점유율 22.4% 브랜드 국적 프랑스\n웹사이트 carrefouruae.com 매장 수 31개\n\n브랜드명 Carrefour 창립연도 점유율 22.4% 브랜드 국적 웹사이트 carrefouruae.com 매장 수 1958년 프랑스 31개\n- Carrefour SA 산하 - 판매 상품의 경제 활성화에 중점을 하이퍼마켓 브랜드 80%는 로컬 상품으로 지역 제조업자·공급자의 후생 증진 및 지역 확충하여 증가한\n- 제3자 서비스에 대한 수요 충족 물류업체·택시 업체와의 계약을 맺고 배송센터를 배송\n- 타 유통채널 대비 식품을 등을 판매하고 한국산 다양하게 취급하는 편이며 라면 김치 및 김치\n매장 사진 스낵 김치 소스류 있음\n\n브랜드명 LuLu 창립연도 2000년\n점유율 16.3% 브랜드 국적 인도\n웹사이트 luluhypermarket.com/en-ae 매장 수 27개\n\n표제목: *출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 LuLu 홈페이지(luluhypermarket.com/en-ae), 아랍에미리트 LuLu 소셜미디어 계정\n브랜드명 점유율 웹사이트 - LuLu Group - 인스턴트 라면 - 10만 종 이상의 - 아시아 수입 식품이 LuLu 16.3% 창립연도 브랜드 국적 2000년 인도\nluluhypermarket.com/en-ae 매장 수 27개 International LLC 산하 하이퍼마켓 브랜드\n매장 김 스낵류 냉동만두 김치 홍삼 제품 등의 한국산 식료품 취급",
+    "name": "2.1.4 주요 오프라인 유통채널",
+    "meta_data": {
+      "chunk_id": "b5da4831-59ee-4e8a-9f65-3892cc53fd65",
+      "page_number": [
+        18
+      ],
+      "item_label": "merged",
+      "index": 332,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2.1.4 주요 오프라인 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9b5f01cc-4a0c-4722-b21a-6d8bbe99016b",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>Carrefour</th><th>창립연도</th><th>1958년</th></tr><tr><td>점유율</td><td>22.4%</td><td>브랜드 국적</td><td>프랑스</td></tr><tr><td>웹사이트</td><td>carrefouruae.com</td><td>매장 수</td><td>31개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "9bc2f017-e594-4e60-bbbd-28eec4207dba",
+          "content": "<table><tbody><tr><td></td><td>브랜드명 Carrefour 창립연도 점유율 22.4% 브랜드 국적 웹사이트 carrefouruae.com 매장 수</td><td></td><td></td><td>1958년 프랑스 31개</td></tr><tr><td></td><td>- Carrefour SA 산하 - 판매 상품의 경제 활성화에 중점을</td><td>하이퍼마켓 브랜드 80%는 로컬 상품으로, 지역</td><td>제조업자·공급자의</td><td>후생 증진 및 지역 확충하여 증가한</td></tr><tr><td></td><td>- 제3자 서비스에 대한 수요 충족</td><td>물류업체·택시 업체와의</td><td>계약을 맺고 배송센터를</td><td>배송</td></tr><tr><td></td><td>- 타 유통채널 대비 식품을 등을 판매하고</td><td>한국산</td><td>다양하게 취급하는 편이며,</td><td>라면, 김치 및 김치</td></tr><tr><td>매장 사진</td><td>스낵, 김치 소스류</td><td></td><td>있음</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "28ad5c85-0c8b-4701-b3d3-e684a158a7c5",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>LuLu</th><th>창립연도</th><th>2000년</th></tr><tr><td>점유율</td><td>16.3%</td><td>브랜드 국적</td><td>인도</td></tr><tr><td>웹사이트</td><td>luluhypermarket.com/en-ae</td><td>매장 수</td><td>27개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "d1f111fa-ece4-450e-ab01-4aca97709510",
+          "content": "<table><caption>*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 LuLu 홈페이지(luluhypermarket.com/en-ae), 아랍에미리트 LuLu 소셜미디어 계정</caption><tbody><tr><td></td><th>브랜드명 점유율 웹사이트 - LuLu Group - 인스턴트 라면, - 10만 종 이상의 - 아시아 수입 식품이</th><th>LuLu 16.3%</th><th>창립연도 브랜드 국적</th><th>2000년 인도</th></tr><tr><td></td><td colspan=\"4\">luluhypermarket.com/en-ae 매장 수 27개 International LLC 산하 하이퍼마켓 브랜드</td></tr><tr><td>매장</td><td colspan=\"4\">김 스낵류, 냉동만두, 김치, 홍삼 제품 등의 한국산 식료품 취급</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Carrefour 홈페이지(carrefouruae.com), 아랍에미리트 Carrefour 소셜미디어 계정",
+    "name": "*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Carrefour 홈페이지(carrefouruae.com), 아랍에미리트 Carrefour 소셜미디어 계정",
+    "meta_data": {
+      "chunk_id": "c2d0cbd3-ee39-454f-95d4-848edc4fa581",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c2d0cbd3-ee39-454f-95d4-848edc4fa581"
+      ],
+      "chunked_count": 1,
+      "index": 339,
+      "page_number": [
+        18
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 67,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Carrefour 홈페이지(carrefouruae.com), 아랍에미리트 Carrefour 소셜미디어 계정"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 02 아랍에미리트\n\n브랜드명 West Zone 창립연도 2005년\n점유율 4.6% 브랜드 국적 아랍에미리트\n웹사이트 newwestzone.com 매장 수 50개\n\n브랜드명 West Zone 창립연도 2005년\n점유율 4.6% 브랜드 국적 아랍에미리트\n웹사이트 newwestzone.com 매장 수 50개\n\n브랜드명 Carrefour Market 창립연도 1963년\n점유율 3.5% 브랜드 국적 프랑스\n웹사이트 carrefouruaecom 매장 수 69개\n\n표제목: *출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Carrefour 홈페이지 (carrefouruae.com), 아랍에미리트 Carrefour 소셜미디어 계정\n브랜드명 West Zone 창립연도 2005년\n점유율 4.6% 브랜드 국적 아랍에미리트\n웹사이트 newwestzone.com 매장 수\n- New West Zone Supermarket&amp;Department - 절반 이상의 매장이 연중무휴 24시간 - West Zone Yash Praise La Filipina Pinoy - 매주 금요일 반짝 세일을 통한 최저 가격으로 - 필리핀과 스리랑카 등의 동남아시아 국가들의 Store LLC 산하 슈퍼마켓 영업한다는 특징이 있음 50개 브랜드\n사진\n외부 내부 매대 전경\n웹사이트 carrefouruaecom - Carrefour SA 산하 슈퍼마켓 브랜드 - Carrefour 일반 매장보다 판매 제품 식사를 판매 - 24시간 영업을 하거나 새벽 1시까지 배송 및 픽업 서비스를 제공 수가 적으며 신선채소 생필품 및 간단한\n매장 사진\n\n브랜드명 점유율 웹사이트 Carrefour Market 3.5% carrefouruaecom 창립연도 브랜드 국적 1963년 프랑스 69개\n- Carrefour SA 산하 - Carrefour 일반 식사를 판매 슈퍼마켓 브랜드 매장보다 판매 제품 수가 적으며 신선채소 생필품 및 간단한\n- 24시간 영업을 배송 및 픽업 서비스를 하거나 새벽 1시까지 영업을 하는 점포가 많으며 도심 지역에서는\n매장 사진\n외부 전경 내부 매대 전경",
+    "name": "2024농식품 국가 수출정보 02 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "ab912bed-dec3-4f19-9417-0700d70bc763",
+      "page_number": [
+        19
+      ],
+      "item_label": "merged",
+      "index": 348,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 02 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9a353f3d-74da-46ae-9804-4e3df477f966",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>West Zone</th><th>창립연도</th><th>2005년</th></tr><tr><td>점유율</td><td>4.6%</td><td>브랜드 국적</td><td>아랍에미리트</td></tr><tr><td>웹사이트</td><td>newwestzone.com</td><td>매장 수</td><td>50개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "3fcdd64d-b0ba-4e4c-b92d-81a3e9048082",
+          "content": "<table><tbody><tr><td>브랜드명</td><td>West Zone</td><td>창립연도</td><td>2005년</td></tr><tr><td>점유율</td><td>4.6%</td><td>브랜드 국적</td><td>아랍에미리트</td></tr><tr><td>웹사이트</td><td>newwestzone.com</td><td>매장 수</td><td>50개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "79512732-b1f9-4dba-9abb-4c965c2ad5e1",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>Carrefour Market</th><th>창립연도</th><th>1963년</th></tr><tr><td>점유율</td><td>3.5%</td><td>브랜드 국적</td><td>프랑스</td></tr><tr><td>웹사이트</td><td>carrefouruaecom</td><td>매장 수</td><td>69개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "c35d3de6-2680-42e1-bb27-eab3964ad7a4",
+          "content": "<table><caption>*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Carrefour 홈페이지 (carrefouruae.com), 아랍에미리트 Carrefour 소셜미디어 계정</caption><tbody><tr><td>브랜드명</td><td>West Zone</td><td>창립연도</td><td>2005년</td></tr><tr><td>점유율</td><td>4.6%</td><td>브랜드 국적</td><td>아랍에미리트</td></tr><tr><td colspan=\"2\">웹사이트 newwestzone.com</td><td>매장 수</td><td></td></tr><tr><td colspan=\"2\">- New West Zone Supermarket&amp;Department - 절반 이상의 매장이 연중무휴 24시간 - West Zone, Yash, Praise, La Filipina, Pinoy, - 매주 금요일 반짝 세일을 통한 최저 가격으로 - 필리핀과 스리랑카 등의 동남아시아 국가들의</td><td>Store LLC 산하 슈퍼마켓 영업한다는 특징이 있음</td><td>50개 브랜드</td></tr><tr><td colspan=\"2\">사진</td><td></td><td></td></tr><tr><td>외부</td><td></td><td>내부 매대</td><td>전경</td></tr><tr><td colspan=\"2\">웹사이트 carrefouruaecom - Carrefour SA 산하 슈퍼마켓 브랜드 - Carrefour 일반 매장보다 판매 제품 식사를 판매 - 24시간 영업을 하거나 새벽 1시까지 배송 및 픽업 서비스를 제공</td><td>수가 적으며</td><td>신선채소, 생필품 및 간단한</td></tr><tr><td colspan=\"2\">매장 사진</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "584af1ca-1725-4352-8714-9c47ba44efc7",
+          "content": "<table><tbody><tr><td></td><td>브랜드명 점유율 웹사이트</td><td>Carrefour Market 3.5% carrefouruaecom</td><td>창립연도 브랜드 국적</td><td>1963년 프랑스 69개</td></tr><tr><td></td><td>- Carrefour SA 산하 - Carrefour 일반 식사를 판매</td><td>슈퍼마켓 브랜드 매장보다 판매 제품</td><td>수가 적으며</td><td>신선채소, 생필품 및 간단한</td></tr><tr><td></td><td>- 24시간 영업을 배송 및 픽업 서비스를</td><td>하거나 새벽 1시까지</td><td>영업을 하는 점포가</td><td>많으며, 도심 지역에서는</td></tr><tr><td>매장 사진</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>외부 전경</td><td></td><td>내부 매대</td><td>전경</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 02 아랍에미리트\n\n브랜드명 Al Madina 창립연도 1971년\n점유율 3.1% 브랜드 국적 아랍에미리트\n웹사이트 almadinahypermarket.ae 매장 수 85개\n\n표제목: *출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Al Madina 홈페이지(almadinahypermarket.ae), Al Madina 소셜미디어 계정\n브랜드명 Al Madina 창립연도 1971년\n점유율 3.1% 브랜드 국적 아랍에미리트\n웹사이트 almadinahypermarket.ae 매장 수 85개\n- Al Madina Group 산하 슈퍼마켓·하이퍼마켓 브랜드\n- 자체 PB상품을 많이 판매하여 해당 제품을 저렴하게 공급 - 매주 2회 할인 오퍼를 제공하며 매장 내 푸드코트에서 다양한 음식을 - 저렴한 가격과 함께 품질이 좋아 인지도가 높음 제공",
+    "name": "2024농식품 국가 수출정보 02 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "e83f208e-e07e-4611-9947-50cd154b0178",
+      "page_number": [
+        20
+      ],
+      "item_label": "merged",
+      "index": 364,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 02 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "dadd6e89-85fd-40c1-9ccd-6cb3225947b5",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>Al Madina</th><th>창립연도</th><th>1971년</th></tr><tr><td>점유율</td><td>3.1%</td><td>브랜드 국적</td><td>아랍에미리트</td></tr><tr><td>웹사이트</td><td>almadinahypermarket.ae</td><td>매장 수</td><td>85개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "cb0d6d7a-b08d-4e9e-9876-abd02bbd92d5",
+          "content": "<table><caption>*출처 : 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Al Madina 홈페이지(almadinahypermarket.ae), Al Madina 소셜미디어 계정</caption><tbody><tr><td>브랜드명</td><td>Al Madina</td><td>창립연도</td><td>1971년</td></tr><tr><td>점유율</td><td>3.1%</td><td>브랜드 국적</td><td>아랍에미리트</td></tr><tr><td>웹사이트</td><td>almadinahypermarket.ae</td><td>매장 수</td><td>85개</td></tr><tr><td colspan=\"4\">- Al Madina Group 산하 슈퍼마켓·하이퍼마켓 브랜드</td></tr><tr><td>- 자체 PB상품을 많이 판매하여 해당 제품을 저렴하게 공급 - 매주 2회 할인 오퍼를 제공하며 매장 내 푸드코트에서 다양한 음식을 - 저렴한 가격과 함께 품질이 좋아 인지도가 높음</td><td></td><td></td><td>제공</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n2023년 아랍에미리트의 온라인 식품 유통채널 규모는 전년 대비 14.7% 증가한 39억 5,320만 디르함으로, 2019년 이후 연평균 73.2%의 증가세를 보인다.",
+    "name": "2023년 아랍에미리트의 온라인 식품 유통채널 규모는 전년 대비 14.7% 증가한 39억 5,320만 디르함으로, 2019년 이후 연평균 73.2%의 증가세를 보인다.",
+    "meta_data": {
+      "chunk_id": "228b2b7c-6498-4924-9551-73604faaf0b2",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "228b2b7c-6498-4924-9551-73604faaf0b2"
+      ],
+      "chunked_count": 1,
+      "index": 389,
+      "page_number": [
+        21
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 96,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "2023년 아랍에미리트의 온라인 식품 유통채널 규모는 전년 대비 14.7% 증가한 39억 5,320만 디르함으로, 2019년 이후 연평균 73.2%의 증가세를 보인다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 온라인 식품 유통채널 규모(2019~2023)>\n\n2019 2020 2021 2022 2023 YoY (22/23) CAGR (19/23)\n439.0 1549.4 2357.8 3447.8 3953.2 14.7 73.2",
+    "name": "<아랍에미리트 온라인 식품 유통채널 규모(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "52f28f00-0bff-4825-9231-2292d37babc9",
+      "page_number": [
+        21
+      ],
+      "item_label": "merged",
+      "index": 390,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 온라인 식품 유통채널 규모(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4738bf47-ebba-4ff7-b6c2-97fe26136174",
+          "content": "<table><tbody><tr><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>439.0</td><td>1,549.4</td><td>2,357.8</td><td>3,447.8</td><td>3,953.2</td><td>14.7</td><td>73.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "meta_data": {
+      "chunk_id": "a34f1a95-2837-4d4d-80b5-7e76759a851a",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a34f1a95-2837-4d4d-80b5-7e76759a851a"
+      ],
+      "chunked_count": 1,
+      "index": 393,
+      "page_number": [
+        21
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 28,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nAmazon.com Inc의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 15.1%로 집계되었다.\n\nAmazon.com Inc의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 13.9%로 집계되었다.\n\nNoon AD Holdings Ltd의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 6.7%로 집계되었다.\n\n④ Carrefour SA의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 5.3%로 집계되었다.\n\nNoon AD Holdings Ltd의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 6.8%로 집계되었다.",
+    "name": "Amazon.com Inc의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 15.1%로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "8b130ed2-78f7-4a70-89c5-50c9df9a44bb",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8b130ed2-78f7-4a70-89c5-50c9df9a44bb",
+        "3dadde76-64cc-4d9a-acdd-d7054f1cbc7e",
+        "b215056c-2451-41ea-9c50-2e79c65bb734",
+        "7599a637-01bb-4827-a3e4-65d8c95b7d4d",
+        "99504b18-c712-4a4b-9053-219678630c5f"
+      ],
+      "chunked_count": 5,
+      "index": 400,
+      "page_number": [
+        22
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 342,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "Amazon.com Inc의 유통채널 브랜드로, 전체 온라인 식품 유통채널에서 차지하는 비중은 2023년 15.1%로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 온라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>\n\n구분 2020 2021 2022 2023 YoY (22/23) CAGR (20/23)\n1 Amazon 13.1 14.0 14.9 15.1 1.3 3.6\n2 Amazon Marketplace 12.6 12.8 13.8 13.9 0.7 2.5\n3 Noon.com Marketplace 5.9 6.9 6.6 6.7 1.5 3.2\n4 Carrefour 2.8 3.6 5.3 5.3 0.0 17.3\n5 Noon 4.1 4.9 4.9 4.9 0.0 4.6\n6 eBay Marketplace 5.3 4.6 3.1 3.0 -3.2 -13.3\n7 LuLu 1.9 2.2 1.9 1.9 0.0 0.0\n8 Citruss TV 1.7 1.5 1.2 1.2 0.0 -8.3\n9 AliExpress Marketplace 1.1 1.2 1.2 1.2 0.0 2.2",
+    "name": "<아랍에미리트 온라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>",
+    "meta_data": {
+      "chunk_id": "11b42251-2617-445b-af03-84d65b3ab91d",
+      "page_number": [
+        22
+      ],
+      "item_label": "merged",
+      "index": 408,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 온라인 식품 유통채널 브랜드 점유율 순위(2020~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "35d35490-7e4d-4556-9d8a-3279ec65bfbd",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>YoY (22/23)</th><th>CAGR (20/23)</th></tr><tr><td>1</td><td>Amazon</td><td>13.1</td><td>14.0</td><td>14.9</td><td>15.1</td><td>1.3</td><td>3.6</td></tr><tr><td>2</td><td>Amazon Marketplace</td><td>12.6</td><td>12.8</td><td>13.8</td><td>13.9</td><td>0.7</td><td>2.5</td></tr><tr><td>3</td><td>Noon.com Marketplace</td><td>5.9</td><td>6.9</td><td>6.6</td><td>6.7</td><td>1.5</td><td>3.2</td></tr><tr><td>4</td><td>Carrefour</td><td>2.8</td><td>3.6</td><td>5.3</td><td>5.3</td><td>0.0</td><td>17.3</td></tr><tr><td>5</td><td>Noon</td><td>4.1</td><td>4.9</td><td>4.9</td><td>4.9</td><td>0.0</td><td>4.6</td></tr><tr><td>6</td><td>eBay Marketplace</td><td>5.3</td><td>4.6</td><td>3.1</td><td>3.0</td><td>-3.2</td><td>-13.3</td></tr><tr><td>7</td><td>LuLu</td><td>1.9</td><td>2.2</td><td>1.9</td><td>1.9</td><td>0.0</td><td>0.0</td></tr><tr><td>8</td><td>Citruss TV</td><td>1.7</td><td>1.5</td><td>1.2</td><td>1.2</td><td>0.0</td><td>-8.3</td></tr><tr><td>9</td><td>AliExpress Marketplace</td><td>1.1</td><td>1.2</td><td>1.2</td><td>1.2</td><td>0.0</td><td>2.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "meta_data": {
+      "chunk_id": "e4895f28-76d8-4e98-8fa2-adaae1d2dd27",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e4895f28-76d8-4e98-8fa2-adaae1d2dd27"
+      ],
+      "chunked_count": 1,
+      "index": 411,
+      "page_number": [
+        22
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 28,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2.2.3 주요 온라인 유통채널\n\n표제목: *출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Amazon 홈페이지\n사이트명 Amazon 운영업체 Amazon.com Inc\n점유율 15.1% 웹사이트 www.amazon.ae\n\n사이트명 Amazon 운영업체 Amazon.com Inc\n점유율 15.1% 웹사이트 www.amazon.ae\n- 글로벌 - 식품의 B2C 경우 전자상거래 신선농산물 플랫폼 취급 비중은 낮으며 주로 가공식품 위주로 판매\n- 제픔 배송 시 발생하는 탄소 배출량을 저감하기 위해 리어카를 부착한 전동 자전거를 이용한 원마일(1 Mile) 배송 서비스를 도입\n- 입점 시 입점자 계정으로 사업자용 포털인 &#x27;셀러 센트럴&#x27;에서 신청해야 함\n사이트 화면 한국 라면 판매제품\n\n사이트명 Amazon 운영업체 Amazon.com Inc\n점유율 15.1% 웹사이트 www.amazon.ae\n\n사이트명 Noon.com Marketplace 운영업체 Noon AD Holdings Ltd\n점유율 4.9% 웹사이트 www.noon.com/uae\n\n사이트명 Noon.com Marketplace 운영업체 Noon AD Holdings Ltd\n점유율 4.9% 웹사이트 www.noon.com/uae\n- 2016년 설립된 국가에 중점적으로 종합 온라인 쇼핑몰로 아랍에미리트와 사우디아라비아 등 중동\n- 식품 구매 및 온라인 식품 배달 서비스를 제공하며 15분 이내 신속배송 소비자\n사이트 화면 애플리케이션 화면\n\n사이트명 Noon.com Marketplace 운영업체 Noon AD Holdings Ltd\n점유율 4.9% 웹사이트 www.noon.com/uae",
+    "name": "2.2.3 주요 온라인 유통채널",
+    "meta_data": {
+      "chunk_id": "5f55a78e-b137-4f18-ab91-8772fc106bf3",
+      "page_number": [
+        23
+      ],
+      "item_label": "merged",
+      "index": 416,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2.2.3 주요 온라인 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "71e893f5-a6c2-4184-91ca-e6e284ab45e9",
+          "content": "<table><caption>*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터), 아랍에미리트 Amazon 홈페이지</caption><tbody><tr><th>사이트명</th><th>Amazon</th><th>운영업체</th><th>Amazon.com Inc</th></tr><tr><td>점유율</td><td>15.1%</td><td>웹사이트</td><td>www.amazon.ae</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "810a94ba-2dbf-4f0a-be74-9b76720e3cac",
+          "content": "<table><tbody><tr><th colspan=\"2\">사이트명</th><th colspan=\"2\">Amazon</th><th colspan=\"2\">운영업체</th><th colspan=\"2\">Amazon.com Inc</th></tr><tr><th colspan=\"2\">점유율</th><th colspan=\"2\">15.1%</th><th colspan=\"2\">웹사이트</th><th colspan=\"2\">www.amazon.ae</th></tr><tr><td>- 글로벌 - 식품의</td><td>B2C 경우</td><td>전자상거래 신선농산물</td><td>플랫폼 취급 비중은</td><td>낮으며, 주로</td><td>가공식품</td><td>위주로</td><td>판매</td></tr><tr><td colspan=\"8\">- 제픔 배송 시 발생하는 탄소 배출량을 저감하기 위해, 리어카를 부착한 전동 자전거를 이용한 원마일(1 Mile) 배송 서비스를 도입</td></tr><tr><td>- 입점 시</td><td>입점자</td><td>계정으로</td><td>사업자용</td><td>포털인</td><td>&#x27;셀러</td><td>센트럴&#x27;에서 신청해야</td><td>함</td></tr><tr><td></td><td>사이트</td><td></td><td>화면</td><td></td><td>한국</td><td>라면 판매제품</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "2a96aef7-6986-4ff3-a5a8-19cc87ed848d",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Amazon</td><td>운영업체</td><td>Amazon.com Inc</td></tr><tr><td>점유율</td><td>15.1%</td><td>웹사이트</td><td>www.amazon.ae</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e7cfa6d7-2f06-42bf-b5f2-d1ed2eae83c8",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Noon.com Marketplace</td><td>운영업체</td><td>Noon AD Holdings Ltd</td></tr><tr><td>점유율</td><td>4.9%</td><td>웹사이트</td><td>www.noon.com/uae</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "084052ec-a415-452f-a5d6-30088f31ac60",
+          "content": "<table><tbody><tr><th>사이트명</th><th>Noon.com Marketplace</th><th>운영업체</th><th>Noon AD Holdings Ltd</th></tr><tr><th>점유율</th><th colspan=\"2\">4.9%</th><td>웹사이트</td><th>www.noon.com/uae</th></tr><tr><td>- 2016년 설립된 국가에 중점적으로</td><td>종합 온라인</td><td>쇼핑몰로, 아랍에미리트와</td><td>사우디아라비아 등 중동</td></tr><tr><td>- 식품 구매 및 온라인 식품 배달 서비스를</td><td></td><td>제공하며, 15분</td><td>이내 신속배송, 소비자</td></tr><tr><td></td><td>사이트 화면</td><td>애플리케이션</td><td>화면</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "43292b6e-aa81-43ca-9f15-03b4f941d307",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Noon.com Marketplace</td><td>운영업체</td><td>Noon AD Holdings Ltd</td></tr><tr><td>점유율</td><td>4.9%</td><td>웹사이트</td><td>www.noon.com/uae</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 7
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n아랍에미리트의 오프라인 식품 유통채널 규모는 2023년 745억 9,280만 디르함에서 연평균 2.2% 성장하여 2027년 815억 1,860만 디르함에 이를 것으로 전망된다.\n\n하이퍼마켓의 규모는 2023년 410억 7,440만 디르함에서 연평균 2.6% 성장하여 2027년 455억 9,940만 디르함에 이를 것으로 전망된다.\n\n슈퍼마켓의 규모는 2023년 185억 3,330만 디르함에서 연평균 2.1% 성장하여 2027년 201억 2,990만 디르함에 이를 것으로 전망된다.",
+    "name": "아랍에미리트의 오프라인 식품 유통채널 규모는 2023년 745억 9,280만 디르함에서 연평균 2.2% 성장하여 2027년 815억 1,860만 디르함에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "ad6964c4-5ece-4f89-89ea-1fa347dffbdf",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ad6964c4-5ece-4f89-89ea-1fa347dffbdf",
+        "4894f90a-faa9-4f1e-9c97-aae35dd44537",
+        "4199ad8b-2f77-40fe-9bb3-02b3578ac64a"
+      ],
+      "chunked_count": 3,
+      "index": 431,
+      "page_number": [
+        24
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 261,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "아랍에미리트의 오프라인 식품 유통채널 규모는 2023년 745억 9,280만 디르함에서 연평균 2.2% 성장하여 2027년 815억 1,860만 디르함에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 전문판매점\n\n표제목: (단위: 백만 디르함, %)\n구분 2023 2024 2025 2026 2027 비중 (28) YoY (26/27) CAGR (23/27)\n전체 74592.8 76825.6 77750.6 80300.7 81518.6 100.0 1.5 2.2\n하이퍼마켓 41074.4 42687.9 43049.3 45000.3 45599.4 55.9 1.3 2.6\n슈퍼마켓 18533.3 18929.5 19303.2 19708.9 20129.9 24.7 2.1 2.1\n전문판매점 6942.7 7012.8 7060.3 7114.7 7176.9 8.8 0.9 0.8\n소규모 식료품점 3722.1 3719.5 3714.8 3723.0 3735.5 4.6 0.3 0.1\n포코트리테일러 2361.1 2431.8 2502.2 2549.0 2591.0 3.2 1.6 2.4\n편의점 1479.2 1500.2 1522.3 1552.8 1587.8 1.9 2.3 1.8\n할인점 480.0 543.9 598.5 651.9 698.2 0.9 7.1 9.8",
+    "name": "전문판매점",
+    "meta_data": {
+      "chunk_id": "698a29ed-5e67-4e08-9383-bc3a7b6e9d67",
+      "page_number": [
+        24
+      ],
+      "item_label": "merged",
+      "index": 436,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 전문판매점",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "fce36411-2256-4a9e-8134-790998eb621a",
+          "content": "<table><caption>(단위: 백만 디르함, %)</caption><tbody><tr><th>구분</th><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>비중 (28)</th><th>YoY (26/27)</th><th>CAGR (23/27)</th></tr><tr><td>전체</td><td>74,592.8</td><td>76,825.6</td><td>77,750.6</td><td>80,300.7</td><td>81,518.6</td><td>100.0</td><td>1.5</td><td>2.2</td></tr><tr><td>하이퍼마켓</td><td>41,074.4</td><td>42,687.9</td><td>43,049.3</td><td>45,000.3</td><td>45,599.4</td><td>55.9</td><td>1.3</td><td>2.6</td></tr><tr><td>슈퍼마켓</td><td>18,533.3</td><td>18,929.5</td><td>19,303.2</td><td>19,708.9</td><td>20,129.9</td><td>24.7</td><td>2.1</td><td>2.1</td></tr><tr><td>전문판매점</td><td>6,942.7</td><td>7,012.8</td><td>7,060.3</td><td>7,114.7</td><td>7,176.9</td><td>8.8</td><td>0.9</td><td>0.8</td></tr><tr><td>소규모 식료품점</td><td>3,722.1</td><td>3,719.5</td><td>3,714.8</td><td>3,723.0</td><td>3,735.5</td><td>4.6</td><td>0.3</td><td>0.1</td></tr><tr><td>포코트리테일러</td><td>2,361.1</td><td>2,431.8</td><td>2,502.2</td><td>2,549.0</td><td>2,591.0</td><td>3.2</td><td>1.6</td><td>2.4</td></tr><tr><td>편의점</td><td>1,479.2</td><td>1,500.2</td><td>1,522.3</td><td>1,552.8</td><td>1,587.8</td><td>1.9</td><td>2.3</td><td>1.8</td></tr><tr><td>할인점</td><td>480.0</td><td>543.9</td><td>598.5</td><td>651.9</td><td>698.2</td><td>0.9</td><td>7.1</td><td>9.8</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n전문판매점의 규모는 2023년 69억 4,270만 디르함에서 연평균 0.8% 성장하여 2027년 71억 7,690만 디르함에 이를 것으로 전망된다.\n\n*주: 전문판매점-식품·주류·담배만을 전문적으로 판매하는 매장, 포코트리테일러-주유소 내 위치한 소규모 매점 **출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "전문판매점의 규모는 2023년 69억 4,270만 디르함에서 연평균 0.8% 성장하여 2027년 71억 7,690만 디르함에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "63441824-590d-40f9-a30b-6d635115ff4e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "63441824-590d-40f9-a30b-6d635115ff4e",
+        "b194d00d-05f6-41c2-9675-c12e31aff240"
+      ],
+      "chunked_count": 2,
+      "index": 437,
+      "page_number": [
+        24
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 174,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "전문판매점의 규모는 2023년 69억 4,270만 디르함에서 연평균 0.8% 성장하여 2027년 71억 7,690만 디르함에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n아랍에미리트의 온라인 식품 유통채널 규모는 2023년 이후 5년간 연평균 10.5% 성장하여, 2027년 58억 8,460만 디르함에 이를 것으로 전망된다.",
+    "name": "아랍에미리트의 온라인 식품 유통채널 규모는 2023년 이후 5년간 연평균 10.5% 성장하여, 2027년 58억 8,460만 디르함에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "7b6f3fdf-f256-4355-8b01-f6924c2b2d36",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7b6f3fdf-f256-4355-8b01-f6924c2b2d36"
+      ],
+      "chunked_count": 1,
+      "index": 446,
+      "page_number": [
+        25
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 90,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "아랍에미리트의 온라인 식품 유통채널 규모는 2023년 이후 5년간 연평균 10.5% 성장하여, 2027년 58억 8,460만 디르함에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <아랍에미리트 온라인 식품 유통채널 전망(2023~2027)>\n\n2023 2024 2025 2026 2027 YoY (26/27) CAGR (23/27)\n3953.2 4381.3 4813.9 5397.0 5884.6 9.0 10.5",
+    "name": "<아랍에미리트 온라인 식품 유통채널 전망(2023~2027)>",
+    "meta_data": {
+      "chunk_id": "72ed692e-5f11-4d51-80e5-46b3026cedf5",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 447,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <아랍에미리트 온라인 식품 유통채널 전망(2023~2027)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8e8093d4-8bcc-4c7c-86c0-199e5e7a0297",
+          "content": "<table><tbody><tr><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>YoY (26/27)</th><th>CAGR (23/27)</th></tr><tr><td>3,953.2</td><td>4,381.3</td><td>4,813.9</td><td>5,397.0</td><td>5,884.6</td><td>9.0</td><td>10.5</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "name": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)",
+    "meta_data": {
+      "chunk_id": "bf2000af-0372-4eec-9be1-f7eafe3b4c25",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "bf2000af-0372-4eec-9be1-f7eafe3b4c25"
+      ],
+      "chunked_count": 1,
+      "index": 450,
+      "page_number": [
+        25
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 28,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "*출처: 「Retail in the United Arab Emirates(2024.02.)」(유로모니터)"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# <수출품목 선정 지표 기준>\n\n1. 직전년도 한국산 식품 수출규모\n2. 직전년도 한국산 식품 수출성장률\n3. 현지 소비 이슈에 부합하는 품목\n4. 현지 시장에서 수요 증가 등 성장 가능성을 보유한 품목",
+    "name": "<수출품목 선정 지표 기준>",
+    "meta_data": {
+      "chunk_id": "b598d371-5efd-4c65-bc6d-c12144b3f14e",
+      "page_number": [
+        26
+      ],
+      "item_label": "merged",
+      "index": 456,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# <수출품목 선정 지표 기준>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "1943fab6-992e-4808-a269-bf8205dd484b",
+          "content": "<table><tbody><tr><td>1. 직전년도 한국산 식품 수출규모</td></tr><tr><td>2. 직전년도 한국산 식품 수출성장률</td></tr><tr><td>3. 현지 소비 이슈에 부합하는 품목</td></tr><tr><td>4. 현지 시장에서 수요 증가 등 성장 가능성을 보유한 품목</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n편리함과 효율성을 중시하는 소비자 특성으로 간편하고 빠르게 식사를 해결할 수 있는 즉석식품의 인기가 높아지고 있으며, 특히 라면의 수요가 큰 성장세를 보인다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 2023년 UAE 라면 시장은 전년 대비 약 7.5% 성장한 4억 7,700만 디르함(AED)에 달했고, 추후 꾸준한 성장세를 보여 2028년에는 6억 5,220만 디르함에 달할 것으로 예측된다.\n\n한국 라면은 한국 문화를 즐기는 소비자를 중심으로 수요가 증가하고 있다. 봉지라면, 컵라면 모두 한국 라면의 가격이 높은 편임에도 불구하고 한국 콘텐츠에 노출된 한국 라면을 경험하기 위해 구매하고 있다. 특히 현지 무슬림 소비자에게 맞춰 할랄 인증을 받은 한국산 라면의 매출이 크게 상승하는 등 현지화가 중요한 성공 요인으로 작용하고 있다. 이에 한국산 라면의 對UAE 수출액은 2023년 약 1,502만 달러로 2019년 이후 연평균 40.2% 증가했다.\n\nUAE 라면 시장에서는 봉지라면의 매출이 전체 라면 시장의 약 70%를 차지하고 있다. 현지에는 돼지고기를 섭취하지 않는 무슬림 소비자가 많아 닭고기 베이스의 라면을 가장 선호하고 있다. 또한 UAE 인구 중 인도계의 비율이 38%에 달하는 등 채식주의자 인구의 비율이 높아 채소 라면의 인기도 높은 편이다. 이에 UAE 시장에 진출한 글로벌 식품 브랜드 켈로그(Kellogg's)는 닭고기 베이스의 치킨 카레 맛 라면을 출시했으며, 인도 식품 브랜드 Some More는 기장면을 사용한 비건 라면을 출시했다.\n\n2024.05.20. 해외시장동향, [UAE] 즉석면(라면) 시장 동향 및 전망, 한국농수산식품유통공사 United Arab Emirates (UAE) Instant Noodles Market (2024-2030), 6W Research",
+    "name": "편리함과 효율성을 중시하는 소비자 특성으로 간편하고 빠르게 식사를 해결할 수 있는 즉석식품의 인기가 높아지고 있으며, 특히 라면의 수요가 큰 성장세를 보인다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 2023년 UAE 라면 시장은 전년 대비 약 7.5% 성장한 4억 7,700만 디르함(AED)에 달했고, 추후 꾸준한 성장세를 보여 2028년에는 6억 5,220만 디르함에 달할 것으로 예측된다.",
+    "meta_data": {
+      "chunk_id": "e5d9e40e-ad04-4b10-8219-77621083ed03",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e5d9e40e-ad04-4b10-8219-77621083ed03",
+        "bfa74473-d2e9-4fa1-98a7-854d7cbdb201",
+        "76ed00ec-ea4d-4bf5-afcc-59e903679cf2",
+        "3ab6c82e-acab-4c60-b70a-ddb600ca52ba"
+      ],
+      "chunked_count": 4,
+      "index": 463,
+      "page_number": [
+        27
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 828,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "편리함과 효율성을 중시하는 소비자 특성으로 간편하고 빠르게 식사를 해결할 수 있는 즉석식품의 인기가 높아지고 있으며, 특히 라면의 수요가 큰 성장세를 보인다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 2023년 UAE 라면 시장은 전년 대비 약 7.5% 성장한 4억 7,700만 디르함(AED)에 달했고, 추후 꾸준한 성장세를 보여 2028년에는 6억 5,220만 디르함에 달할 것으로 예측된다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nUAE의 기후는 연중 고온다습해 아이스크림의 수요가 높은 편이다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 UAE의 아이스크림 시장 규모는 2023년 기준 약 4억 6천만 디르함을 기록했으며 2029년까지 연평균 7.1%의 성장률을 보이며 약 7억 디르함에 달할 것으로 예상된다.\n\n한류의 영향이 커지고 있어 한국 아이스크림에 대한 관심 또한 높아지고 있다. 이에 현지 소매 유통채널 및 한국 식료품점에서 멜론, 망고 등 다양한 맛의 한국 아이스크림이 판매되고 있다. 한국산 아이스크림의 對UAE 수출액은 2023년 약 193만 달러로 전년 대비 56% 증가했다.\n\n소비자의 소득수준이 높은 UAE에서는 최근 프리미엄 아이스크림이 유행하고 있다. 현지 시장에 진출한 글로벌 초콜릿 기업 페레로(Ferrero)에서는 자사의 초콜릿 제품을 프리미엄 아이스크림 라인으로 출시해 프리미엄 아이스크림 시장에 진출했다.\n\n또한 건강을 중시하는 식품 소비트렌드에 따라 비건, 식물성, 저칼로리 등 건강한 아이스크림의 수요가 증가하고 있다. 이에 UAE 시장에 진출한 미국 아이스크림 브랜드 KETO는 설탕 무첨가 아이스크림을 출시했다.\n\n2024.08.05. 해외시장동향, [UAE] UAE 아이스크림 시장 동향, 한국농수산식품유통공사 2022.12.29. 품목별조사보고서, 2022 UAE 아이스크림 보고서(시장분석형), 한국농수산식품유통공사",
+    "name": "UAE의 기후는 연중 고온다습해 아이스크림의 수요가 높은 편이다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 UAE의 아이스크림 시장 규모는 2023년 기준 약 4억 6천만 디르함을 기록했으며 2029년까지 연평균 7.1%의 성장률을 보이며 약 7억 디르함에 달할 것으로 예상된다.",
+    "meta_data": {
+      "chunk_id": "54dc59a8-b507-44c5-863c-816d41589660",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "54dc59a8-b507-44c5-863c-816d41589660",
+        "ec5d3d75-7a5b-414a-b6ab-7910022341f7",
+        "9026a851-1377-4341-a502-550e41319ab3",
+        "75d0cd5d-b0bf-4cf4-a4ee-1b2874311309",
+        "cd368df8-0fa3-4877-8883-9266b25d1a12"
+      ],
+      "chunked_count": 5,
+      "index": 476,
+      "page_number": [
+        28
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 690,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "UAE의 기후는 연중 고온다습해 아이스크림의 수요가 높은 편이다. 글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 UAE의 아이스크림 시장 규모는 2023년 기준 약 4억 6천만 디르함을 기록했으며 2029년까지 연평균 7.1%의 성장률을 보이며 약 7억 디르함에 달할 것으로 예상된다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nUAE는 세계 10대 비만 국가로 지목될 만큼 비만으로 인한 국민의 건강 문제가 사회적 문제로 대두되고 있다. 아랍 전통 음식은 지방 함량과 열량이 높은 음식이 대부분이며 디저트 문화도 발달해 달고 열량이 높은 식습관이 유지되어 왔다. UAE에서 비만이 심장질환, 사망까지 이르는 심각한 질병으로 인식되기 시작하며 체중 관리를 통해 건강을 되찾으려는 소비자가 증가하고 있다.\n\n글로벌 시장조사기관 유로모니터(Euromonitor)의 자료에 의하면 31%의 UAE 소비자가 체중 감량을 위해 노력하고 있는 것으로 나타났으며, 59%의 소비자는 건강한 식재료를 찾는 것으로 나타났다. 이에 현지 소비자가 저열량, 웰빙푸드의 소비를 늘리면서 육류 섭취량은 감소세를 보이는 반면 비건 및 식물성 식품의 수요가 높아지고 있다.\n\nUAE 내 건강한 식물성 식품의 수요가 증가하자 현지 시장에 진출한 스위스의 대체 식품 브랜드 Planted에서는 식물성 대체육류 제품을 출시했으며, 해당 브랜드의 제품은 UAE 내의 레스토랑, 카페 등 외식업계에서 사용되고 있다. 미국 대체 식품 브랜드 Beyond Meat는 UAE에 식물성 소시지를 출시했으며 또 다른 미국 대체 식품 브랜드 Loma에서는 식물성 참치통조림을 출시하며 UAE 식물성 식품 시장에 진출하였다.\n\n2024.01.24. 해외시장동향, [UAE] 비만 조사 및 대체 식품 현황, 한국농수산식품유통공사 224.08.13. 해외시장동향, [UAE] 2024년 상반기 식품 트렌드\n\nPlanted's Plant-Based Meat Added to Menus at Catering & HORECA Locations in the UAE, Vegconomist",
+    "name": "UAE는 세계 10대 비만 국가로 지목될 만큼 비만으로 인한 국민의 건강 문제가 사회적 문제로 대두되고 있다. 아랍 전통 음식은 지방 함량과 열량이 높은 음식이 대부분이며 디저트 문화도 발달해 달고 열량이 높은 식습관이 유지되어 왔다. UAE에서 비만이 심장질환, 사망까지 이르는 심각한 질병으로 인식되기 시작하며 체중 관리를 통해 건강을 되찾으려는 소비자가 증가하고 있다.",
+    "meta_data": {
+      "chunk_id": "6c5acd7b-9e94-497e-bab6-c0459f418807",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6c5acd7b-9e94-497e-bab6-c0459f418807",
+        "a3e24b82-12e4-479f-87f2-69035954042d",
+        "784b7c5a-171e-4861-b1d4-caa9a2892546",
+        "aaeae5b0-b8e5-4d47-84a8-d83705f5b8b1",
+        "557bed1d-6587-4ce9-93e7-5e72c6984fb2"
+      ],
+      "chunked_count": 5,
+      "index": 488,
+      "page_number": [
+        29
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 759,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "UAE는 세계 10대 비만 국가로 지목될 만큼 비만으로 인한 국민의 건강 문제가 사회적 문제로 대두되고 있다. 아랍 전통 음식은 지방 함량과 열량이 높은 음식이 대부분이며 디저트 문화도 발달해 달고 열량이 높은 식습관이 유지되어 왔다. UAE에서 비만이 심장질환, 사망까지 이르는 심각한 질병으로 인식되기 시작하며 체중 관리를 통해 건강을 되찾으려는 소비자가 증가하고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n다양한 레스토랑과 외식문화가 발달한 UAE에서는 다수의 소비자가 배달, 외식, 또는 테이크아웃으로 식사를 해결하고 있다. 2024년 초 두바이 경제관광부(Department of Economy and Tourism in Dubai, DET)에서 발표한 미식 산업 보고서에 의하면 두바이 시민들은 주 3회가량 외식을 하는 것으로 나타났으며, 36%의 응답자는 외식 시 가격을 제일 중요하게 고려한다고 답하였다.\n\n최근 UAE에서는 물가 상승으로 고가의 파인다이닝 레스토랑보다 저렴한 패스트푸드의 수요가 증가하고 있다. 특히 두바이의 경우 외식 물가가 높아 패스트푸드가 외식 산업에서 가장 큰 점유율을 차지하고 있으며, 그 규모 역시 증가하는 추세로 시장점유율은 2021년 33%에서 2023년 35%로 증가하였다. 또한 UAE 소비자들이 주변의 패스트푸드 매장을 검색하는 키워드 'fast food near me'의 월간 검색량이 2024년 상반기 기준 전년 대비 900% 증가한 약 5,400건으로 집계되었다.\n\n현지 소비자가 외식 물가에 민감해지고 저렴한 패스트푸드를 선호하는 모습을 보이자 해외 패스트푸드 프랜차이즈가 UAE 시장에 적극적으로 진출하고 있다. 미국의 유명 패스트푸드 프랜차이즈 Chipotle는 2024년 10월 UAE에 첫 매장을 오픈했으며, 바레인의 인기 패스트푸드 프랜차이즈 Jasmi's는 2024년 5월 카타르의 복합 쇼핑몰 West walk와 협력 관계를 맺고 첫 매장 오픈을 준비하고 있는 것으로 나타났다.\n\n2024.08.13. 해외시장동향, [UAE] 2024년 상반기 식품 트렌드, 한국농수산식품유통공사 Top trends: Price-conscious Dubai residents have been spending less yet dining out more, Zawya Mexican fast-food chain Chipotle officially opens in Dubai this week, What's on Bahrain's Popular Fast Food 'Jasmi's' Is Coming to Qatar!, MSN",
+    "name": "다양한 레스토랑과 외식문화가 발달한 UAE에서는 다수의 소비자가 배달, 외식, 또는 테이크아웃으로 식사를 해결하고 있다. 2024년 초 두바이 경제관광부(Department of Economy and Tourism in Dubai, DET)에서 발표한 미식 산업 보고서에 의하면 두바이 시민들은 주 3회가량 외식을 하는 것으로 나타났으며, 36%의 응답자는 외식 시 가격을 제일 중요하게 고려한다고 답하였다.",
+    "meta_data": {
+      "chunk_id": "54a3f5c0-f714-4592-a28c-dd6cd2191b73",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "54a3f5c0-f714-4592-a28c-dd6cd2191b73",
+        "fecf6a55-4cb1-4cb2-898d-9a4350e1a6ea",
+        "506a87fb-ad02-472c-81e6-5b32b269993d",
+        "2bc97dfa-2433-42c0-b6a9-c186af165461"
+      ],
+      "chunked_count": 4,
+      "index": 500,
+      "page_number": [
+        30
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 797,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "다양한 레스토랑과 외식문화가 발달한 UAE에서는 다수의 소비자가 배달, 외식, 또는 테이크아웃으로 식사를 해결하고 있다. 2024년 초 두바이 경제관광부(Department of Economy and Tourism in Dubai, DET)에서 발표한 미식 산업 보고서에 의하면 두바이 시민들은 주 3회가량 외식을 하는 것으로 나타났으며, 36%의 응답자는 외식 시 가격을 제일 중요하게 고려한다고 답하였다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nUAE에서는 이민자 인구가 늘어남과 더불어 사교 활동의 증가로 스낵의 소비가 많아지고 있다. 글로벌 시장조사기관 스태티스타에 따르면 UAE의 스낵 시장 규모는 2023년 2,451만 달러로 2019년 이후 연평균 32.4% 성장했다.\n\n최근 UAE에서 건강과 웰빙에 대한 소비자 인식이 높아지며 건강한 스낵의 수요가 증가하고 있다. 이에 비타민, 단백질, 프로바이오틱스를 추가해 면역력 강화, 피로 해소 및 건강 개선에 도움이 되는 기능성 스낵이 주목받고 있다.\n\n특히 단백질을 첨가한 스낵은 스포츠와 피트니스에 관심을 가진 소비자가 운동 후 단백질 보충을 위해 주로 소비하고 있다. 이에 UAE 스낵 브랜드 Kuwa는 대추야자를 사용한 글루텐프리 단백질 바를 출시했으며 UAE 시장에 진출한 사우디아라비아 스낵 브랜드 Free Life는 무가당, 저탄수화물 단백질 젤리를 출시했다.\n\n단백질 외에도 비타민, 미네랄, 프로바이오틱스 등 다양한 건강 기능성이 추가된 스낵 제품이 출시되고 있다. UAE 시장에 진출한 미국 건강 스낵 브랜드 Belli Welli는 식이섬유, 프로바이오틱스를 첨가한 글루텐프리 스낵바를 출시했으며, 인도 스낵 브랜드 Snack-o-aholic은 비타민 C 함량을 높인 토마토 맛 스낵을 출시했다.\n\n2024.09.20. 해외시장동향, [UAE] 웰빙 트렌드로 스낵바, 건조과일 수요 증가세, 한국농수산식품유통공사 Snacks in the United Arab Emirates, Euromonitor Snack Food, STATISTA",
+    "name": "UAE에서는 이민자 인구가 늘어남과 더불어 사교 활동의 증가로 스낵의 소비가 많아지고 있다. 글로벌 시장조사기관 스태티스타에 따르면 UAE의 스낵 시장 규모는 2023년 2,451만 달러로 2019년 이후 연평균 32.4% 성장했다.",
+    "meta_data": {
+      "chunk_id": "cdd9d306-06f2-4942-8450-ba631cedfb10",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "cdd9d306-06f2-4942-8450-ba631cedfb10",
+        "d21bc216-d591-440c-b773-aacb52f9462d",
+        "a26160be-2954-477f-a203-344ab914bbe4",
+        "4c2297e9-3f6d-4cd7-a769-6a5246559bcf",
+        "bcd0c5c6-dee3-4fde-9fae-8a7ce46b88d9"
+      ],
+      "chunked_count": 5,
+      "index": 513,
+      "page_number": [
+        31
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 734,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "UAE에서는 이민자 인구가 늘어남과 더불어 사교 활동의 증가로 스낵의 소비가 많아지고 있다. 글로벌 시장조사기관 스태티스타에 따르면 UAE의 스낵 시장 규모는 2023년 2,451만 달러로 2019년 이후 연평균 32.4% 성장했다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n전 세계가 기후 변화 위기에 직면하면서 UAE 역시 환경 보호 노력에 동참하기 위해 일회용품의 사용을 규제하고 있다. 2019년 기준 UAE의 1인당 연간 비닐봉지 사용량은 1,182개로 세계 평균(307개)의 거의 4배에 달해 심각한 환경 문제를 야기하고 있다.\n\nUAE는 2024년부터 일회용 비닐봉지 사용을 전면 금지하며 플라스틱 사용 규제에 본격적으로 나섰다. 이어 2025년에는 스티로폼 용기, 컵, 면봉 등의 사용이 금지되고 2026년에는 플라스틱 컵, 용기, 식기 등의 사용까지 전면 금지될 예정이다. 규정 위반 시 200디르함의 벌금이 부과되고 적발 후 1년 이내 동일한 위반 사항이 재적발될 시 벌금이 최대 2,000디르함까지 부과될 수 있다.\n\n2024년 6월 일회용 봉투 사용 금지 조치 이후 소비자들은 환경 보호를 위해 재사용 가능한 장바구니나 종이 상자를 적극적으로 활용하며 생활 방식을 바꾸고 있다. 대부분의 소비자들이 이러한 변화를 긍정적으로 평가하고 있으며, 정부의 지속적인 홍보와 사회적 인식 개선이 맞물려 자연스럽게 소비 문화가 변화하고 있다.\n\n비닐, 스티로폼, 플라스틱으로 만들어진 일회용품이 정부의 규제 대상으로 지정되며 현지 식품업계에서는 친환경 소재로 만들어진 일회용품이 주목받고 있다. 두바이의 식품 배달 플랫폼 딜리버루(Deliveroo)는 UAE 내 외식업체를 대상으로 한 친환경 일회용품 전용 온라인 쇼핑몰을 오픈해 플라스틱 일회용품 사용으로 인한 환경 문제 해결에 앞장서고 있다. 두바이 포장재 기업 Sineo Packaging과의 협력을 통해 개발된 다양한 친환경 제품들은 생분해성 소재와 재활용 가능 소재로 만들어져 자연환경에 미치는 영향을 최소화하고 있다. 음식 배달에 자주 사용되는 종이봉투, 종이컵, 냅킨, 식품 용기 등 다양한 상품을 제공하고 있다.\n\n2024.06.06. 해외시장동향, [UAE] 탄소중립을위한'기름국' UAE의 노력, 일회용품점진적사용제한, What does future hold for UAE after single-use plastic ban?, Khaleejtimes\n\nDeliveroo UAE launches web store with Sineo Packaging to encourage sustainable packaging adoption, Logistics",
+    "name": "전 세계가 기후 변화 위기에 직면하면서 UAE 역시 환경 보호 노력에 동참하기 위해 일회용품의 사용을 규제하고 있다. 2019년 기준 UAE의 1인당 연간 비닐봉지 사용량은 1,182개로 세계 평균(307개)의 거의 4배에 달해 심각한 환경 문제를 야기하고 있다.",
+    "meta_data": {
+      "chunk_id": "3b8c972d-38b6-4ed2-85be-df66e8739d57",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3b8c972d-38b6-4ed2-85be-df66e8739d57",
+        "cf17e720-930f-4a5c-97fc-3e08e03068d7",
+        "658e5520-c731-47e8-9ab1-c92867c253f3",
+        "92d2e9ac-725b-4ada-aa59-d9eb4648abf6",
+        "b6f8dbec-c3db-49b6-8c54-135e291095fc",
+        "c29a4722-5d1c-4e1c-a492-da84bdf3b1d3"
+      ],
+      "chunked_count": 6,
+      "index": 524,
+      "page_number": [
+        32
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 946,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "전 세계가 기후 변화 위기에 직면하면서 UAE 역시 환경 보호 노력에 동참하기 위해 일회용품의 사용을 규제하고 있다. 2019년 기준 UAE의 1인당 연간 비닐봉지 사용량은 1,182개로 세계 평균(307개)의 거의 4배에 달해 심각한 환경 문제를 야기하고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nUAE에서 식물성 육류, 배양육, 정밀 발효 식품 등 지속 가능한 '대체 단백질' 제품이 식량 위기의 해결책으로 관심을 받고 있어 관련 기술 및 기업에 대한 투자가 활발히 이루어지고 있다.\n\nUAE의 식물성 육류 시장이 성장하고 있으며 2023년에는 두바이 식품 기업 IFFCO 그룹이 'THRYVE' 와 'Switch Food' 등 식물성 육류 제조회사를 설립하기도 하였다. 2024년 기준 두바이에서는 식물성 육류로 제조된 버거가 일반 소고기 버거에 비해 4배 이상의 가격에 판매되고 있지만 앞으로 생산량이 증가하고 단가가 줄어들며 일반 육류보다 훨씬 큰 가격 경쟁력을 갖게 될 것으로 전망된다\n\n배양육은 동물의 세포를 배양해 실험실에서 제조되는 육류 및 해산물로 식감이나 영양성분이 동일하게 제조되고 도축이 필요 없다는 장점이 있다. 배양육은 이슬람 문화권에서는 할랄 인정 여부가 갈리고 있어 보편화에 난항을 겪고 있으나 카타르가 '카타르 자유무역지대(Qatar Free Zone)'에 배양육 제조 공장을 설립하는 등 UAE도 배양육 산업에 관심을 가지기 시작하고 있다.\n\n정밀 발효 식품은 유전자 공학 및 발효 기술을 활용해 미생물로 특정 식품 성분을 생산하는 것을 말하며 단백질, 비타민, 효소, 지방 등 다양한 식품 성분을 제조해 대체 달걀 및 유제품을 생산할 수 있다. UAE에서도 미국의 대체 유제품 제조 기업 Change Foods와 KEZAD(Khalifa Economic Zones Abu Dhabi) 그룹과 협정을 맺어 아부다비에 정밀 발효 식품 제조 시설을 최초로 설립하고 있으며 2027년까지 1.2백만 리터의 대체 유제품을 생산할 것으로 예측된다.\n\n2024.06.28. 해외시장동향, [UAE] 배양육은 할랄인가? 두바이미래재단 '대체 단백질' 관련 보고서 발표, 한국농수산식품유통공사\n\nReport Highlights Role of Alternative Proteins in Enhancing Food Security in the UAE, Vegconomist Alternative protein sources are the way forward in the UAE, University World News",
+    "name": "UAE에서 식물성 육류, 배양육, 정밀 발효 식품 등 지속 가능한 '대체 단백질' 제품이 식량 위기의 해결책으로 관심을 받고 있어 관련 기술 및 기업에 대한 투자가 활발히 이루어지고 있다.",
+    "meta_data": {
+      "chunk_id": "6db634ed-dc89-45fc-a48c-fcd970f32e11",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6db634ed-dc89-45fc-a48c-fcd970f32e11",
+        "22d72cda-b6fd-4d39-a2e6-2540b9dae1a7",
+        "050a3883-6b21-46db-863b-8e4a807ade15",
+        "db114530-4ae5-4ad8-b7d7-ad9b3dbc33d7",
+        "ce5a77d7-be07-49de-8037-61923556c752",
+        "d80a280a-00ca-4fdd-b404-614ceff59f86"
+      ],
+      "chunked_count": 6,
+      "index": 538,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 884,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "UAE에서 식물성 육류, 배양육, 정밀 발효 식품 등 지속 가능한 '대체 단백질' 제품이 식량 위기의 해결책으로 관심을 받고 있어 관련 기술 및 기업에 대한 투자가 활발히 이루어지고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nUAE에서 K-팝과 K-드라마 열풍을 타고 한국 문화에 대한 관심이 높아지면서 한식 또한 젊은 세대 사이에서 큰 인기를 얻고 있다. 특히, '한국식(Korean)'이라는 수식어가 식품 업계에서 하나의 마케팅 트렌드로 자리 잡을 정도로 한식의 영향력이 커지고 있다.\n\nSNS에서 한국의 매운 라면이나 편의점 음식을 먹는 챌린지가 유행하며 현지 대학생들 사이에서 한국 음식의 인지도와 인기가 급상승하였다. 걸프 의학대학교(Gulf Medical University) 교내 학생 식당에서는 핫도그, 라면, 떡볶이 같은 한국의 길거리 음식, 분식을 판매하고 있으며 현지 학생들에게 좋은 반응을 얻고 있다.\n\nUAE에서 한국 음식의 수요가 증가하며 한식당 및 한국 카페가 생겨나고 있다. 대표적으로 한국식 바비큐, 후라이드 치킨, 짜장면 등의 한국 음식이 현지에서 많은 인기를 얻고 있으며, 특히 한국식 치킨은 한식당 외에도 아시아 음식점, 펍 등에서 양념치킨을 판매할 정도로 인기가 높다.\n\n최근 싱가포르 셰프 레이프 오트만 셰프가 운영하는 두바이에 위치한 퓨전 한식당 'Hoe Lee Kow'가 한식 레스토랑 최초로 미슐랭 빕구르망에 선정되기도 했다. Hoe Lee Kow는 외국 셰프가 운영하고 있으나 모든 메뉴가 한식으로 구성되어 있고 레스토랑 자체적으로도 한식 퓨전 바비큐 음식점으로 정의하고 있다. 미슐랭 가이드는 Hoe Lee Kow의 하회탈, 부채 등 한국적 인테리어 요소를 호평하고 있으며 맛있는 한국식 바비큐를 맛볼 수 있는 레스토랑으로 소개하고 있다.\n\n2024.07.29. [UAE] 'Hoe Lee Kow'한식당 중 최초 미슐랭 빕구르망 선정, 한국농수산식품유통공사 2024.10.14. [UAE] UAE 한국 식품 트렌드, 한국농수산식품유통공사\n\nK-pop craze in UAE: Korean wave sweeps universities, youth amid global influence, Khaleej Times 두바이서 첫 미슐랭 단 한식당…어떤 음식 파나 살펴보니[食세계], Nate News",
+    "name": "UAE에서 K-팝과 K-드라마 열풍을 타고 한국 문화에 대한 관심이 높아지면서 한식 또한 젊은 세대 사이에서 큰 인기를 얻고 있다. 특히, '한국식(Korean)'이라는 수식어가 식품 업계에서 하나의 마케팅 트렌드로 자리 잡을 정도로 한식의 영향력이 커지고 있다.",
+    "meta_data": {
+      "chunk_id": "dc7bc4c7-f5c9-4305-bb27-5beb6de291e5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "dc7bc4c7-f5c9-4305-bb27-5beb6de291e5",
+        "b9407306-81a6-4eb1-8cbb-f50586e7bcac",
+        "70902402-bae5-43f5-b27e-d3d3cb942511",
+        "db124436-dce1-4b27-8c1d-4f14426f36a4",
+        "4110680d-ddc5-40a9-a1b4-905b52c4b0a3",
+        "6a1ca9f3-5196-4004-85eb-d83f762d7a38"
+      ],
+      "chunked_count": 6,
+      "index": 549,
+      "page_number": [
+        34
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 902,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "UAE에서 K-팝과 K-드라마 열풍을 타고 한국 문화에 대한 관심이 높아지면서 한식 또한 젊은 세대 사이에서 큰 인기를 얻고 있다. 특히, '한국식(Korean)'이라는 수식어가 식품 업계에서 하나의 마케팅 트렌드로 자리 잡을 정도로 한식의 영향력이 커지고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 4.1 | 수출입절차\n\n수출신고 및 · 관세청 UNI-PASS 시스템을 통해 전자적으로 세관에 제반서류 제출 · 제출서류: ①수출신고서 ②상업송장 ③포장명세서 등\n운송수단 선적 · 수출신고 완료 후 &#x27;수출신고필증&#x27;이 교부되며 수출신고가 수리된\n\n소비 적합성 성적서 취득 · 식품 수입 전 두아비중앙식품시험연구소에서 소비 적합성 성적서 취득 · 성적서를 보유하지 않은 식품은 샘플검사 결과가 나오기 전까지 반출 할 수 없음 수입업체\n\n수입신고 · 수입신고 시 아랍에미리트 관세청에 제반서류를 제출 필요 · 제출서류: ①선하증권 또는 항공화물운송장 ②상업송장④원산지증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등\n\n수입검사 · 식품 위험도에 따라 통관채널 구분 - ①녹색절차: 저위험식품 위생서류 검토 진행 - ②황색절차: 중위험식품 위생서류 검토 및 화물검사 진행 - ③적색절차: 고위험식품 위생서류 검토 화물검사 및 무작위 샘플검사 진행\n\n프로세스 상세내용 주체\n품목별 수입요건 파악 수출 품목에 대한 아랍에미리트의 위생기준 검역 요건 포장 및 라벨링 요건 등 관련 요건을 사전에 파악 국내\n수출신고 및 운송수단 선적 제출서류: ①수출신고서 ②상업송장 ③포장명세서 등 국내 수출업체\n수입식품 사전등록 아랍에미리트 FIRS 또는 ZAD 시스템으로 수입식품 사전등록 필요 제출서류: FIRS(①수입신청서 ②제품 라벨 사진 및 제품 사진 ③할랄 인증서) ZAD(①수입신청서 ②제품 라벨 포장 건강 및 원산지 관할 당국의 확인증 ③할 UAE 수입업체\n▼\n소비 적합성 성적서 취득 식품 수입 전 두아비중앙식품시험연구소에서 소비 적합성 성적서 취득 성적서를 보유하지 않은 식품은 샘플검사 결과가 나오기 전까지 반출 UAE 수입업체\n· 수입신고 시 아랍에미리트 관세청에 제반서류를 제출 필요 · 제출서류: ①선하증권 또는 항공화물운송장 ②상업송장④원산지증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등 UAE 수입업체\n수입검사 ①녹색절차: 저위험식품 위생서류 검토 진행 ②황색절차: 중위험식품 위생서류 검토 및 화물검사 진행 UAE 수입업체\n관세 납부 및 반출 관세 납부 후 물품 반출 가능 UAE 수입업체",
+    "name": "4.1 | 수출입절차",
+    "meta_data": {
+      "chunk_id": "bae1e23e-f457-4995-aa2e-546e6a20fb66",
+      "page_number": [
+        35
+      ],
+      "item_label": "merged",
+      "index": 561,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 4.1 | 수출입절차",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "3a3fea9f-dcf5-40cc-947e-d3887ce66149",
+          "content": "<table><tbody><tr><td>수출신고 및</td><td>· 관세청 UNI-PASS 시스템을 통해 전자적으로 세관에 제반서류 제출 · 제출서류: ①수출신고서 ②상업송장 ③포장명세서 등</td></tr><tr><td>운송수단 선적</td><td>· 수출신고 완료 후 &#x27;수출신고필증&#x27;이 교부되며, 수출신고가 수리된</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "fb469232-8392-4697-b67c-cf25754bf655",
+          "content": "<table><tbody><tr><td>소비 적합성 성적서 취득</td><td>· 식품 수입 전 두아비중앙식품시험연구소에서 소비 적합성 성적서 취득 · 성적서를 보유하지 않은 식품은 샘플검사 결과가 나오기 전까지 반출 할 수 없음 수입업체</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "b0945a9d-443a-4713-853b-29fd3eeeb42c",
+          "content": "<table><tbody><tr><td>수입신고</td><td>· 수입신고 시 아랍에미리트 관세청에 제반서류를 제출 필요 · 제출서류: ①선하증권 또는 항공화물운송장 ②상업송장④원산지증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "82151b36-296e-40fb-9c2b-892f2bb5dbfb",
+          "content": "<table><tbody><tr><td>수입검사</td><td>· 식품 위험도에 따라 통관채널 구분 - ①녹색절차: 저위험식품, 위생서류 검토 진행 - ②황색절차: 중위험식품, 위생서류 검토 및 화물검사 진행 - ③적색절차: 고위험식품, 위생서류 검토, 화물검사 및 무작위 샘플검사 진행</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "601d990c-a59c-498b-854d-ad432bdc6923",
+          "content": "<table><tbody><tr><th>프로세스</th><th>상세내용 주체</th></tr><tr><td>품목별 수입요건 파악</td><td>수출 품목에 대한 아랍에미리트의 위생기준, 검역 요건, 포장 및 라벨링 요건 등 관련 요건을 사전에 파악 국내</td></tr><tr><td>수출신고 및 운송수단 선적</td><td>제출서류: ①수출신고서 ②상업송장 ③포장명세서 등 국내 수출업체</td></tr><tr><td>수입식품 사전등록</td><td>아랍에미리트 FIRS 또는 ZAD 시스템으로 수입식품 사전등록 필요 제출서류: FIRS(①수입신청서 ②제품 라벨 사진 및 제품 사진 ③할랄 인증서), ZAD(①수입신청서 ②제품 라벨, 포장, 건강 및 원산지 관할 당국의 확인증 ③할 UAE 수입업체</td></tr><tr><td colspan=\"2\">▼</td></tr><tr><td>소비 적합성 성적서 취득</td><td>식품 수입 전 두아비중앙식품시험연구소에서 소비 적합성 성적서 취득 성적서를 보유하지 않은 식품은 샘플검사 결과가 나오기 전까지 반출 UAE 수입업체</td></tr><tr><td></td><td>· 수입신고 시 아랍에미리트 관세청에 제반서류를 제출 필요 · 제출서류: ①선하증권 또는 항공화물운송장 ②상업송장④원산지증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등 UAE 수입업체</td></tr><tr><td>수입검사</td><td>①녹색절차: 저위험식품, 위생서류 검토 진행 ②황색절차: 중위험식품, 위생서류 검토 및 화물검사 진행 UAE 수입업체</td></tr><tr><td>관세 납부 및 반출</td><td>관세 납부 후 물품 반출 가능 UAE 수입업체</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# ▶수출 전 준비사항\n\n품목별 수입요건 파악 ● 수출 품목에 대한 아랍에미리트의 위생기준·검역 요건·포장 및 라벨링 등 관련 요건을 사전에 파악 필요 · 일반 사전포장식품 신선 농산물 축산물 제품 등에 요구되는 위생기준·라벨링· 식품첨가물 규정 등 수입요건이 상이하므로 국내 수출업체는 원활한 수출을 위해 품목별 수입요건을 사전에 파악해야 함\n▶국내 수출신고 수출통관 절차 ● 수출업체는 상업송장 포장명세서 등을 기반으로 수출신고서 작성 후 관세청 UNI-PASS를 통해 수출신고 필수 · 수출신고는 수출업체(화주)와 수출업체를 대신하는 관세사·관세법인·통관취급법인· 완제품제공자 명의로 신고할 수 있음 · 접수 결과에 따라 ①서류 심사 후 수리 ②현품 검사 후 수리 ③자동수리로 구분해 수출통관 진행 &lt;수출신고 수리 유형&gt; · 서류 심사 후 수리 실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 · 현품 검사 후 수리 우범성이 높은 물품을 대상으로 수출신고 물품 외 은닉 물품 여부 신고사항과의 일치 여부를 확인 · 자동 수리 세관의 심사 없이 자동 수리 후 수출신고필증 발급 · 수출신고 수리 후 수출업체는 &#x27;수출신고필증&#x27;을 수령함 · 수출업체(화주)는 관세법에 따라 ①수출신고필증 ②수출품 가격결정에 관한\n수출검역 · 아랍에미리트 수입업체가 수출검역을 요구할 경우 농림축산검역본부에수출검역을신청 해야함 · 수출검역 신청 시 수출검사신청서 및 제반 서류를 제출해야 함 &lt;수출검역 신청 시 제출 서류&gt; 식물검역 ①수출식물검사신청서 ②검사대상식물명세서(수출검사 대상품목이 2개 이상인 경우) ③수입허가증명서(상대국의 사전허가가 필요한 경우) ④수출검역요령에 명시된 수입국 요구사항을 준수했음을 증명하는 서류(수입국이 검사증명서에 부기를 요구할 경우) ①수출 검사신청서",
+    "name": "▶수출 전 준비사항",
+    "meta_data": {
+      "chunk_id": "058ab4d2-6f05-451c-a70e-a564be1a311b",
+      "page_number": [
+        36
+      ],
+      "item_label": "merged",
+      "index": 577,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# ▶수출 전 준비사항",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e33a258e-d06e-4b75-aa85-741390963140",
+          "content": "<table><tbody><tr><td>품목별 수입요건 파악</td><td>● 수출 품목에 대한 아랍에미리트의 위생기준·검역 요건·포장 및 라벨링 등 관련 요건을 사전에 파악 필요 · 일반 사전포장식품, 신선 농산물, 축산물 제품 등에 요구되는 위생기준·라벨링· 식품첨가물 규정 등 수입요건이 상이하므로, 국내 수출업체는 원활한 수출을 위해 품목별 수입요건을 사전에 파악해야 함</td></tr><tr><td>▶국내 수출신고</td><td>수출통관 절차 ● 수출업체는 상업송장, 포장명세서 등을 기반으로 수출신고서 작성 후 관세청 UNI-PASS를 통해 수출신고 필수 · 수출신고는 수출업체(화주)와 수출업체를 대신하는 관세사·관세법인·통관취급법인· 완제품제공자 명의로 신고할 수 있음 · 접수 결과에 따라 ①서류 심사 후 수리 ②현품 검사 후 수리 ③자동수리로 구분해 수출통관 진행 &lt;수출신고 수리 유형&gt; · 서류 심사 후 수리 실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 · 현품 검사 후 수리 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인 · 자동 수리 세관의 심사 없이 자동 수리 후 수출신고필증 발급 · 수출신고 수리 후 수출업체는 &#x27;수출신고필증&#x27;을 수령함 · 수출업체(화주)는 관세법에 따라 ①수출신고필증 ②수출품 가격결정에 관한</td></tr><tr><td>수출검역</td><td>· 아랍에미리트 수입업체가 수출검역을 요구할 경우 농림축산검역본부에수출검역을신청 해야함 · 수출검역 신청 시 수출검사신청서 및 제반 서류를 제출해야 함 &lt;수출검역 신청 시 제출 서류&gt; 식물검역 ①수출식물검사신청서 ②검사대상식물명세서(수출검사 대상품목이 2개 이상인 경우) ③수입허가증명서(상대국의 사전허가가 필요한 경우) ④수출검역요령에 명시된 수입국 요구사항을 준수했음을 증명하는 서류(수입국이 검사증명서에 부기를 요구할 경우) ①수출 검사신청서</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인",
+    "name": "실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인",
+    "meta_data": {
+      "chunk_id": "c0322705-8278-4348-aebd-8336db90bc8e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c0322705-8278-4348-aebd-8336db90bc8e"
+      ],
+      "chunked_count": 1,
+      "index": 579,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 86,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 04 아랍에미리트\n\n물검역의 경우 검역시행장으로 지정된 장소에서 진행됨 · 수출검역 결과 합격 시 검역증명서가 교부되며 불합격 시 신청자가 소독하거나 선별한 후 재검역을 신청할 수 있음\n운송수단 선적 ● 수출업체는 수출신고 수리일로부터 30일 내에 선박 등 운송수단에 적재 필요 · 단 최대 1년 이내 범위에서 적재 기간 연장이 가능함",
+    "name": "2024농식품 국가 수출정보 04 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "f15fd0e5-e474-4344-ba9f-cd1e7fc8e81e",
+      "page_number": [
+        37
+      ],
+      "item_label": "merged",
+      "index": 587,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 04 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e9bd9984-8df6-4c5a-b9a8-e284440c4654",
+          "content": "<table><tbody><tr><td></td><td>물검역의 경우 검역시행장으로 지정된 장소에서 진행됨 · 수출검역 결과 합격 시 검역증명서가 교부되며, 불합격 시 신청자가 소독하거나 선별한 후 재검역을 신청할 수 있음</td></tr><tr><td>운송수단 선적</td><td>● 수출업체는 수출신고 수리일로부터 30일 내에 선박 등 운송수단에 적재 필요 · 단, 최대 1년 이내 범위에서 적재 기간 연장이 가능함</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# ▶아랍에미리트 수입통관·검역 절차\n\n할랄인증 취득 (ESMA) 및 표준측량청에서 지정한 지정인증기관을 통해 취득할 수 있음 · 육류 수출 시에는 육류를 생산하는 도축장이 아랍에미리트 관할 당국인 표준측 량청(ESMA)에 등록되어야 하며 해당 기관에서 발행하는 등록증명서가 필요함 · 도축장 등록은 온라인을 통해 가능하고 다음과 같은 서류를 제출해야 함 &lt;아랍에미리트 육류 도축장 등록 필요 서류&gt; · 도축장 시설 및 위치정보 · 도축장의 위생상태 정보 · 가축의 건강 및 질병에 관한 자료 · HACCP 인증서 GMP 인증서 등 · 도축절차에대한요약정보 · 수의사 및 도축장의 인력 정보 · 원산지국의 관할 정부당국에 의한 육류 의 위생 및 수의 관리 입증 서류 이슬람법에 따른 동물 도축 요구사항과 할 랄 생산의 지속성을 지킨다는 준수 확인서 · 가공공장의 경우에는 한국 농림축산검역본부에 검역 시행장으로 해당 작업장을 신청하여 승인을 받아야 함 · 축산물을 수출하기 위해서는 검역증명서를 제출해야 하며 각 품목에 따라 해당 증명서에는",
+    "name": "▶아랍에미리트 수입통관·검역 절차",
+    "meta_data": {
+      "chunk_id": "7eabd741-3b8f-49e0-9c9a-a0298fc21be5",
+      "page_number": [
+        37
+      ],
+      "item_label": "merged",
+      "index": 590,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# ▶아랍에미리트 수입통관·검역 절차",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4500776f-2a2a-41cf-92a1-b2875d491b17",
+          "content": "<table><tbody><tr><td>할랄인증 취득</td><th>(ESMA) 및 표준측량청에서 지정한 지정인증기관을 통해 취득할 수 있음 · 육류 수출 시에는 육류를 생산하는 도축장이 아랍에미리트 관할 당국인 표준측 량청(ESMA)에 등록되어야 하며, 해당 기관에서 발행하는 등록증명서가 필요함 · 도축장 등록은 온라인을 통해 가능하고, 다음과 같은 서류를 제출해야 함 &lt;아랍에미리트 육류 도축장 등록 필요 서류&gt; · 도축장 시설 및 위치정보 · 도축장의 위생상태 정보 · 가축의 건강 및 질병에 관한 자료 · HACCP 인증서, GMP 인증서 등 · 도축절차에대한요약정보 · 수의사 및 도축장의 인력 정보 · 원산지국의 관할 정부당국에 의한 육류 의 위생 및 수의 관리 입증 서류 이슬람법에 따른 동물 도축 요구사항과 할 랄 생산의 지속성을 지킨다는 준수 확인서 · 가공공장의 경우에는 한국 농림축산검역본부에 검역 시행장으로 해당 작업장을 신청하여 승인을 받아야 함 · 축산물을 수출하기 위해서는 검역증명서를 제출해야 하며, 각 품목에 따라 해당 증명서에는</th></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n· 가축의 건강 및 질병에 관한 자료 · HACCP 인증서, GMP 인증서 등\n\n· 원산지국의 관할 정부당국에 의한 육류 의 위생 및 수의 관리 입증 서류\n\n이슬람법에 따른 동물 도축 요구사항과 할 랄 생산의 지속성을 지킨다는 준수 확인서",
+    "name": "· 가축의 건강 및 질병에 관한 자료 · HACCP 인증서, GMP 인증서 등",
+    "meta_data": {
+      "chunk_id": "bb57ec5d-4216-4eac-855c-ef565549612b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "bb57ec5d-4216-4eac-855c-ef565549612b",
+        "e60816f0-d0bf-495e-80f0-95be2b158e23",
+        "d2563c8c-3bbe-411d-af45-9481def9f405"
+      ],
+      "chunked_count": 3,
+      "index": 593,
+      "page_number": [
+        37
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 123,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "· 가축의 건강 및 질병에 관한 자료 · HACCP 인증서, GMP 인증서 등"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 04 아랍에미리트\n\n3개월 이내에 조류독감이 발견되지 않았다는 증명 · 승인된 도축형식을 따랐으며 도축 전/후로 검사를 완료하였다는 증명 · 가금육에서병원체가발견되지않았으며사람이섭취해도된다는확인서 · 도축된 제품이 섭씨 70도 이상의 온도에서 3.6초 이상 또는 섭씨 74도에서 1초 이상 처리되었다는 확인 · HACCP 시스템을 준수하는 기관에서 생산하였다는 문서\n수입식품사전등록 ● 아랍에미리트 수입업체는 FIRS나 ZAD(연방식품포털)에서 수입식품을 사전 등록 필요 · FIRS(Food Import&amp;Re-export System) 등록 시 온라인으로 수입신청서와 함께 제품의 라벨 사진을 첨부하여 제출하며 제품의 라벨사진 첨부가 어려운 경우 제품의 사진으로 대체 가능함 · 연방식품포털(ZAD) 등록 시 온라인으로 수입신청서와 함께 제품의 라벨 포장 제품의 건강 및 영양 강조표시에 대한 원산지 관할 당국의 확인증을 제출함 · 수입식품 등록을 통해 식품 라벨 승인을 취득할 수 있으며 수입식품 등록 미진행 시 통관이 거부됨\n소비적합성 ● 또한 아랍에미리트 수입업체는 &#x27;소비 적합성 성적서&#x27; 취득 권장 · 식품 수입 전 두바이중앙식품시험소(Dubai Central Food Laboratory) 또는 국제 인정 시험소로부터 수입 대상 식품의 소비적합성 성적서 취득 권장 · 성적서 미보유 시 화물 도착 후 샘플 시험결과가 나올 때까지 반출이 보류됨 ● 온라인 또는 현지 대리인 및 관세사를 통해 세관 신고를 진행\n수입신고 · 수입업체는 온라인이나 허가받은 통관 브로커를 통해 수입신고서를 제출함 · 제출 서류는 다음과 같음 &lt;아랍에미리트 수입신고 제출서류&gt; ①항공화물운송장 ②선하증권 ③상업송장 ④원산지 증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등\n수입검역 ● 유통기한과 표시사항 규정의 준수 여부 확인을 위해 모든 수입식품을 대상으로 관능검사 실시 · 수입식품 검역은 크게 ①제품검사 ②미생물검사 ②화학검사로 분류되며 분석 기간은 보통 5~10일 정도 소요됨 · 정밀검사가 불필요할 경우 반출확인서가 교부되어 통관이 완료되며 육안검사 부적합 시 위험분류에 따라 단계별 정밀검사 여부를 결정함",
+    "name": "2024농식품 국가 수출정보 04 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "6a519099-f46b-42b8-bd8d-55eebe040389",
+      "page_number": [
+        38
+      ],
+      "item_label": "merged",
+      "index": 601,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 04 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "bae2d1ab-55a6-42f9-ad4a-0d8357d4672f",
+          "content": "<table><tbody><tr><td></td><td>3개월 이내에 조류독감이 발견되지 않았다는 증명 · 승인된 도축형식을 따랐으며, 도축 전/후로 검사를 완료하였다는 증명 · 가금육에서병원체가발견되지않았으며사람이섭취해도된다는확인서 · 도축된 제품이 섭씨 70도 이상의 온도에서 3.6초 이상 또는 섭씨 74도에서 1초 이상 처리되었다는 확인 · HACCP 시스템을 준수하는 기관에서 생산하였다는 문서</td></tr><tr><td>수입식품사전등록</td><td>● 아랍에미리트 수입업체는 FIRS나 ZAD(연방식품포털)에서 수입식품을 사전 등록 필요 · FIRS(Food Import&amp;Re-export System) 등록 시 온라인으로 수입신청서와 함께 제품의 라벨 사진을 첨부하여 제출하며 제품의 라벨사진 첨부가 어려운 경우 제품의 사진으로 대체 가능함 · 연방식품포털(ZAD) 등록 시 온라인으로 수입신청서와 함께 제품의 라벨, 포장, 제품의 건강 및 영양 강조표시에 대한 원산지 관할 당국의 확인증을 제출함 · 수입식품 등록을 통해 식품 라벨 승인을 취득할 수 있으며 수입식품 등록 미진행 시 통관이 거부됨</td></tr><tr><td>소비적합성</td><td>● 또한, 아랍에미리트 수입업체는 &#x27;소비 적합성 성적서&#x27; 취득 권장 · 식품 수입 전 두바이중앙식품시험소(Dubai Central Food Laboratory) 또는 국제 인정 시험소로부터 수입 대상 식품의 소비적합성 성적서 취득 권장 · 성적서 미보유 시 화물 도착 후 샘플 시험결과가 나올 때까지 반출이 보류됨 ● 온라인 또는 현지 대리인 및 관세사를 통해 세관 신고를 진행</td></tr><tr><td>수입신고</td><td>· 수입업체는 온라인이나 허가받은 통관 브로커를 통해 수입신고서를 제출함 · 제출 서류는 다음과 같음 &lt;아랍에미리트 수입신고 제출서류&gt; ①항공화물운송장 ②선하증권 ③상업송장 ④원산지 증명서 ⑤포장명세서 ⑥화물인도지시서 ⑦수입통관 허가증 등</td></tr><tr><td>수입검역</td><td>● 유통기한과 표시사항 규정의 준수 여부 확인을 위해 모든 수입식품을 대상으로 관능검사 실시 · 수입식품 검역은 크게 ①제품검사 ②미생물검사 ②화학검사로 분류되며, 분석 기간은 보통 5~10일 정도 소요됨 · 정밀검사가 불필요할 경우 반출확인서가 교부되어 통관이 완료되며, 육안검사 부적합 시 위험분류에 따라 단계별 정밀검사 여부를 결정함</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 04 아랍에미리트\n\n구분 적색 절차 황색 절차 녹색 절차\n고위험식품 80~100% 0~10% 0~10%\n중위험식품 15~25% 15~25% 50~70%\n저위험식품 5~10% 0~5% 85~90%\n\n&lt;아랍에미리트 단계별 정밀검사 분류&gt;\n절차 위생서류 검토만 진행\n녹색 절차 위생서류 검토 및 화물검사 진행\n황색\n적색 절차 위생서류 검토·화물검사 및 무작위 샘플 채취 검사\n신선식품은 포장 유형에 따라 식품의 위험도가 분류됨\n및 쿠스쿠스) 말린 허브 소금 식초 알코올 음료 증류주 생수 탄산음료 주스 농축액 신선과일 포장과일 냉동야채 및 과\n식품 위험도 별로 검역 절차 빈도 매트릭스는 다음과 같음 위험도가 낮은 식품일수록 비교적 간단한 녹색 절차를 밟을 확률이 높으며 높은 고위험식품 육류 수산물 우유 요거트 치즈 아이스크림 달걀 버터 냉동 패 스트리 우유와 계란을 함유한 베이커리 제품 유아용 식품 특별 규정식 말린 견과류 및 코코넛 견과 및 코코넛 플레이크 참깨 타히니 땅콩버터 절단한 사전포장채소 증류한 저산성 식품\n위험도가 식품일수록 적색 절차를 밟을 확률이 높음\n구분 적색 절차 황색 절차 녹색 절차\n고위험식품 80~100% 0~10% 0~10%\n중위험식품 15~25% 15~25% 50~70% 저위험식품 5~10% 0~5% 85~90%\n같이 식품위생이 중요하게 다뤄지는 고위험 식품의 경우 위생서류 검토 화물검 진행되는 비율이 80~100%에 달함\n· 육류와 사 등 추가검사가 · 공식적으로 수입이 금지된 제품은 검사 대상에 포함되지 않으며 원산지 국가로 재수출\n되며 토후국으로 처음 수입되는 식품은 자동으로 검역 대상에 포함됨",
+    "name": "2024농식품 국가 수출정보 04 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "d053297c-d1f3-4fce-9c05-3ca2ad789fa7",
+      "page_number": [
+        39
+      ],
+      "item_label": "merged",
+      "index": 613,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 04 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "bcea18f2-9616-4422-b011-055769e689f7",
+          "content": "<table><tbody><tr><th>구분</th><th>적색 절차</th><th>황색 절차</th><th>녹색 절차</th></tr><tr><td>고위험식품</td><td>80~100%</td><td>0~10%</td><td>0~10%</td></tr><tr><td>중위험식품</td><td>15~25%</td><td>15~25%</td><td>50~70%</td></tr><tr><td>저위험식품</td><td>5~10%</td><td>0~5%</td><td>85~90%</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "4c0b04b7-39de-41b1-a581-4d09a5abcbf1",
+          "content": "<table><tbody><tr><th colspan=\"3\">&lt;아랍에미리트 단계별 정밀검사 분류&gt;</th></tr><tr><th colspan=\"3\">절차 위생서류 검토만 진행</th></tr><tr><th colspan=\"3\">녹색 절차 위생서류 검토 및 화물검사 진행</th></tr><tr><td colspan=\"3\">황색</td></tr><tr><td colspan=\"3\">적색 절차 위생서류 검토·화물검사 및 무작위 샘플 채취 검사</td></tr><tr><td colspan=\"3\">신선식품은 포장 유형에 따라 식품의 위험도가 분류됨</td></tr><tr><td colspan=\"3\">및 쿠스쿠스), 말린 허브, 소금, 식초, 알코올 음료, 증류주 생수, 탄산음료, 주스, 농축액, 신선과일, 포장과일, 냉동야채 및 과</td></tr><tr><td colspan=\"3\">식품 위험도 별로 검역 절차 빈도 매트릭스는 다음과 같음 위험도가 낮은 식품일수록 비교적 간단한 녹색 절차를 밟을 확률이 높으며, 높은 고위험식품 육류, 수산물, 우유, 요거트, 치즈, 아이스크림, 달걀, 버터, 냉동 패 스트리, 우유와 계란을 함유한 베이커리 제품, 유아용 식품, 특별 규정식, 말린 견과류 및 코코넛, 견과 및 코코넛 플레이크, 참깨, 타히니, 땅콩버터, 절단한 사전포장채소, 증류한 저산성 식품</td></tr><tr><td colspan=\"3\">위험도가 식품일수록 적색 절차를 밟을 확률이 높음</td></tr><tr><td colspan=\"3\">구분 적색 절차 황색 절차 녹색 절차</td></tr><tr><td colspan=\"3\">고위험식품 80~100% 0~10% 0~10%</td></tr><tr><td colspan=\"3\">중위험식품 15~25% 15~25% 50~70% 저위험식품 5~10% 0~5% 85~90%</td></tr><tr><td colspan=\"3\">같이 식품위생이 중요하게 다뤄지는 고위험 식품의 경우, 위생서류 검토, 화물검 진행되는 비율이 80~100%에 달함</td></tr><tr><td colspan=\"3\">· 육류와 사 등 추가검사가 · 공식적으로 수입이 금지된 제품은 검사 대상에 포함되지 않으며 원산지 국가로 재수출</td></tr><tr><td colspan=\"3\">되며, 토후국으로 처음 수입되는 식품은 자동으로 검역 대상에 포함됨</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n커피, 차, 설탕, 시럽, 꿀, 탄산음료 농축액, 식품첨가물, 향료추출물, 기름, 지방, 마가린, 건과일, 포장채소, 곡물, 콩, 파스타(스파게티 및 쿠스쿠스), 말린 허브, 소금, 식초, 알코올 음료, 증류주\n\n생수, 탄산음료, 주스, 농축액, 신선과일, 포장과일, 냉동야채 및 과 일, 코코아, 초콜릿, 비스킷, 사탕, 향신료, 건조 스프, 이스트, 박테 리아 배양물, 커피 화이트너, 휘핑크림, 잼, 젤리, 쌀, 밀가루, 전분, 튀김, 조식용 시리얼, 산성식품\n\n육류, 수산물, 우유, 요거트, 치즈, 아이스크림, 달걀, 버터, 냉동 패 스트리, 우유와 계란을 함유한 베이커리 제품, 유아용 식품, 특별 규정식, 말린 견과류 및 코코넛, 견과 및 코코넛 플레이크, 참깨, 타히니, 땅콩버터, 절단한 사전포장채소, 증류한 저산성 식품\n\n· 신선식품은 포장 유형에 따라 식품의 위험도가 분류됨\n\n커피, 차, 설탕, 시럽, 꿀, 탄산음료 농축액, 식품첨가물, 향료추출물, 기름, 지방, 마가린, 건과일, 포장채소, 곡물, 콩, 파스타(스파게티 및 쿠스쿠스), 말린 허브, 소금, 식초, 알코올 음료, 증류주\n\n생수, 탄산음료, 주스, 농축액, 신선과일, 포장과일, 냉동야채 및 과 일, 코코아, 초콜릿, 비스킷, 사탕, 향신료, 건조 스프, 이스트, 박테 리아 배양물, 커피 화이트너, 휘핑크림, 잼, 젤리, 쌀, 밀가루, 전분, 튀김, 조식용 시리얼, 산성식품\n\n육류, 수산물, 우유, 요거트, 치즈, 아이스크림, 달걀, 버터, 냉동 패 스트리, 우유와 계란을 함유한 베이커리 제품, 유아용 식품, 특별 규정식, 말린 견과류 및 코코넛, 견과 및 코코넛 플레이크, 참깨, 타히니, 땅콩버터, 절단한 사전포장채소, 증류한 저산성 식품",
+    "name": "커피, 차, 설탕, 시럽, 꿀, 탄산음료 농축액, 식품첨가물, 향료추출물, 기름, 지방, 마가린, 건과일, 포장채소, 곡물, 콩, 파스타(스파게티 및 쿠스쿠스), 말린 허브, 소금, 식초, 알코올 음료, 증류주",
+    "meta_data": {
+      "chunk_id": "62c9b151-f93a-4fd5-9007-476c58ba7f4a",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "62c9b151-f93a-4fd5-9007-476c58ba7f4a",
+        "0b0860ea-e16a-41cb-ac65-85b63f308699",
+        "c174a084-644d-4cd7-9246-8dd33056e3c1",
+        "5d43c61a-1824-4025-9d00-c9f0192949af",
+        "816903d1-087d-46a9-97ff-5596a54eda86",
+        "1074202f-64d1-49ad-a7a5-94d9a5d1a9a8",
+        "45aa510e-52a0-4c18-86ad-9aca7ef1061f"
+      ],
+      "chunked_count": 7,
+      "index": 621,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 1027,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "커피, 차, 설탕, 시럽, 꿀, 탄산음료 농축액, 식품첨가물, 향료추출물, 기름, 지방, 마가린, 건과일, 포장채소, 곡물, 콩, 파스타(스파게티 및 쿠스쿠스), 말린 허브, 소금, 식초, 알코올 음료, 증류주"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 4.3.1 수출가능품목\n\n농산물 - 곡 류 : 찹쌀 현미 보리 수수 조 콩 팥 백미 - 과실류 : 배 사과 감귤 단감 포도 밤 매실 자두 멜론 수박 복숭아 참외 - 채소류 : 당근 양배추 달래 쑥 양상추 우엉 시금치 대파 부추 배추 딸기 토마토 수삼 - -",
+    "name": "4.3.1 수출가능품목",
+    "meta_data": {
+      "chunk_id": "22b6bc5a-6906-4984-9008-9e1f7b129be7",
+      "page_number": [
+        40
+      ],
+      "item_label": "merged",
+      "index": 647,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 4.3.1 수출가능품목",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "61c258b0-9891-42e8-b7d6-55148dffc1d0",
+          "content": "<table><tbody><tr><td>농산물</td><td>- 곡 류 : 찹쌀, 현미, 보리, 수수, 조, 콩, 팥, 백미 - 과실류 : 배, 사과, 감귤, 단감, 포도, 밤, 매실, 자두, 멜론, 수박, 복숭아, 참외 - 채소류 : 당근, 양배추, 달래, 쑥, 양상추, 우엉, 시금치, 대파, 부추, 배추, 딸기, 토마토, 수삼 - -</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 5.1.1 주요 라벨링 표기사항\n\n라벨 · 제품명 · 영양성분 · 보관조건\n표기사항 · 성분목록 · 순중량 · 원산지 · 제조일자\n(항목) · 알레르기 유발물질 · 업체 정보 및 · 사용방법",
+    "name": "5.1.1 주요 라벨링 표기사항",
+    "meta_data": {
+      "chunk_id": "9aa66cf7-24f7-45e7-afdb-2a180af9d87c",
+      "page_number": [
+        41
+      ],
+      "item_label": "merged",
+      "index": 657,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 5.1.1 주요 라벨링 표기사항",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5d2dcb19-ee04-44d9-b930-2181f2d6029e",
+          "content": "<table><tbody><tr><td>라벨</td><td>· 제품명</td><td>· 영양성분</td><td>· 보관조건</td></tr><tr><td>표기사항</td><td>· 성분목록</td><td>· 순중량</td><td>· 원산지 · 제조일자</td></tr><tr><td>(항목)</td><td>· 알레르기 유발물질</td><td>· 업체 정보</td><td>및 · 사용방법</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 라벨 표기사항\n\n라벨 표기사항 · 제품명 · 성분목록 · 알레르기 유발물질 · 영양성분 · 순중량 · 업체 정보 · 보관조건 · 원산지 · 제조일자 및 유통기한 · 사용방법\n표기 언어 Ÿ 원본 라벨에 사용된 언어가 아랍어가 아닐 경우 필수 정보를 포함한 아랍어 라벨을 스티커 형태로 영구 부착할 수 있음\n제품명 나타낼 수 있는 이름이어야 함 Ÿ 제품의 명칭을 단독으로 사용하거나 설명과 함께 구성할 수 있음\n라벨 표기사항 (가이드) 성분목록 괄호 안에 표시해야 함 Ÿ 성분(ingredient)이라는 단어로 시작하거나 단어를 포함해야 함 Ÿ 알레르기 혹은 불내성으로 인한 과민반응을 유발하는 물질은 반드시 표기",
+    "name": "라벨 표기사항",
+    "meta_data": {
+      "chunk_id": "c7315c1f-4ef4-4035-bf49-d8b623c38a0f",
+      "page_number": [
+        41
+      ],
+      "item_label": "merged",
+      "index": 659,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 라벨 표기사항",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "f41d17bd-5d7e-4c10-ac90-714ed3d5cd3c",
+          "content": "<table><tbody><tr><td>라벨 표기사항</td><td>· 제품명 · 성분목록 · 알레르기 유발물질 · 영양성분 · 순중량 · 업체 정보 · 보관조건 · 원산지 · 제조일자 및 유통기한 · 사용방법</td></tr><tr><td></td><td>표기 언어 Ÿ 원본 라벨에 사용된 언어가 아랍어가 아닐 경우 필수 정보를 포함한 아랍어 라벨을 스티커 형태로 영구 부착할 수 있음</td></tr><tr><td></td><td>제품명 나타낼 수 있는 이름이어야 함 Ÿ 제품의 명칭을 단독으로 사용하거나 설명과 함께 구성할 수 있음</td></tr><tr><td>라벨 표기사항 (가이드)</td><td>성분목록 괄호 안에 표시해야 함 Ÿ 성분(ingredient)이라는 단어로 시작하거나, 단어를 포함해야 함 Ÿ 알레르기 혹은 불내성으로 인한 과민반응을 유발하는 물질은 반드시 표기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nŸ 수입 식품의 라벨에 기재되는 모든 정보는 아랍어로 표기되어야 하며, 영어를 혼용할 수 있음\n\nŸ 원본 라벨에 사용된 언어가 아랍어가 아닐 경우 필수 정보를 포함한 아랍어 라벨을 스티커 형태로 영구 부착할 수 있음\n\nŸ 부착된 스티커는 제품 표면의 다른 글자나 그림, 가격표 등을 가려서는 안 되며, 원본 라벨링과 일관된 형태의 정보를 포함해야 함\n\nŸ 주요 패널에 굵은 글씨로 표시해야 하며, 제품의 명확한 실체를 나타낼 수 있는 이름이어야 함\n\nŸ 제품의 명칭을 단독으로 사용하거나 설명과 함께 구성할 수 있음\n\nŸ 포장이 바닥에 놓였을 때 제품명과 바닥이 평행하게끔 해야 함\n\nŸ 한 성분이 두 개 이상 성분의 혼합물일 경우, 혼합 성분의 비율을 괄호 안에 표시해야 함\n\nŸ 성분(ingredient)이라는 단어로 시작하거나, 단어를 포함해야 함\n\nŸ 알레르기 혹은 불내성으로 인한 과민반응을 유발하는 물질은 반드시 표기\n\nŸ 알레르기 유발물질을 포함한 경우, 성분목록 또는 별도로 알레르기 항원의 포함 사실을 표시해야 함\n\nŸ 알레르기 유발물질: △글루텐을 함유한 곡물 △갑각류 △계란 △어류 △우유 및 유제품(유당 포함) △땅콩 △대두 △나무견과류 △10㎎/㎏ 이상의 아황산염\n\nŸ 알레르기 유발물질과 교차오염되거나, 교차오염의 위험이 있는 경우 해당 사실을 표시해야 함\n\nŸ 100g/㎖당 △열량 △단백질 △탄수화물 △지방 △포화지방 △트랜스지방 △콜레스테롤 △나트륨 △당류 등 주요 영양성분의 함량 정보를 필수적으로 표시해야 함\n\nŸ 액체 식품은 부피, 고체 식품은 중량, 반고체·점성 식품은 부피 혹은 중량을 택하여 표기",
+    "name": "Ÿ 수입 식품의 라벨에 기재되는 모든 정보는 아랍어로 표기되어야 하며, 영어를 혼용할 수 있음",
+    "meta_data": {
+      "chunk_id": "a860b099-e7c2-4f95-b513-dc705e606a65",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a860b099-e7c2-4f95-b513-dc705e606a65",
+        "df78453d-27b3-4f9d-a9ef-25fee644eef8",
+        "1d32bdfc-9108-4e32-b37d-631c31dd2585",
+        "8bd9995c-30e2-4951-b28b-8c6c809b1f75",
+        "4293008a-646a-4ab3-bae1-e26bbab455ad",
+        "de6b0626-3bfb-46fb-ac61-2eb36636ec0b",
+        "e514815a-f3f4-4d03-aeae-844a48427c85",
+        "6c97fe50-5a10-4de9-9a34-10a06e4bd756",
+        "99da2f46-749b-411f-a59b-a347b9edee7b",
+        "8186f25f-d84d-4a23-addf-9edf2ca95f90",
+        "b9bf6981-5646-4318-9f9b-206a29245c67",
+        "312c1c23-aca7-4d66-a0ac-abb0ad886cbb",
+        "ea9884cd-e5c2-49b6-a908-889895cb89d4",
+        "7c0d2628-b5bf-4944-9730-55d5fc68b07b"
+      ],
+      "chunked_count": 14,
+      "index": 674,
+      "page_number": [
+        41
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 843,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "Ÿ 수입 식품의 라벨에 기재되는 모든 정보는 아랍어로 표기되어야 하며, 영어를 혼용할 수 있음"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 05 아랍에미리트\n\n업체 정보 Ÿ 포장·제조·유통·수입·수출 업체 중 한 곳의 정보를 반드시 표기 Ÿ 유통·수출·판매·수입업체 등은 선택적으로 표기\n보관 조건 Ÿ 다음의 조건 하에 보관 시 준수 조건이 표기되어야 함 - 소비자가 식품을 개봉한 뒤의 조치가 필요할 경우 - 보관 방법에 다양한 선택권이 있는 경우\n원산지 Ÿ 다음의 조건 하에 제품 라벨에 반드시 원산지를 표기 - 제3국에서식품의본질이바뀌는가공을거칠경우 가공국가를원산지로표기 - 원산지정보가없어소비자의오해를불러일으킬우려가있는식품의경우\n제조일자 및 유통기한 Ÿ 사전포장식품의 경우 최종소비자에게 판매될 때 유통기한과 제조일이 라벨 또는 포장에 명시되어있어야 함 Ÿ 유효기간은 제조업체 또는 생산업체에 의해서 명시되어야 함 Ÿ 유효기간이 3개월 미만일 경우 일/월/년 순으로 3개월 이상일 경우\n사용방법 Ÿ 사용 방법이 없어 식품의 적절한 섭취 및 이용이 어려운 식품의 경우에 표기하도록 함 Ÿ 적절하지 않은 용도로 사용하는 것을 방지하기 위해 사용 방법 표기",
+    "name": "2024농식품 국가 수출정보 05 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "e4eb66d4-e0c9-41a6-99d5-6337939e0312",
+      "page_number": [
+        42
+      ],
+      "item_label": "merged",
+      "index": 711,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 05 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "f30cb3db-b93d-4b95-a495-6dd07ddf3a10",
+          "content": "<table><tbody><tr><td>업체 정보</td><td>Ÿ 포장·제조·유통·수입·수출 업체 중 한 곳의 정보를 반드시 표기 Ÿ 유통·수출·판매·수입업체 등은 선택적으로 표기</td></tr><tr><td>보관 조건</td><td>Ÿ 다음의 조건 하에 보관 시 준수 조건이 표기되어야 함 - 소비자가 식품을 개봉한 뒤의 조치가 필요할 경우 - 보관 방법에 다양한 선택권이 있는 경우</td></tr><tr><td>원산지</td><td>Ÿ 다음의 조건 하에 제품 라벨에 반드시 원산지를 표기 - 제3국에서식품의본질이바뀌는가공을거칠경우, 가공국가를원산지로표기 - 원산지정보가없어소비자의오해를불러일으킬우려가있는식품의경우</td></tr><tr><td>제조일자 및 유통기한</td><td>Ÿ 사전포장식품의 경우 최종소비자에게 판매될 때 유통기한과 제조일이 라벨 또는 포장에 명시되어있어야 함 Ÿ 유효기간은 제조업체 또는 생산업체에 의해서 명시되어야 함 Ÿ 유효기간이 3개월 미만일 경우 일/월/년 순으로, 3개월 이상일 경우</td></tr><tr><td>사용방법</td><td>Ÿ 사용 방법이 없어 식품의 적절한 섭취 및 이용이 어려운 식품의 경우에 표기하도록 함 Ÿ 적절하지 않은 용도로 사용하는 것을 방지하기 위해 사용 방법 표기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nŸ 포장·제조·유통·수입·수출 업체 중 한 곳의 정보를 반드시 표기\n\nŸ 다음의 조건 하에 보관 시 준수 조건이 표기되어야 함\n\n- 특정 환경 및 상황에서 식품을 사용해선 안 될 경우\n\nŸ 다음의 조건 하에 제품 라벨에 반드시 원산지를 표기\n\n- 제3국에서식품의본질이바뀌는가공을거칠경우, 가공국가를원산지로표기\n\n- 원산지정보가없어소비자의오해를불러일으킬우려가있는식품의경우\n\nŸ 사전포장식품의 경우 최종소비자에게 판매될 때 유통기한과 제조일이 라벨 또는 포장에 명시되어있어야 함\n\nŸ 유효기간은 제조업체 또는 생산업체에 의해서 명시되어야 함\n\nŸ 유효기간이 3개월 미만일 경우 일/월/년 순으로, 3개월 이상일 경우 월/년 순서로 표기\n\nŸ 사용 방법이 없어 식품의 적절한 섭취 및 이용이 어려운 식품의 경우에 표기하도록 함\n\nŸ 적절하지 않은 용도로 사용하는 것을 방지하기 위해 사용 방법 표기",
+    "name": "Ÿ 포장·제조·유통·수입·수출 업체 중 한 곳의 정보를 반드시 표기",
+    "meta_data": {
+      "chunk_id": "d70bc056-593b-4097-b2a0-4585c8e2e3f5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d70bc056-593b-4097-b2a0-4585c8e2e3f5",
+        "7fc6211f-7c9d-459e-aeba-40730f10f15f",
+        "8dbeac9f-8c19-4758-a520-78f091dd17bd",
+        "5a1c1ab1-ddf0-4f0d-aca2-7ac8a23bbd5f",
+        "3dc5482a-7360-4e0b-aaa2-38537a0037c1",
+        "c0b0a9d5-ba48-4ffb-8ef6-85dce36e81db",
+        "8a9f7e93-8e56-47c6-bb3f-d1ae7036b85d",
+        "a060da56-8eee-4dcb-9a2b-67ce6625329d",
+        "703c57f0-c2f7-4d46-99d2-2f263bfb023e",
+        "5212ff46-811e-4e76-8b94-389b741b700b",
+        "4165e545-8003-4db7-ab27-3324a515f7a1"
+      ],
+      "chunked_count": 11,
+      "index": 713,
+      "page_number": [
+        42
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 437,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "Ÿ 포장·제조·유통·수입·수출 업체 중 한 곳의 정보를 반드시 표기"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 표기내용\n\n\">اﻟﻤﻨﺘﺞ \">اﻟﻤﻨﺘﺞ\n\">أول ﻧﺨﺐ \">اﻟﺠﻮدة درﺟﺔ\n\">اﻟﺮأ ﻧﻮب ج ﻛﻮرﯾﺪا ﻛﻮن 19 ﻓﯿﻼ ﺑﺎرل اﻟﻐﺮﺑﻲ س ﺧﺎﻟﺺ راث ﺷﺎرع \">اﻟﻤﺼﺪر\n\">راﺋﻊ \">اﻟﺘﺠﺎرﯾﺔ اﻟﻌﻼﻣﺔ\n10 ﻛﺞ \">اﻟﺼﺎﻓﻲ اﻟﻮزن\n11 ﻛﺠﻢ \">اﻹﺟﻤﺎﻟﻲ اﻟﻮزن\n1XXX \">اﻟﻤﺪد\n\">أﻓﺮﯾﻘﯿﺎ ﺟﻨﻮب \">اﻟﻤﻨﺸﺄ ﺑﻠﺪ\n27/06/2023 \">اﻟﺘﻌﺒﺌﺔ ﺗﺎرﯾﺦ\n\">ﺎا ◌ وراﺛﯿ ﻣﻌﺪﻟﺔ ﻏﯿﺮ ﻓﻮاﻛﮫ\n\nORRI 제품명\n1등급 제품 등급\nPure Legacy Pty Ltd Sarnia Villa 19 Concordia Street 수출자\nSouthern Paarl Western Cape 7646 groovy 브랜드\n10kg 순중량\n11kg 총중량\n1XXX 카운트\n남아프리카공화국 원산지\n2023/06/27 포장일자\n유전자 변형되지 않은 과일\n\nProduct ORRI\nClass Class\nExporter 1 Pure Legacy Pty Ltd Sarnia Villa 19 Concordia Street Southern Paarl Western Cape 7646\nBrand/Mark groovy\nNet weight 10kg\nGross weight 11kg\nCount 1XXX\nOrigin Country of SOUTH AFRICA\nPacking Date 27/06/2023\n\n제품명 ORRI\n제품 등급 1등급\n수출자 Pure Legacy Pty Ltd Sarnia Villa 19 Concordia Street Southern Paarl Western Cape 7646\n브랜드 groovy\n순중량 10kg\n총중량 11kg\n카운트 1XXX\n원산지 남아프리카공화국\n포장일자 2023/06/27\n유전자 변형되지 않은 과일",
+    "name": "표기내용",
+    "meta_data": {
+      "chunk_id": "e14bafbb-19dc-4876-ba54-45cd2002e07e",
+      "page_number": [
+        43
+      ],
+      "item_label": "merged",
+      "index": 748,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 표기내용",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "82998f35-c7bf-4d4b-8053-18b5259a82a2",
+          "content": "<table><tbody><tr><td dir=\"<built-in function dir>\">اﻟﻤﻨﺘﺞ</td><td dir=\"<built-in function dir>\">اﻟﻤﻨﺘﺞ</td><td></td></tr><tr><td dir=\"<built-in function dir>\">أول ﻧﺨﺐ</td><td dir=\"<built-in function dir>\">اﻟﺠﻮدة درﺟﺔ</td><td></td></tr><tr><td dir=\"<built-in function dir>\">اﻟﺮأ ﻧﻮب ج ﻛﻮرﯾﺪا ﻛﻮن 19 ﻓﯿﻼ ﺑﺎرل اﻟﻐﺮﺑﻲ س ﺧﺎﻟﺺ راث ﺷﺎرع</td><td dir=\"<built-in function dir>\">اﻟﻤﺼﺪر</td><td></td></tr><tr><td dir=\"<built-in function dir>\">راﺋﻊ</td><td dir=\"<built-in function dir>\">اﻟﺘﺠﺎرﯾﺔ اﻟﻌﻼﻣﺔ</td><td></td></tr><tr><td>10 ﻛﺞ</td><td dir=\"<built-in function dir>\">اﻟﺼﺎﻓﻲ اﻟﻮزن</td><td></td></tr><tr><td>11 ﻛﺠﻢ</td><td dir=\"<built-in function dir>\">اﻹﺟﻤﺎﻟﻲ اﻟﻮزن</td><td></td></tr><tr><td>1XXX</td><td dir=\"<built-in function dir>\">اﻟﻤﺪد</td><td></td></tr><tr><td dir=\"<built-in function dir>\">أﻓﺮﯾﻘﯿﺎ ﺟﻨﻮب</td><td dir=\"<built-in function dir>\">اﻟﻤﻨﺸﺄ ﺑﻠﺪ</td><td></td></tr><tr><td>27/06/2023</td><td dir=\"<built-in function dir>\">اﻟﺘﻌﺒﺌﺔ ﺗﺎرﯾﺦ</td><td></td></tr><tr><td colspan=\"3\" dir=\"<built-in function dir>\">ﺎا ◌ وراﺛﯿ ﻣﻌﺪﻟﺔ ﻏﯿﺮ ﻓﻮاﻛﮫ</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "0f48f909-db4d-4115-a6d9-895894d790ef",
+          "content": "<table><tbody><tr><td>ORRI</td><td>제품명</td></tr><tr><td>1등급</td><td>제품 등급</td></tr><tr><td>Pure Legacy Pty Ltd, Sarnia Villa 19, Concordia Street,</td><td>수출자</td></tr><tr><td>Southern Paarl, Western Cape, 7646 groovy</td><td>브랜드</td></tr><tr><td>10kg</td><td>순중량</td></tr><tr><td>11kg</td><td>총중량</td></tr><tr><td>1XXX</td><td>카운트</td></tr><tr><td>남아프리카공화국</td><td>원산지</td></tr><tr><td>2023/06/27</td><td>포장일자</td></tr><tr><td>유전자 변형되지</td><td>않은 과일</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "19889c5a-5614-4046-bee7-b8d856891bb5",
+          "content": "<table><tbody><tr><td>Product</td><td>ORRI</td></tr><tr><td>Class</td><td>Class</td></tr><tr><td>Exporter</td><td>1 Pure Legacy Pty Ltd, Sarnia Villa 19, Concordia Street, Southern Paarl, Western Cape, 7646</td></tr><tr><td>Brand/Mark</td><td>groovy</td></tr><tr><td>Net weight</td><td>10kg</td></tr><tr><td>Gross weight</td><td>11kg</td></tr><tr><td>Count</td><td>1XXX</td></tr><tr><td>Origin Country of</td><td>SOUTH AFRICA</td></tr><tr><td>Packing Date</td><td>27/06/2023</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "9a1970a5-6780-458c-9249-eb775576611e",
+          "content": "<table><tbody><tr><td>제품명</td><td>ORRI</td></tr><tr><td>제품 등급</td><td>1등급</td></tr><tr><td>수출자</td><td>Pure Legacy Pty Ltd, Sarnia Villa 19, Concordia Street, Southern Paarl, Western Cape, 7646</td></tr><tr><td>브랜드</td><td>groovy</td></tr><tr><td>순중량</td><td>10kg</td></tr><tr><td>총중량</td><td>11kg</td></tr><tr><td>카운트</td><td>1XXX</td></tr><tr><td>원산지</td><td>남아프리카공화국</td></tr><tr><td>포장일자</td><td>2023/06/27</td></tr><tr><td>유전자 변형되지</td><td>않은 과일</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nFSC Packaging / Supporting responsible forestry FSC* C160085\n\nFSC 포장 / 책임감 있는 산림경영 지원 FSC* C160085\n\nCORE FRUIT (PTY) LTD PO BOX 129, Paarl, 7620 63 Main Road, Paarl, 7646",
+    "name": "FSC Packaging / Supporting responsible forestry FSC* C160085",
+    "meta_data": {
+      "chunk_id": "8eacae56-9a3c-4c65-9bf6-89704474cb97",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8eacae56-9a3c-4c65-9bf6-89704474cb97",
+        "6fea523d-82ff-42e6-b94f-36b04368dd6d",
+        "cf6a4489-13c1-49d9-88f1-d9f43fa04524"
+      ],
+      "chunked_count": 3,
+      "index": 831,
+      "page_number": [
+        43
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 72,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "FSC Packaging / Supporting responsible forestry FSC* C160085"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 05 아랍에미리트\n\nSoft Citrus 191-26A\nVariety\nOrri\nClass 1 Inspection Grade\nSize Ref 1XXX Diameter 78-88mm\nCalibre 1XXX E10D GROOVY\nPHC D15872 Date Code 6222\nPUC D16291 GGN 4063061830036\nOrchard WE02 CoC 4049928629715\nTreated with Thiabendazole &amp; Imazalil\nWax Coating - E903 and E904",
+    "name": "2024농식품 국가 수출정보 05 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "2799c48a-0f6e-4e9b-b6a9-ded391f69344",
+      "page_number": [
+        43,
+        44
+      ],
+      "item_label": "merged",
+      "index": 886,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 05 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "9c310f52-a6af-465b-98fe-1fbb8556811d",
+          "content": "<table><tbody><tr><td colspan=\"2\">Soft Citrus</td><td>191-26A</td></tr><tr><td colspan=\"3\">Variety</td></tr><tr><td colspan=\"3\">Orri</td></tr><tr><td>Class</td><td>1</td><td>Inspection Grade</td></tr><tr><td>Size Ref</td><td>1XXX</td><td>Diameter 78-88mm</td></tr><tr><td>Calibre</td><td>1XXX</td><td>E10D GROOVY</td></tr><tr><td>PHC</td><td>D15872</td><td>Date Code 6222</td></tr><tr><td>PUC</td><td>D16291</td><td>GGN 4063061830036</td></tr><tr><td>Orchard</td><td>WE02</td><td>CoC 4049928629715</td></tr><tr><td colspan=\"3\">Treated with Thiabendazole &amp; Imazalil</td></tr><tr><td colspan=\"3\">Wax Coating - E903 and E904</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\nTreated with Thiabendazole & Imazalil",
+    "name": "Treated with Thiabendazole & Imazalil",
+    "meta_data": {
+      "chunk_id": "ede880d7-e0fd-409e-ab88-6e937a0c1261",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ede880d7-e0fd-409e-ab88-6e937a0c1261"
+      ],
+      "chunked_count": 1,
+      "index": 914,
+      "page_number": [
+        44
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 12,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "Treated with Thiabendazole & Imazalil"
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 2024농식품 국가 수출정보 05 아랍에미리트\n\n부드러운 감귤류 191-26A\n품종\nOrri\n등급 1 검역 등급\n사이즈 1XXX 직경 78-88밀리미터\n크기 1XXX E10D GROOVY\nPHC D15872 Date Code 6222\nPUC D16291 GGN 4063061830036\n과수원 WE02 CoC 4049928629715\n티아벤다졸 &amp; 에닐코나졸로 처리됨\n왁스 코팅 - E903 and E904",
+    "name": "2024농식품 국가 수출정보 05 아랍에미리트",
+    "meta_data": {
+      "chunk_id": "8ca05088-6d8d-4555-ad94-48a15a097188",
+      "page_number": [
+        44
+      ],
+      "item_label": "merged",
+      "index": 918,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 05 아랍에미리트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2b11155d-3f77-4b69-98d8-fb6fac3f8175",
+          "content": "<table><tbody><tr><td colspan=\"2\">부드러운 감귤류</td><td>191-26A</td></tr><tr><td colspan=\"3\">품종</td></tr><tr><td colspan=\"3\">Orri</td></tr><tr><td>등급</td><td>1</td><td>검역 등급</td></tr><tr><td>사이즈</td><td>1XXX</td><td>직경 78-88밀리미터</td></tr><tr><td>크기</td><td>1XXX</td><td>E10D GROOVY</td></tr><tr><td>PHC</td><td>D15872</td><td>Date Code 6222</td></tr><tr><td>PUC</td><td>D16291</td><td>GGN 4063061830036</td></tr><tr><td>과수원</td><td>WE02</td><td>CoC 4049928629715</td></tr><tr><td colspan=\"3\">티아벤다졸 &amp; 에닐코나졸로 처리됨</td></tr><tr><td colspan=\"3\">왁스 코팅 - E903 and E904</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# ① ESMA 할랄 인증\n\n인증명 ESMA 할랄 인증 인증로고\n발행·검사기관 ESMA(Emirates Authority for Standardization and Metrology 아랍에미리트 표준측량청) 필수 여부 필수\n목적 안전한 할랄 식품 섭취를 위해 도입된 인증\n필요서류 온라인 지원서 유효한 사업자 할랄인증서 또는 제품사양서 사본 제조공정 시 성적서 FSMS/GMP/GHP or QMS 증명서 등록/면허 성분 목록표 플로우차트 재료 목록표 성분/ 원재료 및 생산절차 라벨 디자인 자기증명서(자유양식)",
+    "name": "① ESMA 할랄 인증",
+    "meta_data": {
+      "chunk_id": "2c2f60a4-fa08-43ca-80ed-bef475ee4bd3",
+      "page_number": [
+        45
+      ],
+      "item_label": "merged",
+      "index": 951,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# ① ESMA 할랄 인증",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "0db943c4-20ca-485a-a8b2-12a81a72b314",
+          "content": "<table><tbody><tr><th>인증명</th><th>ESMA 할랄 인증</th><th>인증로고</th><td></td></tr><tr><td>발행·검사기관</td><td>ESMA(Emirates Authority for Standardization and Metrology, 아랍에미리트 표준측량청)</td><td>필수 여부</td><td>필수</td></tr><tr><td>목적</td><td>안전한 할랄 식품 섭취를 위해 도입된 인증</td><td></td><td></td></tr><tr><td>필요서류</td><td>온라인 지원서, 유효한 사업자 할랄인증서 또는 제품사양서 사본, 제조공정 시 성적서, FSMS/GMP/GHP or QMS 증명서,</td><td>등록/면허, 성분 목록표, 플로우차트</td><td>재료 목록표, 성분/ 원재료 및 생산절차, 라벨 디자인, 자기증명서(자유양식)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n아랍에미리트의 국민 대부분이 무슬림으로, 안전한 할랄 식품 섭취를 위해 도입된 인증이다. 해당 인증은 식품이 할랄의 준비 및 성분 표준에 따라 생산되었음을 증명하며, 육류 및 육류를 포함한 식품의 경우 지정된 이슬람 인증기관에서 발급하는 할랄 인정서를 의무적으로 취득해야 한다. ESMA 할랄 인증은 아랍에미리트를 포함한 GCC 6개국(사우디아라비아, 쿠웨이트, 카타르, 오만, 바레인) 정부에서도 인정하고 있으므로 대부분의 중동 지역에서 통용될 수 있다.\n\n▶자세한 내용은 자료 참조: 「2023 농식품 해외인증·등록정보종합가이드」(한국농수산식품유통공사)",
+    "name": "아랍에미리트의 국민 대부분이 무슬림으로, 안전한 할랄 식품 섭취를 위해 도입된 인증이다. 해당 인증은 식품이 할랄의 준비 및 성분 표준에 따라 생산되었음을 증명하며, 육류 및 육류를 포함한 식품의 경우 지정된 이슬람 인증기관에서 발급하는 할랄 인정서를 의무적으로 취득해야 한다. ESMA 할랄 인증은 아랍에미리트를 포함한 GCC 6개국(사우디아라비아, 쿠웨이트, 카타르, 오만, 바레인) 정부에서도 인정하고 있으므로 대부분의 중동 지역에서 통용될 수 있다.",
+    "meta_data": {
+      "chunk_id": "6db93799-112d-46e4-9d88-d5496ce43b89",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6db93799-112d-46e4-9d88-d5496ce43b89",
+        "4232875d-188a-4857-a7be-c1b56f6b10a2"
+      ],
+      "chunked_count": 2,
+      "index": 952,
+      "page_number": [
+        45
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 312,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "아랍에미리트의 국민 대부분이 무슬림으로, 안전한 할랄 식품 섭취를 위해 도입된 인증이다. 해당 인증은 식품이 할랄의 준비 및 성분 표준에 따라 생산되었음을 증명하며, 육류 및 육류를 포함한 식품의 경우 지정된 이슬람 인증기관에서 발급하는 할랄 인정서를 의무적으로 취득해야 한다. ESMA 할랄 인증은 아랍에미리트를 포함한 GCC 6개국(사우디아라비아, 쿠웨이트, 카타르, 오만, 바레인) 정부에서도 인정하고 있으므로 대부분의 중동 지역에서 통용될 수 있다."
+    }
+  },
+  {
+    "page_content": "2024년 UAE 국가조사 보고서\n\n# 식품 내 트랜스지방 제거와 소금 섭취량 감축을 목표로 한 시행 지침 발표\n\n아랍에미리트 보건예방부(MoHAP)는 '현지 식품 공급망에서 트랜스 지방의 사실상 제거`와 '소비자의 평균 소금 섭취량 30% 감축'에 집중하는 「국가 영양 전략 2030」의 시행 지침을 발표했다. 「국가 영양 전략 2030」은 지속 가능한 영양 체계의 구축과 전 연령대를 대상으로 한 안전한 영양 환경을 제공하는 데 주 목적이 있으며, 이에 공중 보건의 목표를 5세 이하 어린이의 발육 부진과 과체중 감소, 여성 빈혈의 50% 감소, 어린이 비만 및 성인 비만과 당뇨의 중재로 확대 설정했다.\n\nhttps://www.kati.net/board/exportNewsView.do?board_seq=97047",
+    "name": "식품 내 트랜스지방 제거와 소금 섭취량 감축을 목표로 한 시행 지침 발표",
+    "meta_data": {
+      "chunk_id": "16548de9-7525-4474-bc56-4fc3c10bfbf9",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "16548de9-7525-4474-bc56-4fc3c10bfbf9",
+        "fb713bc7-4847-42da-897c-4252af0426c4",
+        "9a13962f-8b20-4bcf-a1aa-cf0497b2a93b"
+      ],
+      "chunked_count": 3,
+      "index": 967,
+      "page_number": [
+        47
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 343,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 UAE 국가조사 보고서",
+      "original_page_content": "# 식품 내 트랜스지방 제거와 소금 섭취량 감축을 목표로 한 시행 지침 발표"
+    }
+  }
+]

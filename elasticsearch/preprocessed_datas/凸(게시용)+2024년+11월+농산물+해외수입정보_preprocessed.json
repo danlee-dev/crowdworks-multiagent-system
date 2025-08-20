@@ -1,0 +1,777 @@
+[
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다.",
+    "name": "이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다.",
+    "meta_data": {
+      "chunk_id": "b3795559-8753-446b-85a9-10c10198fe33",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "b3795559-8753-446b-85a9-10c10198fe33"
+      ],
+      "chunked_count": 1,
+      "index": 3,
+      "page_number": [
+        1
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 121,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "이 자료는 WTO 체제하에서 도입하는 국영무역 및 수입권공매 12품목에 대하여 해외 aT 및 모니터가 조사하여 제공한 산지거래 및 가격동향을 분석한 것으로서 매월 발간되며, 본 내용은 수급 여건 등 제반요인에 따라 상이할 수 있습니다."
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# 부 류 별 산 지 가 격 동 향 부 류 별 산 지 가 격 동 향\n\n품목 전월 대비(%) 가격동향\n쌀(중국) 0.5 ▲\n팥(중국) 16.6 ▲\n(중국) -2.2 ▼\n콩 (미국) 0.3 ▲\n녹두(중국) 3.1 ▲\n메밀(중국) 4.8 ▲\n콩나물콩(중국) -0.8 ▼\n건고추(중국) -7.5 ▼\n신선마늘(중국) 9.2 ▲\n신선양파(중국) 13.6 ▲\n참깨 (중국) -12 ▼\n(인도) 0.5 ▲\n알땅콩(중국) -3.2 ▼\n생강(중국) 2.5 ▲",
+    "name": "부 류 별 산 지 가 격 동 향 부 류 별 산 지 가 격 동 향",
+    "meta_data": {
+      "chunk_id": "a69adcda-9c0c-4f9c-97ac-eb0029b91dc5",
+      "page_number": [
+        1
+      ],
+      "item_label": "merged",
+      "index": 6,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# 부 류 별 산 지 가 격 동 향 부 류 별 산 지 가 격 동 향",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2281a50e-40c0-433d-a319-12d573931909",
+          "content": "<table><tbody><tr><th colspan=\"2\">품목</th><th>전월 대비(%)</th><th>가격동향</th></tr><tr><td colspan=\"2\">쌀(중국)</td><td>0.5</td><td>▲</td></tr><tr><td colspan=\"2\">팥(중국)</td><td>16.6</td><td>▲</td></tr><tr><td></td><td>(중국)</td><td>-2.2</td><td>▼</td></tr><tr><td>콩</td><td>(미국)</td><td>0.3</td><td>▲</td></tr><tr><td colspan=\"2\">녹두(중국)</td><td>3.1</td><td>▲</td></tr><tr><td colspan=\"2\">메밀(중국)</td><td>4.8</td><td>▲</td></tr><tr><td colspan=\"2\">콩나물콩(중국)</td><td>-0.8</td><td>▼</td></tr><tr><td colspan=\"2\">건고추(중국)</td><td>-7.5</td><td>▼</td></tr><tr><td colspan=\"2\">신선마늘(중국)</td><td>9.2</td><td>▲</td></tr><tr><td colspan=\"2\">신선양파(중국)</td><td>13.6</td><td>▲</td></tr><tr><td rowspan=\"2\">참깨</td><td>(중국)</td><td>-12</td><td>▼</td></tr><tr><td>(인도)</td><td>0.5</td><td>▲</td></tr><tr><td colspan=\"2\">알땅콩(중국)</td><td>-3.2</td><td>▼</td></tr><tr><td colspan=\"2\">생강(중국)</td><td>2.5</td><td>▲</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n* 중국산지가격은 위안화를 관세청 고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격 동향과 달라질 수 있음",
+    "name": "* 중국산지가격은 위안화를 관세청 고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격 동향과 달라질 수 있음",
+    "meta_data": {
+      "chunk_id": "dc62ec7a-edc8-4d04-b7d3-a31c0392aea1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "dc62ec7a-edc8-4d04-b7d3-a31c0392aea1"
+      ],
+      "chunked_count": 1,
+      "index": 10,
+      "page_number": [
+        1
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 78,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "* 중국산지가격은 위안화를 관세청 고시환율을 적용하여 미화(US$)로 표기한 수치로, 환율변동에 따라 실제 가격 동향과 달라질 수 있음"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 흑룡강성 벼 수매업수 시작 및 길림성 강우로 인한 신곡 양질품 감소에 따라 동북지역 거래가격 전월대비 강보합\n\n◦ 동북지역 강우량 증가에 따른 양질품 감소 영향으로 거래가격 강보합세 전망\n\n◦ 금월 중국산 쌀 거래가격은 $368~379/톤 수준으로, 전월 $367~378/톤 대비 강보합\n\n◦ '24. 10월 까지 전체 수입량 은 341,246톤 이며, 중국산 수입량 은 126,152톤 으로 전체 물량의 36.9% 차지\n\n◦ 최근 5년간 가격 최저치 도달하여 지속적인 하락 리스크 감소되어 재고 보충 영향으로 거래가격 전월대비 상승\n\n◦ 실제 소비수요 변화가 없어 지속적인 상승세는 불가할 것으로 예상되며 구매 의향에 따른 소폭 등락 전망\n\n◦ 금월 중국산 팥 거래가격은 $1,196~1,223/톤 수준으로, 전월 $1,023~1,051/톤 대비 상승\n\n◦ ' 24. 10월 까지 전체 수입량 은 34,484톤 이며, 중국산 수입량 은 32,181톤 으로 전체 물량의 93.3% 차지",
+    "name": "◦ 흑룡강성 벼 수매업수 시작 및 길림성 강우로 인한 신곡 양질품 감소에 따라 동북지역 거래가격 전월대비 강보합",
+    "meta_data": {
+      "chunk_id": "0aa471cf-3d0b-48fa-9c49-d40fa4f6aa07",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "0aa471cf-3d0b-48fa-9c49-d40fa4f6aa07",
+        "2a16772a-6864-4b3f-9ef0-f3afc4bd4fec",
+        "a9e62ac8-85b2-4e53-b976-3a9748852e11",
+        "efb9b032-1f19-4aa4-8b18-87d7ed0661b7",
+        "84a8b20c-0060-4319-ac3c-fdf21f462032",
+        "d4f79912-8752-44fe-8f3d-169b4acc09e5",
+        "be5637ca-9e46-4f75-a8d4-9e5a1484281d",
+        "d6c4c540-876a-4a4c-a805-89b4002d5c71"
+      ],
+      "chunked_count": 8,
+      "index": 24,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 501,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 흑룡강성 벼 수매업수 시작 및 길림성 강우로 인한 신곡 양질품 감소에 따라 동북지역 거래가격 전월대비 강보합"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 111102 108182\n`23.10 66658 65627\n`24.10 126152 116546\n전체 `24.10 341246 326027",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "6a06c025-4e87-416a-a351-e2b62d8dfe83",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 41,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d90f3a14-42d7-45f7-a782-3ac48f9e4a0a",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>111,102</td><td>108,182</td></tr><tr><td>`23.10</td><td>66,658</td><td>65,627</td></tr><tr><td>`24.10</td><td>126,152</td><td>116,546</td></tr><tr><td>전체</td><td>`24.10</td><td>341,246</td><td>326,027</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n※ hs-code 1006.30-1000, 1006.20-1000",
+    "name": "※ hs-code 1006.30-1000, 1006.20-1000",
+    "meta_data": {
+      "chunk_id": "9492d840-39b3-46ec-96e5-8af4991aaad8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9492d840-39b3-46ec-96e5-8af4991aaad8"
+      ],
+      "chunked_count": 1,
+      "index": 45,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "※ hs-code 1006.30-1000, 1006.20-1000"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구분 수입물량 수입금액\n중국 `23.12 39568 56781\n`23.10 30711 44214\n`24.10 32181 43719\n전체 `24.10 34484 48062",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "df916c0c-f4b2-489d-94f1-db523075b9b1",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 48,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "952aa7bf-a93a-41b1-85da-ba8b143c9ea7",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>39,568</td><td>56,781</td></tr><tr><td>`23.10</td><td>30,711</td><td>44,214</td></tr><tr><td>`24.10</td><td>32,181</td><td>43,719</td></tr><tr><td>전체</td><td>`24.10</td><td>34,484</td><td>48,062</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 신곡 출하 및 국가비축물량 지속 방출에 따른 공급 증가로 대두 거래가격 전월대비 약보합\n\n◦ 농가의 저가 출하 기피 국가 등 기업 비축 수요증가로 강보합세 회복 전망되나 상승폭은 제한적으로 전망\n\n◦ 금월 중국산 콩 거래가격은 $528~530/톤으로, 전월 $541~550/톤 대비 약보합\n\n◦ '24. 10월 까지 전체 수입량 은 241,145톤 이며, 중국산 수입량 은 7,061톤 으로 전체 물량의 2.9% 차지\n\n◦ 역대 최대 생산량 전망하였으나, 실제 수확량이 감소 되었으며, 바이오 산업 위축 우려로 상승세 감소로 거래 가격 전월대비 보합\n\n◦ 브라질 풍작 전망에 따른 공급 안정 영향으로 거래가격 보합권내 등락 전망\n\n◦ 금월 미국산 콩 거래가격은 $350/톤으로 전월 대비 보합\n\n◦ '24. 10월 까지 전체 수입량 은 241,145톤 이며, 미국산 수입량 은 196,302톤으 로 전체 수입량의 81.4% 차지",
+    "name": "◦ 신곡 출하 및 국가비축물량 지속 방출에 따른 공급 증가로 대두 거래가격 전월대비 약보합",
+    "meta_data": {
+      "chunk_id": "1fef27e8-2bfa-4428-a574-4aba86407254",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1fef27e8-2bfa-4428-a574-4aba86407254",
+        "bb1fa81e-acc4-4749-bb3d-6a7d16b0da0f",
+        "961a0eeb-6d14-41cb-80af-881c0541a132",
+        "ec7c23ce-ce3e-43c4-89df-601b576c74f3",
+        "15fb5cc8-1d9f-4160-8a81-0abefb34f70d",
+        "d623dfd9-c179-4653-8eb4-ea64a915cd12",
+        "44b2ba42-f37c-4172-afef-5c1c98496f2d",
+        "19159efb-7107-4d4a-96d7-e8ae11b0418f"
+      ],
+      "chunked_count": 8,
+      "index": 68,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 477,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 신곡 출하 및 국가비축물량 지속 방출에 따른 공급 증가로 대두 거래가격 전월대비 약보합"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 12940 15371\n`23.10 5735 7374\n`24.10 7061 7141\n전체 `24.10 241145 198823",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "23c00e7d-59b7-4ac9-8a10-ad55da2eed14",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 87,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "05821f30-3acd-45fe-a40e-973817414cf1",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>12,940</td><td>15,371</td></tr><tr><td>`23.10</td><td>5,735</td><td>7,374</td></tr><tr><td>`24.10</td><td>7,061</td><td>7,141</td></tr><tr><td>전체</td><td>`24.10</td><td>241,145</td><td>198,823</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n미국 `23.12 200865 176031\n`23.10 196205 171721\n`24.10 196302 157846\n전체 `24.10 241145 198823",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "be9035b8-12b9-454f-a283-739a25e01b97",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 94,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "731c86ba-dd1b-4e37-80ad-3143c95c10c1",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td>미국</td><td>`23.12</td><td>200,865</td><td>176,031</td></tr><tr><td></td><td>`23.10</td><td>196,205</td><td>171,721</td></tr><tr><td></td><td>`24.10</td><td>196,302</td><td>157,846</td></tr><tr><td>전체</td><td>`24.10</td><td>241,145</td><td>198,823</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 수입산 녹두 가격 상승 영향으로 중국산 녹두 거래가격 동반 상승으로 거래가격 전월대비 강보합\n\n◦ 일반용 녹두 계절성 비수기로 지속적인 가격상승 불가 할 것으로 전망\n\n◦ 중국산 녹두 금월 거래가격은 $1,084~1,112/톤 수준으로, 전월 $1,037~1,093/톤 대비 강보합\n\n◦ '24. 10월 까지 전체 수입량 은 8,795톤 이며, 중국산 수입량은 1,695톤으로 전체 수입량의 19.3% 차지\n\n◦ 중국산과 러시아산 메밀 가격간 차이 감소되어 거래 가격 전월대비 강보합\n\n◦ 수요 안정으로 가격 변동 가능성이 감소되어 수입산 메밀 가격에 따라 소폭 등락 전망\n\n◦ 중국산 메밀 금월 거래가격은 $500~556/톤 수준으로, 전월 $476~532/톤 대비 강보합\n\n◦ '24. 10월 까지 전체 수입량 은 1,780톤 이며, 중국산 수입량은 660톤으로 전체 수입량의 37% 차지",
+    "name": "◦ 수입산 녹두 가격 상승 영향으로 중국산 녹두 거래가격 동반 상승으로 거래가격 전월대비 강보합",
+    "meta_data": {
+      "chunk_id": "3f623810-f645-4dd8-93bf-520420c1a2ad",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3f623810-f645-4dd8-93bf-520420c1a2ad",
+        "f5bab412-f824-4180-889b-6b0cd0b224c3",
+        "1a92d7cc-33c0-4882-8816-d68709fa7a79",
+        "df07255b-76eb-44af-80bc-0df572f97c7a",
+        "bed0f85c-e2ff-4ddf-9c90-40e413d3d81f",
+        "18aa5a7f-fb62-409b-a4c3-4013b31102a5",
+        "4468d83b-29fd-45fc-90af-e0228077b520",
+        "b4d0852f-cca2-43b0-beac-bc571cc13167"
+      ],
+      "chunked_count": 8,
+      "index": 104,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 432,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 수입산 녹두 가격 상승 영향으로 중국산 녹두 거래가격 동반 상승으로 거래가격 전월대비 강보합"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 3897 7078\n`23.10 2211 3905\n`24.10 1695 3200\n전체 `24.10 8795 20172",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "690a53dd-3423-41da-9f6c-d378a7f064d3",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 121,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e8605989-74f3-454a-9780-27a40a185392",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>3,897</td><td>7,078</td></tr><tr><td>`23.10</td><td>2,211</td><td>3,905</td></tr><tr><td>`24.10</td><td>1,695</td><td>3,200</td></tr><tr><td>전체</td><td>`24.10</td><td>8,795</td><td>20,172</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 1236 1212\n`23.10 899 909\n`24.10 660 425\n전체 `24.10 1780 2017",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "13a8bcf8-f569-468c-a212-7af500f0be9f",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 128,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "eef2de42-49e6-4d75-847a-5a522797f538",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>1,236</td><td>1,212</td></tr><tr><td>`23.10</td><td>899</td><td>909</td></tr><tr><td>`24.10</td><td>660</td><td>425</td></tr><tr><td>전체</td><td>`24.10</td><td>1,780</td><td>2,017</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 일반식품 및 대두가격 하락 및 신곡 집중출하로 공급 물량 충족 영향으로 거래가격 전월대비 약보합\n\n◦ 콩수매가격이농가의재배원가에근접하여추가하락폭가능성이 감소되어 향후 가격은 일반식품 거래가격에 따라 변화 전망\n\n◦ 중국산 콩나물콩 금월 거래가격은 $931~945/톤 수준 으로, 전월 가격인 $939~953톤 대비 약보합\n\n◦ ' 24. 10월 까지 전체 수입량 은 18,787톤 이며, 그중 중국산 수입량 은 13,466톤으로 전체 물량의 71.7% 차지\n\n◦ 가공공장 원료 수매 진행 중이나 농가의 저가 출하 기피 하여 공급량 감소로 인한 거래가격 전월대비 상승\n\n◦ 중국산 알땅콩 거래가격은 $1,307~1,316/톤 수준으로, 전월 가격인 $1,248~1,262/톤 대비 상승\n\n◦ ' 24. 10월 까지 전체 수입량 은 802톤 이며, 그중 중국산 수입량 은 591톤 으로 전체 물량의 73.7% 차지",
+    "name": "◦ 일반식품 및 대두가격 하락 및 신곡 집중출하로 공급 물량 충족 영향으로 거래가격 전월대비 약보합",
+    "meta_data": {
+      "chunk_id": "125f8fb9-d033-41b4-bf22-25628ed521a8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "125f8fb9-d033-41b4-bf22-25628ed521a8",
+        "013c6756-5526-403c-8638-830623501408",
+        "7404302a-9ddf-403f-9590-b754fbbd09fd",
+        "8b600ba1-f297-4b95-bb55-de8fee5e52d3",
+        "88b31395-585b-49e9-984e-5486d877501b",
+        "549352a1-dbdb-4e7e-af28-a75db3ac74d3",
+        "a4699c8a-6f53-4a74-a4fa-e68c46c31ac1"
+      ],
+      "chunked_count": 7,
+      "index": 142,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 479,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 일반식품 및 대두가격 하락 및 신곡 집중출하로 공급 물량 충족 영향으로 거래가격 전월대비 약보합"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 27222 35898\n`23.10 17330 24147\n`24.10 13466 15693\n전체 `24.10 18787 23173",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "0888f758-b1f7-43af-b1ac-cb689019cd89",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 159,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "bdfe221a-7a5c-4a1c-8f2a-bf618576c8f1",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>27,222</td><td>35,898</td></tr><tr><td>`23.10</td><td>17,330</td><td>24,147</td></tr><tr><td>`24.10</td><td>13,466</td><td>15,693</td></tr><tr><td>전체</td><td>`24.10</td><td>18,787</td><td>23,173</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 1167 2236\n`23.10 911 1770\n`24.10 591 1034\n전체 `24.10 802 1493",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "59e953d7-a20c-4b43-84c1-89a3bbc71f19",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 166,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5b5cfa42-92c9-449e-a00e-ff57dfda9350",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>1,167</td><td>2,236</td></tr><tr><td>`23.10</td><td>911</td><td>1,770</td></tr><tr><td>`24.10</td><td>591</td><td>1,034</td></tr><tr><td>전체</td><td>`24.10</td><td>802</td><td>1,493</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n※ hs-code 1202.30-2000, 1202.42-0000",
+    "name": "※ hs-code 1202.30-2000, 1202.42-0000",
+    "meta_data": {
+      "chunk_id": "c1569340-a3c2-4e3d-8271-badcb0a45998",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c1569340-a3c2-4e3d-8271-badcb0a45998"
+      ],
+      "chunked_count": 1,
+      "index": 170,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "※ hs-code 1202.30-2000, 1202.42-0000"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 신강지역 재배면적 증가 및 작황 및 품위 양호로 공급 물량이 증가되어 거래가격 전월대비 하락\n\n◦ 내몽고 거래량 부족, 신강지역 과잉으로 인한 산지 수급 상황 변동 없이 유지예상으로 거래가격 보합권 전망\n\n◦ 중국산 건고추 금월 거래가격은 $1,529~1,599/톤 수준으로, 전월 가격인 $1,542~1,612/톤 대비 하락\n\n◦ ' 24. 10월 까지 전체 수입량 은 4,438톤 이며, 중국산 수입량 은 4,395톤으로 전체 물량의 99.3% 차지\n\n◦ 저장업체의 판매 조절과 실수요자, 단기투기 업체의 구매의향이 강하여 거래가격 전월대비 상승\n\n◦ `24년산 햇품 저장물량 충분하여 향후 시장 수급상황에 따라 거래가격 보합권내 등락 전망\n\n◦ 중국산 마늘 금월 거래가격은 $1,335~1,390/톤 수준이며, 전월 가격인 $1,206~1,290/톤 대비 상승\n\n◦ '24. 10월 까지 전체 수입량 은 384톤 이며, 전체물량을 중국산이 차지",
+    "name": "◦ 신강지역 재배면적 증가 및 작황 및 품위 양호로 공급 물량이 증가되어 거래가격 전월대비 하락",
+    "meta_data": {
+      "chunk_id": "6ddbbad8-9f9a-443b-bf1c-4e974d5dd1a6",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6ddbbad8-9f9a-443b-bf1c-4e974d5dd1a6",
+        "1b72bb02-453e-4019-b4dd-a46c239722b3",
+        "d6b21379-228f-446d-9750-2098bf1910f7",
+        "7506d311-c03d-4ee6-97d9-d555fc39e41c",
+        "e80b57c0-6df5-4cc2-b9d0-aeadf835d860",
+        "098c5ced-935c-4de2-94de-7db1607d8add",
+        "b43ac52a-6485-4da6-9412-906f6698cdc7",
+        "c7299c71-5564-4498-a80b-cc0f25eac2c8"
+      ],
+      "chunked_count": 8,
+      "index": 179,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 495,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 신강지역 재배면적 증가 및 작황 및 품위 양호로 공급 물량이 증가되어 거래가격 전월대비 하락"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 6420 23229\n`23.10 4943 18163\n`24.10 4395 13903\n전체 `24.10 4438 14291",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "104c9451-8fbe-439e-ba02-08341bea745c",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 196,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4d237525-5d43-496a-9ea3-ebd4cae62055",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>6,420</td><td>23,229</td></tr><tr><td>`23.10</td><td>4,943</td><td>18,163</td></tr><tr><td>`24.10</td><td>4,395</td><td>13,903</td></tr><tr><td>전체</td><td>`24.10</td><td>4,438</td><td>14,291</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n`23.12 2980 2544\n중국 `23.10 2930 2429\n`24.10 384 820\n전체 `24.10 384 820",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "3f372a32-6add-442f-b1e5-5101d833dcb4",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 203,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "178e5756-af04-463a-9c7a-9197fd7309c1",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td></td><td>`23.12</td><td>2,980</td><td>2,544</td></tr><tr><td>중국</td><td>`23.10</td><td>2,930</td><td>2,429</td></tr><tr><td></td><td>`24.10</td><td>384</td><td>820</td></tr><tr><td>전체</td><td>`24.10</td><td>384</td><td>820</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n※ hs-code 0703.20-1000, 0703.20-9000",
+    "name": "※ hs-code 0703.20-1000, 0703.20-9000",
+    "meta_data": {
+      "chunk_id": "45f23549-24e5-4dcb-a21e-b423aeec3895",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "45f23549-24e5-4dcb-a21e-b423aeec3895"
+      ],
+      "chunked_count": 1,
+      "index": 207,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "※ hs-code 0703.20-1000, 0703.20-9000"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 수출업체의 수요 증가 및 중만생종 계절성 수요 증가로 산지 수집상 재고 확보 영향으로 거래가격 전월대비 상승\n\n◦ 계절성 수요 증가 영향 및 산지 기온 하락으로 양질품 거래가격 강세 전망\n\n◦ 수요 증가하여 금월 거래가격은 $194~222/톤 수준이며, 전월 가격인 $168~199/톤 대비 상승\n\n◦ ' 24. 10월 까지 전체 수입량 은 67,350톤 이며, 중국산 수입량 은 66,367톤 으로 전체 물량의 98.5% 차지\n\n◦ 수출물량 증가 영향으로 수요가 증가 하였으나 내수 부진으로 거래가격 전월대비 약보합\n\n◦ 수확량 감소 및 수출수요 증가 영향으로 거래가격 보합 권내 등락 전망\n\n◦ 인도산 참깨 금월 거래가격은 $1,363~1,457/톤 수준으로, 전월 $1,430~1,520/톤 대비 약보합\n\n◦ ' 24.10월 까지 전체 수입량 은 68,536톤 이며, 그중 인도산 수입량 은 19,023톤 으로 전체 수입량의 27.7% 차지",
+    "name": "◦ 수출업체의 수요 증가 및 중만생종 계절성 수요 증가로 산지 수집상 재고 확보 영향으로 거래가격 전월대비 상승",
+    "meta_data": {
+      "chunk_id": "24a8be95-78bc-413c-bf40-2cd313bf9499",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "24a8be95-78bc-413c-bf40-2cd313bf9499",
+        "7d303acf-f8a5-4eb2-b8f6-756fc587fce6",
+        "9f4368f1-be44-41d1-a017-9c10be3e2071",
+        "e9c781c5-361e-49dd-974f-5e48a5c380f3",
+        "22c40f73-17ac-4620-aa45-de117223af6d",
+        "7ca54fed-6405-4461-b5d7-4badb0665744",
+        "58a63e2b-7a3e-4f45-9040-5c5639d3965d",
+        "f6c4eead-e42e-4315-9748-9d852a75cbc4"
+      ],
+      "chunked_count": 8,
+      "index": 216,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 474,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 수출업체의 수요 증가 및 중만생종 계절성 수요 증가로 산지 수집상 재고 확보 영향으로 거래가격 전월대비 상승"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 121606 48614\n`23.10 95085 37917\n`24.10 66367 22667\n전체 `24.10 67350 23070",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "4d17666e-01cd-4b41-a0b3-4fbd231408a1",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 233,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "aeb084f5-b114-46a2-980d-9f9965b488f9",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>121,606</td><td>48,614</td></tr><tr><td>`23.10</td><td>95,085</td><td>37,917</td></tr><tr><td>`24.10</td><td>66,367</td><td>22,667</td></tr><tr><td>전체</td><td>`24.10</td><td>67,350</td><td>23,070</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n인도 `23.12 16931 34034\n`23.10 15819 31455\n`24.10 19023 36591\n전체 `24.10 68536 148926",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "e813e449-7441-45c8-bb80-d439700caa94",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 240,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "af43dcd9-a019-441a-b8a8-a4beeb6b67a7",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">인도</td><td>`23.12</td><td>16,931</td><td>34,034</td></tr><tr><td>`23.10</td><td>15,819</td><td>31,455</td></tr><tr><td>`24.10</td><td>19,023</td><td>36,591</td></tr><tr><td>전체</td><td>`24.10</td><td>68,536</td><td>148,926</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n◦ 저장생강에 대한 판매의향이 강하여 시장공급량 증가 하였으나 수요 부진으로 거래가격 전월대비 하락\n\n◦ 저장생강 집중출하 및 햇생강 거래시작으로 공급물량 은 증가 하였으나 수요 부진으로 거래가격 약세 전망\n\n◦ 중국산 생강 금월 거래가격은 $973~1,001/톤 수준이며, 전월 가격인 $1,037~1,206/톤 대비 하락\n\n◦ '24. 10월 까지 전체 수입량 은 4,308톤 이며, 그중 중국산 수입량은 4,224톤으로 전체 수입량의 98% 차지\n\n◦ 햇품가격이 전년대비 큰 폭 하락하였고, 춘절 대비 재고 확보를 위한 수매량이 증가하여 거래가격 전월대비 강보합\n\n◦ 명절대비 시장수요 증가 예상되어 향후 거래가격 강보합 유지 전망\n\n◦ 중국산 참깨 금월 거래가격은 $2,002~2,030/톤 수준으로, 전월 가격인 $1,991~2,019/톤 대비 강보합\n\n◦ ' 24. 10월 까지 전체 수입량 은 68,536톤 이며, 그중 중국산 수입량 은 22,501톤으로 전체 수입량의 32.8% 차지",
+    "name": "◦ 저장생강에 대한 판매의향이 강하여 시장공급량 증가 하였으나 수요 부진으로 거래가격 전월대비 하락",
+    "meta_data": {
+      "chunk_id": "9002cb5e-3ba0-444b-ad0b-9bed317d76a8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9002cb5e-3ba0-444b-ad0b-9bed317d76a8",
+        "416718cf-4f29-4cbe-8669-03e7bcd44736",
+        "0d06918c-5c5b-4a4d-89e0-2745f768e5a6",
+        "81cf1f14-4577-40ce-a403-bcddf4cf1f46",
+        "1c34ead5-a4f0-43d9-9a33-09d97c72455c",
+        "8a215261-89c5-48da-8bc7-645ef9265a9d",
+        "0c5928b9-47c4-41b3-a72f-dbd1735c5444",
+        "c248ebb4-2c48-49e3-894b-099d34d9d469"
+      ],
+      "chunked_count": 8,
+      "index": 252,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 501,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "◦ 저장생강에 대한 판매의향이 강하여 시장공급량 증가 하였으나 수요 부진으로 거래가격 전월대비 하락"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 4081 6900\n`23.10 3910 6680\n`24.10 4224 5361\n전체 `24.10 4308 5443",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "6e0434ed-14cc-4dcc-9c62-d1dba0246b68",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 269,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "f6975b52-5633-4b13-bc49-2973f2a7ee79",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>4,081</td><td>6,900</td></tr><tr><td>`23.10</td><td>3,910</td><td>6,680</td></tr><tr><td>`24.10</td><td>4,224</td><td>5,361</td></tr><tr><td>전체</td><td>`24.10</td><td>4,308</td><td>5,443</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n※ hs-code 0910.11-1000, 0910.11-9000",
+    "name": "※ hs-code 0910.11-1000, 0910.11-9000",
+    "meta_data": {
+      "chunk_id": "fabb74cb-e1c4-4a18-b058-d70e7928db3b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "fabb74cb-e1c4-4a18-b058-d70e7928db3b"
+      ],
+      "chunked_count": 1,
+      "index": 273,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 20,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "※ hs-code 0910.11-1000, 0910.11-9000"
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n# ▣ 수입실적\n\n구 분 수입물량 수입금액\n중국 `23.12 32308 81251\n`23.10 23775 60019\n`24.10 22501 57043\n전체 `24.10 68536 148926",
+    "name": "▣ 수입실적",
+    "meta_data": {
+      "chunk_id": "b651a9e8-c5ab-4be4-bd7d-8ee70b9ef1cd",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 276,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "# ▣ 수입실적",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d650aab7-4fc2-4d63-be63-1495def6b630",
+          "content": "<table><tbody><tr><th colspan=\"2\">구 분</th><th>수입물량</th><th>수입금액</th></tr><tr><td rowspan=\"3\">중국</td><td>`23.12</td><td>32,308</td><td>81,251</td></tr><tr><td>`23.10</td><td>23,775</td><td>60,019</td></tr><tr><td>`24.10</td><td>22,501</td><td>57,043</td></tr><tr><td>전체</td><td>`24.10</td><td>68,536</td><td>148,926</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "(게시용)+2024년+11월+농산물+해외수입정보\n\n※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급관리처 061-931-1067로 연락주시기 바랍니다.",
+    "name": "※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급관리처 061-931-1067로 연락주시기 바랍니다.",
+    "meta_data": {
+      "chunk_id": "21267b74-5197-46d5-a9d4-0f9db873e98e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "21267b74-5197-46d5-a9d4-0f9db873e98e"
+      ],
+      "chunked_count": 1,
+      "index": 285,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 163,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "(게시용)+2024년+11월+농산물+해외수입정보",
+      "original_page_content": "※ 산지가격동향은 해외 현지에서 조사된 참고용 자료이므로 품목, 거래형태 등에 따라 한국 내 실제 도소매 거래 가격과는 상이할 수 있으며 거래가격에 대한 법적 책임소재의 증빙자료로 사용될 수 없습니다. ※ 상기 내용에 대해 궁금하신 사항이 있으시면 수급관리처 061-931-1067로 연락주시기 바랍니다."
+    }
+  }
+]

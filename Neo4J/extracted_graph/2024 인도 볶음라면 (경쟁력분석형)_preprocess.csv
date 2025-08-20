@@ -1,0 +1,37 @@
+엔터티1,엔터티1유형,관계,엔터티2,엔터티2유형,속성
+인도,국가,수입,볶음라면,품목,시기:2024년
+인도,국가,수입,Maggi,기업,시기:2024년
+Maggi,기업,생산,Maggi 2-Minute Instant Masala Noodles,품목,원산지:인도
+Maggi,기업,생산,Maggi Nutri-Licious Veg Atta Masala Noodles,품목,원산지:인도
+Maggi,기업,생산,Maggi Korean Bbq Chicken,품목,원산지:인도
+Maggi,기업,생산,Maggi 2-Minute Noodles,품목,중량:840g
+Maggi,기업,생산,Maggi Nutri-Licious Veg Atta Masala Noodles,품목,중량:290g
+Maggi,기업,생산,Maggi Korean Bbq Chicken,품목,중량:90g
+Maggi,기업,생산,Maggi Korean Bbq Chicken,품목,가격:60루피
+Maggi,기업,생산,Maggi 2-Minute Noodles,품목,가격:144루피
+Maggi,기업,생산,Maggi Nutri-Licious Veg Atta Masala Noodles,품목,가격:78루피
+Maggi,기업,생산,Maggi Korean Bbq Chicken,품목,포장형태:비닐
+Maggi,기업,생산,Maggi 2-Minute Noodles,품목,포장형태:비닐
+Maggi,기업,생산,Maggi Nutri-Licious Veg Atta Masala Noodles,품목,포장형태:비닐
+인도,국가,수입,닛신 푸드,기업,시기:2024년
+인도,국가,수입,Nissin Geki Hot & Spicy Korean Chicken Flavour,품목,원산지:인도
+인도,국가,수입,Nissin Geki Hot & Spicy Korean Veg Flavour,품목,원산지:인도
+인도,국가,수입,Nissin Geki Hot & Spicy Korean Chicken Flavour,품목,중량:400g
+인도,국가,수입,Nissin Geki Hot & Spicy Korean Veg Flavour,품목,중량:400g
+Nissin Geki Hot & Spicy Korean Chicken Flavour,기업,생산,Nissin Geki Hot & Spicy Korean Chicken Flavour,품목,원산지:인도
+Nissin Geki Hot & Spicy Korean Veg Flavour,기업,생산,Nissin Geki Hot & Spicy Korean Veg Flavour,품목,원산지:인도
+Nissin Geki Hot & Spicy Korean Chicken Flavour,기업,생산,닛신 게키 핫 앤 스파이시 코리안 치킨 플레이버,품목,가격:240루피
+Nissin Geki Hot & Spicy Korean Veg Flavour,기업,생산,닛신 게키 핫 앤 스파이시 코리안 베즈 플레이버,품목,가격:240루피
+Nissin Geki Hot & Spicy Korean Chicken Flavour,기업,생산,닛신 게키 핫 앤 스파이시 코리안 치킨 플레이버,품목,포장형태:비닐
+Nissin Geki Hot & Spicy Korean Veg Flavour,기업,생산,닛신 게키 핫 앤 스파이시 코리안 베즈 플레이버,품목,포장형태:비닐
+인도,국가,수입,A사,기업,시기:2024년
+인도,국가,수입,Stirfried Kimchi Ramen,품목,원산지:한국
+인도,국가,수입,Teum-Sae Jjajang Ramen,품목,원산지:한국
+A사,기업,생산,Stirfried Kimchi Ramen,품목,중량:134g
+A사,기업,생산,Teum-Sae Jjajang Ramen,품목,중량:203g
+Stirfried Kimchi Ramen,기업,생산,A사,품목,가격:150루피
+Teum-Sae Jjajang Ramen,기업,생산,A사,품목,가격:180루피
+Stirfried Kimchi Ramen,기업,생산,한국산,원산지,시기:2024년
+Teum-Sae Jjajang Ramen,기업,생산,한국산,원산지,시기:2024년
+A사,기업,생산,Stirfried Kimchi Ramen,품목,포장형태:비닐
+A사,기업,생산,Teum-Sae Jjajang Ramen,품목,포장형태:비닐

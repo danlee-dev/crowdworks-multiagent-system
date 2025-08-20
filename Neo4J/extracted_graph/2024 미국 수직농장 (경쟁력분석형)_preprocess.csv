@@ -1,0 +1,35 @@
+엔터티1,엔터티1유형,관계,엔터티2,엔터티2유형,속성
+Freight Farms,기업,생산,Greenery,품목,국가:미국;시기:2024년
+Freight Farms,기업,생산,팜핸드 소프트웨어,기술,국가:미국;시기:2024년
+Freight Farms,기업,수입,Greenery,품목,국가:미국;시기:2024년
+Freight Farms,기업,생산,Greenery S,품목,설비가격:165000달러;시기:2024년
+Freight Farms,기업,생산,Greenery 7,품목,설비가격:169000달러;시기:2024년
+Freight Farms,기업,생산,Greenery S,품목,생산량:연평균2-6톤
+Freight Farms,기업,생산,Greenery 7,품목,생산량:연평균2-5톤
+GP Solutions,기업,생산,Hydro Pod,품목,설비가격:미공개
+GP Solutions,기업,생산,Grow Max Pod,품목,설비가격:미공개
+GP Solutions,기업,생산,Specialty Pods,품목,설비가격:미공개
+GP Solutions,기업,생산,Hydro Pods,품목,유틸리티일평균전력:200kWh이하;유틸리티일평균용수:약19리터
+GP Solutions,기업,생산,Grow Max Pods,품목,유틸리티일평균전력:200kWh이하;유틸리티일평균용수:약19리터
+GP Solutions,기업,생산,Specialty Pods,품목,유틸리티일평균전력:200kWh이하;유틸리티일평균용수:약19리터
+CubicFarm Systems,기업,생산,CubicFarm System,품목,설비가격:미공개
+CubicFarm Systems,기업,생산,HydroGreen Grow Systems,품목,설비가격:미공개
+CubicFarm Systems,기업,생산,HydroGreen Grow Systems,품목,생산량,연간최대25000000파운드(1134000kg)
+CubicFarm Systems,기업,생산,Entry-Level Grow Container,품목,설비가격:최소99000달러
+CubicFarm Systems,기업,생산,Hydroponic Fodder Farm,품목,생산량,일수확량850파운드(385.5kg)
+Growtainers,기업,생산,Entry-Level Grow Container,품목,설비가격:최소99000달러
+Growtainers,기업,생산,Tissue Culture Lab Grow Container,품목,설비가격:최소99000달러
+Growtainers,기업,생산,Microgreens Grow Container,품목,설비가격:최소99000달러
+Zipgrow,기업,생산,ZipPod,품목,설비가격:179000달러
+Zipgrow,기업,생산,ZipFarm,품목,설비가격:179000달러
+FarmBox Foods,기업,생산,Hydroponic Fodder Farm,품목,생산량,일수확량850파운드(385.5kg)
+FarmBox Foods,기업,생산,Vertical Hydroponic Farm,품목,설비가격,미공개
+FarmBox Foods,기업,생산,Gourmet Mushroom Farm,품목,설비가격,미공개
+FarmBox Foods,기업,생산,Hydroponic Fodder Farm,품목,유틸리티일용수:2082리터
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,생산량,연간최대25000000파운드(1134000kg)
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,생산량,6일
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,유틸리티,물90%절약;관개작물대비연최대5억갤런절약
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,자동화,파종관수조명수확등재배시스템자동제어
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,레퍼런스,낙농장,소규모축산업,낙농업농장
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,운영환경,기후무관
+HydroGreen Grow Systems,기업,생산,HydroGreen Grow Systems,품목,규격,가축규모에따라확장/결합가능

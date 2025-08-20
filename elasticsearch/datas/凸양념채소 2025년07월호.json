@@ -1,0 +1,401 @@
+{
+  "documents": [
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/0e238e79-a78f-4668-b1ed-f50eb602e6d1.png",
+      "meta_data": {
+        "chunk_id": "0e238e79-a78f-4668-b1ed-f50eb602e6d1",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 0,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": null,
+        "next_content": "39118328-4173-4e41-beda-848160c05f49"
+      }
+    },
+    {
+      "page_content": "# 양념채소",
+      "meta_data": {
+        "chunk_id": "39118328-4173-4e41-beda-848160c05f49",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/48e2e159-d75f-41e7-8dc5-23f10570b591.png",
+      "meta_data": {
+        "chunk_id": "48e2e159-d75f-41e7-8dc5-23f10570b591",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 2,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "39118328-4173-4e41-beda-848160c05f49",
+        "next_content": "266c72f1-d467-4bc0-89e3-dafe51f90cf8"
+      }
+    },
+    {
+      "page_content": "한국능촌경제연구원",
+      "meta_data": {
+        "chunk_id": "266c72f1-d467-4bc0-89e3-dafe51f90cf8",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "www.krei.re.kr",
+      "meta_data": {
+        "chunk_id": "33665d1c-5152-4bf0-a706-51d755ab5110",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "통권 제1320호 2025년 7월 2일 발행(월간·비매품) 등록번호 나주라00016호(2024.9.10) 발행·편집인/원장 한두봉 발행처 한국농촌경제연구원 디자인·인쇄 세일포커스㈜",
+      "meta_data": {
+        "chunk_id": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/6e006cba-e07b-43d7-86f9-9be801829805.png",
+      "meta_data": {
+        "chunk_id": "6e006cba-e07b-43d7-86f9-9be801829805",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 6,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/24b7fbc7-3d8c-40db-a8f9-c29afca67ea3.png",
+      "meta_data": {
+        "chunk_id": "24b7fbc7-3d8c-40db-a8f9-c29afca67ea3",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 7,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/8ebc94aa-1415-43f0-adeb-adc71c2702ed.png",
+      "meta_data": {
+        "chunk_id": "8ebc94aa-1415-43f0-adeb-adc71c2702ed",
+        "page_number": [
+          2,
+          3
+        ],
+        "item_label": "picture",
+        "index": 8,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/60f6141a-3660-4e31-8a5c-7fc2b1aab598.png",
+      "meta_data": {
+        "chunk_id": "60f6141a-3660-4e31-8a5c-7fc2b1aab598",
+        "page_number": [
+          3,
+          4
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/3fc764bd-8ef1-4ad0-8d1b-941fdf48f70f.png",
+      "meta_data": {
+        "chunk_id": "3fc764bd-8ef1-4ad0-8d1b-941fdf48f70f",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 10,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/16bc6b85-5e52-477d-9fe1-de004d0f5f41.png",
+      "meta_data": {
+        "chunk_id": "16bc6b85-5e52-477d-9fe1-de004d0f5f41",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 11,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/1eab1356-cbdf-4e05-ab84-4ea5e5a8c67f.png",
+      "meta_data": {
+        "chunk_id": "1eab1356-cbdf-4e05-ab84-4ea5e5a8c67f",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 12,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/a0172de4-c94c-4034-a6d0-6340a6ab918e.png",
+      "meta_data": {
+        "chunk_id": "a0172de4-c94c-4034-a6d0-6340a6ab918e",
+        "page_number": [
+          4,
+          5
+        ],
+        "item_label": "picture",
+        "index": 13,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/e4c2fe19-4470-4835-a85e-df32a2305604.png",
+      "meta_data": {
+        "chunk_id": "e4c2fe19-4470-4835-a85e-df32a2305604",
+        "page_number": [
+          5,
+          6
+        ],
+        "item_label": "picture",
+        "index": 14,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/4ac21c6d-1f5b-43c1-afd8-be08ae3f56a4.png",
+      "meta_data": {
+        "chunk_id": "4ac21c6d-1f5b-43c1-afd8-be08ae3f56a4",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 15,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/a1ae4489-eddb-4cfe-bf2d-54e27ecf418b.png",
+      "meta_data": {
+        "chunk_id": "a1ae4489-eddb-4cfe-bf2d-54e27ecf418b",
+        "page_number": [
+          6
+        ],
+        "item_label": "picture",
+        "index": 16,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/bea60db9-b5c3-48ea-8046-6b8ae57c4803.png",
+      "meta_data": {
+        "chunk_id": "bea60db9-b5c3-48ea-8046-6b8ae57c4803",
+        "page_number": [
+          6,
+          7
+        ],
+        "item_label": "picture",
+        "index": 17,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/58d8b3bc-420b-4cc4-bd8c-8682360bf067.png",
+      "meta_data": {
+        "chunk_id": "58d8b3bc-420b-4cc4-bd8c-8682360bf067",
+        "page_number": [
+          7,
+          8
+        ],
+        "item_label": "picture",
+        "index": 18,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/5d0198cb-cf86-4dba-8be3-a3921b35b814.png",
+      "meta_data": {
+        "chunk_id": "5d0198cb-cf86-4dba-8be3-a3921b35b814",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 19,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/cc43d92e-fbf4-4b4d-8205-e503d19cba42.png",
+      "meta_data": {
+        "chunk_id": "cc43d92e-fbf4-4b4d-8205-e503d19cba42",
+        "page_number": [
+          8,
+          9
+        ],
+        "item_label": "picture",
+        "index": 20,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/4aa381da-97c6-482c-8400-58eab919f1f1.png",
+      "meta_data": {
+        "chunk_id": "4aa381da-97c6-482c-8400-58eab919f1f1",
+        "page_number": [
+          9
+        ],
+        "item_label": "picture",
+        "index": 21,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/97b8d0bf-6e88-4ab2-81c2-63b353390a36.png",
+      "meta_data": {
+        "chunk_id": "97b8d0bf-6e88-4ab2-81c2-63b353390a36",
+        "page_number": [
+          9,
+          10
+        ],
+        "item_label": "picture",
+        "index": 22,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/d4baab11-bcda-44f8-a083-f2b0074e95ec.png",
+      "meta_data": {
+        "chunk_id": "d4baab11-bcda-44f8-a083-f2b0074e95ec",
+        "page_number": [
+          10
+        ],
+        "item_label": "picture",
+        "index": 23,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/657c758e-422c-46fd-a87d-dc73ee6649a8.png",
+      "meta_data": {
+        "chunk_id": "657c758e-422c-46fd-a87d-dc73ee6649a8",
+        "page_number": [
+          11
+        ],
+        "item_label": "picture",
+        "index": 24,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/result/images/fcaf4b8d-b264-4a99-993c-fd9bfb101891.png",
+      "meta_data": {
+        "chunk_id": "fcaf4b8d-b264-4a99-993c-fd9bfb101891",
+        "page_number": [
+          11,
+          12
+        ],
+        "item_label": "picture",
+        "index": 25,
+        "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+        "hierarchy": "39118328-4173-4e41-beda-848160c05f49",
+        "prev_content": "cc6cba74-a99b-4491-b881-97ab90453404",
+        "next_content": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 양념채소",
+    "document_id": "38145023-bd9b-5d4b-94f7-565d98dd4a41",
+    "timestamp": "2025-07-17T07:12:39.141093Z",
+    "document_file_path": "/app/output/f2b8030b-3639-47ba-b013-fa71e013e4c3/양념채소 2025년07월호.pdf",
+    "document_title": "양념채소 2025년07월호"
+  }
+}

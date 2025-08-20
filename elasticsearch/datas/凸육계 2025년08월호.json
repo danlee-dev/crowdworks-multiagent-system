@@ -1,0 +1,365 @@
+{
+  "documents": [
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/bf3eb3b2-038d-40f2-b808-95f58fce17a7.png",
+      "meta_data": {
+        "chunk_id": "bf3eb3b2-038d-40f2-b808-95f58fce17a7",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 0,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "next_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/8523e37c-e5b1-4868-9133-c16b43483c80.png",
+      "meta_data": {
+        "chunk_id": "8523e37c-e5b1-4868-9133-c16b43483c80",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 1,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "next_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/0d0e7406-9fbe-4219-bddb-c3234d08f7b0.png",
+      "meta_data": {
+        "chunk_id": "0d0e7406-9fbe-4219-bddb-c3234d08f7b0",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 2,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "next_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/5edc55a5-4880-41db-bde0-8fa60ea94f40.png",
+      "meta_data": {
+        "chunk_id": "5edc55a5-4880-41db-bde0-8fa60ea94f40",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 3,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "next_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea"
+      }
+    },
+    {
+      "page_content": "육계",
+      "meta_data": {
+        "chunk_id": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "page_number": [
+          1,
+          2
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/630f9d69-fc44-42e1-85d4-2c5685a1d2fa.png",
+      "meta_data": {
+        "chunk_id": "630f9d69-fc44-42e1-85d4-2c5685a1d2fa",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 5,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/87ba0122-058d-46b9-bbac-9070fccc8a7a.png",
+      "meta_data": {
+        "chunk_id": "87ba0122-058d-46b9-bbac-9070fccc8a7a",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 6,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/e6b072ca-fcea-4f02-b124-b4b51a023552.png",
+      "meta_data": {
+        "chunk_id": "e6b072ca-fcea-4f02-b124-b4b51a023552",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 7,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/003d2f10-7846-4cfd-99f7-6d45a735fb7d.png",
+      "meta_data": {
+        "chunk_id": "003d2f10-7846-4cfd-99f7-6d45a735fb7d",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 8,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/1809530f-e088-47b0-ab9b-d5d04d7bdc68.png",
+      "meta_data": {
+        "chunk_id": "1809530f-e088-47b0-ab9b-d5d04d7bdc68",
+        "page_number": [
+          2
+        ],
+        "item_label": "picture",
+        "index": 9,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/3febcf33-460d-457e-9956-76b4f85fc05a.png",
+      "meta_data": {
+        "chunk_id": "3febcf33-460d-457e-9956-76b4f85fc05a",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 10,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/8a47c897-a7c9-4f8c-8791-14ebb751c42c.png",
+      "meta_data": {
+        "chunk_id": "8a47c897-a7c9-4f8c-8791-14ebb751c42c",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 11,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/6bb21c81-c984-42cc-855e-ae7fa705738f.png",
+      "meta_data": {
+        "chunk_id": "6bb21c81-c984-42cc-855e-ae7fa705738f",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 12,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/78956e5c-d03f-46fc-8c45-9e28b2c6f0ce.png",
+      "meta_data": {
+        "chunk_id": "78956e5c-d03f-46fc-8c45-9e28b2c6f0ce",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 13,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/4d3b85f6-864e-4e06-b367-6e69c860837e.png",
+      "meta_data": {
+        "chunk_id": "4d3b85f6-864e-4e06-b367-6e69c860837e",
+        "page_number": [
+          3
+        ],
+        "item_label": "picture",
+        "index": 14,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "1f0b642f-f5f9-479d-8eca-6828f7fab8ea",
+        "next_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e"
+      }
+    },
+    {
+      "page_content": "육계",
+      "meta_data": {
+        "chunk_id": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "page_number": [
+          3,
+          4
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/79cf5340-a412-42ca-bab8-bda53b25be22.png",
+      "meta_data": {
+        "chunk_id": "79cf5340-a412-42ca-bab8-bda53b25be22",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 16,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/4fdd7884-d247-4ed3-96a8-9712a4cb4717.png",
+      "meta_data": {
+        "chunk_id": "4fdd7884-d247-4ed3-96a8-9712a4cb4717",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 17,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/0b80bec2-9afd-42e7-97e3-616c59c73749.png",
+      "meta_data": {
+        "chunk_id": "0b80bec2-9afd-42e7-97e3-616c59c73749",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 18,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/95206667-7ac6-446b-a378-43f55a00a458.png",
+      "meta_data": {
+        "chunk_id": "95206667-7ac6-446b-a378-43f55a00a458",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 19,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/c20d2a58-3701-4f73-8245-b78e49631214.png",
+      "meta_data": {
+        "chunk_id": "c20d2a58-3701-4f73-8245-b78e49631214",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 20,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/c0209213-c2fb-4bd5-8848-ffd44774aeb0.png",
+      "meta_data": {
+        "chunk_id": "c0209213-c2fb-4bd5-8848-ffd44774aeb0",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 21,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/ea4f520d-3872-4ac5-8ce1-0b343f88477d.png",
+      "meta_data": {
+        "chunk_id": "ea4f520d-3872-4ac5-8ce1-0b343f88477d",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 22,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    },
+    {
+      "page_content": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/result/images/1cf1902d-3cf0-4bdb-ad27-3b002addea82.png",
+      "meta_data": {
+        "chunk_id": "1cf1902d-3cf0-4bdb-ad27-3b002addea82",
+        "page_number": [
+          4
+        ],
+        "item_label": "picture",
+        "index": 23,
+        "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+        "hierarchy": null,
+        "prev_content": "a4a97c13-a3c9-47e2-9efe-6dc591c8705e",
+        "next_content": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "",
+    "document_id": "ff895bac-fb6c-5b46-9489-de6b4d86fc6c",
+    "timestamp": "2025-08-13T01:40:33.195888Z",
+    "document_file_path": "/app/output/d038359c-572a-4ca4-a809-e94d8b488bf4/육계 2025년08월호.pdf",
+    "document_title": "육계 2025년08월호"
+  }
+}

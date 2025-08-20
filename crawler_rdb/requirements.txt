@@ -1,0 +1,7 @@
+requests
+python-dotenv
+psycopg2-binary
+pandas
+numpy
+openpyxl
+openai

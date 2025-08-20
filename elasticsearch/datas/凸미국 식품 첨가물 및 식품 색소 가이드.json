@@ -1,0 +1,297 @@
+{
+  "documents": [
+    {
+      "page_content": "# 미국 식품 첨가물 및 식품 색소 가이드북 요약본",
+      "meta_data": {
+        "chunk_id": "3662c4b6-d265-4511-982c-b4dbc6b140b3",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 식품의 의도적 첨가 물질 분류",
+      "meta_data": {
+        "chunk_id": "3ee7fbd5-0c73-4bb3-a955-9249d508a5b7",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 식품 첨가물은 미국 연방법 상으로, 그 의도된 사용이 직접적 또 는 간접적으로 식품의 구성 성분이 되거나, 다른 방식으로 식품의 특 성에 영향을 미칠 것으로 예상되거나 또는 영향을 미칠 수 있는 물질 로 정의됨",
+      "meta_data": {
+        "chunk_id": "77ef3c61-1c00-43a2-a64b-20f3be5e03f7",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 2,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 직접 식품 첨가물 이외에 간접 식품 첨가물, 식품 방사선 조사와 식품 포장재 등도 식품 첨가물의 일종으로 분류될 수 있음",
+      "meta_data": {
+        "chunk_id": "1d6aed16-0779-4c19-b486-b6d066cde832",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA에서는 식품에 사용이 승인된 직접 식품 첨가물 목록을 연방 법 규정에서 제시하고 있음 -21 CFR Part 172",
+      "meta_data": {
+        "chunk_id": "63755c21-54fb-4871-b868-81ac63a87a4d",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. GRAS 성분의 사용",
+      "meta_data": {
+        "chunk_id": "3c6a6d31-e109-4189-b799-4fdf5c0e69e0",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 식품 첨가물은 FDA에 의하여 시판전 사전 검토 및 승인을 받아야 하나, 해당 물질이 일반적으로 안전하다고 인정되는 (GRAS, Generally Recognized as Safe) 물질인 경우에는 사전 검토 및 승인에서 예외됨",
+      "meta_data": {
+        "chunk_id": "742d5956-2b70-41ad-945b-c27013cb746f",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q GRAS가 인정되는 방법은 두 가지가 있으며, 1) GRAS 결정은 해당 물질을 사용하는 제조업체 등에서 자체적으로 물질에 대한 GRAS를 판단할 수 있고, 또는 2) 해당 물질의 사용이 GRAS임을 FDA에 통보 하고 FDA의 검토를 받을 수 있음",
+      "meta_data": {
+        "chunk_id": "c5755ff5-5428-45b0-9c6e-dc8cc6a0628e",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA에서는 GRAS 물질을 연방법 규정에서 제시하고 있으며 (21 CFR Part 181, 182, 184), GRAS Inventory에서도 확인할 수 있음",
+      "meta_data": {
+        "chunk_id": "c8aab288-89c0-4f5a-b943-69a67e5e95e8",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 3. 간접 식품 첨가물",
+      "meta_data": {
+        "chunk_id": "8da413ca-f5fd-4d44-ba93-56bfab722f9d",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 9,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 식품 접촉 물질이 식품 첨가물로 분류되는 경우 해당 용도로 미국 내에서 유통되기 전에 FDA로부터 시판전 사전 승인을 받아야 함",
+      "meta_data": {
+        "chunk_id": "c0c50c97-4604-4dd8-9f08-e862edf18f62",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 10,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA에서는 식품에 사용이 승인된 간접 식품 첨가물 목록을 연방 법 규정에서 제시하고 있음 -21 CFR Part 175-178, 179.45, 173, 181, 186",
+      "meta_data": {
+        "chunk_id": "5412e052-38cf-4fe3-a0cd-011c976331fc",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 11,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 4. 식품 색소 물질",
+      "meta_data": {
+        "chunk_id": "045bbca8-a3a7-4821-a738-26a7d0fec70d",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 색소 첨가물은 식품에 첨가되기 전에 그 사용 목적과 관련하여 안 전성을 증명하고 FDA로부터 사용 승인을 받아야 함",
+      "meta_data": {
+        "chunk_id": "c5eb3651-6c08-45db-8f86-9d090fc4fe5e",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA가 식품에 사용을 허가한 색소 첨가물은 통제의 필요성에 따 라서 배치 인증이 면제된 색소 첨가물과 배치 인증이 요구되는 색소 첨가물이 있으며, 배치 인증이 요구되는 색소 첨가물인 경우에는 사 전에 배치 인증 여부를 확인하는 것이 필요함",
+      "meta_data": {
+        "chunk_id": "6f0d0da3-49ea-4a0e-882a-e7da4f1ba55d",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA에서는 식품에 사용이 승인된 색소 첨가물 목록을 연방법 규 정에서 제시하고 있음 -21 CFR Part 73-74",
+      "meta_data": {
+        "chunk_id": "057df7f5-3fb2-4db7-8510-c36d9d728134",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 5. 논란이 제기되고 있는 식품 첨가물 및 성분 물질",
+      "meta_data": {
+        "chunk_id": "61fef768-4f70-415b-8ad0-b741a53c3e5c",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 16,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 주법으로 특정 식품 첨가물에 대한 제제를 하여 연방법과 상충되 는 경우가 발생하고 있으며, FDA는 이러한 주별 조치에 따라서 특정 식품 첨가물에 대한 기존 규제를 재검토하고 있음",
+      "meta_data": {
+        "chunk_id": "e8a97a5c-c560-4330-ac32-d5b76a415569",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 17,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 6. 식품 첨가물 및 성분 물질 규정 위반 사례 및 대응 방법",
+      "meta_data": {
+        "chunk_id": "41694e68-7a5f-47fe-85cc-efaa6ea3b2f8",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q FDA는 식품이 위생적으로 안전하지 않거나 소비자들에게 잘못된 정보를 전달하고 있어 관련 규정을 위반한 경우 수입 경보, 수입 거 절, Warning Notice, 리콜, 시장 철수 조치 등을 집행할 수 있는 권한 이 있음",
+      "meta_data": {
+        "chunk_id": "b0e925a1-5b81-4685-adfb-ca2d0ac51a37",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 19,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 식품에 사용하는 첨가물은 FDA에서 허가 받은 물질 또는 일반적 으로 안전하다고 인정되는 (GRAS)물질들을 사용해야 하며, FDA 관련 라벨링을 준수하여야 함",
+      "meta_data": {
+        "chunk_id": "6a723e3e-4201-4906-877f-747ef733fcba",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 20,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "q 미국 시장에서의 경쟁력을 유지하고 식품 제품의 안전성과 품질을 보장하기 위해서는, 국내 업체들이 미국으로 식품을 수출할 때는 철 저한 규정 준수와 지속적인 모니터링 그리고 신속한 대응이 필수적이 며, 이를 위하여 내부적으로 체계적인 품질관리와 규제 대응 시스템 을 구축하고, 외부 전문가와 협력하여 규제 변화를 정확하게 파악하 고 대응하는 것이 중요함",
+      "meta_data": {
+        "chunk_id": "fae1345e-3246-412c-901f-f456330f74d5",
+        "page_number": [
+          2
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 미국 식품 첨가물 및 식품 색소 가이드북 요약본\n# 1. 식품의 의도적 첨가 물질 분류\n# 2. GRAS 성분의 사용\n# 3. 간접 식품 첨가물\n# 4. 식품 색소 물질\n# 5. 논란이 제기되고 있는 식품 첨가물 및 성분 물질\n# 6. 식품 첨가물 및 성분 물질 규정 위반 사례 및 대응 방법",
+    "document_id": "2207fe8a-232f-5876-85c3-d88f38cd8423",
+    "timestamp": "2025-07-17T07:31:43.279674Z",
+    "document_file_path": "/app/output/be9753e4-a28f-4b64-8dd9-42f0bcc7899e/미국 식품 첨가물 및 식품 색소 가이드.pdf",
+    "document_title": "미국 식품 첨가물 및 식품 색소 가이드"
+  }
+}

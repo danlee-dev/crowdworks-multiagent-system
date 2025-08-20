@@ -1,0 +1,4851 @@
+{
+  "documents": [
+    {
+      "page_content": "# 글로벌 푸드테크 기술동향",
+      "meta_data": {
+        "chunk_id": "965c1c5f-584d-4ed0-9d44-53e6a37a9032",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 0,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2024.08.",
+      "meta_data": {
+        "chunk_id": "a6b10d20-7ea5-4037-9e8b-61044cf7be02",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 1,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/68b7f192-bc30-4da9-a9fd-04fb6b11bafd.png",
+      "meta_data": {
+        "chunk_id": "68b7f192-bc30-4da9-a9fd-04fb6b11bafd",
+        "page_number": [
+          1
+        ],
+        "item_label": "picture",
+        "index": 2,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "965c1c5f-584d-4ed0-9d44-53e6a37a9032",
+        "prev_content": "a6b10d20-7ea5-4037-9e8b-61044cf7be02",
+        "next_content": "d05a9b60-cd32-4770-8ebe-eed7bf21a543"
+      }
+    },
+    {
+      "page_content": "2024년 7월 28일자 매매기준율(하나은행) 적용 1 USD(달러) = 1,385.50원",
+      "meta_data": {
+        "chunk_id": "d05a9b60-cd32-4770-8ebe-eed7bf21a543",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 3,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "일반-15",
+      "meta_data": {
+        "chunk_id": "88c9b64a-de0b-4191-9114-6ad5b52d0506",
+        "page_number": [
+          1
+        ],
+        "item_label": "text",
+        "index": 4,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# [ 목 차 ]",
+      "meta_data": {
+        "chunk_id": "a739a018-3ab6-4a09-815b-ce0935d95d47",
+        "page_number": [
+          2,
+          3
+        ],
+        "item_label": "text",
+        "index": 5,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 글로벌 푸드테크 기술동향",
+      "meta_data": {
+        "chunk_id": "98bf4f1d-2f23-462f-a093-a6a9f1760fd2",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 6,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 푸드테크 개요",
+      "meta_data": {
+        "chunk_id": "3c90cb78-19b6-4302-b8cc-35e64220ed28",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 7,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '푸드테크'란 식품산업에 혁신기술이 접목된 신 新 산업으로, 식품의 생산부터 최종 소비까지 가치사슬 전 단계에 적용",
+      "meta_data": {
+        "chunk_id": "7d26ccf5-4000-4b99-8712-f7292049919a",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 8,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 푸드테크에 적용되는 주요 기술은 인공지능(AI), 사물인터넷(IoT), 3D 프린팅, 로봇, 바이오 기술 등이 있음",
+      "meta_data": {
+        "chunk_id": "bae0a94f-628d-4a66-95ff-d8e10040f58c",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 9,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. 푸드테크 기술동향",
+      "meta_data": {
+        "chunk_id": "76a66372-d317-4fd3-b1b9-8d703bc0dcf9",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 10,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (자율주행기술) 주행 환경을 기계가 자체적으로 인식하여 운전자(인간) 없이 스스로 운전하는 기술을 의미",
+      "meta_data": {
+        "chunk_id": "fe5b7640-9fab-4b43-929c-2a3fe22b276e",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 11,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 감지 시스템, 중앙제어장치, 구동기(액추에이터) 등을 통해 구현되며, 로봇 및 컴퓨터공학, GPS, 정밀센서, 전자제어 등 첨단 기술을 필요로 함",
+      "meta_data": {
+        "chunk_id": "f700e583-b481-48d5-9533-60fcb37f81d9",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 12,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 국내에서는 2023년 11월 지능형로봇법 개정안이 시행됨에 따라 자율주행 로봇으로 배달이 가능해짐",
+      "meta_data": {
+        "chunk_id": "9eebf923-5e00-4b1d-89e6-163cc28246c3",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 13,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (인공지능) 인간의 지능을 모방하여 문제를 해결하거나 결정을 내리는 컴퓨터 시스템을 의미",
+      "meta_data": {
+        "chunk_id": "a00c3cfc-6e95-43c0-8555-116c9a528062",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 14,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* (생산) 인공지능 기반의 예측분석 및 머신러닝을 통해 생산성 증대, 효율성 및 안전성 제고, 소비자 취향에 맞는 제품 개발 및 생산 가능",
+      "meta_data": {
+        "chunk_id": "5df6a18d-ec7e-42e0-9763-40a22c72d0c0",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 15,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* (유통) 유통 과정에서 발생하는 물류와 정보의 흐름을 인공지능으로 분석해 효율을 높이고 수요를 예측하는 데 활용",
+      "meta_data": {
+        "chunk_id": "316b7e05-18c7-4371-9533-ba62ff22277c",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 16,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* (판매·마케팅) 신선한 즐거움에 재미를 느끼는 젊은 소비자의 요구에 부합하기 위해 인공지능을 활용한 마케팅 추진",
+      "meta_data": {
+        "chunk_id": "cb910bc6-cff1-4eb7-9f28-fe5d2ee3b5d9",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 17,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* (고객관리) 고객 경험 데이터를 체계적으로 분석해 서비스를 개선하기도 하며, 고객관리 응대 신속성을 더하는 등의 형태로 구현하여 소비자 만족도 제고",
+      "meta_data": {
+        "chunk_id": "588ab361-5840-40f3-b1b0-f2951c5b84af",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 18,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (푸드테크 로봇) 로보틱스(Robotics)는식음료산업전반에관여가능한 기술로, 크게 △생산 △제조 △물류(배달 포함) △서비스 부문에 적용",
+      "meta_data": {
+        "chunk_id": "b52644b4-8b30-4715-accc-44a4137e7f24",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 19,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-3 -",
+      "meta_data": {
+        "chunk_id": "e76b2465-a704-4650-b08a-f20b52140182",
+        "page_number": [
+          3
+        ],
+        "item_label": "text",
+        "index": 20,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (바이오) 생체 혹은 생물학적 시스템을 활용해 다양한 물질을 만드는 기술을 의미하며, 농식품 산업에는 그린바이오 기술 적용",
+      "meta_data": {
+        "chunk_id": "cbf6fd10-e285-4f51-a3b7-11146718768f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 21,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 3. 푸드테크 적용 사례",
+      "meta_data": {
+        "chunk_id": "de7ffac4-e8b8-4c70-a592-b5c6344e528f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 22,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (자율주행기술) 농식품 산업에 있어 자율주행기술의 도입은 크게 식음료 배달 서비스 부문에 중점",
+      "meta_data": {
+        "chunk_id": "8ea24ab4-93ad-4792-a672-df4c45daa12d",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 23,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 대부분 자율주행기술을 탑재한 로봇이 단거리의 식음료를 배달하는 형태이며, 미국에서는 자율주행 자동차를 통한 식료품 배달/판매 서비스를 제공",
+      "meta_data": {
+        "chunk_id": "c93171c1-1fad-4b7b-b492-431b9931af2b",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 24,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (인공지능) 농작물의 생산 및 재배관리에서 제품 및 원료 개발, 제조 공정 효율화 및 개선, 유통 및 판매·마케팅에 이르는 전 과정에 적용",
+      "meta_data": {
+        "chunk_id": "c41d2509-bc69-47ca-921e-83f58d73f6b1",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 25,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "* 인공지능은 그 자체 기술로써 활용되기도 하나, 로봇과 같은 하드웨어와 결합한 형태로 구현되기도 함",
+      "meta_data": {
+        "chunk_id": "d97a94e6-129c-4314-b453-4b95b95cd47f",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 26,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (푸드테크 로봇) 농식품의 생산에서부터 제조, 물류, 판매에 이르는 모든 과정에 관여하며, 로봇 기술 도입을 통해 생산성, 안전성, 시장 요구 사항 충족, 지속가능성 등을 도모",
+      "meta_data": {
+        "chunk_id": "f8ad3d77-452a-4299-8095-c04e3cc0b1de",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 27,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (그린바이오 기술) 농업과 그 전후방 산업에 모두 적용되며 최근에는 식품 원료(첨가물, 기능성 소재, 대체 단백질 등) 개발 및 생산을 적극적으로 추진",
+      "meta_data": {
+        "chunk_id": "97fe4962-2abe-4a35-8a26-44a8fd9025ea",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 28,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 4. 결론 및 시사점",
+      "meta_data": {
+        "chunk_id": "73b1a597-59d0-4883-b1ab-67f56f30351b",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 29,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 푸드테크의 도입으로 전 세계적 식품산업의 패러다임이 변화하고 있으며, 푸드테크는 현재 식품산업이 직면한 위기를 극복할 수 있는 대안으로 인식",
+      "meta_data": {
+        "chunk_id": "b695b3dd-13d1-4055-8d98-9c4ca04ea2ca",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 30,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 국내 푸드테크 산업은 향후 성장이 기대되는 수준으로, 산업 경쟁력 제고를 위해 기술 개발에 대한 지원 및 투자 확대, 전문인력 양성 등이 필요",
+      "meta_data": {
+        "chunk_id": "e925deee-67d8-4d50-b9d2-e29241275a17",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 31,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-4 -",
+      "meta_data": {
+        "chunk_id": "2321f601-6d5a-4e51-9f0f-6219c7a4fa35",
+        "page_number": [
+          4
+        ],
+        "item_label": "text",
+        "index": 32,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅰ. 푸드테크 개요",
+      "meta_data": {
+        "chunk_id": "56d0390b-6de7-421e-9209-18dba80b8471",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 33,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 푸드테크 정의 및 개념",
+      "meta_data": {
+        "chunk_id": "a3ce8a43-b504-4ac3-8c75-9dc9b5a9c20f",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 34,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ '푸드테크'란 음식을 의미하는 '푸드(Food)'와 '기술 (Technology)'의 합성어로, 식품산업에 혁신기술이 접목된 신( 新 )산업을 의미",
+      "meta_data": {
+        "chunk_id": "b17c58fb-b054-4430-916e-d092b620224d",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 35,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 푸드테크는 식품의 생산부터 조리·가공·유통·판매에 이르는 식품산업 가치사슬 전 단계에 걸쳐 적용",
+      "meta_data": {
+        "chunk_id": "1a75b48c-3a71-4927-9f66-9162e1b3318e",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 36,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-스마트팜을 통한 농작물 생산, 조리 자동화 시스템, 서빙 로봇, 식당 내 키오스크 주문 및 모바일 애플리케이션을 통한 음식 배달 주문, 대체 단백질을 사용한 신식품(대체식품) 등이 모두 푸드테크의 대표적인 사례",
+      "meta_data": {
+        "chunk_id": "cae1b6fa-c8a4-4b38-82ee-93f77499e4d1",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 37,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 푸드테크에 적용되는 기술은 인공지능(AI), 사물인터넷(IoT), 3D 프린팅, 로봇, 바이오 기술 등이 있음",
+      "meta_data": {
+        "chunk_id": "dfc673e6-eda7-43ac-ba32-c7a3f8f80efc",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 38,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(인공지능) 인간의 학습능력, 추론능력, 지각능력을 인공적으로 구현하는 기술로, 빅데이터를 통해 추출된 알고리즘을 바탕으로 시스템이 지능적인 결론을 도출하는 기술을 의미",
+      "meta_data": {
+        "chunk_id": "071df060-0416-47be-9ba8-48dd58f62d41",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 39,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(사물인터넷) 각종 사물에 센서와 통신 기능을 내장하여 인터넷에 연결 하여 사물 간 시스템과 데이터를 전송 및 수신할 수 있도록 하는 기술",
+      "meta_data": {
+        "chunk_id": "74dc254a-cafb-4880-b44d-8778f2e4ae3c",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 40,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(3D 프린팅) 3차원 인쇄방식이라고도 하며, 연속적인 계층의 물질을 뿌리는 형태로 3차원의 물체를 만들어내는 제조 기술",
+      "meta_data": {
+        "chunk_id": "34c4d2bc-545b-40b2-96da-18abc3f86dec",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 41,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(로봇) 인간과 유사한 형태를 가지고 어떤 작업이나 조작을 자동으로 하는 기계장치를 의미하며, 자동화 기술을 인간과 닮은 형태로 구현해 수행하도록 하는 기술",
+      "meta_data": {
+        "chunk_id": "294900eb-8c6d-4885-98c6-22f2b98b41a2",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 42,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(바이오 기술) 생체 혹은 생물학적 시스템을 활용해 각종 다양한 물질을 만드는 기술을 총칭하는 용어로 생명공학기술 또는 바이오테크놀로지 (Biotechnology)로 일컬어지기도 함",
+      "meta_data": {
+        "chunk_id": "e7a5e07e-c26d-46d0-b9f0-2596b6156397",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 43,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-5 -",
+      "meta_data": {
+        "chunk_id": "2ebbab7a-0be0-44b2-b16c-c0d64dbe8744",
+        "page_number": [
+          5
+        ],
+        "item_label": "text",
+        "index": 44,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ △4차산업 기술 상용화 △가치소비 확산 △노동시장의 변화 △식량안보 등으로 식품산업 내 푸드테크의 역할과 중요성이 지속적으로 증가하는 추세",
+      "meta_data": {
+        "chunk_id": "b1daca1d-ad27-41c6-a024-270cb9179b4f",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 45,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (기술 상용화) 인공지능(AI) , 사물인터넷(IoT) , 로봇, 3D 프린팅 등 다양한 첨단 기술 상용화로 푸드테크가 식품산업 전반에 적용되며 효율화",
+      "meta_data": {
+        "chunk_id": "71771b8b-bb17-4776-8848-91873782e008",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 46,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (가치소비) 지속가능성을 추구하는 소비패턴이 확립되며 식품의 생산과 소비가 환경에 미치는 영향을 줄이기 위한 푸드테크 도입이 활성화",
+      "meta_data": {
+        "chunk_id": "c523e833-0a8f-4ba8-9831-9242c6fb3029",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 47,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (노동시장의 변화) 최저임금의 지속적인 상승과 노동력 부족 문제를 해결하기 위해 제조설비의 자동화·서빙 로봇 활용·무인화 시스템 도입 등 푸드테크 활용 증가",
+      "meta_data": {
+        "chunk_id": "2a2671f6-f9db-4bc0-bbff-6769bd900930",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 48,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (식량안보) 기후변화 및 인구증가로 인한 식량안보 문제를 해결하기 위한 방법으로 푸드테크가 부상",
+      "meta_data": {
+        "chunk_id": "b6dc9641-e0cd-456d-a980-828ed92892ae",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 49,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이 외에도 코로나19 팬데믹으로 비대면 서비스의 수요가 급증하며 배달 애플리케이션, O2O 1) 서비스 등 비대면 거래 및 소비 부문에서의 푸드테크의 적용 확대",
+      "meta_data": {
+        "chunk_id": "2725be78-0742-4436-96d8-3172b29dc793",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 50,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1) Online to Offline의 약자로 온라인으로 제품 구매 후 오프라인에서 상품을 받는 방식의 거래형태를 의미",
+      "meta_data": {
+        "chunk_id": "d48b24ba-5f6a-41e3-b148-37c0c4924b5e",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 51,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "a3ce8a43-b504-4ac3-8c75-9dc9b5a9c20f"
+      }
+    },
+    {
+      "page_content": "-6 -",
+      "meta_data": {
+        "chunk_id": "fb97ef50-cea0-45b3-9ccb-734800a808eb",
+        "page_number": [
+          6
+        ],
+        "item_label": "text",
+        "index": 52,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. 푸드테크 산업 현황",
+      "meta_data": {
+        "chunk_id": "9b0ef96a-0731-45d1-b5e0-0aa96a75b7d0",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 53,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 다수의 글로벌 조사기관에서는 전 세계 푸드테크 산업 규모를 2,000억 달러(한화 약 277조 원)를 상회하는 수준으로 집계2)",
+      "meta_data": {
+        "chunk_id": "5608b911-9e83-4cce-9249-9fa7838ac8b0",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 54,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 향후 글로벌 푸드테크 시장은 연평균 6~8%의 성장률로 2030년에 최대 4,000억 달러(한화 약 554조 원)를 넘는 수준으로 성장할 전망",
+      "meta_data": {
+        "chunk_id": "63284ded-2723-44d9-9027-304dc572d9cb",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 55,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅰ-1> 세계 주요 조사기관별 글로벌 푸드테크 산업 규모 및 전망치",
+      "meta_data": {
+        "chunk_id": "ecf8cdfa-447e-48fe-8702-85c1c1bab972",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 56,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 억 달러, % )",
+      "meta_data": {
+        "chunk_id": "10ae4bc8-020a-4655-8aa7-b5dced26d685",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 57,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>조사기관</td><th colspan=\"2\">현황</th><th colspan=\"2\">전망</th><th colspan=\"2\">연평균성장률</th></tr><tr><td></td><th>기준연도</th><th>산업규모</th><th>기준연도</th><th>전망치</th><th>기준연도</th><th>성장률</th></tr><tr><td>St a ti s t a</td><td>2022</td><td>2, 6 00 .7</td><td>202 8</td><td>3, 6 01 .9</td><td>2022/202 8</td><td>5.6</td></tr><tr><td>Em e r gen R e s e ar ch</td><td>2021</td><td>2, 56 0 . 0</td><td>2030</td><td>4 ,3 47 ,0</td><td>2021/2030</td><td>6. 0</td></tr><tr><td>G r o w th Mark et s R e p o r t s</td><td>2021</td><td>2,33 6. 0</td><td>2030</td><td>3, 857. 0</td><td>2021/2030</td><td>5.8</td></tr><tr><td>닛 케이BP종합연구소</td><td>201 7</td><td>2,100 . 0</td><td>202 5</td><td>3, 6 00 . 0</td><td>201 7 /202 5</td><td>7. 0</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "84b7b6ca-d772-4d46-9bd3-9a3aed439b6a",
+        "page_number": [
+          7
+        ],
+        "item_label": "table",
+        "index": 58,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "ecf8cdfa-447e-48fe-8702-85c1c1bab972",
+        "prev_content": "10ae4bc8-020a-4655-8aa7-b5dced26d685",
+        "next_content": "94eed0ff-c836-42e7-9161-57a5f4fd788d"
+      }
+    },
+    {
+      "page_content": "*출 처 : 각 조사기관 별 사이트를 참 고하여 작성( 검색 일: 202 4. 0 7. 2 5. )",
+      "meta_data": {
+        "chunk_id": "94eed0ff-c836-42e7-9161-57a5f4fd788d",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 59,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 푸드테크의 도입이 활성화됨에 따라 식품의 생산부터 최종 소비까지 전 과정에 푸드테크가 활용되고 있음",
+      "meta_data": {
+        "chunk_id": "2c21bf79-076a-4a83-bb1a-7979d0d2f167",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 60,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (생산·개발) 식자재 생산 과정에서는 스마트팜, 식물농장, 농수산업 로봇 등을 포함하는 △스마트농업(Ag-Tech)과 식물성 육류 및 식용곤충 등을 포함하는 △대체식품 산업 △건강 기능식품의 원료개발 등 부문에 푸드테크 활용",
+      "meta_data": {
+        "chunk_id": "ae57a194-86cb-49eb-9cb8-1d1c6cf71eb1",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 61,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (유통·관리) 식자재 유통 및 관리 과정에서는 △전자상거래 (E-commerce) 배송 △식자재 물류·유통 로봇 ·스마트 식품 안전 및 품질관리 △스마트 콜드체인 △식품 재고관리시스템 등에 푸드테크가 접목",
+      "meta_data": {
+        "chunk_id": "f09e4b7c-714e-4981-b5c3-37a7614f0770",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 62,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "2) 각 조사기관 별 조사 시 점 및 산출 방법에 따라 산업 규 모에 차이가 존 재",
+      "meta_data": {
+        "chunk_id": "8f5c4ef9-26c0-4293-8709-ec89b9ebd881",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 63,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "ecf8cdfa-447e-48fe-8702-85c1c1bab972"
+      }
+    },
+    {
+      "page_content": "-7 -",
+      "meta_data": {
+        "chunk_id": "c97a43ec-dba9-44e1-917a-ee0fef436189",
+        "page_number": [
+          7
+        ],
+        "item_label": "text",
+        "index": 64,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (조리·가공) △3D 푸드 프린팅 △스마트키친 △공유주방 △음식료 조리·식재료 가공 로봇 등으로 푸드테크 시장 형성",
+      "meta_data": {
+        "chunk_id": "df6e875f-aabf-443e-b262-a17ee455f4a3",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 65,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (마케팅·판매·배달) △식품 배달 애플리케이션 △서빙· 배달 로봇 △무인 키오스크 △식당 예약/대기 애플리케이션 등이 푸드테크로 가능해짐",
+      "meta_data": {
+        "chunk_id": "f3d2ccf5-08a8-41d3-ac4f-b41b2ac069ed",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 66,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (소비·후처리) △식품 영양 데이터 분석을 통한 맞춤형 식단 제공 △음식물 쓰레기 저감장치 등이 대표적인 푸드테크 접목 사례로 꼽힘",
+      "meta_data": {
+        "chunk_id": "0aa583f3-d0b9-426b-a282-2d98524fc2f2",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 67,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/9bddd6fb-0d72-42ba-b19e-e7a1d18ba2ee.png",
+      "meta_data": {
+        "chunk_id": "9bddd6fb-0d72-42ba-b19e-e7a1d18ba2ee",
+        "page_number": [
+          8
+        ],
+        "item_label": "picture",
+        "index": 68,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "ecf8cdfa-447e-48fe-8702-85c1c1bab972",
+        "prev_content": "0aa583f3-d0b9-426b-a282-2d98524fc2f2",
+        "next_content": "4349d941-5cc4-4429-a310-47381457ee51"
+      }
+    },
+    {
+      "page_content": "*출 처 : 푸드테크의 시대가 온다( 삼 일P wC 경 영 연구원) 자료 재가공( 검색 일: 202 4. 0 7. 12 . )",
+      "meta_data": {
+        "chunk_id": "4349d941-5cc4-4429-a310-47381457ee51",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 69,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-8 -",
+      "meta_data": {
+        "chunk_id": "a1d03f15-ba29-4462-a0d0-b8a053d91d1d",
+        "page_number": [
+          8
+        ],
+        "item_label": "text",
+        "index": 70,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅱ. 푸드테크 기술동향",
+      "meta_data": {
+        "chunk_id": "57cae850-586e-4150-9811-d06257ba4885",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 71,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 자율주행기술",
+      "meta_data": {
+        "chunk_id": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 72,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ '자율주행기술(Self-Driving Car, Autonomous Vehicle)'은 운전자가 직접 조작하지 않아도 위험 및 주행 환경을 자체적으로 인식하고 최적의 주행 경로를 계획해 스스로 운전하는 기술을 의미",
+      "meta_data": {
+        "chunk_id": "6db50f1b-1edf-49eb-ad6d-44c1cfaa266a",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 73,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 자율주행기술은 감지 시스템, 중앙제어장치, 액추에이터3) 등을 통해 구현 가능하며, 로봇 및 컴퓨터공학, GPS, 정밀 센서, 전자제어 등 첨단 기술을 필요로 함",
+      "meta_data": {
+        "chunk_id": "3a919663-6979-4bdf-a886-50872fb0da62",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 74,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 자율주행을 위한 필수 기술에는 '운전자보조시스템(Advanced Driver Assistant System, ADAS)'이 있음",
+      "meta_data": {
+        "chunk_id": "5c717858-849a-4a2c-8d39-5ab012d71b82",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 75,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-운 전자보조시스템은 △ 인지(사 람 의 눈 에 해당) △ 판단(사 람 의 뇌 에 해당) △ 제어(사 람 의 혈 관 ·근육· 신경계에 해당) 부문으로 구성",
+      "meta_data": {
+        "chunk_id": "64769d28-12f1-4f60-8bf1-729dfc06d0ba",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 76,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-일반 차 량 (자동차 등)의 자율주행기술에도 적용되는 기술로, △ 전방 충돌 방지 보조( F o rward C olli s ion-A v oi da nce A ss i s t, FC A) 4 ) △ 차로 이 탈 방지 보조( La ne K ee p ing A ss i s t, LK A) 5 ) △ 지능형 속도 제한 보조(Intelligent S p ee d L i m it A ss i s t, IS L A) 6 ) 등의 역 할을 수행",
+      "meta_data": {
+        "chunk_id": "50c87e72-fb03-45b0-87f9-fa9f97f79b13",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 77,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 자율주행기술 수준에 따라 총 5단계로 구분되며, 현재 식음료 배달 등에 사용되는 자율주행기술은 2~3단계 수준",
+      "meta_data": {
+        "chunk_id": "d4bcfd54-cd83-4ad5-998d-6499f23be8f4",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 78,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-기 존 배달 로봇은 주 변 상 황 을 인식하며 단거리를 주행하는 수 준 이 므 로 자율주행 성능 레벨 을 따로 측정하지 않 으나, 대부분 배송용 자율주행 기술은 방향 전 환 및 감 · 가속이 가능하고(2단계), 돌 발 상 황 과 주 변 사물을 인식하고 대응(3단계)하는 수 준",
+      "meta_data": {
+        "chunk_id": "79c3e57b-e1d5-41d5-a3fc-3958c8f82b6a",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 79,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-2022년 11월, 미국의 식음료 배송 로봇 기업인 카 트 켄 은 운 전자의 개 입 이 필요 없 는 4 단계 수 준 의 자율주행 로봇을 개발 했 다고 발표",
+      "meta_data": {
+        "chunk_id": "d7729879-e9d7-4f52-b089-15d5cbaf4fc8",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 80,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "3) 액추에이터( a ct ua to r ): 에 너 지(전기, 공기, 유 압 )를 기계적 동력으로 변환 하여 이동성을 달성하는 데 도움이 되는 기계의 일부",
+      "meta_data": {
+        "chunk_id": "8e4acdbd-8268-4312-b0fb-5b07a9bda097",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 81,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3"
+      }
+    },
+    {
+      "page_content": "4 ) 카메 라, 전측방 레 이더로 앞 의 사물을 감지하고 충돌 이 예상되 면 제동하는 기능",
+      "meta_data": {
+        "chunk_id": "78dfc747-edfb-435c-9bd2-fc6176d61b23",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 82,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3"
+      }
+    },
+    {
+      "page_content": "5 ) 주행 중 차 량 이 차로를 벗 어나지 않 도록 도와주는 기능",
+      "meta_data": {
+        "chunk_id": "c41eb947-9583-4f91-af9c-cf18d85d3bfd",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 83,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3"
+      }
+    },
+    {
+      "page_content": "6 ) 주행 시 도로의 제한속도를 초 과하지 않 도록 도와주는 기능",
+      "meta_data": {
+        "chunk_id": "8be4432f-882f-437d-a33e-72ebf38f16a5",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 84,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3"
+      }
+    },
+    {
+      "page_content": "-9 -",
+      "meta_data": {
+        "chunk_id": "95d1d57e-c885-4047-a7b5-ac8ba870612e",
+        "page_number": [
+          9
+        ],
+        "item_label": "text",
+        "index": 85,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 해당 배송 로봇은 6 대의 카메 라와 각종 센서를 비 롯 해 지도와 검색 을 지원하는 시스템, 이동 거리를 측정하는 주행 기록계 등의 장비를 갖춤",
+      "meta_data": {
+        "chunk_id": "d9849369-c6a3-4f6c-95a1-17960a5cf8ee",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 86,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 또한 AI 알고리즘이 센서와 카메 라를 통해 수 집 한 데이터를 실 시간으로 처 리하도록 해 운 전자 없 이 안전요원의 감시만으로도 자율주행이 가능한 수 준 의 로봇을 개발",
+      "meta_data": {
+        "chunk_id": "1689dc38-f401-4bb4-9662-79a94e0a470e",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 87,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 국내에서는 2023년 11월 지능형로봇법 개정안이 시행됨에 따라 자율주행 로봇으로 배달이 가능해짐",
+      "meta_data": {
+        "chunk_id": "dfdd8932-eda0-48f9-a771-94becac30e84",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 88,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 자율주행 로봇은 「지능형 로봇 개발 및 보급 촉진법」에 따라 '실외이동로봇'으로 분류",
+      "meta_data": {
+        "chunk_id": "57e3d712-47d7-4c6e-a3fc-3ad1bfdca2a6",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 89,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-실외 이동로봇은 배송 등을 위하여 자율주행(원 격 제어 포 함)으로 운 행할 수 있는 지능형 로봇을 의미하며, 로봇의 하드웨어와 관제장치 조합의 일체로 구성된 형태를 의미",
+      "meta_data": {
+        "chunk_id": "67b266e1-d59f-4e7b-aa37-090eccb710a2",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 90,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-실외 이동로봇은 최 대 속도 1 5㎞ /h 이하, 최 대 질 량 5 00 ㎏ 이하여 야 함",
+      "meta_data": {
+        "chunk_id": "66182791-7233-4851-a26d-d928775fc2b6",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 91,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 실외이동로봇은 '운행안전인증'을 획득하여 보행자와 동일한 자격을 득한 후 통행이 가능함7)",
+      "meta_data": {
+        "chunk_id": "8935433b-7f25-4f3b-b206-ccb96dde5daa",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 92,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-자율주행 로봇이 보행자 지위를 얻 기 위해서는 산업통상자원부의 운 행 안전인증에 따라 질 량 및 폭 제한, 운 행 속도, 겉 모양 등 총 1 6 가지의 기 준 을 통과해 야 함",
+      "meta_data": {
+        "chunk_id": "aaacd618-c47e-457f-a27b-8d163b5fdda6",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 93,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-1&gt; 자율주행 기술 5단계</caption><tbody><tr><th>단계</th><th>구분</th><th>내용</th></tr><tr><td>Level 1</td><td>운 전자 지원</td><td>- 방향 전 환 또는 감 · 가속 기능 지원</td></tr><tr><td>Level 2</td><td>부분 자율주행</td><td>- 방향 전 환 과 감 · 가속 기능을 모두 지원</td></tr><tr><td>Level 3</td><td>조 건 부 자율주행</td><td>- 다양한 돌 발 상 황 및 주 변 사물들을 모두 인식하고 대응 가능 - 돌 발 상 황 시에는 운 전자가 개 입 필요(수동전 환 )</td></tr><tr><td>Level 4</td><td>고도 자율주행</td><td>- 모 든 자율주행 기능을 지원해 어 떠 한 상 황 에서도 운 전자의 개 입 이 필요 없 으나, 악천 후와 같은 특 정 조 건 에서는 운 전자 개 입 가능(수동전 환 )</td></tr><tr><td>Level 5</td><td>완 전 자동화</td><td>- 모 든 상 황 에서 자율주행( 무 인 주행)</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "62eadbdd-708d-4640-a914-ec1c15e17c40",
+        "page_number": [
+          10
+        ],
+        "item_label": "table",
+        "index": 94,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "aaacd618-c47e-457f-a27b-8d163b5fdda6",
+        "next_content": "804deac2-80d4-4734-80d9-4a8dd06fa805"
+      }
+    },
+    {
+      "page_content": "*출 처 : 미국자동차기술학 회 (SA E )( 검색 일: 202 4. 0 7. 0 8. )",
+      "meta_data": {
+        "chunk_id": "804deac2-80d4-4734-80d9-4a8dd06fa805",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 95,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "7 ) 법안 시행 이전에 로봇이 실외 에서 자율주행을 하기 위해서는 규 제 샌 드 박 스( 새 로 운 제품이나 서비스가 출시 될 때 일정 기간 규 제를 면 제 · 유예해주는 제도) 지 역 내에서만 이동이 가능하 였 음",
+      "meta_data": {
+        "chunk_id": "cb857d26-1e97-4689-a0d2-8c8ab7dba4a0",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 96,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3"
+      }
+    },
+    {
+      "page_content": "-10 -",
+      "meta_data": {
+        "chunk_id": "2fd5f2ee-71e4-406e-a171-f22f060aa834",
+        "page_number": [
+          10
+        ],
+        "item_label": "text",
+        "index": 97,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-2&gt; 실외이동로봇(배달로봇) 운행안전인증 기준</caption><tbody><tr><th>연번</th><th>기준</th><th>연번</th><th>기준</th><th>연번</th><th>기준</th><th>연번</th><th>기준</th></tr><tr><td>1</td><td>질 량 및 폭 제한</td><td>5</td><td>비상정지</td><td>9</td><td>알 림 음</td><td>13</td><td>횡 단보도 통행</td></tr><tr><td>2</td><td>운 행 속도</td><td>6</td><td>운 행구 역 준 수</td><td>10</td><td>등화장치</td><td>14</td><td>관제장치</td></tr><tr><td>3</td><td>겉 모양</td><td>7</td><td>속도 제어</td><td>11</td><td>방수 성능</td><td>15</td><td>통신장애 대응</td></tr><tr><td>4</td><td>동적 안정성</td><td>8</td><td>장애물 감지</td><td>12</td><td>물리적 보안</td><td>16</td><td>원 격 조작</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "6d13a5f8-6c8d-4ffa-b802-4155de5d84ea",
+        "page_number": [
+          11
+        ],
+        "item_label": "table",
+        "index": 98,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "2fd5f2ee-71e4-406e-a171-f22f060aa834",
+        "next_content": "eb4a45b6-515e-4ff4-b6b6-7728b0f7ddbb"
+      }
+    },
+    {
+      "page_content": "*출 처 : 한국로봇산업진 흥 원( 검색 일: 202 4. 0 7. 2 5. )",
+      "meta_data": {
+        "chunk_id": "eb4a45b6-515e-4ff4-b6b6-7728b0f7ddbb",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 99,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2024년 10월 기준 총10개의 실외인증로봇이 운행안전인증 획득8)",
+      "meta_data": {
+        "chunk_id": "5cd04f81-b669-41c9-b483-121a3d0ac79e",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 100,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-3&gt; 국내 운행안전인증을 취득한 실외이동로봇 규격</caption><tbody><tr><td></td><td></td><td></td><th colspan=\"5\">인증제품 주요 사양</th><td></td></tr><tr><th>연번</th><th>인증일 (최초/변경)</th><th>회사명</th><th>폭 (㎜)</th><th>최대 질량 (㎏)</th><th>최대 적재량 (㎏)</th><th>최대 속도 ( ㎞/h)</th><th>최대 등판각 (도)</th><th>운행특이사항</th></tr><tr><td>1</td><td>202 4. 0 5. 13 ( 변 경 인증)</td><td>㈜ 로보 티즈</td><td>55 1</td><td>97</td><td>30</td><td>7. 2</td><td>10 . 2</td><td>경사로 상향 시 최 대 속도 6㎞ /h 주행 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>2</td><td>202 4. 0 9. 30 ( 변 경 인증)</td><td>주식 회 사 뉴빌 리 티</td><td>6 1 7</td><td>8 1 .5</td><td>20</td><td>5.76</td><td>1 5</td><td>신 호 등이 있는 횡 단보도 통행 시 관제 원 격 조작 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>3</td><td>202 4. 0 4. 0 9 ( 최초 인증)</td><td>에이알2 47㈜</td><td>6 10</td><td>7 1</td><td>20</td><td>7</td><td>9</td><td>경사로 등판 시 최 대 속도 5㎞ /h 주행</td></tr><tr><td>4</td><td>202 4. 0 5. 13 ( 최초 인증)</td><td>주식 회 사 도구공간</td><td>775</td><td>1 4 2</td><td>20</td><td>7. 2</td><td>10</td><td>경사로 상향 시 최 대 속도 6㎞ /h 주행 신 호 등이 있는 횡 단보도 통행 시 관제 원 격 조작 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>5</td><td>202 4. 0 6. 1 7 ( 최초 인증)</td><td>에이 브 이라이드 코 리 아 유한 회 사</td><td>7 00</td><td>102 . 2 5</td><td>20</td><td>7. 2</td><td>10</td><td>신 호 등이 있는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>6</td><td>202 4. 0 9. 30 ( 변 경 인증)</td><td>주식 회 사 뉴빌 리 티</td><td>64 0</td><td>7 0</td><td>6</td><td>5.76</td><td>1 5</td><td>신 호 등이 있는 횡 단보도 통행 시 관제 원 격 조작 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>7</td><td>202 4. 0 7. 2 6 ( 최초 인증)</td><td>주식 회 사 우아 한형제들</td><td>5 00</td><td>12 8</td><td>20</td><td>3 .6</td><td>11</td><td>신 호 등이 있는 횡 단보도 통행 시 관제 원 격 조작 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행 투 명 장애물 감지 불 가</td></tr><tr><td>8</td><td>202 4. 0 7. 2 6 ( 최초 인증)</td><td>㈜ 로보 티즈</td><td>55 2</td><td>94.5</td><td>30</td><td>7. 2</td><td>13 .5</td><td>경사로 상향 시 최 대 속도 6㎞ /h 주행 신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행 적재물 형태 및 적재 방법에 대한 일부 제한 있음</td></tr><tr><td>9</td><td>202 4. 0 9. 30 ( 최초 인증</td><td>주식 회 사 뉴빌 리 티</td><td>6 1 6</td><td>8 2</td><td>20</td><td>5.76</td><td>1 5</td><td>신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr><tr><td>10</td><td>202 4. 0 9. 30 ( 최초 인증)</td><td>주식 회 사 뉴빌 리 티</td><td>6 1 6</td><td>7 0</td><td>6</td><td>5.76</td><td>1 5</td><td>신 호 등이 없 는 횡 단보도 통행 시 관제 원 격 승 인 후 자율주행</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c43ebbe5-6494-4202-8d5d-bb964d33d709",
+        "page_number": [
+          11
+        ],
+        "item_label": "table",
+        "index": 101,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "5cd04f81-b669-41c9-b483-121a3d0ac79e",
+        "next_content": "ca3eb45b-ac5f-483a-a663-fc7047fa02a2"
+      }
+    },
+    {
+      "page_content": "*출 처 : 한국로봇산업진 흥 원( 검색 일: 202 4. 10 . 1 6. )",
+      "meta_data": {
+        "chunk_id": "ca3eb45b-ac5f-483a-a663-fc7047fa02a2",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 102,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "8 ) 한국로봇산업진 흥 원",
+      "meta_data": {
+        "chunk_id": "3efab87d-382c-4e92-b1af-19fe9a9b08c7",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 103,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-11 -",
+      "meta_data": {
+        "chunk_id": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "page_number": [
+          11
+        ],
+        "item_label": "text",
+        "index": 104,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3052d761-d43e-4f48-892f-3f90ebc2c313.png",
+      "meta_data": {
+        "chunk_id": "3052d761-d43e-4f48-892f-3f90ebc2c313",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 105,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/89cc4a6b-a404-4371-a96c-2401ab18d537.png",
+      "meta_data": {
+        "chunk_id": "89cc4a6b-a404-4371-a96c-2401ab18d537",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 106,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3b76afe5-b6dc-4aea-8f77-ffde46ba9759.png",
+      "meta_data": {
+        "chunk_id": "3b76afe5-b6dc-4aea-8f77-ffde46ba9759",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 107,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/22d8ce4d-1ac5-4bd0-9394-cdcf45d5e95b.png",
+      "meta_data": {
+        "chunk_id": "22d8ce4d-1ac5-4bd0-9394-cdcf45d5e95b",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 108,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/b734ceb9-4a13-4c2d-8eeb-f14ef0aa4919.png",
+      "meta_data": {
+        "chunk_id": "b734ceb9-4a13-4c2d-8eeb-f14ef0aa4919",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 109,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/8c24207e-ad30-4deb-ad8d-a10dcb087db5.png",
+      "meta_data": {
+        "chunk_id": "8c24207e-ad30-4deb-ad8d-a10dcb087db5",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 110,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3f51dd81-b455-46a7-a19a-d885792767e1.png",
+      "meta_data": {
+        "chunk_id": "3f51dd81-b455-46a7-a19a-d885792767e1",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 111,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/4330c669-ab84-4eb5-bf3d-9facae7d4162.png",
+      "meta_data": {
+        "chunk_id": "4330c669-ab84-4eb5-bf3d-9facae7d4162",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 112,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/ccb94046-eecc-4c51-9392-de8e47f05577.png",
+      "meta_data": {
+        "chunk_id": "ccb94046-eecc-4c51-9392-de8e47f05577",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 113,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/96a5ecc3-f5c9-433a-a0d6-ef67ea57b8d1.png",
+      "meta_data": {
+        "chunk_id": "96a5ecc3-f5c9-433a-a0d6-ef67ea57b8d1",
+        "page_number": [
+          12
+        ],
+        "item_label": "picture",
+        "index": 114,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>회사명</td><td>우아 한형제들</td><td>㈜ 로보 티즈</td><td>주식 회 사 뉴빌 리 티</td><td>주식 회 사 뉴빌 리 티</td></tr><tr><td>로봇</td><td>실 내 ·외 자율주행</td><td>자율주행 실외</td><td>뉴 비</td><td>뉴 비 패 트 롤</td></tr><tr><td>(제품/모델명)</td><td>배달 로봇 d illy X 2</td><td>이동로봇개미(GA EM</td><td>( NEU BI E )</td><td>( NEU BI E PAT R O L )</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "20e6270d-e6c0-4822-9e85-e30a7237f7a8",
+        "page_number": [
+          12
+        ],
+        "item_label": "table",
+        "index": 115,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-4&gt; 국내 운행안전인증을 취득한 실외이동로봇 제품 이미지</caption><tbody><tr><td>이미지</td><td></td><td></td><td></td></tr><tr><td>회사명</td><td>㈜ 로보 티즈</td><td>주식 회 사 뉴빌 리 티</td><td>에이알2 47㈜</td></tr><tr><td>로봇 (제품/모델명)</td><td>자율주행 실외 이동로봇 개미(GA EM I)</td><td>뉴 비( NEU BI E )</td><td>실외 배송로봇 배로미</td></tr><tr><td>이미지</td><td></td><td></td><td></td></tr><tr><td>회사명</td><td>주식 회 사도구공간</td><td>에이 브 이라이드 코 리 아 유한 회 사</td><td>주식 회 사 뉴빌 리 티</td></tr><tr><td>로봇 (제품/모델명)</td><td>패 트로 버 (P a t r o v e r )</td><td>R 3 .5</td><td>뉴 비 패 트 롤 ( NEU BI E PAT R O L )</td></tr><tr><td>이미지</td><td></td><td></td><td></td></tr><tr><td>회사명</td><td>주식 회 사 우아 한형제들</td><td>㈜ 로보 티즈</td><td>티 주식 회 사 뉴빌 리 티</td></tr><tr><td>로봇</td><td>실 내 ·외 자율주행</td><td>자율주행 실외</td><td></td></tr><tr><td>(제품/모델명)</td><td>배달 로봇 d illy X 2</td><td>이동로봇개미(GA EM I)</td><td>뉴 비 패 트 롤 ( NEU BI</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "8ad7eb14-88b0-40c2-b9c5-a29715708891",
+        "page_number": [
+          12
+        ],
+        "item_label": "table",
+        "index": 116,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "480df6b3-1b5e-441b-aeb7-b0956ccac0a3",
+        "prev_content": "e132c42b-99ed-4e6e-acc4-1beeafad7da2",
+        "next_content": "47c460be-247e-41c1-99a6-a20ab57e0f51"
+      }
+    },
+    {
+      "page_content": "*출 처 : 한국로봇산업진 흥 원( 검색 일: 202 4. 10 . 1 6. )",
+      "meta_data": {
+        "chunk_id": "47c460be-247e-41c1-99a6-a20ab57e0f51",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 117,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-12 -",
+      "meta_data": {
+        "chunk_id": "972c29c8-010f-46e0-b279-19b141f126a8",
+        "page_number": [
+          12
+        ],
+        "item_label": "text",
+        "index": 118,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. 인공지능(AI)",
+      "meta_data": {
+        "chunk_id": "d0aebb10-d254-4775-9dbd-8450b65163a5",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 119,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 인공지능(Artificial Intelligence, AI)이란 인간의 지능을 모방하여 문제를 해결하거나 결정을 내리는 컴퓨터 시스템을 의미",
+      "meta_data": {
+        "chunk_id": "abf0758e-b905-4eb1-8ce0-35b8ca6fbbd3",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 120,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ '인공지능(AI)'이라는 용어는 1956년 미국에서 개최된 다트머스 회의(Dartmouth Conference)9)에서 처음 사용",
+      "meta_data": {
+        "chunk_id": "346f9c92-8003-43ec-b626-c859d5066a34",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 121,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-당시 인공지능 연구의 핵심 은 추론과 탐색 으로, 인간 처럼 사고하고 문제를 해결하는 능력을 구현하 려 는 연구는 1 97 0년대 까 지 활발 히 진행",
+      "meta_data": {
+        "chunk_id": "31acb99a-f11d-46df-b5ff-8a10ec197692",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 122,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-1 99 0년대 후반 인터넷의 도 입 으로 검색엔 진 등을 통해 방대한 데이터를 수 집 할 수 있 게 되 면 서 인공지능은 시스템이 스스로 학습하는 머신러닝 ( Ma chine L e ar ning) 형태로 진화",
+      "meta_data": {
+        "chunk_id": "0a4271b5-6c4b-4748-98e2-86ed12437d3c",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 123,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-데이터양 증가, 고 급 알고리즘, 컴퓨팅 능력 및 스 토 리지의 향상 등으로 최근 인공지능은 더 욱 대중화되며 다양한 분 야 에서 활용",
+      "meta_data": {
+        "chunk_id": "c73e5695-d4a7-4910-9cac-bcabc3aab708",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 124,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-5&gt; 인공지능(AI)의 발전과정</caption><tbody><tr><th>1950~1970년대</th><th>1980~2010년대</th><th>2011년~2020년대</th><th>현재</th></tr><tr><td>인공 신경망 (Artificial Neural Network, ANN)</td><td>머신러닝 (Machine Learning, ML)</td><td>딥러닝 (Deep Learning)</td><td>생성형 AI (Generative AI)</td></tr><tr><td>인간의 두 뇌 에서 영 감을 얻 은 방식으로 데이터를 처 리하도록 컴퓨터를 가 르 치는 인공지능</td><td>많 은 양의 데이터를 컴퓨터가 스스로 학습하고 경험을 통해 개선하도록 하는 알고리즘</td><td>신경 망 알고리즘을 활용하여 데이터를 처 리하고 학습하는 기술로 머신러닝의 하위개 념</td><td>독창 적인 콘텐츠 를 생성할수있는컴퓨터 모 델 을중 심 으로 하는 인공지능으로, 대 규 모 언 어모 델 , 신경만및 머신러닝을 활용</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "9c277938-5766-4000-99a8-e55268ecab8e",
+        "page_number": [
+          13
+        ],
+        "item_label": "table",
+        "index": 125,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5",
+        "prev_content": "c73e5695-d4a7-4910-9cac-bcabc3aab708",
+        "next_content": "ac6b454c-8cfe-4870-82c6-f1c2bde46d62"
+      }
+    },
+    {
+      "page_content": "*출 처 : SAS K O RE A, IB M , A maz on W e b Se rv ice s , Google C lo ud , el as tic 등을 참 고하여 작성( 검색 일: 202 4. 0 7. 2 5. )",
+      "meta_data": {
+        "chunk_id": "ac6b454c-8cfe-4870-82c6-f1c2bde46d62",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 126,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "9 ) 인공지능이라는 분 야 를 확립 한 학술의 회 로, 당시 다트머스 대학(D ar t m o u th C ollege)에 소속된 존 매 카 시( J ohn M c Car thy) 박 사가 개 최. 존 매 카 시 박 사는 미국의 인지 심 리학자이자 컴퓨터과학자로, 인공지능에 대한 연구 업적을 인정받 아 1 97 1년 컴퓨터과학계의 노벨 상으로 일 컫 는 튜링 상(T ur ing A ward )을 수상",
+      "meta_data": {
+        "chunk_id": "b67ecc2f-67d1-49df-beac-ebea7951867e",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 127,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5"
+      }
+    },
+    {
+      "page_content": "-13 -",
+      "meta_data": {
+        "chunk_id": "9d1bab04-b1f8-41d1-9a20-24fd4f794d03",
+        "page_number": [
+          13
+        ],
+        "item_label": "text",
+        "index": 128,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/8cd1361c-8cb9-46df-9c80-5ce78d224d43.png",
+      "meta_data": {
+        "chunk_id": "8cd1361c-8cb9-46df-9c80-5ce78d224d43",
+        "page_number": [
+          14
+        ],
+        "item_label": "picture",
+        "index": 129,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5",
+        "prev_content": "9d1bab04-b1f8-41d1-9a20-24fd4f794d03",
+        "next_content": "27872617-8a38-4cd8-a46d-6c9e4aa26d01"
+      }
+    },
+    {
+      "page_content": "· 인공지능(Artificial Intelligence, AI)",
+      "meta_data": {
+        "chunk_id": "27872617-8a38-4cd8-a46d-6c9e4aa26d01",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 130,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-사 람 의 지적 능력을 컴퓨터를 통해 구현하는 기술",
+      "meta_data": {
+        "chunk_id": "a9236269-e1e2-4ee6-b29e-9f393feb8387",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 131,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 머신러닝(Machine Learning)",
+      "meta_data": {
+        "chunk_id": "185a09d9-b6f3-4e85-8602-768f44b8cd82",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 132,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-사 람 이 정한 모 델 과 특징 추출 방법을 이용하여 데이터를 기반으로 학습 후 추론할 수 있도록 하는 기술",
+      "meta_data": {
+        "chunk_id": "51bce709-fdeb-4330-8bef-87d52bd32a3b",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 133,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 딥러닝(Deep Learning)",
+      "meta_data": {
+        "chunk_id": "994bd5b5-66a4-4204-a411-d370ade73943",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 134,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-인공신경 망 방법을 이용해 만 든 머신러닝의 하위기술로, 빅데이터 학습에 적합한 기술",
+      "meta_data": {
+        "chunk_id": "171c5d00-8ee8-46ce-8477-2cfefd3c4aa0",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 135,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 농식품 산업에서 인공지능(AI)은 식자재 생산에서부터 판매 및 서비스에 이르는 전 과정에 걸쳐 적용",
+      "meta_data": {
+        "chunk_id": "96545ad9-5dd1-4c55-aa5d-70dd9ba1cf06",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 136,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (생산) 인공지능 기반의 예측분석 및 머신러닝을 통해 생산성 증대, 효율성 및 안전성 제고, 소비자 취향에 맞는 제품 개발 및 생산 가능",
+      "meta_data": {
+        "chunk_id": "a20b3242-6258-456a-ad0a-41cb31a1299c",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 137,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-농업 부문에 있어서 인공지능의 도 입 은 기후 패턴 분석을 통한 예측, 질 병 및 해 충 피 해의 징 조 감지, 토 양 및 양분 수 준 모 니 터 링 등으로 구현되어 효율성을 크 게 높 임",
+      "meta_data": {
+        "chunk_id": "b58a55b0-67d7-416d-bce6-754766f86e23",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 138,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-식품 제조에서는 인공지능 기반 자동 검 사시스템을 통해 식품 관리공정의 효율성과 안전성을 높일 수 있으며, 가장 높은 수 준 의 상품만 소비자에 게 제공할 수 있도록 선 별 하는 등의 형태로 구현",
+      "meta_data": {
+        "chunk_id": "49d1ac5a-0521-4f69-8ad7-f6b976e12095",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 139,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 특 정 식품 군 (예식물성 대체식품)의 맛 , 식감, 영 양성분을 최 적화하기 위해 인공지능을 적용하기도 하며, 소비자의 요구에 부합하는 제품 개발을 위해 인공지능을 도 입",
+      "meta_data": {
+        "chunk_id": "f77cafc5-c79f-42f5-98ef-c2a72cb232d4",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 140,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (유통) 유통 과정에서 발생하는 물류와 정보의 흐름을 인공 지능으로 분석해 효율을 높이고 수요를 예측하는 데 활용",
+      "meta_data": {
+        "chunk_id": "464e88f4-13ed-4dc9-8017-254d1be5ef47",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 141,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-식품 유통 부문에 인공지능을 도 입 함으로써 상품 주문 예측, 배송 효율성 극 대화, 상품 폐 기율 저 감 등의 효과 창 출 가능",
+      "meta_data": {
+        "chunk_id": "eebd8449-4c15-4c50-a653-9f9880bc19b5",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 142,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "*출 처 : C OD E STAT E S I N SIG H T( 검색 일: 202 4. 0 7. 2 5. )",
+      "meta_data": {
+        "chunk_id": "caec0252-69a6-49b6-9499-c0dcbd9675a6",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 143,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-14 -",
+      "meta_data": {
+        "chunk_id": "458ed622-89c2-46e8-b29a-472d8e691b7a",
+        "page_number": [
+          14
+        ],
+        "item_label": "text",
+        "index": 144,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (판매·마케팅) 신선한 즐거움에 재미를 느끼는 젊은 소비자의 요구에 부합하기 위해 인공지능을 활용한 마케팅 추진",
+      "meta_data": {
+        "chunk_id": "4f2fa790-1664-4085-985c-37e4b8d2c10e",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 145,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-코카콜 라는 '코카콜 라 제로 한류( K -Wav e) ' 제품 출시와 함 께 K팝 팬 들이 자신이 가장 좋아 하는 아티 스트와 함 께 뮤직 비 디 오에 출연하는 것 과 같은 경험을 즐 길 수 있도록 하는 AI 기반의 디 지 털 체험 프로그 램 마케팅을 진행하며 큰 인기를 끎",
+      "meta_data": {
+        "chunk_id": "d683b373-316a-4f82-a969-704c704adf7c",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 146,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-오 뚜 기는 어도비 코 리 아 와 협 업해 어도비 일러스트 레 이터 생성형 AI 신기능을 활용해 소비자가 자사 대표 제품으로 굿즈 10)를 직접 디 자인할 수 있는 마케팅을 추진",
+      "meta_data": {
+        "chunk_id": "ade08ee7-ecf1-4057-a8f5-324e89698fb4",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 147,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/9c97b4bf-9249-4534-bf97-a41f68e304f3.png",
+      "meta_data": {
+        "chunk_id": "9c97b4bf-9249-4534-bf97-a41f68e304f3",
+        "page_number": [
+          15
+        ],
+        "item_label": "picture",
+        "index": 148,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5",
+        "prev_content": "ade08ee7-ecf1-4057-a8f5-324e89698fb4",
+        "next_content": "2e44e5ed-69dc-4c77-b948-5ac5d5c00a9c"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/f9aadf84-5898-48b0-b1ff-abafbbf7b86d.png",
+      "meta_data": {
+        "chunk_id": "f9aadf84-5898-48b0-b1ff-abafbbf7b86d",
+        "page_number": [
+          15
+        ],
+        "item_label": "picture",
+        "index": 149,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5",
+        "prev_content": "ade08ee7-ecf1-4057-a8f5-324e89698fb4",
+        "next_content": "2e44e5ed-69dc-4c77-b948-5ac5d5c00a9c"
+      }
+    },
+    {
+      "page_content": "*출 처 : 식품 ·외 식 AI 등 신기술로 Z세 대와 소통, 식품음료신문(202 4. 0 4. 02 . )( 검색 일: 202 4. 0 7. 2 5. )",
+      "meta_data": {
+        "chunk_id": "2e44e5ed-69dc-4c77-b948-5ac5d5c00a9c",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 150,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (고객관리) 고객 경험 데이터를 인공지능을 통해 체계적으로 분석하고 시사점을 도출해 서비스를 개선하기도 하며, 인공 지능 기반 고객용 챗봇을 개발해 고객관리 응대 신속성을 더하는 등의 형태로 구현하여 소비자 만족도 제고",
+      "meta_data": {
+        "chunk_id": "f62283b8-7532-4bb3-8fd5-c2701d52a0cf",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 151,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "10) 특 정 브랜 드나 연예인 등이 출시하는 기 획 상품을 의미",
+      "meta_data": {
+        "chunk_id": "eb982eb8-e9da-4eb3-99f6-18e155c1d4ac",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 152,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d0aebb10-d254-4775-9dbd-8450b65163a5"
+      }
+    },
+    {
+      "page_content": "-15 -",
+      "meta_data": {
+        "chunk_id": "6f363f27-878f-4af1-8e12-ace7d138b691",
+        "page_number": [
+          15
+        ],
+        "item_label": "text",
+        "index": 153,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 3. 푸드테크 로봇",
+      "meta_data": {
+        "chunk_id": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 154,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 식품산업에 적용되는 로봇 기술은 다양한 로봇 플랫폼과 자율주행기술, 인공지능, 센서 기술 등이 적용",
+      "meta_data": {
+        "chunk_id": "e32f356d-27a8-42cc-bac9-2bcc796e04db",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 155,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (로봇 플랫폼) 다관절 로봇, 병렬 로봇, 스카라 로봇, 협동로봇 등이 △음식 조리·보조 △설거지·정리 등의 역할 수행",
+      "meta_data": {
+        "chunk_id": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 156,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-7&gt; 식품산업에 적용되는 산업용 로봇 플랫폼 예시</caption><tbody><tr><td>다관절 로봇</td><td>· 사 람 의 어 깨 , 팔 , 손목 의 관 절 을 본떠 서 만 든 로봇으로 3개 이상의 회 전 운 동기구를 결합해 만 든 로봇</td></tr><tr><td>병렬 로봇</td><td>· 여러 팔 이 여러 각도로 붙 어 있는 로봇으로 . 물 건 을 집 어 작업을 수행 · 정밀한 작업에 유리하고 가속 및 감속 성능이 좋아 작업 속도를 높일 수 있음 수 평 다관 절 로봇을 부 르 는 말 로, 평 행인 두 면 이 만나 축 을 이 루 고</td></tr><tr><td>스카라 로봇</td><td>그 축 을 바탕으로 회 전 운 동을 하는 로봇 · 수 직 다관 절 로봇 대비 관 절 수가 적어 저렴 하고 구조가 단 순 하며, 신속 정 확 한 작업이 가능 · 인간과 같은 공간에서 협 동으로 작업을 수행하는 로봇으로, 사 람 과</td></tr><tr><td>협동</td><td>물리적 상 호 작용이 가능 인간과 유사한 속도, 강 도, 정밀도로 작업하도록 설 계되며 함 께 일하는 인간의 존 재와 움 직임 을 감지하는 센서 기술을 탑재</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "0a937853-928b-4161-a06c-2d5eaec71652",
+        "page_number": [
+          16
+        ],
+        "item_label": "table",
+        "index": 157,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>다관절 로봇</td><td>· 사 람 의 어 깨 , 팔 , 손목 의 관 절 을 본떠 서 만 든 로봇으로 3개 이상의 회 전 운 동기구를 결합해 만 든 로봇</td></tr><tr><td>병렬 로봇</td><td>· 여러 팔 이 여러 각도로 붙 어 있는 로봇으로 . 물 건 을 집 어 작업을 수행 · 정밀한 작업에 유리하고 가속 및 감속 성능이 좋아 작업 속도를 높일 수 있음</td></tr><tr><td>스카라 로봇</td><td>· 수 평 다관 절 로봇을 부 르 는 말 로, 평 행인 두 면 이 만나 축 을 이 루 고 그 축 을 바탕으로 회 전 운 동을 하는 로봇 · 수 직 다관 절 로봇 대비 관 절 수가 적어 저렴 하고 구조가 단 순 하며, 신속 정 확 한 작업이 가능</td></tr><tr><td>협동 로봇</td><td>물리적 상 호 작용이 가능 · 인간과 유사한 속도, 강 도, 정밀도로 작업하도록 설 계되며 함 께 일하는 인간의 존 재와 움 직임 을 감지하는 센서 기술을 탑재</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c8b757a1-0b0d-4712-81a4-a84e604271e0",
+        "page_number": [
+          16
+        ],
+        "item_label": "table",
+        "index": 158,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/14cb13e1-4c7c-450e-b07a-6036dac9225e.png",
+      "meta_data": {
+        "chunk_id": "14cb13e1-4c7c-450e-b07a-6036dac9225e",
+        "page_number": [
+          16
+        ],
+        "item_label": "picture",
+        "index": 159,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/6af3aab2-3b0d-4989-a669-4a4248d66463.png",
+      "meta_data": {
+        "chunk_id": "6af3aab2-3b0d-4989-a669-4a4248d66463",
+        "page_number": [
+          16
+        ],
+        "item_label": "picture",
+        "index": 160,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/0d6ef38a-f4bc-4013-9ab2-6e8ab888243a.png",
+      "meta_data": {
+        "chunk_id": "0d6ef38a-f4bc-4013-9ab2-6e8ab888243a",
+        "page_number": [
+          16
+        ],
+        "item_label": "picture",
+        "index": 161,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/4f1f9725-cc63-444f-a6c7-d2fada9058c7.png",
+      "meta_data": {
+        "chunk_id": "4f1f9725-cc63-444f-a6c7-d2fada9058c7",
+        "page_number": [
+          16
+        ],
+        "item_label": "picture",
+        "index": 162,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79ff77c3-64ef-4830-9b83-62b6bdb19064",
+        "prev_content": "65073215-f220-47f0-8f7a-a2c60e85f0bd",
+        "next_content": "9083b585-fd35-43bb-8f6c-54c9032251d4"
+      }
+    },
+    {
+      "page_content": "*출 처 : 푸드테크의 시대가 온다( 삼 일P wC 경 영 연구원) 자료 재가공( 검색 일: 202 4. 0 7. 12 . )",
+      "meta_data": {
+        "chunk_id": "9083b585-fd35-43bb-8f6c-54c9032251d4",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 163,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (자율주행기술) 서빙 로봇이나 라스트마일 배달 로봇, 식료품 물류창고 로봇 등에 적용",
+      "meta_data": {
+        "chunk_id": "2405adf5-fee6-45d8-9d0b-9c5caaabb1bc",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 164,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (인공지능) 로봇이 센서를 추출한 정보를 토대로 최적화된 행동을 선택하고 학습해 작업을 수행하는 로봇",
+      "meta_data": {
+        "chunk_id": "b3f99d33-f4e8-4168-8abc-d902107d074d",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 165,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-인공지능은 자율주행기술의 토 대가 되기도 하며, 식당 접 객 로봇, 휴 머 노 이드로봇11) 등의 형태로 활용",
+      "meta_data": {
+        "chunk_id": "5b701fda-3a95-4488-ad63-cff21fb8b3fb",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 166,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (센서기술) 로봇은 주변 환경 및 작업 대상을 인식하고 파악해 동작을 수행하는 센서 기술을 필요로 함",
+      "meta_data": {
+        "chunk_id": "38013e47-fb0e-4f03-8ef8-b23e81bb3fcc",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 167,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "11) 인간의 형태를 한 로봇",
+      "meta_data": {
+        "chunk_id": "7776a3cf-5a75-413c-ac8f-93d07b5ed57c",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 168,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-16 -",
+      "meta_data": {
+        "chunk_id": "3af26213-e538-4780-b599-a2cec84d531c",
+        "page_number": [
+          16
+        ],
+        "item_label": "text",
+        "index": 169,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 로보틱스(Robotics) 12)는 식음료 산업 전반에 관여가 가능한 기술로, 크게 △생산 △제조 △물류(배달 포함) △서비스 부문에 적용",
+      "meta_data": {
+        "chunk_id": "7c7a465b-0ecc-4893-8637-d585fbfd1ed6",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 170,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (생산) 농축수산업의 생산 및 재배에 있어 작업환경을 인식하고 현황을 판단해 자율적인 동작을 통해 지능화된 작업 및 서비스를 제공하는 로봇이 활용",
+      "meta_data": {
+        "chunk_id": "19c6f74b-11eb-4347-9ab7-51a694d2b748",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 171,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (제조) 음식료 전처리, 선별, 가공, 포장 등 생산공정 자동화 및 협업 로봇이 이에 해당하며, 외식업계에서 요리사를 보조하여 조리하는 조리 로봇13)도 포함",
+      "meta_data": {
+        "chunk_id": "e27ca277-a614-4f48-88ea-6efdeef7f48d",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 172,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (물류) 물류창고 내에서 식료품을 자동으로 분류·운반하는 로봇이나, 소비자에게 식음료를 배송하는 로봇14) 등이 있음",
+      "meta_data": {
+        "chunk_id": "9437f7e0-afbd-4418-b6f7-883443a1e43b",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 173,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (서비스) 외식업계에서 조리된 음식을 소비자에게 운반하여 전달하는 서빙 로봇15)이나 예약·좌석 안내·주문 및 결제가 가능한 접객 로봇16) , 퇴식구로 운반된 그릇을 세척하고 정리 하는 로봇17) 등이 활용",
+      "meta_data": {
+        "chunk_id": "5552d126-2ccf-465c-9acc-3b990251e00b",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 174,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "12) 로봇공학을 의미하는 것 으로 로봇의 설 계, 조 립 , 작동, 사용 및 로봇의 제어, 센서, 피 드백, 정보 처 리를 위한 컴퓨터 시스템을 포 함",
+      "meta_data": {
+        "chunk_id": "16847e7c-31dd-4052-98dd-3f7b85986e71",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 175,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "13) 다관 절 로봇 플 랫폼 을 기반으로 음식을 조리하는 로봇",
+      "meta_data": {
+        "chunk_id": "786f27cc-2bfd-4925-933c-e2b080c01f44",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 176,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1 4 ) 자율주행, 사물인터넷(IoT) 기술 등을 활용해 식음료를 옥 내 또는 옥외 에서 최 종 소비자에 게 배송하는 로봇",
+      "meta_data": {
+        "chunk_id": "b39d8f94-0251-48ad-8ffe-9bbba093e94f",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 177,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1 5 ) 자율주행 기술과 L iDA R ( L ight Detection An d Ra nging) 센서를 활용해 외 식업계에서 조리된 음식을 소비자에 게 운 반 및 전달",
+      "meta_data": {
+        "chunk_id": "e2096f4c-aabe-450b-bbfd-2701be34a37c",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 178,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1 6 ) 사물인터넷(IoT) 등을 활용해 스마트 폰 , 태 블릿 P C 로 예약 ·좌 석 안내 · 주문 · 결제가 가능한 로봇",
+      "meta_data": {
+        "chunk_id": "917d4b09-6373-4008-8407-20fbc1a8413c",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 179,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "1 7 ) 다관 절 로봇의 팔 을 사용하거나 전용 식기 및 전용 자동화 기구를 결합해 퇴 식구로 운 반된 그 릇 을 세척 및 정리하는 로봇",
+      "meta_data": {
+        "chunk_id": "bb4f8d6a-d25b-41e2-8108-9de12a7ff349",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 180,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-17 -",
+      "meta_data": {
+        "chunk_id": "923b9ab7-35c3-4f39-ab3b-55d372e7c871",
+        "page_number": [
+          17
+        ],
+        "item_label": "text",
+        "index": 181,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅱ-8> 푸드테크 로봇 예시 -농식품산업 적용",
+      "meta_data": {
+        "chunk_id": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 182,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/883be3dc-477b-4ddc-8865-3d5f3c52cf2c.png",
+      "meta_data": {
+        "chunk_id": "883be3dc-477b-4ddc-8865-3d5f3c52cf2c",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 183,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>농업용 로봇</td><td>(미국) Iron Ox 로봇 농장용 로봇</td><td></td><td></td></tr><tr><td>가공 제조 로봇</td><td>(스위스) ABB Robotics 팬케이크 제조 공장 로봇</td><td>(미국) EarthSense 농지 환경·농작물 상태 확인 로봇 (일본) 신세멧쿠·덴소 감자싹 제거 로봇</td><td>(스페인) Agrobot 딸기수확 로봇 (일본) 가와사키중공업 도시락 포장 로봇</td></tr><tr><td>물류 로봇</td><td>(미국) Alert Innovation 로봇 자동화 물류 플랫폼</td><td>(이스라엘) Fabric 로봇 자동화 물류배송 센터</td><td>(영국) Ocado 로봇 자동화 물류센터</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "14a9dc48-1321-4af6-81cd-ba6688268639",
+        "page_number": [
+          18
+        ],
+        "item_label": "table",
+        "index": 184,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/5df04c09-47ea-469d-8da7-13af425843bc.png",
+      "meta_data": {
+        "chunk_id": "5df04c09-47ea-469d-8da7-13af425843bc",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 185,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/211ca008-d055-491f-b9d6-4c65a5ce264c.png",
+      "meta_data": {
+        "chunk_id": "211ca008-d055-491f-b9d6-4c65a5ce264c",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 186,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/764ad861-0aca-49ef-ab9d-ccecb00352f8.png",
+      "meta_data": {
+        "chunk_id": "764ad861-0aca-49ef-ab9d-ccecb00352f8",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 187,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3efd7d56-e7ba-411a-856e-b2387d40bf89.png",
+      "meta_data": {
+        "chunk_id": "3efd7d56-e7ba-411a-856e-b2387d40bf89",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 188,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/933cc6fd-fefa-4a6e-a0c4-6604cc76d6cb.png",
+      "meta_data": {
+        "chunk_id": "933cc6fd-fefa-4a6e-a0c4-6604cc76d6cb",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 189,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/ba8c5c73-fdb0-49eb-891c-9edde8ad02e4.png",
+      "meta_data": {
+        "chunk_id": "ba8c5c73-fdb0-49eb-891c-9edde8ad02e4",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 190,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/adb134dd-7a00-427c-a0f9-755e0b79e786.png",
+      "meta_data": {
+        "chunk_id": "adb134dd-7a00-427c-a0f9-755e0b79e786",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 191,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/41808be3-56c1-457f-88d0-c6a8a1133de9.png",
+      "meta_data": {
+        "chunk_id": "41808be3-56c1-457f-88d0-c6a8a1133de9",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 192,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>농업용 로봇 로봇 농장용 로봇</td><td>(미국) Iron Ox (미국) EarthSense</td><td>농지 환경·농작물 상태 확인 로봇</td><td>(스페인) Agrobot 딸기수확</td></tr><tr><td>가공</td><td></td><td></td><td></td></tr><tr><td>(스위스) ABB Robotics 팬케이크 제조 공장 로봇 물류</td><td></td><td>(일본) 신세멧쿠·덴소 감자싹 제거 로봇</td><td>가와사키중공업 도시락 포장</td></tr><tr><td>*출 처 : 푸드테크의 시대가 온다( 삼 일P wC 경 영 연구원) 자료 재가공( 검색 일: 202 4. 0 7. 12 . )</td><td></td><td></td><td></td></tr><tr><td>&lt;표 Ⅱ-9&gt; 푸드테크 로봇 예시 - 외식업계 적용</td><td></td><td></td><td></td></tr><tr><td>조리 로봇 (프랑스)</td><td>(미국) Miso Robotics 감자튀김 조리 로봇</td><td>PIZZI 로봇 (싱가포르) Orange Clove 쌀국수 조리 로봇</td><td>(한국) 삼성전자</td></tr><tr><td>피자 서빙</td><td></td><td>제조</td><td>요리 보조 로봇 (한국) LG전자</td></tr><tr><td>로봇</td><td>(중국) Pudu Techo m ogies</td><td>Robotics (일본) S m ile</td><td></td></tr><tr><td>(미국) Bear</td><td></td><td>Robotics</td><td></td></tr><tr><td>정리 Robotics (이스라엘)</td><td>(일본) Softback</td><td>Te m i (일본) F UJ IMA K ·TechMagic 식기회수·정리 로봇</td><td>(미국) Dishcraft 전용 식기 대량 세 척 로봇</td></tr><tr><td>로봇</td><td></td><td></td><td></td></tr><tr><td>접 객</td><td></td><td></td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c24b1d8e-e9b1-4c6a-b69d-ee2e94a07689",
+        "page_number": [
+          18
+        ],
+        "item_label": "table",
+        "index": 193,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>로봇</td><td>조리</td><td></td><td></td><td></td></tr><tr><td></td><td>(미국) Miso Robotics 감자튀김 조리 로봇</td><td>(프랑스) PIZZI 피자 제조 로봇</td><td>(싱가포르) Orange Clove 쌀국수 조리 로봇</td><td>(한국) 삼성전자 요리 보조 로봇</td></tr><tr><td>서빙 로봇</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>(중국) Pudu Techo m ogies</td><td>(미국) Bear Robotics</td><td>(일본) S m ile Robotics</td><td>(한국) LG전자</td></tr><tr><td>접 객</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>(일본) Softback Robotics</td><td>(이스라엘) Te m i</td><td>(일본) F UJ IMA K ·TechMagic 식기회수·정리 로봇</td><td>(미국) Dishcraft 전용 식기 대량 세 척 로봇</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "33447e08-799a-465c-b0c9-4c7f682cacaf",
+        "page_number": [
+          18
+        ],
+        "item_label": "table",
+        "index": 194,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/e1ed713f-0410-4110-b3a2-cc8228328c3b.png",
+      "meta_data": {
+        "chunk_id": "e1ed713f-0410-4110-b3a2-cc8228328c3b",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 195,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/a700542c-c64c-4f69-8967-b336721839a2.png",
+      "meta_data": {
+        "chunk_id": "a700542c-c64c-4f69-8967-b336721839a2",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 196,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/9b950e9d-07e4-45b9-b893-63d67725612a.png",
+      "meta_data": {
+        "chunk_id": "9b950e9d-07e4-45b9-b893-63d67725612a",
+        "page_number": [
+          18
+        ],
+        "item_label": "picture",
+        "index": 197,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "prev_content": "d019f631-c58d-46a9-bb9c-98100753b39d",
+        "next_content": "f3864061-e9ca-47c8-9331-c10d64a5d688"
+      }
+    },
+    {
+      "page_content": "*출 처 : 푸드테크의 시대가 온다( 삼 일P wC 경 영 연구원) 자료 재가공( 검색 일: 202 4. 0 7. 12 . )",
+      "meta_data": {
+        "chunk_id": "f3864061-e9ca-47c8-9331-c10d64a5d688",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 198,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-18 -",
+      "meta_data": {
+        "chunk_id": "e0ff2a10-78e8-4b26-9f36-53820caaa085",
+        "page_number": [
+          18
+        ],
+        "item_label": "text",
+        "index": 199,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 4. 바이오 기술",
+      "meta_data": {
+        "chunk_id": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 200,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 바이오 기술18)이란, 생체 혹은 생물학적 시스템을 활용해 각종 다양한 물질을 만드는 기술을 총칭하는 용어",
+      "meta_data": {
+        "chunk_id": "8a1c6b80-8303-493f-ad0c-adf263a38abe",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 201,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 바이오산업은 크게 △레드바이오 △그린바이오 △화이트 바이오 △플랫폼바이오로 구분",
+      "meta_data": {
+        "chunk_id": "f63ba6d9-aa50-4ee6-8b66-e646ca83bf88",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 202,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 농식품 산업에 적용되는 그린바이오 기술은 생명공학을 농업에 응용한 것으로, 생물체가 가진 기능과 정보를 활용해 각종 유용한 물질을 생산하는 △바이오식품과 △생물농업 등을 의미",
+      "meta_data": {
+        "chunk_id": "d8069c7d-07ac-4ec5-81b2-f9a867dee235",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 203,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-그린바이오 기술은 G M O로 알 려 진 개 량 종자 및 유전자 변 형 동식물을 포 함하며 최근 대체 단백질을 통해 생산되는 배양 육 등이 해당",
+      "meta_data": {
+        "chunk_id": "0569d2bd-f459-4668-8f06-7d008ba92733",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 204,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-2023년 한국생명공학연구원은 각 부문 별 바이오 미래 유 망 기술 10가지를 발표하 였 고, 이 중 그린바이오 부문에서는 △ 배양 육 과 대체 육 의 고도화 및 △ 토 양 마이크로바이 옴 1 9 )을 미래 유 망 기술로 선정",
+      "meta_data": {
+        "chunk_id": "ea84a000-a984-423c-8b9c-377b23aa93a6",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 205,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅱ-10&gt; 2023년 10대 바이오 미 래 유망기술</caption><tbody><tr><th>분 야</th><th>기술명</th><th>적용산업</th></tr><tr><td>레 드바이오 ( R e d Bio)</td><td>① 개인맞 춤 형 암 백신(Pe rs on a li z e d Ca nce r Va ccine s ) ② 임 상 적용 가능 유전자 편집 기술( C linic a l g rad e gene e d iting) ③ 비 침 습적 신경조율기술( N on-in vas i v e ne ur o m o du l a tion)</td><td>의료 · 제약</td></tr><tr><td>그린바이오 (G r een Bio)</td><td>④ 베 양 육 /대체 육 고도화(A dva nce d c u lt ur e d m e a t/ a lte r n a ti v e m e a t) ⑤ 토 양 마이크로바이 옴 (Bioc rus t s m ic r o b io m e)</td><td>농업 · 식품</td></tr><tr><td>화이트바이오 ( W hite Bio)</td><td>⑥ 합성생물학 적용 미생물공장(Synthetic m ic r o b i a l f a cto r y) ⑦ 미 세 플라스 틱 의 건강 및 생체 영 향 평 가( M ic r o p l as tic s b io m onito r ing)</td><td>산업</td></tr><tr><td>플 랫폼 바이오 (Pl a tfo rm Bio)</td><td>⑧ 생체 내 면역세포 실 시간 분석(In s it u i mmu ne cell li v e i ma ging/ s e qu encing) ⑨ 인공지능(AI) 기반 인공 단백질 설 계(AI- bas e d ar tifici a l pr otein d e s ign) ⑩ 세포 역노 화( C ell r e juv en a tion)</td><td>전 산업 1)</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "d9a57fef-1b95-436d-8d3d-bc7051cfe393",
+        "page_number": [
+          19
+        ],
+        "item_label": "table",
+        "index": 206,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c",
+        "prev_content": "ea84a000-a984-423c-8b9c-377b23aa93a6",
+        "next_content": "63ae6ea2-310c-4895-8185-0b08fb9f2aee"
+      }
+    },
+    {
+      "page_content": "*주1: 플 랫폼 바이오는 각 바이오의 기반이 되는 원 천 기술을 의미하는 것 으로 레 드 · 그린 · 화이트 바이오가 적용되는 전 산업(의료 · 제약, 농업 · 식품, 산업)에 걸쳐 적용",
+      "meta_data": {
+        "chunk_id": "63ae6ea2-310c-4895-8185-0b08fb9f2aee",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 207,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "*출 처 : 한국생명공학연구원 바이오정보 포털 사이트 바이오인( 검색 일: 202 4. 0 7. 2 5 )",
+      "meta_data": {
+        "chunk_id": "111ed907-189d-4937-b821-28d11f51e49b",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 208,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "1 8 ) 생명공학기술 또는 바이오테크놀로지(Biotechnology)로 일컬어지기도 함",
+      "meta_data": {
+        "chunk_id": "709456ce-b907-461c-b3d8-4a29b4b680d6",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 209,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "1 9 ) 마이크로바이 옴 은 미생물 군집 총과 그 유전체를 아우르 는 말 로 특 정 환 경에 존 재하는 모 든 미생물의 총합을 일 컫 는 것 으로, 토 양 마이크로바이 옴 은 작물 생장을 촉 진하고 작물의 면역 력을 높여 병 해 충 피 해를 줄 여주는 등 작물 생장에 중요한 역 할을 함",
+      "meta_data": {
+        "chunk_id": "a68561b8-e066-4aaa-880d-98871fb5ce17",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 210,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "-19 -",
+      "meta_data": {
+        "chunk_id": "83f15c7f-4b49-40f5-86f9-252b8152a1e0",
+        "page_number": [
+          19
+        ],
+        "item_label": "text",
+        "index": 211,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 그린바이오 기술(Green Biotechnology)은 농작물을 개량하거나 산업적 목적으로 식물과 기타 광합성 유기체를 적용하여 제품을 생성하는 것을 의미",
+      "meta_data": {
+        "chunk_id": "2a95ebb0-829c-48f6-ac9b-4818a35fd947",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 212,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 그린바이오 기술은 기능유전체학(functional genomics) 20) 및 단백질체학 (proteomics) 21) , 식물육종(plant breeding) 22) , 양적 유전학(quantitative genetics) 23) , 유전자변형식물 (genetically modified plants) 24) , 식물환경정화 (phytorem ediation) 25) 및생물활성화합물(bio-active compounds)26)의활용을기반으로함",
+      "meta_data": {
+        "chunk_id": "17d00db0-90da-43c3-8f3c-51a0e1e87115",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 213,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 국내에서 그린바이오는 농업생명자원에 생명공학기술 등을 적용해 지속가능하고 환경친화적인 먹거리를 공급하고 농업 및 전후방 산업에 부가가치를 창출하는 분야로 정의",
+      "meta_data": {
+        "chunk_id": "e5d022d7-7fb9-4519-9547-32ca55f12bec",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 214,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-202 4 년 1월 2일 정부는 농업생명자원 등에 생명공학기술의 적용을 촉 진하여 농업의 부가가치를 높이고, 그린바이오산업의 발전 및 지속가능한 농업의 구현에 기여하여 국 민 의 삶 의 질 향상과 국가 경제 발전에 이바지하기 위해 「 그린바이오산업 육 성에 관한 법 률」 을 제정, 202 5 년 1월 3일부로 시행 예정",
+      "meta_data": {
+        "chunk_id": "83dee985-d7e3-4618-8c50-f9861745429d",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 215,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-그린바이오산업 육 성에 관한 법 률 에 따 르면 ' 그린바이오 '란 「 농업생명 자원의 보 존 ㆍ 관리 및 이용에 관한 법 률」 제2조제1 호 에 따 른 농업생명 자원 등에 「 생명공학 육 성법 」 제2조제1 호 의 생명공학과 관 련 된 기술을 적용하는 것 을 의미",
+      "meta_data": {
+        "chunk_id": "7cee9fe1-4585-4834-983d-e9ec98ec72d9",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 216,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 그린바이오를 활용하여 농업 및 농업 관 련 전 ㆍ 후방 산업에 부가가치를 창 출하는 산업으로서, 다음 각 목 과 관 련 된 재화 또는 서비스를 개발 · 생산 · 판매 · 유통하는 산업을 ' 그린바이오 산업 ' 으로 정의",
+      "meta_data": {
+        "chunk_id": "90168e6d-28f3-4de4-811f-e19079eea034",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 217,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "20) D N A 서 열 을 이용하여 유전자나 단백질의 기능을 해석하는 연구 분 야 로, 단백질에 대해서는 D N A에서 단백질을 발현시키거나 생체에서 발현하고 있는 단백질의 상 호 작용에 대한 해석이 진행되고 있음",
+      "meta_data": {
+        "chunk_id": "53ee919e-718e-4f67-9c6f-72c04fce6fe7",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 218,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "21) 세포 또는 개체에서 발현되는 전체 단백질을 총체적으로 연구하는 학문",
+      "meta_data": {
+        "chunk_id": "423f51d7-b62a-406b-a900-ba79ef704c74",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 219,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "22) 원하는 특 성을 생산하기 위해 식물의 특 성을 변 화시키는 과학기술",
+      "meta_data": {
+        "chunk_id": "4ea5eba8-a8c8-4d1a-a34c-005745307046",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 220,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "23) 여러 메커니 즘이 있는 유전자나 환 경이 양적인 형질에 미치는 영 향을 연구하는 분 야",
+      "meta_data": {
+        "chunk_id": "1ac00627-a28e-4a91-aded-1fc4893ea7c1",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 221,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "2 4 ) 유전공학 방법을 사용해 D N A를 변 형한 식물",
+      "meta_data": {
+        "chunk_id": "314affb0-102f-40e1-bed6-4f02fa16e7c2",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 222,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "2 5 ) 식물을 이용하여 오 염 된 토 양, 대기, 수질을 정화하는 기술",
+      "meta_data": {
+        "chunk_id": "e6ad9bc7-e9a6-4555-8358-70919272011a",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 223,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "2 6 ) 생리 활성을 갖 는 물질로 먹었 을 때 면역 조 절 , 아편 유사 활성, 항 고 혈압 활성 또는 혈 청 지방질 저 하 작용 등을 나 타 내는 물질",
+      "meta_data": {
+        "chunk_id": "2f2d6a80-2d00-4dda-a965-c42880e014ae",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 224,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1bf3881a-03f4-4cf1-94c4-fe98ba779f3c"
+      }
+    },
+    {
+      "page_content": "-20 -",
+      "meta_data": {
+        "chunk_id": "647847cb-2bf4-4f9e-9c29-b251383d863f",
+        "page_number": [
+          20
+        ],
+        "item_label": "text",
+        "index": 225,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 농식품 산업에서 그린바이오 기술은 주로 농축산업에 적용",
+      "meta_data": {
+        "chunk_id": "027339bc-a5e2-4a11-90f8-dadb18011420",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 226,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (유전자변형작물 GMO ) 특정 작물 품종의 DNA 서열에 다른 유기체의 유전자를 삽입하여 만들어내는 것",
+      "meta_data": {
+        "chunk_id": "d80b999c-f191-46f9-aff3-4e1cffb6c205",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 227,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-제 초 제 · 질 병· 곤 충 등에 내성이 있는 작물을 개발하여 작물 수 확량 을 높이고 생산 효율성 증가 및 비용 절 감이 가능함",
+      "meta_data": {
+        "chunk_id": "1e6258a7-ecab-4dfd-9b83-7261d9bb4d23",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 228,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (식물생장 개선) 식물육종을 통해 작물의 크기나 풍미(맛)를 개선하고 해충 저항성이나 빠른 성장 등이 가능하도록 함",
+      "meta_data": {
+        "chunk_id": "daefdff5-e004-418c-b5a3-32f09f261d2f",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 229,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (종자 품질 개선) DNA 기술을 통해 가뭄이나 홍수와 같은 기후환경에 저항성이 가진 종자나 영양성분을 높인 종자 등을 개발하는 것을 의미",
+      "meta_data": {
+        "chunk_id": "e84d6737-6735-43d6-949b-363d23155839",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 230,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (바이오 농약·비료·사료첨가제) 미생물 발효를 통한 농약· 비료·사료첨가제 생산으로 생육 촉진 및 악취 저감 등을 도모",
+      "meta_data": {
+        "chunk_id": "18917e3c-171d-407e-9b34-a78c8691f78a",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 231,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-또한 미생물을 활용한 친환 경 농약 개발로 잔 류농약의 안전성 문제를 사전에 해결하고 화학농약의 감 축 도 가능하다는 이 점 보유",
+      "meta_data": {
+        "chunk_id": "e2981ba8-3319-40cd-b9cb-75ae92616af0",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 232,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (동물용의약품) 담배, 딸기 등 식물에서 추출한 항원단백질로 제조한 백신으로 신속성·경제성·안전성 측면의 효과 창출",
+      "meta_data": {
+        "chunk_id": "d3aa6179-b0ee-44e9-a594-d9508389de07",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 233,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 식품소재 부문에 있어 그린바이오 기술은 △식품첨가물 △기능성식품 △대체식품(배양육 포함) 등에 적용",
+      "meta_data": {
+        "chunk_id": "116df43e-a0f1-43b8-bf7d-e22e49ecb65a",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 234,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (식품첨가물) 미생물을 배양하여 천연 감미료 및 식품첨가물을 개발 및 제조하는 것",
+      "meta_data": {
+        "chunk_id": "7e6275b8-3138-450b-a664-56895c35ff09",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 235,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-기 존 식품첨가물은 주로 화학적 합성을 통해 제조되 었 으나, 바이오 기술의 발전으로 미생물 배양을 통한 효소제, 아 미 노 산 등 다양한 식품첨가물이 개발",
+      "meta_data": {
+        "chunk_id": "fd1d61c1-f88b-4afb-a2fe-9e00f5527504",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 236,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (기능성식품) 종자, 미생물, 천연물 소재 등을 기능성 원료로 활용해 기능성식품 제조",
+      "meta_data": {
+        "chunk_id": "68a59449-c8d4-44e8-935f-115f20685e0c",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 237,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ (대체식품) 전통적 육류 단백질을 대체하는 식품으로, 식물성 원료에서 단백질 성분을 추출한 대체식품(식물성 육류 및 유제품) 이나 세포배양을 통해 생산된 배양육이 대표적",
+      "meta_data": {
+        "chunk_id": "12db0245-40bb-4f98-958f-4e6fbe43bc1d",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 238,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-21 -",
+      "meta_data": {
+        "chunk_id": "1c466242-b60b-40fb-9de9-e5bf0e056d6d",
+        "page_number": [
+          21
+        ],
+        "item_label": "text",
+        "index": 239,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅲ. 푸드테크 적용 사례",
+      "meta_data": {
+        "chunk_id": "1f361cdd-bfd4-425c-b977-cc42ee4c9d26",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 240,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 1. 자율주행기술",
+      "meta_data": {
+        "chunk_id": "c9586cf8-8133-47c4-b9bf-5e906b7aef3e",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 241,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 농식품 산업에 있어 자율주행기술의 도입은 크게 식음료 배달 서비스 부문에 중점",
+      "meta_data": {
+        "chunk_id": "8961ca69-0bb1-4ecf-b425-0d354c67df15",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 242,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 대부분 자율주행기술을 탑재한 로봇 형태로 단거리의 식음료를 배달하는 서비스 형태로 제공되나, 미국에서는 자율주행 자동차를 통한 식료품 배달/판매 서비스를 제공",
+      "meta_data": {
+        "chunk_id": "c29ee8d6-0fec-46bf-9eff-f27efada649d",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 243,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 자율주행기술 발전과 더불어 코로나19로 비대면 배달산업이 급격히 성장함에 따라 자율주행기술 기반 배달시장 역시 큰 성장세를 보임",
+      "meta_data": {
+        "chunk_id": "7c3a4ba4-1970-4edd-b35c-a18439fae7f1",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 244,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 글로벌 조사기관 Statista에 따르면 2023년 전 세계 자율주행 라스트마일(Last Mile) 27) 배달 시장규모는 172억 2,000만 달러 (한화 약 23조 8,583억 원)로 추산",
+      "meta_data": {
+        "chunk_id": "37eb85a6-82c0-4610-a7c3-0bb7de1a249b",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 245,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이는 2020년 87억 8 ,000만 달러(한화 약 12조 1, 647억 원)에서 약 두 배 가 량 증가한 수 준",
+      "meta_data": {
+        "chunk_id": "93c958a9-182c-4406-8e83-4a2aba7b7e16",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 246,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2023년 이후 시장은 연평균 24.4%의 성장률로 513억 8,000만 달러(한화 약 71조 1,870억 원)에 달할 전망",
+      "meta_data": {
+        "chunk_id": "58e8a181-9bdf-474c-ac97-9ba7f08cd5a1",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 247,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "(단위: 십 억 달러, % )",
+      "meta_data": {
+        "chunk_id": "d7c3661f-2519-4798-b0c6-382d34af47d5",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 248,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>2028</th><th>연평균성장률 ( ` 23/ ` 28)</th></tr><tr><td>1 7. 22</td><td>21 .4 3</td><td>2 6.66</td><td>33 . 1 8</td><td>4 1 . 2 9</td><td>5 1 . 3 8</td><td>2 4.4</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "9f9136a2-feda-45b1-aeaa-96f10bda13ba",
+        "page_number": [
+          22
+        ],
+        "item_label": "table",
+        "index": 249,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "c9586cf8-8133-47c4-b9bf-5e906b7aef3e",
+        "prev_content": "d7c3661f-2519-4798-b0c6-382d34af47d5",
+        "next_content": "44344c65-cc93-4574-ac02-5740433d5b1a"
+      }
+    },
+    {
+      "page_content": "*출 처 : St a ti s t a ( 검색 일: 202 4. 0 7. 2 5 )",
+      "meta_data": {
+        "chunk_id": "44344c65-cc93-4574-ac02-5740433d5b1a",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 250,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "c9586cf8-8133-47c4-b9bf-5e906b7aef3e"
+      }
+    },
+    {
+      "page_content": "2 7 ) 상품을 개 별 소비자에 게 직접 전달하기 위한 배송의 마지 막 구간을 의미하는 것 으로, 보통 5 ~ 10 ㎞ 내 외 의 단거 리에서 포 장된 음식이나 상품을 최 종 소비자가 위치한 곳 으로 운 반해주는 것 을 의미",
+      "meta_data": {
+        "chunk_id": "7841031a-90d0-4f1d-aaa9-24ba6523e669",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 251,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "c9586cf8-8133-47c4-b9bf-5e906b7aef3e"
+      }
+    },
+    {
+      "page_content": "-22 -",
+      "meta_data": {
+        "chunk_id": "1c2a000a-3eef-4f61-9905-1ca84d8d945f",
+        "page_number": [
+          22
+        ],
+        "item_label": "text",
+        "index": 252,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅲ -2> 푸드테크 기술별 적용 사례 -자율주행기술",
+      "meta_data": {
+        "chunk_id": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "page_number": [
+          23
+        ],
+        "item_label": "text",
+        "index": 253,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/8fc743f6-066f-4f98-9bb5-9c421919c03d.png",
+      "meta_data": {
+        "chunk_id": "8fc743f6-066f-4f98-9bb5-9c421919c03d",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 254,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/5a2d2ae9-97d4-48b5-9a46-58cccf5524a8.png",
+      "meta_data": {
+        "chunk_id": "5a2d2ae9-97d4-48b5-9a46-58cccf5524a8",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 255,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/23b0a0e0-6977-46e3-aaed-2a273727c528.png",
+      "meta_data": {
+        "chunk_id": "23b0a0e0-6977-46e3-aaed-2a273727c528",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 256,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/289dbfeb-ed33-43b5-ab15-1f9a86a6d302.png",
+      "meta_data": {
+        "chunk_id": "289dbfeb-ed33-43b5-ab15-1f9a86a6d302",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 257,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/35b225e4-f0f0-4973-a2b4-85e9a168cd92.png",
+      "meta_data": {
+        "chunk_id": "35b225e4-f0f0-4973-a2b4-85e9a168cd92",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 258,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/cf33d2f5-b48d-4c36-ade8-207ecbcf75ed.png",
+      "meta_data": {
+        "chunk_id": "cf33d2f5-b48d-4c36-ade8-207ecbcf75ed",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 259,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/d8dfe38f-b2bf-45c5-96ba-3d8ed1b5c579.png",
+      "meta_data": {
+        "chunk_id": "d8dfe38f-b2bf-45c5-96ba-3d8ed1b5c579",
+        "page_number": [
+          23
+        ],
+        "item_label": "picture",
+        "index": 260,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>· ·</td><td>R o b o mar t는 미국의 자율주행 식료품 배달 기업으로, 2022년 U nile v e r 와 협 력해 무 인 이동식 아 이스크 림 판매 서비스를 론칭, Ben &amp; J e rr y &#x27;s , B r eye rs , Ma gn um 등 아 이스크 림 을 판매 소비자는 R o b o mar t의 애플리케이션을 사용해 현재 자신이 위치한 곳 으로 이동식 아 이스크 림 무 인 판매 차 량 을 호 출할 수 있음</td></tr><tr><td>(미국) Auto X</td><td>핀 란 드의 대표적인 식료품 소매업체인 S-G r o up 은 St ars hi p Technologie s</td></tr><tr><td>· Eur o · ( 핀란 드) Auto X</td><td>p e의 자율주행 로봇을 이용한 배달 서비스를 2023년 시 범 운영 , 총 1 5 만 건 이상의 주문을 배달 S-G r o up 은 202 4 년 말까 지 전국 100개 이상의 매장으로 혁 신적인 로봇 배달 서비스를 확 대할 예정</td></tr><tr><td>활용한 · 미국 일부 (일본) 우버 이 츠</td><td>음식 배달을 시작 로봇 회 사인 카 트 켄 과 일 본 기업 미 쓰 비시전기와 협 력해 도 쿄 지 역 에서 우버 이 츠 주문을 배달하는 자율주행 로봇을 운 행 전자상거래 기업 알리바바그 룹 라스트마일 社 의 무 인 배송 오만 뤼 &#x27; 가 중국 22개 성의 20만 명을 대상으로 배송 서비스를 오만 뤼 ( 小 蛮 驴 ) &#x27; 는 배달을 위해 개발한 자율주행 무 인 배송</td></tr><tr><td>· &#x27; 샤 · &#x27; 샤 (중국) 라스 트 마일 · 캐 나다</td><td>중국 로봇인 제공 로봇 으로 택 배, 음식배달, 신선식품 배달 등에 쓰임 로봇 제조사 &#x27; Geoff r ey &#x27; 가 개발한 배달 로봇으로, 음식 배달</td></tr><tr><td>( 캐나 다) Geoffre y · 앞까 · 아</td><td>자율주행 배달 로봇 딜 리드라이 브 를 활용해 식당에서 아 파 트 세 대 현관 지 음식을 배달하는 서비스 시작 파 트 세 대 별 로 Q R코 드를 부여해 배달 접 수 후 세 대 위치를 인식,</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "6a885008-9991-474c-9ad7-3f64b0f9e2a2",
+        "page_number": [
+          23
+        ],
+        "item_label": "table",
+        "index": 261,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "prev_content": "3d3363e6-816c-4d62-ac47-e7cd71a346d7",
+        "next_content": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459"
+      }
+    },
+    {
+      "page_content": "-23 -",
+      "meta_data": {
+        "chunk_id": "ba9bba91-8d2f-4f61-9d5c-d4f4d4ab8459",
+        "page_number": [
+          23
+        ],
+        "item_label": "text",
+        "index": 262,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 2. 인공지능(AI)",
+      "meta_data": {
+        "chunk_id": "4b94893c-d098-476b-8b7f-be5883f31a70",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 263,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 인공지능(AI)은 농작물의 생산 및 재배관리에서 제품 및 원료 개발, 제조 공정 효율화 및 개선, 유통 및 판매·마케팅에 이르는 전 과정에 걸쳐 적용",
+      "meta_data": {
+        "chunk_id": "ce7dcbc1-b440-4ce0-9385-5514e8299688",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 264,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 방대한 데이터를 기반으로 의사결정을 위한 패턴을 기계가 스스로 학습하는 머신러닝(Machine Learning)을 통해 사람이 해야 할 일을 기계가 대신해주는 모든 자동화 작업이 인공 지능의 영역에 포함",
+      "meta_data": {
+        "chunk_id": "8daa4160-b68c-462d-bb2e-c02af31c37bc",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 265,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 인공지능은 그 자체 기술로써 활용되기도 하나, 로봇과 같은 하드웨어와 결합한 형태로 구현되기도 함",
+      "meta_data": {
+        "chunk_id": "ffb90533-4d13-427a-85bf-11ce4ab7c3b0",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 266,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-인공지능 기술을 접목 한 로봇이 데이터를 기반으로 최 적화된 행동을 선 택 및 수행하도록 하는 것 으로, 식당 접 객 로봇이나 인공지능 기반 로봇을 통한 물류 자동화 시스템 등의 사례가 이에 해당",
+      "meta_data": {
+        "chunk_id": "2374de28-7c1c-45d7-a8d6-089df905ec6b",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 267,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 글로벌 조사기관 Precedence Research에 따르면, 인공지능(AI)이 도입된 전 세계 식음료 시장규모는 2023년 80억 달러(한화 약 11조 840억 원)로 집계",
+      "meta_data": {
+        "chunk_id": "ba2debf2-4663-460e-abc0-27b51408957d",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 268,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 인공지능은 개인화된 영양, 생산 및 유통 등 식품 가치사슬의 효율성, 데이터 중심의 의사결정 개선 등으로 식품산업 발전에 일조할 것으로 기대",
+      "meta_data": {
+        "chunk_id": "23e3c302-6195-4692-9639-53b6b02abda2",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 269,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2024년 이후 인공지능이 도입된 식음료 시장규모는 연평균 39%의 큰 성장률로 2033년 2,146억 2,000만 달러(한화 약 297조 3,560억 원)에 달할 전망",
+      "meta_data": {
+        "chunk_id": "5b0293d1-9276-4c7b-93a6-7142e2375309",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 270,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-24 -",
+      "meta_data": {
+        "chunk_id": "1ec7544d-5f68-478d-8908-c64a41f83644",
+        "page_number": [
+          24
+        ],
+        "item_label": "text",
+        "index": 271,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅲ -3> 푸드테크 기술별 적용 사례 -인공지능(AI)",
+      "meta_data": {
+        "chunk_id": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "page_number": [
+          25
+        ],
+        "item_label": "text",
+        "index": 272,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/e95ab6c1-498b-40be-97a1-aec295b18c8a.png",
+      "meta_data": {
+        "chunk_id": "e95ab6c1-498b-40be-97a1-aec295b18c8a",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 273,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/afe8602f-2fbd-4a09-8c20-5229ff637d1f.png",
+      "meta_data": {
+        "chunk_id": "afe8602f-2fbd-4a09-8c20-5229ff637d1f",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 274,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/64037922-f6d9-4871-8c7f-e20570ccab57.png",
+      "meta_data": {
+        "chunk_id": "64037922-f6d9-4871-8c7f-e20570ccab57",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 275,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/11accfd7-35c7-49a5-8db1-006150c77cd9.png",
+      "meta_data": {
+        "chunk_id": "11accfd7-35c7-49a5-8db1-006150c77cd9",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 276,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/7ff9e623-99c5-4d87-ac6f-dc4f46de547d.png",
+      "meta_data": {
+        "chunk_id": "7ff9e623-99c5-4d87-ac6f-dc4f46de547d",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 277,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/f502e7f4-6908-46fe-84b6-4bbef46f9f50.png",
+      "meta_data": {
+        "chunk_id": "f502e7f4-6908-46fe-84b6-4bbef46f9f50",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 278,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/ae9030b7-9cb9-46be-aac6-b67d06712010.png",
+      "meta_data": {
+        "chunk_id": "ae9030b7-9cb9-46be-aac6-b67d06712010",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 279,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3e2ad9db-9c2a-4634-aaf3-803eb4158560.png",
+      "meta_data": {
+        "chunk_id": "3e2ad9db-9c2a-4634-aaf3-803eb4158560",
+        "page_number": [
+          25
+        ],
+        "item_label": "picture",
+        "index": 280,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td>· AI 기반 농약 살 포 기계인 See &amp; S pra y를 출시 · 수 십 개의 카메 라가 장 착 된 장치로 제 초 제 분 무 기에 부 착 되어 초 당 약 2,200제 곱 피 트를 스 캔 한 후 잡 초 만 식 별 해 필요한 영역 에만 농약 살 포 가능</td></tr><tr><td></td><td>· 자연에 존 재하는 생리 활성 물질과 그 건강 상의 이 점 을 식 별 하는 AI 기반 계산 플 랫폼 인 F o ra ge r 를 사용해 새 로 운 화합물을 생산 · 잠 재적으로 건강 상 이 점 이 있는 식물 영 양소를 찾 아 내고, 생물학적 데이터를 분석해 새 로 운 화합물과 인체 건강 사이의 상관관계를 파 악 해 기능성식품 및 보 충 제 개발에 활용</td></tr><tr><td>(미국) Brightseed</td><td>· 애플리케이션을 통해 작물 건강 을 진단하고 생산성을 개선하도록 돕 는 농업 기술 플 랫폼 개발 · 작물의 사진을 찍 어 애플리케이션에 올 리 면 이미지 인식 및 머신러닝을 통해 질 병 감 염 여부, 해 충 , 영 양소 결 핍 등을 진단</td></tr><tr><td>AI</td><td>· 식재료 속 성분을 학습하고 조합을 구성해 새 로 운 음식 레 시 피 를 창 조하는 인공지능(AI) 플 랫폼 개발 · F oo dpa i r ing 알고리즘은 소비자 요구 사 항 과 일치하는 수백만 가지의 풍 미 조합을 만 든 뒤 디 지 털 트 윈 기술을 사용하여 새 로 운 맛 에 대한 선 호 도를 테스트하여 검 증 · Pe ps ico, K ellogg &#x27;s , N e s tle, U nile v e r 등 글 로 벌 식품기업에서 도 입</td></tr><tr><td>( 벨 기에) Foodpairing (한국) SPC</td><td>· SP C 社 의 아 이스크 림 브랜 드 배스 킨 라 빈 스는 축 적된 상품개발 노 하 우 와 고객 구매 데이터에 기반한 핵심 키 워 드를 통해 인공지능으로 아 이 디 어를 얻 어 신제품을 출시하는 상품개발 과정인 AI N PD( N e w P r o du ct De v elo pm ent)를 통해 개발한 오 렌 지 얼 그 레 이 맛 아 이스크 림 출시</td></tr><tr><td></td><td>· 1만 개 이상의 참 치 꼬 리 절 단 면 이미지와 등 급 기 준 등을 사전 학습한 &#x27;참 치 품질 등 급 선 별 AI 모 델&#x27; 을 개발, 냉 동 참 치 어체의 색 상, 무 늬 등에 따라 등 급 을 자동 분류하는 시스템 도 입 · 또한 육 안으로 확 인하기 어 려운 통조 림 속 뼈 , 이물 등을 검 출하는</td></tr><tr><td></td><td>과정에 20만 장 이상의 참 치 뼈 이미지를 학습한 AI 기술을 적용해 검 출 성능을 6 배 이상으로 크 게 개선</td></tr><tr><td></td><td>포 장 김 치의 배추 선 별 과정에서 배 춧잎 수 천 장을 배추의 등 급 을 자동으로 분류하는 AI 시스템 도 입</td></tr><tr><td></td><td>· 비비고 학습한 AI가 · 배추 등 급 분류 정 확 도는 88. 3 % 를 넘 는 수 준 으로 나 타남</td></tr><tr><td>(한국) 동 원 F</td><td></td></tr><tr><td>&amp;</td><td></td></tr><tr><td>B</td><td></td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "b7e7209d-6f81-4975-af3d-fbd7b9bd2179",
+        "page_number": [
+          25
+        ],
+        "item_label": "table",
+        "index": 281,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "prev_content": "1f8b0990-fd30-4532-897e-ccc0befa5a82",
+        "next_content": "9be99d85-3448-4809-a6c0-fc144deaa6fd"
+      }
+    },
+    {
+      "page_content": "-25 -",
+      "meta_data": {
+        "chunk_id": "9be99d85-3448-4809-a6c0-fc144deaa6fd",
+        "page_number": [
+          25
+        ],
+        "item_label": "text",
+        "index": 282,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 3. 푸드테크 로봇",
+      "meta_data": {
+        "chunk_id": "d404c7eb-3b38-41f0-a8fd-67f5aa4dd0e2",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 283,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 로봇은 다양한 센서와 구동기(모터, 감속기, 관절모듈) , 모션제어기 등이 결합된 하드웨어로, 자율주행기술·인공지능·로봇의 구동과 제어를 담당하는 기술과 결합해 활용",
+      "meta_data": {
+        "chunk_id": "eb0d4cc4-77be-4b3a-8b72-2bf26ede298f",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 284,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 농식품의 생산에서부터 제조, 물류, 판매에 이르는 모든 과정에 관여하며, 로봇 기술 도입을 통해 생산성, 안전성, 시장 요구 사항 충족, 지속가능성 등을 도모할 수 있음",
+      "meta_data": {
+        "chunk_id": "84347298-272d-44b4-9eda-7c5e9edf1fc3",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 285,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(생산성 측면 ) 로봇의 도 입 은 생산성을 높이고, 생산비용을 감 축 할 수 있어 효율성과 품질에 있어 업계의 요구를 충 족",
+      "meta_data": {
+        "chunk_id": "f2ed9507-4f2c-495b-bf8c-f706019d26b3",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 286,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 로봇 기술 도 입 을 통해 식품시장 가치사 슬 전 단계에서 요구되는 작업을 일관성 있고 효율적으로 수행할 수 있으며, 대 량 생산 및 처 리가 가능",
+      "meta_data": {
+        "chunk_id": "e9f03cb5-76cd-423f-ae21-d9419f9834b4",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 287,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(안전성 측면 ) 로봇 도 입 을 통해 인간의 접촉 을 최 소화하고 오 염 의 위험을 줄 여 소비자 안전과 제품 품질 보장을 위한 엄 격 한 기 준 을 준 수할 수 있음",
+      "meta_data": {
+        "chunk_id": "64487557-5fc9-4ff3-ae07-27515e77d4fa",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 288,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 센서 등을 장 착 한 로봇은 식품 내 이물질과 이상 징 후를 감지하여 품질 기 준 충 족 여부를 빠 르 고 효율적으로 판단 가능",
+      "meta_data": {
+        "chunk_id": "7ce84745-16d8-4350-875b-d44160a412e5",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 289,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(소비자 요구 측면 ) 개인맞 춤 형 식품에 대한 소비자 요구가 증가함에 따라 식품 로봇 솔 루 션이 도 입 되는 추 세 로, 개인의 선 호 도와 식단의 요구 사 항 에 맞는 요리 및 식품을 만들도록 프로그래 밍 한 로봇이 활용",
+      "meta_data": {
+        "chunk_id": "62271b5d-7561-403d-9dc1-16181e2c9353",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 290,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(지속가능성 측면 ) 식품 생산공정 최 적화를 통해 식품 폐 기물 및 에 너 지 소비를 줄 일 수 있음",
+      "meta_data": {
+        "chunk_id": "09b537dd-4ba5-46b9-be1b-a962342ea2d2",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 291,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "· 로봇을 통한 정 확 한 분 량 측정이 가능하여 과 잉 생산을 최 소화함으로써 식품산업의 지속가능성에 기여",
+      "meta_data": {
+        "chunk_id": "26f59af5-29fe-4dff-b537-4691311cc973",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 292,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 전 세계적인 노동력 부족 및 고임금에 대응하여 외식 서비스 로봇이 도입되는 추세로, 글로벌 푸드 로봇 시장규모는 2020년 18억 6,100만 달러(한화 약 2조 5,784억 원)로 집계",
+      "meta_data": {
+        "chunk_id": "80bae521-3abc-4c42-8d2a-16405d8172b9",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 293,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-이후 전 세 계 푸드 로봇 시장은 연 평 균 13 . 1 % 의 성장 률 로 202 6 년 3 8억 7 , 6 00만 달러(한화 약 5 조 3, 7 02 억 원)에 달할 전 망",
+      "meta_data": {
+        "chunk_id": "edfb1829-2b38-4af4-8391-f1034add4511",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 294,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-26 -",
+      "meta_data": {
+        "chunk_id": "39b5f420-f9a1-4f33-89b7-ae88beef9202",
+        "page_number": [
+          26
+        ],
+        "item_label": "text",
+        "index": 295,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅲ -4> 푸드테크 기술별 적용 사례 -푸드테크 로봇",
+      "meta_data": {
+        "chunk_id": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "page_number": [
+          27
+        ],
+        "item_label": "text",
+        "index": 296,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/d3cfa378-f8e7-4175-ad83-dd749b993d51.png",
+      "meta_data": {
+        "chunk_id": "d3cfa378-f8e7-4175-ad83-dd749b993d51",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 297,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/d183eda1-5423-42cd-bb2d-600aeba8e026.png",
+      "meta_data": {
+        "chunk_id": "d183eda1-5423-42cd-bb2d-600aeba8e026",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 298,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3d512d8c-05f2-4576-8b7c-53e52811feb3.png",
+      "meta_data": {
+        "chunk_id": "3d512d8c-05f2-4576-8b7c-53e52811feb3",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 299,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/b9fc9943-3095-42c6-9aca-f284d3db9ea8.png",
+      "meta_data": {
+        "chunk_id": "b9fc9943-3095-42c6-9aca-f284d3db9ea8",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 300,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/48ac49b3-ca8e-4399-ac2d-d3c715f1e352.png",
+      "meta_data": {
+        "chunk_id": "48ac49b3-ca8e-4399-ac2d-d3c715f1e352",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 301,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/1a8f4082-04e9-4a60-ae72-962d5339460b.png",
+      "meta_data": {
+        "chunk_id": "1a8f4082-04e9-4a60-ae72-962d5339460b",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 302,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/3f6d27b3-ea5c-467f-bb11-4329ade9e09e.png",
+      "meta_data": {
+        "chunk_id": "3f6d27b3-ea5c-467f-bb11-4329ade9e09e",
+        "page_number": [
+          27
+        ],
+        "item_label": "picture",
+        "index": 303,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td>미국의 농업용 로봇 스 타 트업 I r on O x 가 개발한 로봇 농장용 로봇 자동차 크기의 이동형 로봇 Ang us 가 생 육 중인 농작물이 담긴 트 레 이를</td></tr><tr><td>(미국) Iron Ox</td><td>수경재배 방식으로 재배되며, The B ra in이라는 AI S/ W 를 통해 작물 영 양상태를 분석 미국 F en d t의 로봇 Xav e r 는 모종 · 씨앗 심 는 작업, 비료 주기, 잡 초 제거, 작업 감 독 이 가능</td></tr><tr><td>(미국) Fendt</td><td>클 라 우 드 컨 트 롤 , 인공위성 기반의 탐색 기술이 가능한 정밀농업을 위한 로봇</td></tr><tr><td>(덴마크) U niversal Robots</td><td>덴 마크의 로봇 기업 U ni v e rsa l R o b ot에서 개발한 식품공장용 협 동로봇 솔 루 션으로, 계 란 포 장 및 운 반 로봇, 설 탕 무게 측정, 바 닐 라크 림 포 장 · 운 반, 크 림 치 즈 생산라인 등에 적용 일 본 스 타 트업 R T 코 퍼 레 이션의 도시 락 제조 공장용 휴 머 노 이드 협 동로봇 도시 락 공장 컨 베 이어 벨 트로 이동한 용기에 반 찬 을 담 는 작업 수행 로봇의 머리 부분에 탑재된 3D 카메 라로 식재료 · 반 찬 을 AI로 식 별 하고, 로봇 팔 에 달린 집게 로 식재료를 잡 아 용기에 담 는 방식</td></tr><tr><td>(일본) RT Corporation</td><td>영 국 최 대 온라인 식료품기업 Oc ad o는 신선식품을 물류 창 고에서 로봇이 피 킹 해 배송하는 완 전 자동화 물류센터 구 축 AI 기반 물류센터 내 수백 ~ 수 천 대의 로봇이 설 치되어 주문된 식료품을 자동으로 피 킹</td></tr><tr><td>(영국) Ocado</td><td>유통 자동화 시스템업체 T ak eoff Technologie s 는 미국 식료품업체 &#x27;s S up e rmak et s 와 제 휴 해 로봇 슈퍼 마 켓 설립 , 고객이</td></tr><tr><td></td><td>미국 Se da no 온라인으로 식료품 주문 시 AI 로봇이 몇 분 안에 최 대 6 0개 품 목 의 주문 처 리 미국 슈퍼 마 켓 Wak efe r n F oo d 도 T ak eoff Technologie s 와 제 휴 하여 M ic r o Fu lfill m ent C ente r (상품 보관, 적재, 재고 관리, 포 장, 출하, 배송 일 괄 처 리</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "b243796b-847c-457d-9a83-a1b20dbdf895",
+        "page_number": [
+          27
+        ],
+        "item_label": "table",
+        "index": 304,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "next_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795"
+      }
+    },
+    {
+      "page_content": "-27 -",
+      "meta_data": {
+        "chunk_id": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "page_number": [
+          27
+        ],
+        "item_label": "text",
+        "index": 305,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/fd3927e7-7468-43d9-baf1-8ae1aebb7839.png",
+      "meta_data": {
+        "chunk_id": "fd3927e7-7468-43d9-baf1-8ae1aebb7839",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 306,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/455db0a8-882d-47a0-86af-4690e86236a7.png",
+      "meta_data": {
+        "chunk_id": "455db0a8-882d-47a0-86af-4690e86236a7",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 307,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/d19baf56-7a53-48b5-a38f-9a8500464bf8.png",
+      "meta_data": {
+        "chunk_id": "d19baf56-7a53-48b5-a38f-9a8500464bf8",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 308,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/545efbda-d20e-42ed-ba9f-7500823f2187.png",
+      "meta_data": {
+        "chunk_id": "545efbda-d20e-42ed-ba9f-7500823f2187",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 309,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/5538ae26-4efa-459a-a9d6-7d89f7c62048.png",
+      "meta_data": {
+        "chunk_id": "5538ae26-4efa-459a-a9d6-7d89f7c62048",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 310,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/78c94f7c-69c3-4c0d-9a15-1da178491b1c.png",
+      "meta_data": {
+        "chunk_id": "78c94f7c-69c3-4c0d-9a15-1da178491b1c",
+        "page_number": [
+          28
+        ],
+        "item_label": "picture",
+        "index": 311,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td>스 타 봇 등 푸드테크 로봇 모 델 을 각각 출시 · CL Oi 서 브 봇은 3D 카메 라 및 라이다 센서, To F 센서가 내장되어 공간 인식 및 장애물 회피 가능 · CL Oi 셰 프봇은 외 식 프 랜 차이 즈 매장에 도 입 하여 쌀 국수 제조 · 튀김 용 로봇인 튀 봇은 조리시간 및 과정을 자동화하여 품질 유지 및 조리 효율화 가능 · 로봇 팔 로 커피 를 제조하는 바리스 타 봇은 원두 종류 · 분쇄 정도 · 물 온도와 양 · 추출시간 등 정보가 탑재되어 자동으로 커피 제조</td></tr><tr><td>(한국) LG전자</td><td>· 서빙로봇인 딜 리플 레 이트 렌 탈 서비스를 개시하 였 으며 2020년 10월 기 준 전국 외 식 매장에 2 4 0대 이상의 로봇 도 입 · 신 규 도 입 모 델 인 딜 리플 레 이트S는 10 . 1인치 터치스크린에 영 상이나 사진, 음성을 적용할 수 있으며, 지정된 테이 블 에 순 차적으로 음식을</td></tr><tr><td>(한국) 우아 한형제 들</td><td>· AI 튀김 조리 로봇( R o b e r - E ), 전자동 치 킨 조리 로봇( R o b e r t-A ss e mb le), 바 텐 더 로봇( R o b oten d e r ) 등 출시 · AI 튀김 조리 로봇은 클 라 우 드 기반 운영 시스템을 탑재하 였 으며, 시간당 5 0개 바스 켓 조리 가능 · 바 텐 더 로봇은 주문에서부터 제조, 서빙 까 지 전 과정을 자동화하여 시간당 6 0 잔 을 제공할 수 있으며, 5 0여 가지 칵 테일 및 믹솔 로지 주류 제조 가능</td></tr><tr><td>(한국) 로보 아 르테 · · · (한국) 삼성 웰 스 토 리</td><td>구내식당 등 단체 급 식에서 국이나 탕, 찌 개류를 자동 조리하고 배식하는 전문 코너 인 웰 리봇 출시 고객이 식당 입 구에 설 치된 주문 패 드로 메뉴 를 선 택 하 면 로봇이 바로 가 열 및 조리를 시작하여 배식대로 제공하는 방식으로 운영 약 100여 개의 메뉴 레 시 피 가 입 력되어, 당일 메뉴 에 따라 육 수 투입량 과 가 열 시간, 온도 등을 자동으로 조 절 가능</td></tr><tr><td></td><td>· F &amp; B 전용 협 동로봇인 E 시리 즈 는 치 킨 , 커피 , 면 류, 아 이스크 림 , 맥 주 제조에 활용할 수 있으며, 국내 치 킨 및 커피 프 랜 차이 즈 에 솔 루 션 공 급 · 세척 이 용이하고 쉽 게 오 염 되지 않 는 도료를 사용하고 협 동로봇 모 든 연결 축 간의 틈 새 를 밀 봉 한 것 이 특징 으로, 미국 위생안전기관 N S F ( Na tion a l S a nit a tion F o u n da tion)의 식품위생안전 인증 획 득</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "6c546d90-e577-462c-8a5e-b8fc48c573c5",
+        "page_number": [
+          28
+        ],
+        "item_label": "table",
+        "index": 312,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "94490a0c-e28f-46b2-aa7b-82d3a0326774",
+        "prev_content": "c0564f37-cc9a-4aa6-858c-1ec97a580795",
+        "next_content": "6e860627-afa3-4a0d-a27b-987f8520919a"
+      }
+    },
+    {
+      "page_content": "-28 -",
+      "meta_data": {
+        "chunk_id": "6e860627-afa3-4a0d-a27b-987f8520919a",
+        "page_number": [
+          28
+        ],
+        "item_label": "text",
+        "index": 313,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# 4. 바이오 기술",
+      "meta_data": {
+        "chunk_id": "0e50259e-182e-4fb1-bec1-5c812b1a94d1",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 314,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 바이오 기술 중에서도 농식품 산업에 적용되는 그린바이오 기술은 농업과 그 전후방 산업에 모두 적용",
+      "meta_data": {
+        "chunk_id": "c98d1454-55a8-4ece-a7d3-ae0cc32f8b40",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 315,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 최근에는 그린바이오 기술을 통한 식품 원료(첨가물, 기능성 소재, 대체 단백질 등) 개발 및 생산이 적극적으로 추진되고 있음",
+      "meta_data": {
+        "chunk_id": "6012fa72-2a53-48a8-b7b6-33d9d614477b",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 316,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 이 외에도 미생물을 활용한 농약·비료·사료 개발, 생산 효율성 및 품질 측면에서 경쟁력 있는 식물육종, 안전하고 경제적인 동물용 의약품 개발 등에 그린바이오 기술이 활용",
+      "meta_data": {
+        "chunk_id": "94029c2f-e359-49fe-916b-471289e693e5",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 317,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 그린바이오 기술을 포함한 바이오산업은 전 세계적 인구· 자원·환경 문제를 해결하기 위한 대안으로 인식",
+      "meta_data": {
+        "chunk_id": "13d5ee4f-d9ef-430a-a4a0-d82b2a2f303d",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 318,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-바이오 기술을 바탕으로 인구증가, 식 량 위기, 기후 변 화, 감 염병 , 에 너 지 고 갈 등에 대응할 수 있을 것 으로 기대되며, 특히 그린 바이오 기술은 농업 생태계에 미치는 영 향을 고 려 하여 지속가능성을 추구한다는 점 에서 의미가 있음",
+      "meta_data": {
+        "chunk_id": "9e6a6cd9-f1c0-4a52-b807-d0998202c1f8",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 319,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 글로벌 조사기관 Precedence Research에 따르면, 2023년 전 세계 그린바이오 산업 규모는 1,160억 달러(한화 약 160조 7,180억 원) 규모로 집계",
+      "meta_data": {
+        "chunk_id": "755e20d7-6981-4b39-b22b-50344b46fa1d",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 320,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2024년 이후 전 세계 그린바이오 산업 규모는 연평균 8.8%의 성장률로 2034년 2,933억 5,000만 달러(한화 약 406조 4,364억 원)에 달할 전망",
+      "meta_data": {
+        "chunk_id": "6f8518ef-e566-4277-82c7-6a74080b15a2",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 321,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 2020년 기준 국내 그린바이오 산업 규모는 약 5조 4,000억 원 규모로 전 세계 시장의 0.3% 수준으로 나타남",
+      "meta_data": {
+        "chunk_id": "da587fdf-e55a-456f-a5dc-6f668ce6c5e2",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 322,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-29 -",
+      "meta_data": {
+        "chunk_id": "7e9437df-35df-4bf0-af4e-bda9d1013c38",
+        "page_number": [
+          29
+        ],
+        "item_label": "text",
+        "index": 323,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# <표 Ⅲ -5> 푸드테크 기술별 적용 사례 -그린바이오 기술",
+      "meta_data": {
+        "chunk_id": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "page_number": [
+          30
+        ],
+        "item_label": "text",
+        "index": 324,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/46ec1005-4e00-423d-bda6-5c6c8c125dc3.png",
+      "meta_data": {
+        "chunk_id": "46ec1005-4e00-423d-bda6-5c6c8c125dc3",
+        "page_number": [
+          30
+        ],
+        "item_label": "picture",
+        "index": 325,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/0df14ff2-d546-4b6f-a994-58e4f23517fd.png",
+      "meta_data": {
+        "chunk_id": "0df14ff2-d546-4b6f-a994-58e4f23517fd",
+        "page_number": [
+          30
+        ],
+        "item_label": "picture",
+        "index": 326,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/1d6d7be1-7a7f-428b-8ca5-79567456c426.png",
+      "meta_data": {
+        "chunk_id": "1d6d7be1-7a7f-428b-8ca5-79567456c426",
+        "page_number": [
+          30
+        ],
+        "item_label": "picture",
+        "index": 327,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/7e5a9066-ab39-4cbc-b46f-e566bbf9762c.png",
+      "meta_data": {
+        "chunk_id": "7e5a9066-ab39-4cbc-b46f-e566bbf9762c",
+        "page_number": [
+          30
+        ],
+        "item_label": "picture",
+        "index": 328,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/result/images/d40ec076-2d4c-4ec1-8304-f2346d04943c.png",
+      "meta_data": {
+        "chunk_id": "d40ec076-2d4c-4ec1-8304-f2346d04943c",
+        "page_number": [
+          30
+        ],
+        "item_label": "picture",
+        "index": 329,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td></td><td>· 미생물을 활용한 곰팡 이 균 예방 및 방제용 농약 제품 출시</td></tr><tr><td></td><td>· 살균 효과가 기 존 생물학적 제품보다 최 고 20배 이상 높 아 방제 효과 측 면 에서 화학농약을 완 전 히 대체 가능</td></tr><tr><td></td><td>· 식물에 기생하는 선 충 류, 토 양해 충 및 토 양매개 질 병 을 예방하고 방제할 수 있는 미생물 기반 농약 출시 · 선 충 류 및 해 충 의 성장을 죽 이거나 억 제할 수 있고 뿌리 썩 음 병 , 마름 병 및 녹 색병 과 같은 특 정 식물의 질 병 방제가능</td></tr><tr><td></td><td>· 축 적된 미생물 개 량 및 발효 기술을 기반으로 자연식품에 존 재하는 성분과 동일한 형태의 조미소재를 개발하는 식품첨가제 부문과 사료용 아 미 노 산, 효소 등을 생산하는 사료첨가제 부문으로 구분 · 미생물이 당이 풍 부한 식물성 원료를 먹 고 생산해내는 산출물을 토 대로 8 대 사료용 아 미 노 산인 라이신, 쓰레 오 닌 , 트 립토 판, 발린, 메 치오 닌 ,</td></tr><tr><td>(미국) U pside Food</td><td>· 업사이드푸드는 현 존 배양 육 업체 중에서는 가장 먼 저 설립 된 기업으로, 유전자 조작 기술을 사용(유전자 조작 세포 주 활용)해 배양 육 개발 · 2023년 6 월, 해당 기업에서 개발한 세포 배양 닭 고기가 美 농 무 부 ( U SDA)의 생산 및 판매 승 인 취 득 · 콩 뿌리에서 추출한 레 그 헤 모 글 로 빈 유전자를 활용해 생산한 헴 (he m e)</td></tr><tr><td></td><td>성분으로 대체식품(대체 육 )을 제조하는 기업 · 식물성 원료에서 대체 육 을 구성할 단백질, 지방질, 미 네랄 등 주요 성분을 추출한 뒤 발효 및 배양 과정을 거 쳐 실 제 고기의 분자 구성을</td></tr><tr><td></td><td>· 소의 줄 기 세포 를 추출해 만 든 배양 육 개발 기업으로, 미 세 식용 섬 유로 고기 형태를 제작하고 고 깃 결과 마 블링 을 구현 · 덩 어리 육 ( w hole-c u t m e a t) 형태의 배양 육 제작 기술을 보유하고 있으며,</td></tr><tr><td>(한국) 티 센바이오 팜</td><td>버 섯 · 채 소 등을 녹 여 만드는 식용 바이오 잉 크 및 이를 활용한 미 세 식용 섬 유 제작 기술 보유</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "bfbc11cb-0a19-4142-874f-6fabdd9cc4d2",
+        "page_number": [
+          30
+        ],
+        "item_label": "table",
+        "index": 330,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "prev_content": "137e786b-96f4-4b12-ac1a-57929cf62f2f",
+        "next_content": "c3961f41-e176-4d49-935d-f61247bba180"
+      }
+    },
+    {
+      "page_content": "-30 -",
+      "meta_data": {
+        "chunk_id": "c3961f41-e176-4d49-935d-f61247bba180",
+        "page_number": [
+          30
+        ],
+        "item_label": "text",
+        "index": 331,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# Ⅳ. 결론 및 시사점",
+      "meta_data": {
+        "chunk_id": "523b8f5c-ebf3-4e66-8a1b-2d0aa5629881",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 332,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 푸드테크의 도입으로 식품산업의 패러다임이 변화하는 추세",
+      "meta_data": {
+        "chunk_id": "5fc3a331-5a2a-43aa-8723-a20f309c1752",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 333,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 식품과 기술의 융복합을 통해 산업 전 분야의 가치사슬이 재편되고 있으며, 특히 △효율성 △안전성 △지속가능성 측면에서 효용 발생",
+      "meta_data": {
+        "chunk_id": "31cb0a40-487b-4330-af68-e1b2ade05a20",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 334,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-( 효 율성) 생산 · 물류 · 판매 · 서비스 등 가치사 슬 전 단계에 기술을 접목 하여 개선된 프로 세 스를 통해 효율성 및 생산성 향상",
+      "meta_data": {
+        "chunk_id": "6300ca0a-d04a-48bd-87da-9ad024822470",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 335,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(안전성) 식품 가공 및 패 키 징 등에 있어 로봇의 활용이나 위생 관 련 기술의 상용화 등으로 식품의 안전성 제고",
+      "meta_data": {
+        "chunk_id": "b6c5dc03-c3e5-4b6d-8f41-48aa933bbf65",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 336,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(지속가능성) 농작물 재배부터 음식물 폐 기 까 지 식품 각 과정에 푸드테 크가 도 입 되며 환 경 친 화적인 작업 수행 및 불 필요한 낭 비를 줄임 으로써 지속가능성 확 대에 기여",
+      "meta_data": {
+        "chunk_id": "0752c3c2-b13f-4b25-a942-5173387c8639",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 337,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 푸드테크는 현재 식품산업이 직면한 위기를 극복할 수 있는 대안으로 인식",
+      "meta_data": {
+        "chunk_id": "2801d36d-877d-4169-a2b4-0ae3b064d3c5",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 338,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-인구 증가로 인한 식 량 안보, 기후 변 화 및 자원 고 갈 에 대한 지속가능성 추구, 안전하고 건강 한 식품에 대한 소비자 요구 증가, 노 동력 부족 및 고 임 금 으로 인한 인력 난 등의 문제를 해결할 수 있는 농식품 산업의 미래 성장을 이 끌 방안으로 주 목",
+      "meta_data": {
+        "chunk_id": "6095a060-0846-4f50-9122-ae033b80b62a",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 339,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 국내 푸드테크 산업의 기술 수준과 기업 규모는 선도국 대비 상대적으로 낮으나 향후 성장이 기대되는 수준으로 평가",
+      "meta_data": {
+        "chunk_id": "222d0e2e-6112-4996-87de-5713ab95d587",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 340,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 현재 전 세계 푸드테크 시장을 선도하는 국가는 미국으로 나타나며, 이 외 영국, 중국 등도 경쟁력을 보유",
+      "meta_data": {
+        "chunk_id": "dc3ebd12-4565-4038-9f85-7a3e34c150d9",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 341,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 한국의 푸드테크 스타트업 규모는 상대적으로 작은 편이며, 온라인 주문 및 배달 분야에 가장 높은 경쟁력을 보유",
+      "meta_data": {
+        "chunk_id": "e1c73f09-906f-40fd-bdc0-34816cc3e219",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 342,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-반 면 고도화된 IT 기술력을 바탕으로 푸드테크 산업 발전 가능성은 높은 것 으로 평 가되며, 다양한 분 야 로의 투 자 및 지원, 정 책 적 기반 마 련 및 규 제 완 화 등을 통해 시장은 더 욱 발전할 수 있을 것 으로 기대",
+      "meta_data": {
+        "chunk_id": "4ddea061-1af7-41db-9093-2bd728fd0f51",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 343,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-31 -",
+      "meta_data": {
+        "chunk_id": "fa35129d-ba32-4ed6-accd-77cc43355822",
+        "page_number": [
+          31
+        ],
+        "item_label": "text",
+        "index": 344,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><caption>&lt;표 Ⅳ -1&gt; 주요국별 푸드테크 산업 경 쟁력 비 교</caption><tbody><tr><th>구분</th><th>미국</th><th>중국</th><th>영국</th><th>한국</th></tr><tr><td>대체식품</td><td>높 음</td><td>중간</td><td>비 교 적 높음</td><td>낮 음</td></tr><tr><td>식단 개인화 (맞 춤 형 식단)</td><td>비 교 적 높음</td><td>중간</td><td>중간</td><td>낮 음</td></tr><tr><td>친환 경 패 키 징</td><td>중간</td><td>낮 음</td><td>중간</td><td>낮 음</td></tr><tr><td>온라인 주문 · 배달</td><td>높 음</td><td>높 음</td><td>비 교 적 높음</td><td>높 음</td></tr><tr><td>생물학적 보 존 법</td><td>중간</td><td>낮 음</td><td>중간</td><td>낮 음</td></tr><tr><td>자동화 · 로봇</td><td>높 음</td><td>비 교 적 높음</td><td>낮 음</td><td>중간</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "31c3b322-2e48-494e-8339-1ae5f00e52de",
+        "page_number": [
+          32
+        ],
+        "item_label": "table",
+        "index": 345,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "523b8f5c-ebf3-4e66-8a1b-2d0aa5629881",
+        "prev_content": "fa35129d-ba32-4ed6-accd-77cc43355822",
+        "next_content": "ce7703d0-78c9-4d64-b2fa-9ac9d7529095"
+      }
+    },
+    {
+      "page_content": "*출 처 : 삼 일P wC 경 영 연구원( 검색 일: 202 4. 0 7. 2 5 )",
+      "meta_data": {
+        "chunk_id": "ce7703d0-78c9-4d64-b2fa-9ac9d7529095",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 346,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "□ 국내 푸드테크 산업의 경쟁력 제고를 위해 기술 개발에 대한 지원 및 투자 확대, 전문인력 양성 등이 필요",
+      "meta_data": {
+        "chunk_id": "433758b1-c190-4c45-8b68-157ca06c2696",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 347,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 푸드테크는 농식품 산업 전 과정에서 부가가치를 창출하는 중요한 요소로, 산업 육성을 위한 정부 차원의 정책적 지원이 적극적으로 추진 중",
+      "meta_data": {
+        "chunk_id": "faaebefa-84da-4ecc-90fc-ddea1782c143",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 348,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "◦ 다만 푸드테크 산업의 지속적인 성장을 위해서는 인력, 시설 및 장비, 제도 등에 대한 개선이 필요한 것으로 나타남",
+      "meta_data": {
+        "chunk_id": "cdaf806d-826a-45a3-b0d0-948a48b12fca",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 349,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(인 력 ) 식품과 기술이 융복 합된 전문인력에 대한 교 육 과정 및 전문가 정보가 불충 분한 상 황 으로, 전문인력 양성이 요구됨",
+      "meta_data": {
+        "chunk_id": "b351a5aa-a5b1-4d9b-8336-136eb769f355",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 350,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(시 설 ·장비) 고가의 푸드테크 관 련 시 설 및 장비에 대한 개 별 기업의 자체적인 접근 성은 매 우 낮 은 실 정이 므 로 이에 대한 방안 마 련 필요",
+      "meta_data": {
+        "chunk_id": "596d1b37-5ad7-407c-a839-00ece7660d3e",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 351,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-(제도) 최근 자율주행로봇 및 그린바이오 육 성과 같은 정부 차원의 법 제도 마 련 이 이 뤄 지고 있으나, 식물성 대체식품 등 타 부문의 푸드테크 관 련 기 준 이나 규격 은 명 확히 정비되어 있지 않 은 상 황 으로 향후 푸드 테크 시장 확 대에 중 점 을 둔 기 준 및 제도 마 련 이 필요",
+      "meta_data": {
+        "chunk_id": "a3f0c5a4-ea54-4c84-bf95-7f325552ec21",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 352,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "-32 -",
+      "meta_data": {
+        "chunk_id": "d0736165-9b78-4ac2-9079-0494e50e609e",
+        "page_number": [
+          32
+        ],
+        "item_label": "text",
+        "index": 353,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "# ※ 참고문헌 및 참고사이트",
+      "meta_data": {
+        "chunk_id": "79f1e158-7b61-4fe7-a913-a378ef88fc2d",
+        "page_number": [
+          33
+        ],
+        "item_label": "text",
+        "index": 354,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>1</td><td>한국로봇산업진 흥 원(htt ps :// www.k i r i a. o r g/)</td></tr><tr><td>2</td><td>A maz on W e b Se rv ice s (htt ps :// aws.amaz on . co m /)</td></tr><tr><td>3</td><td>Google C lo ud (htt ps ://clo ud. google . co m /)</td></tr><tr><td>4</td><td>IB M (htt ps :// www. i bm. co m /)</td></tr><tr><td>5</td><td>SAS 인사이트(htt ps :// www.sas. co m /)</td></tr><tr><td>6</td><td>St a ti s t a (htt ps :// www.s t a ti s t a. co m /)</td></tr><tr><td>7</td><td>그린바이오 산업 육 성전 략 , 농 림축 산식품부(2023 . 0 6 )</td></tr><tr><td>8</td><td>농식품산업의 혁 신성장을 위한 푸드테크 산업 발전방안, 관계부 처 합동(2022 . 12)</td></tr><tr><td>9</td><td>대체단백질식품 생산 기술동향, 박 성 권 ( 세 종대학 교 식품생명공학부)</td></tr><tr><td>10</td><td>식의약 R &amp; D 이 슈 보고서 - 푸드테크, 식품의약품안전 처 (2022 . 0 6 )</td></tr><tr><td>11</td><td>푸드테크 혁 신 트 렌 드와 미래 전 망 , 한국농 촌 경제연구원</td></tr><tr><td>12</td><td>푸드테크의 시대가 온다- 1부 . R o b ot s in F oo d Tech, 삼 일P wC 경 영 연구원(2022 . 10)</td></tr><tr><td>13</td><td></td></tr><tr><td>1 4</td><td>푸드테크의 시대가 온다- 2부 . 대체식품, 삼 일P wC 경 영 연구원(2023 . 0 7 ) R o b otIP 협 동로봇 특집편 , 특 허청 (2021 . 0 5 )</td></tr><tr><td>1 5</td><td>&quot; AI로 참 치 잡 고 등 급 매기고 &quot;…&#x27; 참 치 회 사 &#x27; 가 AI에 진 심 인 이유, 이데일리(2023 . 0 4. &quot;잘 익 었 네 요 !&quot;…김 치도 AI로 똑똑 하 게 관리한다, AI 타 임 스(2022 . 0 7. 1 4. )</td></tr><tr><td>1 6</td><td>10 . )</td></tr><tr><td>1 7</td><td></td></tr><tr><td></td><td>&#x27; 그린바이오 新 산업 &#x27; 중 기능성 분 야 발전 방안 모 색 , F OOD I C O N (2023 . 02 . 2 4. )</td></tr><tr><td></td><td>&#x27;레벨&#x27; 을 모 르면 &#x27; 자율주행 &#x27; 을 아 는 게 아니 다 ? , T HE DAI L Y POST(2022 . 0 9. 1 4. )</td></tr><tr><td>1 8 1 9</td><td>&#x27;직 원 대신 로봇이 척척&#x27; 8 0만 사장 님 돕 는 기술에 수 천억 몰 린다, 조선일보(202 4. 01 . 30 . )</td></tr><tr><td>20</td><td>&#x27; 신제품 개발부터 광 고 까 지 &#x27; 식품업계도 AI 입 는다, 이 투 데이(202 4. 0 5. 12 . )</td></tr><tr><td>21</td><td>&#x27; 실 험 실 서 만들어도 실 제 같은 쇠 고기 … 맛 보 강 하고 값 은 낮 출 것 &#x27; , 동 아 일보(2023 . 0 7. 0 9. ) &#x27;</td></tr><tr><td>22</td><td>푸드테크 발전이 인구위기 해법 기여할 것 &#x27; , 에 너 지경제(202 4. 0 5. 2 4. )</td></tr><tr><td>23</td><td>202 4 CE S 휩쓴 AI … 격변 기 맞는 식품업계, 준 비태 세 돌입 , 뉴 스원(202 4. 01 . 1 8. )</td></tr><tr><td>2 4</td><td>202 4 푸드테크, 지속가능성 ‧ 건강 ‧ 순환 경제 ‧ 자동화가 발전 이 끌 어, 식품음료신문(202 4. 0 6. 0 7. )</td></tr><tr><td>2 5</td><td>3 색 바이오 기술로 그리는 우 리의 지속가능한 내일, 한화 저 널 (2022 . 0 9. 20 . )</td></tr><tr><td>2 6</td><td>SP C 배스 킨 라 빈 스, AI기술 기반 신제품 ´ 오 렌 지 얼 그 레 이 ´ 출시, 배스 킨 라 빈 스(202 4. 03 . 1 8. )</td></tr><tr><td>2 7</td><td>국가 별 푸드테크 산업 경 쟁 력 비 교 ... &#x27; 한국 위치와 기 회 &#x27; , D X Ti m e s (2023 . 0 4. 22 . )</td></tr><tr><td>2 8</td><td>그린 바이오 (G r een Biotech) 산업의 전 망 , 시 티뉴 스(2023 . 0 6. 1 6. )</td></tr><tr><td>2 9</td><td>그린바이오 : 대체 단백질이 주 목 받는 배경, I R S Glo ba l(2022 . 0 4. 0 8. )</td></tr><tr><td>30</td><td>그린바이오 산업 주요사례, 더바이어(2023 . 0 5. 02 . )</td></tr><tr><td>31</td><td>늙 지 않 는 기술부터 배양 육··· 10대 바이오 유 망 기술 ? , H elloDD . co m (2023 . 03 . 0 7. )</td></tr><tr><td>32 33</td><td>대기업도 사료 · 식품첨가제 개발 … &#x27; 그린바이오는 미래 개 척 지 &#x27; , 서 울 신문(2023 . 11 . 03 . )</td></tr><tr><td>3 4</td><td>로봇이 조리하고 배달 … 외 식업계 &#x27; 무 인화 &#x27; 에 쏠 린 눈 , 민 주신문(2023 . 10 . 10 . ) 맛 의 비법 알 려 주는 AI 나 왔 다, 동 아 사이 언 스(2021 . 0 4. 2 9. )</td></tr><tr><td></td><td>메 가 F TA시대, &#x27; 그린바이오 · 푸드테크 &#x27; 로 여는 농식품산업의 미래, 농수 축</td></tr><tr><td>3 5</td><td>산신문(2023 . 0 6. 30 . )</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "df7c37d7-dd4d-49d2-a84b-267c89daf86d",
+        "page_number": [
+          33
+        ],
+        "item_label": "table",
+        "index": 355,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79f1e158-7b61-4fe7-a913-a378ef88fc2d",
+        "prev_content": "79f1e158-7b61-4fe7-a913-a378ef88fc2d",
+        "next_content": "47cd7651-3deb-451d-b324-5e3c818d78c1"
+      }
+    },
+    {
+      "page_content": "-33 -",
+      "meta_data": {
+        "chunk_id": "47cd7651-3deb-451d-b324-5e3c818d78c1",
+        "page_number": [
+          33
+        ],
+        "item_label": "text",
+        "index": 356,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    },
+    {
+      "page_content": "<table><tbody><tr><td>3 6</td><td>물류위기라더 니 …日 &#x27; 우버 로봇배달 &#x27; 첫번째 글 로 벌 시장 된다, 한국경제(202 4. 02 . 21 . )</td></tr><tr><td>3 7</td><td>미국은 세 계 최 대 생물농약 시장 … 1 4 01개 제품 등록, 영 농자재신문(2020 . 10 . 12 . )</td></tr><tr><td>3 8</td><td>미래 먹 거리 대안으로 떠 오 른 &#x27; 그린바이오 &#x27; , CJ N e wsr oo m (2023 . 03 . 1 6. )</td></tr><tr><td>3 9</td><td>바이오 기술, 대중화 시대 열 리고 있다, L G경 영 연구원(201 6. 01 . 1 9. )</td></tr><tr><td>4 0</td><td>배추 선 별 도, 돼 지 사료도 ...CJ 제일제당, &#x27; AI &#x27; 로 제품 혁 신, 포쓰저 널 (2023 . 0 9. 11 . )</td></tr><tr><td>4 1</td><td>소 도 살 없 이 &#x27; 맛 있는 고기 &#x27; 먹 는다 … 입맛 돋 우 는 &#x27; K 배양 육 기술 &#x27; , 머 니투 데이(202 4. 03 . 0 9. )</td></tr><tr><td>4 2</td><td>식품 ·외 식 AI 등 신기술로 Z세 대와 소통, 식품음료신문(202 4. 0 4. 02 . ) 식품 ·외 식업계, 매장 관리부터 제품 개발 까 지 AI 활용 속도, 식품 외 식경제(202 4. 0 6. 12 . )</td></tr><tr><td>4 3</td><td></td></tr><tr><td>44</td><td>식품산업의 미래, &#x27; 푸드테크 &#x27; 가 대 세 다 ㊥ 기술 및 발전 양상 4 가지, 중소기업 투 데이(2023 . 0 6. 0 4. )</td></tr><tr><td>45</td><td>식품업계도 AI 무 장 … 흠 집 배추 골 라내고, 참 치 작은 뼈 까 지 탐 지, 매일경제(2023 . 02 . 01 . )</td></tr><tr><td>46</td><td>식품첨가물 제조에 사용할 안전성 확 보된 미생물 종류 확 대, 식약일보(2023 . 0 6. 20 . )</td></tr><tr><td>47</td><td>신제품 출시도, 고객 관리도 … 식품 ·외 식업계 스며 든 푸드테크, 뉴 데일리경제(202 4. 0 5. 10 . )</td></tr><tr><td>48</td><td>애플 자율주행 출신 스 타 트업, 라이다 없 는 자율주행 배송 로봇 출시, AI 타 임 스(202 4. 0 7. 2 4. )</td></tr><tr><td>49</td><td>올 해부터 길 거리에 배달용 자율주행 로봇이 달린다, 동 아 사이 언 스(202 4. 02 . 10 . )</td></tr><tr><td>5 0</td><td>인공지능(AI)은 어 떻 게 발달해 왔 는가, 인공지능의 역 사, NV IDIA K o r e a (201 6. 03 . 13 . )</td></tr><tr><td>5 1</td><td>인생은 고기서 고기 … &#x27;임 파 서 블 푸드 &#x27; , Byline N et w o rk (2022 . 01 . 1 7. ) )</td></tr><tr><td>5 2</td><td>자율주행을 위한 필수 기술, ADAS 기술과 원리는 ? , 현대자동차그 룹 (2022 . 03 . 1 7.</td></tr><tr><td></td><td>참 치 탐색 부터 뼈 솎 아 내기 까 지 ... 동원그 룹 AI 전방위 활용, 포쓰저 널 (2023 . 0 9. 1 5. )</td></tr><tr><td>5 3</td><td>찾 아 라, 미래 보물 &#x27;토 양 마이크로바이 옴&#x27; , 농업인신문(2023 . 0 5. 2 6. )</td></tr><tr><td>54</td><td>트 켄 , 배달 로봇에 레벨4 수 준 자율주행 기능 탑재, Be ma x Technology(2022 . 11 . 0 8. )</td></tr><tr><td>55</td><td>카</td></tr><tr><td>56 57</td><td>푸드테크산업 어 디까 지 왔 나, 선진국과 기술 격 차는 ? , 이 코 리 아 (2023 . 0 6. 0 7. ) R o b otic s in F oo d tech: A L oo k a t the Inno va tion s C h a nging the F oo d In dus t r y, E ATAB LE</td></tr><tr><td>58</td><td>AD VEN T URE S(2023 . 0 8. 23 . ) 5 E x amp le s of Biotechnology in Ag r ic u lt ur e, Fru itg r o w e rs (2021 . 12 . 2 5. ) Ag</td></tr><tr><td></td><td>r ic u lt ura l Biotechnology Mark et Si z e, Sh ar e, a n d T r en ds 202 4 to 203 4 , P r ece</td></tr><tr><td>59</td><td>d ence e s e ar ch(202 4. 0 7 ) in F oo d a n d Be v e ra ge s Mark et Si z e, Sh ar e, a n d T r en ds 202 4 to 2033, P r ece d</td></tr><tr><td>6 0</td><td>R AI ence R e s e ar ch(202 4. 02)</td></tr><tr><td>6 1</td><td>An u n d e r -the- radar s elf- dr i v ing c ar s t ar t up i s l au nching Ca lifo r ni a &#x27; s fi rs t au tono m o us g r oce r y eli v e r y, B U SI NE SS I N SID ER (201 8. 0 8. 2 8. )</td></tr><tr><td>6 2</td><td>d Biotechnology Mark et Si z e to R e a ch U SD 5.68 T r illion b y 2033, BioS pa ce(202 4. 0 4. 03 . )</td></tr><tr><td>6 3</td><td>F inni s h g r oce r y ch a in e x pa n ds r o b otic d eli v e r y to o v e r 100 s to r e s b y ye ar -en d , HEL SI NK TI ME S(202 4. 0 5. 1 5. )</td></tr><tr><td>64 65</td><td>F oo d d eli v e r y r o b ot c ras he s into c ar , flee s s cene of a cci d ent yle(202 4. 01 . 30 . ) F oo d R o b otic s Mark et, Glo ba l Mark et In s ight s (2023 . 10)</td></tr><tr><td>68</td><td>G r een Biotechnology, Stoc k hol m U ni v e rs ity(202 4 ) R o b o mar t a n d U nile v e r l au nch h a iling s e rv ice fo r dr i v e r le ss ice c r e am va</td></tr><tr><td>66 67</td><td>F oo d R o b otic s Mark et, Mark et s a n d Mark et s (2020 . 12) F oo d P a i r ing s h ar e s ho w AI c a n sp ee d up pr o du ct d e v elo pm ent, F oo dNav ig a to r (2023 . 10 . 20 . )</td></tr><tr><td>69</td><td>n s</td></tr><tr><td></td><td>R OBOTI C S &amp; A U TO M ATIO N (2022 . 0 8. 0 5. )</td></tr></tbody></table>",
+      "meta_data": {
+        "chunk_id": "c6308217-0156-487c-a2f6-20ac3b1e604f",
+        "page_number": [
+          34
+        ],
+        "item_label": "table",
+        "index": 357,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": "79f1e158-7b61-4fe7-a913-a378ef88fc2d",
+        "prev_content": "47cd7651-3deb-451d-b324-5e3c818d78c1",
+        "next_content": "2888ac8b-1e04-4500-bd91-41adf6dc2286"
+      }
+    },
+    {
+      "page_content": "-34 -",
+      "meta_data": {
+        "chunk_id": "2888ac8b-1e04-4500-bd91-41adf6dc2286",
+        "page_number": [
+          34
+        ],
+        "item_label": "text",
+        "index": 358,
+        "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+        "hierarchy": null
+      }
+    }
+  ],
+  "metadata": {
+    "toc": "# 글로벌 푸드테크 기술동향\n# [ 목 차 ]\n# 글로벌 푸드테크 기술동향\n# 1. 푸드테크 개요\n# 2. 푸드테크 기술동향\n# 3. 푸드테크 적용 사례\n# 4. 결론 및 시사점\n# Ⅰ. 푸드테크 개요\n# 1. 푸드테크 정의 및 개념\n# 2. 푸드테크 산업 현황\n# <표 Ⅰ-1> 세계 주요 조사기관별 글로벌 푸드테크 산업 규모 및 전망치\n# Ⅱ. 푸드테크 기술동향\n# 1. 자율주행기술\n# 2. 인공지능(AI)\n# 3. 푸드테크 로봇\n# <표 Ⅱ-8> 푸드테크 로봇 예시 -농식품산업 적용\n# 4. 바이오 기술\n# Ⅲ. 푸드테크 적용 사례\n# 1. 자율주행기술\n# <표 Ⅲ -2> 푸드테크 기술별 적용 사례 -자율주행기술\n# 2. 인공지능(AI)\n# <표 Ⅲ -3> 푸드테크 기술별 적용 사례 -인공지능(AI)\n# 3. 푸드테크 로봇\n# <표 Ⅲ -4> 푸드테크 기술별 적용 사례 -푸드테크 로봇\n# 4. 바이오 기술\n# <표 Ⅲ -5> 푸드테크 기술별 적용 사례 -그린바이오 기술\n# Ⅳ. 결론 및 시사점\n# ※ 참고문헌 및 참고사이트",
+    "document_id": "893772b4-39af-58a0-9258-e4852a82ca99",
+    "timestamp": "2025-07-17T07:38:58.454003Z",
+    "document_file_path": "/app/output/18f6b596-8a34-431f-bc1d-df86a0ca66cc/글로벌 푸드테크 기술동향.pdf",
+    "document_title": "글로벌 푸드테크 기술동향"
+  }
+}

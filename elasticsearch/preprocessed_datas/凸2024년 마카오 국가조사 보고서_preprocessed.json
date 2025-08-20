@@ -1,0 +1,2004 @@
+[
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망",
+    "name": "3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망",
+    "meta_data": {
+      "chunk_id": "8a68c5de-d158-470d-8293-02a767a02ee2",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8a68c5de-d158-470d-8293-02a767a02ee2"
+      ],
+      "chunked_count": 1,
+      "index": 5,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 38,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "3-1오프라인 유통채널 전망 3-2온라인 유통채널 전망"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2 식품 유통현황\n\n1 국가 개황 3 수출품목 소비트렌드\n1-1국가 개관 1-2경제지표\n1-3농업현황 1 수출품목 1-1수출품목 선정기준\n1-4FTA체결현황 1-2한국산 수출품목\n2 식품 시장규모 2 소비트렌드\n3 식품 소비규모\n3-11인당 식품 소비액 3-21인당 식품 소비량 4 수출절차\n4 식품 시장전망 수출입절차\n5 식품 수출현황 통관 및 검역제도\n5-1수출국 3 수출가능·불가능품목\n5-2수출품목\n3-1수출가능품목\n6 식품 수입현황 3-2수출불가능품목\n6-1수입국 6-2수입품목 5 비관세장벽\n7 對마카오 한국산 수출현황 1 라벨링제도\n7-1부문별 수출현황 1-1주요 라벨링 표기사항\n7-2수출품목 1-2라벨링 예시\n식품 유통현황 2 인증제도\n1 오프라인 유통현황 통관거부사례\n1-1오프라인 유통채널 규모 4 비관세장벽 이슈\n1-2오프라인 유통채널 매장 수 1-3오프라인 유통채널 브랜드 점유율 6 요약\n1-4주요 오프라인 유통채널\n2 온라인 유통현황 1 보고서 소개\n2-1온라인 유통채널 규모 2-2온라인 유통채널 점유율 2-3주요 온라인 유통채널\n규모\n3 유통채널 전망",
+    "name": "2 식품 유통현황",
+    "meta_data": {
+      "chunk_id": "3205352e-46f5-439b-b827-b2028c2e1b86",
+      "page_number": [
+        2
+      ],
+      "item_label": "merged",
+      "index": 6,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2 식품 유통현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ebe037ab-6a9e-4b58-a13d-1742b04459b6",
+          "content": "<table><tbody><tr><td>1</td><td>국가 개황</td><td>3</td><td>수출품목</td><td></td><td>소비트렌드</td></tr><tr><td></td><td>1-1국가 개관 1-2경제지표</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>1-3농업현황</td><td></td><td colspan=\"3\">1 수출품목 1-1수출품목 선정기준</td></tr><tr><td></td><td>1-4FTA체결현황</td><td></td><td colspan=\"3\">1-2한국산 수출품목</td></tr><tr><td>2</td><td>식품 시장규모</td><td></td><td colspan=\"3\">2 소비트렌드</td></tr><tr><td>3</td><td>식품 소비규모</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>3-11인당 식품 소비액 3-21인당 식품 소비량</td><td>4</td><td colspan=\"3\">수출절차</td></tr><tr><td>4</td><td>식품 시장전망</td><td></td><td colspan=\"3\">수출입절차</td></tr><tr><td>5</td><td>식품 수출현황</td><td></td><td colspan=\"3\">통관 및 검역제도</td></tr><tr><td></td><td>5-1수출국</td><td></td><td colspan=\"3\">3 수출가능·불가능품목</td></tr><tr><td></td><td>5-2수출품목</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\">3-1수출가능품목</td></tr><tr><td>6</td><td>식품 수입현황</td><td></td><td colspan=\"3\">3-2수출불가능품목</td></tr><tr><td></td><td>6-1수입국 6-2수입품목</td><td>5</td><td colspan=\"3\">비관세장벽</td></tr><tr><td>7</td><td>對마카오 한국산 수출현황</td><td></td><td colspan=\"3\">1 라벨링제도</td></tr><tr><td></td><td>7-1부문별 수출현황</td><td></td><td colspan=\"3\">1-1주요 라벨링 표기사항</td></tr><tr><td></td><td>7-2수출품목</td><td></td><td colspan=\"3\">1-2라벨링 예시</td></tr><tr><td>식품</td><td>유통현황</td><td></td><td colspan=\"3\">2 인증제도</td></tr><tr><td>1</td><td>오프라인 유통현황</td><td></td><td colspan=\"3\">통관거부사례</td></tr><tr><td></td><td>1-1오프라인 유통채널 규모</td><td></td><td>4</td><td colspan=\"2\">비관세장벽 이슈</td></tr><tr><td></td><td>1-2오프라인 유통채널 매장 수 1-3오프라인 유통채널 브랜드 점유율</td><td>6</td><td colspan=\"3\">요약</td></tr><tr><td></td><td>1-4주요 오프라인 유통채널</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td>온라인 유통현황</td><td></td><td>1</td><td>보고서 소개</td><td></td></tr><tr><td></td><td>2-1온라인 유통채널 규모 2-2온라인 유통채널 점유율 2-3주요 온라인 유통채널</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>규모</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td>유통채널 전망</td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 1.1.1 국가 개관\n\n인구 (2024년 추정치) 644426명 전 세계 170위\n민족구성 (2022년 추정치) 중국인 89.4% 중국인 및 포르투갈인 1% 포르투갈인 0.8% 중국인 및 비포르투갈인 0.2% 포르투갈인 및 기타 0.2% 기타 8.5%\n언어 (2021년 추정치) 광둥어 81% 만다린어 4.7% 기타 중국어 방언 5.4% 영어 3.6% 타갈로그어 2.9% 포르투갈어 0.6% 기타 1.8%\n종교 (2020년 추정치) 민속종교 58.9% 불교 17.3% 기독교 7.2% 기타 1.2% 무종교 15.4%\n연령구조 (2023년 추정치) 0~14세: 14.4% (남성 47346명/여성 45216명) 15~64세: 69.9% (남성 210059명/여성 240577명) 65세 이상: 15.7% (2024년 추정) (남성 47583명/여성 53645명)\n중위연령 (2024년 추정치) 전체: 42.5세 전 세계 43위 남성: 41.5세 여성: 43.1세",
+    "name": "1.1.1 국가 개관",
+    "meta_data": {
+      "chunk_id": "abcd2813-f7db-410a-9126-8971152925f8",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 10,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 1.1.1 국가 개관",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "0ee3e575-a1f9-4552-98c1-b2b9bca3dcb3",
+          "content": "<table><tbody><tr><th>인구 (2024년 추정치)</th><th>644,426명, 전 세계 170위</th></tr><tr><td>민족구성 (2022년 추정치)</td><td>중국인 89.4%, 중국인 및 포르투갈인 1%, 포르투갈인 0.8%, 중국인 및 비포르투갈인 0.2%, 포르투갈인 및 기타 0.2%, 기타 8.5%</td></tr><tr><td>언어 (2021년 추정치)</td><td>광둥어 81%, 만다린어 4.7%, 기타 중국어 방언 5.4%, 영어 3.6%, 타갈로그어 2.9%, 포르투갈어 0.6%, 기타 1.8%</td></tr><tr><td>종교 (2020년 추정치)</td><td>민속종교 58.9%, 불교 17.3%, 기독교 7.2%, 기타 1.2%, 무종교 15.4%</td></tr><tr><td>연령구조 (2023년 추정치)</td><td>0~14세: 14.4% (남성 47,346명/여성 45,216명) 15~64세: 69.9% (남성 210,059명/여성 240,577명) 65세 이상: 15.7% (2024년 추정) (남성 47,583명/여성 53,645명)</td></tr><tr><td>중위연령 (2024년 추정치)</td><td>전체: 42.5세, 전 세계 43위 남성: 41.5세 여성: 43.1세</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n중국인 89.4%, 중국인 및 포르투갈인 1%, 포르투갈인 0.8%, 중국인 및 비포르투갈인 0.2%, 포르투갈인 및 기타 0.2%, 기타 8.5%\n\n광둥어 81%, 만다린어 4.7%, 기타 중국어 방언 5.4%, 영어 3.6%, 타갈로그어 2.9%, 포르투갈어 0.6%, 기타 1.8%\n\n민속종교 58.9%, 불교 17.3%, 기독교 7.2%, 기타 1.2%, 무종교 15.4%\n\n0~14세: 14.4% (남성 47,346명/여성 45,216명)",
+    "name": "중국인 89.4%, 중국인 및 포르투갈인 1%, 포르투갈인 0.8%, 중국인 및 비포르투갈인 0.2%, 포르투갈인 및 기타 0.2%, 기타 8.5%",
+    "meta_data": {
+      "chunk_id": "579abbb0-5032-4296-9f25-4f3a35bb64cc",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "579abbb0-5032-4296-9f25-4f3a35bb64cc",
+        "525f47e4-62d7-4981-a535-6d85870b3589",
+        "b54c8676-eb7d-4142-b545-c88ad656d7c4",
+        "df316578-65ee-4b43-bf0c-29dde834ec12"
+      ],
+      "chunked_count": 4,
+      "index": 18,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 249,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "중국인 89.4%, 중국인 및 포르투갈인 1%, 포르투갈인 0.8%, 중국인 및 비포르투갈인 0.2%, 포르투갈인 및 기타 0.2%, 기타 8.5%"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 1.1.2 경제지표\n\n실질GDP (2021년 달러 기준) $71.837십억 (2023년 추정치) 전 세계 108위 $39.791십억 (2022년 추정치) $50.626 십억 (2021년 추정치)\n실질GDP 성장률 80.53% (2023년 추정치) 전 세계 1위 -21.40% (2022년 추정치)\n1인당 실질GDP (2021년 달러 기준) $102000 (2023년 추정치) 전 세계 6위 $57200 (2022년 추정치) $73700 (2021년 추정치.)",
+    "name": "1.1.2 경제지표",
+    "meta_data": {
+      "chunk_id": "190b83c0-1d54-4609-a8f8-d298db7be3e4",
+      "page_number": [
+        3
+      ],
+      "item_label": "merged",
+      "index": 51,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 1.1.2 경제지표",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "06bff158-aaf2-4b32-a0cc-f2868cc45718",
+          "content": "<table><tbody><tr><td>실질GDP (2021년 달러 기준)</td><td>$71.837십억 (2023년 추정치), 전 세계 108위 $39.791십억 (2022년 추정치) $50.626 십억 (2021년 추정치)</td></tr><tr><td>실질GDP 성장률</td><td>80.53% (2023년 추정치), 전 세계 1위 -21.40% (2022년 추정치)</td></tr><tr><td>1인당 실질GDP (2021년 달러 기준)</td><td>$102,000 (2023년 추정치), 전 세계 6위 $57,200 (2022년 추정치) $73,700 (2021년 추정치.)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n$71.837십억 (2023년 추정치), 전 세계 108위",
+    "name": "$71.837십억 (2023년 추정치), 전 세계 108위",
+    "meta_data": {
+      "chunk_id": "d2cd132e-f3fc-4a2c-bea5-5046bf609782",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d2cd132e-f3fc-4a2c-bea5-5046bf609782"
+      ],
+      "chunked_count": 1,
+      "index": 56,
+      "page_number": [
+        3
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 25,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "$71.837십억 (2023년 추정치), 전 세계 108위"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 1.1.3 농업현황\n\n농업 GDP 비중 (2023년 추정치) 데이터 없음\n주요 생산품 (2022년 추정치) 돼지고기 닭고기 소고기 계란 돼지고기 곱창 돼지고기 지방 후추 소고기 곱창 소 가죽 거위 고기",
+    "name": "1.1.3 농업현황",
+    "meta_data": {
+      "chunk_id": "abd2ad35-4a3a-4a7a-98d4-9f78cf546a1a",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 76,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 1.1.3 농업현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "0d2af1f1-f45b-4d0f-93ee-2eeff31a2540",
+          "content": "<table><tbody><tr><td>농업 GDP 비중 (2023년 추정치)</td><td>데이터 없음</td></tr><tr><td>주요 생산품 (2022년 추정치)</td><td>돼지고기, 닭고기, 소고기, 계란, 돼지고기 곱창, 돼지고기 지방, 후추, 소고기 곱창, 소 가죽, 거위 고기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# <FTA 체결현황>\n\n구분 내용\n마카오의 체결현황 1) 기체결(발효) 해당사항\n우리나라와의 2) 발효 해당사항 없음\n서명/타결 해당사항 없음\n체결현황 협상 중 해당사항 없음\n재개·개시·여건조성 해당사항 없음",
+    "name": "<FTA 체결현황>",
+    "meta_data": {
+      "chunk_id": "13b4d1da-1f17-458a-8fc5-4a7f9ef731cb",
+      "page_number": [
+        4
+      ],
+      "item_label": "merged",
+      "index": 105,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# <FTA 체결현황>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d059f96c-2e79-4ae9-8ec9-e2ebea6087af",
+          "content": "<table><tbody><tr><th colspan=\"2\">구분</th><th>내용</th></tr><tr><td>마카오의 체결현황 1)</td><td>기체결(발효)</td><td>해당사항</td></tr><tr><td rowspan=\"4\">우리나라와의 2)</td><td>발효</td><td>해당사항 없음</td></tr><tr><td>서명/타결</td><td>해당사항 없음</td></tr><tr><td>체결현황</td><td>협상 중</td><td>해당사항 없음</td></tr><tr><td>재개·개시·여건조성</td><td>해당사항 없음</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)",
+    "name": "*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)",
+    "meta_data": {
+      "chunk_id": "2ecf4020-fc4a-4494-8b3f-99041a1a3845",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "2ecf4020-fc4a-4494-8b3f-99041a1a3845"
+      ],
+      "chunked_count": 1,
+      "index": 109,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 33,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "*출처: 산업통상자원부 FTA 강국, KOREA(www.fta.go.kr)"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2020년(최신자료) 마카오의 식품 소매시장 규모는 전년 대비 4.1% 증가한 6억 4,400만 달러로 집계되었다. 동년 전체 소매시장 규모는 56억 5,000만 달러이며 이 중 식품 소매시장이 차지하는 비중은 약 11%로 나타났다.1)\n\n2019년(최신자료) 마카오 외식시장 규모는 약 122억 마카오달러로 전년 대비 4.1% 증가했으며, 자재 구매비용은 42억 7,000만 마카오달러로 전년 대비 1.3% 증가했다. 2019년(최신자료) 식당 및 유사시설은 2,341개로 전년 대비 76개 증가하였으며, 관련 종사자 수는 3만 3,885명으로 전년 대비 412명이 증가한 것으로 집계되었다.",
+    "name": "2020년(최신자료) 마카오의 식품 소매시장 규모는 전년 대비 4.1% 증가한 6억 4,400만 달러로 집계되었다. 동년 전체 소매시장 규모는 56억 5,000만 달러이며 이 중 식품 소매시장이 차지하는 비중은 약 11%로 나타났다.1)",
+    "meta_data": {
+      "chunk_id": "a2f1cb3c-cc67-4a1e-9907-8adce9bae990",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a2f1cb3c-cc67-4a1e-9907-8adce9bae990",
+        "474f5d27-bd59-4927-ac7e-f3dd6abe34ae"
+      ],
+      "chunked_count": 2,
+      "index": 116,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 333,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2020년(최신자료) 마카오의 식품 소매시장 규모는 전년 대비 4.1% 증가한 6억 4,400만 달러로 집계되었다. 동년 전체 소매시장 규모는 56억 5,000만 달러이며 이 중 식품 소매시장이 차지하는 비중은 약 11%로 나타났다.1)"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# <마카오 식당 및 유사 시설 주요 지표(2019년)>\n\n메뉴에 따른 분류 매장 수 종사자 수 총 수익 자재 구매비\n전체(2019년) 2341 33885 12198 4274\n- 중식 식당 671 14325 5411 2102\n- 로컬 식당 896 9124 2699 858\n- 서양식 식당 191 3353 1230 398\n- 한식·일식 식당 145 2364 882 334\n- 기타 아시아 식당 110 1196 362 126\n- 패스트 푸드점 47 1100 827 216\n- 커피 전문점 120 830 321 74\n- 바&amp;라운지 34 319 73 30\n기타 78 149 38 16\n\n1) 「2021 마카오 국가보고서」(한국농수산식품유통공사)",
+    "name": "<마카오 식당 및 유사 시설 주요 지표(2019년)>",
+    "meta_data": {
+      "chunk_id": "4c5268bb-759b-44ff-b948-251819ca9371",
+      "page_number": [
+        5
+      ],
+      "item_label": "merged",
+      "index": 119,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# <마카오 식당 및 유사 시설 주요 지표(2019년)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "83fe2738-38d4-4b92-880e-0d81006411be",
+          "content": "<table><tbody><tr><th>메뉴에 따른 분류</th><th>매장 수</th><th>종사자 수</th><th>총 수익</th><th>자재 구매비</th></tr><tr><td>전체(2019년)</td><td>2,341</td><td>33,885</td><td>12,198</td><td>4,274</td></tr><tr><td>- 중식 식당</td><td>671</td><td>14,325</td><td>5,411</td><td>2,102</td></tr><tr><td>- 로컬 식당</td><td>896</td><td>9,124</td><td>2,699</td><td>858</td></tr><tr><td>- 서양식 식당</td><td>191</td><td>3,353</td><td>1,230</td><td>398</td></tr><tr><td>- 한식·일식 식당</td><td>145</td><td>2,364</td><td>882</td><td>334</td></tr><tr><td>- 기타 아시아 식당</td><td>110</td><td>1,196</td><td>362</td><td>126</td></tr><tr><td>- 패스트 푸드점</td><td>47</td><td>1,100</td><td>827</td><td>216</td></tr><tr><td>- 커피 전문점</td><td>120</td><td>830</td><td>321</td><td>74</td></tr><tr><td>- 바&amp;라운지</td><td>34</td><td>319</td><td>73</td><td>30</td></tr><tr><td>기타</td><td>78</td><td>149</td><td>38</td><td>16</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "6de36d18-8066-43af-865e-fbbcf9967f98",
+          "content": "1) 「2021 마카오 국가보고서」(한국농수산식품유통공사)"
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n*출처: 「Restaurants and similar establishments survey, 2019(2020.10.)」(DSEC)",
+    "name": "*출처: 「Restaurants and similar establishments survey, 2019(2020.10.)」(DSEC)",
+    "meta_data": {
+      "chunk_id": "544704ea-a279-4850-95e3-3d28bbfc1a2e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "544704ea-a279-4850-95e3-3d28bbfc1a2e"
+      ],
+      "chunked_count": 1,
+      "index": 122,
+      "page_number": [
+        5
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 27,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "*출처: 「Restaurants and similar establishments survey, 2019(2020.10.)」(DSEC)"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 마카오의 식품 수출액은 6,015만 달러로 전년 대비 30.2% 감소했다. 최근 5년간 수출액은 2019년 약 3,020만 달러에서 연평균 18.8% 증가했다.\n\n한국으로의 식품 수출 비중은 0.005%로, 수출 상위 16위에 위치한다. 2023년 수출액은 전년 대비 97.7% 감소한 약 3,000달러로 집계되었다.",
+    "name": "2023년 마카오의 식품 수출액은 6,015만 달러로 전년 대비 30.2% 감소했다. 최근 5년간 수출액은 2019년 약 3,020만 달러에서 연평균 18.8% 증가했다.",
+    "meta_data": {
+      "chunk_id": "96e8dacf-bf6c-4f99-bff4-7fdb503c0217",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "96e8dacf-bf6c-4f99-bff4-7fdb503c0217",
+        "0a2e5890-215f-49be-acf1-ffbc70035cb2"
+      ],
+      "chunked_count": 2,
+      "index": 147,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 169,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 마카오의 식품 수출액은 6,015만 달러로 전년 대비 30.2% 감소했다. 최근 5년간 수출액은 2019년 약 3,020만 달러에서 연평균 18.8% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 주요 수출국\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 30200 30545 55209 86107 60145 100.0 -30.2 18.8\n1 홍콩 17997 20165 46599 62372 40733 67.7 -34.7 22.7\n2 중국 3543 8639 5188 18727 12978 21.6 -30.7 38.3\n3 싱가포르 20 401 34 4033 2894 4.8 -28.2 246.8\n4 베트남 175 0 1210 - 1854 3.1 N/A 80.4\n5 미국 169 202 201 321 830 1.4 158.6 48.9\n6 캐나다 82 99 63 85 227 0.4 167.1 29.0\n7 네덜란드 0 389 12 - 152 0.3 N/A N/A\n8 프랑스 477 312 - 52 132 0.2 153.8 -27.5\n9 일본 4 23 12 51 108 0.2 111.8 128.0\n10 말레이시아 29 78 159 61 86 0.1 41.0 31.2\n16 한국 0 0 - 133 3 0.0 -97.7 N/A",
+    "name": "주요 수출국",
+    "meta_data": {
+      "chunk_id": "dc206dcb-9c0d-459d-ab70-4a6fa3486b29",
+      "page_number": [
+        8
+      ],
+      "item_label": "merged",
+      "index": 150,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 주요 수출국",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "0c59d124-1470-4420-8937-df43c7bd2e83",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td colspan=\"2\">전체</td><td>30,200</td><td>30,545</td><td>55,209</td><td>86,107</td><td>60,145</td><td>100.0</td><td>-30.2</td><td>18.8</td></tr><tr><td>1</td><td>홍콩</td><td>17,997</td><td>20,165</td><td>46,599</td><td>62,372</td><td>40,733</td><td>67.7</td><td>-34.7</td><td>22.7</td></tr><tr><td>2</td><td>중국</td><td>3,543</td><td>8,639</td><td>5,188</td><td>18,727</td><td>12,978</td><td>21.6</td><td>-30.7</td><td>38.3</td></tr><tr><td>3</td><td>싱가포르</td><td>20</td><td>401</td><td>34</td><td>4,033</td><td>2,894</td><td>4.8</td><td>-28.2</td><td>246.8</td></tr><tr><td>4</td><td>베트남</td><td>175</td><td>0</td><td>1,210</td><td>-</td><td>1,854</td><td>3.1</td><td>N/A</td><td>80.4</td></tr><tr><td>5</td><td>미국</td><td>169</td><td>202</td><td>201</td><td>321</td><td>830</td><td>1.4</td><td>158.6</td><td>48.9</td></tr><tr><td>6</td><td>캐나다</td><td>82</td><td>99</td><td>63</td><td>85</td><td>227</td><td>0.4</td><td>167.1</td><td>29.0</td></tr><tr><td>7</td><td>네덜란드</td><td>0</td><td>389</td><td>12</td><td>-</td><td>152</td><td>0.3</td><td>N/A</td><td>N/A</td></tr><tr><td>8</td><td>프랑스</td><td>477</td><td>312</td><td>-</td><td>52</td><td>132</td><td>0.2</td><td>153.8</td><td>-27.5</td></tr><tr><td>9</td><td>일본</td><td>4</td><td>23</td><td>12</td><td>51</td><td>108</td><td>0.2</td><td>111.8</td><td>128.0</td></tr><tr><td>10</td><td>말레이시아</td><td>29</td><td>78</td><td>159</td><td>61</td><td>86</td><td>0.1</td><td>41.0</td><td>31.2</td></tr><tr><td>16</td><td>한국</td><td>0</td><td>0</td><td>-</td><td>133</td><td>3</td><td>0.0</td><td>-97.7</td><td>N/A</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n홍콩 으로의 식품 수출 비중은 67.7%로, 2023년 수출액은 전년 대비 34.7% 감소한 약 4,073만 달러로 집계되었다. 홍콩으로의 식품 수출액은 2019년 이후 연평균 22.7% 증가했다.\n\n중국 으로의 식품 수출 비중은 21.6%로, 2023년 수출액은 약 1,298만 달러로 2022년 대비 30.7% 감소했다. 중국으로의 식품 수출액은 2019년 이후 연평균 38.3% 증가했다.\n\n이 밖에도, 싱가포르(4.8%), 베트남(3.1%), 미국(1.4%) 등으로 식품을 수출하고 있다.\n\n*출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "홍콩 으로의 식품 수출 비중은 67.7%로, 2023년 수출액은 전년 대비 34.7% 감소한 약 4,073만 달러로 집계되었다. 홍콩으로의 식품 수출액은 2019년 이후 연평균 22.7% 증가했다.",
+    "meta_data": {
+      "chunk_id": "d4f55e42-fc74-4de4-a016-53078450c3b1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d4f55e42-fc74-4de4-a016-53078450c3b1",
+        "6bedfafa-e70e-412f-849e-a9933714bebd",
+        "64076908-7e8d-42b8-b7af-3b3013bc3ecd",
+        "62e5c500-9c4a-4b8d-81fe-e289b8eb55e1"
+      ],
+      "chunked_count": 4,
+      "index": 151,
+      "page_number": [
+        8
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 296,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "홍콩 으로의 식품 수출 비중은 67.7%로, 2023년 수출액은 전년 대비 34.7% 감소한 약 4,073만 달러로 집계되었다. 홍콩으로의 식품 수출액은 2019년 이후 연평균 22.7% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 수출액 기준 포도주(2ℓ 이하), 빵(기타), 포도즙증류주, 위스키류, 조제식료품 등 순으로 큰 비중을 차지했다.\n\n포도주(2ℓ 이하) 수출 비중은 40.5%로, 2023년 수출액은 전년 대비 25.2% 감소한 약 2,437만 달러로 집계되었다. 2019년 이후 수출액은 연평균 5.5% 증가했다.\n\n빵(기타) 수출 비중은 14.7%로, 2023년 수출액은 전년 대비 19.0% 감소한 약 886만 달러로 집계되었다. 2019년 이후 수출액은 연평균 9.3% 증가했다.\n\n포도즙증류주 수출 비중은 13.4%로, 2023년 수출액은 전년 대비 33.6% 증가한 약 806만 달러로 집계되었다. 2020년 이후 수출액은 연평균 354.3% 증가했다.\n\n위스키류 수출 비중은 10.8%로, 2023년 수출액은 전년 대비 19.6% 감소한 약 652만 달러로 집계되었다. 2019년 이후 수출액은 연평균 143.0% 증가했다.\n\n조제식료품 수출 비중은 7.3%로, 2023년 수출액은 전년 대비 61.6% 증가한 약 439만 달러로 집계되었다. 2020년 이후 수출액은 연평균 95.3% 증가했다.\n\n이 밖에도, 볶은커피(2.2%), 영유아조제식료품(1.4%), 스위트비스킷(1.3%) 등을 수출했다.",
+    "name": "2023년 수출액 기준 포도주(2ℓ 이하), 빵(기타), 포도즙증류주, 위스키류, 조제식료품 등 순으로 큰 비중을 차지했다.",
+    "meta_data": {
+      "chunk_id": "86ef7700-4477-4830-8ec7-3a7148ca7ebe",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "86ef7700-4477-4830-8ec7-3a7148ca7ebe",
+        "438e423a-cf1b-44db-a053-ae7d11914ea3",
+        "ffe46dec-f6aa-46a6-ac8f-b2db8e65c905",
+        "2bc80b2d-11c5-438c-9b19-483d4e614ffb",
+        "93345ecf-842e-4e08-b47e-79f8e6484d4d",
+        "a78313b2-9ca9-45f8-8ac4-fc40a55d6fde",
+        "66b3ef5c-7fca-4b82-8cee-e4ee0251ab19"
+      ],
+      "chunked_count": 7,
+      "index": 161,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 602,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 수출액 기준 포도주(2ℓ 이하), 빵(기타), 포도즙증류주, 위스키류, 조제식료품 등 순으로 큰 비중을 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# <마카오 수출품목 현황(2019~2023)>\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 30200 30545 55209 86107 60145 100.0 -30.2 18.8\n1 포도주(2ℓ 이하) 19642 13468 30284 32583 24367 40.5 -25.2 5.5\n2 빵(기타) 6199 1930 5314 10942 8862 14.7 -19.0 9.3\n3 포도즙 증류주 0 86 6587 6036 8064 13.4 33.6 354.3\n4 위스키류 187 34 2956 8109 6521 10.8 -19.6 143.0\n5 조제식료품 0 589 0 2715 4388 7.3 61.6 95.3\n6 볶은 커피 125 163 1169 1097 1346 2.2 22.7 81.1\n7 영유아 조제식료품 5 10943 1861 502 813 1.4 62.0 257.1\n8 스위트 비스킷 432 130 391 710 794 1.3 11.8 16.4\n9 발포성 포도주 296 87 1206 1515 705 1.2 -53.5 24.2\n10 홍차(기타) 0 0 801 814 644 1.1 -20.9 N/A",
+    "name": "<마카오 수출품목 현황(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "7ff1adb5-10fe-4d0f-aaf1-b61a0935b1f4",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 169,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# <마카오 수출품목 현황(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "3b827a8e-a610-4d81-bcae-9cd8fa971e46",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2019</th><th>2020</th><td></td><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td colspan=\"2\">전체</td><td>30,200</td><td></td><td>30,545</td><td>55,209</td><td>86,107</td><td>60,145</td><td>100.0</td><td>-30.2</td><td>18.8</td></tr><tr><td>1</td><td>포도주(2ℓ</td><td>이하)</td><td>19,642</td><td>13,468</td><td>30,284</td><td>32,583</td><td>24,367</td><td>40.5</td><td>-25.2</td><td>5.5</td></tr><tr><td>2</td><td colspan=\"2\">빵(기타)</td><td>6,199</td><td>1,930</td><td>5,314</td><td>10,942</td><td>8,862</td><td>14.7</td><td>-19.0</td><td>9.3</td></tr><tr><td>3</td><td>포도즙</td><td>증류주</td><td>0</td><td>86</td><td>6,587</td><td>6,036</td><td>8,064</td><td>13.4</td><td>33.6</td><td>354.3</td></tr><tr><td>4</td><td colspan=\"2\">위스키류</td><td>187</td><td>34</td><td>2,956</td><td>8,109</td><td>6,521</td><td>10.8</td><td>-19.6</td><td>143.0</td></tr><tr><td>5</td><td colspan=\"2\">조제식료품</td><td>0</td><td>589</td><td>0</td><td>2,715</td><td>4,388</td><td>7.3</td><td>61.6</td><td>95.3</td></tr><tr><td>6</td><td colspan=\"2\">볶은 커피</td><td>125</td><td>163</td><td>1,169</td><td>1,097</td><td>1,346</td><td>2.2</td><td>22.7</td><td>81.1</td></tr><tr><td>7</td><td colspan=\"2\">영유아 조제식료품</td><td>5</td><td>10,943</td><td>1,861</td><td>502</td><td>813</td><td>1.4</td><td>62.0</td><td>257.1</td></tr><tr><td>8</td><td colspan=\"2\">스위트 비스킷</td><td>432</td><td>130</td><td>391</td><td>710</td><td>794</td><td>1.3</td><td>11.8</td><td>16.4</td></tr><tr><td>9</td><td colspan=\"2\">발포성 포도주</td><td>296</td><td>87</td><td>1,206</td><td>1,515</td><td>705</td><td>1.2</td><td>-53.5</td><td>24.2</td></tr><tr><td>10</td><td colspan=\"2\">홍차(기타)</td><td>0</td><td>0</td><td>801</td><td>814</td><td>644</td><td>1.1</td><td>-20.9</td><td>N/A</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n*주: HS CODE(2204.21, 1905.90, 2208.20, 2208.30, 2106.90, 0901.21, 1901.10, 1905.31, 2204.10, 0902.40)\n\n**출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "*주: HS CODE(2204.21, 1905.90, 2208.20, 2208.30, 2106.90, 0901.21, 1901.10, 1905.31, 2204.10, 0902.40)",
+    "meta_data": {
+      "chunk_id": "414f39fa-b20d-4cf7-866b-63c9d9cec541",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "414f39fa-b20d-4cf7-866b-63c9d9cec541",
+        "ad61bdcd-56a0-4eae-b6a3-1cd41ed42cfc"
+      ],
+      "chunked_count": 2,
+      "index": 171,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 86,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "*주: HS CODE(2204.21, 1905.90, 2208.20, 2208.30, 2106.90, 0901.21, 1901.10, 1905.31, 2204.10, 0902.40)"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 마카오의 식품 수입액은 약 26억 151만 달러로 전년 대비 11.9% 증가했다. 2019년 이후 식품 수입액은 연평균 11.9% 증가했다.\n\n한국에서의 식품 수입 비중은 1.0%로, 수입 상위 19위에 위치한다. 2023년 수입액은 약 2,539만 달러로 전년 대비 19.6% 증가했다. 2019년 이후 수입액은 연평균 8.0% 증가했다.",
+    "name": "2023년 마카오의 식품 수입액은 약 26억 151만 달러로 전년 대비 11.9% 증가했다. 2019년 이후 식품 수입액은 연평균 11.9% 증가했다.",
+    "meta_data": {
+      "chunk_id": "9bd18285-97f8-409b-aff9-15dd687b33e5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9bd18285-97f8-409b-aff9-15dd687b33e5",
+        "e981a9fd-a584-41fc-bc70-4f043cee2abc"
+      ],
+      "chunked_count": 2,
+      "index": 179,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 192,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 마카오의 식품 수입액은 약 26억 151만 달러로 전년 대비 11.9% 증가했다. 2019년 이후 식품 수입액은 연평균 11.9% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 주요 수입국\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 1659262 1442805 1995816 2324725 2601505 100.0 11.9 11.9\n1 중국 495544 526193 572857 681786 834085 32.1 22.3 13.9\n2 호주 61787 37678 93100 217714 304555 11.7 39.9 49.0\n3 프랑스 134769 96415 312282 334948 288407 11.1 -13.9 20.9\n4 인도네시아 24584 16958 34373 166755 125289 4.8 -24.9 50.3\n5 홍콩 110981 100196 122189 97673 120684 4.6 23.6 2.1\n6 미국 104578 87276 104511 91036 115538 4.4 26.9 2.5\n7 일본 79999 88252 138796 128522 106327 4.1 -17.3 7.4\n8 브라질 61185 51922 53436 55604 76876 3.0 38.3 5.9\n9 영국 33768 30461 84931 87371 71437 2.7 -18.2 20.6\n10 태국 60509 53127 52769 52042 58208 2.2 11.8 -1.0\n19 한국 18683 18175 21888 21222 25392 1.0 19.6 8.0",
+    "name": "주요 수입국",
+    "meta_data": {
+      "chunk_id": "4c4bbc0f-96a5-4d91-8682-457ffead93ff",
+      "page_number": [
+        10
+      ],
+      "item_label": "merged",
+      "index": 182,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 주요 수입국",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8643c2ff-0b01-436e-a795-7d787b90eff9",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><td></td><td>구분</td><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td></td><td>전체</td><td>1,659,262</td><td>1,442,805</td><td>1,995,816</td><td>2,324,725</td><td>2,601,505</td><td>100.0</td><td>11.9</td><td>11.9</td></tr><tr><td>1</td><td>중국</td><td>495,544</td><td>526,193</td><td>572,857</td><td>681,786</td><td>834,085</td><td>32.1</td><td>22.3</td><td>13.9</td></tr><tr><td>2</td><td>호주</td><td>61,787</td><td>37,678</td><td>93,100</td><td>217,714</td><td>304,555</td><td>11.7</td><td>39.9</td><td>49.0</td></tr><tr><td>3</td><td>프랑스</td><td>134,769</td><td>96,415</td><td>312,282</td><td>334,948</td><td>288,407</td><td>11.1</td><td>-13.9</td><td>20.9</td></tr><tr><td>4</td><td>인도네시아</td><td>24,584</td><td>16,958</td><td>34,373</td><td>166,755</td><td>125,289</td><td>4.8</td><td>-24.9</td><td>50.3</td></tr><tr><td>5</td><td>홍콩</td><td>110,981</td><td>100,196</td><td>122,189</td><td>97,673</td><td>120,684</td><td>4.6</td><td>23.6</td><td>2.1</td></tr><tr><td>6</td><td>미국</td><td>104,578</td><td>87,276</td><td>104,511</td><td>91,036</td><td>115,538</td><td>4.4</td><td>26.9</td><td>2.5</td></tr><tr><td>7</td><td>일본</td><td>79,999</td><td>88,252</td><td>138,796</td><td>128,522</td><td>106,327</td><td>4.1</td><td>-17.3</td><td>7.4</td></tr><tr><td>8</td><td>브라질</td><td>61,185</td><td>51,922</td><td>53,436</td><td>55,604</td><td>76,876</td><td>3.0</td><td>38.3</td><td>5.9</td></tr><tr><td>9</td><td>영국</td><td>33,768</td><td>30,461</td><td>84,931</td><td>87,371</td><td>71,437</td><td>2.7</td><td>-18.2</td><td>20.6</td></tr><tr><td>10</td><td>태국</td><td>60,509</td><td>53,127</td><td>52,769</td><td>52,042</td><td>58,208</td><td>2.2</td><td>11.8</td><td>-1.0</td></tr><tr><td>19</td><td>한국</td><td>18,683</td><td>18,175</td><td>21,888</td><td>21,222</td><td>25,392</td><td>1.0</td><td>19.6</td><td>8.0</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n중국 에서의 식품 수입 비중은 32.1%로, 2023년 수입액은 약 8억 3,409만 달러로 전년 대비 22.3% 증가했다. 2019년 이후 수입액은 연평균 13.9% 증가했다.\n\n호주 에서의 식품 수입 비중은 11.7%로, 2023년 수입액은 약 3억 456만 달러로 전년 대비 39.9% 증가했다. 2019년 이후 수입액은 연평균 49.0% 증가했다.\n\n이 밖에도, 프랑스(11.1%), 인도네시아(4.8%), 홍콩(4.6%) 등에서 식품을 수입한다.\n\n*출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "중국 에서의 식품 수입 비중은 32.1%로, 2023년 수입액은 약 8억 3,409만 달러로 전년 대비 22.3% 증가했다. 2019년 이후 수입액은 연평균 13.9% 증가했다.",
+    "meta_data": {
+      "chunk_id": "cc2bf620-2ee4-4d6f-9e92-ee57d7aeae7f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "cc2bf620-2ee4-4d6f-9e92-ee57d7aeae7f",
+        "418657f1-28f4-4120-86f1-cb70eda75aa3",
+        "d7334c8c-1727-432d-a1f6-4c1e95ebdcf8",
+        "d3939bf0-0a3f-4b76-a02b-f5c3298472f6"
+      ],
+      "chunked_count": 4,
+      "index": 183,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 265,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "중국 에서의 식품 수입 비중은 32.1%로, 2023년 수입액은 약 8억 3,409만 달러로 전년 대비 22.3% 증가했다. 2019년 이후 수입액은 연평균 13.9% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 수입액 기준 포도주(2ℓ 이하), 주정음료(기타), 포도증류주, 조제식료품, 식용곤충(기타) 등 순으로 큰 비중을 차지했다.",
+    "name": "2023년 수입액 기준 포도주(2ℓ 이하), 주정음료(기타), 포도증류주, 조제식료품, 식용곤충(기타) 등 순으로 큰 비중을 차지했다.",
+    "meta_data": {
+      "chunk_id": "58059335-8583-4d12-a17f-f709d5cb4365",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "58059335-8583-4d12-a17f-f709d5cb4365"
+      ],
+      "chunked_count": 1,
+      "index": 194,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 74,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 수입액 기준 포도주(2ℓ 이하), 주정음료(기타), 포도증류주, 조제식료품, 식용곤충(기타) 등 순으로 큰 비중을 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 주요 수입품목\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 1659262 1442805 1995816 2324725 2601505 100.0 11.9 11.9\n1 포도주(2ℓ 이하) 109929 74882 211332 359394 391773 15.1 9.0 37.4\n2 주정음료(기타) 53497 107201 124193 217127 289871 11.1 33.5 52.6\n3 포도 증류주 23892 21229 149451 164777 152717 5.9 -7.3 59.0\n4 조제식료품 81842 71242 98559 93552 119905 4.6 28.2 10.0\n5 기타식용동물성생산품 0 0 0 165589 112533 4.3 -32.0 N/A\n6 영유아 조제식료품 181653 100788 87251 69006 78998 3.0 14.5 -18.8\n7 빵(기타) 47840 58265 62046 51006 71143 2.7 39.5 10.4\n8 위스키류 32777 30512 90901 95279 69064 2.7 -27.5 20.5\n9 냉동 쇠고기 32126 23890 38004 35994 66689 2.6 85.3 20.0\n10 냉동 돼지고기 39743 36497 38559 35755 54390 2.1 52.1 8.2",
+    "name": "주요 수입품목",
+    "meta_data": {
+      "chunk_id": "269ad891-8cab-40b3-89cb-c0b4383ce65a",
+      "page_number": [
+        11
+      ],
+      "item_label": "merged",
+      "index": 195,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 주요 수입품목",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "fd752900-410b-4cc0-90ab-a87c9af91bbd",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2019</th><th>2020</th><th>2021</th><td></td><th>2022</th><th>2023</th><th>비중 (23) YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td colspan=\"2\">전체</td><td>1,659,262</td><td>1,442,805</td><td>1,995,816</td><td>2,324,725</td><td>2,601,505</td><td>100.0</td><td>11.9</td><td>11.9</td></tr><tr><td>1</td><td>포도주(2ℓ 이하)</td><td>109,929</td><td>74,882</td><td>211,332</td><td>359,394</td><td>391,773</td><td>15.1</td><td>9.0</td><td>37.4</td></tr><tr><td>2</td><td>주정음료(기타)</td><td>53,497</td><td>107,201</td><td>124,193</td><td>217,127</td><td>289,871</td><td>11.1</td><td>33.5</td><td>52.6</td></tr><tr><td>3</td><td>포도 증류주</td><td>23,892</td><td>21,229</td><td>149,451</td><td>164,777</td><td>152,717</td><td>5.9</td><td>-7.3</td><td>59.0</td></tr><tr><td>4</td><td>조제식료품</td><td>81,842</td><td>71,242</td><td>98,559</td><td>93,552</td><td>119,905</td><td>4.6</td><td>28.2</td><td>10.0</td></tr><tr><td>5</td><td>기타식용동물성생산품</td><td>0</td><td>0</td><td>0</td><td>165,589</td><td>112,533</td><td>4.3</td><td>-32.0</td><td>N/A</td></tr><tr><td>6</td><td>영유아 조제식료품</td><td>181,653</td><td>100,788</td><td>87,251</td><td>69,006</td><td>78,998</td><td>3.0</td><td>14.5</td><td>-18.8</td></tr><tr><td>7</td><td>빵(기타)</td><td>47,840</td><td>58,265</td><td>62,046</td><td>51,006</td><td>71,143</td><td>2.7</td><td>39.5</td><td>10.4</td></tr><tr><td>8</td><td>위스키류</td><td>32,777</td><td>30,512</td><td>90,901</td><td>95,279</td><td>69,064</td><td>2.7</td><td>-27.5</td><td>20.5</td></tr><tr><td>9</td><td>냉동 쇠고기</td><td>32,126</td><td>23,890</td><td>38,004</td><td>35,994</td><td>66,689</td><td>2.6</td><td>85.3</td><td>20.0</td></tr><tr><td>10</td><td>냉동 돼지고기</td><td>39,743</td><td>36,497</td><td>38,559</td><td>35,755</td><td>54,390</td><td>2.1</td><td>52.1</td><td>8.2</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n포도주(2ℓ 이하) 수입 비중은 15.1%로, 2023년 약 3억 9,177만 달러로 전년 대비 9.0% 증가했다. 2019년 이후 수입액은 연평균 37.4% 증가했다.\n\n주정음료(기타) 수입 비중은 11.1%로, 2023년 약 2억 8,987만 달러로 전년 대비 33.5% 증가했다. 또한, 2019년 이후 수입액은 연평균 52.6% 증가했다.\n\n포도즙증류주 수입 비중은 5.9%로, 2023년 약 1억 5,272만 달러로 전년 대비 7.3% 감소했다. 그러나, 2019년 이후 수입액은 연평균 59.0% 증가했다.\n\n조제식료품 수입 비중은 4.6%로, 2023년 약 1억 1,991만 달러로 전년 대비 28.2% 증가했다. 또한, 2019년 이후 수입액은 연평균 10.0% 증가했다.\n\n기타 식용 동물성 생산품 수입 비중은 4.3%로, 2023년 약 1억 1,253만 달러로 전년 대비 32.0% 감소했다.\n\n이 밖에도, 영유아 조제식료품(3.0%), 빵 기타(2.7%), 위스키류(2.7%) 등을 수입했다.\n\n*주: HS CODE(2204.21, 2208.90, 2208.20, 2106.90, 0410.90, 1901.10, 1905.90, 2208.30, 0202.30, **출처: ITC Trademap(www.trademap.org)(2024.07.)",
+    "name": "포도주(2ℓ 이하) 수입 비중은 15.1%로, 2023년 약 3억 9,177만 달러로 전년 대비 9.0% 증가했다. 2019년 이후 수입액은 연평균 37.4% 증가했다.",
+    "meta_data": {
+      "chunk_id": "7b5d736b-b65a-44ae-8556-204a1786e68a",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7b5d736b-b65a-44ae-8556-204a1786e68a",
+        "d642bd4e-98d8-4925-91c4-d63b8e4907b3",
+        "ac0d58ee-11a2-4dd7-b852-887ebb6a3dbd",
+        "d4ebca5a-242a-430c-b6e3-6a952f516f60",
+        "30777daa-7c42-4b94-9311-4b28f30bb3de",
+        "39c6bcdb-ae72-4407-ba01-a65571dc550d",
+        "4a511bbc-da55-40df-be89-4919eed323a1"
+      ],
+      "chunked_count": 7,
+      "index": 196,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 582,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "포도주(2ℓ 이하) 수입 비중은 15.1%로, 2023년 약 3억 9,177만 달러로 전년 대비 9.0% 증가했다. 2019년 이후 수입액은 연평균 37.4% 증가했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 한국산 식품의 對마카오 수출액은 약 120만 달러로 2019년 약 313만 달러에서 연평균 21.3% 감소했다.\n\n농산물 수출 비중은 78.7%로, 2023년 수출액은 약 95만 달러로 전년 대비 9.2% 증가했다. 2019년 이후 수출액은 연평균 6.1% 감소했다.\n\n축산물 수출 비중은 12.9%로, 2023년 수출액은 약 16만 달러로 전년 대비 154.7% 증가했다. 2019년 이후 수출액은 연평균 19.8% 증가했다.\n\n수산물 수출 비중은 8.2%로, 2023년 수출액은 약 10만 달러로 전년 대비 33.3% 증가했다. 2019년 이후 수출액은 연평균 49.7% 감소했다.",
+    "name": "2023년 한국산 식품의 對마카오 수출액은 약 120만 달러로 2019년 약 313만 달러에서 연평균 21.3% 감소했다.",
+    "meta_data": {
+      "chunk_id": "98737190-d87c-49fd-a724-beef7c422290",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "98737190-d87c-49fd-a724-beef7c422290",
+        "545175fe-e79a-4045-adba-e710c3ad598f",
+        "91841bc8-fcc8-4ddf-a297-2b4724d81282",
+        "9b857d6e-0a80-4643-8cb4-fbe1ead4c124"
+      ],
+      "chunked_count": 4,
+      "index": 212,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 329,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 한국산 식품의 對마카오 수출액은 약 120만 달러로 2019년 약 313만 달러에서 연평균 21.3% 감소했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 임산물\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 3128 1499 1160 1005 1201 100.0 19.5 -21.3\n농산물 1216 905 840 866 945 78.7 9.2 -6.1\n축산물 75 97 48 61 155 12.9 154.7 19.8\n수산물 1546 493 126 74 99 8.2 33.3 -49.7\n임산물 291 3 146 4 1 0.1 -66.7 -73.7",
+    "name": "임산물",
+    "meta_data": {
+      "chunk_id": "a243a656-3141-4370-817f-a0ab3ee64d99",
+      "page_number": [
+        12
+      ],
+      "item_label": "merged",
+      "index": 219,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 임산물",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ce37dd2f-dc09-41ab-9adb-d1700f6b52dd",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>3,128</td><td>1,499</td><td>1,160</td><td>1,005</td><td>1,201</td><td>100.0</td><td>19.5</td><td>-21.3</td></tr><tr><td>농산물</td><td>1,216</td><td>905</td><td>840</td><td>866</td><td>945</td><td>78.7</td><td>9.2</td><td>-6.1</td></tr><tr><td>축산물</td><td>75</td><td>97</td><td>48</td><td>61</td><td>155</td><td>12.9</td><td>154.7</td><td>19.8</td></tr><tr><td>수산물</td><td>1,546</td><td>493</td><td>126</td><td>74</td><td>99</td><td>8.2</td><td>33.3</td><td>-49.7</td></tr><tr><td>임산물</td><td>291</td><td>3</td><td>146</td><td>4</td><td>1</td><td>0.1</td><td>-66.7</td><td>-73.7</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n임산물 수출 비중은 0.1%로, 2023년 수출액은 약 1,000달러로 전년 대비 66.7% 감소했다. 2019년 이후 수출액은 연평균 73.7% 감소했다.\n\n*출처: KATI 농식품 수출정보(www.kati.net)(2024.07.)",
+    "name": "임산물 수출 비중은 0.1%로, 2023년 수출액은 약 1,000달러로 전년 대비 66.7% 감소했다. 2019년 이후 수출액은 연평균 73.7% 감소했다.",
+    "meta_data": {
+      "chunk_id": "b90e2ff7-04d2-4ca1-b851-595ff85f6ee5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "b90e2ff7-04d2-4ca1-b851-595ff85f6ee5",
+        "02d67499-0535-42ad-aa81-4d30960c32c9"
+      ],
+      "chunked_count": 2,
+      "index": 220,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 116,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "임산물 수출 비중은 0.1%로, 2023년 수출액은 약 1,000달러로 전년 대비 66.7% 감소했다. 2019년 이후 수출액은 연평균 73.7% 감소했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 한국의 對마카오 주요 수출 품목은 수출액 기준 소스조제품(기타), 기타 무알코올음료, 베이커리제품, 페이스트리와 케이크, 조제식료품(기타) 등으로 나타난다.\n\n2019년부터 2023년까지 연평균 수출성장률이 높은 품목에는 '베이커리제품(31.1%↑)'과 '소스조제품(기타)(10.4%↑)' 등이 있다.\n\n소스조제품(기타) 수출 비중은 14.3%로, 2023년 수출액은 약 17만 달러로 전년 대비 27.1% 증가했다. 2019년 이후 수출액은 연평균 10.4% 증가해 주요 수출 품목 중 연평균 성장률이 두 번째로 높은 품목으로 기록되었다.\n\n기타 무알코올 음료 수출 비중은 13.8%로, 2023년 수출액은 약 17만 달러로 전년 대비 124.4% 증가했다. 그러나, 2019년 이후 연평균 4.7% 감소했다.\n\n베이커리 제품 수출 비중은 8.8%로, 2023년 수출액은 약 11만 달러로 전년 대비 19.9% 증가했다. 2019년 이후 수출액은 연평균 31.1% 증가해 주요 수출 품목 중 연평균 성장률이 가장 높은 품목으로 기록되었다.\n\n페이스트리와 케이크 수출 비중은 8.3%로, 2023년 수출액은 약 10만 달러로 전년 대비 21.9% 증가했다. 2020년 이후 수출액은 연평균 8.3% 증가했다.\n\n조제식료품 기타 수출 비중은 7.8%로, 2023년 약 9만 달러로 전년 대비 88.3% 증가했다. 2019년 이후 수출액은 연평균 4.6% 감소했다.",
+    "name": "2023년 한국의 對마카오 주요 수출 품목은 수출액 기준 소스조제품(기타), 기타 무알코올음료, 베이커리제품, 페이스트리와 케이크, 조제식료품(기타) 등으로 나타난다.",
+    "meta_data": {
+      "chunk_id": "83946d9b-a7a3-4140-a39a-5a8c477169ca",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "83946d9b-a7a3-4140-a39a-5a8c477169ca",
+        "6675dde7-ceca-4ea4-8cda-367ef66bd126",
+        "3296f709-b47d-4bf5-925d-8fca0a3ba8b9",
+        "1188f767-9381-4b76-b134-3b63ed3ab6ca",
+        "832066da-a7c8-4cb3-92dc-8e9ca05a32d1",
+        "de49228a-d0f3-461e-b989-5c9dd64a9c99",
+        "11305c8c-d2e4-49c6-9c09-def9bd71ee34"
+      ],
+      "chunked_count": 7,
+      "index": 229,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 714,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 한국의 對마카오 주요 수출 품목은 수출액 기준 소스조제품(기타), 기타 무알코올음료, 베이커리제품, 페이스트리와 케이크, 조제식료품(기타) 등으로 나타난다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# <한국산 對마카오 수출품목 현황(2019~2023)>\n\n표제목: (단위: 천 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23)\n전체 3128 1499 1160 1005 1201 100.0 19.5\n소스 조제품(기타) 116 110 124 135 172 14.3 27.1\n기타 무알코올 음료 201 107 130 74 166 13.8 124.4\n베이커리 제품 36 45 52 88 106 8.8 19.9\n페이스트리와 케이크 0 15 67 81 99 8.3 21.9\n조제식료품(기타) 113 39 20 50 93 7.8 88.3\n쌀가루 조제식료품 48 75 32 10 67 5.6 543.3\n미조리 국수 50 58 9 6 49 4.0 781.8\n인삼차 32 21 3 2 35 2.9 1970.6\n홍삼(본삼) 0 0 2 0 34 2.8 N/A\n과실주스 음료 27 18 33 12 27 2.3 124.0",
+    "name": "<한국산 對마카오 수출품목 현황(2019~2023)>",
+    "meta_data": {
+      "chunk_id": "520ee0c1-f06e-4b22-9947-4ed6a53e4911",
+      "page_number": [
+        13
+      ],
+      "item_label": "merged",
+      "index": 237,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# <한국산 對마카오 수출품목 현황(2019~2023)>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4fb27daa-23a5-49e5-ae17-33dd182f5eaa",
+          "content": "<table><caption>(단위: 천 달러, %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2019 2020</th><th>2021</th><td></td><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th></tr><tr><td colspan=\"2\">전체</td><td>3,128</td><td>1,499</td><td>1,160</td><td>1,005</td><td>1,201</td><td>100.0</td><td>19.5</td></tr><tr><td></td><td>소스 조제품(기타)</td><td>116</td><td>110</td><td>124</td><td>135</td><td>172</td><td>14.3</td><td>27.1</td></tr><tr><td></td><td>기타 무알코올 음료</td><td>201</td><td>107</td><td>130</td><td>74</td><td>166</td><td>13.8</td><td>124.4</td></tr><tr><td></td><td>베이커리 제품</td><td>36</td><td>45</td><td>52</td><td>88</td><td>106</td><td>8.8</td><td>19.9</td></tr><tr><td></td><td>페이스트리와 케이크</td><td>0</td><td>15</td><td>67</td><td>81</td><td>99</td><td>8.3</td><td>21.9</td></tr><tr><td></td><td>조제식료품(기타)</td><td>113</td><td>39</td><td>20</td><td>50</td><td>93</td><td>7.8</td><td>88.3</td></tr><tr><td></td><td>쌀가루 조제식료품</td><td>48</td><td>75</td><td>32</td><td>10</td><td>67</td><td>5.6</td><td>543.3</td></tr><tr><td></td><td>미조리 국수</td><td>50</td><td>58</td><td>9</td><td>6</td><td>49</td><td>4.0</td><td>781.8</td></tr><tr><td></td><td>인삼차</td><td>32</td><td>21</td><td>3</td><td>2</td><td>35</td><td>2.9</td><td>1,970.6</td></tr><tr><td></td><td>홍삼(본삼)</td><td>0</td><td>0</td><td>2</td><td>0</td><td>34</td><td>2.8</td><td>N/A</td></tr><tr><td></td><td>과실주스 음료</td><td>27</td><td>18</td><td>33</td><td>12</td><td>27</td><td>2.3</td><td>124.0</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n*주1: HS CODE(2103.90-9090, 2202.99-9000, 1905.90-1090, 1905.90-1030, 2106.90-9099, 1901.90-9091, 1902.19-1000, 2106.90-3011, 1211.20-1391, 2202.99-2000)\n\n***출처: KATI 농식품 수출정보(www.kati.net)",
+    "name": "*주1: HS CODE(2103.90-9090, 2202.99-9000, 1905.90-1090, 1905.90-1030, 2106.90-9099, 1901.90-9091, 1902.19-1000, 2106.90-3011, 1211.20-1391, 2202.99-2000)",
+    "meta_data": {
+      "chunk_id": "2450fe19-7792-46ab-800d-6f5bc615585b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "2450fe19-7792-46ab-800d-6f5bc615585b",
+        "cbdd85f3-48ec-4689-8d79-a25782d41836"
+      ],
+      "chunked_count": 2,
+      "index": 239,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 121,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "*주1: HS CODE(2103.90-9090, 2202.99-9000, 1905.90-1090, 1905.90-1030, 2106.90-9099, 1901.90-9091, 1902.19-1000, 2106.90-3011, 1211.20-1391, 2202.99-2000)"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오의 오프라인 식품 유통채널 규모는 2019년 17억 7,490만 달러에서 연평균 10.4% 성장하여 2023년 26억 4,080만 달러로 집계되었다.\n\n슈퍼마켓의 규모는 2019년 6억 7,360만 달러에서 연평균 9.5% 성장하여 2023년 9억 6,950만 달러로 집계되었으며, 전체 오프라인 유통채널에서 36.7% 비중을 차지했다.\n\n하이퍼마켓의 규모는 2019년 3억 2,000만 달러에서 연평균 9.9% 성장하여 2023년 4억 6,660만 달러로 집계되었으며, 전체 오프라인 유통채널에서 17.7% 비중을 차지했다.",
+    "name": "마카오의 오프라인 식품 유통채널 규모는 2019년 17억 7,490만 달러에서 연평균 10.4% 성장하여 2023년 26억 4,080만 달러로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "0a8f49b5-6778-40fc-accb-32889c43fafd",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "0a8f49b5-6778-40fc-accb-32889c43fafd",
+        "30e291a4-3b20-4061-a9eb-6521614d5078",
+        "e0151b9c-3c6a-499d-bdb9-42bff644d6cf"
+      ],
+      "chunked_count": 3,
+      "index": 253,
+      "page_number": [
+        14
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 311,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오의 오프라인 식품 유통채널 규모는 2019년 17억 7,490만 달러에서 연평균 10.4% 성장하여 2023년 26억 4,080만 달러로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 전문판매점\n\n표제목: (단위: 백만 달러, %)\n구분 2019 2020 2021 2022 2023 비중 (23) YoY (22/23) CAGR (19/23)\n전체 1774.9 1702.0 2025.1 2255.9 2640.8 100.0 17.1 10.4\n슈퍼마켓 673.6 671.2 801.3 802.0 969.5 36.7 20.9 9.5\n하이퍼마켓 320.0 273.8 315.4 449.9 466.6 17.7 3.7 9.9\n전문판매점 282.7 264.1 291.6 359.3 449.3 17.0 25.0 12.3\n편의점 216.9 189.3 256.7 258.0 330.9 12.5 28.3 11.1\n소규모식료품점 196.2 207.3 255.9 278.0 312.4 11.8 12.4 12.3\n창고형 매장 70.1 79.2 86.4 91.6 95.2 3.6 3.9 8.0\n할인점 15.4 17.2 17.8 17.1 16.9 0.6 -1.2 2.4",
+    "name": "전문판매점",
+    "meta_data": {
+      "chunk_id": "a1958419-d1c0-4e1e-bb71-23a5ed1b2a18",
+      "page_number": [
+        14
+      ],
+      "item_label": "merged",
+      "index": 258,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 전문판매점",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "0f674dfc-fedb-40f0-8073-06f8b6169902",
+          "content": "<table><caption>(단위: 백만 달러, %)</caption><tbody><tr><th>구분</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>비중 (23)</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>전체</td><td>1,774.9</td><td>1,702.0</td><td>2,025.1</td><td>2,255.9</td><td>2,640.8</td><td>100.0</td><td>17.1</td><td>10.4</td></tr><tr><td>슈퍼마켓</td><td>673.6</td><td>671.2</td><td>801.3</td><td>802.0</td><td>969.5</td><td>36.7</td><td>20.9</td><td>9.5</td></tr><tr><td>하이퍼마켓</td><td>320.0</td><td>273.8</td><td>315.4</td><td>449.9</td><td>466.6</td><td>17.7</td><td>3.7</td><td>9.9</td></tr><tr><td>전문판매점</td><td>282.7</td><td>264.1</td><td>291.6</td><td>359.3</td><td>449.3</td><td>17.0</td><td>25.0</td><td>12.3</td></tr><tr><td>편의점</td><td>216.9</td><td>189.3</td><td>256.7</td><td>258.0</td><td>330.9</td><td>12.5</td><td>28.3</td><td>11.1</td></tr><tr><td>소규모식료품점</td><td>196.2</td><td>207.3</td><td>255.9</td><td>278.0</td><td>312.4</td><td>11.8</td><td>12.4</td><td>12.3</td></tr><tr><td>창고형 매장</td><td>70.1</td><td>79.2</td><td>86.4</td><td>91.6</td><td>95.2</td><td>3.6</td><td>3.9</td><td>8.0</td></tr><tr><td>할인점</td><td>15.4</td><td>17.2</td><td>17.8</td><td>17.1</td><td>16.9</td><td>0.6</td><td>-1.2</td><td>2.4</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n전문판매점의 규모는 2019년 2억 8,270만 달러에서 연평균 12.3% 성장하여 2023년 4억 4,930만 달러로 집계되었으며, 전체 오프라인 유통채널에서 17.0% 비중을 차지했다.\n\n*주: 전문 판매점-식품·주류·담배만을 전문적으로 판매하는 매장",
+    "name": "전문판매점의 규모는 2019년 2억 8,270만 달러에서 연평균 12.3% 성장하여 2023년 4억 4,930만 달러로 집계되었으며, 전체 오프라인 유통채널에서 17.0% 비중을 차지했다.",
+    "meta_data": {
+      "chunk_id": "a6ddc8ea-2cbb-409a-b4e5-1e86d376784e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a6ddc8ea-2cbb-409a-b4e5-1e86d376784e",
+        "ecb085e4-5150-4fe7-8289-e913533588fa"
+      ],
+      "chunked_count": 2,
+      "index": 259,
+      "page_number": [
+        14
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 147,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "전문판매점의 규모는 2019년 2억 8,270만 달러에서 연평균 12.3% 성장하여 2023년 4억 4,930만 달러로 집계되었으며, 전체 오프라인 유통채널에서 17.0% 비중을 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오의 오프라인 유통채널의 매장 수는 2018년 1,175개에서 연평균 0.7% 증가하여 2022년(최신자료) 1,207개로 집계되었다.\n\n전문 판매점 매장 수는 2018년 594개에서 연평균 3.7% 감소하여 2022년 511개로 집계되었으며, 전체 오프라인 유통채널 매장의 42.3%를 차지했다.\n\n소규모 식료품점 매장 수는 2018년 298개에서 연평균 7.3% 증가하여 2022년 395개로 집계되었으며, 전체 오프라인 유통채널 매장의 32.7%를 차지했다.",
+    "name": "마카오의 오프라인 유통채널의 매장 수는 2018년 1,175개에서 연평균 0.7% 증가하여 2022년(최신자료) 1,207개로 집계되었다.",
+    "meta_data": {
+      "chunk_id": "56622837-093c-457f-8c49-b435f27df6cb",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "56622837-093c-457f-8c49-b435f27df6cb",
+        "c96ba146-8ee3-48b4-85c0-5dcb43916ee0",
+        "6dcee9f5-a6b0-4def-8e26-1b02bd43dabb"
+      ],
+      "chunked_count": 3,
+      "index": 268,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 262,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오의 오프라인 유통채널의 매장 수는 2018년 1,175개에서 연평균 0.7% 증가하여 2022년(최신자료) 1,207개로 집계되었다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 편의점\n\n표제목: (단위: 개, %)\n마카오 2018 2019 2020 2021 2022 비중 (22) YoY (21/22) CAGR (18/22)\n전체 1175 1175 1150 1180 1207 100.0 2.7 0.7\n전문 판매점 594 525 485 471 511 42.3 -14.0 -3.7\n소규모 식료품점 298 365 381 413 395 32.7 32.6 7.3\n편의점 197 200 200 208 212 17.6 7.6 1.9\n슈퍼마켓 79 78 77 81 82 6.8 3.8 0.9\n하이퍼마켓 4 4 4 4 4 0.3 0.0 0.0\n할인점 2 2 2 2 2 0.2 0.0 0.0\n창고형마트 1 1 1 1 1 0.1 0.0 0.0",
+    "name": "편의점",
+    "meta_data": {
+      "chunk_id": "41a991e5-c1e3-4120-8f4f-56d46ac2550a",
+      "page_number": [
+        15
+      ],
+      "item_label": "merged",
+      "index": 273,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 편의점",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "229901d8-a5a9-4c18-9b6a-829a182e959a",
+          "content": "<table><caption>(단위: 개, %)</caption><tbody><tr><th>마카오</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>비중 (22)</th><th>YoY (21/22)</th><th>CAGR (18/22)</th></tr><tr><td>전체</td><td>1,175</td><td>1,175</td><td>1,150</td><td>1,180</td><td>1,207</td><td>100.0</td><td>2.7</td><td>0.7</td></tr><tr><td>전문 판매점</td><td>594</td><td>525</td><td>485</td><td>471</td><td>511</td><td>42.3</td><td>-14.0</td><td>-3.7</td></tr><tr><td>소규모 식료품점</td><td>298</td><td>365</td><td>381</td><td>413</td><td>395</td><td>32.7</td><td>32.6</td><td>7.3</td></tr><tr><td>편의점</td><td>197</td><td>200</td><td>200</td><td>208</td><td>212</td><td>17.6</td><td>7.6</td><td>1.9</td></tr><tr><td>슈퍼마켓</td><td>79</td><td>78</td><td>77</td><td>81</td><td>82</td><td>6.8</td><td>3.8</td><td>0.9</td></tr><tr><td>하이퍼마켓</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>0.3</td><td>0.0</td><td>0.0</td></tr><tr><td>할인점</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>0.2</td><td>0.0</td><td>0.0</td></tr><tr><td>창고형마트</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0.1</td><td>0.0</td><td>0.0</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n편의점 매장 수는 2018년 197개에서 연평균 1.9% 증가하여 2022년 212개로 집계되었으며, 전체 오프라인 유통채널 매장의 17.6%를 차지했다.\n\n*주: 전문 판매점-식품·주류·담배만을 전문적으로 판매하는 매장",
+    "name": "편의점 매장 수는 2018년 197개에서 연평균 1.9% 증가하여 2022년 212개로 집계되었으며, 전체 오프라인 유통채널 매장의 17.6%를 차지했다.",
+    "meta_data": {
+      "chunk_id": "c476f423-ae6b-4aaf-8810-bc3166a0cb64",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c476f423-ae6b-4aaf-8810-bc3166a0cb64",
+        "8cf2fed2-8c17-4a81-bb37-b080754116d5"
+      ],
+      "chunked_count": 2,
+      "index": 274,
+      "page_number": [
+        15
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 126,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "편의점 매장 수는 2018년 197개에서 연평균 1.9% 증가하여 2022년 212개로 집계되었으며, 전체 오프라인 유통채널 매장의 17.6%를 차지했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2.1.4 주요 오프라인 유통채널\n\n브랜드명 ParknShop 창립연도 1973년\n점유율 - 브랜드 국적 홍콩\n웹사이트 www.parknshop.com/en/ 매장 수 -\n\n표제목: *출처 : ParknShop 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)\n브랜드명 ParknShop 창립연도\n웹사이트 www.parknshop.com/en/ 매장 수 - 매장 규모가 크며 다양한 식품을\n- 홍콩 유통업체가 운영하는 슈퍼마켓으로 판매함 - 다른 슈퍼마켓에서 찾기 힘든 유럽과 미국산 제품을 판매함. 특히 유제품 베이킹 재료 향신료와 파스타 및 신선한 과일 채소를 많이 판매함\n- - - 한국 가공식품 신선식품 냉장·냉동식품 판매 코너를 별도로 마련하여 판매함 베이커리류를 판매하는 카페 &#x27;PARKnSHOP cafe&#x27; 운영함 자체브랜드(PB) 제품 &#x27;You Us&#x27; 전용 브랜드 제품을\n매장 사진 전경\n외부 전경 내부 매대",
+    "name": "2.1.4 주요 오프라인 유통채널",
+    "meta_data": {
+      "chunk_id": "fd9fa7ef-618b-44fd-8e00-4729e927d4bc",
+      "page_number": [
+        16
+      ],
+      "item_label": "merged",
+      "index": 283,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2.1.4 주요 오프라인 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "180eb747-4b0d-4e55-a1f6-7439ae046dc6",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>ParknShop</th><th>창립연도</th><th>1973년</th></tr><tr><td>점유율</td><td>-</td><td>브랜드 국적</td><td>홍콩</td></tr><tr><td>웹사이트</td><td>www.parknshop.com/en/</td><td>매장 수</td><td>-</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "0af07b45-e213-40dc-bc53-d8c322280c6d",
+          "content": "<table><caption>*출처 : ParknShop 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)</caption><tbody><tr><td></td><th>브랜드명 ParknShop 창립연도</th></tr><tr><td></td><td>웹사이트 www.parknshop.com/en/ 매장 수 - 매장 규모가 크며 다양한 식품을</td></tr><tr><td></td><td>- 홍콩 유통업체가 운영하는 슈퍼마켓으로 판매함 - 다른 슈퍼마켓에서 찾기 힘든 유럽과 미국산 제품을 판매함. 특히, 유제품, 베이킹 재료, 향신료와 파스타 및 신선한 과일, 채소를 많이 판매함</td></tr><tr><td>- - -</td><td>한국 가공식품, 신선식품, 냉장·냉동식품 판매 코너를 별도로 마련하여 판매함 베이커리류를 판매하는 카페 &#x27;PARKnSHOP cafe&#x27; 운영함 자체브랜드(PB) 제품 &#x27;You Us&#x27; 전용 브랜드 제품을</td></tr><tr><td>매장 사진</td><td>전경</td></tr><tr><td></td><td>외부 전경 내부 매대</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2024농식품 국가 수출정보 02 마카오\n\n표제목: *출처: Grand Mart홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)\n브랜드명 Grand Mart 창립연도 -\n점유율 - 브랜드 국적 일본\n웹사이트 www.grandmart.com.mo 매장 수 1개\n\n브랜드명 점유율 Grand Mart 창립연도 브랜드 국적 - 일본\n- 일본계 슈퍼마켓으로 Royal group에서 운영하는 고급 슈퍼마켓 브랜드\n\n브랜드명 Royal Supermarket 창립연도 1997년\n점유율 - 브랜드 국적 마카오\n웹사이트 royalsupermarket.com.mo 매장 수 약 30개\n\n표제목: *출처: Royal Supermarket 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)\n브랜드명 Royal Supermarket 창립연도 1997년\n점유율 - 브랜드 국적 마카오\n웹사이트 royalsupermarket.com.mo 매장 수 약 30개\n- 중저가 - 중국산 동남아산 슈퍼마켓으로 마카오에서 많은 제품의 비중이 높음 종류의 식료품을 판매하고 있음 농산물의\n- 한국산 식품의 낮은 편임 경우 가공식품 위주로 판매되고 있으며 신선 비중은\n매장 사진\n외부 전경 내부 매대 전경",
+    "name": "2024농식품 국가 수출정보 02 마카오",
+    "meta_data": {
+      "chunk_id": "34eb9c1c-598b-426e-84e0-421f4f00cd0a",
+      "page_number": [
+        17
+      ],
+      "item_label": "merged",
+      "index": 293,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 02 마카오",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d5cf2801-bdef-42b6-8643-13fd51bb857f",
+          "content": "<table><caption>*출처: Grand Mart홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)</caption><tbody><tr><th>브랜드명</th><th>Grand Mart</th><th>창립연도</th><th>-</th></tr><tr><td>점유율</td><td>-</td><td>브랜드 국적</td><td>일본</td></tr><tr><td>웹사이트</td><td>www.grandmart.com.mo</td><td>매장 수</td><td>1개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "aa54d708-dbd1-4e1e-a49d-26f3c891ff0a",
+          "content": "<table><tbody><tr><th>브랜드명 점유율</th><th>Grand Mart</th><th>창립연도 브랜드 국적</th><th>- 일본</th></tr><tr><td>- 일본계 슈퍼마켓으로, Royal group에서 운영하는 고급 슈퍼마켓 브랜드</td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e828f6f7-8d4b-4f2a-81a6-17c10e385c80",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>Royal Supermarket</th><th>창립연도</th><th>1997년</th></tr><tr><td>점유율</td><td>-</td><td>브랜드 국적</td><td>마카오</td></tr><tr><td>웹사이트</td><td>royalsupermarket.com.mo</td><td>매장 수</td><td>약 30개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "9d502372-5069-4f01-9d7b-4ebfe3a31796",
+          "content": "<table><caption>*출처: Royal Supermarket 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)</caption><tbody><tr><td></td><th colspan=\"2\">브랜드명</th><th colspan=\"2\">Royal Supermarket 창립연도</th><th colspan=\"3\">1997년</th><td></td></tr><tr><td></td><th colspan=\"2\">점유율</th><th colspan=\"2\">-</th><th colspan=\"2\">브랜드 국적</th><th>마카오</th><td></td></tr><tr><td></td><td>웹사이트</td><td></td><td>royalsupermarket.com.mo</td><td>매장 수</td><td>약</td><td>30개</td><td></td></tr><tr><td></td><td>- 중저가 - 중국산, 동남아산</td><td>슈퍼마켓으로 마카오에서</td><td>많은 제품의 비중이 높음</td><td>종류의 식료품을</td><td>판매하고</td><td>있음 농산물의</td><td></td></tr><tr><td>- 한국산 식품의</td><td>낮은 편임</td><td>경우</td><td>가공식품 위주로</td><td>판매되고 있으며</td><td>신선</td><td>비중은</td><td></td></tr><tr><td>매장 사진</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>외부</td><td>전경</td><td></td><td>내부 매대</td><td>전경</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2024농식품 국가 수출정보 02 마카오\n\n표제목: *출처: San Miu Supermarket 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)\n브랜드명 San Miu Supermarket 창립연도 1990년\n점유율 - 브랜드 국적 마카오\n웹사이트 www.sanmiu.com/index.asp 매장 수 약 20개\n\nSan Miu Supermarket 창립연도 1990년 브랜드 국적 마카오\n웹사이트 www.sanmiu.com/index.asp 매장 수 약 20개\n여러 종류의 신선 과일 및 채소를 판매하고 있으며 다른 경쟁 슈퍼마켓보다\n가격대가 저렴함\n- 자체적으로 유기농 코너를 운영하며 마카오 및 유기농 채소를 판매함\n- 한국산 김치 쌀 가공품 인스턴트 면 신선 중국산 농산물(복숭아 배 등)을 판매함\n매장 사진\n외부 전경 내부 매대 전경\n\n브랜드명 Supreme Food Market 창립연도 1997년\n점유율 - 브랜드 국적 마카오\n웹사이트 supremefoodmarket.com.mo 매장 수 1개\n\n표제목: *출처: Supreme Food Market 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)\n브랜드명 점유율 Supreme Food Market - 창립연도 브랜드 국적 1997년\n웹사이트 supremefoodmarket.com.mo 운영하는 수입식품 전문 매장 수 매장 1개\n- Royal group에서 - 수입식품 전문매장으로 일반 슈퍼마켓에서 구하기 어려운 다양한 수입 향신료\n및 식자재 구비\n- 고급 주거 - 한국산은 지역에 쌀 가공품 위치하고 라면 있으며 맥주 외국인의 소스류 등이 방문이 많음 판매되고있지만 다양하지 않고\n소규모로 판매되고 있음\n매장 사진 - 숍인숍 주스 개념으로 등 다양한 즉석 매장 내에 분식류를 판매함 에그타르트 닭 날개·닭다리 튀김 핫도그 생과일",
+    "name": "2024농식품 국가 수출정보 02 마카오",
+    "meta_data": {
+      "chunk_id": "f056fb50-1f92-43c0-b9b2-58c7602b1a13",
+      "page_number": [
+        18
+      ],
+      "item_label": "merged",
+      "index": 308,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 02 마카오",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8e7dc9ca-d3f4-4d79-8628-92384c647d0b",
+          "content": "<table><caption>*출처: San Miu Supermarket 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)</caption><tbody><tr><td>브랜드명</td><td>San Miu Supermarket</td><td>창립연도</td><td>1990년</td></tr><tr><td>점유율</td><td>-</td><td>브랜드 국적</td><td>마카오</td></tr><tr><td>웹사이트</td><td>www.sanmiu.com/index.asp</td><td>매장 수</td><td>약 20개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "49a3ca10-3005-40dc-8cbc-431185143af3",
+          "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">San Miu Supermarket</th><th colspan=\"6\">창립연도 1990년 브랜드 국적 마카오</th></tr><tr><td></td><td colspan=\"2\">웹사이트</td><td colspan=\"2\">www.sanmiu.com/index.asp</td><td colspan=\"2\">매장 수</td><td colspan=\"3\">약 20개</td></tr><tr><td></td><td>여러 종류의</td><td>신선 과일</td><td>및</td><td>채소를</td><td>판매하고</td><td>있으며</td><td>다른</td><td>경쟁</td><td>슈퍼마켓보다</td></tr><tr><td></td><td colspan=\"9\">가격대가 저렴함</td></tr><tr><td></td><td>- 자체적으로</td><td>유기농</td><td></td><td>코너를 운영하며</td><td>마카오 및</td><td></td><td></td><td></td><td>유기농 채소를 판매함</td></tr><tr><td></td><td>- 한국산 김치,</td><td>쌀</td><td>가공품,</td><td></td><td>인스턴트 면, 신선</td><td></td><td></td><td>중국산 농산물(복숭아,</td><td>배 등)을 판매함</td></tr><tr><td>매장 사진</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>외부</td><td colspan=\"4\">전경</td><td colspan=\"4\">내부 매대 전경</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "4ca980c8-8564-4ce1-aada-efad257bff21",
+          "content": "<table><tbody><tr><th>브랜드명</th><th>Supreme Food Market</th><th>창립연도</th><th>1997년</th></tr><tr><td>점유율</td><td>-</td><td>브랜드 국적</td><td>마카오</td></tr><tr><td>웹사이트</td><td>supremefoodmarket.com.mo</td><td>매장 수</td><td>1개</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e1cb1ccd-d93c-4867-b17d-3a86d107e934",
+          "content": "<table><caption>*출처: Supreme Food Market 홈페이지, 2021년 농식품 수출 국가조사보고서(마카오)(한국농식품유통공사)</caption><tbody><tr><td></td><th>브랜드명 점유율</th><th>Supreme</th><th colspan=\"3\">Food Market -</th><th colspan=\"7\">창립연도 브랜드 국적</th><td>1997년</td><td></td></tr><tr><td></td><th colspan=\"6\">웹사이트 supremefoodmarket.com.mo 운영하는 수입식품 전문</th><th colspan=\"3\">매장 수 매장</th><th colspan=\"3\">1개</th><td></td></tr><tr><td></td><td>- Royal group에서 - 수입식품</td><td>전문매장으로</td><td>일반</td><td></td><td>슈퍼마켓에서</td><td></td><td>구하기</td><td>어려운</td><td>다양한</td><td>수입</td><td>향신료</td><td></td></tr><tr><td></td><td colspan=\"12\">및 식자재 구비</td></tr><tr><td></td><td>- 고급 주거 - 한국산은</td><td>지역에 쌀 가공품,</td><td>위치하고 라면,</td><td>있으며 맥주,</td><td>외국인의 소스류</td><td>등이</td><td>방문이</td><td>많음 판매되고있지만</td><td></td><td>다양하지</td><td>않고</td><td></td></tr><tr><td></td><td colspan=\"12\">소규모로 판매되고 있음</td></tr><tr><td>매장 사진</td><td>- 숍인숍 주스</td><td>개념으로 등 다양한 즉석</td><td>매장 내에 분식류를 판매함</td><td></td><td>에그타르트,</td><td>닭</td><td>날개·닭다리</td><td></td><td>튀김, 핫도그,</td><td></td><td>생과일</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 개요\n\n2019 2020 2021 2022 2023 YoY (22/23) CAGR (19/23)\n272.8 292.4 356.6 397.8 513.5 29.1 17.1",
+    "name": "개요",
+    "meta_data": {
+      "chunk_id": "5136c94d-87e1-4974-9152-7051b78a08a7",
+      "page_number": [
+        19
+      ],
+      "item_label": "merged",
+      "index": 325,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 개요",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8cedf8b8-91eb-4bb5-b5bb-33def2ad1ed9",
+          "content": "<table><tbody><tr><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>YoY (22/23)</th><th>CAGR (19/23)</th></tr><tr><td>272.8</td><td>292.4</td><td>356.6</td><td>397.8</td><td>513.5</td><td>29.1</td><td>17.1</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 마카오의 식품 온라인 시장 규모는 5억 1,350만 달러 규모로 전년 대비 29.1% 성장했으며 최근 5년간 연평균(CAGR) 17.1% 성장했다.",
+    "name": "2023년 마카오의 식품 온라인 시장 규모는 5억 1,350만 달러 규모로 전년 대비 29.1% 성장했으며 최근 5년간 연평균(CAGR) 17.1% 성장했다.",
+    "meta_data": {
+      "chunk_id": "6b931868-3f15-48b6-b509-231306905ddd",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "6b931868-3f15-48b6-b509-231306905ddd"
+      ],
+      "chunked_count": 1,
+      "index": 326,
+      "page_number": [
+        19
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 92,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 마카오의 식품 온라인 시장 규모는 5억 1,350만 달러 규모로 전년 대비 29.1% 성장했으며 최근 5년간 연평균(CAGR) 17.1% 성장했다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 개요\n\n표제목: (단위: %)\n구분 2020 2021 2022 2023 YoY (22/23) CAGR (20/23)\n1 Tmall Marketplace 40.1 39.7 34.6 29.4 -15.0 -9.8\n2 JD Marketplace 20.7 22.8 19.6 18.0 -8.2 -4.6\n3 Douyin Marketplace - - 11.3 16.4 45.1 N/A\n4 Pinduoduo Marketplace 6.4 8.2 11.8 14.8 25.4 32.2\n5 JD 11.0 11.9 10.0 9.4 -6.0 -5.1\n6 Tmall 1.1 1.3 1.2 1.1 -8.3 0.0\n7 Suning 2.9 1.5 0.9 0.9 0.0 -32.3\n8 Suning Marketplace 1.9 1.1 0.9 0.8 -11.1 -25.0\n9 Vipshop 1.6 1.5 0.7 0.7 0.0 -24.1\n10 Freshippo 0.3 0.6 0.7 0.6 -14.3 26.0",
+    "name": "개요",
+    "meta_data": {
+      "chunk_id": "dbe14b4c-dcbb-42c9-bfbd-a63a1ea3f942",
+      "page_number": [
+        20
+      ],
+      "item_label": "merged",
+      "index": 335,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 개요",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "769f9e90-627c-4748-a3e2-627aa727d40e",
+          "content": "<table><caption>(단위: %)</caption><tbody><tr><th colspan=\"2\">구분</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>YoY (22/23)</th><th>CAGR (20/23)</th></tr><tr><td>1</td><td>Tmall Marketplace</td><td>40.1</td><td>39.7</td><td>34.6</td><td>29.4</td><td>-15.0</td><td>-9.8</td></tr><tr><td>2</td><td>JD Marketplace</td><td>20.7</td><td>22.8</td><td>19.6</td><td>18.0</td><td>-8.2</td><td>-4.6</td></tr><tr><td>3</td><td>Douyin Marketplace</td><td>-</td><td>-</td><td>11.3</td><td>16.4</td><td>45.1</td><td>N/A</td></tr><tr><td>4</td><td>Pinduoduo Marketplace</td><td>6.4</td><td>8.2</td><td>11.8</td><td>14.8</td><td>25.4</td><td>32.2</td></tr><tr><td>5</td><td>JD</td><td>11.0</td><td>11.9</td><td>10.0</td><td>9.4</td><td>-6.0</td><td>-5.1</td></tr><tr><td>6</td><td>Tmall</td><td>1.1</td><td>1.3</td><td>1.2</td><td>1.1</td><td>-8.3</td><td>0.0</td></tr><tr><td>7</td><td>Suning</td><td>2.9</td><td>1.5</td><td>0.9</td><td>0.9</td><td>0.0</td><td>-32.3</td></tr><tr><td>8</td><td>Suning Marketplace</td><td>1.9</td><td>1.1</td><td>0.9</td><td>0.8</td><td>-11.1</td><td>-25.0</td></tr><tr><td>9</td><td>Vipshop</td><td>1.6</td><td>1.5</td><td>0.7</td><td>0.7</td><td>0.0</td><td>-24.1</td></tr><tr><td>10</td><td>Freshippo</td><td>0.3</td><td>0.6</td><td>0.7</td><td>0.6</td><td>-14.3</td><td>26.0</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n현재 마카오는 온라인 시장 도입기로 마카오를 기반으로 한 온라인 쇼핑 플랫폼은 발달하는 단계에 있으며, 인구수 역시 약 68만 명 수준으로 시장규모가 크지 않아 마카오 시장만을 겨냥한 온라인 유통채널 플랫폼은 개발 단계에 있다.\n\n따라서 마카오 소비자는 중국에서 대중적으로 이용되는 Tmall, 징동(JD.com), 더우인(Douyin) 등의 온라인 유통채널 브랜드를 주로 이용하는 것으로 추정된다.\n\n*출처: 「Retail in China(2024.03.)」(유로모니터)",
+    "name": "현재 마카오는 온라인 시장 도입기로 마카오를 기반으로 한 온라인 쇼핑 플랫폼은 발달하는 단계에 있으며, 인구수 역시 약 68만 명 수준으로 시장규모가 크지 않아 마카오 시장만을 겨냥한 온라인 유통채널 플랫폼은 개발 단계에 있다.",
+    "meta_data": {
+      "chunk_id": "8ca5e711-b8da-4029-af5b-0896b4d51c62",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8ca5e711-b8da-4029-af5b-0896b4d51c62",
+        "3c29ea00-ee55-489c-a34e-cc71c54bdc1a",
+        "3bff14f1-309f-43ea-99f2-a1fafaf3a3a1"
+      ],
+      "chunked_count": 3,
+      "index": 336,
+      "page_number": [
+        20
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 238,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "현재 마카오는 온라인 시장 도입기로 마카오를 기반으로 한 온라인 쇼핑 플랫폼은 발달하는 단계에 있으며, 인구수 역시 약 68만 명 수준으로 시장규모가 크지 않아 마카오 시장만을 겨냥한 온라인 유통채널 플랫폼은 개발 단계에 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2.2.3 주요 온라인 유통채널\n\n사이트명 Tmall 운영업체 Alibaba Group Holding Ltd\n점유율 38.8% 웹사이트 www.tmall.com\n\n표제목: *출처: 「Retail in China(2024.03.))」(유로모니터), 중국 Tmall 홈페이지(www.tmall.com)\n사이트명 Tmall 운영업체 Alibaba Group Holding Ltd\n점유율 38.8% 웹사이트 www.tmall.com 전자상거래 플랫폼\n\n사이트명 JD 운영업체 JD.com Inc\n점유율 35.3% 웹사이트 global.jd.com\n\n표제목: *출처: 「Retail in China(2024.03.)」(유로모니터), 중국 JD 홈페이지(global.jd.com)\n사이트명 JD 운영업체 JD.com Inc\n점유율 35.3% 웹사이트 global.jd.com\n- JD.com Inc에서 운영하는 B2C 전자상거래 사이트로 고가의 전자제품을 중점적으로 판매하였으나 럭셔리 신선식품 등 비가전 제품으로의 판매제품 시행\n다변화 - 아마존과 비슷한 물류 시스템 제공하여 자동화된 800개 이상의 창고",
+    "name": "2.2.3 주요 온라인 유통채널",
+    "meta_data": {
+      "chunk_id": "ac15ee67-fd68-41a8-ae62-0d55d042fc84",
+      "page_number": [
+        21
+      ],
+      "item_label": "merged",
+      "index": 343,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2.2.3 주요 온라인 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "3c2b3bb1-c186-42bc-8045-4e2acebf5095",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Tmall</td><td>운영업체</td><td>Alibaba Group Holding Ltd</td></tr><tr><td>점유율</td><td>38.8%</td><td>웹사이트</td><td>www.tmall.com</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "d6dabc36-18e2-4766-9362-442e80224013",
+          "content": "<table><caption>*출처: 「Retail in China(2024.03.))」(유로모니터), 중국 Tmall 홈페이지(www.tmall.com)</caption><tbody><tr><th>사이트명</th><th>Tmall</th><th>운영업체</th><th>Alibaba Group Holding Ltd</th></tr><tr><td>점유율</td><td>38.8%</td><td>웹사이트</td><td>www.tmall.com 전자상거래 플랫폼</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "c10399d2-a5e5-4ed6-84c1-afad677ca635",
+          "content": "<table><tbody><tr><td>사이트명</td><td>JD</td><td>운영업체</td><td>JD.com Inc</td></tr><tr><td>점유율</td><td>35.3%</td><td>웹사이트</td><td>global.jd.com</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "d6d1be39-5957-43f0-bb20-ced23d704a05",
+          "content": "<table><caption>*출처: 「Retail in China(2024.03.)」(유로모니터), 중국 JD 홈페이지(global.jd.com)</caption><tbody><tr><td>사이트명</td><td>JD</td><td>운영업체</td><td>JD.com Inc</td></tr><tr><td>점유율</td><td>35.3%</td><td>웹사이트</td><td>global.jd.com</td></tr><tr><td>- JD.com Inc에서 운영하는 B2C 전자상거래 사이트로, 고가의 전자제품을 중점적으로 판매하였으나 럭셔리, 신선식품 등 비가전 제품으로의 판매제품 시행</td><td></td><td></td><td></td></tr><tr><td>다변화 - 아마존과 비슷한</td><td>물류 시스템</td><td>제공하여 자동화된</td><td>800개 이상의 창고</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2024농식품 국가 수출정보 02 마카오\n\n사이트명 Pinduoduo Marketplace 운영업체 Pinduoduo Inc\n점유율 9.4% 웹사이트 m.pinduoduo.com\n\n사이트명 Pinduoduo Marketplace 운영업체 Pinduoduo Inc\n점유율 9.4% 웹사이트 m.pinduoduo.com - Pinduoduo Inc에서 운영하는 C2M(Consumer-to-Manufacturer) 전자상거래 사이트 - 농산물 및 식품이 주요 판매제품이나 의류 및 잡화 또한 판매되고 있음 - 공동구매를 통한 초저가 소비에 초점을 두어 중국 내 중소도시의 주부들을 소비층으로 겨냥함 - 모바일 메신저 위챗에 해당 앱 서비스를 탭으로 삽입하여 구매자가 직접 구매자들을 모집할 수 있음 주 다른",
+    "name": "2024농식품 국가 수출정보 02 마카오",
+    "meta_data": {
+      "chunk_id": "7417bb2c-dcd3-4c70-8352-ab0962c3f4d9",
+      "page_number": [
+        22
+      ],
+      "item_label": "merged",
+      "index": 372,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 02 마카오",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "82a7392e-bc6e-439f-ae6c-49694aaa3ed3",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Pinduoduo Marketplace</td><td>운영업체</td><td>Pinduoduo Inc</td></tr><tr><td>점유율</td><td>9.4%</td><td>웹사이트</td><td>m.pinduoduo.com</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "acfd392f-a10b-4951-af2f-2f3eb19f9450",
+          "content": "<table><tbody><tr><td>사이트명</td><td>Pinduoduo Marketplace</td><td>운영업체</td><td>Pinduoduo Inc</td></tr><tr><td>점유율 9.4% 웹사이트 m.pinduoduo.com - Pinduoduo Inc에서 운영하는 C2M(Consumer-to-Manufacturer) 전자상거래 사이트 - 농산물 및 식품이 주요 판매제품이나, 의류 및 잡화 또한, 판매되고 있음 - 공동구매를 통한 초저가 소비에 초점을 두어 중국 내 중소도시의 주부들을 소비층으로 겨냥함 - 모바일 메신저 위챗에 해당 앱 서비스를 탭으로 삽입하여 구매자가 직접 구매자들을 모집할 수 있음</td><td></td><td></td><td>주 다른</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오의 오프라인 식품 유통채널 규모는 2023년 26억 4,080만 달러에서 연평균 10.1% 성장하여 2027년 38억 7,870만 달러 규모에 이를 것으로 전망된다.\n\n슈퍼마켓의 규모는 2023년 9억 6,950만 달러에서 연평균 10.9% 성장하여 2027년 14억 6,430만 달러 규모에 이를 것으로 전망된다.\n\n하이퍼마켓의 규모는 2023년 4억 6,660만 달러에서 연평균 12.1% 성장하여 2027년 7억 3,610만 달러 규모에 이를 것으로 전망된다.",
+    "name": "마카오의 오프라인 식품 유통채널 규모는 2023년 26억 4,080만 달러에서 연평균 10.1% 성장하여 2027년 38억 7,870만 달러 규모에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "e1d8e280-c7dc-4bff-a737-334693aeebd3",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e1d8e280-c7dc-4bff-a737-334693aeebd3",
+        "61299352-2b05-4b6c-ae27-099144f29d44",
+        "94b889c5-343f-4e48-8cca-b3f9f3c0bcbe"
+      ],
+      "chunked_count": 3,
+      "index": 382,
+      "page_number": [
+        23
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 262,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오의 오프라인 식품 유통채널 규모는 2023년 26억 4,080만 달러에서 연평균 10.1% 성장하여 2027년 38억 7,870만 달러 규모에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 전문판매점\n\n구분 2023 2024 2025 2026 2027 비중 (27) YoY (26/27) CAGR (23/27)\n전체 2640.8 3201.4 3550.1 3742.1 3878.7 100.0 3.7 10.1\n슈퍼마켓 969.5 1206.2 1338.2 1410.6 1464.3 37.8 3.8 10.9\n하이퍼마켓 466.6 580.2 673.8 715.7 736.1 19.0 2.9 12.1\n전문판매점 449.3 542.4 603.3 638.6 664.0 17.1 4.0 10.3\n편의점 330.9 418.8 460.3 484.6 505.1 13.0 4.2 11.2\n소규모 식료품점 312.4 335.8 350.2 362.0 372.7 9.6 3.0 4.5\n창고형 매장 95.2 100.5 106.3 111.9 117.1 3.0 4.6 5.3\n할인점 16.9 17.4 18.0 18.7 19.5 0.5 4.3 3.6",
+    "name": "전문판매점",
+    "meta_data": {
+      "chunk_id": "fa0cbc58-7204-471e-ac43-458a2704dd64",
+      "page_number": [
+        23
+      ],
+      "item_label": "merged",
+      "index": 387,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 전문판매점",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "7723de3e-11b0-493b-9c2c-e554d6e3b672",
+          "content": "<table><tbody><tr><th>구분</th><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>비중 (27)</th><th>YoY (26/27)</th><th>CAGR (23/27)</th></tr><tr><td>전체</td><td>2,640.8</td><td>3,201.4</td><td>3,550.1</td><td>3,742.1</td><td>3,878.7</td><td>100.0</td><td>3.7</td><td>10.1</td></tr><tr><td>슈퍼마켓</td><td>969.5</td><td>1,206.2</td><td>1,338.2</td><td>1,410.6</td><td>1,464.3</td><td>37.8</td><td>3.8</td><td>10.9</td></tr><tr><td>하이퍼마켓</td><td>466.6</td><td>580.2</td><td>673.8</td><td>715.7</td><td>736.1</td><td>19.0</td><td>2.9</td><td>12.1</td></tr><tr><td>전문판매점</td><td>449.3</td><td>542.4</td><td>603.3</td><td>638.6</td><td>664.0</td><td>17.1</td><td>4.0</td><td>10.3</td></tr><tr><td>편의점</td><td>330.9</td><td>418.8</td><td>460.3</td><td>484.6</td><td>505.1</td><td>13.0</td><td>4.2</td><td>11.2</td></tr><tr><td>소규모 식료품점</td><td>312.4</td><td>335.8</td><td>350.2</td><td>362.0</td><td>372.7</td><td>9.6</td><td>3.0</td><td>4.5</td></tr><tr><td>창고형 매장</td><td>95.2</td><td>100.5</td><td>106.3</td><td>111.9</td><td>117.1</td><td>3.0</td><td>4.6</td><td>5.3</td></tr><tr><td>할인점</td><td>16.9</td><td>17.4</td><td>18.0</td><td>18.7</td><td>19.5</td><td>0.5</td><td>4.3</td><td>3.6</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n전문판매점의 규모는 2023년 4억 4,930만 달러에서 연평균 10.3% 성장하여 2027년 6억 6,400만 달러 규모에 이를 것으로 전망된다.\n\n*주: 전문 판매점-식품·주류·담배만을 전문적으로 판매하는 매장",
+    "name": "전문판매점의 규모는 2023년 4억 4,930만 달러에서 연평균 10.3% 성장하여 2027년 6억 6,400만 달러 규모에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "c69aca41-441a-4fd3-96b1-08b975f68483",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c69aca41-441a-4fd3-96b1-08b975f68483",
+        "afa329ea-9f1a-4b35-8088-3e5e7a4f9471"
+      ],
+      "chunked_count": 2,
+      "index": 388,
+      "page_number": [
+        23
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 119,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "전문판매점의 규모는 2023년 4억 4,930만 달러에서 연평균 10.3% 성장하여 2027년 6억 6,400만 달러 규모에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 개요\n\n2023 2024 2025 2026 2027 YoY (26/27) CAGR (23/27)\n513.5 695.0 827.8 932.4 1030.7 10.5 19.0",
+    "name": "개요",
+    "meta_data": {
+      "chunk_id": "676599dc-6c9b-41ba-8fa0-e7fa733541fb",
+      "page_number": [
+        24
+      ],
+      "item_label": "merged",
+      "index": 397,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 개요",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2d49a589-4989-4280-abb1-21259fde08ee",
+          "content": "<table><tbody><tr><th>2023</th><th>2024</th><th>2025</th><th>2026</th><th>2027</th><th>YoY (26/27)</th><th>CAGR (23/27)</th></tr><tr><td>513.5</td><td>695.0</td><td>827.8</td><td>932.4</td><td>1,030.7</td><td>10.5</td><td>19.0</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오의 온라인 식품 유통채널 시장 규모는 2023년 이후 5년간 연평균 19% 성장하여, 2027년 10억 3,070만 달러에 이를 것으로 전망된다.",
+    "name": "마카오의 온라인 식품 유통채널 시장 규모는 2023년 이후 5년간 연평균 19% 성장하여, 2027년 10억 3,070만 달러에 이를 것으로 전망된다.",
+    "meta_data": {
+      "chunk_id": "deecb49e-f658-460e-8a7f-cca4e7188fb5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "deecb49e-f658-460e-8a7f-cca4e7188fb5"
+      ],
+      "chunked_count": 1,
+      "index": 398,
+      "page_number": [
+        24
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 86,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오의 온라인 식품 유통채널 시장 규모는 2023년 이후 5년간 연평균 19% 성장하여, 2027년 10억 3,070만 달러에 이를 것으로 전망된다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# <수출품목 선정 지표 기준>\n\n1. 직전년도 한국산 식품 수출규모\n2. 직전년도 한국산 식품 수출성장률\n3. 현지 소비 이슈에 부합하는 품목\n4. 현지 시장에서 수요 증가 등 성장 가능성을 보유한 품목",
+    "name": "<수출품목 선정 지표 기준>",
+    "meta_data": {
+      "chunk_id": "73432108-0c3f-4b11-b89b-73fbcbedaffe",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 408,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# <수출품목 선정 지표 기준>",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "4c2cef67-6759-4231-92a5-52e83d1bcfca",
+          "content": "<table><tbody><tr><td>1. 직전년도 한국산 식품 수출규모</td></tr><tr><td>2. 직전년도 한국산 식품 수출성장률</td></tr><tr><td>3. 현지 소비 이슈에 부합하는 품목</td></tr><tr><td>4. 현지 시장에서 수요 증가 등 성장 가능성을 보유한 품목</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 인스턴트 라면 시장규모는 2023년 1,710만 달러로 2019년 이후 연평균 14.9% 증가했다. 마카오 식당에서 라면에 채소와 햄, 계란을 추가해 조리한 면 요리를 쉽게 찾아볼 수 있을 만큼 마카오에서 인스턴트 면류는 주요 식료품으로 소비되고 있다.\n\n마카오에서는 한류 인기에 힘입어 한국 식품의 인지도가 높아지고 있다. 이에 라면을 비롯한 다양한 한국식품이 마카오에서 유통되고 있으며, 마카오의 런더너 마카오 호텔에서는 스위트룸에 한국 컵라면을 구비하고 있다. 이처럼 한국 라면의 수요가 확대되며 한국산 라면의 對마카오 수출액은 2023년 약 1만 1,300달러로 한국산 주요 수출 품목 중 하나로 자리 잡고 있다.\n\n마카오에서는 국물라면, 볶음라면 등 다양한 유형의 한국 라면이 판매되고 있으며 특히 치즈가 첨가된 라면이 치즈와 면의 좋은 궁합을 보여 좋은 평을 받고 있다. 한편 매운맛을 높인 국물 라면 또한 '도전'을 목적으로 하는 소비자가 구매하고 있다.\n\n[르포] 중국령 마카오, 韓관광객 모시기 나서...\"한한령 못느껴\",\n\nLocal Eats: Where to Have Instant Noodles With Egg & Luncheon Meat in Macau, Macau Lifestyle",
+    "name": "글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 인스턴트 라면 시장규모는 2023년 1,710만 달러로 2019년 이후 연평균 14.9% 증가했다. 마카오 식당에서 라면에 채소와 햄, 계란을 추가해 조리한 면 요리를 쉽게 찾아볼 수 있을 만큼 마카오에서 인스턴트 면류는 주요 식료품으로 소비되고 있다.",
+    "meta_data": {
+      "chunk_id": "811e966c-ddf2-4e67-a678-e1e5af7427ba",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "811e966c-ddf2-4e67-a678-e1e5af7427ba",
+        "cb6f5897-886e-4605-a9ac-db260b7c48b1",
+        "5f9125b9-7afd-4bf4-ad27-965efb104c04",
+        "a088b23b-e1f9-49b7-b71f-f0faff0d8093",
+        "795ec7a7-6855-4244-9642-f31809903594"
+      ],
+      "chunked_count": 5,
+      "index": 415,
+      "page_number": [
+        26
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 581,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 인스턴트 라면 시장규모는 2023년 1,710만 달러로 2019년 이후 연평균 14.9% 증가했다. 마카오 식당에서 라면에 채소와 햄, 계란을 추가해 조리한 면 요리를 쉽게 찾아볼 수 있을 만큼 마카오에서 인스턴트 면류는 주요 식료품으로 소비되고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 음료 시장규모는 2023년 6,400만 리터로 2019년 6,030만 리터에에서 연평균 1.5% 성장했다. 마카오 음료 시장은 폭넓은 소비자층, 높은 구매 빈도에 힘입어 꾸준히 성장하고 있으며 청량음료, 주스, 차 음료 등 다양한 제품이 판매되며 소비자의 세분화된 요구를 충족하고 있다.\n\n마카오에서 청량음료는 일상생활의 필수 식품으로 인식되며 활발하게 소비되고 있다. 이에 마카오 정부 및 소비자위원회(消委會調)는 설탕 함유량이 높은 가당 음료의 잦은 섭취를 경고함과 동시에, 소비자가 무설탕 음료를 섭취하도록 권고하고 있다. 이와 더불어 건강한 음료 소비트렌드가 자리잡으며 무설탕, 저당 청량음료의 선호도가 높아지고 있다. 또한 건강을 중시하는 소비자를 위해 무첨가, 천연 제품 등 건강한 차 음료나 주스가 출시되는 추세이다. 글로벌 음료 브랜드 코카콜라에서는 무설탕 '스프라이트'를 출시했으며, 마카오 시장에 진출한 중국의 음료 브랜드 북극해(北冰洋)에서는 무설탕 재스민차 음료를 출시했다.\n\n마카오에서 한국 음료는 트렌디한 식품으로 인식되고 있으며, 한국식 카페 문화가 마카오 소비자들 사이에서 인기를 끌며 한국 음료에 대한 수요도 증가하고 있다. 이에 2023년 한국 무알코올 음료의 對마카오 수출액은 약 17만 달러로 전년 대비 27.1% 증가하였고, 2019년 이후 연평균 10.4%의 성장률을 보이고 있다.\n\n當局倡業界 飲 料減糖, Cyberctm 消委會調 查 預包裝茶類 飲 品熱量及糖 份 含量,. Gov.mo 澳 门饮 料市 场规 模和 份额 分析, Silkroad Impression 搵 餐飯食 Foodie Hang0o0, Facebook",
+    "name": "글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 음료 시장규모는 2023년 6,400만 리터로 2019년 6,030만 리터에에서 연평균 1.5% 성장했다. 마카오 음료 시장은 폭넓은 소비자층, 높은 구매 빈도에 힘입어 꾸준히 성장하고 있으며 청량음료, 주스, 차 음료 등 다양한 제품이 판매되며 소비자의 세분화된 요구를 충족하고 있다.",
+    "meta_data": {
+      "chunk_id": "62575c6b-da74-4a59-8816-ac3fa5854014",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "62575c6b-da74-4a59-8816-ac3fa5854014",
+        "470c39d8-38a4-452b-bc24-1c1424543fe3",
+        "964814d6-426a-472e-9f40-2b5eafc6a8da",
+        "bd48e1d7-ecf8-4a04-be70-cb8486362821"
+      ],
+      "chunked_count": 4,
+      "index": 427,
+      "page_number": [
+        27
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 856,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "글로벌 시장조사기관 유로모니터(Euromonitor)에 따르면 마카오 음료 시장규모는 2023년 6,400만 리터로 2019년 6,030만 리터에에서 연평균 1.5% 성장했다. 마카오 음료 시장은 폭넓은 소비자층, 높은 구매 빈도에 힘입어 꾸준히 성장하고 있으며 청량음료, 주스, 차 음료 등 다양한 제품이 판매되며 소비자의 세분화된 요구를 충족하고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오에서 인삼, 홍삼 등 삼을 이용한 제품은 면역력 등 건강개선에 도움 되는 식품으로 인식되고 있다. 또한 마카오 소비자의 건강 중시 트렌드로 인삼을 활용한 건강 차 음료의 수요가 증가하는 추세이다.\n\n마카오에서 인삼을 활용한 식품은 편, 농축액, 차 등 다양한 형태로 소비되며, 특히 이 중 간편하고 맛있게 섭취할 수 있는 인삼차에 대한 수요가 높은 편이다. 마카오에서 인삼차는 티백, 액상, 파우치 등 다양한 형태로 판매되고 있다.\n\n특히 마카오에서는 한국산 인삼에 대해 높은 선호를 보이고 있으며, 한국산 인삼을 활용한 가공품이 고평가되고 있다. 한국산 인삼 및 인삼 가공품에 대한 선호로 2023년 한국산 인삼차의 對마카오 수출액은 전년 대비 124% 증가한 2만 7,000달러로 집계되었다.\n\n이에 마카오 현지 인삼차 브랜드에서도 제품 포장에 '한국'이라는 명칭을 별도로 표기하거나 태극기 이미지를 삽입하는 등의 방식으로 원재료의 원산지를 강조하는 전략을 내세우고 있다. 또한 한국산 인삼에 대한 높은 수요를 바탕으로 홍콩 제약회사 Wai Yuen Tong은 한국산 인삼으로 만든 고려인삼 시리즈를 런칭해 판매하고 있다.\n\nThe Art of Tea at Galaxy Macau, The Galaxy Macau 位元堂六年根高麗蔘 「蔘」意十足進補好物, am730\n\n풍기인삼공사영농조합법인, 서울푸드 2022서 6년근 인삼 가공 제품 전시... \"재배부터 생산지 관리, 농약 관리, 가공까지 책임진다!\", Aving",
+    "name": "마카오에서 인삼, 홍삼 등 삼을 이용한 제품은 면역력 등 건강개선에 도움 되는 식품으로 인식되고 있다. 또한 마카오 소비자의 건강 중시 트렌드로 인삼을 활용한 건강 차 음료의 수요가 증가하는 추세이다.",
+    "meta_data": {
+      "chunk_id": "64cd221b-70b6-418e-89b7-7314fda10cce",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "64cd221b-70b6-418e-89b7-7314fda10cce",
+        "7e07a592-2881-4b63-9e11-ec8c5bbd3765",
+        "4161e531-2594-4d89-9b78-72683f2932ac",
+        "ec88527b-1e26-4544-987b-4e84aeddec9c",
+        "ef805ed0-469c-4ead-8055-5be8f0e2d577",
+        "382d220b-40d9-4546-95bc-b4239ab5ed78"
+      ],
+      "chunked_count": 6,
+      "index": 437,
+      "page_number": [
+        28
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 705,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오에서 인삼, 홍삼 등 삼을 이용한 제품은 면역력 등 건강개선에 도움 되는 식품으로 인식되고 있다. 또한 마카오 소비자의 건강 중시 트렌드로 인삼을 활용한 건강 차 음료의 수요가 증가하는 추세이다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오에서는 핵가족화, 현대화, 경제 불황에 따른 외식 감소 등으로 즉석식품의 수요가 증가하고 있다. 특히 식품 소비 시 편의성을 중시하는 동향과 더불어 즉석식품의 제품 유형 다양화로 시장의 성장세가 지속되고 있다.\n\n마카오에서는 즉석식품이지만 균형 잡힌 영양성분 및 건강에 유익한 성분과 재료로 구성된 제품이 각광받고 있다. 이는 소비자의 건강 중시 트렌드에 부합하기 위한 것으로, 마카오의 식품 기업 Easy Chef International Catering Consultancy Service는 건강을 생각해 고품질의 재료를 사용한 즉석식품을 출시했다. Easy Chef에서는 방부제, 색소 등 식품첨가물을 사용하지 않고 제품을 제조하고 있으며 전복이나 인삼 같은 고급 식재료를 사용해 간편하면서도 건강한 즉석식품을 판매 중이다.\n\n또한 마카오 외식업계에서도 인력난 해소와 품질의 표준화를 위해 즉석식품에 주목하고 있다. 마카오의 외식 기업 대부분은 5개 이하의 지점을 운영하는 소규모 형태로 효율적인 운영에 어려움을 느끼고 있다. 이에 적은 인력으로도 효율적인 운영이 가능하고, 소비자에게 균일한 맛과 품질을 제공할 수 있는 즉석식품이 외식업계에서도 주목받고 있다.\n\n預製菜會否衝擊澳門美食之都, Jornal San Wa Ou 澳 门 餐 饮协会 李 荫 良： 预 制菜 产业 有助于餐 饮业发 展，珠澳要 优势 互 补 , Macao Catering Industry 「預膳房」美食新潮流 創新引領新味蕾, Lotus Macau\n\n預製菜在名優展大放異彩 一個展會可催生一個 產 業, Macau Convention & Exhibition Economy Journal",
+    "name": "마카오에서는 핵가족화, 현대화, 경제 불황에 따른 외식 감소 등으로 즉석식품의 수요가 증가하고 있다. 특히 식품 소비 시 편의성을 중시하는 동향과 더불어 즉석식품의 제품 유형 다양화로 시장의 성장세가 지속되고 있다.",
+    "meta_data": {
+      "chunk_id": "3f99bcb4-2688-4910-92f8-864a1297e632",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "3f99bcb4-2688-4910-92f8-864a1297e632",
+        "f63f8a12-8810-4e5d-a4f0-a88252fe5d44",
+        "ba819d94-2e58-4879-875e-034fbc46cae9",
+        "fe8cf8ca-6ae9-4525-bd3e-fc1663853fc3",
+        "baf952e3-d503-4635-9c9b-0f4ef8ee92a8"
+      ],
+      "chunked_count": 5,
+      "index": 451,
+      "page_number": [
+        29
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 770,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오에서는 핵가족화, 현대화, 경제 불황에 따른 외식 감소 등으로 즉석식품의 수요가 증가하고 있다. 특히 식품 소비 시 편의성을 중시하는 동향과 더불어 즉석식품의 제품 유형 다양화로 시장의 성장세가 지속되고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n2023년 마카오 채식주의 문화협회(Macau Association of Vegetarian Culture)에서 실시한 설문조사에 따르면 마카오 내 채식주의자 인구는 1.3%에 불과하나, 마카오 인구의 3분의 1이 일주일에 최소 1회 이상 채식 식단을 섭취하는 것으로 나타났다. 마카오에서 채식은 종교적 요인과 더불어 최근 소비자의 건강 지향 트렌드 및 지속가능성에 대한 중요성 확산으로 수요가 증가하는 추세이다.\n\n전통적으로 도교와 불교의 영향을 받는 마카오에서는 채식이 식문화의 일부로 존재해 왔다. 미국 CIA 통계자료에 따르면 2020년 기준 마카오 인구의 약 58.9%가 도교, 17.3%가 불교도인 것으로 집계되었다.\n\n마카오 종교계에서 채식 문화를 전파하기 위해 다양한 활동을 진행하며 채식에 대한 인식이 확산되는 추세이다. 2023년 마카오 불교단체에서는 채식 음식이 맛없다는 고정관념을 타파하기 위해 '채식 축제'를 개최하였고, 50개 이상의 채식 제조사 및 외식업계가 참여해 다양한 채식 음식을 선보인 바 있다.\n\n또한 2023년 마카오 채식문화협회가 실시한 조사에 따르면 마카오 채식주의자 중 55%가 건강을 위해 채식을 실천하고 있다고 응답했다. 이들은 채식이 가공되지 않아 더 건강하고, 소화하기 쉬운 음식이라고 인식하고 있는 것으로 나타났다.\n\n지속가능성을 위한 채식 수요도 증가하는 추세로, 최근 마카오의 채식 레스토랑 Vega Vega는 동물복지를 고려해 식물성 재료로 만든 피자, 버거, 피시앤칩스 등 식물성 대체식품 메뉴를 출시해 마카오 케이터링 산업협회의 iFood Award를 수상했다. iFood Award는 마카오 소비자의 투표를 통해 가장 선호도가 높은 레스토랑을 선정하는 것으로, 해당 레스토랑의 수상은 최근 식물성 기반 채식 식단에 대한 소비자 인지도와 선호가 높아진 것으로 분석된다.\n\nHow Macau's award-winning vegetarian restaurant Vega Vega helps people embrace meat-free, love-animals lifestyle, South China Morning Post\n\n2024 food trends and where to find them in Macao, The Macao News\n\n佛 青 打造素食一條街 展現「菩薩心 青 年力」, Life News Agency\n\nBuddhists give out free vegetarian lunches, Macau Post\n\nSeeing green: The plant-based food movement takes root in Macao, The Macao\n\nOnly 1.3 per cent of Macao residents are vegetarians, The Macao News",
+    "name": "2023년 마카오 채식주의 문화협회(Macau Association of Vegetarian Culture)에서 실시한 설문조사에 따르면 마카오 내 채식주의자 인구는 1.3%에 불과하나, 마카오 인구의 3분의 1이 일주일에 최소 1회 이상 채식 식단을 섭취하는 것으로 나타났다. 마카오에서 채식은 종교적 요인과 더불어 최근 소비자의 건강 지향 트렌드 및 지속가능성에 대한 중요성 확산으로 수요가 증가하는 추세이다.",
+    "meta_data": {
+      "chunk_id": "830c2f8d-7b9c-4d6d-b0bd-3840fe27c796",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "830c2f8d-7b9c-4d6d-b0bd-3840fe27c796",
+        "dc087533-893e-4aa9-b9e5-3627fb825f0a",
+        "3102958d-c923-48a9-9f2b-ec8979995634",
+        "ae29b40a-cd0b-4614-8baf-e1709f8e0779",
+        "2ccc21ed-699f-4721-81f1-87cd10ed23b1",
+        "d8b11956-3f3c-4789-ac00-6f6816ba848e",
+        "6fc6da7c-c65d-4109-b7b5-670b40687588",
+        "6375a6b6-7bde-438c-a8ff-63b5d0ca598d",
+        "c56b0dad-cc4f-4c80-b104-64938400e183",
+        "2c91caac-b80e-423b-943b-dc34153ba9e5",
+        "4add250a-edb8-4340-9a6a-b3e0430bb22f"
+      ],
+      "chunked_count": 11,
+      "index": 463,
+      "page_number": [
+        30
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 1004,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "2023년 마카오 채식주의 문화협회(Macau Association of Vegetarian Culture)에서 실시한 설문조사에 따르면 마카오 내 채식주의자 인구는 1.3%에 불과하나, 마카오 인구의 3분의 1이 일주일에 최소 1회 이상 채식 식단을 섭취하는 것으로 나타났다. 마카오에서 채식은 종교적 요인과 더불어 최근 소비자의 건강 지향 트렌드 및 지속가능성에 대한 중요성 확산으로 수요가 증가하는 추세이다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오 외식업계는 노동력 부족 해결, 인건비 절감, 업무 효율성 증대를 위해 로봇, 인공지능 등 푸드테크 도입을 활성화하고 있다. 노동 인력이 부족한 마카오에서는 외식업계의 인력난 해소를 위해 푸드테크를 도입하고 있다. 이와 더불어 외식업계의 푸드테크 도입으로 식품 품질 표준화 및 고급화 외에도 외식업계에서 발생하는 식품 폐기물 감축에 효과가 있을 것으로 기대되고 있다.\n\n마카오의 훠궈 레스토랑 하이디라오에서는 운영 효율을 향상하기 위해 서빙 로봇을 도입했다. 서빙 로봇은 3단 트레이를 사용해 손님의 테이블까지 주문한 음식을 옮기는 역할을 수행한다. 해당 업체에서는 서빙 로봇 도입을 통해 인건비 절감 및 노동력 충원이 가능할 것이라고 기대를 표했다.\n\n마카오 Melco 리조트는 자사 레스토랑에 인공지능(AI)을 도입해 식품 폐기물을 줄이고 있다. Melco 리조트에 도입된 Winnow AI는 AI와 머신러닝으로 구동되는 컴퓨터 비전 모니터링 기술을 사용해 어떤 요리와 식재료가 낭비되는지 추적 및 측정하여 발생하는 식품 낭비의 50%를 감축한 것으로 나타났다. 또한 Galaxy Macau 리조트에서는 레스토랑 주방에 인공지능(AI)을 접목해 음식 제공량과 잔량(소비되지 않은 음식)에 대해 분석하고 피드백을 거쳐 향후 메뉴에 반영하도록 하는 기술을 도입해 운영 효율을 개선하고 식품 폐기물을 줄이기 위해 노력하고 있다.\n\nMacau's opulent fine dining scene is using AI to tackle sustainability: how restaurants in Galaxy Macau, Sands China and Grand Lisboa are leading the green march forward, SCMP\n\n# 【交給送餐機械人】旅業復甦 餐廳引入智能設備助迎客, TDM\n\nMacau's opulent fine dining scene is using AI to tackle sustainability: how restaurants in Galaxy Macau, Sands China and Grand Lisboa are leading the green march forward, South China Moring Post",
+    "name": "마카오 외식업계는 노동력 부족 해결, 인건비 절감, 업무 효율성 증대를 위해 로봇, 인공지능 등 푸드테크 도입을 활성화하고 있다. 노동 인력이 부족한 마카오에서는 외식업계의 인력난 해소를 위해 푸드테크를 도입하고 있다. 이와 더불어 외식업계의 푸드테크 도입으로 식품 품질 표준화 및 고급화 외에도 외식업계에서 발생하는 식품 폐기물 감축에 효과가 있을 것으로 기대되고 있다.",
+    "meta_data": {
+      "chunk_id": "286cdf46-c79d-4470-af60-29f80f0d9047",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "286cdf46-c79d-4470-af60-29f80f0d9047",
+        "9f69da08-19a1-46a4-a0f1-6d9721501e90",
+        "8cdb55e8-decc-4c3e-b262-65ab48bbe4ea",
+        "96c06202-fcec-4dc2-a803-bd1e2df1ede8",
+        "d9a00d29-c538-4745-aded-f4a2ef1c2661",
+        "abcfd6a4-05ed-46e7-b638-b8a349494641"
+      ],
+      "chunked_count": 6,
+      "index": 481,
+      "page_number": [
+        31
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 830,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오 외식업계는 노동력 부족 해결, 인건비 절감, 업무 효율성 증대를 위해 로봇, 인공지능 등 푸드테크 도입을 활성화하고 있다. 노동 인력이 부족한 마카오에서는 외식업계의 인력난 해소를 위해 푸드테크를 도입하고 있다. 이와 더불어 외식업계의 푸드테크 도입으로 식품 품질 표준화 및 고급화 외에도 외식업계에서 발생하는 식품 폐기물 감축에 효과가 있을 것으로 기대되고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n코로나19 이후 봉쇄되었던 마카오와 중국을 잇는 국경이 2023년부로 재개방되면서 마카오에서 육로를 통해 방문할 수 있는 중국의 주하이시(珠海市)에서 쇼핑하는 '역소비'가 일상화되고 있다. 포르투갈 식민 지배의 영향으로 부활절을 기념하는 마카오에서는 3월에서 4월 사이의 부활절 연휴에 여행, 쇼핑 등 여가 활동을 즐기는 문화가 형성되어 있는데, 특히 2024년 부활절 연휴에는 마카오와 중국 주하이시를 잇는 국경 검문소에서 2시간 이상의 대기시간이 발생할 정도로 수많은 마카오 소비자가 중국을 방문한 것으로 나타났다. 마카오와 주하이시는 다리로 연결되어 있으며, 차량으로 이동할 경우 11분밖에 소요되지 않는 특징이 있다. 또한 중국 주하이시는 마카오보다 물가가 저렴해 마카오 소비자들은 식료품 구매, 외식, 쇼핑 및 여가생활 등을 위해 주하이시를 방문하는 것으로 나타났다.\n\n마카오 소비자들이 중국 주하이시 방문 시 꼭 들러야 하는 곳으로 창고형 슈퍼마켓이 꼽힌다. 도시국가인 마카오에서는 대형 할인매장이 없어 소비자는 일반 슈퍼마켓에서 식료품을 구매하고 있다. 그러나 주하이시에 위치한 중국의 창고형 슈퍼마켓에서는 식품 및 생활용품을 대용량으로 저렴하게 구매할 수 있어 마카오 소비자 사이에서 인기가 높은 것으로 나타났다. 이 중에서도 특히 마카오-중국 국경과 가장 인접한 중국의 창고형 대형마트 '샘스클럽(Sam's Club)'은 회원제로 운영됨에도 불구하고 마카오 소비자의 방문율이 높은 것으로 나타났다. 현지 언론매체 Macau Business에 따르면 마카오의 한 소비자는 지난 2년간 샘스클럽에 격주로 방문했다고 응답하였고, 동일한 가격에 더 좋은 품질을 구매할 수 있어 선호한다고 밝혔다. 실제로 2023년 주하이시의 샘스클럽 매출액은 25억 위안에 달해 중국 내 매출 1위, 전 세계 800여 곳의 매장 중 매출 순위 상위 7위를 기록했다.\n\n【息息相關】 為 何澳門消費者湧向內地？, Macau business\n\nStaying in Macao for the Easter break? Here are some things you can do, The Macao News",
+    "name": "코로나19 이후 봉쇄되었던 마카오와 중국을 잇는 국경이 2023년부로 재개방되면서 마카오에서 육로를 통해 방문할 수 있는 중국의 주하이시(珠海市)에서 쇼핑하는 '역소비'가 일상화되고 있다. 포르투갈 식민 지배의 영향으로 부활절을 기념하는 마카오에서는 3월에서 4월 사이의 부활절 연휴에 여행, 쇼핑 등 여가 활동을 즐기는 문화가 형성되어 있는데, 특히 2024년 부활절 연휴에는 마카오와 중국 주하이시를 잇는 국경 검문소에서 2시간 이상의 대기시간이 발생할 정도로 수많은 마카오 소비자가 중국을 방문한 것으로 나타났다. 마카오와 주하이시는 다리로 연결되어 있으며, 차량으로 이동할 경우 11분밖에 소요되지 않는 특징이 있다. 또한 중국 주하이시는 마카오보다 물가가 저렴해 마카오 소비자들은 식료품 구매, 외식, 쇼핑 및 여가생활 등을 위해 주하이시를 방문하는 것으로 나타났다.",
+    "meta_data": {
+      "chunk_id": "c292cfd3-3725-415a-8287-4ced3796c35f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c292cfd3-3725-415a-8287-4ced3796c35f",
+        "92834304-82b7-4312-b068-6c00627b7375",
+        "b10dfdbb-f41a-4686-9dc0-bb9bcb5625e1",
+        "e6a0c5d3-e3c3-408a-ad9d-a2d671eab148"
+      ],
+      "chunked_count": 4,
+      "index": 493,
+      "page_number": [
+        32
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 976,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "코로나19 이후 봉쇄되었던 마카오와 중국을 잇는 국경이 2023년부로 재개방되면서 마카오에서 육로를 통해 방문할 수 있는 중국의 주하이시(珠海市)에서 쇼핑하는 '역소비'가 일상화되고 있다. 포르투갈 식민 지배의 영향으로 부활절을 기념하는 마카오에서는 3월에서 4월 사이의 부활절 연휴에 여행, 쇼핑 등 여가 활동을 즐기는 문화가 형성되어 있는데, 특히 2024년 부활절 연휴에는 마카오와 중국 주하이시를 잇는 국경 검문소에서 2시간 이상의 대기시간이 발생할 정도로 수많은 마카오 소비자가 중국을 방문한 것으로 나타났다. 마카오와 주하이시는 다리로 연결되어 있으며, 차량으로 이동할 경우 11분밖에 소요되지 않는 특징이 있다. 또한 중국 주하이시는 마카오보다 물가가 저렴해 마카오 소비자들은 식료품 구매, 외식, 쇼핑 및 여가생활 등을 위해 주하이시를 방문하는 것으로 나타났다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n마카오 환경 현황 보고서 2022에 따르면 마카오 시민은 1인당 하루 1.77㎏ 이상의 폐기물을 배출한 것으로 집계되었으며 이는 광저우의 약 두 배 이상인 것으로 분석되었다. 플라스틱 폐기물이 환경에 끼치는 부정적인 영향을 줄이기 위해 마카오 정부와 식음료업계에서 플라스틱 사용을 줄이기 위한 노력이 지속되고 있다.\n\n마카오 정부는 분해되지 않는 플라스틱이 생태계 및 공중보건에 악영향을 미치고 있다고 판단하였고, 이에 플라스틱 사용을 줄이기 위한 다양한 규제를 시행하고 있다. 마카오는 2019년부터 소매 매장에서 일회용 플라스틱 봉지의 사용을 금지하고 있으며 2021년에는 분해되지 않는 스티로폼 식품 용기, 그릇, 컵의 사용을 규제했다. 2022년 1월에는 일회용 플라스틱 빨대의 사용 또한 금지했으며, 2024년 초에는 분해되지 않는 스티로폼 및 플라스틱으로 만들어진 컵 및 접시의 수입을 금지했다.\n\n마카오에서 일회용 플라스틱 봉지의 사용이 금지된 후 재사용 가능한 장바구니를 사용하고 일회용품 사용을 줄이는 사람들이 늘어나고 있다. Circle K 편의점, Wang Kei 슈퍼마켓(宏基超級市場有限公司), 로얄 슈퍼마켓(來來超級市場有限公司) 등 다양한 소매 유통 기업은 마카오 정부와 협력해 재사용 장바구니를 사용하는 소비자에게 경품 행사 참여 기회를 부여하는 '환경보호주간'에 참여했다.\n\n또한 플라스틱 폐기물 감소를 위해 '포장 없는 식료품점'이 운영되고 있다. 마카오 펑탕신가(瘋堂斜巷)에 위치한 미량식료품점(米量雜貨店)에서는 소비자는 개인 용기를 지참해 매장을 방문하거나 매장의 공용 용기를 사용해 곡물, 기름, 향신료 등 원하는 양의 식재료를 구매할 수 있다. 매장에서는 포장된 식재료는 찾아볼 수 없으며 식품의 변질을 방지하기 위해 소량의 상품만을 진열해놓고 있다. 포장 없는 식료품점은 젊은 소비자는 물론 중장년층까지 폭넓은 소비자층이 이용하고 있으며, 식품뿐만 아니라 생활용품 판매점에서도 포장 없는 판매 방식을 확대 적용하고 있다/.\n\n친환경 소재로 만들어진 일회용품과 식품 용기의 사용도 증가하는 추세로, 마카오의 플라스틱-프리를 테마로 한 자연 친화 매장 Natural Friendly(自然友善)에서는 친환경적으로 생산되고 사용 후 완전히 분해되는 나뭇잎을 사용해 만들어진 일회용 접시가 판매되고 있으며, 해당 매장에서 판매하는 실리콘 소재의 식기류도 사용이 간편하고 재사용이 가능해 인기인 것으로 나타났다.\n\n返璞歸 真 環保裸賣店, 澳門特別行政區政府新聞局版權所有 減塑-為 生活做一點簡化, 澳門特別行政區政府新聞局版權所有 ' 減塑有著數 '活動動員全城實踐減用塑膠袋, Gov,Mo",
+    "name": "마카오 환경 현황 보고서 2022에 따르면 마카오 시민은 1인당 하루 1.77㎏ 이상의 폐기물을 배출한 것으로 집계되었으며 이는 광저우의 약 두 배 이상인 것으로 분석되었다. 플라스틱 폐기물이 환경에 끼치는 부정적인 영향을 줄이기 위해 마카오 정부와 식음료업계에서 플라스틱 사용을 줄이기 위한 노력이 지속되고 있다.",
+    "meta_data": {
+      "chunk_id": "926c59d2-cd91-443d-bb72-24b7f341d085",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "926c59d2-cd91-443d-bb72-24b7f341d085",
+        "316cc38a-641d-48f4-8939-e4722589ebd6",
+        "dbf3d9f7-6fbb-4e91-b5f6-70d671784fda",
+        "9758dcdc-b1c6-4eef-8516-809a59ca9c6e",
+        "db07a2ef-c0f5-4fc7-843d-c16e83732caf",
+        "c2af59b4-b724-4dee-8e39-9e31df1ff42c"
+      ],
+      "chunked_count": 6,
+      "index": 504,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 1327,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "마카오 환경 현황 보고서 2022에 따르면 마카오 시민은 1인당 하루 1.77㎏ 이상의 폐기물을 배출한 것으로 집계되었으며 이는 광저우의 약 두 배 이상인 것으로 분석되었다. 플라스틱 폐기물이 환경에 끼치는 부정적인 영향을 줄이기 위해 마카오 정부와 식음료업계에서 플라스틱 사용을 줄이기 위한 노력이 지속되고 있다."
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 4.1 | 수출입절차\n\n상세내용 주체\n· 수출 품목에 대한 마카오의 위생기준 검역 요건 포장 및 라벨링 국내\n건 등 관련 요건을 사전에 파악 수출업체\n\n수입허가 취득 · &#x27;수입 시 심사 대상 품목&#x27; 수입 시 민정총서로부터 수입허가증 발급 필요 · 대상품목: 채소류 가금류 어류 냉동육 계란 과일 및 통조림 주류 등\n\n수입신고 · 마카오 전자통관시스템(TEDMEV)을 통해 화물 인수 당일 제반서류 제출과 함께 수입신고 진행 필요 · 제출서류: ①발급받은 허가증 또는 작성 완료된 세관 신고서 ②선하 마카오 수입업체\n\n수입검사 · 농산물 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②원산지 정부가 발급한 농약사용보고서 또는 위생증명서 ③증명서 및 목적 명시 · 육류 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②화물의 국제위생증명서류 ③조류 인플 마카오 수입업체\n\n프로세스 상세내용 주체\n품목별 수입요건 파악 · 수출 품목에 대한 마카오의 위생기준 검역 요건 포장 및 라벨링 요 건 등 관련 요건을 사전에 파악 국내 수출업체\n수출신고 및 운송수단 선적 · 제출서류: ①수출신고서 ②상업송장 ③포장명세서 등 국내 수출업체\n수입허가 취득 · &#x27;수입 시 심사 대상 품목&#x27; 수입 시 민정총서로부터 수입허가증 발급 필요 · 대상품목: 채소류 가금류 어류 냉동육 계란 과일 및 통조림 주류 등 마카오 수입업체\n수입신고 · 마카오 전자통관시스템(TEDMEV)을 통해 화물 인수 당일 제반서류 제출과 함께 수입신고 진행 필요 · 제출서류: ①발급받은 허가증 또는 작성 완료된 세관 신고서 ②선하 ④영수증 공문 위탁서 화물명세서 등 마카오 수입업체\n수입검사 · 육류 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②화물의 국제위생증명서류 ③조류 인플 등기 마카오 수입업체\n관세 납부 및 반출 · 관세 납부 후 물품 반출 가능 마카오 수입업체",
+    "name": "4.1 | 수출입절차",
+    "meta_data": {
+      "chunk_id": "b9ddb37a-9ddf-43f5-ba6c-a5dc63eea0ce",
+      "page_number": [
+        34
+      ],
+      "item_label": "merged",
+      "index": 514,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 4.1 | 수출입절차",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ce1bc950-a155-4a1d-b97e-ce9807b0516a",
+          "content": "<table><tbody><tr><th>상세내용</th><th>주체</th></tr><tr><td>· 수출 품목에 대한 마카오의 위생기준, 검역 요건, 포장 및 라벨링</td><td>국내</td></tr><tr><td>건 등 관련 요건을 사전에 파악</td><td>수출업체</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "6281ce59-bc49-41a9-8812-d5f65f75f8f8",
+          "content": "<table><tbody><tr><td>수입허가 취득</td><td>· &#x27;수입 시 심사 대상 품목&#x27; 수입 시 민정총서로부터 수입허가증 발급 필요 · 대상품목: 채소류, 가금류, 어류, 냉동육, 계란, 과일 및 통조림, 주류 등</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "16ecff11-2b18-4822-bf25-bf09b6a368f2",
+          "content": "<table><tbody><tr><td>수입신고</td><td>· 마카오 전자통관시스템(TEDMEV)을 통해 화물 인수 당일 제반서류 제출과 함께 수입신고 진행 필요 · 제출서류: ①발급받은 허가증 또는 작성 완료된 세관 신고서 ②선하 마카오 수입업체</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "ee571865-0dec-4c7d-ac16-306d86a7b05c",
+          "content": "<table><tbody><tr><td>수입검사</td><td>· 농산물 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②원산지 정부가 발급한 농약사용보고서 또는 위생증명서 ③증명서 및 목적 명시 · 육류 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②화물의 국제위생증명서류 ③조류 인플 마카오 수입업체</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "9a7da810-5893-47e9-881c-402600829b7e",
+          "content": "<table><tbody><tr><th>프로세스</th><th>상세내용 주체</th></tr><tr><td>품목별 수입요건 파악</td><td>· 수출 품목에 대한 마카오의 위생기준, 검역 요건, 포장 및 라벨링 요 건 등 관련 요건을 사전에 파악 국내 수출업체</td></tr><tr><td>수출신고 및 운송수단 선적</td><td>· 제출서류: ①수출신고서 ②상업송장 ③포장명세서 등 국내 수출업체</td></tr><tr><td>수입허가 취득</td><td>· &#x27;수입 시 심사 대상 품목&#x27; 수입 시 민정총서로부터 수입허가증 발급 필요 · 대상품목: 채소류, 가금류, 어류, 냉동육, 계란, 과일 및 통조림, 주류 등 마카오 수입업체</td></tr><tr><td>수입신고</td><td>· 마카오 전자통관시스템(TEDMEV)을 통해 화물 인수 당일 제반서류 제출과 함께 수입신고 진행 필요 · 제출서류: ①발급받은 허가증 또는 작성 완료된 세관 신고서 ②선하 ④영수증, 공문, 위탁서, 화물명세서 등 마카오 수입업체</td></tr><tr><td>수입검사</td><td>· 육류 수입 시 민정총서 위생감독부에 위생검역 신청 - 제출서류: ①수입신고서 ②화물의 국제위생증명서류 ③조류 인플 등기 마카오 수입업체</td></tr><tr><td>관세 납부 및 반출</td><td>· 관세 납부 후 물품 반출 가능 마카오 수입업체</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n● 수출 품목에 대한 마카오 위생기준·검역 요건·포장 및 라벨링 등 관련 요건을 사전에 파악 필요\n\n· 일반 사전포장식품, 신선 농산물, 축산물 제품 등에 요구되는 위생기준·라벨링· 식품첨가물 규정 등 수입요건이 상이하므로, 국내 수출업체는 원활한 수출을 위해 품목별 수입요건을 사전에 파악해야 함\n\n# ● 수출업체는 상업송장, 포장명세서 등을 기반으로 수출신고서 작성 후 관세청 UNI-PASS를 통해 수출신고 필수\n\n· 수출신고는 수출업체(화주)와 수출업체를 대신하는 관세사·관세법인·통관취급법인· 완제품제공자 명의로 신고할 수 있음\n\n· 접수 결과에 따라 ①서류 심사 후 수리 ②현품 검사 후 수리 ③자동수리로 구분해 수출통관 진행\n\n실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인\n\n· 수출신고 수리 후 수출업체는 '수출신고필증'을 수령함\n\n· 수출업체(화주)는 관세법에 따라 ①수출신고필증 ②수출품 가격결정에 관한 자료 ③수출거래관련 계약서 및 이에 갈음하는 서류 ④반송신고필증 등을 수리일로부터 3년간 보관해야 함",
+    "name": "● 수출 품목에 대한 마카오 위생기준·검역 요건·포장 및 라벨링 등 관련 요건을 사전에 파악 필요",
+    "meta_data": {
+      "chunk_id": "82f64de4-882d-4a1c-8cca-7a55c873791f",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "82f64de4-882d-4a1c-8cca-7a55c873791f",
+        "070ef9d7-ff3f-4631-9812-907b5af24030",
+        "4d95e042-ddaf-43da-a45c-baf3345c893a",
+        "f15ee6d0-e343-4254-93b3-9c5e642a2257",
+        "89aad645-792b-4946-94ae-2e56521603aa",
+        "7b5c7331-0142-4dbf-82ea-765f2045b286",
+        "54fb23ed-816b-46ef-a57f-279917100a12",
+        "456657bc-ca18-4eeb-a49f-5d8ec557071d"
+      ],
+      "chunked_count": 8,
+      "index": 530,
+      "page_number": [
+        35
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 580,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "● 수출 품목에 대한 마카오 위생기준·검역 요건·포장 및 라벨링 등 관련 요건을 사전에 파악 필요"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# ● 마카오 수입업체가 요구하는 경우 수출검역 신청 필요\n\n품목별 수입요건 파악 파악 필요 · 일반 사전포장식품 신선 농산물 축산물 제품 등에 요구되는 위생기준·라벨링· 식품첨가물 규정 등 수입요건이 상이하므로 국내 수출업체는 원활한 수출을 위해 품목별 수입요건을 사전에 파악해야 함\n▶국내 수출신고 수출통관 절차 ● 수출업체는 상업송장 포장명세서 등을 기반으로 수출신고서 작성 후 관세청 UNI-PASS를 통해 수출신고 필수 · 수출신고는 수출업체(화주)와 수출업체를 대신하는 관세사·관세법인·통관취급법인· 완제품제공자 명의로 신고할 수 있음 · 접수 결과에 따라 ①서류 심사 후 수리 ②현품 검사 후 수리 ③자동수리로 구분해 수출통관 진행 &lt;수출신고 수리 유형&gt; · 서류 심사 후 수리 실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 · 현품 검사 후 수리 우범성이 높은 물품을 대상으로 수출신고 물품 외 은닉 물품 여부 신고사항과의 일치 여부를 확인 · 자동 수리 세관의 심사 없이 자동 수리 후 수출신고필증 발급\n수출검역 신청해야 함 · 수출검역 신청 시 수출검사신청서 및 제반 서류를 제출해야 함 &lt;수출검역 신청 시 제출 서류&gt; 식물검역 ①수출식물검사신청서 ②검사대상식물명세서(수출검사 대상품목이 2개 이상인 경우) ③수입허가증명서(상대국의 사전허가가 필요한 경우) ④수출검역요령에 명시된 수입국 요구사항을 준수했음을 증명하는 서류(수입국이 검사증명서에 부기를 요구할 경우) 축산물검역 ①수출 검사신청서 ②선적관련 서류",
+    "name": "● 마카오 수입업체가 요구하는 경우 수출검역 신청 필요",
+    "meta_data": {
+      "chunk_id": "fc2f10e7-adc0-4a80-a1d7-45afa5d0f52b",
+      "page_number": [
+        35
+      ],
+      "item_label": "merged",
+      "index": 546,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# ● 마카오 수입업체가 요구하는 경우 수출검역 신청 필요",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "910233cf-5b39-4d69-8883-01d298018b1f",
+          "content": "<table><tbody><tr><td>품목별 수입요건 파악</td><td>파악 필요 · 일반 사전포장식품, 신선 농산물, 축산물 제품 등에 요구되는 위생기준·라벨링· 식품첨가물 규정 등 수입요건이 상이하므로, 국내 수출업체는 원활한 수출을 위해 품목별 수입요건을 사전에 파악해야 함</td></tr><tr><td>▶국내 수출신고</td><td>수출통관 절차 ● 수출업체는 상업송장, 포장명세서 등을 기반으로 수출신고서 작성 후 관세청 UNI-PASS를 통해 수출신고 필수 · 수출신고는 수출업체(화주)와 수출업체를 대신하는 관세사·관세법인·통관취급법인· 완제품제공자 명의로 신고할 수 있음 · 접수 결과에 따라 ①서류 심사 후 수리 ②현품 검사 후 수리 ③자동수리로 구분해 수출통관 진행 &lt;수출신고 수리 유형&gt; · 서류 심사 후 수리 실제 신고내용과 수출신고 근거 서류상의 일치 여부 확인 · 현품 검사 후 수리 우범성이 높은 물품을 대상으로, 수출신고 물품 외 은닉 물품 여부, 신고사항과의 일치 여부를 확인 · 자동 수리 세관의 심사 없이 자동 수리 후 수출신고필증 발급</td></tr><tr><td>수출검역</td><td>신청해야 함 · 수출검역 신청 시 수출검사신청서 및 제반 서류를 제출해야 함 &lt;수출검역 신청 시 제출 서류&gt; 식물검역 ①수출식물검사신청서 ②검사대상식물명세서(수출검사 대상품목이 2개 이상인 경우) ③수입허가증명서(상대국의 사전허가가 필요한 경우) ④수출검역요령에 명시된 수입국 요구사항을 준수했음을 증명하는 서류(수입국이 검사증명서에 부기를 요구할 경우) 축산물검역 ①수출 검사신청서 ②선적관련 서류</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n· 마카오 수입업체가 수출검역을 요구할 경우 농림축산검역본부에 수출검역을 신청해야 함\n\n· 수출검역 신청 시 수출검사신청서 및 제반 서류를 제출해야 함\n\n①수출식물검사신청서 ②검사대상식물명세서(수출검사 대상품목이 2개 이상인 경우) ③수입허가증명서(상대국의 사전허가가 필요한 경우) ④수출검역요령에 명시된 수입국 요구사항을 준수했음을 증명하는 서류(수입국이 검사증명서에 부기를 요구할 경우)\n\n· 수출검역은 수출 상대국의 검역요건 적합 여부를 검사함\n\n· 수출식물검역은 일반적으로 신청인이 희망하는 장소·시간에 실시하며, 수출축산",
+    "name": "· 마카오 수입업체가 수출검역을 요구할 경우 농림축산검역본부에 수출검역을 신청해야 함",
+    "meta_data": {
+      "chunk_id": "990194b0-ec7e-4476-8572-418a0ab33feb",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "990194b0-ec7e-4476-8572-418a0ab33feb",
+        "351581d2-38d2-4da3-9b57-63f80e5ad6b2",
+        "f5ddd7fe-56de-4875-99d7-de0788b9974a",
+        "730f91c9-28ac-486d-90fc-9b85c47a3df2",
+        "939df477-24b0-493c-a4cc-2b4fbb0f21c1"
+      ],
+      "chunked_count": 5,
+      "index": 547,
+      "page_number": [
+        35
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 313,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "· 마카오 수입업체가 수출검역을 요구할 경우 농림축산검역본부에 수출검역을 신청해야 함"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n물검역의 경우 검역시행장으로 지정된 장소에서 진행됨 · 수출검역 결과 합격 시 검역증명서가 교부되며, 불합격 시 신청자가 소독하거나 선별한 후 재검역을 신청할 수 있음\n\n● 수출업체는 수출신고 수리일로부터 30일 내에 선박 등 운송수단에 적재 필요\n\n· 단, 최대 1년 이내 범위에서 적재 기간 연장이 가능함\n\n# ● 마카오 수입업체는 수입 시 심사 대상 품목 수입 시 수입허가 취득 필요\n\n· 채소류, 가금류, 어류, 냉동육, 계란, 과일 및 통조림, 주류(30도 이상), 가공육, 냉동 당과류 등 수입 시 수입허가를 취득해야 함\n\n· 민정총서에 식품 수입신청서 제출 후 수입허가증이 발급됨\n\n● 마카오 수입업체는 마카오 전자통관시스템(TEDMEV)을 통해 화물 인수 당일 수입신고 진행 필요\n\n①발급받은 허가증 또는 작성 완료된 세관 신고서(관련활동에 근거) ②해상운송/항공운수 선하증권 또는 기타 유사문서 ③신분 증명서 ④영수증, 공문, 위탁서, 화물명세서, 기타 문서(필요 시)\n\n· 식용 농산물의 경우, 민정총서 위생감독부에 수입 신고 및 위생검역을 예약해야 함 · 필요한 서류는 다음과 같음\n\n①수입신고서 및 복사본 1부(신고서류 번호란에 경제국에서 부여한 대외무역\n\n②(엽채류) 원산지 정부가 발급한 농약사용보고서 및 감독카드 혹은 관련 위생 증명서 ③도매를 위한 수입이 아닌 경우, 반드시 증명서 및 목적 명시\n\n# ● 육류, 수렵육 및 기타 동물 수입 지침에 따른 절차 수행 필요\n\n· 수입상은 제출 서류를 준비하여 사전 1일 전에 민정총서 위생감독부에 수입 신고 및 위생검역 예약을 할 수 있음\n\n①수입허가서 및 수입신고서 및 복사본 1부(신고서류 번호란에 경제국에서 부여한 대외무역활동 등기번호 표기) ②화물의 국제위생증명서류 ③살아있는 가금류의 경우, 반드시 조류 인플루엔자 검사 증명서 제출 ④냉장육류, 급속냉동육류 또는 육류제품의 경우, 반드시 본서에서 발급한 해당 제품의 장소 등기 제출 ⑤도매를 위한 수입이 아닌 경우, 반드시 증명서 및 목적 명시",
+    "name": "물검역의 경우 검역시행장으로 지정된 장소에서 진행됨 · 수출검역 결과 합격 시 검역증명서가 교부되며, 불합격 시 신청자가 소독하거나 선별한 후 재검역을 신청할 수 있음",
+    "meta_data": {
+      "chunk_id": "f44545e6-1fef-4534-ab8f-03365981b0e7",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "f44545e6-1fef-4534-ab8f-03365981b0e7",
+        "1e80cbcc-862b-40cf-b0df-363b19140004",
+        "282fdff7-082f-4f52-8551-c907186101d1",
+        "67e1fb46-1ce6-4025-a368-990ac024770c",
+        "b8806c77-1f16-4cc8-b134-ed10088ab993",
+        "04cfa051-16d3-4ef3-bdee-c872e31fbd51",
+        "513ed0ad-6d11-44fb-8c71-886e31feb71b",
+        "af76865d-8325-4196-a384-5aeb3d796eae",
+        "7c98f074-3a00-42be-a785-152cb7aa1d8a",
+        "e341c5fa-8aa2-4b82-b91e-4e95b46ad11b",
+        "9f77bf04-3d46-427c-8265-b4dfbfde8eb0",
+        "ddd51b48-2374-4df0-999e-78c9f9c49a61",
+        "833bcbdf-4118-4269-9c11-0bd917cd53f1",
+        "7597d60f-8c1d-4993-ade2-1c22d8538a46"
+      ],
+      "chunked_count": 14,
+      "index": 561,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 1015,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "물검역의 경우 검역시행장으로 지정된 장소에서 진행됨 · 수출검역 결과 합격 시 검역증명서가 교부되며, 불합격 시 신청자가 소독하거나 선별한 후 재검역을 신청할 수 있음"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 2024농식품 국가 수출정보 04 마카오\n\n관세납부 및 물품 반출 ● 관세 납부 후 물품 반출 가능 · 마카오는 자유무역항으로서 일반 수출입 상품에 대해서는 자유방임적 태도를 취하고 있어 일반 수출입 화물이나 환적 화물의 세관 절차가 간단하고 수입상 품에 대한 수량 규제가 없으며 일반 수입제품에 대한 관세 또한 부과되지 않 음. 일부품목에 대해 종가세 또는 소비세 부과함 · 주류 담배 자동차에 대하여 소비세가 부과되고 자동차에 대해서는 20~50%의",
+    "name": "2024농식품 국가 수출정보 04 마카오",
+    "meta_data": {
+      "chunk_id": "6bce44fa-67ce-44d4-aed1-e3e0fbf73e26",
+      "page_number": [
+        37
+      ],
+      "item_label": "merged",
+      "index": 589,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 2024농식품 국가 수출정보 04 마카오",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "a4a250fa-bdff-48f8-bd0c-9520f56bf261",
+          "content": "<table><tbody><tr><td>관세납부 및 물품 반출</td><td>● 관세 납부 후 물품 반출 가능 · 마카오는 자유무역항으로서 일반 수출입 상품에 대해서는 자유방임적 태도를 취하고 있어 일반 수출입 화물이나 환적 화물의 세관 절차가 간단하고 수입상 품에 대한 수량 규제가 없으며 일반 수입제품에 대한 관세 또한, 부과되지 않 음. 일부품목에 대해 종가세 또는 소비세 부과함 · 주류, 담배, 자동차에 대하여 소비세가 부과되고 자동차에 대해서는 20~50%의</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n수출 가능 및 불가능한 품목은 유관기관 홈페이지에서 확인 가능\n\nhttps://bo.io.gov.mo/bo/i/2003/25/lei07_cn.asp\n\n수출 가능 및 불가능한 품목은 유관기관 홈페이지에서 확인 가능\n\nhttps://bo.io.gov.mo/bo/i/2003/25/lei07_cn.asp",
+    "name": "수출 가능 및 불가능한 품목은 유관기관 홈페이지에서 확인 가능",
+    "meta_data": {
+      "chunk_id": "f11678ed-0bda-404f-b643-92bcb15ac3b5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "f11678ed-0bda-404f-b643-92bcb15ac3b5",
+        "a15e35e1-6d43-413a-bb31-711adbe80419",
+        "4df0d0ae-7ec2-43bb-a172-f74521d76f52",
+        "232df2f9-6eab-4324-81ff-3c6330f52ed6"
+      ],
+      "chunked_count": 4,
+      "index": 596,
+      "page_number": [
+        38
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 99,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "수출 가능 및 불가능한 품목은 유관기관 홈페이지에서 확인 가능"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 5.1.1 주요 라벨링 표기사항\n\n라벨 표기사항 · 제품명 · 성분목록 · 식품 사업자 정보 · 순중량\n표기 언어 Ÿ 중국어 포르투갈어 및 영어로 기재\n라벨 표기사항 (가이드) 제품명 성분목록 유통기한 Ÿ 식품의 본질적인 특성을 반영한 명칭으로 허위로 표시하거나 소비자가 오인할 수 있는 명칭으로 표시할 수 없음 Ÿ 제조상표 상업상표 및 가칭을 사용해서는 안됨 - 유명한 혹은 관련된 상품을 연상시키는 브랜드는 제외 Ÿ 판매명에 훈제 농축 재조합 분말형 건조 등의 표기가 있어 소비자의 혼동을 일으킬 때 해당 제품의 특정 처리 방법을 표기해야 함 Ÿ Ÿ Ÿ Ÿ Ÿ Ÿ",
+    "name": "5.1.1 주요 라벨링 표기사항",
+    "meta_data": {
+      "chunk_id": "0407d72d-3937-4f5a-b5fa-05eadc51e514",
+      "page_number": [
+        39
+      ],
+      "item_label": "merged",
+      "index": 608,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 5.1.1 주요 라벨링 표기사항",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "2d9d6f10-59c3-4441-93cd-24115b37cbe3",
+          "content": "<table><tbody><tr><td>라벨 표기사항</td><td colspan=\"2\">· 제품명 · 성분목록 · 식품 사업자 정보 · 순중량</td></tr><tr><td></td><td>표기 언어</td><td>Ÿ 중국어, 포르투갈어 및 영어로 기재</td></tr><tr><td>라벨 표기사항 (가이드)</td><td>제품명 성분목록 유통기한</td><td>Ÿ 식품의 본질적인 특성을 반영한 명칭으로, 허위로 표시하거나 소비자가 오인할 수 있는 명칭으로 표시할 수 없음 Ÿ 제조상표, 상업상표 및 가칭을 사용해서는 안됨 - 유명한 혹은 관련된 상품을 연상시키는 브랜드는 제외 Ÿ 판매명에 훈제, 농축, 재조합, 분말형, 건조 등의 표기가 있어 소비자의 혼동을 일으킬 때, 해당 제품의 특정 처리 방법을 표기해야 함 Ÿ Ÿ Ÿ Ÿ Ÿ Ÿ</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\nŸ 식품의 본질적인 특성을 반영한 명칭으로, 허위로 표시하거나 소비자가 오인할 수 있는 명칭으로 표시할 수 없음\n\n- 유명한 혹은 관련된 상품을 연상시키는 브랜드는 제외\n\nŸ 판매명에 훈제, 농축, 재조합, 분말형, 건조 등의 표기가 있어 소비자의 혼동을 일으킬 때, 해당 제품의 특정 처리 방법을 표기해야 함\n\nŸ 식품첨가물을 포함하여 식품에 사용된 모든 원재료의 함량을 중량을 기준으로 내림차순 표시\n\nŸ 식품첨가물의 경우 구체적인 명칭과 기능을 함께 표시\n\nŸ 단일 성분으로 구성되거나 신선 과일·채소 등의 경우 표시 면제\n\nŸ 일자를 명시하였을 경우 '유통기한 전에 가장 맛있게 섭취 가능'(Best before) 일자 기재\n\nŸ 일/월/연도 순으로 표시하며, 월은 영어 또는 포르투갈어로 표시 가능\n\nŸ 유통기한이 3개월 이상인 18개월 미만인 경우 월, 연도만 표시 가능\n\nŸ 유통기한이 18개월을 초과하는 경우에는 '제조일자'를 표시\n\nŸ 사전포장식품의 순 중량은 도량형 제도에 따라야 하며 액체 제품은 용량으로, 기타 제품은 중량으로 함\n\nŸ 상황에 따라 식품생산자, 제조자 또는 포장하는 자가 정함\n\n- 식별 식품에 속하는 로트에 'L'을 표기하고 관련 라벨자료에 정확히 표기되어 있을 경우에는 제외\n\nŸ 소비자에게 실제 원산지에 대한 오인을 유발할 수 있는 경우 해당 식품의 원산지 표시\n\nŸ 식품을 보관하거나 섭취하는데 특수한 조건이 요구되는 경우, 해당 조건을 라벨에 표시\n\n*출처: 마카오 식품 라벨링 규정(第50/92/M號法令)",
+    "name": "Ÿ 식품의 본질적인 특성을 반영한 명칭으로, 허위로 표시하거나 소비자가 오인할 수 있는 명칭으로 표시할 수 없음",
+    "meta_data": {
+      "chunk_id": "9863ebf5-4ce0-4d4b-a4ff-bde7002cf8e1",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9863ebf5-4ce0-4d4b-a4ff-bde7002cf8e1",
+        "2cedee65-f5cd-4116-9420-b217db393fe0",
+        "1188ae51-d4f9-4064-bc8d-7aff240704f6",
+        "d72b9f8c-3073-4e30-bdc5-5731fb834b68",
+        "62b7e218-1069-4a2e-aed9-efe057506e49",
+        "6e855f0d-bf00-4bfc-9de2-cf0369b89bc3",
+        "2b08ee8b-5c41-41e0-9c1c-43ef491269cc",
+        "99d2554c-421a-4762-9384-8852eef8a9d7",
+        "658e96f7-2304-4bb9-b156-fdad544ae1fc",
+        "bccae0a5-6559-4b37-b834-cd8140cd49a7",
+        "73d7d888-80dc-4de6-8501-a8d1a4241a44",
+        "19a76c1e-e6bd-4d1b-8011-6c142c3460cc",
+        "b30ce48c-f785-4aac-aa5a-fba4a69b8991",
+        "9b5350f0-15cc-4a97-8de3-3661ad2ed3bb",
+        "5c967426-58a8-425c-aa54-f9a34ccd0331",
+        "253c7ae8-b7fc-45df-b527-8c1ca2850214"
+      ],
+      "chunked_count": 16,
+      "index": 628,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 742,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "Ÿ 식품의 본질적인 특성을 반영한 명칭으로, 허위로 표시하거나 소비자가 오인할 수 있는 명칭으로 표시할 수 없음"
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# 5.1.2 라벨링 예시\n\n표기항목 표기내용\n제품명 脆皮炸 鸡 裹粉 바삭한 치킨파우더\n원재료 - 小 麦 粉 - 食用淀粉 - 香辛料 - 产 地: 江 苏 省泰州市 - 밀가루 - 식용 전분 - 향신료 - 산지: 장쑤성 타이저우시\n순중량 500g\n유통기한 保 质 期: 18 个 月 유통기한 : 18개월\n보관방법 贮 存 条 件: 阴 凉干燥通 风处 서늘하고 건조하며 통풍이 잘 되는 곳에 보관하세요\n제조업체 制造商: 江 苏 吉得利食品有限公司 제조업체: 장쑤지더리식품유한회사\n제조원 地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区 주소: 중국 장쑤성 타이저우시 싱화시 싱동진 공업구\n위탁업체 委托商: 北京吉得利食品有限公司 위탁업체: 베이징 지더리식품 유한회사\n위탁원 地址: 北京市昌平 区 沙河 镇 小李庄 주소: 중국 베이징시 창핑구 사허진 샤오리좡\n전화 (0523) 8389 5098\n식품생산허가증번호 SC10332128104226\n\n项 目 每100克(g) 营养 素 参 考 值 % (NRV%)\n能量 1495千 焦(kJ) 18%\n蛋白 质 12.6克(g) 21%\n脂肪 1.3克(g) 2%\n碳 水化合 物 72.5克(g) 24%\n钠 346毫 克(m g) 17%\n\n항목 100g당 NRV%\n열량 1495kJ 18%\n단백질 12.6g 21%\n지방 1.3g 2%\n탄수화물 72.5g 24%\n나트륨 346mg 17%\n\n표기항목 표기내용\n제품명 脆皮炸 鸡 裹粉 바삭한 치킨파우더\n원재료 - 小 麦 粉 - 食用淀粉 - 香辛料 - 产 地: 江 苏 省泰州市 - 밀가루 - 식용 전분 - 향신료 - 산지: 장쑤성 타이저우시\n순중량 500g\n유통기한 保 质 期: 18 个 月 유통기한 : 18개월\n보관방법 贮 存 条 件: 阴 凉干燥通 风处 서늘하고 곳에 보관하세요 건조하며 통풍이 잘\n제조업체 制造商: 江 苏 吉得利食品有限公司 제조업체: 장쑤지더리식품유한회사\n제조원 地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区 주소: 중국 장쑤성 타이저우시 싱화시\n위탁업체 委托商: 北京吉得利食品有限公司 싱동진 공업구 위탁업체: 베이징 지더리식품 유한회사\n위탁원 중국 베이징시 창핑구\n地址: 北京市昌平 区 沙河 镇 小李庄 주소: 샤오리좡\n식품생산허가증번호 SC10332128104226\n영양성분 项 目 每100克(g) 营养 素 参 考 值 % (NRV%) 항목 100g당 NRV%\n能量 1495千 焦(kJ) 18%\n蛋白 质 12.6克(g) 21% 열량 1495kJ 18%\n脂肪 碳 水化合 1.3克(g) 2% 단백질 지방 12.6g 1.3g 21% 2%\n物 72.5克(g) 24% 탄수화물 72.5g 24%\n钠 346毫 克(m g) 17% 나트륨 346mg 17%\n\n표기항목\n제품명\n脆皮炸 鸡 裹粉 바삭한 치킨파우더 小 麦 粉 食用淀粉 香辛料 - 밀가루 - 식용 전분 - 향신료\n원재료 - - - - 产 地: 江 苏 省泰州市 - 산지: 장쑤성 타이저우시\n순중량 500g\n유통기한 保 质 期: 18 个 月 유통기한 : 18개월\n보관방법 贮 存 条 件: 阴 凉干燥通 风处 서늘하고 건조하며 통풍이 잘 되는 곳에 보관하세요 制造商: 江 苏 吉得利食品有限公司 제조업체: 장쑤지더리식품유한회사\n제조원 地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区 주소: 중국 장쑤성 타이저우시 싱화시 싱동진 공업구\n위탁업체 委托商: 北京吉得利食品有限公司 위탁업체: 베이징 지더리식품 유한회사\n위탁원 地址: 北京市昌平 区 沙河 镇 小李庄 주소: 중국 베이징시 창핑구 사허진 샤오리좡\n전화 (0523) 5098\n영양성분 项 目 每100克(g) 素 参 考 值 % (NRV%) 항목 100g당 NRV%\n能量 蛋白 质 1495千 焦(kJ) 12.6克(g) 18% 21% 열량 단백질 12.6g 1495kJ\n脂肪 1.3克(g) 2% 지방 1.3g\n碳 水化合 物 72.5克(g) 24% 72.5g 탄수화물\n钠 346毫 克(m g) 17% 나트륨 346mg",
+    "name": "5.1.2 라벨링 예시",
+    "meta_data": {
+      "chunk_id": "663ebd7a-2bd1-400c-9d1d-d2c5000d62e2",
+      "page_number": [
+        40
+      ],
+      "item_label": "merged",
+      "index": 659,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# 5.1.2 라벨링 예시",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "198781ba-d34d-44a7-9033-cb963b5b212a",
+          "content": "<table><tbody><tr><th>표기항목</th><th colspan=\"2\">표기내용</th></tr><tr><td>제품명</td><td>脆皮炸 鸡 裹粉</td><td>바삭한 치킨파우더</td></tr><tr><td>원재료</td><td>- 小 麦 粉 - 食用淀粉 - 香辛料 - 产 地: 江 苏 省泰州市</td><td>- 밀가루 - 식용 전분 - 향신료 - 산지: 장쑤성 타이저우시</td></tr><tr><td>순중량</td><td colspan=\"2\">500g</td></tr><tr><td>유통기한</td><td>保 质 期: 18 个 月</td><td>유통기한 : 18개월</td></tr><tr><td>보관방법</td><td>贮 存 条 件: 阴 凉干燥通 风处</td><td>서늘하고 건조하며 통풍이 잘 되는 곳에 보관하세요</td></tr><tr><td>제조업체</td><td>制造商: 江 苏 吉得利食品有限公司</td><td>제조업체: 장쑤지더리식품유한회사</td></tr><tr><td>제조원</td><td>地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区</td><td>주소: 중국 장쑤성 타이저우시 싱화시 싱동진 공업구</td></tr><tr><td>위탁업체</td><td>委托商: 北京吉得利食品有限公司</td><td>위탁업체: 베이징 지더리식품 유한회사</td></tr><tr><td>위탁원</td><td>地址: 北京市昌平 区 沙河 镇 小李庄</td><td>주소: 중국 베이징시 창핑구 사허진 샤오리좡</td></tr><tr><td>전화</td><td colspan=\"2\">(0523) 8389 5098</td></tr><tr><td>식품생산허가증번호</td><td colspan=\"2\">SC10332128104226</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "01d639d3-e40d-4d0b-9f35-5e3b89683cca",
+          "content": "<table><tbody><tr><td>项 目</td><td>每100克(g)</td><td>营养 素 参 考 值 % (NRV%)</td></tr><tr><td>能量</td><td>1495千 焦(kJ)</td><td>18%</td></tr><tr><td>蛋白 质</td><td>12.6克(g)</td><td>21%</td></tr><tr><td>脂肪</td><td>1.3克(g)</td><td>2%</td></tr><tr><td>碳 水化合 物</td><td>72.5克(g)</td><td>24%</td></tr><tr><td>钠</td><td>346毫 克(m g)</td><td>17%</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "50847448-9e25-46fb-9bba-91ad44cfc706",
+          "content": "<table><tbody><tr><th>항목</th><th>100g당</th><th>NRV%</th></tr><tr><td>열량</td><td>1,495kJ</td><td>18%</td></tr><tr><td>단백질</td><td>12.6g</td><td>21%</td></tr><tr><td>지방</td><td>1.3g</td><td>2%</td></tr><tr><td>탄수화물</td><td>72.5g</td><td>24%</td></tr><tr><td>나트륨</td><td>346mg</td><td>17%</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "14b5dccd-5d16-4a9e-bddf-66afd51f4135",
+          "content": "<table><tbody><tr><th>표기항목</th><th colspan=\"7\">표기내용</th></tr><tr><td>제품명</td><td colspan=\"7\">脆皮炸 鸡 裹粉 바삭한 치킨파우더</td></tr><tr><td>원재료</td><td colspan=\"7\">- 小 麦 粉 - 食用淀粉 - 香辛料 - 产 地: 江 苏 省泰州市 - 밀가루 - 식용 전분 - 향신료 - 산지: 장쑤성 타이저우시</td></tr><tr><td>순중량</td><td colspan=\"7\">500g</td></tr><tr><td>유통기한</td><td colspan=\"3\">保 质 期: 18 个 月</td><td colspan=\"4\">유통기한 : 18개월</td></tr><tr><td>보관방법</td><td colspan=\"3\">贮 存 条 件: 阴 凉干燥通 风处 서늘하고</td><td></td><td>곳에 보관하세요</td><td>건조하며</td><td>통풍이 잘</td></tr><tr><td>제조업체</td><td colspan=\"3\">制造商: 江 苏 吉得利食品有限公司</td><td colspan=\"4\">제조업체: 장쑤지더리식품유한회사</td></tr><tr><td>제조원</td><td colspan=\"3\">地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区</td><td colspan=\"4\">주소: 중국 장쑤성 타이저우시 싱화시</td></tr><tr><td>위탁업체</td><td>委托商:</td><td>北京吉得利食品有限公司</td><td></td><td colspan=\"4\">싱동진 공업구 위탁업체: 베이징 지더리식품 유한회사</td></tr><tr><td>위탁원</td><td></td><td></td><td></td><td></td><td>중국</td><td>베이징시</td><td>창핑구</td></tr><tr><td></td><td colspan=\"3\">地址: 北京市昌平 区 沙河 镇 小李庄 주소:</td><td></td><td>샤오리좡</td><td></td><td></td></tr><tr><td>식품생산허가증번호</td><td colspan=\"3\">SC10332128104226</td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"6\">영양성분</td><td>项 目</td><td>每100克(g)</td><td>营养 素 参 考 值 % (NRV%)</td><td rowspan=\"6\">항목</td><td>100g당</td><td></td><td>NRV%</td></tr><tr><td>能量</td><td>1495千 焦(kJ)</td><td>18%</td><td></td><td></td><td></td></tr><tr><td>蛋白 质</td><td>12.6克(g)</td><td>21%</td><td>열량</td><td>1,495kJ</td><td>18%</td></tr><tr><td>脂肪 碳 水化合</td><td>1.3克(g)</td><td>2%</td><td>단백질 지방</td><td>12.6g 1.3g</td><td>21% 2%</td></tr><tr><td>物</td><td>72.5克(g)</td><td>24%</td><td>탄수화물</td><td>72.5g</td><td>24%</td></tr><tr><td>钠</td><td>346毫 克(m g)</td><td>17%</td><td>나트륨</td><td>346mg</td><td>17%</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "64a9dfb5-6b40-4af2-8860-2eecc9077658",
+          "content": "<table><tbody><tr><td>표기항목</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>제품명</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td colspan=\"13\">脆皮炸 鸡 裹粉 바삭한 치킨파우더 小 麦 粉 食用淀粉 香辛料 - 밀가루 - 식용 전분 - 향신료</td></tr><tr><td>원재료</td><td colspan=\"13\">- - - - 产 地: 江 苏 省泰州市 - 산지: 장쑤성 타이저우시</td></tr><tr><td>순중량</td><td>500g</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>유통기한</td><td colspan=\"13\">保 质 期: 18 个 月 유통기한 : 18개월</td></tr><tr><td>보관방법</td><td colspan=\"13\">贮 存 条 件: 阴 凉干燥通 风处 서늘하고 건조하며 통풍이 잘 되는 곳에 보관하세요 制造商: 江 苏 吉得利食品有限公司 제조업체: 장쑤지더리식품유한회사</td></tr><tr><td>제조원</td><td colspan=\"13\">地址:江 苏 省泰州市 兴 化市 兴东镇 工 业 集中 区 주소: 중국 장쑤성 타이저우시 싱화시 싱동진 공업구</td></tr><tr><td>위탁업체</td><td colspan=\"13\">委托商: 北京吉得利食品有限公司 위탁업체: 베이징 지더리식품 유한회사</td></tr><tr><td>위탁원</td><td colspan=\"13\">地址: 北京市昌平 区 沙河 镇 小李庄 주소: 중국 베이징시 창핑구 사허진 샤오리좡</td></tr><tr><td>전화</td><td>(0523)</td><td>5098</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan=\"5\">영양성분</td><td>项 目</td><td>每100克(g)</td><td>素 参 考 值 % (NRV%) 항목</td><td>100g당</td><td></td><td colspan=\"4\">NRV%</td></tr><tr><td>能量 蛋白 质</td><td>1495千 焦(kJ) 12.6克(g)</td><td>18% 21% 열량 단백질</td><td>12.6g</td><td></td><td>1,495kJ</td><td></td></tr><tr><td>脂肪</td><td>1.3克(g)</td><td>2% 지방</td><td colspan=\"8\">1.3g</td></tr><tr><td>碳 水化合 物</td><td>72.5克(g)</td><td>24%</td><td>72.5g</td><td>탄수화물</td><td></td><td></td></tr><tr><td>钠</td><td>346毫 克(m g)</td><td>17% 나트륨</td><td></td><td></td><td>346mg</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n# ① 유기제품인증(ORGANIC)\n\n인증명 중국 유기제품인증(ORGANIC) 인증로고\n발행·검사기관 · 중국품질인증센터(CQC) · 중국인증인가관리감독위원회(CNCA) 필수 여부 권장\n목적 유기농 제품의 품질을 향상하고 안전관리를 강화하는 것\n취득절차 인증 신청 → 현장 심사 → 최종평가 → 인증서 발급\n필요서류 신청서 기본농장조사 비즈니스자격문서 관리시스템문서 환경모니터링보고서 생산계획등",
+    "name": "① 유기제품인증(ORGANIC)",
+    "meta_data": {
+      "chunk_id": "e4f70d35-d41c-4616-b4f3-abffa050d71c",
+      "page_number": [
+        41
+      ],
+      "item_label": "merged",
+      "index": 671,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "# ① 유기제품인증(ORGANIC)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "c88c48f4-4add-49e8-ac82-fcf8edcab4cb",
+          "content": "<table><tbody><tr><td>인증명</td><td>중국 유기제품인증(ORGANIC)</td><td>인증로고</td></tr><tr><td>발행·검사기관</td><td>· 중국품질인증센터(CQC) · 중국인증인가관리감독위원회(CNCA)</td><td>필수 여부 권장</td></tr><tr><td>목적</td><td>유기농 제품의 품질을 향상하고</td><td>안전관리를 강화하는 것</td></tr><tr><td>취득절차</td><td>인증 신청 → 현장</td><td>심사 → 최종평가 → 인증서 발급</td></tr><tr><td>필요서류</td><td>신청서, 기본농장조사, 비즈니스자격문서, 관리시스템문서, 환경모니터링보고서, 생산계획등</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024년 마카오 국가조사 보고서\n\n유기농 제품의 품질을 향상하고 안전관리를 강화하고자 유기제품의 생산 및 가공에 대해 심사한다. 유기 원료를 95% 이상 함유한 가공제품의 경우 인증을 취득하여 '유기(Organic)'를 기재하거나 마크를 부착할 수 있다.\n\n신청서, 기본농장조사, 비즈니스자격문서, 관리시스템문서, 환경모니터링보고서, 생산계획등\n\n▶자세한 내용은 자료 참조: 「2023 농식품 해외인증·등록정보종합가이드」(한국농수산식품유통공사)",
+    "name": "유기농 제품의 품질을 향상하고 안전관리를 강화하고자 유기제품의 생산 및 가공에 대해 심사한다. 유기 원료를 95% 이상 함유한 가공제품의 경우 인증을 취득하여 '유기(Organic)'를 기재하거나 마크를 부착할 수 있다.",
+    "meta_data": {
+      "chunk_id": "9210e80b-f4ca-403b-bfeb-a317ae889a4c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "9210e80b-f4ca-403b-bfeb-a317ae889a4c",
+        "70266598-1366-4893-b851-78d5997f1729",
+        "95c743ef-5c41-493a-8b13-7f2d593c884b"
+      ],
+      "chunked_count": 3,
+      "index": 672,
+      "page_number": [
+        41
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 237,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024년 마카오 국가조사 보고서",
+      "original_page_content": "유기농 제품의 품질을 향상하고 안전관리를 강화하고자 유기제품의 생산 및 가공에 대해 심사한다. 유기 원료를 95% 이상 함유한 가공제품의 경우 인증을 취득하여 '유기(Organic)'를 기재하거나 마크를 부착할 수 있다."
+    }
+  }
+]

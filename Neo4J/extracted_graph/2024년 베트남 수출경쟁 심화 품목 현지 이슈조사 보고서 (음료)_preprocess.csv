@@ -1,0 +1,151 @@
+엔터티1,엔터티1유형,관계,엔터티2,엔터티2유형,속성
+베트남,국가,시장규모,음료,품목,시기:2019년~2023년
+베트남,국가,시장규모,수입산 음료,품목,시기:2019년~2023년
+베트남,국가,시장규모,베트남산 음료,품목,시기:2019년~2023년
+베트남,국가,시장규모,전체 음료 시장,품목,시기:2019년~2023년
+베트남,국가,시장규모,전체 음료 시장규모,수량:5383만달러~6326만달러,시기:2019년~2023년
+베트남,국가,시장점유율,수입산 음료,품목,시기:2019년~2023년
+베트남,국가,시장점유율,베트남산 음료,품목,시기:2019년~2023년
+베트남,국가,시장점유율,전체 음료 시장,수량:100%,시기:2019년~2023년
+Suntory PepsiCo Vietnam Beverage,기업,생산,베트남,국가,공장:호치민, 껀터, 동나이, 박닌, 롱안
+Coca-Cola Beverages Vietnam,기업,생산,베트남,국가,공장:호치민, 다낭, 하노이, 롱안
+Tan Hiep Phat,기업,생산,베트남,국가,공장:빈즈엉, 하남, 광남, 하우장
+Red Bull Vietnam,기업,생산,베트남,국가,공장:빈즈엉
+URC Vietnam,기업,생산,베트남,국가,공장:빈즈엉, 광응아이, 하노이
+Masan Group,기업,생산,베트남,국가,공장:하우장
+Coca-Cola Vietnam,기업,생산,베트남,국가,공장:호치민, 다낭, 하노이, 롱안
+팔도비나,기업,생산,베트남,국가,공장:타이닌성
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Geonggang Maeul,기업,생산,한국,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull (태국 공장),기업,생산,태국,국가
+Red Bull (베트남 공장),기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+Nui Tien Pure Water Co. Ltd,기업,생산,베트남,국가
+Guangzhou Tingjin Beverage Co. Ltd,기업,생산,중국,국가
+Lotte Chilsung Beverage Co. Ltd,기업,생산,한국,국가
+T.C Pharmaceutical Industries Co. Ltd,기업,생산,태국,국가
+Interfood Shareholding Co,기업,생산,베트남,국가
+Sappe Public Company Limited,기업,생산,태국,국가
+Coca-Cola Vietnam,기업,생산,베트남,국가
+TH True Milk,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가
+Gumi Gumi Jelly Drink,기업,생산,태국,국가
+Red Bull,기업,생산,태국,국가
+Red Bull,기업,생산,베트남,국가
+팔도비나,기업,생산,베트남,국가
+Water Co. Ltd,기업,생산,베트남,국가

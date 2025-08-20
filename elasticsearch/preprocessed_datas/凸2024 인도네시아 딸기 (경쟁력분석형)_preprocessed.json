@@ -1,0 +1,2341 @@
+[
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n1.세가르쿠말라인도네시아(SegarKumalaIndonesia)\n\n2. 수프라보가레스타리(SupraBogaLestari)",
+    "name": "1.세가르쿠말라인도네시아(SegarKumalaIndonesia)",
+    "meta_data": {
+      "chunk_id": "0bb14220-0fc1-41f5-9c3e-90f360e2b57b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "0bb14220-0fc1-41f5-9c3e-90f360e2b57b",
+        "dedc388d-43c2-45a5-9d45-fdb4a4261a3d"
+      ],
+      "chunked_count": 2,
+      "index": 23,
+      "page_number": [
+        2
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 50,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "1.세가르쿠말라인도네시아(SegarKumalaIndonesia)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n1) 경쟁제품 1 0개의 평균 소비자가격은 80,380루피아(6,824원), 고객사는 이틀 고려한 적정 가격 책점 필요\n\n1) 경쟁기업 3개사 모두 제품 포장 디자인블 현지화하엿으여, 근개사는 온라인들 통한 제품 판매 진행 중 2) 온라인 인기제품 리뷰 감성분석 결과, 인도네시아 딸기 제품은 '품질'과 '맛'에 대한 소비자 관심이 높은 편임",
+    "name": "1) 경쟁제품 1 0개의 평균 소비자가격은 80,380루피아(6,824원), 고객사는 이틀 고려한 적정 가격 책점 필요",
+    "meta_data": {
+      "chunk_id": "a4ce4eae-21dd-45af-92b6-c63cbfd3d06c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a4ce4eae-21dd-45af-92b6-c63cbfd3d06c",
+        "a8efd13a-d24b-4e40-9a78-70be0d4e9a7b"
+      ],
+      "chunked_count": 2,
+      "index": 63,
+      "page_number": [
+        4
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 208,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "1) 경쟁제품 1 0개의 평균 소비자가격은 80,380루피아(6,824원), 고객사는 이틀 고려한 적정 가격 책점 필요"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 고객사 제품 특징\n\n제품명 S사 수출딸기1)\n제품 종류 딸기(품종: 금실)\n소비자가격 수출시기별로 상이\n중량 250g*8Pack 330g*4Pack\n포장 종이 상자/ 플라스틱 팩\n맛 육질이 단단하고 단맛이 강한\n인증 수출용 딸기품종 딸기 수출농단 GAP인증서 보유\n특징 딸기 수출통합조직 K-berry에 등록된 생산자에게 제공받는 안전한 고품질의 제품",
+    "name": "고객사 제품 특징",
+    "meta_data": {
+      "chunk_id": "5660375a-37fe-4303-9be1-97068403362f",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 86,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 고객사 제품 특징",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "a55898e1-925d-496e-9162-1a38a0db9efd",
+          "content": "<table><tbody><tr><th>제품명</th><th>S사 수출딸기1)</th></tr><tr><td>제품 종류</td><td>딸기(품종: 금실)</td></tr><tr><td>소비자가격</td><td>수출시기별로 상이</td></tr><tr><td>중량</td><td>250g*8Pack, 330g*4Pack</td></tr><tr><td>포장</td><td>종이 상자/ 플라스틱 팩</td></tr><tr><td>맛</td><td>육질이 단단하고 단맛이 강한</td></tr><tr><td>인증</td><td>수출용 딸기품종 딸기 수출농단 GAP인증서 보유</td></tr><tr><td>특징</td><td>딸기 수출통합조직 K-berry에 등록된 생산자에게 제공받는 안전한 고품질의 제품</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n딸기 수출통합조직 K-berry에 등록된 생산자에게 제공받는 안전한 고품질의 제품",
+    "name": "딸기 수출통합조직 K-berry에 등록된 생산자에게 제공받는 안전한 고품질의 제품",
+    "meta_data": {
+      "chunk_id": "c0fbf826-3dc5-4866-bd0b-63499e41f6d5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c0fbf826-3dc5-4866-bd0b-63499e41f6d5"
+      ],
+      "chunked_count": 1,
+      "index": 103,
+      "page_number": [
+        6
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 43,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "딸기 수출통합조직 K-berry에 등록된 생산자에게 제공받는 안전한 고품질의 제품"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Step 01 제품 분석\n\n사전런설팅기록지 수령\n고객사 제품 분석 제품명: 수출팔기 제품 종류: 딸기(품증: 금실) 소비자가격: 수출시기별로 상이 중량: 2508*8 / 3308*4 포장 형태: 박스플라스틱팩 맛: 육질이 단단하고 단맛이 강함 인종: 딸기 수출농단 GAP인증서 보유 특징: 딸기 수출통합조직 K-berry에l 등록된\n\n현지 식품 취급 주요 온라인 쇼핑물 확인 1 토코피디아(Tokopedia)\n2 소피(Shopee)\n3. 라자다(Lazada)\n주요 온라인 쇼핑물 내 유사 인기제품 확인\n주요 온라인 소핑물별 경쟁제품 구매 순위 확인\n\n현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓 슈퍼마켓 백화점 오프라인 매장 조사 제품 선정 오프라인 매장 인기 제품\n조사 지표 선정\n\n현지 조사 경쟁제품 조사 경쟁기업 조사\n제품 분석 (온 오프라인) 인기 제품 요인 분석\n\n사전런설팅기록지 수령\n고객사 제품 분석 제품명: 수출팔기 제품 종류: 딸기(품증: 금실) 소비자가격: 수출시기별로 상이 중량: 2508*8 / 3308*4 포장 형태: 박스플라스틱팩\n02 Step 경쟁제품군 선정 및 온라인 판매제품 확인\n현지 식품 취급 주요 온라인 쇼핑물 확인 1 토코피디아(Tokopedia) 2 소피(Shopee) 3. 라자다(Lazada)\nStep 03 현지 오프라인 매장 조사 기획\n현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓 슈퍼마켓 백화점 오프라인 매장 조사 제품 선정\n오프라인 매장 인기 제품 조사 지표 선정\nStep 04. 조사 및 분석\n현지 조사 경쟁제품 조사 경쟁기업 조사\n제품 분석 (온 오프라인) 인기 제품 요인 분석 기업 마켓팅 벤치마랗",
+    "name": "Step 01 제품 분석",
+    "meta_data": {
+      "chunk_id": "31959c59-7ce0-4614-be8a-3998dd6169c5",
+      "page_number": [
+        6
+      ],
+      "item_label": "merged",
+      "index": 107,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Step 01 제품 분석",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "fec65619-c935-4772-86cf-b04dcb1794c8",
+          "content": "<table><tbody><tr><td>사전런설팅기록지 수령</td></tr><tr><td>고객사 제품 분석 제품명: 수출팔기 제품 종류: 딸기(품증: 금실) 소비자가격: 수출시기별로 상이 중량: 2508*8 / 3308*4 포장 형태: 박스플라스틱팩 맛: 육질이 단단하고 단맛이 강함 인종: 딸기 수출농단 GAP인증서 보유 특징: 딸기 수출통합조직 K-berry에l 등록된</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "b78cd0af-4b1b-4e58-b781-bbfe6421621c",
+          "content": "<table><tbody><tr><td>현지 식품 취급 주요 온라인 쇼핑물 확인 1 토코피디아(Tokopedia)</td></tr><tr><td>2 소피(Shopee)</td></tr><tr><td>3. 라자다(Lazada)</td></tr><tr><td>주요 온라인 쇼핑물 내 유사 인기제품 확인</td></tr><tr><td>주요 온라인 소핑물별 경쟁제품 구매 순위 확인</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "2e3a3b9e-9aa2-42f0-95ed-3416b5daee5b",
+          "content": "<table><tbody><tr><td>현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓, 슈퍼마켓, 백화점 오프라인 매장 조사 제품 선정 오프라인 매장 인기 제품</td></tr><tr><td>조사 지표 선정</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "67e80ccb-97c5-4809-9699-fe2c44e65bd0",
+          "content": "<table><tbody><tr><td>현지 조사 경쟁제품 조사, 경쟁기업 조사</td></tr><tr><td>제품 분석 (온 오프라인) 인기 제품 요인 분석</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "da449936-5047-4034-a936-49d60c04dd6c",
+          "content": "<table><tbody><tr><td></td><td>사전런설팅기록지 수령</td></tr><tr><td></td><td>고객사 제품 분석 제품명: 수출팔기 제품 종류: 딸기(품증: 금실) 소비자가격: 수출시기별로 상이 중량: 2508*8 / 3308*4 포장 형태: 박스플라스틱팩</td></tr><tr><td>02 Step</td><td>경쟁제품군 선정 및 온라인 판매제품 확인</td></tr><tr><td></td><td>현지 식품 취급 주요 온라인 쇼핑물 확인 1 토코피디아(Tokopedia) 2 소피(Shopee) 3. 라자다(Lazada)</td></tr><tr><td>Step 03</td><td>현지 오프라인 매장 조사 기획</td></tr><tr><td></td><td>현지 조사 지역 및 오프라인 매장 선정 참여기업 선호 매장 유형별 매장 선정 참여기업 선호 매장: 하이퍼마켓, 슈퍼마켓, 백화점 오프라인 매장 조사 제품 선정</td></tr><tr><td></td><td>오프라인 매장 인기 제품 조사 지표 선정</td></tr><tr><td>Step 04. 조사 및 분석</td><td></td></tr><tr><td></td><td>현지 조사 경쟁제품 조사, 경쟁기업 조사</td></tr><tr><td></td><td>제품 분석 (온 오프라인) 인기 제품 요인 분석 기업 마켓팅 벤치마랗</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 딸기 제품의 경쟁제품군을 선정하였음",
+    "name": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 딸기 제품의 경쟁제품군을 선정하였음",
+    "meta_data": {
+      "chunk_id": "93772a38-e204-4fc8-84ae-d3a24e006930",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "93772a38-e204-4fc8-84ae-d3a24e006930"
+      ],
+      "chunked_count": 1,
+      "index": 128,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 60,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 딸기 제품의 경쟁제품군을 선정하였음"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사\n\n사이트명 취급 종류\n토코피디아 식품 학용품 사무용품 생활용품\n쇼피 스포츠용품등 가전제품 휴대폰 사무용품 음료 주류 식품등\n라자다 유아용품 화장품 건강 식품 전자제품 생활용품등",
+    "name": "▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+    "meta_data": {
+      "chunk_id": "7a5abac0-7c39-4873-85e1-dcf3e7d29f7f",
+      "page_number": [
+        7
+      ],
+      "item_label": "merged",
+      "index": 129,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "378733da-c241-4bb9-9182-ea0aa5db925f",
+          "content": "<table><tbody><tr><th>사이트명</th><th>취급 종류</th></tr><tr><td>토코피디아</td><td>식품, 학용품, 사무용품, 생활용품,</td></tr><tr><td>쇼피</td><td>스포츠용품등 가전제품, 휴대폰, 사무용품, 음료, 주류, 식품등</td></tr><tr><td>라자다</td><td>유아용품, 화장품, 건강, 식품, 전자제품, 생활용품등</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 토코피디아, 쇼피, 라자다 모두 딸기 제품이 판매되고 있음을 확인함",
+    "name": "앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 토코피디아, 쇼피, 라자다 모두 딸기 제품이 판매되고 있음을 확인함",
+    "meta_data": {
+      "chunk_id": "20b82d59-b567-494f-b68e-0c2ced1bbcb9",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "20b82d59-b567-494f-b68e-0c2ced1bbcb9"
+      ],
+      "chunked_count": 1,
+      "index": 132,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 107,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과, 토코피디아, 쇼피, 라자다 모두 딸기 제품이 판매되고 있음을 확인함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 2.2] 인도네시아 주요 온라인 쇼핑몰별 인기 제품(Top 3)\n\n토코피디아 입점 상위 3개 제품 리스트(추천 기준) 2)\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 딸기 - 부아 스트로베리 (Buah Strawberry) 인도네시아 28000루피아 (2377원 3) ) 250g\n2 딸기 - 부아 스트로베리 세가 프레쉬 오가닉 키로안 말랑봉 가룻 반둥 (Buah Strawberry Segar Fresh Organik Kiloan Malangbong Garut Bandung) 인도네시아 29000루피아 (2462원) 500g\n3 딸기 - 스트로베리 세가 마니스 점보 케마산 (Strawberry Segar Manis Jumbo Kemasan) 인도네시아 18000루피아 (1528원) 250g\n\n제품 리스트(베스트셀러 순번 구분 브랜드명 쇼피 입점 상위 3개 제품명 기준) 원산지 4) 가격 중량 이미지\n1 딸기 - 부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung) 인도네시아 8000루피아 (679원) -\n2 딸기 - 프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium) 인도네시아 46000루피아 (3905원) 1000g\n3 딸기 - 스트로베리 미니 팩 (Strawberry Mini Pack) 인도네시아 3500루피아 (297원) 70g\n\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 딸기 - 부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung) 인도네시아 8000루피아 (679원) -\n2 딸기 - 프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium) 인도네시아 46000루피아 (3905원) 1000g\n3 딸기 - 스트로베리 미니 팩 (Strawberry Mini Pack) 인도네시아 3500루피아 (297원) 70g\n\n쇼피 입점 상위 3개 제품 리스트(베스트셀러\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 딸기 - 부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung) 인도네시아 8000루피아 (679원) -\n2 딸기 - 프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium) 인도네시아 46000루피아 (3905원) 1000g\n3 딸기 - 스트로베리 미니 팩 (Strawberry Mini Pack) 인도네시아 3500루피아 (297원) 70g\n순번 구분 브랜드명 라자다 입점 상위 3개 제품 제품명 리스트(추천 원산지 기준) 5) 가격 중량 이미지\n1 딸기 - 스트로베리 프레쉬 1팩 미카 베사르 (Strawberry Fresh 1Pack Mika Besar) 인도네시아 45000루피아 (3821원) -\n2 딸기 - 스트로베리 프레쉬 1kg (레디) (Strawberry Fresh 1kg (Ready)) 인도네시아 31866루피아 (2705원) 1000g\n3 딸기 - 스트로베리 프레쉬 그레이드 A (Strawberry Fresh Grade A) 인도네시아 30000루피아 (2547원) 500g\n\n순번 구분 브랜드명 제품명 원산지 가격 중량 이미지\n1 딸기 - 스트로베리 프레쉬 1팩 미카 베사르 (Strawberry Fresh 1Pack 인도네시아 45000루피아 (3821원) -\n2 딸기 - 스트로베리 프레쉬 1kg (레디) (Strawberry Fresh 1kg (Ready)) 인도네시아 31866루피아 (2705원) 1000g\n3 딸기 - 스트로베리 프레쉬 그레이드 A (Strawberry Fresh Grade A) 인도네시아 30000루피아 (2547원) 500g\n\n4) 조사일(2024.08.04) 기준\n\n5) 조사일(2024.08.04) 기준",
+    "name": "[표 2.2] 인도네시아 주요 온라인 쇼핑몰별 인기 제품(Top 3)",
+    "meta_data": {
+      "chunk_id": "ab8408d0-0863-4242-86d3-55c78e794f9d",
+      "page_number": [
+        7,
+        8
+      ],
+      "item_label": "merged",
+      "index": 134,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 2.2] 인도네시아 주요 온라인 쇼핑몰별 인기 제품(Top 3)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d245149f-8414-44a2-99af-c43d2abaca41",
+          "content": "<table><tbody><tr><th colspan=\"8\">토코피디아 입점 상위 3개 제품 리스트(추천 기준) 2)</th></tr><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>딸기</td><td>-</td><td>부아 스트로베리 (Buah Strawberry)</td><td>인도네시아</td><td>28,000루피아 (2,377원 3) )</td><td>250g</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>부아 스트로베리 세가 프레쉬 오가닉 키로안 말랑봉 가룻 반둥 (Buah Strawberry Segar Fresh Organik Kiloan Malangbong Garut Bandung)</td><td>인도네시아</td><td>29,000루피아 (2,462원)</td><td>500g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 세가 마니스 점보 케마산 (Strawberry Segar Manis Jumbo Kemasan)</td><td>인도네시아</td><td>18,000루피아 (1,528원)</td><td>250g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "2f5e7102-6175-46e6-86d6-15ad741e0f6f",
+          "content": "<table><tbody><tr><th>제품 리스트(베스트셀러 순번</th><th>구분</th><th>브랜드명</th><th>쇼피</th><th>입점 상위 3개 제품명</th><th>기준) 원산지</th><th>4) 가격 중량</th><th>이미지</th></tr><tr><td>1</td><td>딸기</td><td>-</td><td>부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung)</td><td>인도네시아</td><td>8,000루피아 (679원)</td><td>-</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium)</td><td>인도네시아</td><td>46,000루피아 (3,905원)</td><td>1,000g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 미니 팩 (Strawberry Mini Pack)</td><td>인도네시아</td><td>3,500루피아 (297원)</td><td>70g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "47449cd3-048b-4754-a3f2-5a83057f2c8a",
+          "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>딸기</td><td>-</td><td>부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung)</td><td>인도네시아</td><td>8,000루피아 (679원)</td><td>-</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium)</td><td>인도네시아</td><td>46,000루피아 (3,905원)</td><td>1,000g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 미니 팩 (Strawberry Mini Pack)</td><td>인도네시아</td><td>3,500루피아 (297원)</td><td>70g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "12432d9e-6b8c-4e8f-99b0-30a5d687550a",
+          "content": "<table><tbody><tr><th colspan=\"8\">쇼피 입점 상위 3개 제품 리스트(베스트셀러</th></tr><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>딸기</td><td>-</td><td>부아 스트로베리 오가닉 반둥 (Buah Strawberry Organik Bandung)</td><td>인도네시아</td><td>8,000루피아 (679원)</td><td>-</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>프로모 테르무라 부아 스트로베리 프레쉬 프리미엄 (Promo Termurah Buah Strawberry Fresh Premium)</td><td>인도네시아</td><td>46,000루피아 (3,905원)</td><td>1,000g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 미니 팩 (Strawberry Mini Pack)</td><td>인도네시아</td><td>3,500루피아 (297원)</td><td>70g</td><td></td></tr><tr><td>순번</td><td>구분</td><td>브랜드명</td><td>라자다 입점 상위 3개 제품 제품명</td><td>리스트(추천 원산지</td><td>기준) 5) 가격</td><td>중량</td><td>이미지</td></tr><tr><td>1</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 1팩 미카 베사르 (Strawberry Fresh 1Pack Mika Besar)</td><td>인도네시아</td><td>45,000루피아 (3,821원)</td><td>-</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 1kg (레디) (Strawberry Fresh 1kg (Ready))</td><td>인도네시아</td><td>31,866루피아 (2,705원)</td><td>1,000g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 그레이드 A (Strawberry Fresh Grade A)</td><td>인도네시아</td><td>30,000루피아 (2,547원)</td><td>500g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "5fff5fc7-5e45-4eb0-8cdc-9bf6cc26ecaa",
+          "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지 가격</th><th>중량</th><th>이미지</th></tr><tr><td>1</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 1팩 미카 베사르 (Strawberry Fresh 1Pack</td><td>인도네시아 45,000루피아 (3,821원)</td><td>-</td><td></td></tr><tr><td>2</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 1kg (레디) (Strawberry Fresh 1kg (Ready))</td><td>인도네시아 31,866루피아 (2,705원)</td><td>1,000g</td><td></td></tr><tr><td>3</td><td>딸기</td><td>-</td><td>스트로베리 프레쉬 그레이드 A (Strawberry Fresh Grade A)</td><td>인도네시아 30,000루피아 (2,547원)</td><td>500g</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "b85bd98e-c976-4c2f-a9de-480386501b4e",
+          "content": "4) 조사일(2024.08.04) 기준"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "d47d0fc1-60cc-4109-a997-64eae71da5ab",
+          "content": "5) 조사일(2024.08.04) 기준"
+        }
+      ],
+      "merged_count": 8
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n3) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)",
+    "name": "3) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)",
+    "meta_data": {
+      "chunk_id": "01e5a88b-4c8f-492d-a22a-4e6e53a2b708",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "01e5a88b-4c8f-492d-a22a-4e6e53a2b708"
+      ],
+      "chunked_count": 1,
+      "index": 140,
+      "page_number": [
+        7
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 43,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "3) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 자카르타\n\n인구 1062만 7000명\n면적 660.98 km²",
+    "name": "자카르타",
+    "meta_data": {
+      "chunk_id": "39822175-387a-44b2-ad5b-b50be4a11ae3",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 169,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 자카르타",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b858d360-ff0e-4cd1-ad48-017e23ed9639",
+          "content": "<table><tbody><tr><td>인구</td><td>1,062만 7,000명</td></tr><tr><td>면적</td><td>660.98 km²</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n자카르타는 인도네시아의 수도로, 인도네시아 내에서 가장 큰 도시로, 자바섬 북서쪽 해안에서부터 자바해 자카르타 만에 위치하고 있음. 동남아시아에서 가장 큰 대도시이자 ASEAN에서 두 번째로 경제규모가 큰 지역으로서 ASEAN의 외교 수도 역할을 하고 있음. 인도네시아의 모든 지역 중에서 면적은 가장 작지만 인도네시아의 경제, 문화, 정치의 중심지의 역할을 함\n\n# ▶ 현지조사 매장 선정, 백화점, 하이퍼마켓/슈퍼마켓, 백화점\n\n고객사 희망 조사매장 지표를 고려하여 하이퍼마켓/슈퍼마켓,",
+    "name": "자카르타는 인도네시아의 수도로, 인도네시아 내에서 가장 큰 도시로, 자바섬 북서쪽 해안에서부터 자바해 자카르타 만에 위치하고 있음. 동남아시아에서 가장 큰 대도시이자 ASEAN에서 두 번째로 경제규모가 큰 지역으로서 ASEAN의 외교 수도 역할을 하고 있음. 인도네시아의 모든 지역 중에서 면적은 가장 작지만 인도네시아의 경제, 문화, 정치의 중심지의 역할을 함",
+    "meta_data": {
+      "chunk_id": "a3269697-d5dd-4386-80c5-b82275fb8339",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "a3269697-d5dd-4386-80c5-b82275fb8339",
+        "45cecc33-97d5-4044-8f53-46e6349bada0",
+        "43b6a795-a252-4c51-9ea9-8d5675557b62"
+      ],
+      "chunked_count": 3,
+      "index": 177,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 273,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "자카르타는 인도네시아의 수도로, 인도네시아 내에서 가장 큰 도시로, 자바섬 북서쪽 해안에서부터 자바해 자카르타 만에 위치하고 있음. 동남아시아에서 가장 큰 대도시이자 ASEAN에서 두 번째로 경제규모가 큰 지역으로서 ASEAN의 외교 수도 역할을 하고 있음. 인도네시아의 모든 지역 중에서 면적은 가장 작지만 인도네시아의 경제, 문화, 정치의 중심지의 역할을 함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 2.3] 인도네시아 주요 유통채널 리스트\n\n채널 분류 주요 매장\n하이퍼마켓/슈퍼마켓 까르푸(Carrefour) 그랜드럭키 슈퍼스토어(GrandLucky Superstore) 롯데마트(Lotte Mart) 푸드홀(FoodHall) 파파야 프레시 갤러리(Papaya Fresh Gallery) 올 프레시(All Fresh) 파머스 마켓(Farmer&#x27;s Market)\n백화점 7) 마타하리(Matahari) 메트로(Metro) 그랜드 인도네시아(Grand Indonesia)\n아시안/한인마트 알파마트(Alfamart) 인도마렛(Indomaret)\n온라인 토코피디아(Tokopedia) 쇼피(Shopee) 라자다(Lazada)\n\n6) 자료: 자카르타 주 중앙통계청(BPS)\n\n7) 고객사 진출 선호 매장으로 현지의 백화점을 2곳 방문하였으나 딸기 경쟁제품군을 판매하고 있지 않음",
+    "name": "[표 2.3] 인도네시아 주요 유통채널 리스트",
+    "meta_data": {
+      "chunk_id": "e19c372c-3afc-46cc-9463-61bb098b0d74",
+      "page_number": [
+        9
+      ],
+      "item_label": "merged",
+      "index": 181,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 2.3] 인도네시아 주요 유통채널 리스트",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "45da3cbc-e514-4d28-92b7-4f45c05fc7df",
+          "content": "<table><tbody><tr><th>채널 분류</th><th>주요 매장</th></tr><tr><td>하이퍼마켓/슈퍼마켓</td><td>까르푸(Carrefour), 그랜드럭키 슈퍼스토어(GrandLucky Superstore), 롯데마트(Lotte Mart), 푸드홀(FoodHall), 파파야 프레시 갤러리(Papaya Fresh Gallery), 올 프레시(All Fresh), 파머스 마켓(Farmer&#x27;s Market)</td></tr><tr><td>백화점 7)</td><td>마타하리(Matahari), 메트로(Metro), 그랜드 인도네시아(Grand Indonesia)</td></tr><tr><td>아시안/한인마트</td><td>알파마트(Alfamart), 인도마렛(Indomaret)</td></tr><tr><td>온라인</td><td>토코피디아(Tokopedia), 쇼피(Shopee), 라자다(Lazada)</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "4c9d8337-40ff-4bee-bae4-801631973391",
+          "content": "6) 자료: 자카르타 주 중앙통계청(BPS)"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "9243f612-8c8b-4d0f-8b6f-a3e546606170",
+          "content": "7) 고객사 진출 선호 매장으로 현지의 백화점을 2곳 방문하였으나 딸기 경쟁제품군을 판매하고 있지 않음"
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n마타하리(Matahari), 메트로(Metro), 그랜드 인도네시아(Grand Indonesia)\n\n알파마트(Alfamart), 인도마렛(Indomaret)\n\n토코피디아(Tokopedia), 쇼피(Shopee), 라자다(Lazada)",
+    "name": "마타하리(Matahari), 메트로(Metro), 그랜드 인도네시아(Grand Indonesia)",
+    "meta_data": {
+      "chunk_id": "51045a7e-4d5e-4b09-a27f-fbadb3817b31",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "51045a7e-4d5e-4b09-a27f-fbadb3817b31",
+        "958fc9dc-f990-4a05-bc68-03f715900d73",
+        "f47aae12-84a3-4495-b4d7-c58ee0896cf6"
+      ],
+      "chunked_count": 3,
+      "index": 206,
+      "page_number": [
+        9
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 88,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "마타하리(Matahari), 메트로(Metro), 그랜드 인도네시아(Grand Indonesia)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함",
+    "name": "고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함",
+    "meta_data": {
+      "chunk_id": "19b532a7-0980-46c6-9cac-ba3f511892ca",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "19b532a7-0980-46c6-9cac-ba3f511892ca"
+      ],
+      "chunked_count": 1,
+      "index": 226,
+      "page_number": [
+        10
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 53,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 2.4] 인도네시아 딸기 경쟁제품 조사지표 선정\n\n조사 지표 지표 값 지표 값 정의\n제품명 제품의 한국어 원어 명칭\n제조사 제조사의 한국어 원어 명칭\n제품 종류 딸기\n중량 중량(g) 제품의 포장 단위\n소비자 가격 매장에서 판매되고 있는 제품 가격\n가격\n원산지 제품의 원산지\n포장 형태 플라스틱 팩\n유통기한 제품의 유통기한\n홍보문구 제품 포장지에 표기된\n인증 제품의 인증사항\n원료 및 첨가물 제품의 원료 및 첨가물",
+    "name": "[표 2.4] 인도네시아 딸기 경쟁제품 조사지표 선정",
+    "meta_data": {
+      "chunk_id": "7cfbd7c3-906a-48dc-8119-c73b63fab189",
+      "page_number": [
+        10
+      ],
+      "item_label": "merged",
+      "index": 227,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 2.4] 인도네시아 딸기 경쟁제품 조사지표 선정",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "025627a6-de09-4d1e-a7e4-7d1894612e15",
+          "content": "<table><tbody><tr><th>조사 지표</th><th>지표 값</th><th>지표 값 정의</th></tr><tr><td></td><td>제품명</td><td>제품의 한국어, 원어 명칭</td></tr><tr><td></td><td>제조사</td><td>제조사의 한국어, 원어 명칭</td></tr><tr><td></td><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>중량(g)</td><td>제품의 포장 단위</td></tr><tr><td></td><td>소비자 가격</td><td>매장에서 판매되고 있는 제품 가격</td></tr><tr><td>가격</td><td></td><td></td></tr><tr><td></td><td>원산지</td><td>제품의 원산지</td></tr><tr><td></td><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td></td><td>유통기한</td><td>제품의 유통기한</td></tr><tr><td></td><td>홍보문구</td><td>제품 포장지에 표기된</td></tr><tr><td></td><td>인증</td><td>제품의 인증사항</td></tr><tr><td></td><td>원료 및 첨가물</td><td>제품의 원료 및 첨가물</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 인도네시아 자카르타에 위치한 하이퍼마켓, 슈퍼마켓\n\n[표 2.5] 인도네시아 방문 매장 및 특징\n방문 매장명 그랜드럭키 슈퍼스토어 (GrandLucky Superstore) 푸드홀 (FoodHall) 파파야 프레시 갤러리 (Papaya Fresh Gallery)\n방문 매장 전경\n구분 하이퍼마켓 슈퍼마켓 슈퍼마켓\n조사 제품 수 3개 2개 1개\n· 인도네시아 마켓 체인 · 인도네시아 전역 약 10개 · 인도네시아 슈퍼마켓 체인 · 인도네시아 내 27개 매장 보유 · 인도네시아 슈퍼마켓 체인 · 인도네시아 전역 11개 매장\n방문 매장명 올 프레시 (All Fresh) 롯데마트 (Lotte Mart) 파머스 마켓 (Farmer&#x27;s Market)\n방문 매장 전경\n구분 슈퍼마켓 하이퍼마켓 슈퍼마켓\n조사 제품 1개 1개 2개\n조사 매장 특징 · 인도네시아 천연 및 유기농 슈퍼마켓 체인 · 인도네시아에 진출한 한국 하이퍼마켓 체인 · 인도네시아 내 약 50개 매장 · 인도네시아 지역 농산물 전문 마켓 체인 · 인도네시아 전역 36개 매장",
+    "name": "▶ 인도네시아 자카르타에 위치한 하이퍼마켓, 슈퍼마켓",
+    "meta_data": {
+      "chunk_id": "734e4bc6-ec86-4d6a-9a78-41e0b0dff73e",
+      "page_number": [
+        11
+      ],
+      "item_label": "merged",
+      "index": 236,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 인도네시아 자카르타에 위치한 하이퍼마켓, 슈퍼마켓",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "85dc509d-2361-42b2-9b01-51b333d39123",
+          "content": "<table><tbody><tr><td>[표 2.5]</td><td colspan=\"3\">인도네시아 방문 매장 및 특징</td></tr><tr><td>방문 매장명</td><td>그랜드럭키 슈퍼스토어 (GrandLucky Superstore)</td><td>푸드홀 (FoodHall)</td><td>파파야 프레시 갤러리 (Papaya Fresh Gallery)</td></tr><tr><td>방문 매장 전경</td><td></td><td></td><td></td></tr><tr><td>구분</td><td>하이퍼마켓</td><td>슈퍼마켓</td><td>슈퍼마켓</td></tr><tr><td>조사 제품 수</td><td>3개</td><td>2개</td><td>1개</td></tr><tr><td></td><td>· 인도네시아 마켓 체인 · 인도네시아 전역 약 10개</td><td>· 인도네시아 슈퍼마켓 체인 · 인도네시아 내 27개 매장 보유</td><td>· 인도네시아 슈퍼마켓 체인 · 인도네시아 전역 11개 매장</td></tr><tr><td>방문 매장명</td><td>올 프레시 (All Fresh)</td><td>롯데마트 (Lotte Mart)</td><td>파머스 마켓 (Farmer&#x27;s Market)</td></tr><tr><td>방문 매장 전경</td><td></td><td></td><td></td></tr><tr><td>구분</td><td>슈퍼마켓</td><td>하이퍼마켓</td><td>슈퍼마켓</td></tr><tr><td>조사 제품</td><td>1개</td><td>1개</td><td>2개</td></tr><tr><td>조사 매장 특징</td><td>· 인도네시아 천연 및 유기농 슈퍼마켓 체인</td><td>· 인도네시아에 진출한 한국 하이퍼마켓 체인 · 인도네시아 내 약 50개 매장</td><td>· 인도네시아 지역 농산물 전문 마켓 체인 · 인도네시아 전역 36개 매장</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n인도네시아 자카르타에 위치한 하이퍼마켓인 그랜드럭키 슈퍼스토어, 롯데마트와 슈퍼마켓인 푸드홀, 파파야 프레시 갤러리, 올 프레시, 파머스 마켓에 방문함. 그랜드럭키 슈퍼스토어는 인도네시아의 하이퍼마켓 체인이며, 롯데마트는 인도네시아에 진출한 한국 하이퍼마켓 체인임. 푸드홀은 주로 백화점에 입점하여 운영하는 슈퍼마켓이며, 파파야 프레시 갤러리는 인도네시아의 슈퍼마켓 체인임. 올 프레시는 천연 및 유기농 제품을 판매하며 파머스 마켓은 인도네시아 로컬 농산물을 취급하고 있음.",
+    "name": "인도네시아 자카르타에 위치한 하이퍼마켓인 그랜드럭키 슈퍼스토어, 롯데마트와 슈퍼마켓인 푸드홀, 파파야 프레시 갤러리, 올 프레시, 파머스 마켓에 방문함. 그랜드럭키 슈퍼스토어는 인도네시아의 하이퍼마켓 체인이며, 롯데마트는 인도네시아에 진출한 한국 하이퍼마켓 체인임. 푸드홀은 주로 백화점에 입점하여 운영하는 슈퍼마켓이며, 파파야 프레시 갤러리는 인도네시아의 슈퍼마켓 체인임. 올 프레시는 천연 및 유기농 제품을 판매하며 파머스 마켓은 인도네시아 로컬 농산물을 취급하고 있음.",
+    "meta_data": {
+      "chunk_id": "8132dcf1-1a4c-4e97-9d39-14ccbbfb0452",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "8132dcf1-1a4c-4e97-9d39-14ccbbfb0452"
+      ],
+      "chunked_count": 1,
+      "index": 237,
+      "page_number": [
+        11
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 327,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "인도네시아 자카르타에 위치한 하이퍼마켓인 그랜드럭키 슈퍼스토어, 롯데마트와 슈퍼마켓인 푸드홀, 파파야 프레시 갤러리, 올 프레시, 파머스 마켓에 방문함. 그랜드럭키 슈퍼스토어는 인도네시아의 하이퍼마켓 체인이며, 롯데마트는 인도네시아에 진출한 한국 하이퍼마켓 체인임. 푸드홀은 주로 백화점에 입점하여 운영하는 슈퍼마켓이며, 파파야 프레시 갤러리는 인도네시아의 슈퍼마켓 체인임. 올 프레시는 천연 및 유기농 제품을 판매하며 파머스 마켓은 인도네시아 로컬 농산물을 취급하고 있음."
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 경쟁제품, 10개 제품 중 1개 제품만 3개의 매장에서 동시 판매\n\n에이치마트, 토코피디아, 홀푸드마켓 총 3개 매장 방문 후 인기 제품을 조사한 결과, 딸기 경쟁제품 10개 중 1개 제품만 푸드홀, 파파야 프레시 갤러리, 파머스 마켓에서 동시에 판매되고 있으며, 9개 제품은 1개의 매장에서만 판매되고 있는 것으로 확인됨. 또한, 10개 제품 중 5개 제품은 온라인 매장에서도 판매 중인 것으로 조사됨",
+    "name": "▶ 경쟁제품, 10개 제품 중 1개 제품만 3개의 매장에서 동시 판매",
+    "meta_data": {
+      "chunk_id": "1bc3d6a0-0258-4904-9b9f-0d326c583d2c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1bc3d6a0-0258-4904-9b9f-0d326c583d2c",
+        "572c57d0-2322-4520-9985-5ffe4d661a2b"
+      ],
+      "chunked_count": 2,
+      "index": 251,
+      "page_number": [
+        12
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 237,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁제품, 10개 제품 중 1개 제품만 3개의 매장에서 동시 판매"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 2.6] 경쟁제품 판매 현황\n\n매장 입점 여부 제품 종류\n경쟁제품(제조사) 오프라인 온라인 딸기\n① 효시이 스트로베리 (효시이 팜) ○ (그랜드럭키 슈퍼스토어) ○ (토코피디아 쇼피 라자다) ○\n② 진영 팜 스트로베리 (진영 팜) ○ (그랜드럭키 슈퍼스토어) - ○\n③ 셀라 팜 스위트 스트로베리 (셀라 팜) ○ (그랜드럭키 슈퍼스토어) ○ (토코피디아) ○\n④ 라 프레사 밀키 스위트 스트로베리 (라 프레사 팜) ○ (푸드홀 파파야 프레시 갤러리 파머스 마켓) ○ (토코피디아 쇼피) ○\n⑤ 올 시즌스 스트로베리 (올 시즌스 홀란드) ○ (푸드홀) ○ (토코피디아 쇼피) ○\n⑥ 크리스 스트로베리 (크리스 스트로베리) ○ (파파야 프레시 갤러리) ○ (토코피디아) ○\n⑦ 셀레브레이션 (올 시즌스 홀란드) ○ (올 프레시) - ○\n⑧ 스위트하츠 (올 시즌스 홀란드) ○ (롯데마트) - ○\n⑨ 러브 베리스 그로잉 포 유 스트로베리 (-) ○ (파머스 마켓) - ○\n⑩ 스트로베리 호코웨즈 (크리스 스트로베리) ○ (파머스 마켓) - ○\n(*) 현지 판매 딸기 경쟁제품 10개 분석",
+    "name": "[표 2.6] 경쟁제품 판매 현황",
+    "meta_data": {
+      "chunk_id": "bcfed41e-ca4e-48cb-9a68-d6754d34c840",
+      "page_number": [
+        12
+      ],
+      "item_label": "merged",
+      "index": 253,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 2.6] 경쟁제품 판매 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "374898b2-5b2c-4254-b47b-279563c2d2d3",
+          "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">매장 입점 여부</th><th>제품 종류</th></tr><tr><td></td><th>경쟁제품(제조사)</th><th>오프라인</th><th>온라인</th><th>딸기</th></tr><tr><td>①</td><td>효시이 스트로베리 (효시이 팜)</td><td>○ (그랜드럭키 슈퍼스토어)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>②</td><td>진영 팜 스트로베리 (진영 팜)</td><td>○ (그랜드럭키 슈퍼스토어)</td><td>-</td><td>○</td></tr><tr><td>③</td><td>셀라 팜 스위트 스트로베리 (셀라 팜)</td><td>○ (그랜드럭키 슈퍼스토어)</td><td>○ (토코피디아)</td><td>○</td></tr><tr><td>④</td><td>라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)</td><td>○ (푸드홀, 파파야 프레시 갤러리, 파머스 마켓)</td><td>○ (토코피디아, 쇼피)</td><td>○</td></tr><tr><td>⑤</td><td>올 시즌스 스트로베리 (올 시즌스 홀란드)</td><td>○ (푸드홀)</td><td>○ (토코피디아, 쇼피)</td><td>○</td></tr><tr><td>⑥</td><td>크리스 스트로베리 (크리스 스트로베리)</td><td>○ (파파야 프레시 갤러리)</td><td>○ (토코피디아)</td><td>○</td></tr><tr><td>⑦</td><td>셀레브레이션 (올 시즌스 홀란드)</td><td>○ (올 프레시)</td><td>-</td><td>○</td></tr><tr><td>⑧</td><td>스위트하츠 (올 시즌스 홀란드)</td><td>○ (롯데마트)</td><td>-</td><td>○</td></tr><tr><td>⑨</td><td>러브 베리스 그로잉 포 유 스트로베리 (-)</td><td>○ (파머스 마켓)</td><td>-</td><td>○</td></tr><tr><td>⑩</td><td>스트로베리 호코웨즈 (크리스 스트로베리)</td><td>○ (파머스 마켓)</td><td>-</td><td>○</td></tr><tr><td>(*)</td><td>현지 판매 딸기 경쟁제품 10개 분석</td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n인도네시아 식품 및 전 세계 각국의 식료품을 비롯한 다양한 식재료, 신선식품, 가공식품 등을 제공함",
+    "name": "인도네시아 식품 및 전 세계 각국의 식료품을 비롯한 다양한 식재료, 신선식품, 가공식품 등을 제공함",
+    "meta_data": {
+      "chunk_id": "f1e0931f-4d7a-4a29-ba85-6d5b6361df16",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "f1e0931f-4d7a-4a29-ba85-6d5b6361df16"
+      ],
+      "chunked_count": 1,
+      "index": 267,
+      "page_number": [
+        13
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 63,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "인도네시아 식품 및 전 세계 각국의 식료품을 비롯한 다양한 식재료, 신선식품, 가공식품 등을 제공함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)\n\n도시(지역)\n상세주소 SCBD Jl. Jenderal Sudirman Senayan Kebayoran Baru South Jakarta Jakarta 12190\n\n브랜드 기본 정보 체인으로 인도네시아 내에 그랜드럭키 슈퍼스토어는 인도네시아의 마켓 1992년 작은 과일 가게로 시작하여 현재 약 10개의 슈퍼스토어 매장 외에도 온라인 배달 서비스인 해피프레쉬 매장도 운영함. 인도네시아 제품 외에도 전 세계의 수입 제품도 취급하고 있음\n조사 제품 수: 3개\n매장 정보\n도시(지역) 자카르타\n매장 내부",
+    "name": "Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+    "meta_data": {
+      "chunk_id": "c7e95f4d-f14d-430a-9c82-531f7d65fa42",
+      "page_number": [
+        13
+      ],
+      "item_label": "merged",
+      "index": 273,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e7583867-c8fe-417a-8210-bbda611bcb91",
+          "content": "<table><tbody><tr><td></td><td>도시(지역)</td></tr><tr><td>상세주소</td><td>SCBD, Jl. Jenderal Sudirman, Senayan, Kebayoran Baru, South Jakarta, Jakarta 12190</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "b2cb24c4-e943-412e-8173-c6ec9fae7f53",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"2\">체인으로, 인도네시아 내에</th><th>그랜드럭키 슈퍼스토어는 인도네시아의 마켓 1992년 작은 과일 가게로 시작하여 현재 약 10개의 슈퍼스토어 매장 외에도 온라인 배달 서비스인 해피프레쉬 매장도 운영함. 인도네시아 제품 외에도 전 세계의 수입 제품도 취급하고 있음</th></tr><tr><td></td><th colspan=\"3\">조사 제품 수: 3개</th></tr><tr><td rowspan=\"2\">매장 정보</td><td></td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">도시(지역) 자카르타</td></tr><tr><td>매장 내부</td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)\n\n제품명 (현지어) 효시이 스트로베리 진영 팜 스트로베리 (Jin Young Farm Strawberry)\n제조사 (현지어) (Hyoshii Strawberry) 효시이 팜 진영 팜 (Jinyoung Farm)\n제품 종류 딸기 딸기\n중량 275g -\n소비자가격 89900루피아 62500루피아\n(7633원) 32691루피아 (5306원)\n100g당 가격 원산지 (2775원) 인도네시아 - 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n인증 - -\n원료 및 신선 딸기\n첨가물 신선 딸기\n\n경쟁제품 ① 경쟁제품 ②\n제품 사진\n제품명 (현지어) 효시이 스트로베리 (Hyoshii Strawberry) 진영 팜 스트로베리 (Jin Young Farm Strawberry)\n제조사 (현지어) 효시이 팜 (Hyoshii Farm) 진영 팜 (Jinyoung Farm)\n제품 종류 딸기 딸기\n중량 275g -\n소비자가격 89900루피아 (7633원) 62500루피아 (5306원)\n100g당 가격 32691루피아 (2775원) -\n원산지 인도네시아 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n홍보문구 일본의 품질 프리미엄 수확 천연 &amp; 신선한 과일\n인증 - -\n원료 및 첨가물 신선 딸기 신선 딸기",
+    "name": "Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+    "meta_data": {
+      "chunk_id": "4171ef68-fd1d-49db-8833-f10df4da5d20",
+      "page_number": [
+        14
+      ],
+      "item_label": "merged",
+      "index": 290,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "16815bc7-5ace-4dfb-a2d3-babefbb9ff1e",
+          "content": "<table><tbody><tr><td>제품명 (현지어)</td><td>효시이 스트로베리</td><td>진영 팜 스트로베리 (Jin Young Farm Strawberry)</td></tr><tr><td>제조사 (현지어)</td><td>(Hyoshii Strawberry) 효시이 팜</td><td>진영 팜 (Jinyoung Farm)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>275g</td><td>-</td></tr><tr><td>소비자가격</td><td>89,900루피아</td><td>62,500루피아</td></tr><tr><td></td><td>(7,633원) 32,691루피아</td><td>(5,306원)</td></tr><tr><td>100g당 가격 원산지</td><td>(2,775원) 인도네시아</td><td>- 인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>인증</td><td>-</td><td>-</td></tr><tr><td>원료 및</td><td></td><td>신선 딸기</td></tr><tr><td>첨가물</td><td>신선 딸기</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "3049f7c2-6df7-4472-bb8c-eb4623a414f5",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ①</th><th>경쟁제품 ②</th></tr><tr><td>제품 사진</td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>효시이 스트로베리 (Hyoshii Strawberry)</td><td>진영 팜 스트로베리 (Jin Young Farm Strawberry)</td></tr><tr><td>제조사 (현지어)</td><td>효시이 팜 (Hyoshii Farm)</td><td>진영 팜 (Jinyoung Farm)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>275g</td><td>-</td></tr><tr><td>소비자가격</td><td>89,900루피아 (7,633원)</td><td>62,500루피아 (5,306원)</td></tr><tr><td>100g당 가격</td><td>32,691루피아 (2,775원)</td><td>-</td></tr><tr><td>원산지</td><td>인도네시아</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>홍보문구</td><td>일본의 품질, 프리미엄 수확</td><td>천연 &amp; 신선한 과일</td></tr><tr><td>인증</td><td>-</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)\n\n제품명 (현지어) 셀라 팜 스위트 스트로베리 (Sella Farm Sweet Strawberry)\n제조사 (현지어) 셀라 팜 (Sella Farm)\n제품 종류 딸기\n중량 -\n소비자가격 37500루피아 (3184원)\n100g당 가격 -\n원산지 인도네시아\n포장 형태 플라스틱 팩\n유통기한 7일\n홍보문구 신선하고 건강한\n인증 -\n원료 및 첨가물 신선 딸기\n\n경쟁제품 ③\n제품 사진\n제품명 (현지어) 셀라 팜 스위트 스트로베리 (Sella Farm Sweet Strawberry)\n제조사 (현지어) 셀라 팜 (Sella Farm)\n제품 종류 딸기\n중량 -\n소비자가격 37500루피아 (3184원)\n100g당 가격 -\n원산지 인도네시아\n포장 형태 플라스틱 팩\n유통기한 7일\n홍보문구 신선하고 건강한\n인증 -\n원료 및 첨가물 신선 딸기",
+    "name": "Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+    "meta_data": {
+      "chunk_id": "78b70f71-778a-4993-85be-41de635583de",
+      "page_number": [
+        15
+      ],
+      "item_label": "merged",
+      "index": 303,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ① 그랜드럭키 슈퍼스토어(GrandLucky Superstore)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d91395bb-479d-4f6a-9234-575bbba54b88",
+          "content": "<table><tbody><tr><td>제품명 (현지어)</td><td>셀라 팜 스위트 스트로베리 (Sella Farm Sweet Strawberry)</td></tr><tr><td>제조사 (현지어)</td><td>셀라 팜 (Sella Farm)</td></tr><tr><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>-</td></tr><tr><td>소비자가격</td><td>37,500루피아 (3,184원)</td></tr><tr><td>100g당 가격</td><td>-</td></tr><tr><td>원산지</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td></tr><tr><td>홍보문구</td><td>신선하고 건강한</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "37ffe0f7-ae60-44d1-ba7b-dd784202bc85",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ③</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td>셀라 팜 스위트 스트로베리 (Sella Farm Sweet Strawberry)</td></tr><tr><td>제조사 (현지어)</td><td>셀라 팜 (Sella Farm)</td></tr><tr><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>-</td></tr><tr><td>소비자가격</td><td>37,500루피아 (3,184원)</td></tr><tr><td>100g당 가격</td><td>-</td></tr><tr><td>원산지</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td></tr><tr><td>홍보문구</td><td>신선하고 건강한</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ② 푸드홀(FoodHall)\n\n도시(지역) 자카르타\n위치 상세주소 Grand Indonesia Shopping West Mall Jl. M.H. Thamrin No.1 Kb. Melati Tanah Abang Central Jakarta Jakarta 10350\n\n매대 분석 매대 분류 복도식 매대\n진열 방식 과일 제품군 그룹\n브랜드 국적 구성\n인도네시아\n\n브랜드\n조사 제품 수: 2개\n매장 정보\n도시(지역)\n위치 상세주소\n매장 내부\n매대 분석 매대 분류 진열 방식 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드",
+    "name": "Shop ② 푸드홀(FoodHall)",
+    "meta_data": {
+      "chunk_id": "3f2965bd-e7d6-4c66-95bc-a8e9a39ff191",
+      "page_number": [
+        16
+      ],
+      "item_label": "merged",
+      "index": 322,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ② 푸드홀(FoodHall)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ee1b8437-7678-4112-b2ef-8672ff12ccdf",
+          "content": "<table><tbody><tr><td></td><th>도시(지역)</th><th>자카르타</th></tr><tr><td>위치</td><td>상세주소</td><td>Grand Indonesia Shopping West Mall, Jl. M.H. Thamrin No.1, Kb. Melati, Tanah Abang, Central Jakarta, Jakarta 10350</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "be13ebf9-928d-40b9-abcd-17b8516828de",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><th>매대 분류</th><th>복도식 매대</th></tr><tr><td>진열 방식</td><td>과일 제품군 그룹</td></tr><tr><td>브랜드 국적 구성</td><td></td></tr><tr><td></td><td>인도네시아</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "781baf36-2925-4d0b-a6d3-cea8175f53ff",
+          "content": "<table><tbody><tr><th>브랜드</th><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><th colspan=\"8\">조사 제품 수: 2개</th></tr><tr><td rowspan=\"3\">매장 정보</td><td></td><td></td></tr><tr><td></td><td>도시(지역)</td></tr><tr><td></td><td>위치 상세주소</td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td rowspan=\"2\">매대 분석</td><td></td><td>매대 분류 진열 방식 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ② 푸드홀(FoodHall)\n\n제품명 (현지어) 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) 올 시즌스 스트로베리 (All Seasons Strawberries)\n제조사 (현지어) 라 프레사 팜 (La Fresa Farm) 올 시즌스 홀란드 (All Seasons Holland)\n제품 종류 딸기 딸기\n중량 - 250g\n소비자가격 64900루피아 (5510원) 69900루피아 (5935원)\n100g당 가격 - 27960루피아 (2374원)\n원산지 인도네시아 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n홍보문구 정원에서 바로 당신의 집으로 유해 농약 무첨가 천연 자연 수확\n인증 할랄 -\n원료 및 첨가물 신선 딸기 신선 딸기\n\n경쟁제품 ④ 경쟁제품 ⑤\n제품 사진\n제품명 (현지어) 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) 올 시즌스 스트로베리 (All Seasons Strawberries)\n제조사 (현지어) 라 프레사 팜 (La Fresa Farm) 올 시즌스 홀란드 (All Seasons Holland)\n제품 종류 딸기 딸기\n중량 - 250g\n소비자가격 64900루피아 (5510원) 69900루피아 (5935원)\n100g당 가격 - 27960루피아 (2374원)\n원산지 인도네시아 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n홍보문구 정원에서 바로 당신의 집으로 유해 농약 무첨가 천연 자연 수확\n인증 할랄 -\n원료 및 첨가물 신선 딸기 신선 딸기",
+    "name": "Shop ② 푸드홀(FoodHall)",
+    "meta_data": {
+      "chunk_id": "7f1887f8-bfcc-4013-b4b4-7f8a7e0e452c",
+      "page_number": [
+        17
+      ],
+      "item_label": "merged",
+      "index": 339,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ② 푸드홀(FoodHall)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "39296753-03e5-4204-8aae-2e63dac070ae",
+          "content": "<table><tbody><tr><td>제품명 (현지어)</td><td>라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry)</td><td>올 시즌스 스트로베리 (All Seasons Strawberries)</td></tr><tr><td>제조사 (현지어)</td><td>라 프레사 팜 (La Fresa Farm)</td><td>올 시즌스 홀란드 (All Seasons Holland)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>-</td><td>250g</td></tr><tr><td>소비자가격</td><td>64,900루피아 (5,510원)</td><td>69,900루피아 (5,935원)</td></tr><tr><td>100g당 가격</td><td>-</td><td>27,960루피아 (2,374원)</td></tr><tr><td>원산지</td><td>인도네시아</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>홍보문구</td><td>정원에서 바로 당신의 집으로</td><td>유해 농약 무첨가, 천연, 자연 수확</td></tr><tr><td>인증</td><td>할랄</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "d855845e-21f7-4fe5-8c2d-5f09aab08807",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ④</th><th>경쟁제품 ⑤</th></tr><tr><td>제품 사진</td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry)</td><td>올 시즌스 스트로베리 (All Seasons Strawberries)</td></tr><tr><td>제조사 (현지어)</td><td>라 프레사 팜 (La Fresa Farm)</td><td>올 시즌스 홀란드 (All Seasons Holland)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>-</td><td>250g</td></tr><tr><td>소비자가격</td><td>64,900루피아 (5,510원)</td><td>69,900루피아 (5,935원)</td></tr><tr><td>100g당 가격</td><td>-</td><td>27,960루피아 (2,374원)</td></tr><tr><td>원산지</td><td>인도네시아</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>홍보문구</td><td>정원에서 바로 당신의 집으로</td><td>유해 농약 무첨가, 천연, 자연 수확</td></tr><tr><td>인증</td><td>할랄</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)\n\n브랜드 기본 정보 파파야 프레쉬 갤러리는 2005년 9월 인도네시아에 설립된 아시안마트로 주로 일본산 제품을 판매함. 인도네시아의 자카르타 반둥 수라바야 발리\n매장 정보\n상세주소 Central Jakarta Jakarta 10340\n매대 분석 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드 상단: 사과 키위 용과 / 중단: 딸기 베리류 / 하단: 배 인도네시아 크리스 스트로베리\n\n매장 정보 브랜드 파파야 프레쉬 갤러리는 2005년 9월 설립된 아시안마트로 주로 일본산 제품을 인도네시아의 자카르타 반둥 수라바야 10여개의 매장을 운영하고 있으며 매달 통해 할인 제품 정보 신제품 정보 등을\n· 판매 제품 특징: 과일 채소 식품 음료 조사 제품 수: 1개\n가공식품 등 식료품을 취급함\n매장 주변 특징:\n상업 지역 내 위치 ·\n매장 정보\n주요 고객층: · 현지\n주민\nJl. H. Agus Salim No.49 Kebon Sirih Menteng\n매장 내부\n복도식 매대 비건 수프 및 브로드 제품군\n상단: 사과 키위 용과 / 하단: 배\n중단: 딸기 베리류 / 인도네시아\n매대 분석\n크리스\n스트로베리\n주요\n브랜드",
+    "name": "Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)",
+    "meta_data": {
+      "chunk_id": "b66fb04b-0e09-4128-90e0-e6747844a469",
+      "page_number": [
+        18
+      ],
+      "item_label": "merged",
+      "index": 352,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e494c918-5cab-4efb-8b3d-f68a502b711d",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"2\">파파야 프레쉬 갤러리는 2005년 9월 인도네시아에 설립된 아시안마트로, 주로 일본산 제품을 판매함. 인도네시아의 자카르타, 반둥, 수라바야, 발리</th></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td>상세주소</td><td>Central Jakarta, Jakarta 10340</td></tr><tr><td>매대 분석</td><td>상·하단 제품 구성 브랜드 국적 구성 주요 브랜드</td><td>상단: 사과, 키위, 용과 / 중단: 딸기, 베리류 / 하단: 배 인도네시아 크리스 스트로베리</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "8963fe02-c888-4693-afe5-153862d76996",
+          "content": "<table><tbody><tr><td>매장 정보</td><td>브랜드</td><td></td><td>파파야 프레쉬 갤러리는 2005년 9월 설립된 아시안마트로, 주로 일본산 제품을 인도네시아의 자카르타, 반둥, 수라바야, 10여개의 매장을 운영하고 있으며, 매달 통해 할인 제품 정보, 신제품 정보 등을</td><td></td></tr><tr><td>· 판매 제품 특징: 과일, 채소, 식품, 음료,</td><td></td><td></td><td>조사 제품 수: 1개</td><td></td></tr><tr><td>가공식품 등 식료품을 취급함</td><td></td><td></td><td></td><td></td></tr><tr><td>매장 주변 특징:</td><td></td><td></td><td></td><td></td></tr><tr><td>상업 지역 내 위치</td><td></td><td>·</td><td></td><td></td></tr><tr><td></td><td>매장 정보</td><td></td><td></td><td></td></tr><tr><td>주요 고객층:</td><td></td><td>· 현지</td><td></td><td></td></tr><tr><td>주민</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>Jl. H. Agus Salim No.49, Kebon Sirih, Menteng,</td><td></td></tr><tr><td></td><td>매장 내부</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>복도식 매대 비건 수프 및 브로드 제품군</td><td></td></tr><tr><td></td><td></td><td></td><td>상단: 사과, 키위, 용과 / 하단: 배</td><td></td></tr><tr><td></td><td></td><td></td><td>중단: 딸기, 베리류 / 인도네시아</td><td></td></tr><tr><td></td><td>매대 분석</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>크리스</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td>스트로베리</td></tr><tr><td></td><td>주요</td><td></td><td></td><td></td></tr><tr><td></td><td>브랜드</td><td></td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)\n\n경쟁제품 ⑥\n제품 사진\n제품명 (현지어) 크리스 스트로베리\n제조사 (현지어) (Chris Strawberry) 크리스 스트로베리 (Chris Strawberry)\n제품 종류 딸기\n중량 -\n소비자가격 99000루피아 (8405원)\n100g당 가격 플라스틱 프리미엄 신선\n원산지 인도네시아\n포장 형태 팩\n유통기한 7일\n홍보문구 품질\n원료 및 첨가물 딸기",
+    "name": "Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)",
+    "meta_data": {
+      "chunk_id": "81ddcbec-34e4-4968-82c9-6bd1276bbbe7",
+      "page_number": [
+        19
+      ],
+      "item_label": "merged",
+      "index": 367,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ③ 파파야 프레시 갤러리(Papaya Fresh Gallery)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d28dfb84-291f-455c-b4fa-924eed7d5ac6",
+          "content": "<table><tbody><tr><td></td><th colspan=\"2\">경쟁제품 ⑥</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td colspan=\"2\">크리스 스트로베리</td></tr><tr><td>제조사 (현지어)</td><td colspan=\"2\">(Chris Strawberry) 크리스 스트로베리 (Chris Strawberry)</td></tr><tr><td>제품 종류</td><td colspan=\"2\">딸기</td></tr><tr><td>중량</td><td colspan=\"2\">-</td></tr><tr><td>소비자가격</td><td colspan=\"2\">99,000루피아 (8,405원)</td></tr><tr><td>100g당 가격</td><td colspan=\"2\">플라스틱 프리미엄 신선</td></tr><tr><td>원산지</td><td colspan=\"2\">인도네시아</td></tr><tr><td>포장 형태</td><td colspan=\"2\">팩</td></tr><tr><td>유통기한</td><td colspan=\"2\">7일</td></tr><tr><td>홍보문구</td><td colspan=\"2\">품질</td></tr><tr><td>원료 및 첨가물</td><td colspan=\"2\">딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ④ 올 프레시(All Fresh)\n\n브랜드 기본 정보 향료 감미료 및 유기농 인도네시아 수입 식료품을 올 프레시는 인도네시아의 슈퍼마켓 체인으로 인공 색소 및 방부제가 첨가되지 않은 천연 제품을 제공하고 있음. 로컬 과일 및 가공식품 스낵류와 더불어 수입과일과 취급함. 인도네시아 내 9개 매장을 운영함\n매장 정보 조사 제품 수: 1개\n매장 내부\n매대 분류 복도식 매대\n매대 분석 상·하단 제품 구성 상단: 브랜드 국적 구성 과일류 그룹 진열\n\n● 매장 정보 유형: 슈퍼마켓 · 올 프레시는 인도네시아의 슈퍼마켓 체인으로 인공 향료 감미료 색소 및 방부제가 첨가되지 않은 천연 및 유기농 제품을 제공하고 있음. 로컬 과일 및 인도네시아 가공식품 스낵류와 더불어 수입과일과 수입 식료품을 취급함. 인도네시아 내 9개 매장을 운영함\n과채류 식료품 가공식품 냉동식품 등 다양한 식재료를 취급함 제품 수:\n매장 주변 특징: 상업 지역 내 위치\n·\n· 주요 고객층: 매장 정보\n매장 내부\n복도식 매대 과일류 그룹 딸기 / 중단: 석류 /\n진열\n매대 배\n분석 하단: 사과\n인도네시아\n올 시즌스 홀란드\n구성\n\n도시(지역)\n위치 All Fresh Avenue Jl. Kayu Putih Raya No.1 Kayu Putih Pulo Gadung Kota East Jakarta Jakarta 13210\n\n매대 분석 매대 분류 진열 방식 복도식 매대\n상·하단 제품 구성 상단: 딸기 / 중단: 석류 / 하단: 사과 배\n브랜드 국적 구성 인도네시아\n주요 브랜드 올 시즌스 홀란드\n\n매대 분석 매대 분류 진열 방식 복도식 매대 과일류 그룹 진열 상단:\n상·하단 제품 구성 딸기 / 중단: 석류 / 하단: 사과 배",
+    "name": "Shop ④ 올 프레시(All Fresh)",
+    "meta_data": {
+      "chunk_id": "038abc04-e4d8-46fe-aff3-ef496e6f3258",
+      "page_number": [
+        20
+      ],
+      "item_label": "merged",
+      "index": 377,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ④ 올 프레시(All Fresh)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "fd9c9808-2064-4dbd-93fb-59401cf73638",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"2\">향료, 감미료, 및 유기농 인도네시아 수입 식료품을</th><th>올 프레시는 인도네시아의 슈퍼마켓 체인으로 인공 색소 및 방부제가 첨가되지 않은 천연 제품을 제공하고 있음. 로컬 과일 및 가공식품, 스낵류와 더불어 수입과일과 취급함. 인도네시아 내 9개 매장을 운영함</th></tr><tr><td>매장 정보</td><td colspan=\"3\">조사 제품 수: 1개</td></tr><tr><td>매장 내부</td><td></td><td></td><td></td></tr><tr><td></td><td colspan=\"3\">매대 분류 복도식 매대</td></tr><tr><td>매대 분석</td><td>상·하단 제품 구성 상단: 브랜드 국적 구성</td><td colspan=\"2\">과일류 그룹 진열</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "28f7129b-5f09-4093-a69d-2dcf1444bebf",
+          "content": "<table><tbody><tr><td>● 매장 정보 유형: 슈퍼마켓</td><td>·</td><td>올 프레시는 인도네시아의 슈퍼마켓 체인으로 인공 향료, 감미료, 색소 및 방부제가 첨가되지 않은 천연 및 유기농 제품을 제공하고 있음. 로컬 과일 및 인도네시아 가공식품, 스낵류와 더불어 수입과일과 수입 식료품을 취급함. 인도네시아 내 9개 매장을 운영함</td><td></td></tr><tr><td>과채류, 식료품, 가공식품, 냉동식품 등 다양한 식재료를 취급함</td><td></td><td></td><td>제품 수:</td></tr><tr><td>매장 주변 특징: 상업 지역 내 위치</td><td></td><td></td><td></td></tr><tr><td></td><td>·</td><td></td><td></td></tr><tr><td></td><td>· 주요 고객층: 매장 정보</td><td></td><td></td></tr><tr><td></td><td>매장 내부</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>복도식 매대 과일류 그룹 딸기 / 중단: 석류 /</td></tr><tr><td></td><td></td><td></td><td>진열</td></tr><tr><td></td><td>매대</td><td></td><td>배</td></tr><tr><td></td><td>분석</td><td></td><td>하단: 사과,</td></tr><tr><td></td><td></td><td></td><td>인도네시아</td></tr><tr><td></td><td></td><td></td><td>올 시즌스 홀란드</td></tr><tr><td></td><td></td><td>구성</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "c4fb9863-b20a-4491-9ccb-49d3efeebb1b",
+          "content": "<table><tbody><tr><td></td><th>도시(지역)</th></tr><tr><td>위치</td><td>All Fresh Avenue, Jl. Kayu Putih Raya No.1, Kayu Putih, Pulo Gadung, Kota East Jakarta, Jakarta 13210</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "4524ccef-7403-4287-9891-f083c0699d50",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><th>매대 분류 진열 방식</th><th>복도식 매대</th></tr><tr><td>상·하단 제품 구성</td><td>상단: 딸기 / 중단: 석류 / 하단: 사과, 배</td></tr><tr><td>브랜드 국적 구성</td><td>인도네시아</td></tr><tr><td>주요 브랜드</td><td>올 시즌스 홀란드</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "4c70b2e4-ede6-4e38-abbb-307fa0eb0f4d",
+          "content": "<table><tbody><tr><td>매대 분석</td><td>매대 분류 진열 방식</td><td>복도식 매대 과일류 그룹 진열 상단:</td></tr><tr><td></td><td>상·하단 제품 구성</td><td>딸기 / 중단: 석류 / 하단: 사과, 배</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 6
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ④ 올 프레시(All Fresh)\n\n제품명 셀레브레이션\n(현지어) (Celebrations)\n제조사 올 시즌스 홀란드\n(현지어) (Allseasons Holland)\n제품 종류 딸기\n중량 250g\n소비자가격 48800루피아 (4143원)\n19520루피아\n100g당 가격 (1657원)\n원산지 인도네시아\n포장 형태 플라스틱 팩\n유통기한 7일\n홍보문구 농약 무첨가 천연 자연\n인증 -\n원료 및\n첨가물 신선 딸기\n\n경쟁제품 ⑦\n제품 사진\n제품명 (현지어) 셀레브레이션 (Celebrations)\n제조사 (현지어) 올 시즌스 홀란드 (Allseasons Holland)\n제품 종류 딸기\n중량 250g\n소비자가격 48800루피아 (4143원)\n100g당 가격 19520루피아 (1657원)\n원산지 인도네시아\n포장 형태 플라스틱 팩\n유통기한 7일\n홍보문구 농약 무첨가 천연 자연\n인증 -\n원료 및 첨가물 신선 딸기",
+    "name": "Shop ④ 올 프레시(All Fresh)",
+    "meta_data": {
+      "chunk_id": "96f64ca8-5ecd-4e18-8abb-bbceddfc78a4",
+      "page_number": [
+        21
+      ],
+      "item_label": "merged",
+      "index": 396,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ④ 올 프레시(All Fresh)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "20e4d298-ddbb-47ba-9485-06c823b3065b",
+          "content": "<table><tbody><tr><th>제품명</th><th>셀레브레이션</th></tr><tr><td>(현지어)</td><td>(Celebrations)</td></tr><tr><td>제조사</td><td>올 시즌스 홀란드</td></tr><tr><td>(현지어)</td><td>(Allseasons Holland)</td></tr><tr><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>250g</td></tr><tr><td>소비자가격</td><td>48,800루피아 (4,143원)</td></tr><tr><td></td><td>19,520루피아</td></tr><tr><td>100g당 가격</td><td>(1,657원)</td></tr><tr><td>원산지</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td></tr><tr><td>홍보문구</td><td>농약 무첨가, 천연, 자연</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>원료 및</td><td></td></tr><tr><td>첨가물</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "0fe25c0c-8b9c-4ee3-8bd9-3eda58f91472",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑦</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td>셀레브레이션 (Celebrations)</td></tr><tr><td>제조사 (현지어)</td><td>올 시즌스 홀란드 (Allseasons Holland)</td></tr><tr><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>250g</td></tr><tr><td>소비자가격</td><td>48,800루피아 (4,143원)</td></tr><tr><td>100g당 가격</td><td>19,520루피아 (1,657원)</td></tr><tr><td>원산지</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td></tr><tr><td>홍보문구</td><td>농약 무첨가, 천연, 자연</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ⑤ 롯데마트(Lotte Mart)\n\n브랜드 기본 정보 대형 마트임. 한국에 유통업계 최초로\n매장 정보 조사 제품 수: 1개\n도시(지역)\n위치 상세주소 Jl. Boulevard Bar. Gading Bar.\n매장 내부\n매대 분석 진열 방식 상·하단 제품 구성\n주요 브랜드\n제품 판매 정보\n\n매대 분석 매대 분류 진열 방식 복도식 매대 과일 제품군 그룹 진열 상단: 감 오렌지 레몬 포도 / 중·하단: 딸기 포도 귤 레몬\n상·하단 제품 구성\n\n매장 정보 브랜드 기본 정보 롯데마트는 한국의 하이퍼마트 체인으로 다양한 식료품 의류 전자제품 개인용품 등을 취급하는 대형 마트임. 한국에 본사를 두고 있으며 한국 유통업계 최초로 인도네시아에 진출하고 PT 마크로 인도네시아를 인수하며 인도네시아 내 약 50여 곳의 하이퍼마켓 롯데마트와 식료품 도매 매장 롯데\n즉석식품 생활용품 반려동물 용품 개인용품 등 폭넓은 제품을 취급 신선식품 가공식품 냉동식품 조사 제품 수: 1개\n매장 주변 특징: 상업 지역 내 위치 매장 정보 ·\n· 주요 고객층: 현지 주민 도시(지역) 자카르타\n매장 내부\n매대 분류 복도식 매대\n진열 방식 과일 제품군 그룹 진열\n매대 분석 상·하단 제품 구성 상단: 감 오렌지 레몬 포도 중·하단: 딸기 포도 귤 레몬 인도네시아\n주요 브랜드 올 시즌스 홀란드\n판매 정보\n제품",
+    "name": "Shop ⑤ 롯데마트(Lotte Mart)",
+    "meta_data": {
+      "chunk_id": "840d58d1-0c78-4291-9a63-1cf869be16db",
+      "page_number": [
+        22
+      ],
+      "item_label": "merged",
+      "index": 407,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ⑤ 롯데마트(Lotte Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ada8b76e-6c6f-4429-b1e0-0a9818f5ef25",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"2\">대형 마트임. 한국에 유통업계 최초로</th></tr><tr><td>매장 정보</td><td></td><td colspan=\"3\">조사 제품 수: 1개</td></tr><tr><td></td><td></td><td colspan=\"3\">도시(지역)</td></tr><tr><td></td><td></td><td>위치 상세주소 Jl. Boulevard Bar. Gading Bar.,</td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td>매대 분석</td><td></td><td>진열 방식 상·하단 제품 구성</td></tr><tr><td></td><td></td><td>주요 브랜드</td></tr><tr><td>제품 판매 정보</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e273193f-f168-4aa4-a057-224627fde843",
+          "content": "<table><tbody><tr><td>매대 분석</td><td>매대 분류 진열 방식</td><td>복도식 매대 과일 제품군 그룹 진열 상단: 감, 오렌지, 레몬, 포도 / 중·하단: 딸기, 포도, 귤, 레몬</td></tr><tr><td></td><td>상·하단 제품 구성</td><td></td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "98e4c1d7-282c-4676-9753-84306b9b0881",
+          "content": "<table><tbody><tr><td>매장 정보</td><td>브랜드 기본 정보</td><td colspan=\"2\">롯데마트는 한국의 하이퍼마트 체인으로, 다양한 식료품, 의류, 전자제품, 개인용품 등을 취급하는 대형 마트임. 한국에 본사를 두고 있으며, 한국 유통업계 최초로 인도네시아에 진출하고 PT 마크로 인도네시아를 인수하며 인도네시아 내 약 50여 곳의 하이퍼마켓 롯데마트와 식료품 도매 매장 롯데</td></tr><tr><td>즉석식품, 생활용품, 반려동물 용품, 개인용품 등 폭넓은 제품을 취급</td><td></td><td></td><td>신선식품, 가공식품, 냉동식품, 조사 제품 수: 1개</td></tr><tr><td>매장 주변 특징: 상업 지역 내 위치</td><td>매장 정보</td><td>·</td><td></td></tr><tr><td>· 주요 고객층:</td><td></td><td>현지 주민</td><td>도시(지역) 자카르타</td></tr><tr><td></td><td>매장 내부</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td>매대 분류 복도식 매대</td></tr><tr><td></td><td></td><td></td><td>진열 방식 과일 제품군 그룹 진열</td></tr><tr><td></td><td>매대 분석</td><td></td><td>상·하단 제품 구성 상단: 감, 오렌지, 레몬, 포도 중·하단: 딸기, 포도, 귤, 레몬 인도네시아</td></tr><tr><td></td><td></td><td></td><td>주요 브랜드 올 시즌스 홀란드</td></tr><tr><td></td><td>판매 정보</td><td></td><td></td></tr><tr><td></td><td>제품</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ⑤ 롯데마트(Lotte Mart)\n\n제품명 스위트하츠\n(현지어) (Sweethearts)\n제조사 올 시즌스 홀란드 (Allseasons Holland)\n제품 종류 딸기\n중량 250g\n소비자가격 44500루피아 (3778원)\n17800루피아\n100g당 가격 (1511원)\n원산지 인도네시아\n포장 형태 플라스틱 팩\n유통기한 7일\n홍보문구 자연 수확\n인증 -\n원료 및 첨가물 신선 딸기\n\n경쟁제품 ⑧\n제품 사진\n제품명 (현지어) 스위트하츠 (Sweethearts)\n제조사 (현지어) 올 시즌스 홀란드 (Allseasons Holland)\n제품 종류 딸기\n중량 250g\n소비자가격\n100g당 가격 17800루피아 (1511원)\n원산지 인도네시아\n포장 형태 플라스틱\n유통기한 7일\n홍보문구\n인증 - 신선 딸기",
+    "name": "Shop ⑤ 롯데마트(Lotte Mart)",
+    "meta_data": {
+      "chunk_id": "00eebddf-34f7-44d7-9a2c-f542b304fe08",
+      "page_number": [
+        23
+      ],
+      "item_label": "merged",
+      "index": 422,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ⑤ 롯데마트(Lotte Mart)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "617369cd-8a02-42da-9eef-ab1942e9a57d",
+          "content": "<table><tbody><tr><td>제품명</td><td>스위트하츠</td></tr><tr><td>(현지어)</td><td>(Sweethearts)</td></tr><tr><td>제조사</td><td>올 시즌스 홀란드 (Allseasons Holland)</td></tr><tr><td>제품 종류</td><td>딸기</td></tr><tr><td>중량</td><td>250g</td></tr><tr><td>소비자가격</td><td>44,500루피아 (3,778원)</td></tr><tr><td></td><td>17,800루피아</td></tr><tr><td>100g당 가격</td><td>(1,511원)</td></tr><tr><td>원산지</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td></tr><tr><td>홍보문구</td><td>자연 수확</td></tr><tr><td>인증</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "55e25c91-9498-4004-9c98-e9d5d8f25aac",
+          "content": "<table><tbody><tr><td></td><th colspan=\"2\">경쟁제품 ⑧</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명 (현지어)</td><td colspan=\"2\">스위트하츠 (Sweethearts)</td></tr><tr><td>제조사 (현지어)</td><td colspan=\"2\">올 시즌스 홀란드 (Allseasons Holland)</td></tr><tr><td>제품 종류</td><td colspan=\"2\">딸기</td></tr><tr><td>중량</td><td colspan=\"2\">250g</td></tr><tr><td>소비자가격</td><td></td></tr><tr><td>100g당 가격</td><td colspan=\"2\">17,800루피아 (1,511원)</td></tr><tr><td>원산지</td><td colspan=\"2\">인도네시아</td></tr><tr><td>포장 형태</td><td colspan=\"2\">플라스틱</td></tr><tr><td>유통기한</td><td colspan=\"2\">7일</td></tr><tr><td>홍보문구</td><td></td></tr><tr><td>인증</td><td colspan=\"2\">- 신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n가정용품, 식료품, 과일 및 채소, 육류, 해산물, 가공식품, 뷰티제품, 전자제품 등을 취급함",
+    "name": "가정용품, 식료품, 과일 및 채소, 육류, 해산물, 가공식품, 뷰티제품, 전자제품 등을 취급함",
+    "meta_data": {
+      "chunk_id": "ea4a323e-d2bd-42f0-8023-1881a518afb3",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ea4a323e-d2bd-42f0-8023-1881a518afb3"
+      ],
+      "chunked_count": 1,
+      "index": 436,
+      "page_number": [
+        24
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 65,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "가정용품, 식료품, 과일 및 채소, 육류, 해산물, 가공식품, 뷰티제품, 전자제품 등을 취급함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ⑥ 파머스 마켓(Farmer's Market)\n\n매대 분석 매대 분류 복도식 매대\n진열 방식 비건 수프 및 브로드 제품군\n브랜드 국적 구성 인도 인도네시아\n주요 브랜드 크리스 스트로베리 효시이 팜\n\n브랜드 기본 정보 파머스 마켓은 수프라 보가 레스타리(Supra Boga Lestari)의 마켓 브랜드로 인도네시아 내 총 36개 매장에서 다양하고 신선한 질 좋은 지역 농산물을 선보이고 있음. 이외에도 데이투데이 바이 파머스 마켓 파머스 패밀리 바이 파머스 마켓 등의 브랜드를 통해 세분화된 고객층을 위한 제품과\n조사 제품 수: 2개\n매장 정보\n도시(지역) 자카르타\n매장 내부\n매대 분석 매대 분류 진열 방식 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드 러브 베리스 그로잉 포 유 스트로베리 (-) 복도식 매대 비건 수프 및 브로드 제품군 상·하단: 딸기 베리류 인도 인도네시아 크리스 스트로베리 효시이 팜",
+    "name": "Shop ⑥ 파머스 마켓(Farmer's Market)",
+    "meta_data": {
+      "chunk_id": "30db7d15-9fc4-40f2-a2d4-8e3170355dc4",
+      "page_number": [
+        24
+      ],
+      "item_label": "merged",
+      "index": 440,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ⑥ 파머스 마켓(Farmer's Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "831ce1c5-2593-462c-bb01-b083e886c4ae",
+          "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><th>매대 분류</th><th>복도식 매대</th></tr><tr><td>진열 방식</td><td>비건 수프 및 브로드 제품군</td></tr><tr><td>브랜드 국적 구성</td><td>인도, 인도네시아</td></tr><tr><td>주요 브랜드</td><td>크리스 스트로베리, 효시이 팜</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "e595d28e-ff11-4033-a524-bfdfb8628469",
+          "content": "<table><tbody><tr><th>브랜드 기본 정보</th><td></td><th>파머스 마켓은 수프라 보가 레스타리(Supra Boga Lestari)의 마켓 브랜드로, 인도네시아 내 총 36개 매장에서 다양하고 신선한 질 좋은 지역 농산물을 선보이고 있음. 이외에도 데이투데이 바이 파머스 마켓, 파머스 패밀리 바이 파머스 마켓 등의 브랜드를 통해 세분화된 고객층을 위한 제품과</th></tr><tr><td></td><td></td><th>조사 제품 수: 2개</th></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">도시(지역) 자카르타</td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td>매대 분석</td><td>매대 분류 진열 방식 상·하단 제품 구성 브랜드 국적 구성 주요 브랜드 러브 베리스 그로잉 포 유 스트로베리 (-)</td><td>복도식 매대 비건 수프 및 브로드 제품군 상·하단: 딸기, 베리류 인도, 인도네시아 크리스 스트로베리, 효시이 팜</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Shop ⑥ 파머스 마켓(Farmer's Market)\n\n제품명 (현지어) 러브 베리스 그로잉 포 유 스트로베리 (Love Berries Growing For You Strawberry) 스트로베리 호코웨즈 (Strawberry Hokowaze)\n제조사 (현지어) - 크리스 스트로베리 (Chris Strawberry)\n제품 종류 딸기 딸기\n중량 250g -\n소비자가격 39900루피아 (3388원) 184900루피아 (15698원)\n100g당 가격 15960루피아 (1355원) -\n원산지 인도네시아 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n홍보문구 당신을 위해 재배한 러브베리 프리미엄 현지 품질 스페셜 과일 딸기 신선하고 건강하며 과즙이 풍부한\n인증 - -\n원료 및 첨가물 신선 딸기 신선 딸기\n\n경쟁제품 ⑨ 경쟁제품 ⑩\n제품 사진\n제품명 (현지어) 러브 베리스 그로잉 포 유 스트로베리 (Love Berries Growing For You Strawberry) 스트로베리 호코웨즈 (Strawberry Hokowaze)\n제조사 (현지어) - 크리스 스트로베리 (Chris Strawberry)\n제품 종류 딸기 딸기\n중량 250g -\n소비자가격 39900루피아 (3388원) 184900루피아 (15698원)\n100g당 가격 15960루피아 (1355원) -\n원산지 인도네시아 인도네시아\n포장 형태 플라스틱 팩 플라스틱 팩\n유통기한 7일 7일\n홍보문구 당신을 위해 재배한 러브베리 프리미엄 현지 품질 스페셜 과일 딸기 신선하고 건강하며 과즙이 풍부한\n인증 - -\n원료 및 첨가물 신선 딸기 신선 딸기",
+    "name": "Shop ⑥ 파머스 마켓(Farmer's Market)",
+    "meta_data": {
+      "chunk_id": "df82f9ef-8702-4ae6-b3dd-3ac2308f39f7",
+      "page_number": [
+        25
+      ],
+      "item_label": "merged",
+      "index": 466,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Shop ⑥ 파머스 마켓(Farmer's Market)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "e9a53178-57ea-4431-94c6-00dbd1aea960",
+          "content": "<table><tbody><tr><td>제품명 (현지어)</td><td>러브 베리스 그로잉 포 유 스트로베리 (Love Berries Growing For You Strawberry)</td><td>스트로베리 호코웨즈 (Strawberry Hokowaze)</td></tr><tr><td>제조사 (현지어)</td><td>-</td><td>크리스 스트로베리 (Chris Strawberry)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>250g</td><td>-</td></tr><tr><td>소비자가격</td><td>39,900루피아 (3,388원)</td><td>184,900루피아 (15,698원)</td></tr><tr><td>100g당 가격</td><td>15,960루피아 (1,355원)</td><td>-</td></tr><tr><td>원산지</td><td>인도네시아</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>홍보문구</td><td>당신을 위해 재배한 러브베리, 프리미엄 현지 품질</td><td>스페셜 과일 딸기, 신선하고 건강하며 과즙이 풍부한</td></tr><tr><td>인증</td><td>-</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "b0636637-c680-4811-acf4-401cd5f8f73d",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품 ⑨</th><th>경쟁제품 ⑩</th></tr><tr><td>제품 사진</td><td></td><td></td></tr><tr><td>제품명 (현지어)</td><td>러브 베리스 그로잉 포 유 스트로베리 (Love Berries Growing For You Strawberry)</td><td>스트로베리 호코웨즈 (Strawberry Hokowaze)</td></tr><tr><td>제조사 (현지어)</td><td>-</td><td>크리스 스트로베리 (Chris Strawberry)</td></tr><tr><td>제품 종류</td><td>딸기</td><td>딸기</td></tr><tr><td>중량</td><td>250g</td><td>-</td></tr><tr><td>소비자가격</td><td>39,900루피아 (3,388원)</td><td>184,900루피아 (15,698원)</td></tr><tr><td>100g당 가격</td><td>15,960루피아 (1,355원)</td><td>-</td></tr><tr><td>원산지</td><td>인도네시아</td><td>인도네시아</td></tr><tr><td>포장 형태</td><td>플라스틱 팩</td><td>플라스틱 팩</td></tr><tr><td>유통기한</td><td>7일</td><td>7일</td></tr><tr><td>홍보문구</td><td>당신을 위해 재배한 러브베리, 프리미엄 현지 품질</td><td>스페셜 과일 딸기, 신선하고 건강하며 과즙이 풍부한</td></tr><tr><td>인증</td><td>-</td><td>-</td></tr><tr><td>원료 및 첨가물</td><td>신선 딸기</td><td>신선 딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 대표 경쟁기업으로 현지화가 잘 되어있는 현지 진출 기업 총 3개사 선정\n\n오프라인 유통채널에서 경쟁제품을 판매하고 있는 경쟁기업 중, 현지화가 잘 되어 있는 현지 진출 기업 3개사를 경쟁기업으로 선정함. 선정된 경쟁기업 중 업력이 확인된 기업은 크리스 스트로베리와 올 시즌스 홀란드 2개사임. 크리스 스트로베리는 2024년 설립된 것으로 조사되었으며 올 시즌스 홀란드는 2002년에 설립되어 22년의 업력을 보유하고 있음\n\n인도네시아에 진출한 경쟁기업 3개사가 판매하고 있는 딸기 동일 품목 수를 조사한 결과, 올 시즌스 홀란드가 총 3개로 경쟁기업 3개사 중 가장 많은 동일 품목을 판매 중인 것으로 조사됨. 그다음으로는 크리스 스트로베리가 2개, 라 프레사 팜이 1개의 동일 품목을 판매 중인 것으로 확인됨",
+    "name": "▶ 대표 경쟁기업으로 현지화가 잘 되어있는 현지 진출 기업 총 3개사 선정",
+    "meta_data": {
+      "chunk_id": "ea75fce1-1f20-4538-986e-65c704a9de83",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "ea75fce1-1f20-4538-986e-65c704a9de83",
+        "1f5dbc7c-c9e4-41e8-b485-44e5401d9bf0",
+        "c0babfba-3c6d-4bb9-9753-dc6381245041"
+      ],
+      "chunked_count": 3,
+      "index": 485,
+      "page_number": [
+        27
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 401,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 대표 경쟁기업으로 현지화가 잘 되어있는 현지 진출 기업 총 3개사 선정"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.1] 딸기 경쟁기업 일반 현황\n\n경쟁기업 국적 업력 동일 품목 수\n라 프레사 팜 인도네시아 - 1개\n크리스 스트로베리 인도네시아 0년 2개\n올 시즌스 홀란드 네덜란드 22년 3개",
+    "name": "[표 3.1] 딸기 경쟁기업 일반 현황",
+    "meta_data": {
+      "chunk_id": "e47ef193-fe57-4dbe-992d-bff63b902a64",
+      "page_number": [
+        27
+      ],
+      "item_label": "merged",
+      "index": 489,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.1] 딸기 경쟁기업 일반 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "83a3ae72-6891-4b80-abec-3ad49c459509",
+          "content": "<table><tbody><tr><th>경쟁기업</th><th>국적</th><th>업력</th><th>동일 품목 수</th></tr><tr><td>라 프레사 팜</td><td>인도네시아</td><td>-</td><td>1개</td></tr><tr><td>크리스 스트로베리</td><td>인도네시아</td><td>0년</td><td>2개</td></tr><tr><td>올 시즌스 홀란드</td><td>네덜란드</td><td>22년</td><td>3개</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.2] 경쟁기업 기본 정보\n\n기준 설명\n① 기업명 기업의 이름\n② 위치 기업 본사 위치\n③ 매출액 23년도 기업 매출액\n직원 수 23년도 기업 직원 수\n설립연도 기업의 설립연도\n동일품목 딸기",
+    "name": "[표 3.2] 경쟁기업 기본 정보",
+    "meta_data": {
+      "chunk_id": "82fb5ada-95f0-4b16-b33a-2e2bd39cc836",
+      "page_number": [
+        28
+      ],
+      "item_label": "merged",
+      "index": 500,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.2] 경쟁기업 기본 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ab367580-30db-453c-b7aa-0fa5c4d2d0cd",
+          "content": "<table><tbody><tr><th colspan=\"2\">기준</th><th>설명</th></tr><tr><td>①</td><td>기업명</td><td>기업의 이름</td></tr><tr><td>②</td><td>위치</td><td>기업 본사 위치</td></tr><tr><td rowspan=\"4\">③</td><td>매출액</td><td>23년도 기업 매출액</td></tr><tr><td>직원 수</td><td>23년도 기업 직원 수</td></tr><tr><td>설립연도</td><td>기업의 설립연도</td></tr><tr><td>동일품목</td><td>딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류",
+    "name": "▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류",
+    "meta_data": {
+      "chunk_id": "68bfb8dd-ebf6-4d85-bef9-17f12cf05369",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "68bfb8dd-ebf6-4d85-bef9-17f12cf05369"
+      ],
+      "chunked_count": 1,
+      "index": 502,
+      "page_number": [
+        28
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 33,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업의 자사 제품 홍보 현지화 정도에 따라 분류"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.3] 경쟁기업 홍보 현지화 정도\n\n기준 설명 현지화 정도\n①현지화 미진행 경쟁기업 국적 외 홈페이지 및 SNS 홍보 계정 없음 ○ (하)\n②홍보 글로벌화 글로벌 홈페이지 및 SNS 홍보 계정 활용 ◐ (중)\n③홍보 현지화 현지 전용 홈페이지 및 SNS 홍보 계정 활용 ● (상)",
+    "name": "[표 3.3] 경쟁기업 홍보 현지화 정도",
+    "meta_data": {
+      "chunk_id": "a4c9f6aa-2e4e-4f7a-b4e2-4447ea06c28f",
+      "page_number": [
+        28
+      ],
+      "item_label": "merged",
+      "index": 503,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.3] 경쟁기업 홍보 현지화 정도",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "6917bdb7-8c3b-4421-b4c3-3ffd4b646b76",
+          "content": "<table><tbody><tr><th>기준</th><th>설명</th><th>현지화 정도</th></tr><tr><td>①현지화 미진행</td><td>경쟁기업 국적 외 홈페이지 및 SNS 홍보 계정 없음</td><td>○ (하)</td></tr><tr><td>②홍보 글로벌화</td><td>글로벌 홈페이지 및 SNS 홍보 계정 활용</td><td>◐ (중)</td></tr><tr><td>③홍보 현지화</td><td>현지 전용 홈페이지 및 SNS 홍보 계정 활용</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류",
+    "name": "▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류",
+    "meta_data": {
+      "chunk_id": "36c6c286-8ba2-4188-9f59-9a912fe9ffd2",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "36c6c286-8ba2-4188-9f59-9a912fe9ffd2"
+      ],
+      "chunked_count": 1,
+      "index": 505,
+      "page_number": [
+        28
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 32,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업의 자사 제품 포장 현지화 정도에 따라 분류"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.4] 경쟁기업 포장 현지화 정도 기준\n\n기준 설명 현지화 정도\n①개선사항 無 별도 포장 없이 벌크 판매하거나 경쟁기업 국적 내에서 유통하는 포장 방식 그대로 사용 ○ (하)\n②포장 개선 경쟁기업 국적 내에서 유통되는 제품의 포장 디자인 문구 현지화 ◐ (중)\n③포장 현지화 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 ● (상)",
+    "name": "[표 3.4] 경쟁기업 포장 현지화 정도 기준",
+    "meta_data": {
+      "chunk_id": "42c7ec9c-0e3e-4e7d-b970-40fa3aa5e491",
+      "page_number": [
+        28
+      ],
+      "item_label": "merged",
+      "index": 506,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.4] 경쟁기업 포장 현지화 정도 기준",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "00fc32d9-bcf4-46a9-864b-e8fc7475d7c8",
+          "content": "<table><tbody><tr><th>기준</th><th>설명</th><th>현지화 정도</th></tr><tr><td>①개선사항 無</td><td>별도 포장 없이 벌크 판매하거나 경쟁기업 국적 내에서 유통하는 포장 방식 그대로 사용</td><td>○ (하)</td></tr><tr><td>②포장 개선</td><td>경쟁기업 국적 내에서 유통되는 제품의 포장 디자인 문구 현지화</td><td>◐ (중)</td></tr><tr><td>③포장 현지화</td><td>현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.5] 경쟁기업 제품 제조 방식 기준\n\n기준 설명 적극성\n①OEM 간접 제조 제조 전문 OEM 업체와 제휴를 맺어 제조 위탁 ○ (하)\n②국내제조 직접 경쟁기업 본국에서 직접 제조하여 현지 수출 ◐ (중)\n③현지제조 제조 현지에 제조시설을 구비하여 직접 제조 ● (상)",
+    "name": "[표 3.5] 경쟁기업 제품 제조 방식 기준",
+    "meta_data": {
+      "chunk_id": "dc4a03e3-d366-413d-9e75-10d70a153466",
+      "page_number": [
+        29
+      ],
+      "item_label": "merged",
+      "index": 515,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.5] 경쟁기업 제품 제조 방식 기준",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5d9bdada-c57b-4e24-b0bb-81f5ad35aff8",
+          "content": "<table><tbody><tr><th colspan=\"2\">기준</th><th>설명</th><th>적극성</th></tr><tr><td>①OEM</td><td>간접 제조</td><td>제조 전문 OEM 업체와 제휴를 맺어 제조 위탁</td><td>○ (하)</td></tr><tr><td>②국내제조</td><td>직접</td><td>경쟁기업 본국에서 직접 제조하여 현지 수출</td><td>◐ (중)</td></tr><tr><td>③현지제조</td><td>제조</td><td>현지에 제조시설을 구비하여 직접 제조</td><td>● (상)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.6] 경쟁기업 유통채널\n\n기준 채널 종류\n오프라인 그랜드럭키 슈퍼스토어 푸드홀 파파야 프레시 갤러리 올 프레시 롯데마트 파머스 마켓\n온라인 토코피디아 쇼피 라자다",
+    "name": "[표 3.6] 경쟁기업 유통채널",
+    "meta_data": {
+      "chunk_id": "54af7eb3-f93e-41b1-a695-98c28f364dc0",
+      "page_number": [
+        29
+      ],
+      "item_label": "merged",
+      "index": 519,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.6] 경쟁기업 유통채널",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "683085c8-fbd7-4e13-8a3d-0cb85f8e3373",
+          "content": "<table><tbody><tr><th>기준</th><th>채널 종류</th></tr><tr><td>오프라인</td><td>그랜드럭키 슈퍼스토어, 푸드홀, 파파야 프레시 갤러리, 올 프레시, 롯데마트, 파머스 마켓</td></tr><tr><td>온라인</td><td>토코피디아, 쇼피, 라자다</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 3. 인도네시아 딸기 경쟁기업 현황 및 현지화 정보\n\n# ▶ 경쟁기업 3개사 인도네시아 온/오프라인 매장 진출\n\n인도네시아에 진출한 경쟁기업 3개사 모두 현지조사를 진행한 오프라인 매장에 입점해 있는 것으로 확인됨. 라 프레사 팜은 푸드홀, 파파야 프레시 갤러리, 파머스 마켓에 모두 입점하였으며 크리스 스트로베리는 파파야 프레시 갤러리, 파머스 마켓 2곳에 진출함. 올 시즌스 홀란드는 푸드홀, 올 프레시, 롯데마트 3곳에 입점함. 또한, 라 프레사 팜과 올 시즌스 홀란드는 인도네시아 인기 온라인 쇼핑몰인 토코피디아와 쇼피에 진출한 것으로 조사되었으며 크리스 스트로베리는 토코피디아에 입점하여 제품을 유통하고 있음\n\n# ▶ 경쟁기업, 자사 홈페이지와 소셜 미디어를 활용한 마케팅 진행\n\n인도네시아 시장에 진출한 경쟁기업 3개사의 홍보 채널을 조사한 결과, 3개사 모두 자사 홈페이지를 통해 기업 정보 및 자사 제품의 정보를 제공하고 있는 것으로 확인됨. 또한, 일부 경쟁기업은 인스타그램 등 소셜미디어 채널을 운영하고 있음. 특히, 라 프레사 팜은 인도네시아 현지 홈페이지와 인도네시아 계정의 소셜미디어 채널에서 브랜드 제품 소개와 프로모션을 안내하는 콘텐츠를 자주 업로드하며 활발한 온라인 마케팅을 실행하고 있음",
+    "name": "3. 인도네시아 딸기 경쟁기업 현황 및 현지화 정보",
+    "meta_data": {
+      "chunk_id": "1cbb3b1b-5cfc-4678-a837-393fac95c22c",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1cbb3b1b-5cfc-4678-a837-393fac95c22c",
+        "e715c6fd-882f-4453-a9a7-7e6517afa033",
+        "28f97491-a95a-40a5-baa9-6d56bc3f9b2d",
+        "0de7b60b-2d73-4250-a173-e3a20a85074b",
+        "7e2dfae0-e54b-4739-86e7-7bb9967ee69e"
+      ],
+      "chunked_count": 5,
+      "index": 527,
+      "page_number": [
+        30
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 664,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 3. 인도네시아 딸기 경쟁기업 현황 및 현지화 정보"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 경쟁기업, 홍보문구로 제품의 품질, 신선함 등을 강조\n\n인도네시아 시장에 진출한 경쟁기업은 제품을 홍보할 때 품질, 신선함 등을 강조하는 문구를 주로 사용하고 있음. 라 프레사 팜은 갓 수확한 신선함을 강조하는 문구를 사용하였으며, 크리스 스트로베리는 프리미엄 품질과 신선함을 강조함. 올 시즌스 홀란드는 유해 농약 없는 천연의 제품 품질을 설명하는 홍보문구를 활용하고 있는 것으로 조사됨",
+    "name": "▶ 경쟁기업, 홍보문구로 제품의 품질, 신선함 등을 강조",
+    "meta_data": {
+      "chunk_id": "d7af0812-e1b4-45ba-843c-feae20b2f78e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d7af0812-e1b4-45ba-843c-feae20b2f78e",
+        "9f6d0244-21a9-4d6a-8f9b-13f646a21026"
+      ],
+      "chunked_count": 2,
+      "index": 538,
+      "page_number": [
+        31
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 226,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 경쟁기업, 홍보문구로 제품의 품질, 신선함 등을 강조"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 3.7] 인도네시아 딸기 경쟁기업 현황\n\n경쟁사 진출 채널 홍보 채널 홍보문구 홍보문구 사진\n라 프레사 팜 Ÿ 오프라인 매장 - 푸드홀 - 파파야 프레시 갤러리 - 파머스 마켓 Ÿ 온라인 매장 Ÿ 자사 홈페이지 (인도네시아) Ÿ SNS 플랫폼 (인도네시아) - 인스타그램 - 정원에서 바로 당신의 집으로\n크리스 스트로베리 Ÿ 오프라인 매장 - 파파야 프레시 갤러리 - 파머스 마켓 Ÿ 온라인 매장 - 토코피디아 Ÿ 자사 홈페이지 (인도네시아) - 프리미엄 품질 - 스페셜 과일 딸기 - 신선하고 건강하며\n올 시즌스 홀란드 Ÿ 오프라인 매장 - 푸드홀 - 올 프레시 - 롯데마트 Ÿ 온라인 매장 - 토코피디아 - 쇼피 Ÿ 자사 홈페이지 (글로벌) - 유해농약무첨가 - 천연 - 자연 수확",
+    "name": "[표 3.7] 인도네시아 딸기 경쟁기업 현황",
+    "meta_data": {
+      "chunk_id": "1130a79f-bbc1-4369-bd6a-332e7612e7b2",
+      "page_number": [
+        31
+      ],
+      "item_label": "merged",
+      "index": 540,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 3.7] 인도네시아 딸기 경쟁기업 현황",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b37f761e-de8a-4216-86c9-01c1fc0f3667",
+          "content": "<table><tbody><tr><th>경쟁사</th><th>진출 채널</th><th>홍보 채널</th><th>홍보문구</th><th>홍보문구 사진</th></tr><tr><td>라 프레사 팜</td><td>Ÿ 오프라인 매장 - 푸드홀 - 파파야 프레시 갤러리 - 파머스 마켓 Ÿ 온라인 매장</td><td>Ÿ 자사 홈페이지 (인도네시아) Ÿ SNS 플랫폼 (인도네시아) - 인스타그램</td><td>- 정원에서 바로 당신의 집으로</td><td></td></tr><tr><td>크리스 스트로베리</td><td>Ÿ 오프라인 매장 - 파파야 프레시 갤러리 - 파머스 마켓 Ÿ 온라인 매장 - 토코피디아</td><td>Ÿ 자사 홈페이지 (인도네시아)</td><td>- 프리미엄 품질 - 스페셜 과일 딸기 - 신선하고 건강하며</td><td></td></tr><tr><td>올 시즌스 홀란드</td><td>Ÿ 오프라인 매장 - 푸드홀 - 올 프레시 - 롯데마트 Ÿ 온라인 매장 - 토코피디아 - 쇼피</td><td>Ÿ 자사 홈페이지 (글로벌)</td><td>- 유해농약무첨가 - 천연 - 자연 수확</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ① 라 프레사 팜\n\n기업명 라 프레사 팜\n기업 기업 설명 라 프레사 팜은 딸기 체험 관광과 교육 서비스를 기업임. 딸기 따기 체험 가족 단위 교육 농장에서 직접 재배한 딸기와 딸기 밀크 동결건조 딸기 냉압착 딸기 제품 등을 판매하고 제공하는 인도네시아 관광 프로그램이 있으며 쉐이크 딸기 요거트 있음\n위치 Jl. Raya Lembang No.175D Jayagiri Lembang Kabupaten Bandung Barat Jawa Barat 40153\n규모 동일 품목 수 1개\n기업 진출 채널 &lt;오프라인 매장&gt; 푸드홀 제품명 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry)\n파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아 중량 -\n쇼피 소비자가격 64900루피아 (5510원 8) )\n제품 종류 딸기\n현지 진출 방법 포장 현지화 ● (상) 인도네시아 현지 포장 디자인 특성에 맞춘 포장 방식 및 문구 사용\n홍보 현지화 ● (상) 현지 홈페이지 및 SNS 홍보 계정 활용\n\n진출 채널 &lt;오프라인 매장&gt; 푸드홀 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아 쇼피 제품명 중량 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) -\n소비자가격 64900루피아 (5510원 8) )\n포장 현지화 홍보 현지화 ● (상) ● (상) 인도네시아 현지 홈페이지 특성에 맞춘 포장 방식 디자인 문구 사용 및 SNS 홍보 계정 활용\n\n기업명 라 프레사 팜\n기업 기본 정보 기업 설명 기업임. 딸기 따기 체험 가족 단위 교육 농장에서 직접 재배한 딸기와 딸기 밀크 동결건조 딸기 냉압착 딸기 제품 등을 판매하고 위치 Jl. Raya Lembang No.175D Jayagiri 프레사 팜은 딸기 체험 관광과 교육 서비스를 제공하는 인도네시아 관광 프로그램이 있으며 쉐이크 딸기 요거트 있음 Lembang Kabupaten\n기업 진출 채널 &lt;오프라인 매장&gt; 푸드홀 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아 제품명 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) 중량 - 소비자가격 64900루피아\n현지 진출 방법 포장 현지화 홍보 현지화 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 홈페이지 및 SNS 홍보 계정 활용\n홍보 방식",
+    "name": "① 라 프레사 팜",
+    "meta_data": {
+      "chunk_id": "fcdbc2ee-5cb4-473e-8ab8-712baadc3ca4",
+      "page_number": [
+        32
+      ],
+      "item_label": "merged",
+      "index": 551,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ① 라 프레사 팜",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "28e68fe2-efbd-4a2e-bd9a-636d1fe78b60",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"2\">라 프레사 팜</th></tr><tr><td>기업</td><td>기업 설명</td><td>라 프레사 팜은 딸기 체험 관광과 교육 서비스를 기업임. 딸기 따기 체험, 가족 단위 교육 농장에서 직접 재배한 딸기와 딸기 밀크 동결건조 딸기, 냉압착 딸기 제품 등을 판매하고</td><td>제공하는 인도네시아 관광 프로그램이 있으며 쉐이크, 딸기 요거트, 있음</td></tr><tr><td></td><td>위치</td><td>Jl. Raya Lembang No.175D, Jayagiri Lembang, Kabupaten Bandung Barat, Jawa Barat 40153</td><td></td></tr><tr><td></td><td>규모</td><td>동일 품목 수</td><td>1개</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀</td><td>제품명</td><td>라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry)</td></tr><tr><td></td><td>파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아</td><td>중량</td><td>-</td></tr><tr><td></td><td>쇼피</td><td>소비자가격</td><td>64,900루피아 (5,510원 8) )</td></tr><tr><td></td><td></td><td>제품 종류</td><td>딸기</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>● (상) 인도네시아 현지 포장 디자인</td><td>특성에 맞춘 포장 방식 및 문구 사용</td></tr><tr><td></td><td>홍보 현지화</td><td>● (상) 현지</td><td>홈페이지 및 SNS 홍보 계정 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "28c1d512-3c7e-4341-bce0-dde0535116e1",
+          "content": "<table><tbody><tr><td rowspan=\"3\">진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아 쇼피</td><td></td><td>제품명 중량</td><td>라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) -</td></tr><tr><td></td><td></td><td>소비자가격</td><td>64,900루피아 (5,510원 8) )</td></tr><tr><td>포장 현지화 홍보 현지화</td><td>● (상) ● (상)</td><td>인도네시아 현지 홈페이지</td><td>특성에 맞춘 포장 방식 디자인 문구 사용 및 SNS 홍보 계정 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "5cd2194c-35cb-473b-8be8-5ad932fb9dd5",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th>라 프레사 팜</th></tr><tr><td>기업 기본 정보</td><td>기업 설명 기업임. 딸기 따기 체험, 가족 단위 교육 농장에서 직접 재배한 딸기와 딸기 밀크 동결건조 딸기, 냉압착 딸기 제품 등을 판매하고 위치 Jl. Raya Lembang No.175D, Jayagiri</td><td>프레사 팜은 딸기 체험 관광과 교육 서비스를 제공하는 인도네시아 관광 프로그램이 있으며 쉐이크, 딸기 요거트, 있음 Lembang, Kabupaten</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 토코피디아</td><td>제품명 라 프레사 밀키 스위트 스트로베리 (La Fresa Milky Sweet Strawberry) 중량 - 소비자가격 64,900루피아</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화 홍보 현지화</td><td>인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용 홈페이지 및 SNS 홍보 계정 활용</td></tr><tr><td>홍보 방식</td><td></td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ② 크리스 스트로베리\n\n기업명 크리스 스트로베리\n기업 기본 정보 기업 설명 크리스 스트로베리는 온라인 직접 주문이 제공하여 소비자가 제공하고 있음 신선한 딸기를 가능함. 주문시 고품질의 딸기를 제공하는 기업으로 샘플 제품 및 제품 보증을 구매할 수 있는 서비스를\n위치 Jl. Mabes 2 No 88 Pondok 17431 Melati - Jati Murni Bekasi\n동일품목 수 2개\n규모 설립연도 2024년\n기업 진출 채널 &lt;오프라인 매장&gt; 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 제품명 중량 소비자가격 크리스 스트로베리 (Chris Strawberry) - 99000루피아 (8405원)\n토코피디아 제품 종류 딸기\n현지 진출 방법 포장 현지화 ● 인도네시아 현지 포장 특성에 맞춘 포장 방식 및\n(상) 디자인 문구 사용\n홍보 현지화 ● (상) 현지 전용 홈페이지 활용\n\n기업명 크리스 스트로베리\n기업 기본 정보 기업 설명 크리스 스트로베리는 신선한 딸기를 온라인 직접 주문이 가능함. 제공하여 소비자가 고품질의 제공하고 있음 Jl. Mabes 2 No 88 Pondok 제공하는 기업으로 주문시 샘플 제품 및 제품 보증을 딸기를 구매할 수 있는 서비스를 Melati - Jati Murni Bekasi\n기업 진출 채널 &lt;오프라인 매장&gt; 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt; 제품명 중량 소비자가격 크리스 스트로베리 (Chris Strawberry) - 99000루피아 (8405원)\n현지 진출 방법 포장 현지화 ● (상) 인도네시아 ● 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용\n홍보 방식 (인도네시아)",
+    "name": "② 크리스 스트로베리",
+    "meta_data": {
+      "chunk_id": "6575fa82-fbc8-4608-9aa5-44f4aa8b1fd4",
+      "page_number": [
+        33
+      ],
+      "item_label": "merged",
+      "index": 568,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ② 크리스 스트로베리",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "6c3c8031-27ed-4801-9e28-df160c306a9d",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"3\">크리스 스트로베리</th></tr><tr><td rowspan=\"4\">기업 기본 정보</td><td>기업 설명</td><td>크리스 스트로베리는 온라인 직접 주문이 제공하여 소비자가 제공하고 있음</td><td>신선한 딸기를 가능함. 주문시 고품질의 딸기를</td><td>제공하는 기업으로, 샘플 제품 및 제품 보증을 구매할 수 있는 서비스를</td></tr><tr><td>위치</td><td>Jl. Mabes 2 No</td><td>88 Pondok 17431</td><td>Melati - Jati Murni, Bekasi</td></tr><tr><td></td><td>동일품목 수</td><td colspan=\"2\">2개</td></tr><tr><td>규모</td><td>설립연도</td><td colspan=\"2\">2024년</td></tr><tr><td rowspan=\"2\">기업 진출 채널</td><td>&lt;오프라인 매장&gt; 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt;</td><td></td><td>제품명 중량 소비자가격</td><td>크리스 스트로베리 (Chris Strawberry) - 99,000루피아 (8,405원)</td></tr><tr><td>토코피디아</td><td></td><td>제품 종류</td><td>딸기</td></tr><tr><td rowspan=\"3\">현지 진출 방법</td><td>포장 현지화</td><td>●</td><td>인도네시아 현지 포장</td><td>특성에 맞춘 포장 방식 및</td></tr><tr><td></td><td>(상)</td><td colspan=\"2\">디자인 문구 사용</td></tr><tr><td>홍보 현지화</td><td>● (상)</td><td>현지 전용</td><td>홈페이지 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "df1351f1-4d83-4551-82a0-a72bff7f209a",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"2\">크리스 스트로베리</th></tr><tr><td>기업 기본 정보</td><td>기업 설명</td><td>크리스 스트로베리는 신선한 딸기를 온라인 직접 주문이 가능함. 제공하여 소비자가 고품질의 제공하고 있음 Jl. Mabes 2 No 88 Pondok</td><td>제공하는 기업으로, 주문시 샘플 제품 및 제품 보증을 딸기를 구매할 수 있는 서비스를 Melati - Jati Murni, Bekasi</td></tr><tr><td>기업 진출 채널</td><td>&lt;오프라인 매장&gt; 파파야 프레시 갤러리 파머스 마켓 &lt;온라인 매장&gt;</td><td>제품명 중량 소비자가격</td><td>크리스 스트로베리 (Chris Strawberry) - 99,000루피아 (8,405원)</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td>● (상) 인도네시아 ●</td><td>현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td></tr><tr><td>홍보 방식</td><td></td><td></td><td>(인도네시아)</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n8) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)",
+    "name": "8) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)",
+    "meta_data": {
+      "chunk_id": "fa918002-690f-4ec8-9336-b5b6d606d9b3",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "fa918002-690f-4ec8-9336-b5b6d606d9b3"
+      ],
+      "chunked_count": 1,
+      "index": 577,
+      "page_number": [
+        33
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 43,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "8) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ③ 올 시즌스 홀란드\n\n기업명 올 시즌스 홀란드\n기업 기본 정보 기업 설명 올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리 블루베리 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함\n위치 PT. Strawberindo Lestari Jalan Benda Gang Masjid 4C RT 011 RW 004 Kemang Jakarta 12560\n규모 동일 품목 수 3개\n기업 진출 채널 &lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트 제품명 중량 올 시즌스 스트로베리 (All Seasons Strawberries) 250g\n&lt;온라인 매장&gt; 소비자가격 69900루피아 (5935원)\n토코피디아 쇼피 제품 ● 종류 딸기\n현지 진출 방법 포장 현지화 (상) 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용\n홍보 현지화 ◐ (중) 글로벌 홈페이지 활용\n\n기업명 올 시즌스 홀란드\n기업 기본 정보 기업 설명 올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리 블루베리 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함\n위치 PT. Strawberindo Lestari Jalan Benda Gang Masjid 4C RT 011 RW 004 Kemang Jakarta 12560\n규모 동일 품목 수 3개\n기업 진출 채널 &lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트 제품명 중량 올 시즌스 스트로베리 (All Seasons Strawberries) 250g\n&lt;온라인 매장&gt; 소비자가격 69900루피아 (5935원)\n토코피디아 쇼피 제품 종류 딸기\n현지 진출 방법 포장 현지화 ● (상) 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용\n홍보 현지화 ◐ (중) 글로벌 홈페이지 활용\n\n기업명 올 시즌스 홀란드\n기업 기본 정보 기업 설명 위치 올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리 블루베리 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함 PT. Strawberindo Lestari Jalan Benda Gang Masjid 4C RT 011 RW 004 Kemang Jakarta 12560 동일 품목 수\n규모 3개\n기업 &lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트 &lt;온라인 매장&gt; 제품명 중량 소비자가격 올 시즌스 스트로베리 (All Seasons Strawberries) 250g 69900루피아 (5935원)\n현지 진출 방법 포장 현지화 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용\n\n진출 채널 &lt;오프라인 매장&gt; 푸드홀 올 프레시 제품명 올 시즌스 스트로베리 (All Seasons Strawberries) 250g (5935원)\n기업 롯데마트 중량 소비자가격 69900루피아\n토코피디아 쇼피 제품 종류 딸기",
+    "name": "③ 올 시즌스 홀란드",
+    "meta_data": {
+      "chunk_id": "113ec0f8-d237-4c94-b720-7e8bc24791dc",
+      "page_number": [
+        34
+      ],
+      "item_label": "merged",
+      "index": 584,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ③ 올 시즌스 홀란드",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "3a0722b3-9de8-4a9d-9197-031a5c42dbf3",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"3\">올 시즌스 홀란드</th></tr><tr><td rowspan=\"3\">기업 기본 정보</td><td>기업 설명</td><td colspan=\"3\">올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로, 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리, 블루베리, 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함</td></tr><tr><td>위치</td><td colspan=\"3\">PT. Strawberindo Lestari, Jalan Benda, Gang Masjid 4C, RT 011 RW 004, Kemang, Jakarta 12560</td></tr><tr><td>규모</td><td colspan=\"3\">동일 품목 수 3개</td></tr><tr><td rowspan=\"3\">기업 진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트</td><td></td><td>제품명 중량</td><td>올 시즌스 스트로베리 (All Seasons Strawberries) 250g</td></tr><tr><td>&lt;온라인 매장&gt;</td><td></td><td>소비자가격</td><td>69,900루피아 (5,935원)</td></tr><tr><td>토코피디아 쇼피</td><td>제품 ●</td><td>종류</td><td>딸기</td></tr><tr><td rowspan=\"2\">현지 진출 방법</td><td>포장 현지화</td><td colspan=\"3\">(상) 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td></tr><tr><td>홍보 현지화</td><td>◐ (중)</td><td colspan=\"2\">글로벌 홈페이지 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "120d9954-40bc-4e59-9d90-9b855d298736",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"3\">올 시즌스 홀란드</th></tr><tr><td rowspan=\"3\">기업 기본 정보</td><td>기업 설명</td><td colspan=\"3\">올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로, 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리, 블루베리, 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함</td></tr><tr><td>위치</td><td colspan=\"3\">PT. Strawberindo Lestari, Jalan Benda, Gang Masjid 4C, RT 011 RW 004, Kemang, Jakarta 12560</td></tr><tr><td>규모</td><td colspan=\"3\">동일 품목 수 3개</td></tr><tr><td rowspan=\"3\">기업 진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트</td><td></td><td>제품명 중량</td><td>올 시즌스 스트로베리 (All Seasons Strawberries) 250g</td></tr><tr><td>&lt;온라인 매장&gt;</td><td></td><td>소비자가격</td><td>69,900루피아 (5,935원)</td></tr><tr><td>토코피디아 쇼피</td><td>제품</td><td>종류</td><td>딸기</td></tr><tr><td rowspan=\"2\">현지 진출 방법</td><td>포장 현지화</td><td colspan=\"3\">● (상) 인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td></tr><tr><td>홍보 현지화</td><td>◐ (중)</td><td colspan=\"2\">글로벌 홈페이지 활용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "65626890-c603-4b5d-bca3-1dffaaa75882",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th colspan=\"2\">올 시즌스 홀란드</th></tr><tr><td>기업 기본 정보</td><td>기업 설명 위치</td><td colspan=\"2\">올 시즌스 홀란드는 인도네시아 자바섬의 과일 재배 농장인 PT. 스트로베린도 레스타리의 네덜란드 지주 회사로, 아시아 전역으로 딸기를 판매하고 있음. 딸기 외에도 블랙베리, 블루베리, 라즈베리 등 여러 과일을 재배하며 온라인 주문 서비스를 제공함 PT. Strawberindo Lestari, Jalan Benda, Gang Masjid 4C, RT 011 RW 004, Kemang, Jakarta 12560 동일 품목 수</td></tr><tr><td></td><td>규모</td><td colspan=\"2\">3개</td></tr><tr><td>기업</td><td>&lt;오프라인 매장&gt; 푸드홀 올 프레시 롯데마트 &lt;온라인 매장&gt;</td><td>제품명 중량 소비자가격</td><td>올 시즌스 스트로베리 (All Seasons Strawberries) 250g 69,900루피아 (5,935원)</td></tr><tr><td>현지 진출 방법</td><td>포장 현지화</td><td colspan=\"2\">인도네시아 현지 특성에 맞춘 포장 방식 및 포장 디자인 문구 사용</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "835ce582-0718-43bc-824a-fc8975d84b42",
+          "content": "<table><tbody><tr><td>진출 채널</td><td>&lt;오프라인 매장&gt; 푸드홀 올 프레시</td><td>제품명</td><td>올 시즌스 스트로베리 (All Seasons Strawberries) 250g (5,935원)</td></tr><tr><td>기업</td><td>롯데마트</td><td>중량 소비자가격</td><td>69,900루피아</td></tr><tr><td></td><td>토코피디아 쇼피</td><td>제품 종류</td><td>딸기</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 5
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n1. 세가르 쿠말라 인도네시아(Segar Kumala Indonesia)\n\n2. 수프라 보가 레스타리(Supra Boga Lestari)",
+    "name": "1. 세가르 쿠말라 인도네시아(Segar Kumala Indonesia)",
+    "meta_data": {
+      "chunk_id": "2fe715ed-b314-4ab6-a38c-1fcc1f20f7a3",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "2fe715ed-b314-4ab6-a38c-1fcc1f20f7a3",
+        "a523335a-b430-4b80-8c78-1e5c9238ec96"
+      ],
+      "chunked_count": 2,
+      "index": 596,
+      "page_number": [
+        35
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 50,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "1. 세가르 쿠말라 인도네시아(Segar Kumala Indonesia)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 세가르 쿠말라 인도네시아 (Segar Kumala Indonesia)\n\n-2017년에 설립된 유통 수입업체로 과일, 채소, 냉동육을 취급\n\n-미국, 한국, 일본, 중국에서 수입한 신선 과일과 채소를 인도네시아 시장에 공급",
+    "name": "세가르 쿠말라 인도네시아 (Segar Kumala Indonesia)",
+    "meta_data": {
+      "chunk_id": "7f09c8b0-af27-429b-b021-5818587cba58",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7f09c8b0-af27-429b-b021-5818587cba58",
+        "6d9bc584-088d-4d68-aa45-9515cff74ce6",
+        "df482ca7-e54b-41eb-9351-087975e9c9fe"
+      ],
+      "chunked_count": 3,
+      "index": 606,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 111,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 세가르 쿠말라 인도네시아 (Segar Kumala Indonesia)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 담당자 정보\n\n소비자가격 미정\n중량 250g*8Pack 330g*4Pack\n인증 GAP\n마케팅 슬로건 딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은\n\n9) 사진자료: 세가르 쿠말라 인도네시아(Segar Kumala Indonesia) 공식 홈페이지\n\n10) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)",
+    "name": "담당자 정보",
+    "meta_data": {
+      "chunk_id": "24b89453-1ba0-484a-844e-6f0ce90e4768",
+      "page_number": [
+        36
+      ],
+      "item_label": "merged",
+      "index": 611,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 담당자 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "b073c583-9cfb-44e9-aa56-1efd9fc96e5b",
+          "content": "<table><tbody><tr><th>소비자가격</th><th>미정</th></tr><tr><td>중량</td><td>250g*8Pack 330g*4Pack</td></tr><tr><td>인증</td><td>GAP</td></tr><tr><td>마케팅 슬로건</td><td>딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "b73b738c-e0fa-4a86-9043-a8daeaec5871",
+          "content": "9) 사진자료: 세가르 쿠말라 인도네시아(Segar Kumala Indonesia) 공식 홈페이지"
+        },
+        {
+          "item_label": "text",
+          "chunk_id": "774a903e-af9a-4c56-8b31-b3c5358811df",
+          "content": "10) 100루피아=8.49원(2024.08.01., KEB 하나은행 매매기준율 적용)"
+        }
+      ],
+      "merged_count": 4
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품\n\n한국에서 수입된 B사 딸기의 경우, 330그램당 가격이 약 20만 루피아(1만 6,980원) 10)에서 25만 루피아(2만 1,225원) 정도로 형성되어 있습니다. 반면, 인도네시아 현지 딸기는 500그램당 대략 5만 루피아 (4,245원)에서 8만 루피아(6,792원)로 상대적으로 저렴한 편입니다. B사 한국 딸기는 강한 단맛과 단단한 식감, 그리고 향기로운 풍미로 인해 매우 인기가 많으며, 종종 고급 품목으로 여겨집니다. 반면에, 인도네시아 현지 딸기는 대체로 신맛이 강하고 식감이 약간 부드러운 특징을 가지고 있습니다.\n\n# 세가르 쿠말라 인도네시아(Segar Kumala Indonesia) Purchasing Coordinator\n\n# Q1. 고객사 제품은 현지 인기 경쟁 제품과 비교했을 때 용량과 제품 면에서 어떤 장점을 가지고 있나요?\n\n고객사 딸기는 주로 250g x 8팩과 330g x 4팩 두 가지 크기로 포장되어 제공됩니다. 250g 크기는 일반적으로 소매용으로 판매되며, 330g 크기는 식품 서비스 업계나 대가족이 선호하는 경우가 많습니다. 일반적인 딸기 포장과 비교해 보면, 250g은 흔히 소매 시장에서 사용되는 표준 크기인 반면, 330g은 평균보다 약간 더 큰 크기여서 소비자들이 더 선호할 수 있습니다. 또한, 고객사 딸기는 개별 딸기의 크기가 21g 이하 또는 이상으로 명시되어 있는데, 이러한 등급 분류는 소비자들에게 신뢰성을 제공할 수 있습니다. 이는 일관된 품질과 외관을 보장하기 위한 신중한 등급 분류를 나타냅니다.\n\n# Q2. 현지 인기 딸기 제품과 한국산, 일본산 딸기의 가격대는 어 떻게 형성되어 있나요?",
+    "name": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품",
+    "meta_data": {
+      "chunk_id": "c8c331e8-79ac-45e2-9d2d-f1c69809561e",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "c8c331e8-79ac-45e2-9d2d-f1c69809561e",
+        "86e6d3cf-128b-4eeb-b731-0248de91c431",
+        "75afdb3f-566a-41d9-9f85-63a54b19e617",
+        "9a512f02-7bad-4d5e-9c1e-3e81cf397742",
+        "743bc783-8acb-40bb-aa46-5264229a2f81",
+        "6521f44c-b622-4b30-ac4d-d6255ff23303"
+      ],
+      "chunked_count": 6,
+      "index": 623,
+      "page_number": [
+        36
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 784,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?\n\n인도네시아 현지 시장에서 한국산과 일본산 딸기의 가격은 계절적 요인과 월별 수요에 따라 크게 변동할 수 있습니다. 특히 크리스마스와 새해 같은 성수기에는 프리미엄 딸기 품종에 대한 수요가 증가하는 경향이 있어, 가격이 더욱 오를 수 있습니다.\n\n# Q4. 현지 한국 및 일본산 딸기 시장의 소비 트렌드와 소비자들의 구매 고려요인은 무엇인가요?\n\n인도네시아에서 K-팝, 한국 드라마 등 한국과 일본 문화의 인기가 높아짐에 따라 두 나라의 식품에 대한 관심도 증가하고 있습니다. 특히 딸기와 같은 신선식품이 주목받고 있습니다. 최근 인도네시아에서는 딸기를 이용한 한국의 유행 간식인 '탕후루'가 인도네시아인들과 외식업계에서 큰 인기를 끌고 있습니다.\n\n# Q5. 수입산 딸기 제품을 인도네시아에서 판매 시 현지 납품 절차 및 유통 과정은 어떻게 되나요? (수출입 과정, 통관 절차, 주의사항 등)\n\n인도네시아로 딸기를 수출하기 위해서는 먼저 현지 규정과 식품 안전 기준을 정확히 이해하는 것이 중요합니다. 수출 허가서, 식물 검역 증명서, 원산지 증명서, 상업 송장, 포장 목록, 선하증권 등 필수 서류를 철저히 준비해야 합니다. 딸기가 인도네시아에 도착한 후에는 서류 제출과 관세 납부, 검사를 거쳐 세관을 통과해야 합니다. 신선도를 유지하기 위해 온도 조절이 가능한 운송 수단과 창고를 준비하는 것도 필수적입니다. 이후에는 현지 파트너나 소매업체를 통해 유통하고, 제품의 품질을 지속적으로 모니터링하는 과정이 필요합니다.",
+    "name": "Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?",
+    "meta_data": {
+      "chunk_id": "e17d402f-f328-438a-9ab6-b3c1ead4ea88",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "e17d402f-f328-438a-9ab6-b3c1ead4ea88",
+        "553f3246-60ec-47e3-8c77-7c0e77038a36",
+        "27e6f418-c864-4d3d-b347-62e137ae74ec",
+        "c71af58f-8869-442a-943e-599167ef462f",
+        "d01f17fd-9d41-4125-b021-ca368ddbc749",
+        "ca73b751-ef5a-4e5a-8a47-1b28ff51cc34"
+      ],
+      "chunked_count": 6,
+      "index": 641,
+      "page_number": [
+        37
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 773,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?\n\n수입된 한국과 일본산 딸기를 구매할 때, 유통업체들은 품질과 신선도에 가장 큰 중점을 둡니다. 딸기의 외관, 크기, 색상, 단단함 등을 꼼꼼히 살펴보고, 공급망 전반에 걸쳐 신선도가 유지되고 있는지 철저히 확인합니다. 또한, 가격과 비용 측면에서도 신중히 평가하여, 현지 품종과 비교했을 때 경쟁력 있는 가격인지, 그리고 배송비, 수입 관세, 세금 등 모든 비용을 종합적으로 고려합니다.\n\n# Q7. 고객사 딸기 제품을 현지에 수출할 시 협력가능성이 있는 파트너를 찾을 수 있는 방법은 무엇이 있나요?\n\n인도네시아에서 식품, 농업, 또는 수입 제품을 중심으로 한 무역 박람회에 참여하는 것이 매우 유익할 수 있습니다. 이러한 행사에는 수입 딸기 제품에 관심이 있는 유통업체, 대리점, 소매업체 담당자와도 직접 만날 수 있는 기회를 제공합니다. 예를 들어, SIAL 인터푸드(SIAL InterFOOD)와 푸드&호텔 인도네시아(Food&Hotel Indonesia)와 같은 박람회는 다양한 국가의 업계 관계자들이 자주 참석하는 대표적인 행사입니다.",
+    "name": "Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "5d17067d-9786-4e0c-acba-7c50771b6900",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "5d17067d-9786-4e0c-acba-7c50771b6900",
+        "9abc149c-5ff0-43e0-a602-658549d40123",
+        "07a3edf3-41f2-4364-841d-4fed3b66e8de",
+        "b30e62dc-1d78-41a0-abee-3352e71305eb"
+      ],
+      "chunked_count": 4,
+      "index": 653,
+      "page_number": [
+        38
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 552,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 수프라보가레스타리 (Supra Boga Lestari)\n\n-프리미엄 슈퍼마켓 컨셉을 확장시키며 상류층 시장으로 입지를 확장",
+    "name": "수프라보가레스타리 (Supra Boga Lestari)",
+    "meta_data": {
+      "chunk_id": "646d3d32-86cf-4430-b191-6477f1e2c026",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "646d3d32-86cf-4430-b191-6477f1e2c026",
+        "8b63049d-6c16-4549-9e85-9a966bb6781e"
+      ],
+      "chunked_count": 2,
+      "index": 665,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 66,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 수프라보가레스타리 (Supra Boga Lestari)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 담당자 정보\n\n소비자가격 미정\n중량 250g*8Pack 330g*4Pack\n인증 GAP\n마케팅 슬로건 딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은",
+    "name": "담당자 정보",
+    "meta_data": {
+      "chunk_id": "2a2018fa-3a46-412a-96a7-ed9027dc7771",
+      "page_number": [
+        39
+      ],
+      "item_label": "merged",
+      "index": 671,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 담당자 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "ade92802-243b-4003-a5f9-277457fe84f4",
+          "content": "<table><tbody><tr><th>소비자가격</th><th>미정</th></tr><tr><td>중량</td><td>250g*8Pack 330g*4Pack</td></tr><tr><td>인증</td><td>GAP</td></tr><tr><td>마케팅 슬로건</td><td>딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품\n\n# 수프라 보가 레스타리(Supra Boga Lestari) Merchandise Manager\n\n# Q1. 고객사 제품은 현지 인기 경쟁 제품과 비교했을 때 용량과 제품 면에서 어떤 장점을 가지고 있나요?\n\n고객사 제품은 용량과 포장 측면에서 경쟁 제품인 A사와 비교할 때, 몇 가지 주목할 점이 있습니다. 먼저, 현재 제공되는 250g x 8팩 또는 330g x 4팩의 포장 크기는 소비자들로부터 긍정적인 반응을 얻고 있습니다. 그러나 일부 고객들은 더 다양한 포장 옵션이나 대용량 포장이 필요하다고 느끼고 있습니다. 이 점은 경쟁 브랜드에서 제공하는 대용량 옵션과 비교할 때 고려해야 할 사항입니다. 포장의 경우, 현재 사용되는 종이 상자와 플라스틱 포장은 인도네시아 시장에서는 매우 일반적이지만, 일부 고객들은 친환경적이거나 더 고급스러운 포장을 선호합니다. 이러한 포장 개선이 제품의 경쟁력을 높이는 데 기여할 수 있습니다.\n\n# Q2. 현지 인기 딸기 제품과 한국산, 일본산 딸기의 가격대는 어떻게 형성되어 있나요?\n\n인도네시아에서 판매하는 현지 딸기의 가격은 그램당 40,000루피아에서 70,000루피아(3,396원~5,943원)로 가장 저렴한 편입니다. 반면, 프리미엄 수입 딸기인 B사 딸기는 대략 330그램당 200,000루피아(1만 6,980원)에 판매되고 있으며, C사 딸기는 410그램당 750,000루피아(6만 3,675원)로 판매되고 있습니다.\n\n11) 사진자료: 수프라 보가 레스타리(Supra Boga Lestari) 공식 홈페이지",
+    "name": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품",
+    "meta_data": {
+      "chunk_id": "74923095-4caa-4d5b-bdc1-5464d868a7cf",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "74923095-4caa-4d5b-bdc1-5464d868a7cf",
+        "53f413f9-16d5-42d8-96ae-968d281a1936",
+        "de20fe40-6dff-466d-8f56-cefd32b3aa4e",
+        "7da7a815-8f59-4424-829c-ea7e0cdc2f81",
+        "98771b04-8e74-4a55-9f65-6c3eedcc9004",
+        "827c6d0c-06d5-483d-9e4f-cd7f237040d7",
+        "781b570b-bea8-46a1-beac-ba9de7b1ae88"
+      ],
+      "chunked_count": 7,
+      "index": 682,
+      "page_number": [
+        39
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 715,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?\n\n인도네시아 시장에서 한국과 일본 딸기의 가격은 겨울철, 특히 12월에서 2월 사이의 명절 시즌에 수요 증가와 공급 제한으로 인해 일반적으로 상승합니다. 이 시기에 프리미엄 품종인 한국 딸기의 가격이 크게 오르는 경향이 있습니다.\n\n# Q4. 현지 한국 및 일본산 딸기 시장의 소비 트렌드와 소비자들의 구매 고려요인은 무엇인가?\n\n인도네시아 소비자들은 점점 더 현지 딸기와 한국 및 일본에서 수입된 딸기의 품질 차이에 대해 인식하고 있습니다. 수입 딸기는 일반적으로 더 달콤한 맛과 큰 크기, 그리고 더 매력적인 외관으로 잘 알려져 있습니다. 이러한 품질 차이에 대한 인식은 소비자들이 비록 가격이 더 비싸더라도 품질을 우선시하며 수입 딸기를 선택하도록 장려하고 있습니다\n\n# Q5. 수입산 딸기 제품을 인도네시아에서 판매 시 현지 납품 절차 및 유통 과정은 어떻게 되나요?(수출입 과정, 통관 절차, 주의사항 등)\n\n인도네시아로 딸기를 수출하기 위해서는 수출 허가증, 식물 검역 증명서, 원산지 증명서, 상업 송장, 포장 명세서, 선하증권 등의 문서가 필요하며, 인도네시아 세관에 서류 제출과 관세 납부를 포함한 통관 절차, 딸기의 안전성을 확인하는 검역 절차, 그리고 수입 허가 취득이 필수입니다. 유통 과정에서는 딸기의 신선도를 유지하기 위해 온도 조절이 가능한 운송 수단과 창고를 확보하고, 현지 유통업체와 협력하거나 소매업체에 직접 판매해야 하며, 품질 관리를 위한 정기적인 점검과 개선 조치도 중요합니다.",
+    "name": "Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?",
+    "meta_data": {
+      "chunk_id": "2cbc79f8-4802-4d0f-bdf2-945166acf81b",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "2cbc79f8-4802-4d0f-bdf2-945166acf81b",
+        "3e67fa6a-7756-457a-9a3a-9ab1aac057f5",
+        "420b9772-53e8-458a-884c-d02ccbea6be6",
+        "437c9447-d786-41de-b34f-685d62da2d0b",
+        "b6730b34-d41c-4fa8-9ffb-30e6d79b5b21",
+        "18205bd4-77ac-45b9-b161-e467a9a24265"
+      ],
+      "chunked_count": 6,
+      "index": 699,
+      "page_number": [
+        40
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 773,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?\n\n유통업체들은 한국과 일본 딸기를 구매할 때 시장 수요와 트렌드를 면밀히 분석합니다. 이 딸기들이 소비자들에게 얼마나 인기가 있는지, 그리고 연중 내내 수요를 충족할 수 있는지를 확인합니다. 또한, 품질과 현재 시장 트렌드를 고려하여 현지 딸기와 비교했을 때 가격이 합리적인지도 신중히 검토합니다.\n\n# Q7. 고객사 딸기 제품을 현지에 수출할 시 협력가능성이 있는 파트너를 찾을 수 있는 방법은 무엇이 있나요?\n\n관련 산업 협회에 가입하는 것은 네트워크를 확장하고 신뢰할 수 있는 현지 파트너를 찾는 데 큰 도움이 됩니다. 예를 들어, 인도네시아 과일 수출입 협회(Indonesian Fruit Exporters and Importers Association)에 가입하면 회원 데이터베이스에 접근할 수 있으며, 비즈니스 미팅을 주최하거나 잠재 파트너를 추천 받을 수 있는 기회를 얻을 수 있습니다.",
+    "name": "Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "21ab382e-dc1c-4abd-b3ee-92aa50f238d0",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "21ab382e-dc1c-4abd-b3ee-92aa50f238d0",
+        "dd55dbe7-7a75-43eb-a6d0-ca877328378b",
+        "48e7c411-cbc5-40e2-9a95-a1e579eb4866",
+        "88732e4c-e428-4f98-aa1c-496c4eb4ff34"
+      ],
+      "chunked_count": 4,
+      "index": 711,
+      "page_number": [
+        41
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 433,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n-주요 수입국가는 호주, 뉴질랜드, 태국, 일본, 중국",
+    "name": "-주요 수입국가는 호주, 뉴질랜드, 태국, 일본, 중국",
+    "meta_data": {
+      "chunk_id": "398ef593-4130-4e16-9c27-acf0dfb5d08d",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "398ef593-4130-4e16-9c27-acf0dfb5d08d"
+      ],
+      "chunked_count": 1,
+      "index": 727,
+      "page_number": [
+        42
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 33,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "-주요 수입국가는 호주, 뉴질랜드, 태국, 일본, 중국"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 담당자 정보\n\n소비자가격 미정\n중량 250g*8Pack 330g*4Pack\n인증 GAP\n마케팅 슬로건 딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품",
+    "name": "담당자 정보",
+    "meta_data": {
+      "chunk_id": "5f1b033b-4818-4589-acf1-c3a95b3ab443",
+      "page_number": [
+        42
+      ],
+      "item_label": "merged",
+      "index": 729,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 담당자 정보",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "cf2f7184-21fa-4390-a557-395683c8b5c4",
+          "content": "<table><tbody><tr><th>소비자가격</th><th>미정</th></tr><tr><td>중량</td><td>250g*8Pack 330g*4Pack</td></tr><tr><td>인증</td><td>GAP</td></tr><tr><td>마케팅 슬로건</td><td>딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품\n\n# 오베기 수라바야(Ovegi Surabaya) Founder\n\n# Q1. 고객사 제품은 현지 인기 경쟁 제품과 비교했을 때 용량과 제품 면에서 어떤 장점을 가지고 있나요?\n\n인도네시아에서는 딸기 포장이 일반적으로 200g에서 500g 사이로 제공됩니다. 일부 현지 품종은 계절과 시장 수요에 따라 더 작거나 큰 양으로도 제공될 수 있습니다. 비교해 보면, 250g 및 330g 포장은 인도네시아 시장의 일반적인 포장 크기에 잘 맞습니다. 하지만 이러한 일반적인 포장 단위 제품을 4팩 또는 8팩 제공하는 고객사의 포장 옵션은 가족 단위의 섭취 또는 파티 준비 등 대량 구매를 선호하는 소비자들에게 더욱 매력적일 수 있습니다.\n\n# Q2. 현지 인기 딸기 제품과 한국산, 일본산 딸기의 가격대는 어떻게 형성되어 있나요?\n\n일본산 크리스트 스트로베리 사가(Christ Strawberry Saga)는 한 팩(딸기 15개)당 보통 350,000루피아(2만 9,715원)에서 400,000루피아(3만 3,960원)로 판매됩니다. 일본산 루비 딸기(Ruby Strawberry Japan)의 경우, 한 팩(250그램)은 190,000루피아(1만 6,131원)입니다. 한국산 딸기는 250그램당 250,000루피아(2만 1,225원)에서 750,000루피아(6만 3,675원) 사이로, 딸기의 종류와 브랜드에 따라 가격이 상이합니다. 반면 인도네시아산 딸기는 시장에서 가장 저렴하며, 한국산 및 일본산 프리미엄 딸기와 비교했을 때 단위당 가격이 현저히 낮습니다. 인도네시아산 딸기는 일반적으로 250그램당 30,000(2,547원)에서 60,000루피아(5,094원) 사이에서 판매됩니다.\n\n# Q3. 현지의 한국 및 일본산 딸기의 가격대는 계절별 혹은 월별로 어떻게 형성되어 있나요?\n\n인도네시아에서는 특히 수요가 급증하는 명절 기간 동안, 부족한 공급으로 인해, 한국과 일본 딸기의 가격이 상승하는 경향이 있습니다. 이러한 시기를 제외하면 가격은 안정적입니다. 또한, 수출국의 계절적 변화, 과일의 품질, 국제 시장의 수요 등도 현지 시장의 가격 변동에 영향을 미칩니다.",
+    "name": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품",
+    "meta_data": {
+      "chunk_id": "102caea3-51df-4925-9183-a1deba5fa320",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "102caea3-51df-4925-9183-a1deba5fa320",
+        "de5b400f-3e0d-4d73-bb8d-f0c95e3a0a83",
+        "3137cf9d-bc0d-42ff-a0a7-74cc2e3c32fd",
+        "bba2a515-b315-4fad-a791-1b2bb2c178f4",
+        "c773cf5e-cc29-4c44-90f0-80451baee48e",
+        "7c5c6f3f-94f5-4451-9a52-eccbe14b5cfa",
+        "54952b63-18a9-4ddc-a15d-5960a1aec11e",
+        "078ca8b4-018d-446e-bbba-54a892b85207"
+      ],
+      "chunked_count": 8,
+      "index": 741,
+      "page_number": [
+        42
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 962,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "딸기 수출 통합조직 K-베리에 등록된 생산자가 제공하는 안전하고 품질 좋은 제품"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q4. 현지 한국 및 일본산 딸기 시장의 소비 트렌드와 소비들의 구매 고려요인은 무엇인가요?\n\n한국과 일본의 딸기는 프리미엄 제품으로 잘 알려져 있으며, 특히 중상류층 소비자들 사이에서 높은 인기를 끌고 있습니다. 한국산과 일본산 딸기는 맛, 식감, 크기 등에서 뛰어난 품질을 자랑하며, 고품질 과일을 찾는 소비자들에게 높은 만족도를 제공합니다. 일본의 아마오우(Amaou)와 한국의 A사와 같은 브랜드는 개인 소비나 고급 선물로 적합하여 프리미엄 시장에서는 독점적인 제품으로 간주됩니다.",
+    "name": "Q4. 현지 한국 및 일본산 딸기 시장의 소비 트렌드와 소비들의 구매 고려요인은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "adc045f1-5387-425e-9313-0e942c15f9a0",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "adc045f1-5387-425e-9313-0e942c15f9a0",
+        "b3451d2d-bbef-4970-b6fd-7efc47416c24"
+      ],
+      "chunked_count": 2,
+      "index": 758,
+      "page_number": [
+        43
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 279,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q4. 현지 한국 및 일본산 딸기 시장의 소비 트렌드와 소비들의 구매 고려요인은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q5. 수입산 딸기 제품을 인도네시아에서 판매 시 현지 납품 절차 및 유통 과정은 어떻게 되나요? (수출입 과정, 통관 절차, 주의사항 등)\n\n12) 사진자료: 오베기 수라바야(Ovegi Surabaya) 공식 홈페이지",
+    "name": "Q5. 수입산 딸기 제품을 인도네시아에서 판매 시 현지 납품 절차 및 유통 과정은 어떻게 되나요? (수출입 과정, 통관 절차, 주의사항 등)",
+    "meta_data": {
+      "chunk_id": "0ccba588-926e-4b48-a010-ed81603113d0",
+      "page_number": [
+        43
+      ],
+      "item_label": "merged",
+      "index": 760,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q5. 수입산 딸기 제품을 인도네시아에서 판매 시 현지 납품 절차 및 유통 과정은 어떻게 되나요? (수출입 과정, 통관 절차, 주의사항 등)",
+      "merged_children": [
+        {
+          "item_label": "text",
+          "chunk_id": "46264519-d0d1-486a-84d0-f91cb3b81fb6",
+          "content": "12) 사진자료: 오베기 수라바야(Ovegi Surabaya) 공식 홈페이지"
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n인도네시아로 딸기를 수출하려면 먼저 현지 규정과 기준을 이해하는 것이 중요합니다. 여기에는 농업검역국(Bureau of Agricultural Quarantine, BAQ)의 농산물 수입 요건, 식품안전청(National Agency of Drug and Food Control, BPOM)의 식품 안전 요건, 필요 시 할랄 인증 확인이 포함됩니다. 또한, 수출 면허, 식물 검역 증명서, 원산지 증명서, 상업 송장, 포장 명세서, 선하증권 등 필요한 모든 수출 서류를 철저히 준비해야 합니다.\n\n딸기가 인도네시아에 도착하면, 이러한 서류를 제출하고 수입 관세와 세금을 납부하여 세관을 통과해야 합니다. BAQ와 BPOM에서 건강 및 안전 기준을 충족하는지 확인하기 위해 선적물을 검사할 수 있으며, 식품 제품에 필요한 수입 허가를 반드시 확보해야 합니다.\n\n유통을 위해서는 딸기의 신선도를 유지하기 위해 온도 조절이 가능한 운송 수단을 마련해야 합니다. 또한, 판매 준비가 될 때까지 온도 조절이 가능한 창고를 이용하고, 현지 유통업체와 협력하거나 소매업체 및 온라인 플랫폼을 통해 직접 판매할 수 있습니다. 품질이 현지 기준을 충족하는지 정기적으로 확인하는 것도 필수적입니다.",
+    "name": "인도네시아로 딸기를 수출하려면 먼저 현지 규정과 기준을 이해하는 것이 중요합니다. 여기에는 농업검역국(Bureau of Agricultural Quarantine, BAQ)의 농산물 수입 요건, 식품안전청(National Agency of Drug and Food Control, BPOM)의 식품 안전 요건, 필요 시 할랄 인증 확인이 포함됩니다. 또한, 수출 면허, 식물 검역 증명서, 원산지 증명서, 상업 송장, 포장 명세서, 선하증권 등 필요한 모든 수출 서류를 철저히 준비해야 합니다.",
+    "meta_data": {
+      "chunk_id": "7b5d527d-40a7-4ccc-aad8-a1c982ea4128",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "7b5d527d-40a7-4ccc-aad8-a1c982ea4128",
+        "592297f6-ad8a-4567-a316-9a6212219f7d",
+        "f164297c-8ff9-426a-8e69-8929af35a7a6"
+      ],
+      "chunked_count": 3,
+      "index": 761,
+      "page_number": [
+        43
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 520,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "인도네시아로 딸기를 수출하려면 먼저 현지 규정과 기준을 이해하는 것이 중요합니다. 여기에는 농업검역국(Bureau of Agricultural Quarantine, BAQ)의 농산물 수입 요건, 식품안전청(National Agency of Drug and Food Control, BPOM)의 식품 안전 요건, 필요 시 할랄 인증 확인이 포함됩니다. 또한, 수출 면허, 식물 검역 증명서, 원산지 증명서, 상업 송장, 포장 명세서, 선하증권 등 필요한 모든 수출 서류를 철저히 준비해야 합니다."
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?\n\n유통업체들은 한국과 일본 딸기를 구매할 때 시장 수요와 트렌드를 면밀히 분석합니다. 이 과정에서 소비자들에게 얼마나 인기가 있는지, 그리고 연중 내내 수요를 충족할 수 있는지를 확인합니다. 또한, 품질과 현재 시장 트렌드를 고려하여 현지 딸기와 비교했을 때 가격이 합리적인지도 신중하게 검토합니다.\n\n# Q7. 고객사 딸기 제품을 현지에 수출할 시 협력가능성이 있는 파트너를 찾을 수 있는 방법은 무엇이 있나요?\n\n유통 회사, 슈퍼마켓, 그리고 전문 과일 상점들은 잠재적인 파트너가 될 수 있습니다. 다음으로, 쇼피(Shopee)나 토코피디아(Tokopedia)와 같은 디지털 플랫폼과 B2B 마켓플레이스를 활용하여 인도네시아에서 유통 파트너를 찾는 것이 중요합니다.",
+    "name": "Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?",
+    "meta_data": {
+      "chunk_id": "bce4ac84-216a-4b12-8dcb-256ac36fb7fa",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "bce4ac84-216a-4b12-8dcb-256ac36fb7fa",
+        "5bf5a373-7de3-4289-85bb-683cf912a6b5",
+        "e0fa0f75-0920-4390-b586-85ae9cb27f95",
+        "9aa141b6-3c90-4b77-9f99-044fc184804c"
+      ],
+      "chunked_count": 4,
+      "index": 771,
+      "page_number": [
+        44
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 408,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# Q6. 한국 및 일본산 등 수입산 딸기 구매 시 유통업체 입장에서의 주요 구매 고려요인은 무엇인가요?"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n④ 라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)\n\n# ▶ 경쟁제품 10개의 평균 소비자가격, 80,380루피아\n\n개별 제품의 소비자가격을 살펴보면, 가장 저렴한 제품은 셀라 팜 스위트 스트로베리가 37,500루피아(3,183원 13) )이며, 가장 비싼 제품은 스트로베리 호코웨즈가 184,900루피아(15,698원)로 확인됨. 고객사 제품은 수출 시기에 따라 가격이 상이하여 정확한 비교가 어렵지만, 제품 경쟁력을 갖추기 위해서는 현지 시장의 가격대를 고려하여 적절한 가격을 책정할 필요가 있음\n\n# [표 5.1] 인도네시아 딸기 가격 경쟁력 분석14)",
+    "name": "④ 라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)",
+    "meta_data": {
+      "chunk_id": "06c93032-cdff-4428-a59a-032e7310f759",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "06c93032-cdff-4428-a59a-032e7310f759",
+        "696f86ef-5397-4530-bd4e-44a8e77c5b44",
+        "db8d4c71-70ca-45fd-a232-300e6f0194b2",
+        "ba9af1e9-7cd4-4bca-83be-0fcf970fe5ec"
+      ],
+      "chunked_count": 4,
+      "index": 791,
+      "page_number": [
+        46
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 320,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "④ 라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# 2) 중량\n\n경쟁제품(제조사)\n① 효시이 스트로베리 (효시이 팜)\n② 진영 팜 스트로베리 (진영 팜)\n③ 셀라 팜 스위트 스트로베리 (셀라 팜)\n④ 라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)\n⑤ 올 시즌스 스트로베리 (올 시즌스 홀란드)\n⑥ 크리스 스트로베리 (크리스 스트로베리) 셀레브레이션\n⑦ (올 시즌스 홀란드) 스위트하츠 (올 시즌스 홀란드)\n⑨ 러브 베리스 그로잉 포 유 스트로베리\n(-)\n스트로베리 호코웨즈\n⑩",
+    "name": "2) 중량",
+    "meta_data": {
+      "chunk_id": "39a78f40-e70d-45c4-b0c7-7eead368aaf7",
+      "page_number": [
+        47
+      ],
+      "item_label": "merged",
+      "index": 810,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# 2) 중량",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "d98b47fd-6163-40e4-a65c-ebb4c35ea332",
+          "content": "<table><tbody><tr><td></td><th>경쟁제품(제조사)</th></tr><tr><td>①</td><td>효시이 스트로베리 (효시이 팜)</td></tr><tr><td>②</td><td>진영 팜 스트로베리 (진영 팜)</td></tr><tr><td>③</td><td>셀라 팜 스위트 스트로베리 (셀라 팜)</td></tr><tr><td>④</td><td>라 프레사 밀키 스위트 스트로베리 (라 프레사 팜)</td></tr><tr><td>⑤</td><td>올 시즌스 스트로베리 (올 시즌스 홀란드)</td></tr><tr><td>⑥</td><td>크리스 스트로베리 (크리스 스트로베리) 셀레브레이션</td></tr><tr><td>⑦</td><td>(올 시즌스 홀란드) 스위트하츠 (올 시즌스 홀란드)</td></tr><tr><td>⑨</td><td>러브 베리스 그로잉 포 유 스트로베리</td></tr><tr><td></td><td>(-)</td></tr><tr><td></td><td>스트로베리 호코웨즈</td></tr><tr><td>⑩</td><td></td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 인도네시아 딸기 제품의 일반적인 유통 중량, 250g\n\n고객사 제품의 중량은 250g 또는 330g으로 제공됨. 현지 조사된 경쟁제품 10개의 중량을 살펴본 결과, 5개 제품은 중량이 표기되지 않은 것으로 확인됨. 중량이 표기된 나머지 5개 제품 중 4개 제품은 250g으로 조사되었으며 1개의 제품만 275g으로 나타남. 이를 통해 250g 제품은 현지 시장에서 일반적으로 유통되는 중량이라는 점과 330g 제품은 현지 시장에서 비교적 큰 중량에 해당한다는 점을 알 수 있음. 고객사는 기존 제품 외에도 다양한 중량의 제품을 구성하여 소비자의 선택 폭을 넓히는 방안을 고려해볼 수 있음",
+    "name": "▶ 인도네시아 딸기 제품의 일반적인 유통 중량, 250g",
+    "meta_data": {
+      "chunk_id": "29e2282a-c79f-4a70-b24e-750a397b7984",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "29e2282a-c79f-4a70-b24e-750a397b7984",
+        "3e1554c2-9046-41ff-9735-17b98c8717f7"
+      ],
+      "chunked_count": 2,
+      "index": 814,
+      "page_number": [
+        47
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 315,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 인도네시아 딸기 제품의 일반적인 유통 중량, 250g"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 5.2] 인도네시아 딸기 중량 경쟁력 분석15)\n\n3) 원산지 ▶ 현지 경쟁제품 10개의 원산지 모두 인도네시아 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 원산지를 조사한 결과 모든 인도네시아산 제품임을 확인함. 이를 통해 인도네시아산 제품에 대한 현지 수요가 높음을 알 수 있음 [표 5.3] 인도네시아 딸기 원산지 경쟁력 분석\n4) 인증 ▶ 현지 경쟁제품 10개 중 9개 인증 미표기 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 인증 정보를 조사한 결과 대부분의 제품이 인증 정보가 미표기된 것으로 확인됨. 단 푸드홀(FoodHall)에서 판매되는 &#x27;라 프레사 밀키 스위트 스트로베리&#x27; 제품만이 할랄 인증을 표기한 것으로 조사됨. 고객사 제품은 GAP 인증서를 보유하고 있으므로 이를 제품에 표기하여 소비자에게 제품 신뢰도를 제공하는 방안을 고려해볼 수 있음\n\n5) 형태 ▶ 현지 경쟁제품 10개의 포장 형태 모두 플라스틱 팩 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 포장 형태를 조사한 결과 모든 제품이 플라스틱 팩으로 포장된 것으로 확인됨. 이는 고객사 제품의 포장 형태와 일치하며 현지 시장에서 플라스틱 팩 포장이 매우 일반적임을 알 수 있음 [표 5.5] 인도네시아 딸기 포장 형태 경쟁력 분석\n6) 홍보문구 ▶ 현지 경쟁제품 &#x27;신선함&#x27; &#x27;품질&#x27; &#x27;무첨가&#x27; 강조한 홍보 문구 활용 인도네시아에서 판매 중인 딸기 경쟁제품 10개의 홍보문구를 조사한 결과 4개 제품이 &#x27;신선하고 건강한&#x27; &#x27;천연 &amp; 신선한 과일&#x27; 등 제품의 신선함을 강조하는 문구를 활용한 것으로 확인됨. 이 외 &#x27;프리미엄 품질&#x27; &#x27;일본산 프리미엄 수확 품질&#x27; 등 제품의 품질을 강조한 제품이",
+    "name": "[표 5.2] 인도네시아 딸기 중량 경쟁력 분석15)",
+    "meta_data": {
+      "chunk_id": "7669fb3f-fe63-4fa3-90cd-0171d7fa1e70",
+      "page_number": [
+        47,
+        48,
+        49
+      ],
+      "item_label": "merged",
+      "index": 816,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 5.2] 인도네시아 딸기 중량 경쟁력 분석15)",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "67f3ff56-45ee-44b8-8114-4bfaa3119fd0",
+          "content": "<table><tbody><tr><td>3) 원산지</td><td>▶ 현지 경쟁제품 10개의 원산지, 모두 인도네시아 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 원산지를 조사한 결과, 모든 인도네시아산 제품임을 확인함. 이를 통해 인도네시아산 제품에 대한 현지 수요가 높음을 알 수 있음 [표 5.3] 인도네시아 딸기 원산지 경쟁력 분석</td></tr><tr><td>4) 인증</td><td>▶ 현지 경쟁제품 10개 중 9개, 인증 미표기 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 인증 정보를 조사한 결과, 대부분의 제품이 인증 정보가 미표기된 것으로 확인됨. 단, 푸드홀(FoodHall)에서 판매되는 &#x27;라 프레사 밀키 스위트 스트로베리&#x27; 제품만이 할랄 인증을 표기한 것으로 조사됨. 고객사 제품은 GAP 인증서를 보유하고 있으므로, 이를 제품에 표기하여 소비자에게 제품 신뢰도를 제공하는 방안을 고려해볼 수 있음</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "8f26fd21-8ac7-4fbd-b176-40ceb6db1f97",
+          "content": "<table><tbody><tr><td>5)</td><td>형태 ▶ 현지 경쟁제품 10개의 포장 형태, 모두 플라스틱 팩 인도네시아에서 판매되고 있는 딸기 경쟁제품 10개의 포장 형태를 조사한 결과, 모든 제품이 플라스틱 팩으로 포장된 것으로 확인됨. 이는 고객사 제품의 포장 형태와 일치하며, 현지 시장에서 플라스틱 팩 포장이 매우 일반적임을 알 수 있음 [표 5.5] 인도네시아 딸기 포장 형태 경쟁력 분석</td></tr><tr><td>6) 홍보문구</td><td>▶ 현지 경쟁제품, &#x27;신선함&#x27;, &#x27;품질&#x27;, &#x27;무첨가&#x27; 강조한 홍보 문구 활용 인도네시아에서 판매 중인 딸기 경쟁제품 10개의 홍보문구를 조사한 결과, 4개 제품이 &#x27;신선하고 건강한&#x27;, &#x27;천연 &amp; 신선한 과일&#x27; 등 제품의 신선함을 강조하는 문구를 활용한 것으로 확인됨. 이 외 &#x27;프리미엄 품질&#x27;, &#x27;일본산 프리미엄 수확 품질&#x27; 등 제품의 품질을 강조한 제품이</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n15) 용이한 비교를 위하여 고객사 제품은 330g으로 표기",
+    "name": "15) 용이한 비교를 위하여 고객사 제품은 330g으로 표기",
+    "meta_data": {
+      "chunk_id": "47a80c4f-a2a6-402c-a8b6-8afb7e381f20",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "47a80c4f-a2a6-402c-a8b6-8afb7e381f20"
+      ],
+      "chunked_count": 1,
+      "index": 820,
+      "page_number": [
+        47
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 29,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "15) 용이한 비교를 위하여 고객사 제품은 330g으로 표기"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# [표 5.7] 딸기 생산 기업 마케팅 벤치마킹\n\n기업명 올 시즌스 홀란드\n선정 기업 기본 정보 기업 설명 올 시즌스 홀란드는 천연 재배 방식을 통해 최상의 베리류 제품을 생산하는데 중점을 둔 기업임. 첨단 기술과 지속 가능한 농업 방식을 결합하여 자연 친화적이면서 높은\n\n기업명 올 시즌스 홀란드\n선정 기업 기본 정보 기업 설명 올 시즌스 홀란드는 천연 재배 방식을 통해 최상의 베리류 제품을 생산하는데 중점을 둔 기업임. 첨단 기술과 지속 가능한 농업 방식을 결합하여 자연 친화적이면서 높은 품질의 제품을 생산하고 있으며 생산된 베리류 제품은 아시아 전역에 유통되고 있음\n주요 제품 품질관리 기준 소개\n홍보 현지화 자사 홈페이지에서 온라인을 통한 회원가입 및 뉴스레터 제공 기능을",
+    "name": "[표 5.7] 딸기 생산 기업 마케팅 벤치마킹",
+    "meta_data": {
+      "chunk_id": "37f99929-62f6-4836-99cc-3ca19df78c4b",
+      "page_number": [
+        50
+      ],
+      "item_label": "merged",
+      "index": 835,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# [표 5.7] 딸기 생산 기업 마케팅 벤치마킹",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "5f332213-15f4-44a3-842e-4963234096f4",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th>올 시즌스 홀란드</th></tr><tr><td>선정 기업 기본 정보</td><td>기업 설명</td><td>올 시즌스 홀란드는 천연 재배 방식을 통해 최상의 베리류 제품을 생산하는데 중점을 둔 기업임. 첨단 기술과 지속 가능한 농업 방식을 결합하여 자연 친화적이면서 높은</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "77ccd6b1-567c-4f2a-9c59-14db7419cf24",
+          "content": "<table><tbody><tr><td></td><th>기업명</th><th>올 시즌스 홀란드</th></tr><tr><td>선정 기업 기본 정보</td><td>기업 설명</td><td>올 시즌스 홀란드는 천연 재배 방식을 통해 최상의 베리류 제품을 생산하는데 중점을 둔 기업임. 첨단 기술과 지속 가능한 농업 방식을 결합하여 자연 친화적이면서 높은 품질의 제품을 생산하고 있으며, 생산된 베리류 제품은 아시아 전역에 유통되고 있음</td></tr><tr><td>주요</td><td>제품 품질관리 기준 소개</td><td></td></tr><tr><td></td><td>홍보 현지화</td><td>자사 홈페이지에서 온라인을 통한 회원가입 및 뉴스레터 제공 기능을</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 분석 지표 선정 및 대표 키워드\n\n표제목: [표 5.8] 온라인 인기제품 리뷰 분석 지표 선정 및 대표 키워드\n지표 지표 설명 대표\n가격 판매 제품 가격에 Price Cost Cheap Expensive 등\n중량 판매 제품 중량에 대한 Heavy Quantity Size Large\n제품 선호도 판매 제품 선호도에 대한 Satisfaction Favorite Subscribe Happy 등\n맛 판매 제품 맛에 Sweet Delicious Tasty Juicy 등\n품질 판매 제품 품질에 대한 Quality Fresh Excellent Premium 등",
+    "name": "▶ 분석 지표 선정 및 대표 키워드",
+    "meta_data": {
+      "chunk_id": "01238cb1-cafb-4ce8-8681-6a504d568ec6",
+      "page_number": [
+        51
+      ],
+      "item_label": "merged",
+      "index": 849,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 분석 지표 선정 및 대표 키워드",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "8df2dcad-4b52-417a-b84a-ec3e1b2cdd9e",
+          "content": "<table><caption>[표 5.8] 온라인 인기제품 리뷰 분석 지표 선정 및 대표 키워드</caption><tbody><tr><td>지표</td><td colspan=\"2\">지표 설명</td><td>대표</td></tr><tr><td>가격</td><td>판매 제품 가격에</td><td>Price, Cost, Cheap, Expensive 등</td></tr><tr><td>중량</td><td>판매 제품 중량에 대한</td><td>Heavy, Quantity, Size, Large,</td></tr><tr><td>제품 선호도</td><td>판매 제품 선호도에 대한</td><td>Satisfaction, Favorite, Subscribe, Happy 등</td></tr><tr><td>맛</td><td>판매 제품 맛에</td><td>Sweet, Delicious, Tasty, Juicy 등</td></tr><tr><td>품질</td><td>판매 제품 품질에 대한</td><td>Quality, Fresh, Excellent, Premium 등</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 2
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n온라인 인기제품 리뷰 빅데이터 감성분석 진행을 위해 고객사 조사 희망 지표에 따라 분석 대상 지표를 선정함. 선정된 지표는 가격, 중량, 제품 선호도, 맛, 품질로 5가지이며, 선정 지표 및 제품 특징을 기반으로 한 키워드집을 구축하여 리뷰 데이터를 수집함",
+    "name": "온라인 인기제품 리뷰 빅데이터 감성분석 진행을 위해 고객사 조사 희망 지표에 따라 분석 대상 지표를 선정함. 선정된 지표는 가격, 중량, 제품 선호도, 맛, 품질로 5가지이며, 선정 지표 및 제품 특징을 기반으로 한 키워드집을 구축하여 리뷰 데이터를 수집함",
+    "meta_data": {
+      "chunk_id": "1dc6ed23-6a9d-495c-9a24-169f53e236a8",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "1dc6ed23-6a9d-495c-9a24-169f53e236a8"
+      ],
+      "chunked_count": 1,
+      "index": 850,
+      "page_number": [
+        51
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 153,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "온라인 인기제품 리뷰 빅데이터 감성분석 진행을 위해 고객사 조사 희망 지표에 따라 분석 대상 지표를 선정함. 선정된 지표는 가격, 중량, 제품 선호도, 맛, 품질로 5가지이며, 선정 지표 및 제품 특징을 기반으로 한 키워드집을 구축하여 리뷰 데이터를 수집함"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 토코피디아에서 판매되고 있는 딸기 제품 선정\n\n판매 사이트 토코피디아 (Tokopedia) 리뷰 수 285건\n제품명 점보 스트로베리 그레이드 A 1kg (Jumbo! Strawberry grade A 1kg)\n제품 종류 신선 딸기 소비자가격 59500루피아 (5051원)\n중량 1kg (500g*2pack) 포장 플라스틱 트레이\n특징 자바 섬 서부에서 재배되어 수확 후 창고에서는 품질 관리 과정을 통해 창고로 직배송 신선도를 유지함\n\n표제목: 조사 제품\n사이트 토코피디아\n분석 건수 285건\n제품명 점보 스트로베리 그레이드 A 1kg\n제품 종류 신선 딸기\n소비자가격 59500루피아 (5051원)\n중량 1kg (500g*2pack)\n포장 플라스틱 트레이\n특징 자바 섬 서부에서 재배되어 수확 후 창고로 직배송 창고에서는 품질 관리 과정을 통해",
+    "name": "▶ 토코피디아에서 판매되고 있는 딸기 제품 선정",
+    "meta_data": {
+      "chunk_id": "7f97f41f-1c01-41fb-9ef0-1297b8f36b6a",
+      "page_number": [
+        51,
+        52
+      ],
+      "item_label": "merged",
+      "index": 852,
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 토코피디아에서 판매되고 있는 딸기 제품 선정",
+      "merged_children": [
+        {
+          "item_label": "table",
+          "chunk_id": "74c333e1-04f1-43e1-b3ae-3e77fbc3a050",
+          "content": "<table><tbody><tr><th>판매 사이트</th><th>토코피디아 (Tokopedia)</th><th>리뷰 수</th><th>285건</th></tr><tr><td>제품명</td><td colspan=\"3\">점보 스트로베리 그레이드 A 1kg (Jumbo! Strawberry grade A 1kg)</td></tr><tr><td>제품 종류</td><td>신선 딸기</td><td>소비자가격</td><td>59,500루피아 (5,051원)</td></tr><tr><td>중량</td><td>1kg (500g*2pack)</td><td>포장</td><td>플라스틱 트레이</td></tr><tr><td>특징</td><td>자바 섬 서부에서 재배되어 수확 후 창고에서는 품질 관리 과정을 통해</td><td></td><td>창고로 직배송, 신선도를 유지함</td></tr></tbody></table>",
+          "summary": ""
+        },
+        {
+          "item_label": "table",
+          "chunk_id": "9eba0858-d901-4f02-a1df-d108cfab203a",
+          "content": "<table><caption>조사 제품</caption><tbody><tr><th>사이트</th><th>토코피디아</th></tr><tr><td>분석 건수</td><td>285건</td></tr><tr><td>제품명</td><td>점보 스트로베리 그레이드 A 1kg</td></tr><tr><td>제품 종류</td><td>신선 딸기</td></tr><tr><td>소비자가격</td><td>59,500루피아 (5,051원)</td></tr><tr><td>중량</td><td>1kg (500g*2pack)</td></tr><tr><td>포장</td><td>플라스틱 트레이</td></tr><tr><td>특징</td><td>자바 섬 서부에서 재배되어 수확 후 창고로 직배송, 창고에서는 품질 관리 과정을 통해</td></tr></tbody></table>",
+          "summary": ""
+        }
+      ],
+      "merged_count": 3
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 온라인 인기제품 리뷰 감성분석 결과, '품질'에 대한 만족도 가장 높아\n\n빅데이터 분석을 통해 인도네시아 온라인 쇼핑몰 토코피디아에서 판매되고 있는 딸기 인기 제품의 리뷰 감성분석을 실시함. 그 결과, '품질'에 대한 긍정 점수가 362점으로 가장 높게 나타남. 그다음으로는 '맛'에 대한 긍정 점수가 271점으로 높은 편인 것으로 조사되어, 인도네시아 소비자들은 온라인에서 판매되고 있는 딸기 제품에 대하여 품질과 맛에 대한 관심도가 높은 편임을 확인함",
+    "name": "▶ 온라인 인기제품 리뷰 감성분석 결과, '품질'에 대한 만족도 가장 높아",
+    "meta_data": {
+      "chunk_id": "d75a18e6-6da2-4a13-9fe1-247d17fad8a5",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "d75a18e6-6da2-4a13-9fe1-247d17fad8a5",
+        "5b1981bb-ec27-46fa-91ca-e372e1ed9b3a"
+      ],
+      "chunked_count": 2,
+      "index": 904,
+      "page_number": [
+        52
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 258,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 온라인 인기제품 리뷰 감성분석 결과, '품질'에 대한 만족도 가장 높아"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n# ▶ 선호 요인: 깔끔한 포장과 큰 과형, 달콤한 맛에 대한 만족\n\n딸기 제품의 최대 선호요인으로 포장이 깔끔하고 큰 과형에 달콤한 맛이 만족스럽다는 의견이 다수를 차지함. 또한 제품의 신선함에 만족한다는 리뷰와 제품이 잘 익어서 좋다는 반응도 다수 확인됨\n\n'Neat packaging, Fast delivery, Strawberries are big and delicious.'\n\n'크고 맛있는 딸기가 깔끔하게 포장되어 빠르게 배송 됩니다.'\n\n'Safe & neat packaging. Whole large average fruit. The perfectly ripe ones taste sweet.'\n\n'안전하고 깔끔한 포장에 과형이 큽니다. 잘 익은 제품은 단맛이 납니다.'\n\n# ▶ 비선호 요인: 신선도가 떨어지는 제품에 대한 불만족스러움\n\n딸기 제품의 최대 비선호 요인은 제품의 신선도인 것으로 조사됨. 다량의 제품을 구매하였으나 신선도가 너무 떨어져 불만이라는 의견과 썩은 상태의 제품이 많다는 의견도 확인됨\n\n'Buy 2 pack, come fresh 3 pieces. The rest is all rotten. Quality of goods is problematic'\n\n'2팩을 구매하였으나 오직 3개 조각만 신선한 상태로 도착했습니다. 나머지는 모두 썩어서 품질에 문제가 있습니다.'\n\n# [표 5.11] 인도네시아 딸기 온라인 인기제품 리뷰 다빈출 키워드 분석16)\n\n16) 인도네시아 딸기 온라인 인기제품의 리뷰에서 발생한 키워드의 빈도 수를 분석함",
+    "name": "▶ 선호 요인: 깔끔한 포장과 큰 과형, 달콤한 맛에 대한 만족",
+    "meta_data": {
+      "chunk_id": "703c8f1b-0152-47f8-ac62-622837f4f4ae",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "703c8f1b-0152-47f8-ac62-622837f4f4ae",
+        "5d3de8f9-211f-433e-8d11-6ef2e025065b",
+        "92a0e9cf-20f6-4a4c-8724-2d1221348c6d",
+        "f3c1dfc4-b4dc-465c-b9b0-d6e0096a51c4",
+        "1f71c003-6ec2-412c-9a6f-ac7d38051fa9",
+        "5b0f4947-7475-4637-bcef-d82c075f1778",
+        "034570d5-6b62-4d4c-8de1-a831e2910213",
+        "0fe702a9-05a0-483c-9475-bbd224e15557",
+        "ff690654-288e-4dc6-9066-c2aca8ce4247",
+        "3b33b1a2-b4d4-4388-8c36-aee3f705e6e6",
+        "728a0739-2e8a-4cf3-94af-000e8042a766",
+        "0dbf09d3-1dd3-43bc-9b83-4a9811b13bbe"
+      ],
+      "chunked_count": 12,
+      "index": 916,
+      "page_number": [
+        53
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 597,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "# ▶ 선호 요인: 깔끔한 포장과 큰 과형, 달콤한 맛에 대한 만족"
+    }
+  },
+  {
+    "page_content": "2024 인도네시아 딸기 (경쟁력분석형)\n\n본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.\n\nCopyright 2024 aT 한국농수산식품유통공사AllRightsReserved. Printed in Korea",
+    "name": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.",
+    "meta_data": {
+      "chunk_id": "321368dc-da7b-4905-83ef-18bd84a64eaf",
+      "item_label": "chunked_text",
+      "chunked_from": [
+        "321368dc-da7b-4905-83ef-18bd84a64eaf",
+        "2c0aba2b-8b4b-4866-82f4-7efd9fb35546"
+      ],
+      "chunked_count": 2,
+      "index": 941,
+      "page_number": [
+        55
+      ],
+      "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+      "hierarchy": null,
+      "token_count": 143,
+      "timestamp": "2025-07-17T02:31:35.289298Z",
+      "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+      "document_title": "2024 인도네시아 딸기 (경쟁력분석형)",
+      "original_page_content": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다."
+    }
+  }
+]
