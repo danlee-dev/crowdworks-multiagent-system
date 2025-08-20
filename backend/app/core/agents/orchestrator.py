@@ -110,9 +110,9 @@ JSON으로 응답:
 class OrchestratorAgent:
     """고성능 비동기 스케줄러 및 지능형 계획 수립 Agent"""
 
-    def __init__(self, model: str = "gemini-2.5-pro", temperature: float = 0.2):
+    def __init__(self, model: str = "gemini-2.5-flash", temperature: float = 0.2):
         self.llm = ChatGoogleGenerativeAI(model=model, temperature=temperature)
-        self.llm_openai_mini = ChatOpenAI(model="gpt-4o", temperature=temperature)
+        self.llm_openai_mini = ChatOpenAI(model="gpt-4o-mini", temperature=temperature)
         self.data_gatherer = DataGathererAgent()
         self.processor = ProcessorAgent()
         self.personas = PERSONA_PROMPTS
@@ -1367,20 +1367,18 @@ class OrchestratorAgent:
             return combined[:8]
 
     async def _log_chart_verification(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], chart_data: dict, state: dict):
-        """차트 생성 검증을 위한 상세 로그 기록"""
+        """차트 생성 검증을 위한 상세 로그 기록 (쿼리별 폴더 구조)"""
         try:
-            # 로그 디렉토리 생성
-            log_base_dir = "/app/logs"
-            chart_verification_dir = f"{log_base_dir}/chart_verification"
-            os.makedirs(chart_verification_dir, exist_ok=True)
-
-            # 현재 시간으로 파일명 생성
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]  # 밀리초 포함
+            # 쿼리별 로그 디렉토리 사용
             session_id = state.get("session_id", "unknown")
-            filename = f"chart_verification_{timestamp}_{session_id}.txt"
-            filepath = f"{chart_verification_dir}/{filename}"
+            query_dir = self._get_query_log_dir(query, session_id, state)
+
+            # 차트 인덱스 생성 (같은 쿼리에서 여러 차트가 생성될 경우)
+            chart_index = state.get('chart_counter', 0) + 1
+            filepath = f"{query_dir}/chart_verification_section{chart_index}.txt"
 
             # 검증 로그 내용 생성
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]
             verification_log = self._generate_chart_verification_content(
                 query, section_title, section_description, section_data_list, chart_data, timestamp
             )
@@ -1395,20 +1393,18 @@ class OrchestratorAgent:
             print(f"❌ 차트 검증 로그 저장 실패: {e}")
 
     async def _log_section_verification(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], section_content: str, state: dict):
-        """섹션 생성 검증을 위한 상세 로그 기록"""
+        """섹션 생성 검증을 위한 상세 로그 기록 (쿼리별 폴더 구조)"""
         try:
-            # 로그 디렉토리 생성
-            log_base_dir = "/app/logs"
-            section_verification_dir = f"{log_base_dir}/section_verification"
-            os.makedirs(section_verification_dir, exist_ok=True)
-
-            # 현재 시간으로 파일명 생성
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]  # 밀리초 포함
+            # 쿼리별 로그 디렉토리 사용
             session_id = state.get("session_id", "unknown")
-            filename = f"section_verification_{timestamp}_{session_id}.txt"
-            filepath = f"{section_verification_dir}/{filename}"
+            query_dir = self._get_query_log_dir(query, session_id, state)
+
+            # 섹션 인덱스 생성
+            section_index = len(state.get('accumulated_context', {}).get('generated_sections', [])) + 1
+            filepath = f"{query_dir}/section_verification_section{section_index}.txt"
 
             # 검증 로그 내용 생성
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]
             verification_log = self._generate_section_verification_content(
                 query, section_title, section_description, section_data_list, section_content, timestamp
             )
@@ -1592,3 +1588,349 @@ _________________________________________________________________________
 
         return content
 
+
+    # ================================================================================================
+    # 종합 로그 시스템 - 보고서 생성 과정 검증용 (쿼리별 폴더 구조)
+    # ================================================================================================
+
+    def _sanitize_query_for_folder_name(self, query: str, max_length: int = 50) -> str:
+        """쿼리 텍스트를 파일시스템에 안전한 폴더명으로 변환"""
+        import re
+
+        # 한글, 영문, 숫자, 공백만 유지
+        sanitized = re.sub(r'[^\w가-힣\s]', '', query)
+
+        # 연속된 공백을 하나로 줄이고 언더스코어로 변환
+        sanitized = re.sub(r'\s+', '_', sanitized.strip())
+
+        # 길이 제한
+        if len(sanitized) > max_length:
+            sanitized = sanitized[:max_length]
+
+        # 끝에 언더스코어가 있으면 제거
+        sanitized = sanitized.rstrip('_')
+
+        return sanitized if sanitized else "unknown_query"
+
+    def _get_query_log_dir(self, query: str, session_id: str, state: dict = None) -> str:
+        """쿼리별 로그 디렉토리 경로 생성 (세션별 캐싱, 프로젝트명 포함)"""
+        # state가 있고 이미 생성된 로그 디렉토리가 있으면 재사용
+        if state and 'query_log_dir' in state:
+            existing_dir = state['query_log_dir']
+            if os.path.exists(existing_dir):
+                return existing_dir
+
+        log_base_dir = "/app/logs"
+
+        # 프로젝트 정보 추출
+        project_name = "Unknown_Project"
+        if state:
+            # state에서 프로젝트 정보 확인 (여러 방법으로 시도)
+            project_info = state.get("project_name") or state.get("project_title")
+            if not project_info and "metadata" in state:
+                project_info = state["metadata"].get("project_name") or state["metadata"].get("project_title")
+                print(f">> 로그 디렉토리 생성 - metadata에서 프로젝트 정보 확인: {project_info}")
+
+            if project_info:
+                project_name = self._sanitize_query_for_folder_name(project_info, 30)  # 프로젝트명은 30자로 제한
+                print(f">> 로그 디렉토리 생성 - 최종 프로젝트명: {project_name}")
+            else:
+                print(f">> 로그 디렉토리 생성 - 프로젝트 정보를 찾을 수 없음. state.keys(): {state.keys() if state else 'state is None'}")
+                if state and "metadata" in state:
+                    print(f">> metadata 내용: {state['metadata']}")
+
+        # 쿼리 텍스트 정제
+        sanitized_query = self._sanitize_query_for_folder_name(query)
+
+        # 타임스탬프 추가 (한 번만 생성)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+        # 폴더명: [{프로젝트명}]_{쿼리}_{세션ID}_{타임스탬프}
+        folder_name = f"[{project_name}]_{sanitized_query}_{session_id}_{timestamp}"
+
+        query_dir = f"{log_base_dir}/{folder_name}"
+        os.makedirs(query_dir, exist_ok=True)
+
+        # state에 캐시 저장
+        if state:
+            state['query_log_dir'] = query_dir
+
+        return query_dir
+
+    async def _log_plan_reasoning(self, query: str, persona: str, plan: dict, state: dict):
+        """계획 수립 과정의 추론 로직 상세 로그"""
+        try:
+            session_id = state.get("session_id", "unknown")
+            query_dir = self._get_query_log_dir(query, session_id, state)
+            filepath = f"{query_dir}/plan_reasoning.txt"
+
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]
+            planning_log = self._generate_plan_reasoning_content(query, persona, plan, timestamp)
+
+            async with aiofiles.open(filepath, 'w', encoding='utf-8') as f:
+                await f.write(planning_log)
+
+            print(f"🎯 계획 추론 로그 저장완료: {filepath}")
+
+        except Exception as e:
+            print(f"❌ 계획 추론 로그 저장 실패: {e}")
+
+    async def _log_data_selection_reasoning(self, step_info: dict, collected_data: list, selected_indexes: list, reasoning: str, state: dict):
+        """데이터 선별 과정의 추론 로직 상세 로그"""
+        try:
+            query = state.get("original_query", "unknown_query")
+            session_id = state.get("session_id", "unknown")
+            query_dir = self._get_query_log_dir(query, session_id, state)
+
+            step_num = step_info.get("step", "unknown")
+            filepath = f"{query_dir}/data_selection_step{step_num}.txt"
+
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S_%f")[:-3]
+            selection_log = self._generate_data_selection_content(
+                step_info, collected_data, selected_indexes, reasoning, timestamp
+            )
+
+            async with aiofiles.open(filepath, 'w', encoding='utf-8') as f:
+                await f.write(selection_log)
+
+            print(f"🔍 데이터 선별 로그 저장완료 (Step {step_num}): {filepath}")
+
+        except Exception as e:
+            print(f"❌ 데이터 선별 로그 저장 실패: {e}")
+
+    def _generate_plan_reasoning_content(self, query: str, persona: str, plan: dict, timestamp: str) -> str:
+        """계획 수립 추론 로그 내용 생성"""
+        content = f"""
+================================================================================
+                          계획 수립 추론 과정 로그
+================================================================================
+
+생성 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+타임스탬프: {timestamp}
+
+================================================================================
+요청 분석
+================================================================================
+
+사용자 쿼리: {query}
+페르소나: {persona}
+페르소나 관점: {self.personas.get(persona, {}).get('description', '정보 없음')}
+
+================================================================================
+계획 수립 추론 과정
+================================================================================
+
+1. 핵심 키워드 분석: {self._extract_keywords_from_query(query)}
+2. 필요한 정보 유형 분석:
+- 정형 데이터 필요성: {self._analyze_structured_data_need(query)}
+- 비정형 데이터 필요성: {self._analyze_unstructured_data_need(query)}
+- 관계형 데이터 필요성: {self._analyze_graph_data_need(query)}
+- 학술 연구 필요성: {self._analyze_research_data_need(query)}
+
+3. 도구 선택 추론:
+{self._generate_tool_selection_reasoning(query)}
+
+================================================================================
+최종 계획
+================================================================================
+
+계획 제목: {plan.get('title', '')}
+총 실행 단계: {len(plan.get('execution_steps', []))}
+
+단계별 상세:
+"""
+
+        for step in plan.get('execution_steps', []):
+            content += f"""
+Step {step.get('step')}: {step.get('title', '')}
+  추론: {step.get('reasoning', '')}
+  하위 질문: {len(step.get('sub_questions', []))}개
+"""
+
+        content += """
+================================================================================
+품질 체크
+================================================================================
+
+[ ] 사용자 요청 완전 커버리지 확인
+[ ] 페르소나 관점 적절성 확인
+[ ] 도구 선택 최적성 확인
+[ ] 단계 순서 논리성 확인
+[ ] 처리 효율성 확인
+================================================================================
+"""
+        return content
+
+    def _generate_data_selection_content(self, step_info: dict, collected_data: list, selected_indexes: list, reasoning: str, timestamp: str) -> str:
+        """데이터 선별 과정 로그 내용 생성"""
+        step_num = step_info.get('step', '?')
+        step_title = step_info.get('title', '제목 없음')
+
+        content = f"""
+================================================================================
+                    데이터 선별 추론 과정 로그 (Step {step_num})
+================================================================================
+
+생성 시간: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+타임스탬프: {timestamp}
+
+================================================================================
+단계 정보
+================================================================================
+
+단계 번호: {step_num}
+단계 제목: {step_title}
+단계 추론: {step_info.get('reasoning', '정보 없음')}
+
+하위 질문들:
+"""
+
+        for i, sub_q in enumerate(step_info.get('sub_questions', [])):
+            content += f"  {i+1}. {sub_q.get('question', '질문 없음')} (도구: {sub_q.get('tool', '도구 없음')})\n"
+
+        content += f"""
+
+================================================================================
+수집된 데이터 현황
+================================================================================
+
+총 수집 데이터: {len(collected_data)}개
+선별된 데이터: {len(selected_indexes)}개
+선별 비율: {(len(selected_indexes) / max(len(collected_data), 1) * 100):.1f}%
+
+데이터 출처별 분포:
+"""
+
+        source_counts = {}
+        for data in collected_data:
+            source = getattr(data, 'source', 'Unknown')
+            source_counts[source] = source_counts.get(source, 0) + 1
+
+        for source, count in source_counts.items():
+            content += f"  - {source}: {count}개\n"
+
+        content += f"""
+
+================================================================================
+선별 기준 및 추론 과정
+================================================================================
+
+LLM 추론 결과:
+{reasoning}
+
+선별된 데이터 상세:
+"""
+
+        for i, idx in enumerate(selected_indexes):
+            if idx < len(collected_data):
+                data = collected_data[idx]
+                content += f"""
+[선별 데이터 {i+1}] 인덱스 {idx}
+  출처: {getattr(data, 'source', 'Unknown')}
+  제목: {getattr(data, 'title', 'No Title')}
+  점수: {getattr(data, 'score', 0.0):.3f}
+  타입: {getattr(data, 'document_type', 'unknown')}
+  내용 (첫 200자): {getattr(data, 'content', '')[:200]}...
+"""
+
+        content += f"""
+
+================================================================================
+제외된 데이터 분석
+================================================================================
+
+제외된 데이터: {len(collected_data) - len(selected_indexes)}개
+
+제외 사유별 분석:
+"""
+
+        excluded_indexes = [i for i in range(len(collected_data)) if i not in selected_indexes]
+        for idx in excluded_indexes[:5]:  # 처음 5개만 상세 분석
+            if idx < len(collected_data):
+                data = collected_data[idx]
+                content += f"""
+[제외 데이터] 인덱스 {idx}
+  출처: {getattr(data, 'source', 'Unknown')}
+  제목: {getattr(data, 'title', 'No Title')}
+  점수: {getattr(data, 'score', 0.0):.3f}
+  추정 제외 사유: 관련성 낮음/중복성/품질 이슈
+"""
+
+        if len(excluded_indexes) > 5:
+            content += f"\n... 외 {len(excluded_indexes) - 5}개 데이터 제외\n"
+
+        content += f"""
+
+================================================================================
+품질 검증 체크리스트
+================================================================================
+
+[ ] 단계 목적 달성도: 이 단계의 목표를 달성하기에 충분한 데이터인가?
+[ ] 데이터 품질: 선별된 데이터의 신뢰도와 정확성은 적절한가?
+[ ] 다양성 확보: 다양한 관점과 출처가 포함되었는가?
+[ ] 중복성 제거: 유사한 내용의 중복이 적절히 제거되었는가?
+[ ] 관련성 검증: 모든 선별 데이터가 질문과 직접 관련이 있는가?
+
+검증자: ___________    검증일: ___________    선별 품질 평가: ___________
+================================================================================
+"""
+
+        return content
+
+    def _extract_keywords_from_query(self, query: str) -> str:
+        """쿼리에서 핵심 키워드 추출"""
+        keywords = []
+        if "가격" in query or "시세" in query or "비용" in query:
+            keywords.append("가격/시세 정보")
+        if "영양" in query or "성분" in query:
+            keywords.append("영양성분 정보")
+        if "원산지" in query or "산지" in query:
+            keywords.append("원산지/산지 정보")
+        if "시장" in query or "동향" in query:
+            keywords.append("시장 동향")
+        if "연구" in query or "논문" in query:
+            keywords.append("학술 연구")
+
+        return ", ".join(keywords) if keywords else "일반적 정보 요청"
+
+    def _analyze_structured_data_need(self, query: str) -> str:
+        """정형 데이터 필요성 분석"""
+        if any(keyword in query for keyword in ["가격", "시세", "영양", "성분", "순위", "비교", "TOP", "평균"]):
+            return "높음 - 수치 데이터 및 통계 정보 필요"
+        return "낮음 - 정형 데이터 불필요"
+
+    def _analyze_unstructured_data_need(self, query: str) -> str:
+        """비정형 데이터 필요성 분석"""
+        if any(keyword in query for keyword in ["동향", "분석", "정책", "배경", "현황", "설명"]):
+            return "높음 - 텍스트 기반 정보 및 분석 필요"
+        return "낮음 - 비정형 데이터 불필요"
+
+    def _analyze_graph_data_need(self, query: str) -> str:
+        """관계형 데이터 필요성 분석"""
+        if any(keyword in query for keyword in ["원산지", "산지", "특산품", "연결", "관계"]):
+            return "높음 - 엔티티 간 관계 정보 필요"
+        return "낮음 - 관계형 데이터 불필요"
+
+    def _analyze_research_data_need(self, query: str) -> str:
+        """학술 연구 데이터 필요성 분석"""
+        if any(keyword in query for keyword in ["연구", "논문", "개발", "신제품", "과학", "최신"]):
+            return "높음 - 최신 학술 연구 정보 필요"
+        return "낮음 - 학술 연구 데이터 불필요"
+
+    def _generate_tool_selection_reasoning(self, query: str) -> str:
+        """도구 선택 추론 과정"""
+        reasoning_parts = []
+
+        if self._analyze_structured_data_need(query).startswith("높음"):
+            reasoning_parts.append("RDB 검색: 정형 데이터(가격, 영양성분, 통계) 필요")
+
+        if self._analyze_unstructured_data_need(query).startswith("높음"):
+            reasoning_parts.append("Vector DB 검색: 비정형 텍스트(뉴스, 보고서) 필요")
+
+        if self._analyze_graph_data_need(query).startswith("높음"):
+            reasoning_parts.append("Graph DB 검색: 관계형 데이터(원산지-품목 연결) 필요")
+
+        if self._analyze_research_data_need(query).startswith("높음"):
+            reasoning_parts.append("PubMed 검색: 최신 학술 연구 정보 필요")
+
+        return "\n".join(f"- {part}" for part in reasoning_parts) if reasoning_parts else "기본적인 정보 검색 도구 사용"

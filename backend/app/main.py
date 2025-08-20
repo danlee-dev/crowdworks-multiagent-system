@@ -89,6 +89,7 @@ class QueryRequest(BaseModel):
     session_id: str | None = Field(default_factory=lambda: str(uuid.uuid4()))
     message_id: str | None = Field(default_factory=lambda: str(uuid.uuid4()))
     team_id: str | None = None  # 사용자가 선택한 팀 ID
+    project_id: str | None = None  # 프로젝트 ID 추가
     conversation_history: List[Dict] | None = None  # 대화 히스토리 추가
 
 # --- FastAPI 애플리케이션 설정 ---
@@ -229,6 +230,26 @@ async def stream_query(request: QueryRequest):
             print(f">> 대화 히스토리 포함: {len(request.conversation_history)}개 메시지")
         else:
             print(">> 대화 히스토리 없음 - 새 대화")
+        
+        # 프로젝트 정보를 state에 추가
+        if request.project_id:
+            try:
+                print(f">> 프로젝트 ID로 조회 시도: {request.project_id}")
+                project = db.get_project(request.project_id)
+                if project:
+                    project_title = project.get("title", "Unknown_Project")
+                    state.metadata["project_name"] = project_title
+                    state.metadata["project_id"] = request.project_id
+                    print(f">> 프로젝트 정보 포함: {project_title} (ID: {request.project_id})")
+                    print(f">> state.metadata 설정 완료: {state.metadata}")
+                else:
+                    print(f">> 프로젝트 조회 실패: {request.project_id} - DB에서 찾을 수 없음")
+            except Exception as e:
+                print(f">> 프로젝트 조회 중 오류: {e}")
+                import traceback
+                traceback.print_exc()
+        else:
+            print(">> 프로젝트 정보 없음 - request.project_id가 None")
 
         # 팀 정보를 state에 추가
         if request.team_id:
