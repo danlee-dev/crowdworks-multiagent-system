@@ -43,6 +43,7 @@ class SearchResult(BaseModel):
     search_query: str = ""  # 검색한 쿼리 그 자체
     document_type: str
     # Claude 스타일 UI를 위한 추가 필드들
+    chunk_id: str = Field(default="", description="청크 id")
     title: str = Field(default="", description="문서 제목 또는 결과 제목")
     url: Optional[str] = Field(default=None, description="원본 URL")
     score: float = Field(default=0.7, description="관련성 점수")

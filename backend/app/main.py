@@ -28,17 +28,17 @@ async def preload_models_async():
 
         # 백그라운드에서 모델들을 순차적으로 로드
         loop = asyncio.get_event_loop()
-        
+
         # 임베딩 모델 로드
         print("📥 임베딩 모델 로드 중...")
         await loop.run_in_executor(None, get_hf_model)
         print("✅ 임베딩 모델 로드 완료!")
-        
+
         # 리랭킹 모델 로드
         print("📥 리랭킹 모델 로드 중...")
         await loop.run_in_executor(None, get_bge_reranker)
         print("✅ 리랭킹 모델 로드 완료!")
-        
+
         # Qwen3 모델도 백그라운드에서 로드 (선택사항)
         print("📥 Qwen3 모델 로드 중...")
         await loop.run_in_executor(None, get_qwen3_model)
@@ -211,7 +211,7 @@ async def stream_query(request: QueryRequest):
 
     async def event_stream_generator() -> AsyncGenerator[str, None]:
         """쿼리 처리 및 결과 스트리밍을 위한 비동기 생성기"""
-        
+
         # 세션 컨텍스트 설정
         set_current_session(request.session_id)
 
@@ -222,7 +222,7 @@ async def stream_query(request: QueryRequest):
             conversation_id=request.session_id,
             user_id="default_user"
         )
-        
+
         # 대화 히스토리를 state에 추가
         if request.conversation_history:
             state.metadata["conversation_history"] = request.conversation_history
@@ -501,16 +501,16 @@ async def create_project(project: ProjectCreate):
     try:
         # 프론트엔드에서 ID를 지정했으면 사용, 아니면 새로 생성
         project_id = project.id or f"project_{int(datetime.now().timestamp() * 1000)}_{uuid.uuid4().hex[:8]}"
-        
+
         print(f"🔄 프로젝트 생성 요청: ID={project_id}, Title={project.title}")
-        
+
         result = db.create_project(
             project_id=project_id,
             title=project.title,
             description=project.description,
             user_id=project.user_id
         )
-        
+
         print(f"✅ 프로젝트 생성 성공: {project_id}")
         return ProjectResponse(**result, conversation_count=0)
     except Exception as e:
@@ -549,21 +549,21 @@ async def update_project(project_id: str, project_update: ProjectUpdate):
     """프로젝트 제목/설명 수정"""
     try:
         print(f"🔄 프로젝트 수정 요청: ID={project_id}, Data={project_update.model_dump()}")
-        
+
         success = db.update_project_title(
             project_id=project_id,
             title=project_update.title,
             description=project_update.description
         )
-        
+
         if not success:
             raise HTTPException(status_code=404, detail="프로젝트를 찾을 수 없습니다")
-        
+
         # 업데이트된 프로젝트 조회
         updated_project = db.get_project(project_id)
         conversations = db.get_conversations_by_project(project_id)
         updated_project["conversation_count"] = len(conversations)
-        
+
         print(f"✅ 프로젝트 수정 성공: {project_id}")
         return ProjectResponse(**updated_project)
     except HTTPException:
@@ -577,12 +577,12 @@ async def delete_project(project_id: str, hard_delete: bool = False):
     """프로젝트 삭제"""
     try:
         print(f"🔄 프로젝트 삭제 요청: ID={project_id}, Hard={hard_delete}")
-        
+
         success = db.delete_project(project_id, soft_delete=not hard_delete)
-        
+
         if not success:
             raise HTTPException(status_code=404, detail="프로젝트를 찾을 수 없습니다")
-        
+
         print(f"✅ 프로젝트 삭제 성공: {project_id}")
         return {"message": "프로젝트가 삭제되었습니다"}
     except HTTPException:
@@ -607,16 +607,16 @@ async def create_conversation(conversation: ConversationCreate):
     try:
         # 프론트엔드에서 ID를 지정했으면 사용, 아니면 새로 생성
         conversation_id = conversation.id or str(uuid.uuid4())
-        
+
         print(f"🔄 대화 생성 요청: ID={conversation_id}, Title={conversation.title}")
-        
+
         result = db.create_conversation(
             conversation_id=conversation_id,
             title=conversation.title,
             user_id=conversation.user_id,
             project_id=conversation.project_id
         )
-        
+
         print(f"✅ 대화 생성 성공: {conversation_id}")
         return ConversationResponse(**result)
     except Exception as e:
@@ -686,7 +686,6 @@ async def delete_conversation(conversation_id: str, hard_delete: bool = False):
 async def create_message(message: MessageCreate):
     """새 메시지 생성"""
     try:
-        print(f"📝 메시지 생성 요청 받음: {message.model_dump()}")
         message_id = db.create_message(
             conversation_id=message.conversation_id,
             message_data=message.model_dump()

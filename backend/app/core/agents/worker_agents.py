@@ -662,6 +662,7 @@ class DataGathererAgent:
                     # 제목에 페이지 번호 추가
                     full_title = f"{doc_title}, ({', '.join(map(str, page_number))})".strip()
                     score = result.get("score", 5.2)
+                    chunk_id = result.get("chunk_id", "")
 
                     search_results.append(SearchResult(
                         source="vector_db",
@@ -671,6 +672,7 @@ class DataGathererAgent:
                         document_type="database",
                         score=score,
                         url=doc_link,  # 새 필드 추가
+                        chunk_id = chunk_id,
                     ))
 
 

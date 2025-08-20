@@ -13,7 +13,6 @@ from ..models.models import StreamingAgentState, SearchResult
 from .worker_agents import DataGathererAgent, ProcessorAgent
 from sentence_transformers import SentenceTransformer
 from ...utils.session_logger import get_session_logger
-from ...services.utils.deduplication import GlobalDeduplicator
 
 # --- 페르소나 프롬프트 로드 ---
 PERSONA_PROMPTS = {}
@@ -901,8 +900,6 @@ class OrchestratorAgent:
         step_results_context: Dict[int, str] = {}
         cumulative_selected_indexes: List[int] = []
 
-        # 중복 제거를 위한 글로벌 디듀플리케이터 초기화
-        deduplicator = GlobalDeduplicator()
 
         for i, step_info in enumerate(execution_steps):
             current_step_index = step_info["step"]
@@ -926,12 +923,8 @@ class OrchestratorAgent:
                     collected_dicts = event["data"]["collected_data"]
                     step_collected_data = [SearchResult(**data_dict) for data_dict in collected_dicts]
 
-            # 수집된 데이터에 대해 중복 제거 적용 (임시 비활성화)
-            try:
-                unique_step_data = self._apply_deduplication(step_collected_data, deduplicator)
-            except AttributeError:
-                print("⚠️ 중복 제거 메서드 로딩 중... 임시로 원본 데이터 사용")
-                unique_step_data = step_collected_data
+            # 중복 제거 없이 원본 데이터 사용
+            unique_step_data = step_collected_data
 
             # 이제 unique_step_data는 List[SearchResult] 타입이므로 .content 접근이 가능합니다.
             summary_of_step = " ".join([res.content for res in unique_step_data])
@@ -1202,8 +1195,9 @@ class OrchestratorAgent:
                                 "chart": chart_data
                             })
 
-                            # 차트 생성 검증 로그 기록
-                            await self._log_chart_verification(query, section_title, section_data_list, chart_data, state)
+                            # 차트 생성 검증 로그 기록 (섹션 description 포함)
+                            section_description = section.get('description', '설명 없음')
+                            await self._log_chart_verification(query, section_title, section_description, section_data_list, chart_data, state)
                             break
 
                     if chart_data and "error" not in chart_data:
@@ -1253,8 +1247,9 @@ class OrchestratorAgent:
                     "insight": first_paragraph
                 })
 
-                # 섹션 생성 검증 로그 기록
-                await self._log_section_verification(query, section_title, section_data_list, section_full_content, state)
+                # 섹션 생성 검증 로그 기록 (섹션 description 포함)
+                section_description = section.get('description', '설명 없음')
+                await self._log_section_verification(query, section_title, section_description, section_data_list, section_full_content, state)
 
             # 내용이 전혀 생성되지 않은 경우 경고 처리
             if not section_content_generated:
@@ -1371,7 +1366,7 @@ class OrchestratorAgent:
             combined = original_indexes + new_data_indexes
             return combined[:8]
 
-    async def _log_chart_verification(self, query: str, section_title: str, section_data_list: List[SearchResult], chart_data: dict, state: dict):
+    async def _log_chart_verification(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], chart_data: dict, state: dict):
         """차트 생성 검증을 위한 상세 로그 기록"""
         try:
             # 로그 디렉토리 생성
@@ -1387,7 +1382,7 @@ class OrchestratorAgent:
 
             # 검증 로그 내용 생성
             verification_log = self._generate_chart_verification_content(
-                query, section_title, section_data_list, chart_data, timestamp
+                query, section_title, section_description, section_data_list, chart_data, timestamp
             )
 
             # 파일에 비동기로 쓰기
@@ -1399,7 +1394,7 @@ class OrchestratorAgent:
         except Exception as e:
             print(f"❌ 차트 검증 로그 저장 실패: {e}")
 
-    async def _log_section_verification(self, query: str, section_title: str, section_data_list: List[SearchResult], section_content: str, state: dict):
+    async def _log_section_verification(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], section_content: str, state: dict):
         """섹션 생성 검증을 위한 상세 로그 기록"""
         try:
             # 로그 디렉토리 생성
@@ -1415,7 +1410,7 @@ class OrchestratorAgent:
 
             # 검증 로그 내용 생성
             verification_log = self._generate_section_verification_content(
-                query, section_title, section_data_list, section_content, timestamp
+                query, section_title, section_description, section_data_list, section_content, timestamp
             )
 
             # 파일에 비동기로 쓰기
@@ -1427,7 +1422,7 @@ class OrchestratorAgent:
         except Exception as e:
             print(f"❌ 섹션 검증 로그 저장 실패: {e}")
 
-    def _generate_chart_verification_content(self, query: str, section_title: str, section_data_list: List[SearchResult], chart_data: dict, timestamp: str) -> str:
+    def _generate_chart_verification_content(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], chart_data: dict, timestamp: str) -> str:
         """차트 검증 로그 내용 생성"""
         content = f"""
 ================================================================================
@@ -1446,6 +1441,9 @@ class OrchestratorAgent:
 
 섹션 제목:
 {section_title}
+
+섹션 설명:
+{section_description}
 
 ================================================================================
 섹션에서 사용한 데이터 (총 {len(section_data_list)}개)
@@ -1508,7 +1506,7 @@ _________________________________________________________________________
 
         return content
 
-    def _generate_section_verification_content(self, query: str, section_title: str, section_data_list: List[SearchResult], section_content: str, timestamp: str) -> str:
+    def _generate_section_verification_content(self, query: str, section_title: str, section_description: str, section_data_list: List[SearchResult], section_content: str, timestamp: str) -> str:
         """섹션 검증 로그 내용 생성"""
         content = f"""
 ================================================================================
@@ -1527,6 +1525,9 @@ _________________________________________________________________________
 
 섹션 제목:
 {section_title}
+
+섹션 설명:
+{section_description}
 
 ================================================================================
 섹션에서 사용한 데이터 (총 {len(section_data_list)}개)
@@ -1590,63 +1591,4 @@ _________________________________________________________________________
 """
 
         return content
-
-
-    def _apply_deduplication(self, results: List[SearchResult], deduplicator: GlobalDeduplicator) -> List[SearchResult]:
-        """SearchResult 객체 리스트에 중복 제거 적용"""
-        if not results:
-            return results
-
-        # SearchResult 객체를 딕셔너리로 변환하여 중복 제거 적용
-        results_as_dicts = []
-        for result in results:
-            result_dict = {
-                "page_content": result.content,
-                "meta_data": getattr(result, "metadata", {}),
-                "name": result.title,
-                "source": result.source,
-                "url": getattr(result, "url", ""),
-                "score": getattr(result, "score", 0.0),
-                "document_type": getattr(result, "document_type", "unknown")
-            }
-
-            # meta_data에서 chunk_id 추출 시도
-            if hasattr(result, "metadata") and result.metadata:
-                result_dict["meta_data"] = result.metadata
-            elif hasattr(result, "source") and result.source:
-                # source 기반으로 고유성 판단
-                result_dict["meta_data"] = {"chunk_id": f"source_{hash(result.source)}"}
-
-            results_as_dicts.append(result_dict)
-
-        # 소스별로 중복 제거 적용
-        source_type = self._determine_source_type(results[0])
-        unique_dicts = deduplicator.deduplicate_results(results_as_dicts, source_type)
-
-        # 다시 SearchResult 객체로 변환
-        unique_results = []
-        for result_dict in unique_dicts:
-            # 원본 SearchResult와 매칭하여 복원
-            for original_result in results:
-                if (original_result.content == result_dict.get("page_content", "") and
-                    original_result.title == result_dict.get("name", "")):
-                    unique_results.append(original_result)
-                    break
-
-        return unique_results
-
-    def _determine_source_type(self, result: SearchResult) -> str:
-        """SearchResult 객체로부터 소스 타입 결정"""
-        source = getattr(result, "source", "").lower()
-
-        if "elasticsearch" in source or "vector" in source:
-            return "elasticsearch"
-        elif "neo4j" in source or "graph" in source:
-            return "neo4j"
-        elif "web" in source or "google" in source:
-            return "web"
-        elif "rdb" in source or "postgres" in source:
-            return "rdb"
-        else:
-            return "unknown"
 

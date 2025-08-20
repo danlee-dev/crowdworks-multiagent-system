@@ -473,10 +473,8 @@ class MultiIndexRAGSearchEngine:
             hybrid_results.append(result)
         hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
         
-        # chunk_id 기반 중복 제거 적용
-        deduplicated_results = self.deduplicate_by_chunk_id(hybrid_results)
-        
-        return deduplicated_results[:top_k]
+        # 중복 제거 없이 바로 반환
+        return hybrid_results[:top_k]
 
     def dense_retrieval_index(self, query: str, index: str, top_k: int = 20) -> List[Dict]:
         vector = self.embed_text(query)
@@ -569,24 +567,6 @@ class MultiIndexRAGSearchEngine:
         page_content_hash = str(hash(result.get("page_content", "")))
         return f"{name}_{page_content_hash}"
     
-    def deduplicate_by_chunk_id(self, results: List[Dict]) -> List[Dict]:
-        """chunk_id 기반 중복 제거"""
-        seen_ids = set()
-        unique_results = []
-        
-        for result in results:
-            chunk_id = result.get("meta_data", {}).get("chunk_id")
-            
-            if chunk_id and chunk_id in seen_ids:
-                print(f"중복 제거: chunk_id={chunk_id}")
-                continue
-            
-            if chunk_id:
-                seen_ids.add(chunk_id)
-            unique_results.append(result)
-        
-        print(f"중복 제거 결과: {len(results)} → {len(unique_results)}")
-        return unique_results
 
     def cohere_reranking(self, results: List[Dict], query: str, top_k: int = 20) -> List[Dict]:
         """

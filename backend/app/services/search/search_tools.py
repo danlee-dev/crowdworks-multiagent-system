@@ -14,7 +14,6 @@ from ..database.elasticsearch.elastic_search_rag_tool import MultiIndexRAGSearch
 
 
 from ...core.models.models import ScrapeInput
-from ..utils.deduplication import deduplicate_mixed_results, GlobalDeduplicator
 
 
 
@@ -317,6 +316,7 @@ def vector_db_search(query: str, top_k = 20) -> List:
             # 출처 정보 더 명확히 포함
             source_info = metadata.get('document_link', 'Vector DB')
             page_number = metadata.get('page_number', 'N/A')
+            chunk_id = metadata.get('chunk_id', '')
 
             formatted_result = {
                 "content": content,
@@ -327,7 +327,8 @@ def vector_db_search(query: str, top_k = 20) -> List:
                 "source_url": source_info,  # 출처 정보 추가
                 "page_number": page_number,  # 페이지 번호 추가
                 "relevance_score": relavance,
-                "score": rerank_score
+                "score": rerank_score,
+                "chunk_id": chunk_id
             }
             processed_docs.append(formatted_result)
 
