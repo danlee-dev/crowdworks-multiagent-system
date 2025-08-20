@@ -1,12 +1,18 @@
 import os
+import sys
 import json
 import re
 from db.database import get_connection
 from dotenv import load_dotenv
-from openai import OpenAI
 
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# 상위 폴더의 utils 모듈을 import하기 위한 경로 추가
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))
+from utils.model_fallback import OpenAIClientFallbackManager
+
+# .env 파일 로드 (상위 폴더의 통합 .env 파일)
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '..', '.env'))
+
+print("✅ Crawler RDB: Fallback 시스템 초기화 - Gemini 키 1 → Gemini 키 2 → OpenAI 순으로 시도")
 
 def get_table_name_from_script(path: str) -> str:
     return os.path.splitext(os.path.basename(path))[0]
@@ -53,11 +59,10 @@ def generate_create_table_sql(sample_data_merged: dict, table_name: str) -> str:
     """
 
     try:
-        response = client.chat.completions.create(
-            model="gpt-4",
-            messages=[{"role": "user", "content": prompt}],
+        full_response = OpenAIClientFallbackManager.chat_completions_create_with_fallback(
+            model="gemini-2.5-pro",
+            messages=[{"role": "user", "content": prompt}]
         )
-        full_response = response.choices[0].message.content.strip()
         print("📄 GPT 응답:\n", full_response)
 
         match = re.search(r"(CREATE TABLE.*?;)", full_response, re.IGNORECASE | re.DOTALL)

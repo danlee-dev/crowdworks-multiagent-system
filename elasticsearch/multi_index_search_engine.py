@@ -5,15 +5,19 @@
 - improved_search_engine.py와 동일한 검색/임베딩/출력 방식
 """
 import sys
+import os
 import json
 import numpy as np
 from typing import List, Dict, Any, Optional, Tuple
 from elasticsearch import Elasticsearch
-import openai
 from datetime import datetime
 import re
 from rag_config import RAGConfig
 from sentence_transformers import SentenceTransformer
+
+# 상위 폴더의 utils 모듈을 import
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from utils.model_fallback import OpenAIClientFallbackManager
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -24,10 +28,8 @@ class MultiIndexRAGSearchEngine:
     def __init__(self, openai_api_key: str = None, es_host: str = None, es_user: str = None, es_password: str = None, config: RAGConfig = None):
         if config is None:
             config = RAGConfig()
-        api_key = openai_api_key or config.OPENAI_API_KEY
-        if api_key == "your-openai-api-key-here":
-            raise ValueError("OpenAI API 키를 설정해주세요 (rag_config.py 또는 초기화 파라미터)")
-        self.client = openai.OpenAI(api_key=api_key)
+        print("✅ Elasticsearch RAG: Fallback 시스템 초기화 - Gemini 키 1 → Gemini 키 2 → OpenAI 순으로 시도")
+        # Fallback 시스템 사용으로 변경 (OpenAI client 직접 초기화 제거)
         self.es = Elasticsearch(
             es_host or config.ELASTICSEARCH_HOST,
             basic_auth=(es_user or config.ELASTICSEARCH_USER, es_password or config.ELASTICSEARCH_PASSWORD)
@@ -72,13 +74,12 @@ class MultiIndexRAGSearchEngine:
 
 질문: {query}
 답변:"""
-            response = self.client.chat.completions.create(
+            hypothetical_doc = OpenAIClientFallbackManager.chat_completions_create_with_fallback(
                 model=self.HYDE_MODEL,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=self.HYDE_MAX_TOKENS,
                 temperature=self.HYDE_TEMPERATURE
             )
-            hypothetical_doc = response.choices[0].message.content.strip()
             enhanced_query = f"{query} {hypothetical_doc}"
             return enhanced_query
         except Exception as e:
@@ -107,13 +108,12 @@ class MultiIndexRAGSearchEngine:
 
 이와 같은 형식으로 답변해주세요.
 """
-            response = self.client.chat.completions.create(
+            hypothetical_doc = OpenAIClientFallbackManager.chat_completions_create_with_fallback(
                 model=self.HYDE_MODEL,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=self.HYDE_MAX_TOKENS,
                 temperature=self.HYDE_TEMPERATURE
             )
-            hypothetical_doc = response.choices[0].message.content.strip()
             enhanced_query = f"{query} {hypothetical_doc}"
             return enhanced_query
         except Exception as e:
@@ -356,13 +356,12 @@ class MultiIndexRAGSearchEngine:
                 try:
                     prompt = f"""
 다음 문서를 주어진 질문과 관련된 핵심 내용 위주로 요약해주세요.\n요약 길이: 원본의 {self.SUMMARIZATION_RATIO}% 정도\n질문: {query}\n문서 내용:\n{page_content}\n요약:"""
-                    response = self.client.chat.completions.create(
-                        model="gpt-3.5-turbo",
+                    summary = OpenAIClientFallbackManager.chat_completions_create_with_fallback(
+                        model="gemini-2.5-flash-lite",
                         messages=[{"role": "user", "content": prompt}],
                         max_tokens=self.SUMMARIZATION_MAX_TOKENS,
                         temperature=0.3
                     )
-                    summary = response.choices[0].message.content.strip()
                     result["summarized_content"] = summary
                     result["original_length"] = len(page_content)
                     result["summary_length"] = len(summary)

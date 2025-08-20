@@ -4,10 +4,14 @@ RAG 검색 엔진 설정 파일
 """
 
 import os
+import sys
 from dotenv import load_dotenv
 
-# .env 파일 로드
-load_dotenv()
+# 상위 폴더의 utils 모듈을 import하기 위한 경로 추가
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
+# .env 파일 로드 (상위 폴더의 통합 .env 파일)
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 class RAGConfig:
     """RAG 시스템 설정"""
@@ -48,7 +52,7 @@ class RAGConfig:
     USE_HYDE = False  # HyDE 비활성화
     HYDE_MAX_TOKENS = 500  # 충분한 길이의 개선 쿼리 생성
     HYDE_TEMPERATURE = 0.3
-    HYDE_MODEL = "gpt-4o-mini"  # 실제로는 더 큰 모델 권장
+    HYDE_MODEL = "gemini-2.5-flash"  # HyDE용 빠른 모델
     
     # Query Rewriting
     USE_QUERY_REWRITING = False  # 논문에서 효과 제한적
@@ -129,7 +133,7 @@ class RAGConfig:
     # ========== 응답 생성 설정 ==========
     
     # LLM 설정
-    GENERATOR_MODEL = "gpt-3.5-turbo"  # 실제로는 더 큰 모델 권장
+    GENERATOR_MODEL = "gemini-2.5-flash-lite"  # 응답 생성용 경량 모델
     GENERATOR_MAX_TOKENS = 500
     GENERATOR_TEMPERATURE = 0.3
     

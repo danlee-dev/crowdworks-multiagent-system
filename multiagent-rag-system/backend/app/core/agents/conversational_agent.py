@@ -1,10 +1,15 @@
 import json
 import asyncio
 import os
+import sys
 from typing import AsyncGenerator, List
 from datetime import datetime
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_openai import ChatOpenAI
+
+# Fallback 시스템 import (Docker 볼륨 마운트된 utils 폴더)
+sys.path.append('/app')
+from utils.model_fallback import ModelFallbackManager
 
 from ..models.models import StreamingAgentState, SearchResult
 from ...services.search.search_tools import vector_db_search
@@ -35,7 +40,22 @@ class SimpleAnswererAgent:
             model="gemini-2.5-flash-lite", temperature=temperature
         )
 
-        # OpenAI fallback 모델들
+        # Gemini 백업 키와 OpenAI fallback 모델들
+        # ModelFallbackManager는 이미 상단에서 import됨
+        
+        # Gemini 백업 모델 (두 번째 키)
+        try:
+            self.llm_gemini_backup = ChatGoogleGenerativeAI(
+                model="gemini-2.5-flash-lite",
+                temperature=temperature,
+                google_api_key=ModelFallbackManager.GEMINI_KEY_2
+            )
+            print("SimpleAnswererAgent: Gemini 백업 모델 (키 2) 초기화 완료")
+        except Exception as e:
+            print(f"SimpleAnswererAgent: Gemini 백업 모델 초기화 실패: {e}")
+            self.llm_gemini_backup = None
+        
+        # OpenAI fallback 모델
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         if self.openai_api_key:
             self.llm_openai_mini = ChatOpenAI(
@@ -53,25 +73,40 @@ class SimpleAnswererAgent:
 
     async def _astream_with_fallback(self, prompt, primary_model, fallback_model):
         """
-        스트리밍을 위한 Gemini API rate limit 시 OpenAI로 fallback 처리
+        스트리밍을 위한 Gemini 키 2개 -> OpenAI 순차 fallback 처리
         """
+        # 1차: 기본 Gemini 모델 (키 1) 시도
         try:
             async for chunk in primary_model.astream(prompt):
                 yield chunk
+            return
         except Exception as e:
             error_str = str(e).lower()
             rate_limit_indicators = ['429', 'quota', 'rate limit', 'exceeded', 'resource_exhausted']
 
             if any(indicator in error_str for indicator in rate_limit_indicators):
-                print(f"SimpleAnswererAgent: Gemini API rate limit 감지, OpenAI로 fallback 시도: {e}")
+                print(f"SimpleAnswererAgent: Gemini 키 1 rate limit 감지: {e}")
+                
+                # 2차: Gemini 백업 모델 (키 2) 시도
+                if self.llm_gemini_backup:
+                    try:
+                        print("SimpleAnswererAgent: Gemini 키 2로 fallback 시도")
+                        async for chunk in self.llm_gemini_backup.astream(prompt):
+                            yield chunk
+                        return
+                    except Exception as backup_error:
+                        print(f"SimpleAnswererAgent: Gemini 키 2도 실패: {backup_error}")
+                
+                # 3차: OpenAI fallback 시도
                 if fallback_model:
                     try:
                         print("SimpleAnswererAgent: OpenAI fallback으로 스트리밍 시작")
                         async for chunk in fallback_model.astream(prompt):
                             yield chunk
-                    except Exception as fallback_error:
-                        print(f"SimpleAnswererAgent: OpenAI fallback도 실패: {fallback_error}")
-                        raise fallback_error
+                        return
+                    except Exception as openai_error:
+                        print(f"SimpleAnswererAgent: OpenAI fallback도 실패: {openai_error}")
+                        raise openai_error
                 else:
                     print("SimpleAnswererAgent: OpenAI 모델이 초기화되지 않음")
                     raise e
@@ -80,8 +115,9 @@ class SimpleAnswererAgent:
 
     async def _invoke_with_fallback(self, prompt, primary_model, fallback_model):
         """
-        Gemini API rate limit 시 OpenAI로 fallback 처리
+        Gemini 키 2개 -> OpenAI 순차 fallback 처리
         """
+        # 1차: 기본 Gemini 모델 (키 1) 시도
         try:
             result = await primary_model.ainvoke(prompt)
             return result
@@ -90,15 +126,28 @@ class SimpleAnswererAgent:
             rate_limit_indicators = ['429', 'quota', 'rate limit', 'exceeded', 'resource_exhausted']
 
             if any(indicator in error_str for indicator in rate_limit_indicators):
-                print(f"SimpleAnswererAgent: Gemini API rate limit 감지, OpenAI로 fallback 시도: {e}")
+                print(f"SimpleAnswererAgent: Gemini 키 1 rate limit 감지: {e}")
+                
+                # 2차: Gemini 백업 모델 (키 2) 시도
+                if self.llm_gemini_backup:
+                    try:
+                        print("SimpleAnswererAgent: Gemini 키 2로 fallback 시도")
+                        result = await self.llm_gemini_backup.ainvoke(prompt)
+                        print("SimpleAnswererAgent: Gemini 키 2 fallback 성공")
+                        return result
+                    except Exception as backup_error:
+                        print(f"SimpleAnswererAgent: Gemini 키 2도 실패: {backup_error}")
+                
+                # 3차: OpenAI fallback 시도
                 if fallback_model:
                     try:
+                        print("SimpleAnswererAgent: OpenAI fallback 시도")
                         result = await fallback_model.ainvoke(prompt)
                         print("SimpleAnswererAgent: OpenAI fallback 성공")
                         return result
-                    except Exception as fallback_error:
-                        print(f"SimpleAnswererAgent: OpenAI fallback도 실패: {fallback_error}")
-                        raise fallback_error
+                    except Exception as openai_error:
+                        print(f"SimpleAnswererAgent: OpenAI fallback도 실패: {openai_error}")
+                        raise openai_error
                 else:
                     print("SimpleAnswererAgent: OpenAI 모델이 초기화되지 않음")
                     raise e

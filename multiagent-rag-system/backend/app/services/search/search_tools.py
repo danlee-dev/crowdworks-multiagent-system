@@ -9,7 +9,7 @@ from pypdf import PdfReader
 
 # 각 RAG 툴의 메인 함수를 import
 from ..database.postgres_rag_tool import postgres_rdb_search
-from ..database.neo4j_rag_tool import neo4j_search_sync
+from ..database.neo4j_rag_tool import neo4j_graph_search
 from ..database.elasticsearch.elastic_search_rag_tool import MultiIndexRAGSearchEngine, RAGConfig
 
 
@@ -341,15 +341,19 @@ def vector_db_search(query: str, top_k = 20) -> List:
 @tool
 def graph_db_search(query: str) -> str:
     """
-    상위 레벨 도구 진입점:
-    - 실행중 이벤트 루프가 있으면 ThreadPool에서 동기 함수 실행
-    - 없으면 동기 실행
+    Graph DB 검색 도구 - 비동기 Neo4j 검색을 동기적으로 래핑
     """
     session_print("GraphDB", f"Graph DB search called: {query}")
     try:
-        # 이벤트 루프 상태와 관계없이 직접 동기 호출로 통일
-        print("Using direct sync call for Graph DB")
-        return neo4j_search_sync(query)
+        # 새 이벤트 루프에서 비동기 함수 실행
+        import asyncio
+        loop = asyncio.new_event_loop()
+        try:
+            asyncio.set_event_loop(loop)
+            return loop.run_until_complete(neo4j_graph_search(query))
+        finally:
+            loop.close()
+            asyncio.set_event_loop(None)
     except Exception as e:
         print(f"graph_db_search error: {e}")
         return f"Graph DB 검색 중 오류: {e}"

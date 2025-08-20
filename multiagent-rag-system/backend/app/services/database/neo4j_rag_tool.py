@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
-from neo4j import GraphDatabase, basic_auth
+from neo4j import AsyncGraphDatabase, basic_auth
 from neo4j.exceptions import ClientError
 from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -48,8 +48,8 @@ class GraphDBClient:
         user = os.getenv("NEO4J_USER", user)
         password = os.getenv("NEO4J_PASSWORD", password)
 
-        # Neo4j 드라이버 연결 설정 최적화
-        self._driver = GraphDatabase.driver(
+        # Neo4j 비동기 드라이버 연결 설정 최적화
+        self._driver = AsyncGraphDatabase.driver(
             uri, 
             auth=basic_auth(user, password),
             max_connection_lifetime=30,  # 연결 수명 30초
@@ -61,31 +61,24 @@ class GraphDBClient:
         )
         _debug(f"Connected Neo4j (uri={uri})")
 
-    def close(self):
+    async def close(self):
         try:
-            self._driver.close()
+            await self._driver.close()
             _debug("Driver closed")
         except Exception:
             pass
 
-    def run(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        session = None
-        try:
-            session = self._driver.session(
-                database="neo4j",  # 명시적 데이터베이스 지정
-                default_access_mode="READ"  # 읽기 전용 모드
-            )
-            res = session.run(query, params or {}, timeout=20)  # 20초 타임아웃
-            return [r.data() for r in res]
-        except Exception as e:
-            _debug(f"Neo4j query error: {e}")
-            raise
-        finally:
-            if session:
-                try:
-                    session.close()
-                except Exception as close_error:
-                    _debug(f"Error closing session: {close_error}")
+    async def run(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
+        async with self._driver.session(
+            database="neo4j",  # 명시적 데이터베이스 지정
+            default_access_mode="READ"  # 읽기 전용 모드
+        ) as session:
+            try:
+                res = await session.run(query, params or {}, timeout=20)  # 20초 타임아웃
+                return [r.data() async for r in res]
+            except Exception as e:
+                _debug(f"Neo4j query error: {e}")
+                raise
 
 
 # =========================
@@ -196,8 +189,8 @@ LIMIT 500
         _debug(f"Search completed - Final results: nodes={len(nodes_sorted)}, origins={len(isfrom_list)}, nutrients={len(nutrients_list)}, docs={len(docrels_list)}")
         return report
 
-    def close(self):
-        self.client.close()
+    async def close(self):
+        await self.client.close()
 
     # ---------- Keyword Extraction ----------
     async def _extract_keywords(self, q: str) -> Dict[str, List[str]]:
@@ -388,8 +381,7 @@ JSON 예:
 
     # ---------- Helpers ----------
     async def _run_async(self, query: str, params: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
-        loop = asyncio.get_running_loop()
-        return await loop.run_in_executor(None, self.client.run, query, params or {})
+        return await self.client.run(query, params or {})
 
     def _format_node(self, node, score: float) -> Dict[str, Any]:
         try:
@@ -656,4 +648,4 @@ async def neo4j_graph_search(query: str) -> str:
     try:
         return await svc.search(query)
     finally:
-        svc.close()
+        await svc.close()
