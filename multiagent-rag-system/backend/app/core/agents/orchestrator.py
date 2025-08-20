@@ -328,32 +328,26 @@ class OrchestratorAgent:
 
         try:
             import os
-            from langchain_openai import ChatOpenAI
+            import sys
+            
+            # Fallback 시스템 import (Docker 볼륨 마운트된 utils 폴더)
+            sys.path.append('/app')
+            from utils.model_fallback import ModelFallbackManager
 
-            # OpenAI 클라이언트 생성
-            openai_api_key = os.getenv("OPENAI_API_KEY")
-            if not openai_api_key:
-                print("🤖 OpenAI API 키가 없어서 기본 페르소나 사용")
-                return "기본"
+            # Gemini → OpenAI Fallback으로 팀 추천
+            full_prompt = f"""당신은 사용자의 질문을 분석하여 가장 적절한 전문가를 추천하는 AI입니다. 정확히 주어진 전문가 이름 중 하나만 답변하세요.
 
-            llm = ChatOpenAI(
-                model="gpt-4o-mini",
+{prompt}"""
+
+            suggested_persona = ModelFallbackManager.try_invoke_with_fallback(
+                prompt=full_prompt,
+                gemini_model="gemini-2.5-flash-lite",
+                openai_model="gpt-4o-mini",
                 temperature=0.1,
-                max_tokens=50,
-                api_key=openai_api_key
+                max_tokens=50
             )
 
-            # LangChain HumanMessage, SystemMessage 방식으로 호출
-            from langchain_core.messages import HumanMessage, SystemMessage
-
-            messages = [
-                SystemMessage(content="당신은 사용자의 질문을 분석하여 가장 적절한 전문가를 추천하는 AI입니다. 정확히 주어진 전문가 이름 중 하나만 답변하세요."),
-                HumanMessage(content=prompt)
-            ]
-
-            response = await llm.ainvoke(messages)
-
-            suggested_persona = response.content.strip()
+            suggested_persona = suggested_persona.strip()
 
             # 제안된 페르소나가 실제 목록에 있는지 확인
             if suggested_persona in self.personas:

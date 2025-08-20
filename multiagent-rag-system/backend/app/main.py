@@ -2,8 +2,24 @@ import sys
 import uuid
 import json
 import asyncio
+import os
+import logging
+import warnings
 from datetime import datetime
 from typing import AsyncGenerator, Dict, Any, List, Optional
+
+# gRPC 관련 경고 및 오류 무시 설정
+warnings.filterwarnings("ignore", category=RuntimeWarning, module="grpc")
+logging.getLogger("grpc").setLevel(logging.ERROR)
+logging.getLogger("grpc._cython").setLevel(logging.ERROR)
+
+# asyncio 관련 BlockingIOError 무시
+import asyncio
+asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+
+# Fallback 시스템 import (Docker 볼륨 마운트된 utils 폴더)
+sys.path.append('/app')
+from utils.model_fallback import ModelFallbackManager
 
 # Pydantic과 FastAPI는 웹 서버 구성을 위해 필요합니다.
 from pydantic import BaseModel, Field
@@ -15,6 +31,20 @@ from fastapi.middleware.cors import CORSMiddleware
 from .database import ChatDatabase
 
 from .core.config.env_checker import check_api_keys
+
+# gRPC 비기능적 오류를 완전히 무시하는 설정
+import sys
+import io
+class SuppressGRPCErrors:
+    def __init__(self):
+        self.original_stderr = sys.stderr
+        
+    def __enter__(self):
+        sys.stderr = io.StringIO()
+        return self
+        
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        sys.stderr = self.original_stderr
 
 check_api_keys()
 
@@ -475,14 +505,8 @@ async def generate_chat_title(request: dict):
         if not query:
             return {"error": "쿼리가 필요합니다"}
 
-        # ChatOpenAI를 사용하여 제목 생성
-        from langchain_openai import ChatOpenAI
-
-        llm = ChatOpenAI(
-            model="gpt-4o-mini",
-            temperature=0.3,
-            max_tokens=50
-        )
+        # Gemini -> OpenAI fallback으로 제목 생성
+        # ModelFallbackManager는 이미 상단에서 import됨
 
         # 제목 생성 프롬프트
         title_prompt = f"""사용자의 질문을 바탕으로 간결하고 명확한 채팅방 제목을 생성해주세요.
@@ -497,9 +521,18 @@ async def generate_chat_title(request: dict):
 
 제목만 답변해주세요:"""
 
-        # LLM 호출
-        response = llm.invoke(title_prompt)
-        title = response.content.strip()
+        # LLM 호출 (Gemini 2개 키 -> OpenAI 순으로 시도)
+        try:
+            title = ModelFallbackManager.try_invoke_with_fallback(
+                prompt=title_prompt,
+                gemini_model="gemini-1.5-flash",
+                openai_model="gpt-4o-mini",
+                temperature=0.3,
+                max_tokens=50
+            )
+        except Exception as e:
+            print(f"제목 생성 실패: {e}")
+            title = "새 채팅"  # 기본 제목
 
         # 제목 후처리 (특수문자 제거, 길이 제한)
         title = title.replace('"', '').replace("'", '').replace('\n', '').strip()

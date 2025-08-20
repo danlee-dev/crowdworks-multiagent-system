@@ -6,6 +6,10 @@ import json
 import concurrent.futures
 import os
 from typing import Dict, List, Any, Optional, AsyncGenerator, Tuple
+
+# Fallback 시스템 import (Docker 볼륨 마운트된 utils 폴더)
+sys.path.append('/app')
+from utils.model_fallback import ModelFallbackManager
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor
 
@@ -54,6 +58,20 @@ class DataGathererAgent:
         # Gemini 모델 (기본)
         self.llm = ChatGoogleGenerativeAI(model=model, temperature=temperature)
 
+        # Gemini 백업 키와 OpenAI fallback 모델들
+        
+        # Gemini 백업 모델 (두 번째 키)
+        try:
+            self.llm_gemini_backup = ChatGoogleGenerativeAI(
+                model=model,
+                temperature=temperature,
+                google_api_key=ModelFallbackManager.GEMINI_KEY_2
+            )
+            print("DataGathererAgent: Gemini 백업 모델 (키 2) 초기화 완료")
+        except Exception as e:
+            print(f"DataGathererAgent: Gemini 백업 모델 초기화 실패: {e}")
+            self.llm_gemini_backup = None
+        
         # OpenAI fallback 모델들
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         if self.openai_api_key:
@@ -67,11 +85,11 @@ class DataGathererAgent:
                 temperature=temperature,
                 api_key=self.openai_api_key
             )
-            print("OpenAI fallback 모델 초기화 완료")
+            print("DataGathererAgent: OpenAI fallback 모델 초기화 완료")
         else:
             self.llm_openai_mini = None
             self.llm_openai_4o = None
-            print("경고: OPENAI_API_KEY가 설정되지 않음. Gemini 오류 시 fallback 불가")
+            print("DataGathererAgent: 경고: OPENAI_API_KEY가 설정되지 않음")
 
         # 도구 매핑 설정 - 이름 통일
         self.tool_mapping = {
@@ -87,33 +105,43 @@ class DataGathererAgent:
     async def _invoke_with_fallback(self, prompt: str, use_4o: bool = False) -> str:
         """Gemini API 실패 시 OpenAI로 fallback하는 메서드"""
         try:
-            # 1차 시도: Gemini
-            print("  - Gemini API 시도 중...")
+            # 1차 시도: Gemini (키 1)
+            print("  - Gemini 키 1 API 시도 중...")
             response = await self.llm.ainvoke(prompt)
             return response.content.strip()
         except Exception as e:
             error_msg = str(e)
-            print(f"  - Gemini API 실패: {error_msg}")
+            print(f"  - Gemini 키 1 API 실패: {error_msg}")
 
             # Rate limit 또는 quota 오류 체크
             if any(keyword in error_msg.lower() for keyword in ['429', 'quota', 'rate limit', 'exceeded']):
-                print("  - Rate limit 감지, OpenAI로 fallback 시도...")
+                print("  - Rate limit 감지, fallback 순차 시도...")
 
-                if self.llm_openai_mini is None:
-                    print("  - OpenAI API 키가 없어 fallback 불가")
+                # 2차 시도: Gemini 백업 (키 2)
+                if self.llm_gemini_backup:
+                    try:
+                        print("  - Gemini 키 2 API 시도 중...")
+                        response = await self.llm_gemini_backup.ainvoke(prompt)
+                        print("  - Gemini 키 2 API 성공!")
+                        return response.content.strip()
+                    except Exception as backup_error:
+                        print(f"  - Gemini 키 2 API도 실패: {backup_error}")
+                
+                # 3차 시도: OpenAI
+                if self.llm_openai_mini:
+                    try:
+                        fallback_model = self.llm_openai_4o if use_4o else self.llm_openai_mini
+                        model_name = "gpt-4o" if use_4o else "gpt-4o-mini"
+                        print(f"  - {model_name} API 시도 중...")
+                        response = await fallback_model.ainvoke(prompt)
+                        print(f"  - {model_name} API 성공!")
+                        return response.content.strip()
+                    except Exception as openai_error:
+                        print(f"  - OpenAI API도 실패: {openai_error}")
+                        raise openai_error
+                else:
+                    print("  - OpenAI API 키가 없어 최종 fallback 불가")
                     raise e
-
-                try:
-                    # 2차 시도: OpenAI
-                    fallback_model = self.llm_openai_4o if use_4o else self.llm_openai_mini
-                    model_name = "gpt-4o" if use_4o else "gpt-4o-mini"
-                    print(f"  - {model_name} API 시도 중...")
-                    response = await fallback_model.ainvoke(prompt)
-                    print(f"  - {model_name} API 성공!")
-                    return response.content.strip()
-                except Exception as openai_error:
-                    print(f"  - OpenAI API도 실패: {openai_error}")
-                    raise openai_error
             else:
                 # Rate limit이 아닌 다른 오류는 그대로 발생
                 raise e
@@ -1265,6 +1293,25 @@ class ProcessorAgent:
         # 구조 설계, 요약 등 빠른 작업에 사용할 경량 모델 (Gemini)
         self.llm_flash = ChatGoogleGenerativeAI(model=model_flash, temperature=0.1)
 
+        # Gemini backup 모델들 (key 2 사용)
+        self.gemini_key_2 = "AIzaSyDveumPdpzqw1jdN8wYq2XbAFPGbEYORD4"
+        try:
+            self.llm_pro_backup = ChatGoogleGenerativeAI(
+                model=model_pro,
+                temperature=temperature,
+                google_api_key=self.gemini_key_2
+            )
+            self.llm_flash_backup = ChatGoogleGenerativeAI(
+                model=model_flash,
+                temperature=0.1,
+                google_api_key=self.gemini_key_2
+            )
+            print("ProcessorAgent: Gemini backup 모델 초기화 완료")
+        except Exception as e:
+            print(f"ProcessorAgent: Gemini backup 모델 초기화 실패: {e}")
+            self.llm_pro_backup = None
+            self.llm_flash_backup = None
+
         # OpenAI fallback 모델들
         self.openai_api_key = os.getenv("OPENAI_API_KEY")
         if self.openai_api_key:
@@ -1292,37 +1339,44 @@ class ProcessorAgent:
             "create_chart_data": self._create_charts,
         }
 
-    async def _invoke_with_fallback(self, prompt, primary_model, fallback_model):
+    async def _invoke_with_fallback(self, prompt, primary_model, backup_model, fallback_model):
         """
-        Gemini API rate limit 시 OpenAI로 fallback 처리
+        Gemini key 1 → Gemini key 2 → OpenAI 순으로 fallback 처리
         """
+        # Gemini key 1 시도
         try:
             result = await primary_model.ainvoke(prompt)
             return result
         except Exception as e:
-            error_str = str(e).lower()
-            rate_limit_indicators = ['429', 'quota', 'rate limit', 'exceeded', 'resource_exhausted']
+            print(f"ProcessorAgent: Gemini key 1 실패: {e}")
 
-            if any(indicator in error_str for indicator in rate_limit_indicators):
-                print(f"ProcessorAgent: Gemini API rate limit 감지, OpenAI로 fallback 시도: {e}")
-                if fallback_model:
-                    try:
-                        result = await fallback_model.ainvoke(prompt)
-                        print("ProcessorAgent: OpenAI fallback 성공")
-                        return result
-                    except Exception as fallback_error:
-                        print(f"ProcessorAgent: OpenAI fallback도 실패: {fallback_error}")
-                        raise fallback_error
-                else:
-                    print("ProcessorAgent: OpenAI 모델이 초기화되지 않음")
-                    raise e
-            else:
-                raise e
+        # Gemini key 2 시도
+        if backup_model:
+            try:
+                result = await backup_model.ainvoke(prompt)
+                print("ProcessorAgent: Gemini key 2 성공")
+                return result
+            except Exception as e:
+                print(f"ProcessorAgent: Gemini key 2 실패: {e}")
 
-    async def _astream_with_fallback(self, prompt, primary_model, fallback_model):
+        # OpenAI 시도
+        if fallback_model:
+            try:
+                result = await fallback_model.ainvoke(prompt)
+                print("ProcessorAgent: OpenAI fallback 성공")
+                return result
+            except Exception as fallback_error:
+                print(f"ProcessorAgent: OpenAI fallback도 실패: {fallback_error}")
+                raise fallback_error
+        else:
+            print("ProcessorAgent: 모든 fallback 모델이 없음")
+            raise Exception("모든 API 키 시도 실패")
+
+    async def _astream_with_fallback(self, prompt, primary_model, backup_model, fallback_model):
         """
-        스트리밍을 위한 Gemini API rate limit 시 OpenAI로 fallback 처리
+        스트리밍을 위한 Gemini key 1 → Gemini key 2 → OpenAI 순 fallback 처리
         """
+        # Gemini key 1 시도
         primary_chunks_received = 0
         primary_content_length = 0
 
@@ -1338,32 +1392,41 @@ class ProcessorAgent:
 
             # 청크를 받았지만 내용이 비어있는 경우도 실패로 간주
             if primary_chunks_received == 0 or primary_content_length == 0:
-                print(f"- Primary 모델에서 유효한 내용이 생성되지 않음, fallback 실행")
+                print(f"- Primary 모델에서 유효한 내용이 생성되지 않음, backup 시도")
                 raise Exception("No valid content generated")
+            return
 
         except Exception as e:
-            error_str = str(e).lower()
-            rate_limit_indicators = ['429', 'quota', 'rate limit', 'exceeded', 'resource_exhausted', 'no valid content', 'no generation chunks']
+            print(f"ProcessorAgent: Gemini key 1 실패: {e}")
 
-            if any(indicator in error_str for indicator in rate_limit_indicators) or primary_chunks_received == 0:
-                print(f"ProcessorAgent: Gemini API 문제 감지 (청크:{primary_chunks_received}, 내용:{primary_content_length}), OpenAI로 fallback: {e}")
-                if fallback_model:
-                    try:
-                        print("ProcessorAgent: OpenAI fallback으로 스트리밍 시작")
-                        fallback_chunks_received = 0
-                        async for chunk in fallback_model.astream(prompt):
-                            fallback_chunks_received += 1
-                            yield chunk
-                        print(f"ProcessorAgent: OpenAI fallback 완료: {fallback_chunks_received}개 청크")
-                    except Exception as fallback_error:
-                        print(f"ProcessorAgent: OpenAI fallback도 실패: {fallback_error}")
-                        raise fallback_error
-                else:
-                    print("ProcessorAgent: OpenAI 모델이 초기화되지 않음")
-                    raise e
-            else:
-                print(f"ProcessorAgent: 복구 불가능한 오류: {e}")
-                raise e
+        # Gemini key 2 시도
+        if backup_model:
+            try:
+                print("ProcessorAgent: Gemini key 2로 스트리밍 시작")
+                backup_chunks_received = 0
+                async for chunk in backup_model.astream(prompt):
+                    backup_chunks_received += 1
+                    yield chunk
+                print(f"ProcessorAgent: Gemini key 2 완료: {backup_chunks_received}개 청크")
+                return
+            except Exception as e:
+                print(f"ProcessorAgent: Gemini key 2도 실패: {e}")
+
+        # OpenAI 시도
+        if fallback_model:
+            try:
+                print("ProcessorAgent: OpenAI fallback으로 스트리밍 시작")
+                fallback_chunks_received = 0
+                async for chunk in fallback_model.astream(prompt):
+                    fallback_chunks_received += 1
+                    yield chunk
+                print(f"ProcessorAgent: OpenAI fallback 완료: {fallback_chunks_received}개 청크")
+            except Exception as fallback_error:
+                print(f"ProcessorAgent: OpenAI fallback도 실패: {fallback_error}")
+                raise fallback_error
+        else:
+            print("ProcessorAgent: 모든 fallback 모델이 없음")
+            raise Exception("모든 API 키 시도 실패")
 
     async def process(self, processor_type: str, data: Any, param2: Any, param3: str, param4: str = "", yield_callback=None, state: Optional[Dict[str, Any]] = None):
         """Orchestrator로부터 동기식 작업을 받아 처리합니다."""
@@ -1587,6 +1650,7 @@ class ProcessorAgent:
             response = await self._invoke_with_fallback(
                 prompt,
                 self.llm_flash,
+                self.llm_flash_backup,
                 self.llm_openai_mini
             )
 
@@ -1793,6 +1857,7 @@ class ProcessorAgent:
         response = await self._invoke_with_fallback(
             prompt,
             self.llm_flash,
+            self.llm_flash_backup,
             self.llm_openai_mini
         )
         return response.content
@@ -2069,6 +2134,7 @@ class ProcessorAgent:
             async for chunk in self._astream_with_fallback(
                 prompt,
                 self.llm_pro,
+                self.llm_pro_backup,
                 self.llm_openai_4o
             ):
                 chunk_count += 1
@@ -2329,6 +2395,7 @@ class ProcessorAgent:
                 response = await self._invoke_with_fallback(
                     chart_prompt,
                     self.llm_flash,
+                    self.llm_flash_backup,
                     self.llm_openai_mini
                 )
                 response_text = response.content.strip()
