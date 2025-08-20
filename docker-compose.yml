@@ -12,28 +12,32 @@ services:
     volumes:
       - ./postgresql:/var/lib/postgresql/data
     ports:
-      - "5433:5432"
+      - "127.0.0.1:5433:5432"
     networks:
       - crowdworks-network
 
-  # Elasticsearch
+  # Elasticsearch with Korean Analysis Plugin
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.11.0
     container_name: es-demo
     environment:
       - discovery.type=single-node
-      - xpack.security.enabled=true
-      - xpack.security.http.ssl.enabled=false
-      - ELASTIC_PASSWORD=changeme
+      - xpack.security.enabled=false
+      - xpack.ml.enabled=false
       - ES_JAVA_OPTS=-Xms512m -Xmx512m
     volumes:
-      - es_data:/usr/share/elasticsearch/data
+      - elasticsearch_es_data:/usr/share/elasticsearch/data
     ports:
       - "9200:9200"
     networks:
       - crowdworks-network
+    command: >
+      bash -c "
+        bin/elasticsearch-plugin list | grep -q analysis-nori || bin/elasticsearch-plugin install analysis-nori --batch;
+        exec bin/elasticsearch
+      "
 
-  # Kibana (optional)
+  # Kibana
   kibana:
     image: docker.elastic.co/kibana/kibana:8.11.0
     container_name: kibana-demo
@@ -56,11 +60,11 @@ services:
     container_name: neo4j
     restart: unless-stopped
     ports:
-      - "7474:7474"
-      - "7687:7687"
-      - "7473:7473"
+      - "127.0.0.1:7474:7474"
+      - "127.0.0.1:7687:7687"
+      - "127.0.0.1:7473:7473"
     volumes:
-      - ./Neo4J/data:/data
+      - neo4j_data_original:/data
       - ./Neo4J/import:/import
       - ./Neo4J/plugins:/plugins
       - ./Neo4J/logs:/logs
@@ -113,11 +117,13 @@ services:
       - ./multiagent-rag-system/backend/app:/app/app
       - ./multiagent-rag-system/backend/.env:/app/.env
       - ./logs:/app/logs
+      - ./utils:/app/utils
     working_dir: /app
     environment:
       - DB_HOST=postgres
       - DB_PORT=5432
       - NEO4J_URI=bolt://neo4j:7687
+      - ELASTICSEARCH_HOST=http://elasticsearch:9200
     env_file:
       - ./multiagent-rag-system/backend/.env
     depends_on:
@@ -148,7 +154,10 @@ services:
     tty: true
 
 volumes:
-  es_data:
+  elasticsearch_es_data:
+    external: true
+  neo4j_data_original:
+    external: true
 
 networks:
   crowdworks-network:

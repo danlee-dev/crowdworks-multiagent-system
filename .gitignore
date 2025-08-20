@@ -2,8 +2,9 @@
 # Crowdworks Multiagent System
 # ====================================
 
-# Development environments  
+# Development environments
 multiagent-rag-system-dev/
+data/
 
 # Large files and build artifacts (GitHub file size limits)
 Neo4J/data/transactions/
@@ -15,6 +16,11 @@ crawler/.venv/
 postgresql/
 Neo4J/data/
 elasticsearch/data/
+elasticsearch/datas/
+elasticsearch/embedding_datas/
+elasticsearch/preprocessed_datas/
+*/data/
+*/datas/
 
 # ====================================
 # From multiagent-rag-system/.gitignore
@@ -144,6 +150,11 @@ tmp/
 .cache/
 temp_img/
 
+# Crawler data
+ReferencePDF/
+ReportPDF/
+report_data/
+
 # Project Specific
 generated_charts/
 exports/
@@ -158,5 +169,6 @@ data/processed/
 notebooks/output/
 *.html
 *.pdf
+*.txt
 
 rag_config.py

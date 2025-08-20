@@ -1,19 +1,17 @@
 import os
+import sys
 import glob
 import csv
 from dotenv import load_dotenv
-from openai import OpenAI
 
-# .env 파일 로드
-load_dotenv()
+# 상위 폴더의 utils 모듈을 import하기 위한 경로 추가
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+from utils.model_fallback import OpenAIClientFallbackManager
 
-# 환경 변수에서 API 키 가져오기
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    raise ValueError("❌ OPENAI_API_KEY가 .env 파일에 설정되지 않았습니다.")
+# .env 파일 로드 (상위 폴더의 .env 파일)
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
-# OpenAI 클라이언트 초기화
-client = OpenAI(api_key=api_key)
+print("✅ Fallback 시스템 초기화 완료: Gemini 키 1 → Gemini 키 2 → OpenAI 순으로 시도")
 
 # TXT 파일이 있는 폴더
 txt_folder = "./report_data"
@@ -75,22 +73,23 @@ for file_path in txt_files:
     # 프롬프트 생성
     prompt = prompt_template.format(final_text=final_text)
 
-    # GPT 호출
-    response = client.chat.completions.create(
-        model="gpt-4.1-nano",  # 필요 시 gpt-4o, gpt-4o-turbo 등으로 변경 가능
-        messages=[
-            {"role": "system", "content": "당신은 문서 분석 및 엔터티 관계 추출 전문가입니다. "
-                    "현재 당신은 식품 분야의 Knowledge Graph를 구축 중이며, "
-                    "문서에 등장하는 엔터티와 관계를 식품 데이터 관점에서 분석해야 합니다. "
-                    "식품 품목, 원산지, 시간(연도) 정보 등을 정확하게 식별하고, "
-                    "관계와 그 관계의 속성을 명확하게 추출해 주세요."},
-            {"role": "user", "content": prompt}
-        ],
+    # Gemini → OpenAI Fallback 호출
+    messages = [
+        {"role": "system", "content": "당신은 문서 분석 및 엔터티 관계 추출 전문가입니다. "
+                "현재 당신은 식품 분야의 Knowledge Graph를 구축 중이며, "
+                "문서에 등장하는 엔터티와 관계를 식품 데이터 관점에서 분석해야 합니다. "
+                "식품 품목, 원산지, 시간(연도) 정보 등을 정확하게 식별하고, "
+                "관계와 그 관계의 속성을 명확하게 추출해 주세요."},
+        {"role": "user", "content": prompt}
+    ]
+    
+    gpt_output = OpenAIClientFallbackManager.chat_completions_create_with_fallback(
+        model="document-analysis",  # 대용량 문서 처리용 모델 (gemini-1.5-pro, 2M context)
+        messages=messages,
         temperature=0
     )
 
-    # GPT 응답 받기
-    gpt_output = response.choices[0].message.content.strip()
+    # 응답은 이미 gpt_output 변수에 저장됨
 
     # CSV 저장 경로
     base_name = os.path.splitext(os.path.basename(file_path))[0]
