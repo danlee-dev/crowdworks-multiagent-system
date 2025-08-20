@@ -35,7 +35,7 @@ from neo4j import GraphDatabase, basic_auth
 # ────────────────────────────────────────────
 URI: str = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 USER: str = os.getenv("NEO4J_USER", "neo4j")
-PASSWORD: str = os.getenv("NEO4J_PASSWORD", "#cwp2025!")
+PASSWORD: str = os.getenv("NEO4J_PASSWORD", "password")
 
 # Single shared driver instance (thread‑safe)
 driver = GraphDatabase.driver(URI, auth=basic_auth(USER, PASSWORD))
