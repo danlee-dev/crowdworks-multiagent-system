@@ -17,7 +17,7 @@ from sentence_transformers import SentenceTransformer
 
 # 상위 폴더의 utils 모듈을 import
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from utils.model_fallback import OpenAIClientFallbackManager
+#from utils.model_fallback import OpenAIClientFallbackManager
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -36,8 +36,8 @@ class MultiIndexRAGSearchEngine:
         )
         # Hugging Face 임베딩 모델 로드
         self.hf_model = SentenceTransformer("dragonkue/bge-m3-ko")
-        self.TEXT_INDEX = "bge_text"
-        self.TABLE_INDEX = "bge_table"
+        self.TEXT_INDEX = "page_text"
+        self.TABLE_INDEX = "page_table"
         self.config = config
         self.HYBRID_ALPHA = config.HYBRID_ALPHA
         self.TOP_K_RETRIEVAL = config.TOP_K_RETRIEVAL
