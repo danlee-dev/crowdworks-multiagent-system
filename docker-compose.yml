@@ -115,7 +115,7 @@ services:
       - "8000:8000"
     volumes:
       - ./multiagent-rag-system/backend/app:/app/app
-      - ./multiagent-rag-system/backend/.env:/app/.env
+      - ./.env:/app/.env
       - ./logs:/app/logs
       - ./utils:/app/utils
     working_dir: /app
@@ -125,7 +125,7 @@ services:
       - NEO4J_URI=bolt://neo4j:7687
       - ELASTICSEARCH_HOST=http://elasticsearch:9200
     env_file:
-      - ./multiagent-rag-system/backend/.env
+      - ./.env
     depends_on:
       - postgres
       - elasticsearch
@@ -141,12 +141,13 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
-    environment:
-      - NEXT_PUBLIC_API_BASE_URL=http://49.50.128.6:8000
     volumes:
       - ./multiagent-rag-system/frontend:/app
       - /app/node_modules
+      - ./.env:/app/.env
     working_dir: /app
+    env_file:
+      - ./.env
     depends_on:
       - backend
     networks:
