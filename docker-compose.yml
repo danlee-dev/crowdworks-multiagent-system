@@ -141,6 +141,8 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE_URL=http://49.50.128.6:8000
     volumes:
       - ./multiagent-rag-system/frontend:/app
       - /app/node_modules
