@@ -10,33 +10,47 @@ class ModelFallbackManager:
     """
     
     # Gemini API 키들 (환경변수에서 로드)
-    GEMINI_KEY_1 = os.getenv("GEMINI_API_KEY_1", "AIzaSyAei8Ldn0feyxGV_CQDdTuZrIPaZb-pOCI")
-    GEMINI_KEY_2 = os.getenv("GEMINI_API_KEY_2", "AIzaSyDveumPdpzqw1jdN8wYq2XbAFPGbEYORD4")
+    GEMINI_KEY_1 = os.getenv("GEMINI_API_KEY_1")
+    GEMINI_KEY_2 = os.getenv("GEMINI_API_KEY_2")
+    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")  # 3번째 fallback
     
     @classmethod
     def create_gemini_model(cls, model_name: str = "gemini-1.5-flash", **kwargs) -> Optional[ChatGoogleGenerativeAI]:
         """
-        Gemini 모델을 생성합니다. 첫 번째 키 -> 두 번째 키 순으로 시도
+        Gemini 모델을 생성합니다. 3개 키를 순차적으로 시도
         """
         # 첫 번째 Gemini 키 시도
-        try:
-            return ChatGoogleGenerativeAI(
-                model=model_name,
-                google_api_key=cls.GEMINI_KEY_1,
-                **kwargs
-            )
-        except Exception as e:
-            print(f"Gemini 키 1 실패: {e}")
+        if cls.GEMINI_KEY_1:
+            try:
+                return ChatGoogleGenerativeAI(
+                    model=model_name,
+                    google_api_key=cls.GEMINI_KEY_1,
+                    **kwargs
+                )
+            except Exception as e:
+                print(f"Gemini 키 1 실패: {e}")
             
         # 두 번째 Gemini 키 시도
-        try:
-            return ChatGoogleGenerativeAI(
-                model=model_name,
-                google_api_key=cls.GEMINI_KEY_2,
-                **kwargs
-            )
-        except Exception as e:
-            print(f"Gemini 키 2 실패: {e}")
+        if cls.GEMINI_KEY_2:
+            try:
+                return ChatGoogleGenerativeAI(
+                    model=model_name,
+                    google_api_key=cls.GEMINI_KEY_2,
+                    **kwargs
+                )
+            except Exception as e:
+                print(f"Gemini 키 2 실패: {e}")
+        
+        # 세 번째 Google API 키 시도
+        if cls.GOOGLE_API_KEY:
+            try:
+                return ChatGoogleGenerativeAI(
+                    model=model_name,
+                    google_api_key=cls.GOOGLE_API_KEY,
+                    **kwargs
+                )
+            except Exception as e:
+                print(f"Google API 키 실패: {e}")
             
         return None
     
