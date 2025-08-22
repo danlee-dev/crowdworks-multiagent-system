@@ -2,45 +2,102 @@ import json
 import os
 import glob
 
-# JSON 파일들이 들어있는 폴더 경로
-folder_path = "./preprocessed_datas"  # 예: "C:/data/json_files"
-# 결과 저장 폴더
-output_folder = "./report_data"
+# === 설정 ===
+folder_path = "../elasticsearch/preprocessed_datas"  # JSON들이 있는 폴더
+output_folder = "./report_data"                      # 결과 저장 폴더
 os.makedirs(output_folder, exist_ok=True)
 
-# 폴더 안 모든 JSON 파일 경로 가져오기 (정렬)
+def normalize_name(name: str) -> str:
+    """
+    파일명에서 '凸'를 모두 제거하고 좌우 공백을 정리.
+    (필요하면 여기서 더 많은 치환 로직을 추가할 수 있습니다.)
+    """
+    return name.replace("凸", "").strip()
+
+# --- 기존 결과( report_data )의 파일명을 수집해서 '정규화된 이름' 집합 생성 ---
+# 주의: 아래 집합은 중복 생성을 막기 위해 '정규화된 베이스네임' 기준으로 비교합니다.
+existing_txt_files = glob.glob(os.path.join(output_folder, "*.txt"))
+
+
+# 만약 "기존 report_data의 이름은 정규화하지 않고" 비교하고 싶다면 위 줄을 아래로 바꾸세요.
+existing_names_normalized = {
+    os.path.splitext(os.path.basename(p))[0]
+    for p in existing_txt_files
+}
+
+# --- 처리할 JSON 파일 목록 (정렬) ---
 json_files = sorted(glob.glob(os.path.join(folder_path, "*.json")))
 
-for json_file_path in json_files:
-    with open(json_file_path, "r", encoding="utf-8") as f:
-        try:
-            data = json.load(f)  # 리스트 형태
-        except json.JSONDecodeError:
-            print(f"⚠️ JSON 형식 오류: {json_file_path}")
-            continue
+processed_count = 0
+skipped_exists = 0
+skipped_errors = 0
 
+for json_file_path in json_files:
+    base_name_original = os.path.splitext(os.path.basename(json_file_path))[0]
+    base_name_normalized = normalize_name(base_name_original)
+
+    # 이미 동일한(정규화된) 이름의 결과가 있으면 스킵
+    if base_name_normalized in existing_names_normalized:
+        print(f"⏭️ 스킵(이미 존재): {base_name_normalized}.txt")
+        skipped_exists += 1
+        continue
+
+    # JSON 로드
+    try:
+        with open(json_file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)  # 기대형태: 리스트
+    except json.JSONDecodeError:
+        print(f"⚠️ JSON 형식 오류: {json_file_path}")
+        skipped_errors += 1
+        continue
+    except Exception as e:
+        print(f"⚠️ 파일 열기/읽기 오류: {json_file_path} -> {e}")
+        skipped_errors += 1
+        continue
+
+    if not isinstance(data, list):
+        print(f"⚠️ 예상과 다른 JSON 구조(리스트 아님): {json_file_path}")
+        skipped_errors += 1
+        continue
+
+    # 페이지 콘텐츠 처리 (첫 항목은 제목 포함, 이후는 제목 제거)
     page_contents_processed = []
     for idx, item in enumerate(data):
-        content = item.get("page_content", "").strip()
+        if not isinstance(item, dict):
+            # 비정상 항목은 건너뜀
+            continue
+        content = item.get("page_content", "")
+        if not isinstance(content, str):
+            content = str(content)
+        content = content.strip()
+
         if idx == 0:
-            # 첫 항목은 제목 포함
             page_contents_processed.append(content)
         else:
-            # 이후 항목은 제목 제거
             if "\n\n" in content:
                 content = content.split("\n\n", 1)[1].strip()
             page_contents_processed.append(content)
 
-    # 파일 하나의 모든 내용을 문자열로 합침
     file_text = "\n\n".join(page_contents_processed)
 
-    # 결과 저장 파일 경로 (확장자 .txt로 변경)
-    base_name = os.path.splitext(os.path.basename(json_file_path))[0]
-    output_path = os.path.join(output_folder, base_name + ".txt")
+    # 출력 파일 경로: '정규화된' 베이스네임을 사용
+    safe_base = base_name_normalized or base_name_original  # 극단적 케이스 대비
+    output_path = os.path.join(output_folder, safe_base + ".txt")
 
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(file_text)
+    # 저장
+    try:
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(file_text)
+        print(f"✅ 저장 완료: {output_path}")
+        processed_count += 1
+        # 같은 실행 중 중복 방지 위해 즉시 집합에 추가
+        existing_names_normalized.add(base_name_normalized)
+    except Exception as e:
+        print(f"⚠️ 저장 오류: {output_path} -> {e}")
+        skipped_errors += 1
 
-    print(f"✅ 저장 완료: {output_path}")
+print(
+    f"총 {len(json_files)}개의 JSON 파일 중 "
+    f"{processed_count}개 처리, {skipped_exists}개 스킵(이미 존재), {skipped_errors}개 스킵(오류)"
+)
 
-print(f"총 {len(json_files)}개의 JSON 파일 처리 완료")

@@ -5,7 +5,7 @@ import pandas as pd
 # 경로 설정
 csv_folder = "./extracted_graph0"     # 생성된 개별 CSV들이 있는 폴더
 txt_folder = "./report_data"      # 원문 TXT들이 있는 폴더 (제목=첫 줄)
-output_path = "./report.csv"
+output_path = "./import/report.csv"
 
 # 합칠 CSV 목록
 csv_files = sorted(glob.glob(os.path.join(csv_folder, "*.csv")))
