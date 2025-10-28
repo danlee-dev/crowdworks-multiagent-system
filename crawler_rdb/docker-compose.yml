@@ -21,4 +21,4 @@ services:
       - db
     volumes:
       - ./:/app
-    restart: "no"
+    restart: unless-stopped

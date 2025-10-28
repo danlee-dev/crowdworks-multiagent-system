@@ -59,8 +59,8 @@ cd crowdworks-multiagent-system
 # 통합 환경변수 설정
 cp .env.example .env
 # 3단계 API 키 설정:
-# GEMINI_API_KEY_1=AIzaSyAei8Ldn0feyxGV_CQDdTuZrIPaZb-pOCI  # 1차 시도
-# GEMINI_API_KEY_2=AIzaSyDveumPdpzqw1jdN8wYq2XbAFPGbEYORD4  # 2차 시도
+# GEMINI_API_KEY_1=your_gemini_api_key_here  # 1차 시도
+# GEMINI_API_KEY_2=your_backup_gemini_key_here  # 2차 시도
 # OPENAI_API_KEY=your-openai-key                              # 최종 폴백
 ```
 
