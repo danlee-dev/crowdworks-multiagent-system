@@ -155,7 +155,9 @@ for file_path in new_txt_files:  # 이번에 새로 만든 TXT만 처리
 
     prompt = prompt_template.format(final_text=final_text)
     messages = [
-        {"role": "system", "content": "당신은 문서 분석 및 엔터티 관계 추출 전문가입니다."},
+        {"role": "system", "content": "당신은 문서 분석 및 엔터티 관계 추출 전문가입니다."
+                "현재 당신은 식품 분야의 Knowledge Graph를 구축 중이며, "
+                "문서에 등장하는 엔터티와 관계를 식품 데이터 관점에서 분석해야 합니다."},
         {"role": "user", "content": prompt}
     ]
 

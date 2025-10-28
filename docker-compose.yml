@@ -102,7 +102,7 @@ services:
       - postgres
     volumes:
       - ./crawler_rdb:/app
-    restart: "no"
+    restart: unless-stopped
     networks:
       - crowdworks-network
 
@@ -118,6 +118,7 @@ services:
       - ./.env:/app/.env
       - ./logs:/app/logs
       - ./utils:/app/utils
+      - ./multiagent-rag-system/backend/db_storage:/app/db_storage
     working_dir: /app
     environment:
       - DB_HOST=postgres
