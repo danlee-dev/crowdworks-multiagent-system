@@ -1,0 +1,555 @@
+import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
+import { projectAPI, conversationAPI } from '../utils/api';
+import ProjectCreateModal from './ProjectCreateModal';
+
+const ProjectFolders = ({
+  projects,
+  conversations,
+  currentProjectId,
+  onProjectSelect,
+  onProjectCreate,
+  onProjectUpdate,
+  onProjectDelete,
+  onConversationSelect,
+  onConversationDelete,
+  onNewConversation,
+  // 프로젝트 상세 뷰와 동일한 props 추가
+  conversationId,
+  titleGenerating,
+  generatedTitle
+}) => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [editingProject, setEditingProject] = useState(null);
+  const [isCompactView, setIsCompactView] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [openMenuId, setOpenMenuId] = useState(null);
+  const [editModalProject, setEditModalProject] = useState(null);
+  const [dropdownPosition, setDropdownPosition] = useState({ top: 0, left: 0 });
+  const menuButtonRef = useRef(null);
+  const maxCompactProjects = 3;
+
+  // 아이콘 옵션들 (ProjectCreateModal과 동일)
+  const iconOptions = [
+    { id: 'folder', svg: <path fillRule="evenodd" clipRule="evenodd" d="M6.86 1.25002H6.987C7.338 1.25002 7.564 1.25002 7.785 1.27002C8.73662 1.35897 9.63928 1.73293 10.375 2.34302C10.545 2.48502 10.705 2.64502 10.954 2.89302L11.53 3.47002C12.376 4.31502 12.701 4.63102 13.077 4.84002C13.2957 4.96136 13.5253 5.05669 13.766 5.12602C14.179 5.24302 14.632 5.25002 15.828 5.25002H16.253C17.526 5.25002 18.553 5.25002 19.364 5.35202C20.205 5.45802 20.92 5.68402 21.508 6.21202C21.606 6.30069 21.6993 6.39402 21.788 6.49202C22.317 7.08002 22.542 7.79502 22.648 8.63602C22.75 9.44802 22.75 10.474 22.75 11.747V14.057C22.75 15.894 22.75 17.35 22.597 18.489C22.439 19.661 22.107 20.61 21.359 21.359C20.61 22.107 19.661 22.439 18.489 22.597C17.349 22.75 15.894 22.75 14.056 22.75H9.944C8.106 22.75 6.65 22.75 5.511 22.597C4.339 22.439 3.39 22.107 2.641 21.359C1.893 20.61 1.561 19.661 1.403 18.489C1.25 17.349 1.25 15.894 1.25 14.056V6.86002C1.25 6.06302 1.25 5.55702 1.332 5.12002C1.50884 4.18065 1.96499 3.31648 2.6408 2.64048C3.31662 1.96448 4.18067 1.50811 5.12 1.33102C5.558 1.24902 6.064 1.24902 6.86 1.24902M6.95 2.74902C6.033 2.74902 5.679 2.75202 5.397 2.80502C4.75483 2.92642 4.16417 3.2386 3.70213 3.70081C3.2401 4.16303 2.92815 4.7538 2.807 5.39602C2.753 5.67802 2.75 6.03202 2.75 6.94902V14C2.75 15.907 2.752 17.262 2.89 18.29C3.025 19.295 3.279 19.875 3.702 20.298C4.125 20.721 4.705 20.975 5.711 21.11C6.739 21.248 8.093 21.25 10 21.25H14C15.907 21.25 17.262 21.248 18.29 21.11C19.295 20.975 19.875 20.721 20.298 20.298C20.721 19.875 20.975 19.295 21.11 18.289C21.248 17.262 21.25 15.907 21.25 14V11.798C21.25 10.462 21.249 9.53102 21.16 8.82302C21.073 8.13402 20.914 7.76302 20.673 7.49502C20.6204 7.43574 20.5643 7.37964 20.505 7.32702C20.237 7.08602 19.865 6.92702 19.177 6.84002C18.47 6.75102 17.538 6.75002 16.202 6.75002H15.718C14.67 6.75002 13.994 6.75002 13.355 6.56802C13.005 6.46802 12.666 6.32802 12.347 6.15102C11.767 5.82702 11.289 5.35002 10.547 4.60802L10.47 4.53002L9.92 3.98002C9.75941 3.81213 9.59159 3.65131 9.417 3.49802C8.9139 3.08085 8.29671 2.82505 7.646 2.76402C7.41431 2.74926 7.18209 2.74359 6.95 2.74902ZM12.25 10C12.25 9.80111 12.329 9.61035 12.4697 9.46969C12.6103 9.32904 12.8011 9.25002 13 9.25002H18C18.1989 9.25002 18.3897 9.32904 18.5303 9.46969C18.671 9.61035 18.75 9.80111 18.75 10C18.75 10.1989 18.671 10.3897 18.5303 10.5304C18.3897 10.671 18.1989 10.75 18 10.75H13C12.8011 10.75 12.6103 10.671 12.4697 10.5304C12.329 10.3897 12.25 10.1989 12.25 10Z" /> },
+    { id: 'book', svg: <g transform="scale(0.9)"><path d="M19 1C20.105 1 21 1.892 21 3V6.27C21.596 6.616 22 7.262 22 8V23C22 24.099 21.103 25 20 25H6.51001C6.04881 25.0009 5.59197 24.9108 5.1657 24.7347C4.73943 24.5586 4.35212 24.3001 4.02601 23.974C3.69989 23.6479 3.44138 23.2606 3.26531 22.8343C3.08924 22.408 2.99908 21.9512 3.00001 21.49V4.506C2.99974 3.57711 3.36821 2.6861 4.02448 2.02871C4.68074 1.37132 5.57112 1.00133 6.50001 1H19ZM5.00001 7.663V21.493C4.99948 21.6911 5.03813 21.8874 5.11374 22.0706C5.18935 22.2537 5.30042 22.4201 5.44057 22.5601C5.58072 22.7002 5.74718 22.8112 5.93037 22.8867C6.11356 22.9621 6.30987 23.0007 6.50801 23H20V8H6.51201C5.98916 8.00201 5.47251 7.88686 5.00001 7.663ZM16 15C16.2652 15 16.5196 15.1054 16.7071 15.2929C16.8947 15.4804 17 15.7348 17 16C17 16.2652 16.8947 16.5196 16.7071 16.7071C16.5196 16.8946 16.2652 17 16 17H10C9.73479 17 9.48044 16.8946 9.2929 16.7071C9.10536 16.5196 9.00001 16.2652 9.00001 16C9.00001 15.7348 9.10536 15.4804 9.2929 15.2929C9.48044 15.1054 9.73479 15 10 15H16ZM16 11C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8947 11.4804 17 11.7348 17 12C17 12.2652 16.8947 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H10C9.73479 13 9.48044 12.8946 9.2929 12.7071C9.10536 12.5196 9.00001 12.2652 9.00001 12C9.00001 11.7348 9.10536 11.4804 9.2929 11.2929C9.48044 11.1054 9.73479 11 10 11H16ZM19 3H6.50001C6.30302 3.00053 6.10807 3.03984 5.92629 3.11571C5.7445 3.19158 5.57943 3.30251 5.44052 3.44217C5.15996 3.72422 5.00295 4.10618 5.00401 4.504C5.00453 4.70098 5.04385 4.89593 5.11972 5.07772C5.19559 5.25951 5.30652 5.42457 5.44618 5.56349C5.72823 5.84404 6.11018 6.00106 6.50801 6H19V3Z" /></g> },
+    { id: 'star', svg: <path fillRule="evenodd" clipRule="evenodd" d="M10.4861 4.11418C11.1611 2.95218 12.8391 2.95218 13.5141 4.11418L15.5791 7.67418C15.7691 8.00218 16.0991 8.22518 16.4741 8.28218L19.9041 8.80018C21.3981 9.02618 21.9221 10.9142 20.7581 11.8782L18.2591 13.9482C18.0869 14.091 17.9561 14.2773 17.8805 14.4879C17.8049 14.6984 17.7871 14.9254 17.8291 15.1452L18.5291 18.8212C18.8031 20.2612 17.2911 21.3792 15.9941 20.6972L12.5821 18.9002C12.4027 18.8058 12.2029 18.7564 12.0001 18.7564C11.7974 18.7564 11.5976 18.8058 11.4181 18.9002L8.00614 20.6972C6.70914 21.3802 5.19714 20.2612 5.47114 18.8212L6.17114 15.1452C6.21314 14.9254 6.1954 14.6984 6.11976 14.4879C6.04413 14.2773 5.91337 14.091 5.74114 13.9482L3.24114 11.8782C2.07814 10.9142 2.60114 9.02618 4.09714 8.80018L7.52714 8.28218C7.71225 8.2541 7.88869 8.1848 8.04343 8.07939C8.19816 7.97398 8.32725 7.83516 8.42114 7.67318L10.4861 4.11418ZM12.2161 4.86718C12.1941 4.82941 12.1626 4.79807 12.1247 4.77629C12.0868 4.75451 12.0439 4.74305 12.0001 4.74305C11.9564 4.74305 11.9135 4.75451 11.8756 4.77629C11.8377 4.79807 11.8061 4.82941 11.7841 4.86718L9.71814 8.42718C9.51135 8.78323 9.22725 9.0883 8.88681 9.31988C8.54636 9.55146 8.15826 9.70363 7.75114 9.76518L4.32114 10.2832C4.27338 10.2904 4.22873 10.3112 4.19257 10.3432C4.15641 10.3753 4.13031 10.4171 4.1174 10.4636C4.1045 10.5101 4.10535 10.5594 4.11986 10.6055C4.13436 10.6515 4.1619 10.6924 4.19914 10.7232L6.69814 12.7932C7.077 13.1071 7.36471 13.5168 7.53128 13.9798C7.69784 14.4427 7.73716 14.9419 7.64514 15.4252L6.94514 19.1012C6.93634 19.1474 6.94076 19.1951 6.95789 19.239C6.97502 19.2828 7.00416 19.3209 7.04197 19.3489C7.07978 19.3769 7.12473 19.3936 7.17163 19.3972C7.21854 19.4008 7.26551 19.3911 7.30714 19.3692L10.7191 17.5732C11.1141 17.3653 11.5538 17.2566 12.0001 17.2566C12.4465 17.2566 12.8862 17.3653 13.2811 17.5732L16.6931 19.3692C16.7348 19.3911 16.7817 19.4008 16.8286 19.3972C16.8756 19.3936 16.9205 19.3769 16.9583 19.3489C16.9961 19.3209 17.0253 19.2828 17.0424 19.239C17.0595 19.1951 17.0639 19.1474 17.0551 19.1012L16.3551 15.4252C16.2631 14.9419 16.3024 14.4427 16.469 13.9798C16.6356 13.5168 16.9233 13.1071 17.3021 12.7932L19.8021 10.7232C19.8394 10.6924 19.8669 10.6514 19.8814 10.6053C19.8958 10.5591 19.8966 10.5098 19.8836 10.4632C19.8706 10.4167 19.8443 10.3749 19.808 10.3429C19.7718 10.3109 19.727 10.2902 19.6791 10.2832L16.2491 9.76518C15.8419 9.70352 15.4538 9.55119 15.1133 9.31944C14.7729 9.08768 14.4888 8.78241 14.2821 8.42618L12.2161 4.86718Z" /> },
+    { id: 'chart', svg: <path d="M6.20903 12.324H4.40103C3.82203 12.324 3.35303 12.794 3.35303 13.372V20.202C3.35303 20.78 3.82303 21.25 4.40103 21.25H6.21003C6.79003 21.25 7.25903 20.78 7.25903 20.201V13.372C7.25876 13.0939 7.14816 12.8272 6.95149 12.6305C6.75482 12.4339 6.48816 12.3233 6.21003 12.323M12.904 2.75H11.096C10.516 2.75 10.047 3.22 10.047 3.799V20.2C10.047 20.78 10.517 21.249 11.097 21.249H12.904C13.484 21.249 13.953 20.779 13.953 20.2V3.8C13.953 3.22 13.483 2.751 12.903 2.751M19.599 7.927H17.79C17.21 7.927 16.741 8.397 16.741 8.977V20.2C16.741 20.78 17.211 21.249 17.79 21.249H19.598C19.8762 21.2487 20.1428 21.1381 20.3395 20.9415C20.5362 20.7448 20.6468 20.4781 20.647 20.2V8.976C20.647 8.396 20.177 7.927 19.597 7.927" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" /> },
+    { id: 'heart', svg: <path d="M19.0712 13.1418L13.4142 18.7998C13.0391 19.1747 12.5305 19.3854 12.0002 19.3854C11.4699 19.3854 10.9613 19.1747 10.5862 18.7998L4.9292 13.1428C4.46157 12.6792 4.09011 12.1279 3.83613 11.5204C3.58216 10.9129 3.45067 10.2612 3.44923 9.60275C3.44779 8.9443 3.57642 8.29204 3.82773 7.68344C4.07904 7.07483 4.44809 6.52186 4.91368 6.05626C5.37928 5.59067 5.93225 5.22162 6.54086 4.97031C7.14947 4.71899 7.80172 4.59037 8.46017 4.59181C9.11862 4.59325 9.7703 4.72473 10.3778 4.97871C10.9853 5.23268 11.5367 5.60415 12.0002 6.07178C12.9418 5.15365 14.2071 4.64345 15.5222 4.65169C16.8373 4.65993 18.0962 5.18595 19.0262 6.1158C19.9562 7.04566 20.4824 8.30447 20.4908 9.61955C20.4992 10.9346 19.9892 12.2001 19.0712 13.1418Z" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" /> },
+    { id: 'code', svg: <path d="M4.82484 12.0249L8.69984 15.8999C8.88318 16.0832 8.97484 16.3166 8.97484 16.5999C8.97484 16.8832 8.88318 17.1166 8.69984 17.2999C8.51651 17.4832 8.28318 17.5749 7.99984 17.5749C7.71651 17.5749 7.48318 17.4832 7.29984 17.2999L2.69984 12.6999C2.59984 12.5999 2.52884 12.4916 2.48684 12.3749C2.44484 12.2582 2.42451 12.1332 2.42584 11.9999C2.42718 11.8666 2.44818 11.7416 2.48884 11.6249C2.52951 11.5082 2.60018 11.3999 2.70084 11.2999L7.30084 6.6999C7.50084 6.4999 7.73851 6.3999 8.01384 6.3999C8.28918 6.3999 8.52651 6.4999 8.72584 6.6999C8.92518 6.8999 9.02518 7.13757 9.02584 7.4129C9.02651 7.68824 8.92651 7.92557 8.72584 8.1249L4.82484 12.0249ZM19.1748 11.9749L15.2998 8.0999C15.1165 7.91657 15.0248 7.68324 15.0248 7.3999C15.0248 7.11657 15.1165 6.88324 15.2998 6.6999C15.4832 6.51657 15.7165 6.4249 15.9998 6.4249C16.2832 6.4249 16.5165 6.51657 16.6998 6.6999L21.2998 11.2999C21.3998 11.3999 21.4708 11.5082 21.5128 11.6249C21.5548 11.7416 21.5755 11.8666 21.5748 11.9999C21.5742 12.1332 21.5535 12.2582 21.5128 12.3749C21.4722 12.4916 21.4012 12.5999 21.2998 12.6999L16.6998 17.2999C16.4998 17.4999 16.2665 17.5959 15.9998 17.5879C15.7332 17.5799 15.4998 17.4756 15.2998 17.2749C15.0998 17.0742 14.9998 16.8369 14.9998 16.5629C14.9998 16.2889 15.0998 16.0512 15.2998 15.8499L19.1748 11.9749Z" /> }
+  ];
+
+  // 아이콘 ID에 해당하는 SVG를 반환하는 함수
+  const getProjectIconSvg = (iconId) => {
+    const icon = iconOptions.find(option => option.id === iconId);
+    return icon ? icon.svg : iconOptions[0].svg; // 기본값은 folder
+  };
+
+  const handleCreateProject = async (title, icon, projectId) => {
+    try {
+      await onProjectCreate(title, icon, projectId);
+    } catch (error) {
+      console.error('프로젝트 생성 실패:', error);
+      alert('프로젝트 생성에 실패했습니다.');
+      throw error;
+    }
+  };
+
+  const handleEditProject = async (title, icon, projectId) => {
+    try {
+      console.log('=== 프로젝트 수정 시작 ===');
+      console.log('받은 파라미터:', { projectId, title, icon });
+      
+      const updateData = { 
+        id: projectId, 
+        title, 
+        description: icon
+      };
+      console.log('전송할 데이터:', updateData);
+      
+      // 백엔드가 description 필드를 기대하므로 icon을 description으로 매핑
+      await onProjectUpdate(projectId, title, icon);
+      
+      setEditModalProject(null);
+      setOpenMenuId(null);
+      console.log('✅ 프로젝트 수정 성공!');
+    } catch (error) {
+      console.error('❌ 프로젝트 수정 실패:', error);
+      console.error('❌ 에러 응답:', error.response?.data);
+      console.error('❌ 에러 상태:', error.response?.status);
+      alert('프로젝트 수정에 실패했습니다.');
+      throw error;
+    }
+  };
+
+  const handleUpdateProject = async (projectId, title) => {
+    if (!title.trim()) return;
+
+    try {
+      await onProjectUpdate(projectId, title.trim());
+      setEditingProject(null);
+    } catch (error) {
+      console.error('프로젝트 수정 실패:', error);
+      alert('프로젝트 수정에 실패했습니다.');
+    }
+  };
+
+  const handleDeleteProject = async (projectId) => {
+    if (window.confirm('프로젝트를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.')) {
+      try {
+        await onProjectDelete(projectId);
+        setOpenMenuId(null);
+      } catch (error) {
+        console.error('프로젝트 삭제 실패:', error);
+        alert('프로젝트 삭제에 실패했습니다.');
+      }
+    }
+  };
+
+  const handleMenuToggle = (projectId, event) => {
+    event.stopPropagation();
+    event.preventDefault();
+    
+    if (openMenuId === projectId) {
+      setOpenMenuId(null);
+    } else {
+      const rect = event.currentTarget.getBoundingClientRect();
+      setDropdownPosition({
+        top: rect.bottom + window.scrollY,
+        left: rect.right - 160 + window.scrollX
+      });
+      setOpenMenuId(projectId);
+    }
+  };
+
+  const handleEditClick = (project, event) => {
+    event.stopPropagation();
+    setEditModalProject(project);
+    setOpenMenuId(null);
+  };
+
+  const handleDeleteClick = (projectId, event) => {
+    event.stopPropagation();
+    handleDeleteProject(projectId);
+  };
+
+  // 토글 기능 제거됨
+
+  const getProjectConversations = (projectId) => {
+    return conversations.filter(conv => conv.project_id === projectId);
+  };
+
+  const getUnassignedConversations = () => {
+    console.log('🔍 모든 대화:', conversations.map(c => ({ id: c.id, title: c.title, project_id: c.project_id })));
+    const unassigned = conversations.filter(conv => {
+      const hasNoProjectId = !conv.project_id || conv.project_id === null || conv.project_id === undefined || conv.project_id === '';
+      return hasNoProjectId;
+    });
+    console.log('📂 미분류 대화:', unassigned.map(c => ({ id: c.id, title: c.title, project_id: c.project_id })));
+    return unassigned;
+  };
+
+  // 검색 필터링
+  const filteredProjects = searchQuery.trim()
+    ? projects.filter(project =>
+        project.title.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : projects;
+
+  const hiddenProjectsCount = filteredProjects.length - maxCompactProjects;
+
+  const handleToggleCompactView = () => {
+    setIsAnimating(true);
+    setIsCompactView(!isCompactView);
+
+    // 애니메이션 완료 후 상태 리셋
+    setTimeout(() => {
+      setIsAnimating(false);
+    }, 300);
+  };
+
+  // 외부 클릭으로 드롭다운 닫기
+  useEffect(() => {
+    if (!openMenuId) return;
+
+    const handleClickOutside = (event) => {
+      // 드롭다운 메뉴 내부 클릭은 무시
+      if (event.target.closest('.project-dropdown-menu')) {
+        return;
+      }
+      // 메뉴 버튼 클릭도 무시 (토글 기능은 handleMenuToggle에서 처리)
+      if (event.target.closest('[data-menu-id]')) {
+        return;
+      }
+      setOpenMenuId(null);
+    };
+
+    // 약간의 지연을 두고 이벤트 리스너 추가 (현재 클릭 이벤트와 충돌 방지)
+    const timer = setTimeout(() => {
+      document.addEventListener('mousedown', handleClickOutside);
+    }, 0);
+
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [openMenuId]);
+
+  return (
+    <div className="project-folders">
+      {/* 검색 입력 */}
+      <div className="search-section">
+        <div className="search-input-container">
+          <svg className="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.35-4.35"/>
+          </svg>
+          <input
+            type="text"
+            className="search-input"
+            placeholder="검색"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          {searchQuery && (
+            <button
+              className="clear-search-btn"
+              onClick={() => setSearchQuery('')}
+              title="검색어 지우기"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="18" y1="6" x2="6" y2="18"/>
+                <line x1="6" y1="6" x2="18" y2="18"/>
+              </svg>
+            </button>
+          )}
+        </div>
+      </div>
+
+      {/* 프로젝트 목록 */}
+      <div className="project-list">
+        {/* 새 프로젝트 버튼 */}
+        <div className="project-item create-project" onClick={() => setIsModalOpen(true)}>
+          <div className="project-content">
+            <div className="project-icon new-project-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M13 21H12C7.286 21 4.929 21 3.464 19.535C2 18.072 2 15.715 2 11V7.944C2 6.128 2 5.22 2.38 4.538C2.65114 4.05208 3.05208 3.65114 3.538 3.38C4.22 3 5.128 3 6.944 3C8.108 3 8.69 3 9.2 3.191C10.363 3.627 10.843 4.684 11.368 5.733L12 7M8 7H16.75C18.857 7 19.91 7 20.667 7.506C20.9943 7.72474 21.2753 8.00575 21.494 8.333C21.98 9.06 22 10.06 22 12" strokeLinecap="round"/>
+                <path d="M18 13V21M22 17H14" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <span className="project-title">새 프로젝트</span>
+          </div>
+        </div>
+
+        {filteredProjects.map((project, index) => {
+          const isEditing = editingProject === project.id;
+
+          // 컴팩트 뷰에서 숨겨져야 하는 항목인지 확인 (검색 중이 아닐 때만)
+          const shouldHide = isCompactView && !searchQuery.trim() && index >= maxCompactProjects;
+
+          // 애니메이션 클래스 결정 (검색 중이 아닐 때만 애니메이션 적용)
+          let animationClass = '';
+          if (isAnimating && !searchQuery.trim()) {
+            if (shouldHide) {
+              animationClass = 'hiding';
+            } else if (!isCompactView && index >= maxCompactProjects) {
+              animationClass = 'showing';
+            }
+          }
+
+          // 컴팩트 뷰에서 숨겨진 항목은 렌더링하지 않음 (애니메이션 중이 아닐 때)
+          if (shouldHide && !isAnimating) {
+            return null;
+          }
+
+          return (
+            <div key={project.id} className={`project-item ${currentProjectId === project.id ? 'active' : ''} ${animationClass}`}>
+              <div
+                className="project-content"
+                onClick={() => {
+                  onProjectSelect(project);
+                }}
+              >
+                <div className="project-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="1">
+                    {getProjectIconSvg(project.description || project.icon || 'folder')}
+                  </svg>
+                </div>
+
+                {isEditing ? (
+                  <input
+                    type="text"
+                    className="project-edit-input"
+                    defaultValue={project.title}
+                    autoFocus
+                    onClick={(e) => e.stopPropagation()}
+                    onKeyPress={(e) => {
+                      if (e.key === 'Enter') {
+                        handleUpdateProject(project.id, e.target.value);
+                      } else if (e.key === 'Escape') {
+                        setEditingProject(null);
+                      }
+                    }}
+                    onBlur={(e) => {
+                      handleUpdateProject(project.id, e.target.value);
+                    }}
+                  />
+                ) : (
+                  <>
+                    <span
+                      className="project-title"
+                      onDoubleClick={(e) => {
+                        e.stopPropagation();
+                        setEditingProject(project.id);
+                      }}
+                    >
+                      {project.title}
+                    </span>
+                    {getProjectConversations(project.id).length > 0 && (
+                      <span className="conversation-count">
+                        {getProjectConversations(project.id).length}
+                      </span>
+                    )}
+                  </>
+                )}
+
+                <div className="project-actions">
+                  <div className="project-menu-container">
+                    <button
+                      className="project-menu-btn"
+                      onClick={(e) => handleMenuToggle(project.id, e)}
+                      title="프로젝트 메뉴"
+                      data-menu-id={project.id}
+                    >
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="1"/>
+                        <circle cx="12" cy="5" r="1"/>
+                        <circle cx="12" cy="19" r="1"/>
+                      </svg>
+                    </button>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+
+        {/* 검색어가 없을 때만 간략히 보기 토글과 미분류 대화 표시 */}
+        {!searchQuery.trim() && (
+          <>
+            {/* 간략히 보기 토글 - 항상 표시 */}
+            <div className="sidebar-toggle-section">
+              <button
+                className="sidebar-toggle-btn"
+                onClick={handleToggleCompactView}
+              >
+                <div className="toggle-icon">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 4H9.66687L7.93313 2.7C7.75978 2.57066 7.54941 2.50054 7.33313 2.5H4.5C4.23478 2.5 3.98043 2.60536 3.79289 2.79289C3.60536 2.98043 3.5 3.23478 3.5 3.5V4.5H2.5C2.23478 4.5 1.98043 4.60536 1.79289 4.79289C1.60536 4.98043 1.5 5.23478 1.5 5.5V12.5C1.5 12.7652 1.60536 13.0196 1.79289 13.2071C1.98043 13.3946 2.23478 13.5 2.5 13.5H12.0556C12.306 13.4997 12.546 13.4001 12.723 13.223C12.9001 13.046 12.9997 12.806 13 12.5556V11.5H14.0556C14.306 11.4997 14.546 11.4001 14.723 11.223C14.9001 11.046 14.9997 10.806 15 10.5556V5C15 4.73478 14.8946 4.48043 14.7071 4.29289C14.5196 4.10536 14.2652 4 14 4ZM12 12.5H2.5V5.5H5.33313L7.2 6.9C7.28655 6.96491 7.39181 7 7.5 7H12V12.5ZM14 10.5H13V7C13 6.73478 12.8946 6.48043 12.7071 6.29289C12.5196 6.10536 12.2652 6 12 6H7.66687L5.93313 4.7C5.75978 4.57066 5.54941 4.50054 5.33313 4.5H4.5V3.5H7.33313L9.2 4.9C9.28655 4.96491 9.39181 5 9.5 5H14V10.5Z" fill="currentColor"/>
+                  </svg>
+                </div>
+                <span>
+                  {isCompactView && filteredProjects.length > maxCompactProjects
+                    ? `${hiddenProjectsCount}개 더보기`
+                    : '간략히 보기'
+                  }
+                </span>
+                <div className={`toggle-arrow ${!isCompactView ? 'expanded' : ''}`}>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m6 9 6 6 6-6"/>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            {/* 미분류 대화들 */}
+            {getUnassignedConversations().length > 0 && (
+              <div className="unassigned-conversations">
+                {getUnassignedConversations().map(conversation => {
+                  // 매우 엄격한 조건으로 active 체크
+                  const isActive = conversationId 
+                    && conversation.id 
+                    && String(conversationId) === String(conversation.id);
+                  
+                  return (
+                  <div
+                    key={conversation.id}
+                    className={`conversation-item ${isActive ? "active" : ""}`}
+                    onClick={() => {
+                      console.log('미분류 대화 클릭:', conversation);
+                      onConversationSelect(conversation);
+                    }}
+                  >
+                    <div className="conversation-content">
+                      <div className="conversation-title">
+                        {conversation.id === conversationId && titleGenerating && (!conversation.title || conversation.title === "") ? (
+                          <>
+                            {generatedTitle}
+                            <span className="typing-cursor">|</span>
+                          </>
+                        ) : (
+                          conversation.title || "새 대화"
+                        )}
+                      </div>
+                      <div className="conversation-date">
+                        {new Date(conversation.lastUpdated || conversation.updated_at).toLocaleDateString("ko-KR")}
+                      </div>
+                    </div>
+                    <button
+                      className="delete-conversation"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onConversationDelete(conversation.id);
+                      }}
+                      title="대화 삭제"
+                    >
+                      <svg
+                        width="12"
+                        height="12"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                      >
+                        <path d="m3 6 18 0"/>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/>
+                        <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                        <line x1="10" y1="11" x2="10" y2="17"/>
+                        <line x1="14" y1="11" x2="14" y2="17"/>
+                      </svg>
+                    </button>
+                  </div>
+                  );
+                })}
+              </div>
+            )}
+          </>
+        )}
+
+        {/* 검색 결과가 없을 때 메시지 */}
+        {searchQuery.trim() && filteredProjects.length === 0 && (
+          <div className="no-search-results">
+            <p>검색 결과가 없습니다</p>
+            <span>"{searchQuery}"와 일치하는 프로젝트가 없습니다</span>
+          </div>
+        )}
+      </div>
+
+      {/* 프로젝트 생성 모달 */}
+      <ProjectCreateModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onCreateProject={handleCreateProject}
+        projects={projects}
+      />
+      
+      {/* 프로젝트 편집 모달 */}
+      {editModalProject && (
+        <ProjectCreateModal
+          isOpen={true}
+          onClose={() => setEditModalProject(null)}
+          onCreateProject={handleCreateProject}
+          onEditProject={handleEditProject}
+          projects={projects.filter(p => p.id !== editModalProject.id)}
+          editMode={true}
+          initialProject={editModalProject}
+        />
+      )}
+      
+      {/* 포털을 사용한 드롭다운 메뉴 */}
+      {openMenuId && createPortal(
+        <div 
+          className="project-dropdown-menu" 
+          style={{
+            position: 'fixed',
+            top: dropdownPosition.top,
+            left: dropdownPosition.left,
+            zIndex: 999999,
+            background: 'var(--background-color)',
+            border: '1px solid var(--border-light)',
+            borderRadius: '6px',
+            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+            minWidth: '160px',
+            padding: '4px 0'
+          }}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <button
+            className="dropdown-item"
+            style={{
+              width: '100%',
+              padding: '10px 16px',
+              background: 'none',
+              border: 'none',
+              textAlign: 'left',
+              cursor: 'pointer',
+              fontSize: '14px',
+              color: 'var(--text-primary)',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px'
+            }}
+            onClick={(e) => {
+              e.stopPropagation();
+              const project = projects.find(p => p.id === openMenuId);
+              if (project) {
+                handleEditClick(project, e);
+                setOpenMenuId(null);
+              }
+            }}
+            onMouseEnter={(e) => {
+              // 다크모드 체크
+              const isDark = document.documentElement.classList.contains('dark');
+              e.target.style.background = isDark ? '#374151' : '#f3f4f6';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = 'none';
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/>
+            </svg>
+            프로젝트 편집
+          </button>
+          <button
+            className="dropdown-item delete"
+            style={{
+              width: '100%',
+              padding: '10px 16px',
+              background: 'none',
+              border: 'none',
+              textAlign: 'left',
+              cursor: 'pointer',
+              fontSize: '14px',
+              color: '#ef4444',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px'
+            }}
+            onClick={(e) => {
+              e.stopPropagation();
+              handleDeleteClick(openMenuId, e);
+              setOpenMenuId(null);
+            }}
+            onMouseEnter={(e) => {
+              e.target.style.background = 'rgba(239, 68, 68, 0.1)';
+            }}
+            onMouseLeave={(e) => {
+              e.target.style.background = 'none';
+            }}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M3 6h18M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m3 0v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6h14zM10 11v6M14 11v6"/>
+            </svg>
+            프로젝트 삭제
+          </button>
+        </div>,
+        document.body
+      )}
+    </div>
+  );
+};
+
+export default ProjectFolders;
