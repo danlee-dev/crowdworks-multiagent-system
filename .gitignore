@@ -5,12 +5,21 @@
 # Development environments
 multiagent-rag-system-dev/
 data/
+benchmark_test/
 
 # Large files and build artifacts (GitHub file size limits)
-Neo4J/data/transactions/
-Neo4J/neo4j/data/transactions/
-Neo4J/plugins/*.jar
+Neo4J/data/
+Neo4J/neo4j/data/
+Neo4J/plugins/
+Neo4J/report_data/
+Neo4J/logs/
+Neo4J/extracted_graph*/
+Neo4J/import/
 crawler/.venv/
+crawler/ReferencePDF/
+crawler/ReportPDF/
+crawler/*.log
+crawler/*.out
 
 # Database data (runtime generated)
 postgresql/
@@ -19,6 +28,10 @@ elasticsearch/data/
 elasticsearch/datas/
 elasticsearch/embedding_datas/
 elasticsearch/preprocessed_datas/
+elasticsearch/*.json
+crawler_rdb/db/
+crawler_rdb/data/
+crawler_rdb/*.log
 */data/
 */datas/
 
@@ -142,6 +155,9 @@ Thumbs.db
 # Logs and Reports
 logs/
 *.log
+*.out
+**/logs/
+**/*.log
 
 # Temporary and Cache
 temp/
