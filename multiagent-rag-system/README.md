@@ -1,26 +1,8 @@
-# Multi-Agent RAG System v4.0 (Custom AFLOW Architecture)
+# Multi-Agent RAG System - Developer Documentation
 
-## Overview
-크라우드웍스의 산학 프로젝트로 개발된 차세대 B2B AI Agent 시스템입니다. **LangGraph 기반의 동적 워크플로우**와 **실시간 스트리밍 UI**를 통해 복잡한 비즈니스 쿼리를 처리하는 전문 AI 플랫폼입니다.
+> For project overview and architecture, see [root README](../README.md)
 
-## Team Members
-- **이성민**:
-- **김민재**:
-- **김희은**:
-- **강민선**:
-- **이동영**:
-
-*역할은 향후 업데이트 예정*
-
-### 주요 특징 (v4.0)
-- **Custom AFLOW (Adaptive Flow) 아키텍처**: 동적 계획 수립 및 실행
-- **실시간 스트리밍**: Claude 스타일 검색 결과 및 보고서 생성
-- **백그라운드 모델 로딩**: 서버 시작과 AI 모델 로딩의 병렬 처리
-- **SOURCE 인용 시스템**: 정확한 출처 추적 및 표시
-- **마크다운 테이블 렌더링**: 구조화된 데이터 시각화
-- **페르소나 기반 응답**: 팀별 맞춤 응답 스타일
-- **자동 Triage**: 간단한 대화 vs 복잡한 작업 자동 분류
-- **실시간 차트 생성**: 동적 데이터 시각화
+This document provides technical implementation details for developers working on the Multi-Agent RAG System.
 
 ---
 
@@ -477,102 +459,6 @@ curl http://localhost:8000/health
 
 ---
 
-## Project Goals & Impact
-
-이 시스템은 크라우드웍스의 산학 협력 프로젝트의 일환으로, **차세대 B2B AI Agent 플랫폼**을 목표로 합니다.
-
-### 프로젝트 목표
-- **Custom AFLOW 아키텍처 검증**: 동적 워크플로우의 실용성 입증
-- **실시간 UX 혁신**: Claude 스타일 스트리밍 인터페이스로 사용자 경험 개선
-- **Multi-Modal AI 통합**: 텍스트 + 차트 + 검색 결과의 통합적 제시
-- **Production-Ready 시스템**: 실제 비즈니스 환경에서 활용 가능한 안정성
-
-### 기대 효과
-- **응답 속도 3배 향상**: 실시간 스트리밍으로 체감 속도 개선
-- **정보 신뢰도 강화**: 다중 소스 검증 및 실시간 출처 표시
-- **의사결정 지원 강화**: 검색 과정 투명화로 AI 결과 신뢰성 증대
-- **확장성 확보**: 모듈화된 Agent 시스템으로 새로운 기능 추가 용이
-
-### 기술적 혁신점
-1. **Dynamic Planning**: 사용자 질문에 따른 실시간 실행 계획 수립
-2. **Conditional Execution**: LangGraph 기반 조건부 분기 및 루프 처리
-3. **Real-time Streaming**: SSE를 통한 검색 과정 실시간 시각화
-4. **Adaptive UI**: 검색 결과에 따른 동적 UI 컴포넌트 생성
-
----
-
-## Contributing
-
-### 개발 참여 방법
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Commit** your changes (`git commit -m 'feat: add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/amazing-feature`)
-5. **Open** a Pull Request
-
-### 코드 컨벤션
-```bash
-# Commit 메시지 형식
-feat: 새로운 기능 추가
-fix: 버그 수정
-docs: 문서 수정
-style: 코드 포맷팅
-refactor: 코드 리팩토링
-test: 테스트 코드
-chore: 빌드 프로세스 수정
-```
-
-### 개발 환경 설정
-```bash
-# 1. Repository 클론
-git clone https://github.com/danlee-dev/multiagent-rag-system.git
-cd multiagent-rag-system
-
-# 2. 개발용 브랜치 생성
-git checkout -b feature/your-feature-name
-
-# 3. 로컬 개발 환경 구성
-docker-compose -f docker-compose.dev.yml up
-
-# 4. 테스트 실행
-docker-compose exec backend python -m pytest
-```
-
----
-
-## Contact & Support
-
-### 연락처
-- **Company**: 크라우드웍스 (Crowdworks)
-- **GitHub**: [@danlee-dev](https://github.com/danlee-dev)
-
-### 산학 협력
-- **대학**: 고려대학교 컴퓨터학과
-- **기업**: 크라우드웍스
-- **분야**: B2B AI Agent 플랫폼 개발
-- **기간**: 2025.06 ~ 2025.11
-
-### 이슈 및 지원
-- **버그 리포트**: [GitHub Issues](https://github.com/danlee-dev/multiagent-rag-system/issues)
-- **기능 요청**: [GitHub Discussions](https://github.com/danlee-dev/multiagent-rag-system/discussions)
-- **문서**: [Wiki](https://github.com/danlee-dev/multiagent-rag-system/wiki)
-
----
-
-## License & Acknowledgments
-
-### 라이선스
-이 프로젝트는 크라우드웍스의 산학 협력 프로젝트의 일환으로 개발되었습니다.
-상용 사용시 크라우드웍스와 사전 협의가 필요합니다.
-
-### 감사의 말
-- **LangChain/LangGraph**: 동적 워크플로우 프레임워크
-- **OpenAI/Google**: LLM API 제공
-- **React/Next.js**: 프론트엔드 프레임워크
-- **FastAPI**: 백엔드 API 프레임워크
-
----
-
 ## Version History
 
 ### Recent Updates
@@ -585,8 +471,3 @@ docker-compose exec backend python -m pytest
 - **v2.0.0** (2025.07 4주차): 모듈화 리팩토링 및 팀별 템플릿 시스템
 - **v1.5.0** (2025.07 3주차): Docker 컨테이너화
 - **v1.0.0** (2025.07 2주차): 초기 Multi-Agent RAG 시스템 구현
-
-### 로드맵
-- **v4.1.0**: 멀티모달 입력 지원 (이미지, 문서)
-- **v4.2.0**: 향상된 메모리 시스템 및 컨텍스트 관리
-- **v5.0.0**: 프로덕션 최적화 및 성능 모니터링 시스템
