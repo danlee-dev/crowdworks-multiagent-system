@@ -115,6 +115,19 @@ async def preload_models_async():
 from .core.agents.orchestrator import TriageAgent, OrchestratorAgent
 from .core.agents.conversational_agent import SimpleAnswererAgent
 from .core.models.models import StreamingAgentState
+
+# LangGraph integration (Feature Flag controlled)
+USE_LANGGRAPH = os.getenv("USE_LANGGRAPH", "false").lower() == "true"
+if USE_LANGGRAPH:
+    try:
+        from .core.workflows.streaming_adapter import stream_langgraph_workflow
+        print("✅ LangGraph 통합 활성화됨 (USE_LANGGRAPH=true)")
+    except Exception as e:
+        print(f"⚠️ LangGraph import 실패: {e}")
+        USE_LANGGRAPH = False
+        print("   → 기존 시스템으로 Fallback")
+else:
+    print("ℹ️  LangGraph 비활성화 (USE_LANGGRAPH=false or not set)")
 from .utils.session_logger import get_session_logger, session_logger, set_current_session
 
 # StreamingAgentState를 Pydantic 모델로 재정의
@@ -286,6 +299,62 @@ async def stream_query(request: QueryRequest):
 
         # 세션 컨텍스트 설정
         set_current_session(request.session_id)
+
+        # ============================================================================
+        # LangGraph 경로 (Feature Flag 활성화 시)
+        # ============================================================================
+        if USE_LANGGRAPH:
+            logger.info("🔀 LangGraph 워크플로우 사용")
+
+            # RunManager로 새 실행 생성
+            run_id = run_manager.create_run(
+                conversation_id=request.session_id,
+                query=request.query,
+                flow_type="unknown"  # LangGraph가 자동 분류
+            )
+
+            # 초기 상태 이벤트
+            yield server_sent_event("init", {"run_id": run_id, "session_id": request.session_id})
+
+            try:
+                # LangGraph 스트리밍 실행
+                async for event in stream_langgraph_workflow(
+                    query=request.query,
+                    conversation_id=request.session_id,
+                    user_id="default_user",
+                    persona=request.team_id or "기본",
+                    conversation_history=request.conversation_history,
+                    project_id=request.project_id,
+                    project_name=db.get_project(request.project_id).get("title") if request.project_id else None,
+                    run_id=run_id,
+                    run_manager=run_manager
+                ):
+                    # Convert event to SSE format
+                    event_type = event.get("type")
+                    data = event.get("data", event.get("data_dict"))
+
+                    if event_type == "done":
+                        # Update run state
+                        run_manager.complete_run(run_id, {
+                            "final_answer": data.get("final_answer", ""),
+                            "sources": data.get("sources", [])
+                        })
+
+                    yield server_sent_event(event_type, data)
+
+                logger.info("✅ LangGraph 워크플로우 완료")
+
+            except Exception as e:
+                logger.error(f"❌ LangGraph 오류: {e}")
+                run_manager.mark_run_failed(run_id, str(e))
+                yield server_sent_event("error", {"message": f"처리 중 오류 발생: {str(e)}"})
+
+            return  # LangGraph 경로 종료
+
+        # ============================================================================
+        # 기존 경로 (Fallback)
+        # ============================================================================
+        logger.info("🔀 기존 워크플로우 사용 (LangGraph 비활성화)")
 
         state = StreamingAgentStateModel(
             original_query=request.query,
