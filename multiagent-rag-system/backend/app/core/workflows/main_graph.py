@@ -16,6 +16,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from .state import RAGState, create_initial_state, validate_state
 from .nodes.common_nodes import triage_node, route_after_triage
 from .chat_graph import create_chat_subgraph
+from .task_graph import create_task_subgraph
 
 
 # ============================================================================
@@ -75,9 +76,10 @@ def create_rag_graph(
     workflow.add_node("chat_flow", chat_subgraph)
     print("   ✓ chat_flow (LangGraph subgraph)")
 
-    # Task flow (placeholder - will be implemented in Week 2)
-    workflow.add_node("task_flow", _placeholder_task_flow)
-    print("   ✓ task_flow (placeholder)")
+    # Task flow (real implementation)
+    task_subgraph = create_task_subgraph()
+    workflow.add_node("task_flow", task_subgraph)
+    print("   ✓ task_flow (LangGraph subgraph)")
 
     # ========================================================================
     # Add Edges
@@ -128,34 +130,6 @@ def create_rag_graph(
     print(f"{'='*60}\n")
 
     return app
-
-
-# ============================================================================
-# Placeholder Flow Nodes
-# ============================================================================
-
-async def _placeholder_task_flow(state: RAGState) -> RAGState:
-    """
-    Placeholder for task flow.
-
-    This will be replaced with the actual task subgraph in Week 2-3.
-
-    For now, it just returns a simple message.
-    """
-    print(f"\n{'='*60}")
-    print(f"📊 [Placeholder Task Flow]")
-    print(f"   Query: {state['original_query']}")
-    print(f"{'='*60}\n")
-
-    new_state = dict(state)
-    new_state["final_answer"] = f"[PLACEHOLDER] Task report for: {state['original_query']}"
-
-    # Add to execution log
-    execution_log = list(state.get("execution_log", []))
-    execution_log.append(f"Task flow (placeholder) - Processed query")
-    new_state["execution_log"] = execution_log
-
-    return new_state
 
 
 # ============================================================================
