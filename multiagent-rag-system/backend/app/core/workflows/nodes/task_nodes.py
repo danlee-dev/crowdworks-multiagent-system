@@ -21,7 +21,7 @@ from langchain_core.runnables import RunnableConfig
 from ..state import RAGState
 from ...agents.orchestrator import OrchestratorAgent
 from ...agents.worker_agents import DataGathererAgent, ProcessorAgent
-from ....models.models import StreamingAgentState
+from ...models.models import StreamingAgentState
 
 
 # ============================================================================
@@ -133,16 +133,18 @@ async def planning_node(state: RAGState, config: RunnableConfig) -> RAGState:
         # Add to execution log
         execution_log = list(state.get("execution_log", []))
         plan = new_state.get("plan", {})
-        num_steps = len(plan.get("steps", []))
+        # OrchestratorAgent stores steps in "execution_steps"
+        steps = plan.get("execution_steps", plan.get("steps", []))
+        num_steps = len(steps)
         execution_log.append(f"Planning completed: {num_steps} steps generated")
         new_state["execution_log"] = execution_log
 
         print(f"   ✓ Plan generated: {num_steps} steps")
 
         # Log plan summary
-        for i, step in enumerate(plan.get("steps", []), 1):
-            queries = step.get("queries", [])
-            print(f"      Step {i}: {len(queries)} queries")
+        for i, step in enumerate(steps, 1):
+            sub_questions = step.get("sub_questions", [])
+            print(f"      Step {i}: {len(sub_questions)} queries")
 
         return new_state
 
@@ -182,7 +184,8 @@ async def data_gathering_node(state: RAGState, config: RunnableConfig) -> RAGSta
     print("="*60 + "\n")
 
     plan = state.get("plan", {})
-    steps = plan.get("steps", [])
+    # OrchestratorAgent stores steps in "execution_steps" field
+    steps = plan.get("execution_steps", plan.get("steps", []))
 
     if not steps:
         print("   ⚠️  No plan found, skipping data gathering")
@@ -219,7 +222,8 @@ async def data_gathering_node(state: RAGState, config: RunnableConfig) -> RAGSta
 
         for step_idx, step in enumerate(steps, 1):
             print(f"\n   📍 Step {step_idx}/{len(steps)}")
-            queries = step.get("queries", [])
+            # OrchestratorAgent uses "sub_questions" field
+            queries = step.get("sub_questions", step.get("queries", []))
 
             for query_info in queries:
                 query_text = query_info.get("query", "")
@@ -233,11 +237,11 @@ async def data_gathering_node(state: RAGState, config: RunnableConfig) -> RAGSta
                     if tool == "web_search":
                         results = await data_gatherer._web_search(query_text)
                     elif tool == "vector_db_search":
-                        results = await data_gatherer._vector_search(query_text)
+                        results = await data_gatherer._vector_db_search(query_text)
                     elif tool == "rdb_search":
                         results = await data_gatherer._rdb_search(query_text)
                     elif tool == "graph_db_search":
-                        results = await data_gatherer._graph_search(query_text)
+                        results = await data_gatherer._graph_db_search(query_text)
                     elif tool == "pubmed_search":
                         results = await data_gatherer._pubmed_search(query_text)
                     else:
@@ -356,8 +360,22 @@ async def processing_node(state: RAGState, config: RunnableConfig) -> RAGState:
         data_by_source = defaultdict(list)
 
         for item in collected_data:
-            source = item.get("source", "unknown")
-            data_by_source[source].append(item)
+            # Convert SearchResult to dict if needed
+            if hasattr(item, 'source'):
+                # It's a SearchResult object
+                item_dict = {
+                    "source": item.source,
+                    "title": getattr(item, 'title', '제목 없음'),
+                    "content": getattr(item, 'content', ''),
+                    "url": getattr(item, 'url', None),
+                    "score": getattr(item, 'score', getattr(item, 'relevance_score', 0.0))
+                }
+            else:
+                # Already a dict
+                item_dict = item
+
+            source = item_dict.get("source", "unknown")
+            data_by_source[source].append(item_dict)
 
         for source, items in data_by_source.items():
             section = f"### {source.upper()} 검색 결과\n\n"
@@ -375,16 +393,26 @@ async def processing_node(state: RAGState, config: RunnableConfig) -> RAGState:
         new_state["final_answer"] = final_report
 
         # Prepare sources
-        sources = [
-            {
-                "title": item.get("title", ""),
-                "content": item.get("content", "")[:300],
-                "url": item.get("url"),
-                "source": item.get("source", "unknown"),
-                "score": item.get("score", 0.0)
-            }
-            for item in collected_data[:20]  # Max 20 sources
-        ]
+        sources = []
+        for item in collected_data[:20]:  # Max 20 sources
+            if hasattr(item, 'source'):
+                # SearchResult object
+                sources.append({
+                    "title": getattr(item, 'title', ''),
+                    "content": getattr(item, 'content', '')[:300],
+                    "url": getattr(item, 'url', None),
+                    "source": item.source,
+                    "score": getattr(item, 'score', getattr(item, 'relevance_score', 0.0))
+                })
+            else:
+                # Dict
+                sources.append({
+                    "title": item.get("title", ""),
+                    "content": item.get("content", "")[:300],
+                    "url": item.get("url"),
+                    "source": item.get("source", "unknown"),
+                    "score": item.get("score", 0.0)
+                })
         new_state["sources"] = sources
 
         metadata = dict(state.get("metadata", {}))

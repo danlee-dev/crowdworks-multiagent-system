@@ -31,7 +31,7 @@ except ImportError:
     api_manager = None
 
 from ..state import RAGState
-from ....models.models import SearchResult
+from ...models.models import SearchResult
 from ....services.search.search_tools import (
     vector_db_search,
     debug_web_search,
