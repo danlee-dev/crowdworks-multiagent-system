@@ -240,3 +240,7 @@ temp_img/
 logs/
 *.pdf
 *.html
+
+# Search scripts and results (dev/testing only)
+backend/app/services/database/elasticsearch/batch_rag_search.py
+backend/rag_search_results/
