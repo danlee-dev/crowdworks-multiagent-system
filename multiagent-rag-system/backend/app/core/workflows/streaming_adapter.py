@@ -148,15 +148,15 @@ async def stream_langgraph_workflow(
                         "data": {"message": status_messages[name]}
                     }
 
-            # LLM stream events → chunk events
+            # LLM stream events → content events (compatible with frontend)
             elif event_type == "on_chat_model_stream":
                 chunk_data = event.get("data", {})
                 chunk_content = chunk_data.get("chunk", {})
 
                 if hasattr(chunk_content, 'content') and chunk_content.content:
                     yield {
-                        "type": "chunk",
-                        "data": {"content": chunk_content.content}
+                        "type": "content",
+                        "data": {"chunk": chunk_content.content}
                     }
 
             # Node end events → extract results
@@ -197,6 +197,18 @@ async def stream_langgraph_workflow(
 
         # Get final state
         final_state = await graph.ainvoke(initial_state, config)
+
+        # Send final_answer as content chunks (for frontend display)
+        final_answer = final_state.get("final_answer", "")
+        if final_answer:
+            # Split answer into chunks for streaming effect
+            chunk_size = 50
+            for i in range(0, len(final_answer), chunk_size):
+                chunk = final_answer[i:i + chunk_size]
+                yield {
+                    "type": "content",
+                    "data": {"chunk": chunk}
+                }
 
         # Send full_data_dict if sources exist
         sources = final_state.get("sources", [])

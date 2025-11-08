@@ -44,19 +44,18 @@ _global_executor = ThreadPoolExecutor(max_workers=16, thread_name_prefix="chat_s
 # Load persona prompts
 PERSONA_PROMPTS = {}
 try:
+    # 올바른 경로: /app/app/core/workflows/nodes/chat_nodes.py에서
+    # /app/app/core/agents/prompts/persona_prompts.json로 가려면
+    # nodes -> workflows -> core 로 3단계 올라간 후 agents/prompts로 진입
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, "../agents/prompts", "persona_prompts.json")
+    file_path = os.path.join(current_dir, "../../agents/prompts", "persona_prompts.json")
     with open(file_path, "r", encoding="utf-8") as f:
         PERSONA_PROMPTS = json.load(f)
     print(f"Chat Nodes: 페르소나 프롬프트 로드 성공 ({len(PERSONA_PROMPTS)}개)")
 except Exception as e:
-    print(f"Chat Nodes: 페르소나 프롬프트 로드 실패 - {e}")
-    # Fallback to basic prompt
-    PERSONA_PROMPTS = {
-        "기본": {
-            "prompt": "당신은 친절하고 도움이 되는 AI 어시스턴트입니다."
-        }
-    }
+    print(f"❌ Chat Nodes: 페르소나 프롬프트 로드 실패 - {e}")
+    print(f"   시도한 경로: {file_path}")
+    raise RuntimeError(f"페르소나 프롬프트 파일을 로드할 수 없습니다: {e}")
 
 
 # ============================================================================

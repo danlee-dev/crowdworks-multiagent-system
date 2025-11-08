@@ -335,10 +335,7 @@ async def stream_query(request: QueryRequest):
 
                     if event_type == "done":
                         # Update run state
-                        run_manager.complete_run(run_id, {
-                            "final_answer": data.get("final_answer", ""),
-                            "sources": data.get("sources", [])
-                        })
+                        run_manager.mark_completed(run_id, data.get("final_answer", ""))
 
                     yield server_sent_event(event_type, data)
 
@@ -346,7 +343,7 @@ async def stream_query(request: QueryRequest):
 
             except Exception as e:
                 logger.error(f"❌ LangGraph 오류: {e}")
-                run_manager.mark_run_failed(run_id, str(e))
+                run_manager.mark_error(run_id, str(e))
                 yield server_sent_event("error", {"message": f"처리 중 오류 발생: {str(e)}"})
 
             return  # LangGraph 경로 종료
@@ -721,7 +718,7 @@ async def generate_chat_title(request: dict):
         try:
             title = ModelFallbackManager.try_invoke_with_fallback(
                 prompt=title_prompt,
-                gemini_model="gemini-1.5-flash",
+                gemini_model="gemini-2.5-flash-lite",
                 openai_model="gpt-4o-mini",
                 temperature=0.3,
                 max_tokens=50
