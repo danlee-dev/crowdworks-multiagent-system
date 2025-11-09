@@ -98,6 +98,13 @@ pids
 *.seed
 *.pid.lock
 
+# Search scripts
+backend/app/services/database/elasticsearch/batch_rag_search.py
+backend/app/services/database/elasticsearch/rag_config.py
+
+# Search results
+backend/rag_search_results/
+
 # Optional npm cache directory
 .npm
 
