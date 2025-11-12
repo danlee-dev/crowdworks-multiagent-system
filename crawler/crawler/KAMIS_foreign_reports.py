@@ -8,7 +8,7 @@ import re
 import json
 
 BASE_URL = "https://www.kamis.or.kr/customer/trend/foreign_info/foreign_info.do"
-DOWNLOAD_DIR = Path("ReportPDF")
+DOWNLOAD_DIR = Path("/ReportPDF")
 REFERENCE_PATH = Path("/elasticsearch/referenceURL.json")
 
 DOWNLOAD_DIR.mkdir(exist_ok=True)

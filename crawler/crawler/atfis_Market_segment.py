@@ -9,7 +9,7 @@ import json
 from pathlib import Path
 
 BASE_LIST_URL = "https://www.atfis.or.kr/home/board/FB0027.do?subSkinYn=N&bcaId=0&pageIndex={page}"
-DOWNLOAD_DIR = Path("ReportPDF")
+DOWNLOAD_DIR = Path("/ReportPDF")
 REFERENCE_PATH = Path("/elasticsearch/referenceURL.json")
 
 DOWNLOAD_DIR.mkdir(exist_ok=True)

@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 import json
 
 BASE_LIST_URL = "https://www.atfis.or.kr/home/board/FB0003.do"
-DOWNLOAD_DIR = Path("ReportPDF")
+DOWNLOAD_DIR = Path("/ReportPDF")
 DOWNLOAD_DIR.mkdir(exist_ok=True)
 
 REFERENCE_PATH = Path("/elasticsearch/referenceURL.json")

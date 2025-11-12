@@ -16,7 +16,7 @@ TAB_PATHS = [
     "/customer/nature/customer.do",
     "/customer/nature/overseas.do",
 ]
-DOWNLOAD_DIR = Path("ReportPDF")
+DOWNLOAD_DIR = Path("/ReportPDF")
 DOWNLOAD_DIR.mkdir(exist_ok=True)
 
 REFERENCE_PATH = Path("/elasticsearch/referenceURL.json")

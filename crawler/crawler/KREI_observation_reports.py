@@ -5,7 +5,7 @@ from urllib.parse import urljoin
 import time, re, json
 
 BASE_URL = "https://www.nongnet.or.kr/front/M000000100/board/list.do"
-DOWNLOAD_DIR = Path("ReportPDF")
+DOWNLOAD_DIR = Path("/ReportPDF")
 REFERENCE_PATH = Path("/elasticsearch/referenceURL.json")
 
 DOWNLOAD_DIR.mkdir(exist_ok=True)

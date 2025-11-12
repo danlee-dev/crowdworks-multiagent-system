@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 import shutil
 
-def archive_reportpdf(src_dir: str = "ReportPDF", dst_dir: str = "ReferencePDF"):
+def archive_reportpdf(src_dir: str = "/ReportPDF", dst_dir: str = "/ReferencePDF"):
     src = Path(src_dir)
     dst = Path(dst_dir)
 
@@ -31,4 +31,4 @@ def archive_reportpdf(src_dir: str = "ReportPDF", dst_dir: str = "ReferencePDF")
 
 if __name__ == "__main__":
     # 인자를 주지 않으면 기본 폴더 사용
-    archive_reportpdf("ReportPDF", "ReferencePDF")
+    archive_reportpdf("/ReportPDF", "/ReferencePDF")
