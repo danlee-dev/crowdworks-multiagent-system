@@ -102,6 +102,7 @@ services:
       - postgres
     volumes:
       - ./crawler_rdb:/app
+      - ./utils:/app/utils
     restart: unless-stopped
     networks:
       - crowdworks-network

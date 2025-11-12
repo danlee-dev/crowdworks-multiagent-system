@@ -16,7 +16,7 @@ from elasticsearch import AsyncElasticsearch
 import google.generativeai as genai
 from datetime import datetime
 import re
-from rag_config import RAGConfig
+from .rag_config import RAGConfig
 from sentence_transformers import SentenceTransformer, CrossEncoder
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import threading
