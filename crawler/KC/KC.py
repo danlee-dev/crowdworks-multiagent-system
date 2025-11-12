@@ -10,7 +10,7 @@ API_BASE   = "https://kc-ku.crowdworks.ai/v1"
 API_KEY    = os.getenv("CROWD_API_KEY")
 HEADERS    = {"x-api-key": API_KEY}
 
-UPLOAD_DIR = Path("ReportPDF")
+UPLOAD_DIR = Path("/ReportPDF")
 OUTPUT_DIR = Path("/datas")
 UPLOAD_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
