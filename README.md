@@ -9,7 +9,7 @@
 >
 > 협력기업: 크라우드웍스(CrowdWorks)
 >
-> Built with Python, FastAPI, Next.js, LangGraph
+> Built with Python 3.10, FastAPI 0.116.1, Next.js 15.3.5, LangGraph 0.5.2
 
 ## 프로젝트 개요
 
@@ -38,30 +38,30 @@ CrowdWorks의 AI 전처리 솔루션 Alpy를 활용한 Knowledge Compiler 시스
 ### 주요 구성 요소
 
 **Data Ingestion Pipeline**
-- Python Crawler (KAMIS API, 농업 데이터)
-- Playwright Scraper (웹 스크래핑)
-- PDF Parser (pypdf)
+- Python 3.10 Crawler (KAMIS API, 농업 데이터)
+- Playwright 1.49.1 Scraper (웹 스크래핑)
+- PDF Parser (pypdf 5.1.0)
 
 **Hybrid RAG System**
-- Graph DB (Neo4j 5, APOC, GDS, Fulltext Index)
-- Relational DB (PostgreSQL 14, psycopg2)
-- Vector DB (Elasticsearch 8.11, Nori Analyzer, Sentence Transformers)
+- Graph DB (Neo4j 5.15.0, APOC, GDS, Fulltext Index)
+- Relational DB (PostgreSQL 14, psycopg2-binary 2.9.10)
+- Vector DB (Elasticsearch 8.11.0, Nori Analyzer, Sentence Transformers 3.3.1)
 
 **AI Agent Layer**
 - Orchestrator Agent (계획 수립)
 - DataGatherer Agent (데이터 수집)
 - Processor Agent (데이터 처리)
-- LLM & Tools (Gemini 2.5, GPT-4, LangChain 0.3, Playwright)
+- LLM & Tools (Gemini 2.5 Flash/Pro, GPT-4o, LangChain 0.3.26, Playwright 1.49.1)
 
 **API Gateway & Orchestration**
-- FastAPI, LangGraph, Uvicorn
+- FastAPI 0.116.1, LangGraph 0.5.2, Uvicorn 0.35.0
 
 **Frontend Layer**
-- Web UI (Next.js 15.3, React 19, TypeScript 5, Tailwind CSS 4, Chart.js 4.5, React-Markdown)
+- Web UI (Next.js 15.3.5, React 19.0.0, TypeScript 5, Tailwind CSS 4, Chart.js 4.5.0, React-Markdown 10.1.0)
 
 **Infrastructure**
-- Docker Compose
-- Kibana 8.11 (Monitoring)
+- Docker 27.5.1, Docker Compose 1.29.2
+- Kibana 8.11.0 (Monitoring)
 - Volume Mounts (Persistence)
 
 **External APIs**
@@ -248,35 +248,61 @@ crowdworks-multiagent-system/
 └── docker-compose.yml              # 전체 시스템 통합
 ```
 
-## 기술 스택
+## 인프라 및 개발 환경
 
-### Backend
-- **Framework**: FastAPI, LangGraph 0.3
-- **AI/ML**: LangChain, Sentence Transformers
-- **LLM**: Google Gemini 2.5 시리즈, GPT-4
+### 클라우드 인프라
+- **클라우드 플랫폼**: Naver Cloud Platform
+- **서버 스펙**: s8-g3a (vCPU 8EA, Memory 32GB)
+- **운영체제**: Ubuntu 24.04-base
 
-### Frontend
-- **Framework**: Next.js 15.3 (App Router)
-- **Language**: TypeScript 5
-- **Styling**: Tailwind CSS 4
-- **Visualization**: Chart.js 4.5, React-Markdown
+### 백엔드 (AI Agent Layer)
+- **언어/프레임워크**: Python 3.10, FastAPI 0.116.1
+- **AI 오케스트레이션**: 자체 개발 (Custom) 멀티에이전트 엔진 (Main System)
+- **AI/ML 라이브러리**: LangChain 0.3.26, LangChain Core 0.3.68, Sentence Transformers 3.3.1
+- **(비교 버전)**: 성능 비교를 위해 LangGraph 0.5.2 기반 실험 버전을 병행 개발 (환경 변수 `USE_LANGGRAPH`로 전환 가능)
+- **LLM Integration**: LangChain-Google-GenAI 2.0.7, LangChain-OpenAI 0.2.6, Google-GenerativeAI 0.8.5
 
-### Database
-- **Graph DB**: Neo4j 5 (APOC, GDS, Fulltext Index)
-- **Vector DB**: Elasticsearch 8.11 (Nori Analyzer)
-- **Relational DB**: PostgreSQL 14
+**주요 특징:**
+- 기본 시스템은 자체 개발한 커스텀 멀티에이전트 엔진 사용
+- LangGraph 적용 버전은 스트리밍 안정성 이슈로 실험 단계 (Feature Flag로 제어)
+- `.env` 파일에서 `USE_LANGGRAPH=true` 설정 시 LangGraph 워크플로우로 전환 가능
 
-### Infrastructure
-- **Deployment**: Naver Cloud Platform
-- **Containerization**: Docker, Docker Compose
-- **Monitoring**: Kibana 8.11
-- **Web Scraping**: Playwright
+### 프론트엔드 (Web UI Layer)
+- **언어/프레임워크**: TypeScript 5, Next.js 15.3.5 (App Router), React 19.0.0
+- **스타일링/시각화**: Tailwind CSS 4, Chart.js 4.5.0, React-ChartJS-2 5.3.0
+- **Markdown 렌더링**: React-Markdown 10.1.0, Remark-GFM 4.0.1, Rehype-Raw 7.0.0
+- **HTTP Client**: Axios 1.10.0
+- **데이터 시각화**: D3.js 7.9.0
+
+### 데이터베이스 및 저장 구조 (Hybrid RAG)
+- **Relational DB**: PostgreSQL 14 (정형 데이터, 농산물 가격 정보)
+- **Vector DB**: Elasticsearch 8.11.0 (비정형 텍스트/표, analysis-nori Korean Analyzer)
+- **Graph DB**: Neo4j 5.15.0 (관계형 지식 그래프, APOC, Graph Data Science, Fulltext Index)
+- **Database Drivers**: neo4j 5.15.0, psycopg2-binary 2.9.10, elasticsearch 8.18.1
+
+### AI 모델 스택 (AI/ML Models)
+- **LLM**: Google Gemini 2.5 (Flash/Pro), OpenAI GPT-4o
+- **임베딩 모델**: bge-m3-ko
+- **리랭킹 모델**: bge-reranker-v2-m3-ko, rerank-v3.5, Qwen3-Reranker-0.6B
+
+### 데이터 파이프라인 (Data Ingestion)
+- **크롤러**: Python 3.10 기반 KAMIS API 크롤러
+- **웹 스크래핑**: Playwright 1.49.1
+- **문서 처리**: PyPDF (PDF 파싱), WeasyPrint (PDF 생성), Pillow (이미지 처리)
+
+### 인프라 및 DevOps
+- **컨테이너화**: Docker 27.5.1, Docker Compose 1.29.2
+- **모니터링**: Kibana 8.11.0
+- **서버**: Uvicorn 0.35.0 (ASGI)
+- **데이터 처리**: Pandas 2.3.1, NumPy 1.26.4, Matplotlib 3.6.3, Seaborn 0.13.2, OpenPyXL 3.1.5
+- **유틸리티**: Pydantic 2.11.7, python-dotenv 1.1.1, requests 2.32.4, aiohttp, aiofiles
+- **ML 라이브러리**: Transformers 4.54.0, Cohere 5.16.2
 
 ### External APIs
-- KAMIS API (농수산물 가격 정보)
-- arXiv API (학술 논문)
-- SERPER API (웹 검색)
-- PubMed API (의학 문헌)
+- **KAMIS API** (농수산물 가격 정보)
+- **arXiv API** (학술 논문)
+- **SERPER API** (웹 검색)
+- **PubMed API** (의학 문헌)
 
 ## 시작하기
 
@@ -310,7 +336,14 @@ NEO4J_PASSWORD=your-neo4j-password
 
 # Frontend Configuration
 NEXT_PUBLIC_API_URL=http://localhost:8000
+
+# AI Agent Workflow Configuration (선택)
+USE_LANGGRAPH=false  # true: LangGraph 워크플로우 사용 (실험 버전), false: 커스텀 멀티에이전트 엔진 사용 (기본)
 ```
+
+**AI 워크플로우 선택:**
+- `USE_LANGGRAPH=false` (기본, 권장): 자체 개발한 안정적인 커스텀 멀티에이전트 엔진 사용
+- `USE_LANGGRAPH=true` (실험): LangGraph 기반 워크플로우 사용 (스트리밍 안정성 이슈 존재)
 
 ### Docker Compose로 실행
 
