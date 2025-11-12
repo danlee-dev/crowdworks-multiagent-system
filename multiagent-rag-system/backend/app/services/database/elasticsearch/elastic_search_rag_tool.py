@@ -16,7 +16,7 @@ from elasticsearch import AsyncElasticsearch
 import google.generativeai as genai
 from datetime import datetime
 import re
-from ....core.config.rag_config import RAGConfig
+from rag_config import RAGConfig
 from sentence_transformers import SentenceTransformer, CrossEncoder
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import threading
@@ -212,6 +212,7 @@ class MultiIndexRAGSearchEngine:
         self.SUMMARIZATION_MAX_TOKENS = config.SUMMARIZATION_MAX_TOKENS
         self.SUMMARIZATION_RATIO = config.SUMMARIZATION_RATIO
         self.DOMAIN_KEYWORDS = config.DOMAIN_KEYWORDS
+        self.RRF_K = getattr(config, "RRF_K", 60)
 
         # 동의어 사전 로드 (synonym.json)
         syn_path = os.path.join(os.path.dirname(__file__), "synonym.json")
@@ -419,62 +420,177 @@ class MultiIndexRAGSearchEngine:
             normalized_score = (original_score - min_score) / score_range
             result[f"normalized_{score_field}"] = normalized_score
         return results
+    
+    def dense_only_then_rerank(self, query: str) -> Dict:
+        """
+        1) (옵션) HyDE로 텍스트/테이블 쿼리 강화
+        2) TEXT/TABLE 인덱스에 대해 Dense 검색만 수행
+        3) (옵션) 리랭킹 적용(BGE/Cohere/Qwen 중 simple_reranking에서 선택)
+        4) (옵션) 요약 후 결과 반환
 
-    def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20, enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
-        if alpha is None:
-            alpha = self.HYBRID_ALPHA
-        # HyDE 쿼리 분리
-        if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
-            pass  # HyDE 쿼리 개선 메시지 생략
+        반환 형식은 advanced_rag_search와 유사하게 맞춤
+        {
+          "query": ...,
+          "enhanced_query": {"text": ..., "table": ...},
+          "results": [...],                # 최종 결과 (TOP_K_FINAL까지)
+          "total_candidates": <dense 총 후보 수>,
+          "final_count": <최종 개수>,
+          "processing_time": <sec>,
+          "config": {...}
+        }
+        """
+        start_time = datetime.now()
+
+        # 1) HyDE 적용 여부 유지 (기존 방식 준수)
+        if self.USE_HYDE:
+            enhanced_query_text = self.query_enhancement_hyde_text(query)
+            enhanced_query_table = self.query_enhancement_hyde_table(query)
         else:
             enhanced_query_text = query
             enhanced_query_table = query
+
+        # 2) Dense 검색 (기존 dense_retrieval_index를 그대로 활용)
         dense_results = []
-        sparse_results = []
-        # text 인덱스
+        dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, self.TOP_K_RETRIEVAL)
+        dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, self.TOP_K_RETRIEVAL)
+
+        # 3) 리랭킹 (설정에 따라 적용, 아니면 ES _score 기준)
+        if self.USE_RERANKING and len(dense_results) > 0:
+            reranked = self.simple_reranking(dense_results, query, top_k=self.TOP_K_RERANK)
+            ranked = self._assign_rank(reranked, score_key="rerank_score", rank_key="rank_dense_only")
+        else:
+            ranked = self._assign_rank(dense_results, score_key="score", rank_key="rank_dense_only")
+
+        # 최종 상위 K
+        final_results = ranked[:self.TOP_K_FINAL]
+
+        # 4) (옵션) 요약
+        if self.USE_SUMMARIZATION:
+            final_results = self.document_summarization(final_results, query)
+
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+
+        return {
+            "query": query,
+            "enhanced_query": {
+                "text": enhanced_query_text,
+                "table": enhanced_query_table
+            },
+            "results": final_results,
+            "total_candidates": len(dense_results),
+            "final_count": len(final_results),
+            "processing_time": duration,
+            "config": {
+                "mode": "dense_only_rerank",
+                "hybrid_alpha": self.HYBRID_ALPHA,
+                "use_hyde": self.USE_HYDE,
+                "use_reranking": self.USE_RERANKING,
+                "use_summarization": self.USE_SUMMARIZATION,
+            }
+        }
+
+    def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20,
+                      enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
+        # HyDE 적용 여부에 따라 쿼리 분기
+        if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
+            pass
+        else:
+            enhanced_query_text = query
+            enhanced_query_table = query
+
+        # 1) DENSE 검색(두 인덱스) → "여기서만" 리랭킹 수행
+        dense_results = []
         dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
-        sparse_results += self.sparse_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
-        # table 인덱스
         dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
+
+        if self.USE_RERANKING and len(dense_results) > 0:
+            # 리랭킹은 dense만 대상으로 수행
+            # (reranker가 부여한 'rerank_score' 기준으로 rank 매김)
+            dense_results = self.simple_reranking(dense_results, query, top_k=self.TOP_K_RERANK)
+            dense_ranked = self._assign_rank(dense_results, score_key="rerank_score", rank_key="rank_dense")
+        else:
+            # 리랭킹 미사용 시 ES의 _score 기준
+            dense_ranked = self._assign_rank(dense_results, score_key="score", rank_key="rank_dense")
+
+        # 2) SPARSE 검색(두 인덱스) → ES 점수로 순위 부여
+        sparse_results = []
+        sparse_results += self.sparse_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
         sparse_results += self.sparse_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
-        dense_results = self.normalize_scores(dense_results)
-        sparse_results = self.normalize_scores(sparse_results)
-        doc_scores = {}
-        for result in dense_results:
-            doc_id = self._get_doc_id(result)
-            dense_score = result.get("normalized_score", 0)
-            if doc_id not in doc_scores:
-                doc_scores[doc_id] = {
-                    "doc": result,
-                    "dense_score": dense_score,
-                    "sparse_score": 0.0
-                }
-            else:
-                doc_scores[doc_id]["dense_score"] = dense_score
-        for result in sparse_results:
-            doc_id = self._get_doc_id(result)
-            sparse_score = result.get("normalized_score", 0)
-            if doc_id not in doc_scores:
-                doc_scores[doc_id] = {
-                    "doc": result,
-                    "dense_score": 0.0,
-                    "sparse_score": sparse_score
-                }
-            else:
-                doc_scores[doc_id]["sparse_score"] = sparse_score
-        hybrid_results = []
-        for doc_id, scores in doc_scores.items():
-            hybrid_score = alpha * scores["sparse_score"] + (1 - alpha) * scores["dense_score"]
-            result = scores["doc"].copy()
-            result["hybrid_score"] = hybrid_score
-            result["dense_component"] = scores["dense_score"]
-            result["sparse_component"] = scores["sparse_score"]
-            result["search_type"] = "hybrid"
-            hybrid_results.append(result)
-        hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
+        sparse_ranked = self._assign_rank(sparse_results, score_key="score", rank_key="rank_sparse")
+
+        # 3) DENSE(리랭킹 반영된 순위) + SPARSE(ES 점수 순위) → RRF 결합
+        fused = self._rrf_fuse(
+            ranked_lists=[
+                ("rank_dense", dense_ranked),
+                ("rank_sparse", sparse_ranked),
+            ],
+            id_fn=self._get_doc_id,
+            k=self.RRF_K
+        )
+
+        # 메타 태그
+        for r in fused:
+            r["search_type"] = "hybrid_rrf"
+        return fused[:top_k]
+
+    
+    # # 기존 hybrid_search 주석 처리
+    # def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20, enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
+    #     if alpha is None:
+    #         alpha = self.HYBRID_ALPHA
+    #     # HyDE 쿼리 분리
+    #     if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
+    #         pass  # HyDE 쿼리 개선 메시지 생략
+    #     else:
+    #         enhanced_query_text = query
+    #         enhanced_query_table = query
+    #     dense_results = []
+    #     sparse_results = []
+    #     # text 인덱스
+    #     dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
+    #     sparse_results += self.sparse_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
+    #     # table 인덱스
+    #     dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
+    #     sparse_results += self.sparse_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
+    #     dense_results = self.normalize_scores(dense_results)
+    #     sparse_results = self.normalize_scores(sparse_results)
+    #     doc_scores = {}
+    #     for result in dense_results:
+    #         doc_id = self._get_doc_id(result)
+    #         dense_score = result.get("normalized_score", 0)
+    #         if doc_id not in doc_scores:
+    #             doc_scores[doc_id] = {
+    #                 "doc": result,
+    #                 "dense_score": dense_score,
+    #                 "sparse_score": 0.0
+    #             }
+    #         else:
+    #             doc_scores[doc_id]["dense_score"] = dense_score
+    #     for result in sparse_results:
+    #         doc_id = self._get_doc_id(result)
+    #         sparse_score = result.get("normalized_score", 0)
+    #         if doc_id not in doc_scores:
+    #             doc_scores[doc_id] = {
+    #                 "doc": result,
+    #                 "dense_score": 0.0,
+    #                 "sparse_score": sparse_score
+    #             }
+    #         else:
+    #             doc_scores[doc_id]["sparse_score"] = sparse_score
+    #     hybrid_results = []
+    #     for doc_id, scores in doc_scores.items():
+    #         hybrid_score = alpha * scores["sparse_score"] + (1 - alpha) * scores["dense_score"]
+    #         result = scores["doc"].copy()
+    #         result["hybrid_score"] = hybrid_score
+    #         result["dense_component"] = scores["dense_score"]
+    #         result["sparse_component"] = scores["sparse_score"]
+    #         result["search_type"] = "hybrid"
+    #         hybrid_results.append(result)
+    #     hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
         
-        # 중복 제거 없이 바로 반환
-        return hybrid_results[:top_k]
+    #     # 중복 제거 없이 바로 반환
+    #     return hybrid_results[:top_k]
 
     def dense_retrieval_index(self, query: str, index: str, top_k: int = 20) -> List[Dict]:
         vector = self.embed_text(query)
@@ -625,8 +741,7 @@ class MultiIndexRAGSearchEngine:
             pairs = []
             for r in subset:
                 content = r.get("page_content", "") or ""
-                name = r.get("name", "") or ""
-                doc_text = f"제목: {name}\n내용: {content}".strip()
+                doc_text = f"{content}".strip()
                 pairs.append([query, doc_text if doc_text else content])
 
             if not pairs:
@@ -664,8 +779,7 @@ class MultiIndexRAGSearchEngine:
         documents = []
         for r in subset:
             content = r.get("page_content", "") or ""
-            name = r.get("name", "") or ""
-            documents.append(f"제목: {name}\n내용: {content}".strip())
+            documents.append(f"{content}".strip())
 
         if not documents:
             return subset
@@ -702,9 +816,44 @@ class MultiIndexRAGSearchEngine:
         """
         Cohere reranker를 사용한 재순위화 (기존 simple_reranking 대체)
         """
-        #return self.cohere_reranking(results, query, top_k) # rerank-v3.5, api 호출을 통한 빠른 속도
-        return self.BGE_rerank(results, query, top_k) # bge-reranker-v2-m3-ko, 로컬 실행
+        return self.cohere_reranking(results, query, top_k) # rerank-v3.5, api 호출을 통한 빠른 속도
+        #return self.BGE_rerank(results, query, top_k) # bge-reranker-v2-m3-ko, 로컬 실행
         #return self.qwen3_reranking(results, query, top_k) # Qwen3-Reranker, 로컬 실행
+        
+    def _assign_rank(self, results: List[Dict], score_key: str, rank_key: str) -> List[Dict]:
+        """score_key로 정렬 후 1부터 순위 부여, rank_key에 기록해서 반환"""
+        ranked = sorted(results, key=lambda x: x.get(score_key, 0.0), reverse=True)
+        for i, r in enumerate(ranked, start=1):
+            r[rank_key] = i
+        return ranked
+    
+    def _rrf_fuse(self,
+                  ranked_lists: List[Tuple[str, List[Dict]]],
+                  id_fn,
+                  k: int) -> List[Dict]:
+        """
+        ranked_lists: [(rank_key, list_of_docs), ...]
+          - 각 list_of_docs의 각 아이템에는 rank_key에 1..N 순위가 있음
+        id_fn: 문서 고유 ID 생성 함수(self._get_doc_id)
+        k: RRF K 하이퍼파라미터
+        """
+        fused: Dict[str, Dict] = {}
+        for rank_key, docs in ranked_lists:
+            for d in docs:
+                doc_id = id_fn(d)
+                rank = d.get(rank_key)
+                if not rank:
+                    continue
+                contrib = 1.0 / (k + rank)
+                if doc_id not in fused:
+                    fused[doc_id] = d.copy()
+                    fused[doc_id]["rrf_score"] = 0.0
+                    fused[doc_id]["rrf_components"] = {}
+                fused[doc_id]["rrf_score"] += contrib
+                fused[doc_id]["rrf_components"][rank_key] = rank
+        fused_list = list(fused.values())
+        fused_list.sort(key=lambda x: x["rrf_score"], reverse=True)
+        return fused_list
 
     def document_summarization(self, results: List[Dict], query: str) -> List[Dict]:
         summarized_results = []
@@ -738,14 +887,18 @@ class MultiIndexRAGSearchEngine:
             enhanced_query_table = query
         hybrid_results = self.hybrid_search(query, top_k=self.TOP_K_RETRIEVAL, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
 
-        if self.USE_RERANKING and len(hybrid_results) > 5:
-            reranked_results = self.simple_reranking(
-                hybrid_results, query, top_k=self.TOP_K_RERANK
-            )
-        else:
-            reranked_results = hybrid_results
+        # 리랭킹은 dense에만 적용하는 중
+        # if self.USE_RERANKING and len(hybrid_results) > 5:
+        #     reranked_results = self.simple_reranking(
+        #         hybrid_results, query, top_k=self.TOP_K_RERANK
+        #     )
+        # else:
+        #     reranked_results = hybrid_results
 
-        final_results = reranked_results[:self.TOP_K_FINAL]
+        # final_results = reranked_results[:self.TOP_K_FINAL]
+        
+        final_results = hybrid_results[:self.TOP_K_FINAL]
+        
         if self.USE_SUMMARIZATION:
             final_results = self.document_summarization(final_results, query)
         end_time = datetime.now()
@@ -766,6 +919,63 @@ class MultiIndexRAGSearchEngine:
                 "use_hyde": self.USE_HYDE,
                 "use_reranking": self.USE_RERANKING,
                 "use_summarization": self.USE_SUMMARIZATION
+            }
+        }
+
+    def dense_only_search(self, query: str, top_k: int = 20) -> Dict:
+        """
+        Dense 검색만 수행 (리랭킹 없음)
+        - TEXT/TABLE 인덱스에 대해 Dense 검색만 수행
+        - HyDE 미적용
+        - 리랭킹 미적용
+        - 상위 top_k개 결과만 반환
+        
+        Args:
+            query: 검색 쿼리
+            top_k: 반환할 최대 결과 수
+            
+        Returns:
+            {
+                "query": 검색 쿼리,
+                "results": [상위 top_k개 Dense 검색 결과],
+                "total_candidates": Dense 검색 총 후보 수,
+                "final_count": 최종 반환 결과 수,
+                "processing_time": 처리 시간(초),
+                "config": 설정 정보
+            }
+        """
+        start_time = datetime.now()
+        
+        # Dense 검색 수행 (두 인덱스)
+        dense_results = []
+        dense_results += self.dense_retrieval_index(query, self.TEXT_INDEX, top_k)
+        dense_results += self.dense_retrieval_index(query, self.TABLE_INDEX, top_k)
+        
+        # ES 점수로 정렬
+        ranked = self._assign_rank(dense_results, score_key="score", rank_key="rank_dense")
+        
+        # 상위 top_k개만 선택
+        final_results = ranked[:top_k]
+        
+        # 요약 처리 (USE_SUMMARIZATION이 True일 경우)
+        if self.USE_SUMMARIZATION:
+            final_results = self.document_summarization(final_results, query)
+        
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        
+        return {
+            "query": query,
+            "results": final_results,
+            "total_candidates": len(dense_results),
+            "final_count": len(final_results),
+            "processing_time": duration,
+            "config": {
+                "mode": "dense_only",
+                "use_hyde": False,
+                "use_reranking": False,
+                "use_summarization": self.USE_SUMMARIZATION,
+                "top_k": top_k
             }
         }
 

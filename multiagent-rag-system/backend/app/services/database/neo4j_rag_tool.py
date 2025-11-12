@@ -24,6 +24,7 @@ DEFAULT_NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "")
 ORIGIN_INDEX   = "origin_idx"    # (Ingredient)-[isFrom]->(Origin) 축 대상
 NUTRIENT_INDEX = "nutrient_idx"  # (Food)-[hasNutrient]->(Nutrient) 축 대상
 DOC_INDEX      = "doc_idx"       # (:Entity)-[relation]-(:Document) 축 대상
+REL_INDEX      = "rel_idx"
 
 
 # =========================
@@ -128,7 +129,20 @@ class GraphDBSearchService:
                startNode(r) AS s,
                endNode(r)   AS e
         ORDER BY score DESC
-        LIMIT 500
+        LIMIT 50
+        """
+    
+    def _build_rel_indexed_query(self, index_name: str) -> str:
+        return f"""
+        CALL db.index.fulltext.queryRelationships('{index_name}', $kw)
+        YIELD relationship AS r, score
+        MATCH (s)-[r]-(e)
+        RETURN s AS n, r, e AS m, score,
+               type(r) AS rel_type,
+               startNode(r) AS s,
+               endNode(r) AS e
+        ORDER BY score DESC
+        LIMIT 50
         """
 
     def __init__(self, client: Optional[GraphDBClient] = None, llm: Optional[LLM] = None):
@@ -158,10 +172,11 @@ class GraphDBSearchService:
             self._run_indexed_query(ORIGIN_INDEX,   lucene),
             self._run_indexed_query(NUTRIENT_INDEX, lucene),
             self._run_indexed_query(DOC_INDEX,      lucene),
+            self._run_rel_indexed_query(REL_INDEX,    lucene),
         ]
-        res_origin, res_nutrient, res_doc = await asyncio.gather(*tasks, return_exceptions=False)
-        rows = (res_origin or []) + (res_nutrient or []) + (res_doc or [])
-        _debug(f"Retrieved raw results - origin:{len(res_origin)} / nutrient:{len(res_nutrient)} / doc:{len(res_doc)} / total:{len(rows)}")
+        res_origin, res_nutrient, res_doc, res_rel = await asyncio.gather(*tasks, return_exceptions=False)
+        rows = (res_origin or []) + (res_nutrient or []) + (res_doc or []) + (res_rel or [])
+        _debug(f"Retrieved raw results - origin:{len(res_origin)} / nutrient:{len(res_nutrient)} / doc:{len(res_doc)}/ rel:{len(res_rel)} / total:{len(rows)}")
 
         # 3. 결과 처리를 위한 컨테이너 초기화
         node_bucket: Dict[str, Dict[str, Any]] = {}  # elementId -> node dict (최대 score로 유지)
@@ -277,6 +292,10 @@ JSON 예:
     # ---------- Indexed fulltext runner ----------
     async def _run_indexed_query(self, index_name: str, lucene_query: str) -> List[Dict[str, Any]]:
         q = self._build_indexed_query(index_name)
+        return await self._run_async(q, {"kw": lucene_query})
+    
+    async def _run_rel_indexed_query(self, index_name: str, lucene_query: str) -> List[Dict[str, Any]]:
+        q = self._build_rel_indexed_query(index_name)
         return await self._run_async(q, {"kw": lucene_query})
 
     # ---------- Row parsing ----------

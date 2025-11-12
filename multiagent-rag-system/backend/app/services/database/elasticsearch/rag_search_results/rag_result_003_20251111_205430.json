@@ -1,0 +1,743 @@
+{
+  "query": "월마트와 관련된 배추 양배추의 시장 동향 및 정책 분석 보고서에서 최신 정보를 찾아주세요.",
+  "results": [
+    {
+      "score": 0.72752047,
+      "page_content": "2024 미국 해초주스 보고서(시장분석형)\n\n자료: 월마트(Walmart) 사진 자료: 월마트(Walmart)",
+      "name": "자료: 월마트(Walmart) 사진 자료: 월마트(Walmart)",
+      "meta_data": {
+        "chunk_id": "68dc3c93-132c-4bb3-933d-5c65247f5ac4",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "68dc3c93-132c-4bb3-933d-5c65247f5ac4"
+        ],
+        "chunked_count": 1,
+        "index": 328,
+        "page_number": [
+          18
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 24,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 해초주스 보고서(시장분석형)",
+        "original_page_content": "자료: 월마트(Walmart) 사진 자료: 월마트(Walmart)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202410-07%5D+%EB%AF%B8%EA%B5%AD+%ED%95%B4%EC%B4%88%EC%A3%BC%EC%8A%A4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202410-07%5D+%EB%AF%B8%EA%B5%AD+%ED%95%B4%EC%B4%88%EC%A3%BC%EC%8A%A4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        18
+      ],
+      "rank_dense": 1
+    },
+    {
+      "score": 0.72635543,
+      "page_content": "2024 캐나다 배추 (경쟁력분석형)\n\n# 01 제품 분석 Step\n\n현지 식품 취급 주요 온라인 쇼핑물 확인 1. 월마트(Walmart)\n2. 리얼 캐내디언 슈퍼스토어 (Real Canadian Superstore)\n3. 티언터 슈퍼마켓(T8T Supermarket)\n주요 온라인 쇼핑물 내 유사 인기제품 확인\n주요 온라인 소핑몰별 경쟁제품 구매 순위 확인\n\n고객사 제품 특징\n제품명 배추 양배추\n제품 종류 배추 양배추\n소비자가격 17캐나다달러 1) (17188원 2) )\n중량 3kg\n포장 종이 상자\n특징 한국산 신선 배추",
+      "name": "01 제품 분석 Step",
+      "meta_data": {
+        "chunk_id": "acae94a4-530d-49d8-915a-5c09a281f58d",
+        "page_number": [
+          6
+        ],
+        "item_label": "merged",
+        "index": 106,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 배추 (경쟁력분석형)",
+        "original_page_content": "# 01 제품 분석 Step",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "0f9471ed-8c56-491e-bbb5-541df9da20d9",
+            "content": "<table><tbody><tr><td>현지 식품 취급 주요 온라인 쇼핑물 확인 1. 월마트(Walmart)</td></tr><tr><td>2. 리얼 캐내디언 슈퍼스토어 (Real Canadian Superstore)</td></tr><tr><td>3. 티언터 슈퍼마켓(T8T Supermarket)</td></tr><tr><td>주요 온라인 쇼핑물 내 유사 인기제품 확인</td></tr><tr><td>주요 온라인 소핑몰별 경쟁제품 구매 순위 확인</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "4746b89b-7cb0-492e-85b0-f1b79c6064f3",
+            "content": "<table><tbody><tr><th colspan=\"2\">고객사 제품 특징</th></tr><tr><td>제품명</td><td>배추, 양배추</td></tr><tr><td>제품 종류</td><td>배추, 양배추</td></tr><tr><td>소비자가격</td><td>17캐나다달러 1) (17,188원 2) )</td></tr><tr><td>중량</td><td>3kg</td></tr><tr><td>포장</td><td>종이 상자</td></tr><tr><td>특징</td><td>한국산 신선 배추</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 3,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        6
+      ],
+      "rank_dense": 2
+    },
+    {
+      "score": 0.7223487,
+      "page_content": "2024 캐나다 메기살 보고서(시장분석형)\n\n사진 자료: 월마트 캐나다(Walmart Canada), 위키미디어커먼즈(Wikimedia Commons)",
+      "name": "사진 자료: 월마트 캐나다(Walmart Canada), 위키미디어커먼즈(Wikimedia Commons)",
+      "meta_data": {
+        "chunk_id": "1c16bba8-c26d-49eb-b6aa-6e6d24e1f4ae",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "1c16bba8-c26d-49eb-b6aa-6e6d24e1f4ae"
+        ],
+        "chunked_count": 1,
+        "index": 352,
+        "page_number": [
+          18
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 38,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 메기살 보고서(시장분석형)",
+        "original_page_content": "사진 자료: 월마트 캐나다(Walmart Canada), 위키미디어커먼즈(Wikimedia Commons)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202410-08%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%A9%94%EA%B8%B0%EC%82%B4%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202410-08%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%A9%94%EA%B8%B0%EC%82%B4%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        18
+      ],
+      "rank_dense": 3
+    },
+    {
+      "score": 0.7152231,
+      "page_content": "2024 캐나다 배추 (경쟁력분석형)\n\n# Shop ① 월마트(Walmart)\n\n도시(지역) 벤쿠버\n상세주소 1000 Guildford Town Centre Surrey BC\n\n브랜드 기본 정보 월마트 캐나다는 1994년 처음 설립된 이후 캐나다 최대 규모의 기업으로 성장함. 매일 2000개 이상의 공급업체와 협력하여 다양한 제품을 제공하고 있는 옴니 채널 소매업체임. 캐나다 전역에 400개 이상의 매장을 운영하고 있으며 매장 내 약국 안과 등의\n매장 정보\n도시(지역)\n상세주소\n매장 내부\n매대 분석 매대 분류 진열 방식\n제품 판매 정보",
+      "name": "Shop ① 월마트(Walmart)",
+      "meta_data": {
+        "chunk_id": "017fe0ab-e93b-44e9-809f-b930f24ea632",
+        "page_number": [
+          13
+        ],
+        "item_label": "merged",
+        "index": 239,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 배추 (경쟁력분석형)",
+        "original_page_content": "# Shop ① 월마트(Walmart)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "944e9810-cabe-45e3-884f-701b958e7ae6",
+            "content": "<table><tbody><tr><td>도시(지역)</td><td>벤쿠버</td></tr><tr><td>상세주소</td><td>1000 Guildford Town Centre, Surrey, BC</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "506001aa-bf8e-4d99-9563-05eee5bda1a3",
+            "content": "<table><tbody><tr><th>브랜드 기본 정보</th><th colspan=\"3\">월마트 캐나다는 1994년 처음 설립된 이후, 캐나다 최대 규모의 기업으로 성장함. 매일 2,000개 이상의 공급업체와 협력하여 다양한 제품을 제공하고 있는 옴니 채널 소매업체임. 캐나다 전역에 400개 이상의 매장을 운영하고 있으며, 매장 내 약국, 안과 등의</th></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td></td><td>도시(지역)</td></tr><tr><td></td><td></td><td>상세주소</td></tr><tr><td></td><td></td><td>매장 내부</td></tr><tr><td>매대 분석</td><td></td><td>매대 분류 진열 방식</td></tr><tr><td>제품 판매</td><td></td><td>정보</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 3,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        13
+      ],
+      "rank_dense": 4
+    },
+    {
+      "score": 0.71341306,
+      "page_content": "[웨비나] 2025 글로벌 농식품 시장트렌드·전망 발표자료\n\n# <표 Ⅳ-1> 미국 주요 유통채널별 한국식품 취급현황\n\n월마트(Walmart) 라면 만두 김 고추장 스\n아마존(Amazon) 라면 떡볶 이\n코스트코(Costco) 라면 만두 김 김치 음료 스 낵 즉석 식품 아이스 크림 등\n크로거(Kroger) 라면 만두 김 고추장 김치 소스 류 스 낵 일부\n알디/트레이더조 (ALDI/Trader Joe&#x27;s) 김 파 전 떡볶 이 불 고기 비 빔 밥 잡 채 냉동김밥 호떡 고추장 김치등\n타겟(Target) 라면 만두 김 고추장",
+      "name": "<표 Ⅳ-1> 미국 주요 유통채널별 한국식품 취급현황",
+      "meta_data": {
+        "chunk_id": "c6f5ecf4-1a2b-4b7d-a26a-eb8691c39a80",
+        "page_number": [
+          22
+        ],
+        "item_label": "merged",
+        "index": 261,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "[웨비나] 2025 글로벌 농식품 시장트렌드·전망 발표자료",
+        "original_page_content": "# <표 Ⅳ-1> 미국 주요 유통채널별 한국식품 취급현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "53c79b06-c1a0-497a-9284-5606e29595b1",
+            "content": "<table><tbody><tr><th>월마트(Walmart)</th><th>라면, 만두 , 김, 고추장, 스</th></tr><tr><th>아마존(Amazon)</th><th>라면, 떡볶 이,</th></tr><tr><td>코스트코(Costco)</td><td>라면, 만두 , 김, 김치, 음료, 스 낵 , 즉석 식품, 아이스 크림 등</td></tr><tr><td>크로거(Kroger)</td><td>라면, 만두 , 김, 고추장, 김치, 소스 류 , 스 낵 일부</td></tr><tr><td>알디/트레이더조 (ALDI/Trader Joe&#x27;s)</td><td>김, 파 전, 떡볶 이, 불 고기, 비 빔 밥, 잡 채 , 냉동김밥, 호떡 , 고추장, 김치등</td></tr><tr><td>타겟(Target)</td><td>라면, 만두 , 김, 고추장</td></tr></tbody></table>",
+            "summary": "정보에 기반한 최신 검색 결과나 출처 확인을 해드릴 수 없습니다. 하지만 식품음료신문과 관련된 내용을 찾고 계신다면 해당 신문의 공식 웹사이트를 방문하거나 도서관에서 검색하여 관련 정보를 얻을 수 있습니다. 라면, 만두, 김, 고추장 등과 관련된 뉴스나 기사는 식품 소비 트렌드, 가격 변동, 수출입 현황 등에 대한 내용을 다룰 가능성이 있습니다. 또 다른 도움이 필요하시면 말씀해 주세요!"
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%9820%29+%EB%AF%B8%EA%B5%AD+%EC%8B%9D%ED%92%88%EC%8B%9C%EC%9E%A5+2024%EB%85%84+%EB%B6%84%EC%84%9D+%EB%B0%8F+2025%EB%85%84+%EC%A0%84%EB%A7%9D_%EC%B5%9C%EC%A2%85%281%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%9820%29+%EB%AF%B8%EA%B5%AD+%EC%8B%9D%ED%92%88%EC%8B%9C%EC%9E%A5+2024%EB%85%84+%EB%B6%84%EC%84%9D+%EB%B0%8F+2025%EB%85%84+%EC%A0%84%EB%A7%9D_%EC%B5%9C%EC%A2%85%281%29.pdf.pdf",
+      "page_number": [
+        22
+      ],
+      "rank_dense": 5
+    },
+    {
+      "score": 0.7131667,
+      "page_content": "2024 대만 상추 (시장분석형)\n\n· 발행 겸 편집 ｜ aT 한국농수산식품유통공사 · 발 행 일 자 ｜ 2024.11.01\n\n본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문 내용 중 문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.\n\nCopyright 2024 aT 한국농수산식품유통공사AllRightsReserved. Printed in Korea",
+      "name": "· 발행 겸 편집 ｜ aT 한국농수산식품유통공사 · 발 행 일 자 ｜ 2024.11.01",
+      "meta_data": {
+        "chunk_id": "880744e2-9511-43ec-9cb1-d7a91b016863",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "880744e2-9511-43ec-9cb1-d7a91b016863",
+          "9666c48e-a276-448d-89ec-d944f6fb125e",
+          "59e6be14-983c-446c-b330-439c21ffc763"
+        ],
+        "chunked_count": 3,
+        "index": 974,
+        "page_number": [
+          44
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 192,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 대만 상추 (시장분석형)",
+        "original_page_content": "· 발행 겸 편집 ｜ aT 한국농수산식품유통공사 · 발 행 일 자 ｜ 2024.11.01",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-38%5D+%EB%8C%80%EB%A7%8C+%EC%83%81%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-38%5D+%EB%8C%80%EB%A7%8C+%EC%83%81%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        44
+      ],
+      "rank_dense": 6
+    },
+    {
+      "score": 0.7123298,
+      "page_content": "aT_다류_2022년 가공식품 세분시장 현황조사\n\n*월마트,스타벅스홈페이지(www.walmart.com,www.starbucks.com)\n\n192Copyright2022 All rights reserved",
+      "name": "*월마트,스타벅스홈페이지(www.walmart.com,www.starbucks.com)",
+      "meta_data": {
+        "chunk_id": "85a4b715-0919-4c65-bf6f-5614a50ac847",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "85a4b715-0919-4c65-bf6f-5614a50ac847",
+          "cbd2f6f1-5820-46aa-947b-bfcd59f3aed6"
+        ],
+        "chunked_count": 2,
+        "index": 2031,
+        "page_number": [
+          206
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 34,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "aT_다류_2022년 가공식품 세분시장 현황조사",
+        "original_page_content": "*월마트,스타벅스홈페이지(www.walmart.com,www.starbucks.com)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4589&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4589&bcaId=0&pageIndex=1",
+      "page_number": [
+        206
+      ],
+      "rank_dense": 7
+    },
+    {
+      "score": 0.71181697,
+      "page_content": "멕시코 고추 및 토마토 종자 시장조사\n\n*출처: www.mercadolibre.com.mx, www.ama z on.com.mx, https://super.walm art.com.mx, 각 브랜드 홈 페이지(검색기간: 2024.05.07.~2024.05.10.)",
+      "name": "*출처: www.mercadolibre.com.mx, www.ama z on.com.mx, https://super.walm art.com.mx, 각 브랜드 홈 페이지(검색기간: 2024.05.07.~2024.05.10.)",
+      "meta_data": {
+        "chunk_id": "58a1cdb3-422a-48f1-886a-d75348618301",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "58a1cdb3-422a-48f1-886a-d75348618301"
+        ],
+        "chunked_count": 1,
+        "index": 404,
+        "page_number": [
+          24
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 65,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "멕시코 고추 및 토마토 종자 시장조사",
+        "original_page_content": "*출처: www.mercadolibre.com.mx, www.ama z on.com.mx, https://super.walm art.com.mx, 각 브랜드 홈 페이지(검색기간: 2024.05.07.~2024.05.10.)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        24
+      ],
+      "rank_dense": 8
+    },
+    {
+      "score": 0.71169317,
+      "page_content": "2024 캐나다 배추 (경쟁력분석형)\n\n# Shop ① 월마트(Walmart)\n\n경쟁제품 ③\n제품 사진\n제품명 캐비지 플랫\n(현지어) (Cabbage Flat)\n제품 종류 양배추\n1kg당 가격 2.14캐나다달러\n(2164원)\n포장 형태 플라스틱 랩\n홍보문구 (-)\n기타 표기사항 개발 제품 중량 2.6kg",
+      "name": "Shop ① 월마트(Walmart)",
+      "meta_data": {
+        "chunk_id": "05902d20-73ab-4649-9adc-e04fc667aba6",
+        "page_number": [
+          15
+        ],
+        "item_label": "merged",
+        "index": 265,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 배추 (경쟁력분석형)",
+        "original_page_content": "# Shop ① 월마트(Walmart)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "bebdbaac-1453-427a-abe8-ef652764fdad",
+            "content": "<table><tbody><tr><td></td><th>경쟁제품 ③</th></tr><tr><td>제품 사진</td><td></td></tr><tr><td>제품명</td><td>캐비지 플랫</td></tr><tr><td>(현지어)</td><td>(Cabbage Flat)</td></tr><tr><td>제품 종류</td><td>양배추</td></tr><tr><td>1kg당 가격</td><td>2.14캐나다달러</td></tr><tr><td></td><td>(2,164원)</td></tr><tr><td>포장 형태</td><td>플라스틱 랩</td></tr><tr><td>홍보문구</td><td>(-)</td></tr><tr><td>기타 표기사항</td><td>개발 제품 중량 2.6kg</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        15
+      ],
+      "rank_dense": 9
+    },
+    {
+      "score": 0.7108933,
+      "page_content": "단감 및 배 주요 수출시장 조사\n\n*출처: https:// v in f ruits.com, www.lottemart. v n, https://delicious f ood. v n(검색일: 2024.05.23.~2023.05.31.)",
+      "name": "*출처: https:// v in f ruits.com, www.lottemart. v n, https://delicious f ood. v n(검색일: 2024.05.23.~2023.05.31.)",
+      "meta_data": {
+        "chunk_id": "ca859895-cfe6-4ff4-9469-6e8c96d5dc52",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ca859895-cfe6-4ff4-9469-6e8c96d5dc52"
+        ],
+        "chunked_count": 1,
+        "index": 238,
+        "page_number": [
+          16
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 54,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "단감 및 배 주요 수출시장 조사",
+        "original_page_content": "*출처: https:// v in f ruits.com, www.lottemart. v n, https://delicious f ood. v n(검색일: 2024.05.23.~2023.05.31.)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%986%29+%EB%8B%A8%EA%B0%90+%EB%B0%8F+%EB%B0%B0+%EC%A3%BC%EC%9A%94+%EC%88%98%EC%B6%9C%EC%8B%9C%EC%9E%A5+%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%986%29+%EB%8B%A8%EA%B0%90+%EB%B0%8F+%EB%B0%B0+%EC%A3%BC%EC%9A%94+%EC%88%98%EC%B6%9C%EC%8B%9C%EC%9E%A5+%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        16
+      ],
+      "rank_dense": 10
+    },
+    {
+      "score": 0.71005297,
+      "page_content": "2024 캐나다 배추 (경쟁력분석형)\n\n고객사희망조사매장지표및현지시장상황을고려하여하이퍼/슈퍼마켓, 아시안/한인마트를 조사매장으로 선정함\n\n7) 자료: 브리티시 컬럼비아주 8) 자료: 캐나다 통계청",
+      "name": "고객사희망조사매장지표및현지시장상황을고려하여하이퍼/슈퍼마켓, 아시안/한인마트를 조사매장으로 선정함",
+      "meta_data": {
+        "chunk_id": "d709047d-d5e5-442f-ac9f-0f1f4910a6bd",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "d709047d-d5e5-442f-ac9f-0f1f4910a6bd",
+          "7a569c72-4222-49a4-bf3e-170275d73c8b"
+        ],
+        "chunked_count": 2,
+        "index": 180,
+        "page_number": [
+          9
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 108,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 배추 (경쟁력분석형)",
+        "original_page_content": "고객사희망조사매장지표및현지시장상황을고려하여하이퍼/슈퍼마켓, 아시안/한인마트를 조사매장으로 선정함",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        9
+      ],
+      "rank_dense": 11
+    },
+    {
+      "score": 0.7093084,
+      "page_content": "2024 대만 상추 (시장분석형)\n\n①공급자정보(공급자이름, 기업이름, 주소, 연락담당자, 전화번호및이메일주소등)\n\n② 공급 제품 정보(브랜드 이름, 제품 사진, 판매 가격, 할인가, 권장소비자가격 등)\n\n자료: 8292바베큐( 烤 肉), 페이스북(Facebook),\n\n사진 자료: 페이스북(Facebook), 인라인(Inline)",
+      "name": "①공급자정보(공급자이름, 기업이름, 주소, 연락담당자, 전화번호및이메일주소등)",
+      "meta_data": {
+        "chunk_id": "a4163cd2-169d-4e0b-b7ee-ef6caaa1208c",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a4163cd2-169d-4e0b-b7ee-ef6caaa1208c",
+          "8462f0fa-b49f-4f91-a300-b29c9ff363e3",
+          "fc60f36e-9d78-49b1-96e6-3284b3d40e88",
+          "b334c8ab-2ab0-45b1-a622-e7b7051166d5"
+        ],
+        "chunked_count": 4,
+        "index": 461,
+        "page_number": [
+          20
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 144,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 대만 상추 (시장분석형)",
+        "original_page_content": "①공급자정보(공급자이름, 기업이름, 주소, 연락담당자, 전화번호및이메일주소등)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-38%5D+%EB%8C%80%EB%A7%8C+%EC%83%81%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-38%5D+%EB%8C%80%EB%A7%8C+%EC%83%81%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        20
+      ],
+      "rank_dense": 12
+    },
+    {
+      "score": 0.7087099,
+      "page_content": "2024 캐나다 배추 (경쟁력분석형)\n\n본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.\n\nCopyright 2024 aT 한국농수산식품유통공사AllRightsReserved. Printed in Korea",
+      "name": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.",
+      "meta_data": {
+        "chunk_id": "39908a94-0e86-4904-abc2-d0159018ae9c",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "39908a94-0e86-4904-abc2-d0159018ae9c",
+          "aea39b08-3a90-478e-a486-018f6a670a6d"
+        ],
+        "chunked_count": 2,
+        "index": 714,
+        "page_number": [
+          47
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 143,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 캐나다 배추 (경쟁력분석형)",
+        "original_page_content": "본 보고서 내용의 전부 또는 일부에 대한 무단전재 및 재배포는 저작권법에 의하여 금지되어 있습니다. 본문내용중문의사항이나 개선할 사항에 대해서는 aT 한국농수산식품유통공사로 연락하여 주시기 바랍니다.",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-52%5D+%EC%BA%90%EB%82%98%EB%8B%A4+%EB%B0%B0%EC%B6%94+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        47
+      ],
+      "rank_dense": 13
+    },
+    {
+      "score": 0.7082667,
+      "page_content": "단감 및 배 주요 수출시장 조사\n\n*출처: ITC Trademap(www.trademap.org)(검색일: 2024.05.21)\n\n4) 미국 농 무 부 국가농업통계(www.nass.usda.go v )",
+      "name": "*출처: ITC Trademap(www.trademap.org)(검색일: 2024.05.21)",
+      "meta_data": {
+        "chunk_id": "1d4de2a8-5484-41f2-a68c-0e6f8315dfad",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "1d4de2a8-5484-41f2-a68c-0e6f8315dfad",
+          "b157122e-4b46-492d-ae87-2fa925e10b8a"
+        ],
+        "chunked_count": 2,
+        "index": 117,
+        "page_number": [
+          9
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 64,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "단감 및 배 주요 수출시장 조사",
+        "original_page_content": "*출처: ITC Trademap(www.trademap.org)(검색일: 2024.05.21)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%986%29+%EB%8B%A8%EA%B0%90+%EB%B0%8F+%EB%B0%B0+%EC%A3%BC%EC%9A%94+%EC%88%98%EC%B6%9C%EC%8B%9C%EC%9E%A5+%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%986%29+%EB%8B%A8%EA%B0%90+%EB%B0%8F+%EB%B0%B0+%EC%A3%BC%EC%9A%94+%EC%88%98%EC%B6%9C%EC%8B%9C%EC%9E%A5+%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        9
+      ],
+      "rank_dense": 14
+    },
+    {
+      "score": 0.70736754,
+      "page_content": "2024 미국 김치 (경쟁력분석형)\n\n# Shop ① 월마트(Walmart)\n\n매대 분석 매대 분류 진열 방식 복도식 매대 소스류 야채 버섯 제품군 그룹 진열\n상·하단 제품 구성 상단: 소스류/중단: 김치 두부 등/ 하단: 버섯 종류\n브랜드 국적 구성 미국산 수입산\n주요 브랜드 C사\n\n브랜드 기본 정보\n매장 정보\n매장 내부 위치 상세주소 7250 Carson Blvd Long Beach CA 90808\n정보\n제품 판매 주요 브랜드 C사\n\n브랜드 기본 정보\n매장 정보\n위치 상세주소 7250 Carson Blvd Long Beach CA 90808\n매장 내부\n제품 판매 정보\n\n매장 정보 브랜드 기본 정보 월마트는 1962년에 설립된 미국 최대의 슈퍼마켓 체인으로 미국 내 4600개 이상의 매장과 세계 19개국에 10500개 이상의 매장을 보유하고 있음. 언제 어디서나 다양한 제품을 매일 저렴한 가격으로 제공한다는 전략을 내세우고 있음\n· 유형: 하이퍼마켓\n· 판매 제품 특징: 식료품 의류 가드닝 조사 제품 수: 3개\n서적 완구 가구 등의 다양한 제품을\n판매\n· 매장 주변 특징:\n상업 지역 내 위치\n매장 정보\n매장 내부\n복도식 매대\n소스류 야채 버섯 제품군 그룹 진열\n상단: 소스류/중단: 김치 두부 등/ 하단: 버섯 종류\n매대 분석\n제품 판매 정보 미국산 수입산\nC사",
+      "name": "Shop ① 월마트(Walmart)",
+      "meta_data": {
+        "chunk_id": "e0ca49ec-b6ae-4d4f-a113-bd60d8e55bf3",
+        "page_number": [
+          13
+        ],
+        "item_label": "merged",
+        "index": 234,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 김치 (경쟁력분석형)",
+        "original_page_content": "# Shop ① 월마트(Walmart)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "6704bce4-471e-4f23-b981-a95e58037e75",
+            "content": "<table><tbody><tr><td rowspan=\"4\">매대 분석</td><td>매대 분류 진열 방식</td><td>복도식 매대 소스류, 야채, 버섯 제품군 그룹 진열</td></tr><tr><td>상·하단 제품 구성</td><td>상단: 소스류/중단: 김치, 두부 등/ 하단: 버섯 종류</td></tr><tr><td>브랜드 국적 구성</td><td>미국산, 수입산</td></tr><tr><td>주요 브랜드</td><td>C사</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "5e680790-9b80-4aa7-9368-0f25eb9bbf9e",
+            "content": "<table><tbody><tr><th>브랜드 기본 정보</th><td></td></tr><tr><td>매장 정보</td><td></td></tr><tr><td>매장 내부</td><td colspan=\"3\">위치 상세주소 7250 Carson Blvd, Long Beach, CA 90808</td></tr><tr><td>정보</td><td></td></tr><tr><td>제품 판매</td><td colspan=\"3\">주요 브랜드 C사</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "58405e2f-3845-4d05-ab33-4495a6ce0036",
+            "content": "<table><tbody><tr><th>브랜드 기본 정보</th><td></td></tr><tr><td>매장 정보</td><td></td></tr><tr><td></td><td colspan=\"3\">위치 상세주소 7250 Carson Blvd, Long Beach, CA 90808</td></tr><tr><td>매장 내부</td><td></td></tr><tr><td>제품 판매 정보</td><td></td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "9dc1ec85-9a23-4c7b-9442-8daa4d9aa948",
+            "content": "<table><tbody><tr><td>매장 정보</td><td>브랜드 기본 정보</td><td>월마트는 1962년에 설립된 미국 최대의 슈퍼마켓 체인으로 미국 내 4,600개 이상의 매장과 세계 19개국에 10,500개 이상의 매장을 보유하고 있음. 언제 어디서나 다양한 제품을 매일 저렴한 가격으로 제공한다는 전략을 내세우고 있음</td></tr><tr><td>· 유형: 하이퍼마켓</td><td></td><td></td></tr><tr><td>· 판매 제품 특징: 식료품, 의류, 가드닝,</td><td></td><td>조사 제품 수: 3개</td></tr><tr><td>서적, 완구, 가구 등의 다양한 제품을</td><td></td><td></td></tr><tr><td>판매</td><td></td><td></td></tr><tr><td>· 매장 주변 특징:</td><td></td><td></td></tr><tr><td>상업 지역 내 위치</td><td></td><td></td></tr><tr><td></td><td>매장 정보</td><td></td></tr><tr><td></td><td>매장 내부</td><td></td></tr><tr><td></td><td></td><td>복도식 매대</td></tr><tr><td></td><td></td><td>소스류, 야채, 버섯 제품군 그룹 진열</td></tr><tr><td></td><td></td><td>상단: 소스류/중단: 김치, 두부 등/ 하단: 버섯 종류</td></tr><tr><td></td><td>매대 분석</td><td></td></tr><tr><td></td><td>제품 판매 정보</td><td>미국산, 수입산</td></tr><tr><td></td><td></td><td>C사</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 5,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-43%5D+%EB%AF%B8%EA%B5%AD+%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-43%5D+%EB%AF%B8%EA%B5%AD+%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        13
+      ],
+      "rank_dense": 15
+    },
+    {
+      "score": 0.70713407,
+      "page_content": "대만 신선 과채류 수입시장 동향 및 제도조사\n\n*출처: 全威進⼝⽔果(www.fruithouse.tw), FRESCO(www.fresco.casa), 果吉⽔果店(https://goji-fruit.com/)(검색일:2025.06.25.)",
+      "name": "*출처: 全威進⼝⽔果(www.fruithouse.tw), FRESCO(www.fresco.casa), 果吉⽔果店(https://goji-fruit.com/)(검색일:2025.06.25.)",
+      "meta_data": {
+        "chunk_id": "66fefdc1-d41c-4a55-aff3-707fd4e07981",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "66fefdc1-d41c-4a55-aff3-707fd4e07981"
+        ],
+        "chunked_count": 1,
+        "index": 284,
+        "page_number": [
+          19
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 65,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "대만 신선 과채류 수입시장 동향 및 제도조사",
+        "original_page_content": "*출처: 全威進⼝⽔果(www.fruithouse.tw), FRESCO(www.fresco.casa), 果吉⽔果店(https://goji-fruit.com/)(검색일:2025.06.25.)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2025/07/&fileName=%EB%8C%80%EB%A7%8C+%EC%8B%A0%EC%84%A0+%EA%B3%BC%EC%B1%84%EB%A5%98+%EC%88%98%EC%9E%85%EC%8B%9C%EC%9E%A5+%EB%8F%99%ED%96%A5+%EB%B0%8F+%EC%A0%9C%EB%8F%84%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2025/07/&fileName=%EB%8C%80%EB%A7%8C+%EC%8B%A0%EC%84%A0+%EA%B3%BC%EC%B1%84%EB%A5%98+%EC%88%98%EC%9E%85%EC%8B%9C%EC%9E%A5+%EB%8F%99%ED%96%A5+%EB%B0%8F+%EC%A0%9C%EB%8F%84%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        19
+      ],
+      "rank_dense": 16
+    },
+    {
+      "score": 0.7070519,
+      "page_content": "2024 미국 동충하초 가공품 (경쟁력분석형)\n\n# Shop ① 월마트(Walmart)\n\n브랜드 기본 정보 월마트는 1962년에 설립된 미국 최대의 하이퍼마켓 체인으로 미국 내 4600개 이상의 매장과 세계 19개국에 10500개 이상의 매장을 보유하고 있음. 언제 어디서나 다양한 제품을 매일 저렴한 가격으로 제공한다는 전략을 내세우고 있음\n매장 정보\n캘리포니아\n도시(지역)\n위치 상세주소 8450 La Palma Ave Buena Park CA 90620\n매장 내부\n매대 분류 복도식 매대\n매대 분석 제품군 그룹 진열 상·하단: 영양제 한국\n진열 방식 영양제 상·하단 제품 구성 국적 구성 센트룸(Centrum) 올리(Olly) 골리(Goli)\n브랜드\n주요 브랜드 포스 팩터(Force Factor) 등\n제품 판매 정보 모던 머쉬룸 무드 + 마인드 구미스 모던 머쉬룸 팩터) 모던 머쉬룸 (포스 팩터)\n\n브랜드 기본 정보 체인으로 미국 내 19개국에\n매장 정보\n도시(지역) 캘리포니아\n위치 상세주소 8450 La Palma Ave Buena Park CA 90620\n매장 내부\n매대 분류 복도식 매대\n제품 판매 진열 방식 영양제 제품군 그룹 진열\n제품 구성 상·하단: 영양제\n매대 분석 상·하단\n브랜드 국적 구성 한국 센트룸(Centrum)\n정보 주요 브랜드\n\n매장 정보 유형: 하이퍼마켓 브랜드 월마트는 1962년에 설립된 미국 최대의 하이퍼마켓 체인으로 미국 내 4600개 이상의 매장과 세계 19개국에 10500개 이상의 매장을 보유하고 있음.\n식료품 의류 가드닝 서적 완구 가구 등의 다양한 판매 조사 제품 수: 4개\n제품을\n· 매장 주변 특징:\n상업 지역 내 위치\n매장 정보\n· 주요 고객층: 현지 주민\n위치 상세주소 8450 La Palma Ave Buena Park CA 90620\n매장 내부\n매대 분류 복도식 매대\n진열\n방식 영양제 제품군 그룹 진열\n매대 분석 상·하단 제품 브랜드 국적 구성 상·하단: 영양제\n주요 구성 한국\n센트룸(Centrum) 올리(Olly) 골리(Goli)\n브랜드\n포스 팩터(Force Factor) 등\n제품 판매\n정보",
+      "name": "Shop ① 월마트(Walmart)",
+      "meta_data": {
+        "chunk_id": "d8ce08f4-c4d7-49ee-a0fe-93931ecff562",
+        "page_number": [
+          13
+        ],
+        "item_label": "merged",
+        "index": 250,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 동충하초 가공품 (경쟁력분석형)",
+        "original_page_content": "# Shop ① 월마트(Walmart)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "71126d5d-0c56-4663-a7b5-b5808ed262ce",
+            "content": "<table><tbody><tr><td>브랜드 기본 정보</td><td></td><td>월마트는 1962년에 설립된 미국 최대의 하이퍼마켓 체인으로 미국 내 4,600개 이상의 매장과 세계 19개국에 10,500개 이상의 매장을 보유하고 있음. 언제 어디서나 다양한 제품을 매일 저렴한 가격으로 제공한다는 전략을 내세우고 있음</td></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">캘리포니아</td></tr><tr><td></td><td colspan=\"2\">도시(지역)</td></tr><tr><td></td><td colspan=\"2\">위치 상세주소 8450 La Palma Ave, Buena Park, CA 90620</td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td></td><td colspan=\"2\">매대 분류 복도식 매대</td></tr><tr><td>매대 분석</td><td colspan=\"2\">제품군 그룹 진열 상·하단: 영양제 한국</td></tr><tr><td></td><td colspan=\"2\">진열 방식 영양제 상·하단 제품 구성 국적 구성 센트룸(Centrum), 올리(Olly), 골리(Goli),</td></tr><tr><td></td><td colspan=\"2\">브랜드</td></tr><tr><td></td><td colspan=\"2\">주요 브랜드 포스 팩터(Force Factor) 등</td></tr><tr><td>제품 판매 정보</td><td>모던 머쉬룸 무드</td><td>+ 마인드 구미스 모던 머쉬룸 팩터) 모던 머쉬룸 (포스 팩터)</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "e3dbc29b-1c40-448b-af3c-1c8909c63096",
+            "content": "<table><tbody><tr><td>브랜드 기본 정보</td><td colspan=\"2\">체인으로 미국 내 19개국에</td></tr><tr><td>매장 정보</td><td></td><td></td></tr><tr><td></td><td></td><td colspan=\"2\">도시(지역) 캘리포니아</td></tr><tr><td></td><td></td><td colspan=\"2\">위치 상세주소 8450 La Palma Ave, Buena Park, CA 90620</td></tr><tr><td>매장 내부</td><td></td><td></td></tr><tr><td></td><td></td><td colspan=\"2\">매대 분류 복도식 매대</td></tr><tr><td>제품 판매</td><td></td><td colspan=\"2\">진열 방식 영양제 제품군 그룹 진열</td></tr><tr><td></td><td></td><td colspan=\"2\">제품 구성 상·하단: 영양제</td></tr><tr><td>매대 분석</td><td></td><td colspan=\"2\">상·하단</td></tr><tr><td></td><td></td><td colspan=\"2\">브랜드 국적 구성 한국 센트룸(Centrum),</td></tr><tr><td>정보</td><td></td><td>주요 브랜드</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "58fed8d9-6d67-4690-82a6-6bce014e2c38",
+            "content": "<table><tbody><tr><td>매장 정보 유형: 하이퍼마켓</td><td>브랜드</td><td>월마트는 1962년에 설립된 미국 최대의 하이퍼마켓 체인으로 미국 내 4,600개 이상의 매장과 세계 19개국에 10,500개 이상의 매장을 보유하고 있음.</td><td></td></tr><tr><td>식료품, 의류, 가드닝, 서적, 완구, 가구 등의 다양한 판매</td><td></td><td></td><td>조사 제품 수: 4개</td></tr><tr><td>제품을</td><td></td><td></td><td></td></tr><tr><td>· 매장 주변 특징:</td><td></td><td></td><td></td></tr><tr><td>상업 지역 내 위치</td><td></td><td></td><td></td></tr><tr><td></td><td>매장 정보</td><td></td><td></td></tr><tr><td>· 주요 고객층: 현지 주민</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>위치</td><td>상세주소 8450 La Palma Ave, Buena Park, CA 90620</td></tr><tr><td></td><td>매장 내부</td><td></td><td></td></tr><tr><td></td><td></td><td>매대</td><td>분류 복도식 매대</td></tr><tr><td></td><td></td><td>진열</td><td></td></tr><tr><td></td><td></td><td></td><td>방식 영양제 제품군 그룹 진열</td></tr><tr><td></td><td>매대 분석</td><td>상·하단 제품 브랜드 국적</td><td>구성 상·하단: 영양제</td></tr><tr><td></td><td></td><td>주요</td><td>구성 한국</td></tr><tr><td></td><td></td><td></td><td>센트룸(Centrum), 올리(Olly), 골리(Goli),</td></tr><tr><td></td><td></td><td></td><td>브랜드</td></tr><tr><td></td><td></td><td></td><td>포스 팩터(Force Factor) 등</td></tr><tr><td>제품 판매</td><td></td><td></td><td></td></tr><tr><td>정보</td><td></td><td></td><td></td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 4,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-44%5D+%EB%AF%B8%EA%B5%AD+%EB%8F%99%EC%B6%A9%ED%95%98%EC%B4%88+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-44%5D+%EB%AF%B8%EA%B5%AD+%EB%8F%99%EC%B6%A9%ED%95%98%EC%B4%88+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        13
+      ],
+      "rank_dense": 17
+    },
+    {
+      "score": 0.7066113,
+      "page_content": "멕시코 고추 및 토마토 종자 시장조사\n\n*출처: 멕시코 농업농촌부(www.gob.mx/siap), , www.dmagromallas.mx, https://specialtyproduce.com(검색일: 2024.05.09)",
+      "name": "*출처: 멕시코 농업농촌부(www.gob.mx/siap), , www.dmagromallas.mx, https://specialtyproduce.com(검색일: 2024.05.09)",
+      "meta_data": {
+        "chunk_id": "4f1e3b8e-25b8-4d41-b198-b682fce432b6",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "4f1e3b8e-25b8-4d41-b198-b682fce432b6"
+        ],
+        "chunked_count": 1,
+        "index": 387,
+        "page_number": [
+          23
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 58,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "멕시코 고추 및 토마토 종자 시장조사",
+        "original_page_content": "*출처: 멕시코 농업농촌부(www.gob.mx/siap), , www.dmagromallas.mx, https://specialtyproduce.com(검색일: 2024.05.09)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        23
+      ],
+      "rank_dense": 18
+    },
+    {
+      "score": 0.70632875,
+      "page_content": "미국 쌀가공식품 수출 현황분석 및 확대방안\n\n* 출 처: Walmart ( 검색 일 : 2024.08.14)",
+      "name": "* 출 처: Walmart ( 검색 일 : 2024.08.14)",
+      "meta_data": {
+        "chunk_id": "542e8b4f-4539-44ff-bdb5-fb93de616090",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "542e8b4f-4539-44ff-bdb5-fb93de616090"
+        ],
+        "chunked_count": 1,
+        "index": 705,
+        "page_number": [
+          40
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 19,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "미국 쌀가공식품 수출 현황분석 및 확대방안",
+        "original_page_content": "* 출 처: Walmart ( 검색 일 : 2024.08.14)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%E2%98%85%5B%EC%B5%9C%EC%A2%85%5D+%E5%B0%8D%E7%BE%8E+%EC%8C%80%EA%B0%80%EA%B3%B5%EC%8B%9D%ED%92%88+%EC%88%98%EC%B6%9C%ED%98%84%ED%99%A9+%EB%B6%84%EC%84%9D+%EB%B0%8F+%EC%88%98%EC%B6%9C%ED%99%95%EB%8C%80+%EB%B0%A9%EC%95%88_1022+%281%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%E2%98%85%5B%EC%B5%9C%EC%A2%85%5D+%E5%B0%8D%E7%BE%8E+%EC%8C%80%EA%B0%80%EA%B3%B5%EC%8B%9D%ED%92%88+%EC%88%98%EC%B6%9C%ED%98%84%ED%99%A9+%EB%B6%84%EC%84%9D+%EB%B0%8F+%EC%88%98%EC%B6%9C%ED%99%95%EB%8C%80+%EB%B0%A9%EC%95%88_1022+%281%29.pdf.pdf",
+      "page_number": [
+        40
+      ],
+      "rank_dense": 19
+    },
+    {
+      "score": 0.7060806,
+      "page_content": "멕시코 고추 및 토마토 종자 시장조사\n\n1 세계은행(https://databank.worldbank.org)\n\n3 세계종자 협회 (International Seed Federation)\n\n4 I T C T rademap(www.trademap.org)\n\n6 멕시코 국립통계지리연구소(www.inegi.org.mx)\n\n7 멕시코 국립농 식 품위생품 질청 (https://sistemasssl.senasica.gob.mx/)\n\n10 https://geo-mexico.com/?p=9512\n\n11 https://agriculture.basf.com\n\n20 https://super.walmart.com.mx\n\n22 https://rancholosmolinos.com\n\n23 https://growdepotmexico.com\n\n26 https://specialtyproduce.com\n\n27 E xpectativas Agroalimentarias, 멕시코 농업농촌부(www.gob.mx/siap)\n\n28 Central America Seed M arket O verview(2021), Agribusiness G lobal\n\n29 V egetables and Pulses O utlook(2023.04.), 미국 농 무 부(www.ers.usda.gov)",
+      "name": "1 세계은행(https://databank.worldbank.org)",
+      "meta_data": {
+        "chunk_id": "495f68f7-f969-43d3-9516-13a5939a62e8",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "495f68f7-f969-43d3-9516-13a5939a62e8",
+          "8a0fa0be-f990-41a8-a9cd-f0d560066d49",
+          "d1109a06-b5f8-4c74-abe1-529b5a461f55",
+          "eba39c20-b619-4dd3-95ad-33b161dd7df5",
+          "c996649d-d80d-49ce-9083-0fbcbafb01c0",
+          "338bacc0-e286-4398-a42a-7efaa11abd17",
+          "9b4a88df-be92-4025-937e-595ff8336248",
+          "2f02d7e6-3d07-4d05-ae3e-fa2bd6e7ff0a",
+          "986a6f23-82e7-4825-99bc-aab83460ba7e",
+          "e08664a6-972a-4cbe-9af7-55ebf80d50b3",
+          "bd6cf807-e2be-48b9-aed1-b6b258c97d68",
+          "909a5006-a301-4828-a408-3df0035ea75a",
+          "b3f8ad92-67eb-432c-9aa4-56ca3c0d0c84",
+          "a3eebd6b-4528-4775-a42e-4df4b15dca46"
+        ],
+        "chunked_count": 14,
+        "index": 476,
+        "page_number": [
+          30
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 277,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "멕시코 고추 및 토마토 종자 시장조사",
+        "original_page_content": "1 세계은행(https://databank.worldbank.org)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%E2%98%85%28%EC%9D%BC%EB%B0%983%29+%EB%A9%95%EC%8B%9C%EC%BD%94+%EA%B3%A0%EC%B6%94+%EB%B0%8F+%ED%86%A0%EB%A7%88%ED%86%A0+%EC%A2%85%EC%9E%90+%EC%8B%9C%EC%9E%A5%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        30
+      ],
+      "rank_dense": 20
+    }
+  ],
+  "total_candidates": 40,
+  "final_count": 20,
+  "processing_time": 1.354433,
+  "config": {
+    "mode": "dense_only",
+    "use_hyde": false,
+    "use_reranking": false,
+    "use_summarization": false,
+    "top_k": 20
+  }
+}

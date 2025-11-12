@@ -1,0 +1,722 @@
+{
+  "query": "주요 경쟁사의 우유 가공 제품 목록과 각 제품의 특징을 알려주세요.",
+  "results": [
+    {
+      "score": 0.7842699,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# 경쟁제품(제조사)\n\n① 치머리 말차 (피티 치사루아 마운틴 데어리)\n② 인도밀크 서울 바나나 플레이버 (피티 인도라크토)\n③ 울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩)\n④ 치머리 마리 비스킷 (피티 치사루아 마운틴 데어리)\n⑤ 다이아몬드 밀크 마시멜로우 (피티다이아몬드콜드스토리지)\n⑥ 인도밀크 코리안 스트로베리 플레이버\n⑦ (피티 인도라크토) 울트라밀크 라사 스트로베리\n⑧ 치머리 스트로베리 (피티 치사루아 마운틴 데어리)\n⑨ UHT 엑스트라 스트로베리 로즈 밀크 위드 콜라겐 (피티 그린필즈 인도네시아)\n⑩ UHT 엑스트라 바닐라 캐모마일 밀크 (피티 그린필즈 인도네시아)",
+      "name": "경쟁제품(제조사)",
+      "meta_data": {
+        "chunk_id": "b1363ed3-a485-43bf-8855-aac3e117babc",
+        "page_number": [
+          43
+        ],
+        "item_label": "merged",
+        "index": 708,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# 경쟁제품(제조사)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "d48f4999-865b-44d5-8d27-f3e45f8ff4b1",
+            "content": "<table><tbody><tr><td>①</td><td>치머리 말차 (피티 치사루아 마운틴 데어리)</td></tr><tr><td>②</td><td>인도밀크 서울 바나나 플레이버 (피티 인도라크토)</td></tr><tr><td>③</td><td>울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩)</td></tr><tr><td>④</td><td>치머리 마리 비스킷 (피티 치사루아 마운틴 데어리)</td></tr><tr><td>⑤</td><td>다이아몬드 밀크 마시멜로우 (피티다이아몬드콜드스토리지)</td></tr><tr><td>⑥</td><td>인도밀크 코리안 스트로베리 플레이버</td></tr><tr><td>⑦</td><td>(피티 인도라크토) 울트라밀크 라사 스트로베리</td></tr><tr><td>⑧</td><td>치머리 스트로베리 (피티 치사루아 마운틴 데어리)</td></tr><tr><td>⑨</td><td>UHT 엑스트라 스트로베리 로즈 밀크 위드 콜라겐 (피티 그린필즈 인도네시아)</td></tr><tr><td>⑩</td><td>UHT 엑스트라 바닐라 캐모마일 밀크 (피티 그린필즈 인도네시아)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        43
+      ],
+      "rank_dense": 1
+    },
+    {
+      "score": 0.7727654,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n③ 울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 & 트레이딩)\n\n④ 치머리 마리 비스킷 (피티 치사루아 마운틴 데어리)\n\n⑤ 다이아몬드 밀크 마시멜로우 (피티다이아몬드콜드스토리지)\n\n⑥ 인도밀크 코리안 스트로베리 플레이버 (피티 인도라크토)\n\n⑦ 울트라밀크 라사 스트로베리 (피티 울트라자야 밀크 인더스트리 & 트레이딩)\n\n⑨ UHT 엑스트라 스트로베리 로즈 밀크 위드 콜라겐 (피티 그린필즈 인도네시아)\n\n⑩ UHT 엑스트라 바닐라 캐모마일 밀크 (피티 그린필즈 인도네시아)\n\n가공우유 경쟁제품 10개의 평균 용량은 211ml으로 조사됨. 고객사 제품의 용량은 200ml로 경쟁제품들과 비슷한 편임. 조사된 10개의 경쟁제품 중 5개는 고객사 제품과 마찬가지로 용량이 200ml로 나타남. 용량이 가장 많은 제품은 250ml, 가장 적은 제품은 180ml임. 이를 통해 현지 시장에서는 200ml 내외의 제품에 대한 수요가 충분함을 알 수 있으며, 고객사는 용량 구성을 변경하지 않아도 현지 시장에서 경쟁력을 발휘할 수 있을 것으로 보임\n\n# [표 5.2] 인도네시아 가공우유 용량 경쟁력 분석",
+      "name": "③ 울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 & 트레이딩)",
+      "meta_data": {
+        "chunk_id": "8b327d3c-dde9-456a-9a56-55519ec82c44",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "8b327d3c-dde9-456a-9a56-55519ec82c44",
+          "30871884-8488-4ff4-b163-dc9100c1700b",
+          "0e27642b-110f-44c9-824e-3f59faa80f58",
+          "737b8c27-d712-4c69-918e-defc6ec950fb",
+          "22103cb7-0ae4-4bfe-b4b1-60abd56d5caf",
+          "34a7f280-541b-4096-a4e9-9cffa22da965",
+          "c575d2bb-3067-47cf-97b4-cd60dcbff831",
+          "e15a4351-066b-420a-8793-bfca84a27b0d",
+          "a8e7cf68-7fd5-41c9-ab81-b04503c07a1d"
+        ],
+        "chunked_count": 9,
+        "index": 729,
+        "page_number": [
+          44
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 588,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "③ 울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 & 트레이딩)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        44
+      ],
+      "rank_dense": 2
+    },
+    {
+      "score": 0.77203,
+      "page_content": "2024 홍콩 가공우유 (시장분석형)\n\n① 공급자 정보(공급자 이름, 주소, 연락 담당자, 전화번호 및 이메일 주소)\n\n② 공급 제품 정보(브랜드 이름, 제품 이름, 제품 사진, 판매 가격, 할인가, 정가)\n\n자료: 베이비다인(Baby Dine) 사진 자료: 인스타그램(Instagram)",
+      "name": "① 공급자 정보(공급자 이름, 주소, 연락 담당자, 전화번호 및 이메일 주소)",
+      "meta_data": {
+        "chunk_id": "2b9cd2f9-c115-4de3-9018-031e5ca454e1",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "2b9cd2f9-c115-4de3-9018-031e5ca454e1",
+          "fc1ce618-1112-4bfb-98c7-330682d627e9",
+          "c4ae6c51-1a0f-4efc-ae95-886e2f5c722d"
+        ],
+        "chunked_count": 3,
+        "index": 394,
+        "page_number": [
+          19
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 114,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 홍콩 가공우유 (시장분석형)",
+        "original_page_content": "① 공급자 정보(공급자 이름, 주소, 연락 담당자, 전화번호 및 이메일 주소)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-32%5D+%ED%99%8D%EC%BD%A9+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-32%5D+%ED%99%8D%EC%BD%A9+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        19
+      ],
+      "rank_dense": 3
+    },
+    {
+      "score": 0.7703943,
+      "page_content": "2024 호주 컵우동 (경쟁력분석형)\n\n# [표 2.6] 경쟁제품 판매 현황\n\n매장 입점 여부 제품 종류\n경쟁제품(제조사) 오프라인 온라인 컵우동 생우동\n① 누들 수프 볼 (B사) ○ (케이몰) - ○ -\n② 아씨 해물맛 우동 컵-씨푸드 우동 (C사) ○ (케이몰) - ○ -\n③ 가쓰오 우동 누들 볼 (C사) ○ (케이몰) - ○ -\n④ 생생 우동 (A사) ○ (케이몰) ○ (아마존) ○ -\n⑤ 워카 우동 (워카) ○ (울워스) ○ (울워스 아마존) - ○\n⑥ 셰프 월드 재페니즈 우동 누들 (B사) ○ (울워스) - - ○\n⑦ 우동 누들스 포 수프 오어 스터 프라이 (오벤토) ○ (울워스) ○ (울워스) - ○\n⑧ 우동 누들 스프 (토요 수산 카이샤) ○ (제트시티) - ○ -\n⑨ 미야코이치 후토 우동 키츠네 (미야코이치) ○ (제트시티) - - ○\n⑩ 텐푸라 우동 누들 수프 (A사) ○ (제트시티) - ○ -\n(*) 현지 판매 컵우동 경쟁제품 10개 분석",
+      "name": "[표 2.6] 경쟁제품 판매 현황",
+      "meta_data": {
+        "chunk_id": "42693d21-6bde-41ce-a06e-cd8fa23cd215",
+        "page_number": [
+          12
+        ],
+        "item_label": "merged",
+        "index": 221,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 호주 컵우동 (경쟁력분석형)",
+        "original_page_content": "# [표 2.6] 경쟁제품 판매 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "3084487b-4022-4562-8b20-3e8cf9e5da2f",
+            "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">매장 입점 여부</th><th colspan=\"2\">제품 종류</th></tr><tr><td></td><th>경쟁제품(제조사)</th><th>오프라인</th><th>온라인</th><th>컵우동</th><th>생우동</th></tr><tr><td>①</td><td>누들 수프 볼 (B사)</td><td>○ (케이몰)</td><td>-</td><td>○</td><td>-</td></tr><tr><td>②</td><td>아씨 해물맛 우동 컵-씨푸드 우동 (C사)</td><td>○ (케이몰)</td><td>-</td><td>○</td><td>-</td></tr><tr><td>③</td><td>가쓰오 우동 누들 볼 (C사)</td><td>○ (케이몰)</td><td>-</td><td>○</td><td>-</td></tr><tr><td>④</td><td>생생 우동 (A사)</td><td>○ (케이몰)</td><td>○ (아마존)</td><td>○</td><td>-</td></tr><tr><td>⑤</td><td>워카 우동 (워카)</td><td>○ (울워스)</td><td>○ (울워스, 아마존)</td><td>-</td><td>○</td></tr><tr><td>⑥</td><td>셰프 월드 재페니즈 우동 누들 (B사)</td><td>○ (울워스)</td><td>-</td><td>-</td><td>○</td></tr><tr><td>⑦</td><td>우동 누들스 포 수프 오어 스터 프라이 (오벤토)</td><td>○ (울워스)</td><td>○ (울워스)</td><td>-</td><td>○</td></tr><tr><td>⑧</td><td>우동 누들 스프 (토요 수산 카이샤)</td><td>○ (제트시티)</td><td>-</td><td>○</td><td>-</td></tr><tr><td>⑨</td><td>미야코이치 후토 우동 키츠네 (미야코이치)</td><td>○ (제트시티)</td><td>-</td><td>-</td><td>○</td></tr><tr><td>⑩</td><td>텐푸라 우동 누들 수프 (A사)</td><td>○ (제트시티)</td><td>-</td><td>○</td><td>-</td></tr><tr><td>(*)</td><td>현지 판매 컵우동 경쟁제품 10개 분석</td><td></td><td></td><td></td><td></td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%5B202408-18%5D+%ED%98%B8%EC%A3%BC+%EC%BB%B5%EC%9A%B0%EB%8F%99+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%5B202408-18%5D+%ED%98%B8%EC%A3%BC+%EC%BB%B5%EC%9A%B0%EB%8F%99+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        12
+      ],
+      "rank_dense": 4
+    },
+    {
+      "score": 0.7700389,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# [표 2.6] 경쟁제품 판매 현황\n\n매장 입점 여부 제품 종류\n경쟁제품(제조사) 오프라인 온라인 가공우유\n① 치머리 말차 (피티 치사루아 마운틴 데어리) ○ (하이퍼마트 파파야 프레쉬 갤러리) ○ (토코피디아 쇼피 라자다) ○\n② 인도밀크 서울 바나나 플레이버 (피티 인도라크토) ○ (하이퍼마트 인도마렛) ○ (토코피디아 쇼피 라자다) ○\n③ 울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩) ○ (하이퍼마트 파파야 프레쉬 갤러리) ○ (토코피디아 쇼피 라자다) ○\n④ 치머리 마리 비스킷 (피티 치사루아 마운틴 데어리) ○ (하이퍼마트 파파야 프레쉬 갤러리) ○ (토코피디아 쇼피 라자다) ○\n⑤ 다이아몬드 밀크 마시멜로우 (피키 다이아먼드 콜드 스토리지) ○ (파파야 프레쉬 갤러리 호키) ○ (토코피디아 쇼피 라자다) ○\n⑥ 인도밀크 코리안 스트로베리 플레이버 (피티 인도라크토) ○ (인도마렛) ○ (토코피디아 쇼피 라자다) ○\n⑦ 울트라밀크 라사 스트로베리 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩) ○ (인도마렛 파파야 프레쉬 갤러리 호키) ○ (토코피디아 쇼피 라자다) ○\n⑧ 치머리 스트로베리 (피티 치사루아 마운틴 데어리) ○ (하이퍼마트 파파야 프레쉬 갤러리 호키) ○ (토코피디아 쇼피 라자다) ○\n⑨ UHT 엑스트라 스트로베리 로즈 밀크 위드 콜라겐 (피티 그린필즈 인도네시아) ○ (인도마렛 호키) ○ (토코피디아 쇼피 라자다) ○\n⑩ UHT 엑스트라 바닐라 캐모마일 밀크 (피티 그린필즈 인도네시아) ○ (호키) ○ (토코피디아 쇼피 라자다) ○",
+      "name": "[표 2.6] 경쟁제품 판매 현황",
+      "meta_data": {
+        "chunk_id": "e6985654-477b-4a58-8319-f577fe95db76",
+        "page_number": [
+          12
+        ],
+        "item_label": "merged",
+        "index": 224,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# [표 2.6] 경쟁제품 판매 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "5fc3ea33-9f4d-433f-a407-b0585477f845",
+            "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">매장 입점 여부</th><th>제품 종류</th></tr><tr><td></td><th>경쟁제품(제조사)</th><th>오프라인</th><th>온라인</th><th>가공우유</th></tr><tr><td>①</td><td>치머리 말차 (피티 치사루아 마운틴 데어리)</td><td>○ (하이퍼마트, 파파야 프레쉬 갤러리)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>②</td><td>인도밀크 서울 바나나 플레이버 (피티 인도라크토)</td><td>○ (하이퍼마트, 인도마렛)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>③</td><td>울트라밀크 라사 카라멜 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩)</td><td>○ (하이퍼마트, 파파야 프레쉬 갤러리)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>④</td><td>치머리 마리 비스킷 (피티 치사루아 마운틴 데어리)</td><td>○ (하이퍼마트, 파파야 프레쉬 갤러리)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑤</td><td>다이아몬드 밀크 마시멜로우 (피키 다이아먼드 콜드 스토리지)</td><td>○ (파파야 프레쉬 갤러리, 호키)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑥</td><td>인도밀크 코리안 스트로베리 플레이버 (피티 인도라크토)</td><td>○ (인도마렛)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑦</td><td>울트라밀크 라사 스트로베리 (피티 울트라자야 밀크 인더스트리 &amp; 트레이딩)</td><td>○ (인도마렛, 파파야 프레쉬 갤러리, 호키)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑧</td><td>치머리 스트로베리 (피티 치사루아 마운틴 데어리)</td><td>○ (하이퍼마트, 파파야 프레쉬 갤러리, 호키)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑨</td><td>UHT 엑스트라 스트로베리 로즈 밀크 위드 콜라겐 (피티 그린필즈 인도네시아)</td><td>○ (인도마렛, 호키)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr><tr><td>⑩</td><td>UHT 엑스트라 바닐라 캐모마일 밀크 (피티 그린필즈 인도네시아)</td><td>○ (호키)</td><td>○ (토코피디아, 쇼피, 라자다)</td><td>○</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        12
+      ],
+      "rank_dense": 5
+    },
+    {
+      "score": 0.7683619,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# [표 3.2] 경쟁기업 기본 정보\n\n기준 설명\n① 기업명 기업의 이름\n② 위치 기업 본사 위치\n③ 매출액 23년도 기업 매출액\n직원 수 23년도 기업 직원 수\n설립연도 기업의 설립연도\n동일품목 가공우유 제품군",
+      "name": "[표 3.2] 경쟁기업 기본 정보",
+      "meta_data": {
+        "chunk_id": "c5f9d6a8-8a48-424f-aa39-75184e39c52a",
+        "page_number": [
+          25
+        ],
+        "item_label": "merged",
+        "index": 407,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# [표 3.2] 경쟁기업 기본 정보",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "010313e5-799c-4103-a8d4-1497476a7756",
+            "content": "<table><tbody><tr><th colspan=\"2\">기준</th><th>설명</th></tr><tr><td>①</td><td>기업명</td><td>기업의 이름</td></tr><tr><td>②</td><td>위치</td><td>기업 본사 위치</td></tr><tr><td rowspan=\"4\">③</td><td>매출액</td><td>23년도 기업 매출액</td></tr><tr><td>직원 수</td><td>23년도 기업 직원 수</td></tr><tr><td>설립연도</td><td>기업의 설립연도</td></tr><tr><td>동일품목</td><td>가공우유 제품군</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        25
+      ],
+      "rank_dense": 6
+    },
+    {
+      "score": 0.76681346,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 가공우유 제품의 경쟁제품군을 선정하였음",
+      "name": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 가공우유 제품의 경쟁제품군을 선정하였음",
+      "meta_data": {
+        "chunk_id": "ebbc3010-3601-4c5c-b0f4-4cfba7463b2d",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ebbc3010-3601-4c5c-b0f4-4cfba7463b2d"
+        ],
+        "chunked_count": 1,
+        "index": 131,
+        "page_number": [
+          7
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 62,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "경쟁제품 조사에 앞서 고객사 희망 조사 지표를 바탕으로 가공우유 제품의 경쟁제품군을 선정하였음",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        7
+      ],
+      "rank_dense": 7
+    },
+    {
+      "score": 0.7667404,
+      "page_content": "2024 홍콩 가공우유 (시장분석형)\n\n# ▶ 홍콩 온라인 쇼핑몰 입점 가공우유 특징 분석\n\n항목 키워드(국문/영어) 빈도 키워드(국문/영어) 빈도\n브랜드 비타소이 Vitasoy 142 광천 Kuang Chuan 6\n더치레이디 Dutch Lady 36 의미식품 義美食品 4\n마루산 Marusan 11 데본데일 Devondale 2\n트라피스트데어리 Trappist Dairy 9 스위트가든 Sweet Garden 2\n연세우유 Yonsei Milk 8 (-) (-) (-)\n성분 칼슘 Calcium 112 쌀 Rice 10\n비타민 Vitamin 46 바나나 Banana 7\n초콜릿 Chocolate 46 흑미 Black Rice 3\n귀리 Oat 33 호두 Walnut 2\n콩 Soybean 20 복숭아 Peach 2\n아몬드 Almond 12 (-) (-) (-)\n효능/ 홍보문구 저당 Low Sugar 51 무방부제 No Preservatives 8\n건강 Healthy 39 무설탕 No Sugar 7\n저지방 Low Fat 34 고단백 High Protein 3\n유기농 Organic 21 에너지 Energy 2\n프리미엄 Premium 16 할랄 Halal 2\n천연 Natural 11 소화 Digestion 1\nNon GMO Non gmo 9 (-) (-) (-)",
+      "name": "▶ 홍콩 온라인 쇼핑몰 입점 가공우유 특징 분석",
+      "meta_data": {
+        "chunk_id": "55374a20-d3d1-47fc-8be9-7e482b7e32d2",
+        "page_number": [
+          10
+        ],
+        "item_label": "merged",
+        "index": 140,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 홍콩 가공우유 (시장분석형)",
+        "original_page_content": "# ▶ 홍콩 온라인 쇼핑몰 입점 가공우유 특징 분석",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "8f6263ae-7a99-4fbf-8a84-7f30b8473f63",
+            "content": "<table><tbody><tr><th>항목</th><th colspan=\"2\">키워드(국문/영어)</th><th>빈도</th><th colspan=\"2\">키워드(국문/영어)</th><th>빈도</th></tr><tr><td rowspan=\"5\">브랜드</td><td>비타소이</td><td>Vitasoy</td><td>142</td><td>광천</td><td>Kuang Chuan</td><td>6</td></tr><tr><td>더치레이디</td><td>Dutch Lady</td><td>36</td><td>의미식품</td><td>義美食品</td><td>4</td></tr><tr><td>마루산</td><td>Marusan</td><td>11</td><td>데본데일</td><td>Devondale</td><td>2</td></tr><tr><td>트라피스트데어리</td><td>Trappist Dairy</td><td>9</td><td>스위트가든</td><td>Sweet Garden</td><td>2</td></tr><tr><td>연세우유</td><td>Yonsei Milk</td><td>8</td><td>(-)</td><td>(-)</td><td>(-)</td></tr><tr><td rowspan=\"6\">성분</td><td>칼슘</td><td>Calcium</td><td>112</td><td>쌀</td><td>Rice</td><td>10</td></tr><tr><td>비타민</td><td>Vitamin</td><td>46</td><td>바나나</td><td>Banana</td><td>7</td></tr><tr><td>초콜릿</td><td>Chocolate</td><td>46</td><td>흑미</td><td>Black Rice</td><td>3</td></tr><tr><td>귀리</td><td>Oat</td><td>33</td><td>호두</td><td>Walnut</td><td>2</td></tr><tr><td>콩</td><td>Soybean</td><td>20</td><td>복숭아</td><td>Peach</td><td>2</td></tr><tr><td>아몬드</td><td>Almond</td><td>12</td><td>(-)</td><td>(-)</td><td>(-)</td></tr><tr><td rowspan=\"7\">효능/ 홍보문구</td><td>저당</td><td>Low Sugar</td><td>51</td><td>무방부제</td><td>No Preservatives</td><td>8</td></tr><tr><td>건강</td><td>Healthy</td><td>39</td><td>무설탕</td><td>No Sugar</td><td>7</td></tr><tr><td>저지방</td><td>Low Fat</td><td>34</td><td>고단백</td><td>High Protein</td><td>3</td></tr><tr><td>유기농</td><td>Organic</td><td>21</td><td>에너지</td><td>Energy</td><td>2</td></tr><tr><td>프리미엄</td><td>Premium</td><td>16</td><td>할랄</td><td>Halal</td><td>2</td></tr><tr><td>천연</td><td>Natural</td><td>11</td><td>소화</td><td>Digestion</td><td>1</td></tr><tr><td>Non GMO</td><td>Non gmo</td><td>9</td><td>(-)</td><td>(-)</td><td>(-)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-32%5D+%ED%99%8D%EC%BD%A9+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-32%5D+%ED%99%8D%EC%BD%A9+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        10
+      ],
+      "rank_dense": 8
+    },
+    {
+      "score": 0.7665075,
+      "page_content": "UAE 비건 냉동만두 (경쟁력분석형)\n\n# 경쟁제품(제조사)\n\n① 야채왕교자 (C사)\n② 버섯왕교자 (C사)\n③ 김치왕교자 (C사)\n④ 담백한 야채왕교자 (D사)\n⑤ 매콤한 잡채왕교자 (D사)\n⑥ 부추잡채만두 (F사)\n⑦ 납작지짐만두 (F사)\n⑧ 해물야채왕교자 (C사)\n⑨ 부추 물만두 (B사)\n⑩ 잡채왕교자 (C사)",
+      "name": "경쟁제품(제조사)",
+      "meta_data": {
+        "chunk_id": "e9be7f92-a121-4793-aa5c-1c85ea3c10c1",
+        "page_number": [
+          41
+        ],
+        "item_label": "merged",
+        "index": 731,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "UAE 비건 냉동만두 (경쟁력분석형)",
+        "original_page_content": "# 경쟁제품(제조사)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "62fb197d-aced-4524-842e-e02429608517",
+            "content": "<table><tbody><tr><td>①</td><td>야채왕교자 (C사)</td></tr><tr><td>②</td><td>버섯왕교자 (C사)</td></tr><tr><td>③</td><td>김치왕교자 (C사)</td></tr><tr><td>④</td><td>담백한 야채왕교자 (D사)</td></tr><tr><td>⑤</td><td>매콤한 잡채왕교자 (D사)</td></tr><tr><td>⑥</td><td>부추잡채만두 (F사)</td></tr><tr><td>⑦</td><td>납작지짐만두 (F사)</td></tr><tr><td>⑧</td><td>해물야채왕교자 (C사)</td></tr><tr><td>⑨</td><td>부추 물만두 (B사)</td></tr><tr><td>⑩</td><td>잡채왕교자 (C사)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-26%5D+UAE+%EB%B9%84%EA%B1%B4+%EB%83%89%EB%8F%99%EB%A7%8C%EB%91%90+%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-26%5D+UAE+%EB%B9%84%EA%B1%B4+%EB%83%89%EB%8F%99%EB%A7%8C%EB%91%90+%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        41
+      ],
+      "rank_dense": 9
+    },
+    {
+      "score": 0.764198,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n2. PT 인도구나우타마(PTIndogunaUtama)\n\n3. PT 사방메라우케트레이딩(PTSabangMeraukeTrading)",
+      "name": "2. PT 인도구나우타마(PTIndogunaUtama)",
+      "meta_data": {
+        "chunk_id": "079ef9f2-afa9-4bc1-b475-ca5bf9f2ca33",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "079ef9f2-afa9-4bc1-b475-ca5bf9f2ca33",
+          "7489ed50-1215-4861-bd51-997c87458011"
+        ],
+        "chunked_count": 2,
+        "index": 506,
+        "page_number": [
+          32
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 47,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "2. PT 인도구나우타마(PTIndogunaUtama)",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        32
+      ],
+      "rank_dense": 10
+    },
+    {
+      "score": 0.76259744,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# [표 3.1] 가공우유 경쟁기업 일반 현황\n\n경쟁기업 국적 업력 동일 품목 수\n피티 치사루아 마운틴 데어리 인도네시아 31년 18개\n피티 울트라자야 인더스트리 &amp; 트레이딩 티비케이 인도네시아 53년 14개\n피티 그린필즈 인도네시아 인도네시아 27년 10개",
+      "name": "[표 3.1] 가공우유 경쟁기업 일반 현황",
+      "meta_data": {
+        "chunk_id": "ca8e2663-f413-4a51-8de7-16f008b4b693",
+        "page_number": [
+          24
+        ],
+        "item_label": "merged",
+        "index": 397,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# [표 3.1] 가공우유 경쟁기업 일반 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "71f64663-919e-4aae-8ab9-37a9dc0f96bb",
+            "content": "<table><tbody><tr><th>경쟁기업</th><th>국적</th><th>업력</th><th>동일 품목 수</th></tr><tr><td>피티 치사루아 마운틴 데어리</td><td>인도네시아</td><td>31년</td><td>18개</td></tr><tr><td>피티 울트라자야 인더스트리 &amp; 트레이딩 티비케이</td><td>인도네시아</td><td>53년</td><td>14개</td></tr><tr><td>피티 그린필즈 인도네시아</td><td>인도네시아</td><td>27년</td><td>10개</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        24
+      ],
+      "rank_dense": 11
+    },
+    {
+      "score": 0.762153,
+      "page_content": "2024 몽골 신선과일 (경쟁력분석형)\n\n# 경쟁제품(제조사)\n\n① 노곤 우산 우젬 (-)\n② 보르 우산 우젬 (-)\n③ 그젤즈게네 (-)\n④ 그젤즈게네 (-)\n⑤ 노곤 우산 우젬 (-)\n⑥ 보르 우산 우젬 (-)\n⑦ 토오르 (-)\n⑧ 그젤즈게네 (-)\n⑨ 네르스 (네이처라이프\n⑩ 팜) 그젤즈게네 (-)",
+      "name": "경쟁제품(제조사)",
+      "meta_data": {
+        "chunk_id": "342a832e-b43a-4709-b312-7755ed5f9e96",
+        "page_number": [
+          40
+        ],
+        "item_label": "merged",
+        "index": 639,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 몽골 신선과일 (경쟁력분석형)",
+        "original_page_content": "# 경쟁제품(제조사)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "87142226-0690-4d0c-93ea-5537a2ad7cb3",
+            "content": "<table><tbody><tr><td>①</td><td>노곤 우산 우젬 (-)</td></tr><tr><td>②</td><td>보르 우산 우젬 (-)</td></tr><tr><td>③</td><td>그젤즈게네 (-)</td></tr><tr><td>④</td><td>그젤즈게네 (-)</td></tr><tr><td>⑤</td><td>노곤 우산 우젬 (-)</td></tr><tr><td>⑥</td><td>보르 우산 우젬 (-)</td></tr><tr><td>⑦</td><td>토오르 (-)</td></tr><tr><td>⑧</td><td>그젤즈게네 (-)</td></tr><tr><td>⑨</td><td>네르스 (네이처라이프</td></tr><tr><td>⑩</td><td>팜) 그젤즈게네 (-)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        40
+      ],
+      "rank_dense": 12
+    },
+    {
+      "score": 0.7620489,
+      "page_content": "2024 몽골 신선과일 (경쟁력분석형)\n\n# 경쟁제품(제조사)\n\n① 노곤 우산 우젬 (-)\n② 보르 우산 우젬 (-)\n③ 그젤즈게네 (-)\n④ 그젤즈게네 (-)\n⑤ 노곤 우산 우젬 (-)\n⑥ 보르 우산 우젬 (-)\n⑦ 토오르 (-)\n⑧ 그젤즈게네 (-)\n⑨ 네르스 (네이처라이프 팜)\n⑩ 그젤즈게네 (-)",
+      "name": "경쟁제품(제조사)",
+      "meta_data": {
+        "chunk_id": "9af03f1b-daab-49b5-99ef-7b38a8e2a128",
+        "page_number": [
+          39
+        ],
+        "item_label": "merged",
+        "index": 623,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 몽골 신선과일 (경쟁력분석형)",
+        "original_page_content": "# 경쟁제품(제조사)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "45301318-44d2-49ba-bf01-32b3eaf0ae6e",
+            "content": "<table><tbody><tr><td>①</td><td>노곤 우산 우젬 (-)</td></tr><tr><td>②</td><td>보르 우산 우젬 (-)</td></tr><tr><td>③</td><td>그젤즈게네 (-)</td></tr><tr><td>④</td><td>그젤즈게네 (-)</td></tr><tr><td>⑤</td><td>노곤 우산 우젬 (-)</td></tr><tr><td>⑥</td><td>보르 우산 우젬 (-)</td></tr><tr><td>⑦</td><td>토오르 (-)</td></tr><tr><td>⑧</td><td>그젤즈게네 (-)</td></tr><tr><td>⑨</td><td>네르스 (네이처라이프 팜)</td></tr><tr><td>⑩</td><td>그젤즈게네 (-)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        39
+      ],
+      "rank_dense": 13
+    },
+    {
+      "score": 0.76148045,
+      "page_content": "2024 미국 초콜릿 가공품 (경쟁력분석형)\n\n# ▶ 경쟁제품 10개 중 8개 제품, 미국산\n\n요약 경쟁제품 경쟁기업 인터뷰 경쟁력파악",
+      "name": "▶ 경쟁제품 10개 중 8개 제품, 미국산",
+      "meta_data": {
+        "chunk_id": "78f214f9-bd17-425d-ae57-3be4048748d4",
+        "page_number": [
+          44,
+          45
+        ],
+        "item_label": "merged",
+        "index": 716,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 초콜릿 가공품 (경쟁력분석형)",
+        "original_page_content": "# ▶ 경쟁제품 10개 중 8개 제품, 미국산",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "2b3612bc-821a-4fe0-9263-10d08e126127",
+            "content": "<table><tbody><tr><td>요약</td><td>경쟁제품</td><td>경쟁기업</td><td>인터뷰</td><td>경쟁력파악</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-17%5D+%EB%AF%B8%EA%B5%AD+%EC%B4%88%EC%BD%9C%EB%A6%BF+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-17%5D+%EB%AF%B8%EA%B5%AD+%EC%B4%88%EC%BD%9C%EB%A6%BF+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        44,
+        45
+      ],
+      "rank_dense": 14
+    },
+    {
+      "score": 0.75796574,
+      "page_content": "2024 몽골 신선과일 (경쟁력분석형)\n\n# [표 2.6] 경쟁제품 판매 현황\n\n매장 입점 여부 제품 종류\n경쟁제품(제조사) 오프라인 온라인 장과류 핵과류\n① 노곤 우산 우젬 (-) ○ (A사) (-) ○\n② 보르 우산 우젬 (-) ○ (A사) (-) ○\n③ 그젤즈게네 (-) ○ (A사) (-) ○\n④ 그겔즈게네 (-) ○ (A사) (-) ○\n⑤ 노곤 우산 우젬 (-) ○ (노민 머큐리 마켓) (-) ○\n⑥ 보르 우산 우젬 (-) ○ (노민) (-) ○\n⑦ 토오르 (-) ○ (노민) (-) ○\n⑧ 그젤즈게네 (-) ○ (노민) (-) ○\n⑨ 네르스 (네이처라이프 팜) ○ (노민) (-) ○\n⑩ 그젤즈게네 (-) ○ (머큐리 마켓) (-) ○",
+      "name": "[표 2.6] 경쟁제품 판매 현황",
+      "meta_data": {
+        "chunk_id": "b032ee32-b7f1-421e-9c8e-16bddd734dd0",
+        "page_number": [
+          12
+        ],
+        "item_label": "merged",
+        "index": 225,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 몽골 신선과일 (경쟁력분석형)",
+        "original_page_content": "# [표 2.6] 경쟁제품 판매 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "34c995d2-2d74-4278-8b4e-a14813d17db8",
+            "content": "<table><tbody><tr><td></td><td></td><th colspan=\"2\">매장 입점 여부</th><th colspan=\"2\">제품 종류</th></tr><tr><td></td><th>경쟁제품(제조사)</th><th>오프라인</th><th>온라인</th><th>장과류</th><th>핵과류</th></tr><tr><td>①</td><td>노곤 우산 우젬 (-)</td><td>○ (A사)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>②</td><td>보르 우산 우젬 (-)</td><td>○ (A사)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>③</td><td>그젤즈게네 (-)</td><td>○ (A사)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>④</td><td>그겔즈게네 (-)</td><td>○ (A사)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>⑤</td><td>노곤 우산 우젬 (-)</td><td>○ (노민, 머큐리 마켓)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>⑥</td><td>보르 우산 우젬 (-)</td><td>○ (노민)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>⑦</td><td>토오르 (-)</td><td>○ (노민)</td><td>(-)</td><td></td><td>○</td></tr><tr><td>⑧</td><td>그젤즈게네 (-)</td><td>○ (노민)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>⑨</td><td>네르스 (네이처라이프 팜)</td><td>○ (노민)</td><td>(-)</td><td>○</td><td></td></tr><tr><td>⑩</td><td>그젤즈게네 (-)</td><td>○ (머큐리 마켓)</td><td>(-)</td><td>○</td><td></td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-36%5D+%EB%AA%BD%EA%B3%A8+%EC%8B%A0%EC%84%A0%EA%B3%BC%EC%9D%BC+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        12
+      ],
+      "rank_dense": 15
+    },
+    {
+      "score": 0.75787246,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사\n\n사이트명 취급 종류\n토코피디아 식료품 생활잡화 주방용품 의류 문구류 가전제품등\n식료품 생활용품 의류 전자제품 육아용품 건강뷰티 취미용품등 식료품\n라자다 생활잡화 의류 액세서리 가전제품 건강뷰티등",
+      "name": "▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+      "meta_data": {
+        "chunk_id": "6ea19633-0d66-4d25-84fa-f3c9a83d1daf",
+        "page_number": [
+          7
+        ],
+        "item_label": "merged",
+        "index": 132,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "450866ad-2c4b-4ae0-9649-6d6bedbe29c6",
+            "content": "<table><tbody><tr><th>사이트명</th><th>취급 종류</th></tr><tr><td>토코피디아</td><td>식료품, 생활잡화, 주방용품, 의류, 문구류, 가전제품등</td></tr><tr><td></td><td>식료품, 생활용품, 의류, 전자제품, 육아용품, 건강뷰티, 취미용품등 식료품,</td></tr><tr><td>라자다</td><td>생활잡화, 의류 액세서리, 가전제품, 건강뷰티등</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        7
+      ],
+      "rank_dense": 16
+    },
+    {
+      "score": 0.7575481,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과 토코피디아, 쇼피, 라자다 모두 인도네시아산 가공우유가 주요 인기 제품인 것으로 확인됨. 토코피디아에는 한국산 가공우유도 인기 제품 목록에 올라 있음",
+      "name": "앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과 토코피디아, 쇼피, 라자다 모두 인도네시아산 가공우유가 주요 인기 제품인 것으로 확인됨. 토코피디아에는 한국산 가공우유도 인기 제품 목록에 올라 있음",
+      "meta_data": {
+        "chunk_id": "a7ad6a0c-4ec1-44a5-b0a8-92a0a905fe0e",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a7ad6a0c-4ec1-44a5-b0a8-92a0a905fe0e"
+        ],
+        "chunked_count": 1,
+        "index": 135,
+        "page_number": [
+          7
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 152,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "앞서 선정한 경쟁제품군 내 인도네시아 주요 온라인 쇼핑몰 3곳에서 판매 중인 인기 경쟁제품을 확인한 결과 토코피디아, 쇼피, 라자다 모두 인도네시아산 가공우유가 주요 인기 제품인 것으로 확인됨. 토코피디아에는 한국산 가공우유도 인기 제품 목록에 올라 있음",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        7
+      ],
+      "rank_dense": 17
+    },
+    {
+      "score": 0.755753,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n# ▶ 경쟁제품, 10개 제품 중 8개 제품 2개 이상 매장에서 판매\n\n하이퍼마트, 파파야 프레쉬 갤러리, 인도마렛, 호키 총 4개 매장 방문 후 인기 제품을 조사한 결과, 가공우유 경쟁제품 10개 중 8개 제품은 여러 매장에서 중복 판매되고 있으며 나머지 2개 제품은 개별 매장에서만 판매되고 있었음. 또한 10개 제품 모두 인도네시아 주요 온라인 쇼핑몰 3곳인 토코피디아, 쇼피, 라자다에서 판매 중인 것으로 확인됨",
+      "name": "▶ 경쟁제품, 10개 제품 중 8개 제품 2개 이상 매장에서 판매",
+      "meta_data": {
+        "chunk_id": "4f1742f9-fd82-436e-9eef-462bead761a4",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "4f1742f9-fd82-436e-9eef-462bead761a4",
+          "c23fb0f1-0dc6-4ad2-8587-18f188b3785d"
+        ],
+        "chunked_count": 2,
+        "index": 222,
+        "page_number": [
+          12
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 246,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "# ▶ 경쟁제품, 10개 제품 중 8개 제품 2개 이상 매장에서 판매",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        12
+      ],
+      "rank_dense": 18
+    },
+    {
+      "score": 0.7554314,
+      "page_content": "2024 미국 초콜릿 가공품 (경쟁력분석형)\n\n# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사\n\n사이트명 취급 종류\n월마트 가전제품 휴대폰 사무용품 음료\n유아용품 화장품 건강 식품 전자제품 생활용품등\n식품 학용품 사무용품 생활용품 스포츠용품등",
+      "name": "▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+      "meta_data": {
+        "chunk_id": "d45bcb60-8206-4d6f-a153-b696fb7b6300",
+        "page_number": [
+          7
+        ],
+        "item_label": "merged",
+        "index": 140,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 초콜릿 가공품 (경쟁력분석형)",
+        "original_page_content": "# ▶ 온라인 쇼핑몰 3곳에서 인기 경쟁제품 조사",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "1f47a025-4200-4cd3-871d-0a2b58131aa2",
+            "content": "<table><tbody><tr><th>사이트명</th><th>취급 종류</th></tr><tr><td>월마트</td><td>가전제품, 휴대폰, 사무용품, 음료,</td></tr><tr><td></td><td>유아용품, 화장품, 건강, 식품, 전자제품, 생활용품등</td></tr><tr><td></td><td>식품, 학용품, 사무용품, 생활용품, 스포츠용품등</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-17%5D+%EB%AF%B8%EA%B5%AD+%EC%B4%88%EC%BD%9C%EB%A6%BF+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-17%5D+%EB%AF%B8%EA%B5%AD+%EC%B4%88%EC%BD%9C%EB%A6%BF+%EA%B0%80%EA%B3%B5%ED%92%88+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        7
+      ],
+      "rank_dense": 19
+    },
+    {
+      "score": 0.7549044,
+      "page_content": "2024 인도네시아 가공우유 (경쟁력분석형)\n\n원유를 다양한 방법으로 처리해 제조한 유제품으로, 보통 우유의 성분을 조절하거나 보존성을 높이고, 영양 성분 또는 맛을 개선하기 위해 첨가물이나 가공 과정을 거친 제품을 의미함\n\n고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함",
+      "name": "원유를 다양한 방법으로 처리해 제조한 유제품으로, 보통 우유의 성분을 조절하거나 보존성을 높이고, 영양 성분 또는 맛을 개선하기 위해 첨가물이나 가공 과정을 거친 제품을 의미함",
+      "meta_data": {
+        "chunk_id": "ac53e08e-892c-465a-8e79-708a9c03be8e",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ac53e08e-892c-465a-8e79-708a9c03be8e",
+          "9958d7aa-04c1-42f8-82fe-e293b2cdabf8"
+        ],
+        "chunked_count": 2,
+        "index": 196,
+        "page_number": [
+          10
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 155,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 인도네시아 가공우유 (경쟁력분석형)",
+        "original_page_content": "원유를 다양한 방법으로 처리해 제조한 유제품으로, 보통 우유의 성분을 조절하거나 보존성을 높이고, 영양 성분 또는 맛을 개선하기 위해 첨가물이나 가공 과정을 거친 제품을 의미함",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202409-27%5D+%EC%9D%B8%EB%8F%84%EB%84%A4%EC%8B%9C%EC%95%84+%EA%B0%80%EA%B3%B5%EC%9A%B0%EC%9C%A0+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        10
+      ],
+      "rank_dense": 20
+    }
+  ],
+  "total_candidates": 40,
+  "final_count": 20,
+  "processing_time": 1.291505,
+  "config": {
+    "mode": "dense_only",
+    "use_hyde": false,
+    "use_reranking": false,
+    "use_summarization": false,
+    "top_k": 20
+  }
+}

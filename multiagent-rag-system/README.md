@@ -110,44 +110,66 @@ query = "복잡한 시장 분석 요청" → OrchestratorAgent
 ## Quick Start
 
 ### Prerequisites
-- Python 3.11+
-- Node.js 18+
-- Docker & Docker Compose
-- API Keys: OpenAI, Google (Gemini), Serper
+- Python 3.10
+- Node.js 20+
+- Docker 27.5.1+
+- Docker Compose 1.29.2+
+- API Keys: Google Gemini, OpenAI (선택), Serper (선택)
 
 ### Installation
 
-#### 1. Docker 방식 (권장)
+#### 1. Docker Compose 방식 (권장)
 ```bash
 # 1. 저장소 클론
-git clone https://github.com/danlee-dev/multiagent-rag-system.git
-cd multiagent-rag-system
+git clone https://github.com/your-org/crowdworks-multiagent-system.git
+cd crowdworks-multiagent-system
 
-# 2. 환경 변수 설정
-cp backend/.env.example backend/.env
-# .env 파일에서 API 키들 설정
+# 2. Docker 볼륨 생성 (최초 1회)
+docker volume create elasticsearch_es_data
+docker volume create neo4j_data_original
 
-# 3. 전체 시스템 실행
-docker-compose up --build
+# 3. 환경 변수 설정
+cp .env.example .env
+# .env 파일에서 API 키들 설정 (아래 Configuration 섹션 참조)
 
-# 4. 접속 확인
+# 4. 전체 시스템 실행
+docker-compose up --build -d
+
+# 5. 시스템 상태 확인
+docker-compose ps
+
+# 6. 접속 확인
 # Frontend: http://localhost:3000
 # Backend API: http://localhost:8000/health
+# Neo4j Browser: http://localhost:7474
+# Kibana: http://localhost:5601
 ```
+
+**포함되는 서비스:**
+- PostgreSQL 14 (포트 5433)
+- Elasticsearch 8.11.0 + Kibana (포트 9200, 5601)
+- Neo4j 5.15.0 (포트 7474, 7687)
+- Backend FastAPI (포트 8000)
+- Frontend Next.js (포트 3000)
+- Crawler RDB (KAMIS 데이터 수집)
+- Neo4j App (그래프 데이터 처리)
 
 #### 2. 로컬 개발 방식
 ```bash
+# 데이터베이스는 Docker로 실행
+docker-compose up postgres elasticsearch neo4j -d
+
 # Backend 실행
-cd backend
+cd multiagent-rag-system/backend
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
+source venv/bin/activate  # Linux/Mac (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
-export OPENAI_API_KEY="your-key"
-export GOOGLE_API_KEY="your-key"
-python -m app.main
+export GEMINI_API_KEY_1="your-gemini-key"
+export GEMINI_API_KEY_2="your-gemini-key-backup"
+uvicorn app.main:app --reload --port 8000
 
 # Frontend 실행 (별도 터미널)
-cd frontend
+cd multiagent-rag-system/frontend
 npm install
 npm run dev
 ```
@@ -157,24 +179,48 @@ npm run dev
 ## Configuration
 
 ### 환경 변수 (.env)
-```bash
-# LLM API Keys
-OPENAI_API_KEY=sk-your-openai-key
-GOOGLE_API_KEY=your-google-gemini-key
 
-# Search API Keys
+프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 다음 변수들을 설정하세요:
+
+```bash
+# LLM API Keys (필수)
+GEMINI_API_KEY_1=your-gemini-api-key-1
+GEMINI_API_KEY_2=your-gemini-api-key-2
+GOOGLE_API_KEY=your-google-api-key
+
+# LLM API Keys (선택)
+OPENAI_API_KEY=sk-your-openai-key
+
+# Search API Keys (선택)
 SERPER_API_KEY=your-serper-key
 LANGSMITH_API_KEY=your-langsmith-key
 
-# ReAct Agent 설정
-USE_REACT_AGENT=false  # true로 설정하면 복잡한 추론 활성화
+# Database Configuration (Docker Compose 사용시 자동 설정됨)
+POSTGRES_DB=crowdworks_db
+POSTGRES_USER=crowdworks_user
+POSTGRES_PASSWORD=your-secure-password
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
 
-# Database (선택사항)
-POSTGRES_URL=postgresql://user:pass@localhost:5432/db
-NEO4J_URL=bolt://localhost:7687
+ELASTICSEARCH_HOST=http://elasticsearch:9200
+
+NEO4J_URI=bolt://neo4j:7687
 NEO4J_USER=neo4j
-NEO4J_PASSWORD=password
+NEO4J_PASSWORD=your-neo4j-password
+
+# Frontend Configuration
+NEXT_PUBLIC_API_URL=http://localhost:8000
+
+# Feature Flags (선택)
+USE_REACT_AGENT=false  # true로 설정하면 복잡한 추론 활성화
+USE_LANGGRAPH=true     # LangGraph 워크플로우 사용 여부
 ```
+
+**주의사항:**
+- `GEMINI_API_KEY_1`, `GEMINI_API_KEY_2`: 필수 - 시스템의 주요 LLM
+- Docker Compose 사용시 데이터베이스 연결 정보는 컨테이너 간 내부 통신으로 자동 설정됩니다
+- 로컬 개발시에는 `POSTGRES_HOST=localhost`, `POSTGRES_PORT=5433`으로 변경 필요
+- **보안**: 실제 운영 환경에서는 반드시 강력한 비밀번호로 변경하세요
 
 ### 시스템 설정
 ```python
@@ -304,30 +350,78 @@ docker-compose -f docker-compose.test.yml up
 
 ## Docker Commands
 
+### 시스템 관리
 ```bash
-# 전체 시스템 시작
-docker-compose up --build
+# 전체 시스템 시작 (백그라운드)
+docker-compose up -d
 
-# 백엔드만 재시작
+# 전체 시스템 시작 (로그 확인)
+docker-compose up
+
+# 전체 시스템 재빌드 및 시작
+docker-compose up --build -d
+
+# 시스템 상태 확인
+docker-compose ps
+
+# 시스템 종료
+docker-compose down
+
+# 시스템 종료 (볼륨 포함 - 주의: 데이터 삭제됨)
+docker-compose down -v
+```
+
+### 개별 서비스 관리
+```bash
+# 특정 서비스만 재시작
 docker-compose restart backend
-
-# 프론트엔드만 재시작
 docker-compose restart frontend
+docker-compose restart postgres
+docker-compose restart elasticsearch
 
-# 로그 확인
+# 특정 서비스 로그 확인
 docker-compose logs -f backend
 docker-compose logs -f frontend
+docker-compose logs -f crawler-rdb
+
+# 모든 서비스 로그 확인
+docker-compose logs -f
 
 # 컨테이너 접속
 docker-compose exec backend bash
 docker-compose exec frontend sh
+docker exec -it multiagent-backend bash
+```
 
-# 완전 정리 (데이터 포함)
-docker-compose down -v --rmi all
-docker system prune -af
+### 데이터베이스 관리
+```bash
+# PostgreSQL 접속
+docker-compose exec postgres psql -U crowdworks_user -d crowdworks_db
 
-# 캐시 무시 완전 재빌드
+# Neo4j 접속 (Browser에서 http://localhost:7474)
+# 또는 Cypher Shell
+docker-compose exec neo4j cypher-shell -u neo4j -p 'your-password'
+
+# Elasticsearch 상태 확인
+curl http://localhost:9200/_cluster/health?pretty
+```
+
+### 트러블슈팅
+```bash
+# 특정 서비스 재빌드
+docker-compose build --no-cache backend
+docker-compose up -d backend
+
+# 전체 캐시 무시 재빌드
 docker-compose build --no-cache
+docker-compose up -d
+
+# 완전 정리 (이미지 포함)
+docker-compose down -v --rmi all
+
+# Docker 시스템 전체 정리
+docker system prune -af
+docker volume prune -f
 ```
 
 ---

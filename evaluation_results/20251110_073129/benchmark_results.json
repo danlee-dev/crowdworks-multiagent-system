@@ -1,0 +1,1308 @@
+{
+  "config": {
+    "target_system": "http://localhost:8000",
+    "use_ai_judge": false,
+    "total_queries": 15,
+    "queries_per_team": {
+      "구매 담당자": 3,
+      "급식 운영 담당자": 3,
+      "마케팅 담당자": 3,
+      "제품 개발 연구원": 3,
+      "기본": 3
+    }
+  },
+  "start_time": "2025-11-10T07:14:51.656785",
+  "results": {
+    "구매 담당자": [
+      {
+        "query_id": "구매 담당자_q01",
+        "query_text": "국내 농산물 가격 변동 추이 및 구매 최적화 전략 보고서를 작성해주세요",
+        "team_type": "구매 담당자",
+        "total_time": 51.9997661113739,
+        "response_time": 51.9997661113739,
+        "report_length": 4337,
+        "sources_count": 10,
+        "search_tools_used": [
+          "web_search",
+          "rdb_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.99,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 10.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다"
+        ],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:15:43.658286",
+        "session_id": "eval_benchmark_구매 담당자_q01_1762758891"
+      },
+      {
+        "query_id": "구매 담당자_q02",
+        "query_text": "글로벌 식자재 공급망 리스크 관리 방안 보고서를 작성해주세요",
+        "team_type": "구매 담당자",
+        "total_time": 116.84647846221924,
+        "response_time": 116.84647846221924,
+        "report_length": 4794,
+        "sources_count": 41,
+        "search_tools_used": [
+          "web_search",
+          "graph_db_search",
+          "vector_db_search",
+          "rdb_search",
+          "pubmed_search"
+        ],
+        "overall_score": 8.71,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "불필요한 중복 단계: 7개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:17:42.507847",
+        "session_id": "eval_benchmark_구매 담당자_q02_1762758945"
+      },
+      {
+        "query_id": "구매 담당자_q03",
+        "query_text": "친환경 유기농 식재료 소싱 가이드 보고서를 작성해주세요",
+        "team_type": "구매 담당자",
+        "total_time": 51.6359543800354,
+        "response_time": 51.6359543800354,
+        "report_length": 4242,
+        "sources_count": 16,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "graph_db_search"
+        ],
+        "overall_score": 8.74,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.8333333333333334,
+        "hallucination_count": 0,
+        "efficiency_score": 10.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:18:36.146863",
+        "session_id": "eval_benchmark_구매 담당자_q03_1762759064"
+      }
+    ],
+    "급식 운영 담당자": [
+      {
+        "query_id": "급식 운영 담당자_q01",
+        "query_text": "사내 급식 메뉴 다양화 및 영양 균형 개선 방안 보고서를 작성해주세요",
+        "team_type": "급식 운영 담당자",
+        "total_time": 67.2581992149353,
+        "response_time": 67.2581992149353,
+        "report_length": 2888,
+        "sources_count": 33,
+        "search_tools_used": [
+          "rdb_search",
+          "vector_db_search",
+          "graph_db_search",
+          "web_search",
+          "pubmed_search"
+        ],
+        "overall_score": 8.67,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다",
+          "불필요한 중복 단계: 10개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:19:45.407779",
+        "session_id": "eval_benchmark_급식 운영 담당자_q01_1762759118"
+      },
+      {
+        "query_id": "급식 운영 담당자_q02",
+        "query_text": "계절별 식자재 원가 절감 및 대체 식재료 활용 전략 보고서를 작성해주세요",
+        "team_type": "급식 운영 담당자",
+        "total_time": 63.60745143890381,
+        "response_time": 63.60745143890381,
+        "report_length": 3774,
+        "sources_count": 26,
+        "search_tools_used": [
+          "web_search",
+          "rdb_search",
+          "graph_db_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.64,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다",
+          "불필요한 중복 단계: 9개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:20:51.018368",
+        "session_id": "eval_benchmark_급식 운영 담당자_q02_1762759187"
+      },
+      {
+        "query_id": "급식 운영 담당자_q03",
+        "query_text": "직원 만족도 향상을 위한 급식 운영 개선 방안 보고서를 작성해주세요",
+        "team_type": "급식 운영 담당자",
+        "total_time": 59.10206174850464,
+        "response_time": 59.10206174850464,
+        "report_length": 5789,
+        "sources_count": 36,
+        "search_tools_used": [
+          "vector_db_search",
+          "web_search",
+          "rdb_search"
+        ],
+        "overall_score": 8.69,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 8.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다",
+          "불필요한 중복 단계: 11개"
+        ],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:21:52.122628",
+        "session_id": "eval_benchmark_급식 운영 담당자_q03_1762759253"
+      }
+    ],
+    "마케팅 담당자": [
+      {
+        "query_id": "마케팅 담당자_q01",
+        "query_text": "2024년 대체육 시장 동향 및 소비자 선호도 분석 보고서를 작성해주세요",
+        "team_type": "마케팅 담당자",
+        "total_time": 52.57438850402832,
+        "response_time": 52.57438850402832,
+        "report_length": 4346,
+        "sources_count": 15,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.72,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.8333333333333334,
+        "hallucination_count": 0,
+        "efficiency_score": 10.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:22:46.700050",
+        "session_id": "eval_benchmark_마케팅 담당자_q01_1762759314"
+      },
+      {
+        "query_id": "마케팅 담당자_q02",
+        "query_text": "밀키트 산업의 성장 전략과 마케팅 방안 보고서를 작성해주세요",
+        "team_type": "마케팅 담당자",
+        "total_time": 52.706594705581665,
+        "response_time": 52.706594705581665,
+        "report_length": 4097,
+        "sources_count": 32,
+        "search_tools_used": [
+          "web_search",
+          "rdb_search",
+          "graph_db_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.62,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.8333333333333334,
+        "hallucination_count": 0,
+        "efficiency_score": 9.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [
+          "불필요한 중복 단계: 4개"
+        ],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:23:41.409811",
+        "session_id": "eval_benchmark_마케팅 담당자_q02_1762759368"
+      },
+      {
+        "query_id": "마케팅 담당자_q03",
+        "query_text": "MZ세대 타겟 건강기능식품 시장 진입 전략 보고서를 작성해주세요",
+        "team_type": "마케팅 담당자",
+        "total_time": 59.94025111198425,
+        "response_time": 59.94025111198425,
+        "report_length": 5128,
+        "sources_count": 25,
+        "search_tools_used": [
+          "web_search",
+          "pubmed_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.88,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 8.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [
+          "불필요한 중복 단계: 6개"
+        ],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:24:43.353178",
+        "session_id": "eval_benchmark_마케팅 담당자_q03_1762759423"
+      }
+    ],
+    "제품 개발 연구원": [
+      {
+        "query_id": "제품 개발 연구원_q01",
+        "query_text": "기능성 식품 원료 트렌드 및 신소재 연구 동향 보고서를 작성해주세요",
+        "team_type": "제품 개발 연구원",
+        "total_time": 41.02638840675354,
+        "response_time": 41.02638840675354,
+        "report_length": 4785,
+        "sources_count": 25,
+        "search_tools_used": [
+          "pubmed_search",
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 9.0,
+        "grade": "A",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 9.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:25:26.382648",
+        "session_id": "eval_benchmark_제품 개발 연구원_q01_1762759485"
+      },
+      {
+        "query_id": "제품 개발 연구원_q02",
+        "query_text": "식물성 단백질 기반 대체육 제품 개발 기술 분석 보고서를 작성해주세요",
+        "team_type": "제품 개발 연구원",
+        "total_time": 70.29229807853699,
+        "response_time": 70.29229807853699,
+        "report_length": 7048,
+        "sources_count": 30,
+        "search_tools_used": [
+          "pubmed_search",
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.73,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "불필요한 중복 단계: 8개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:26:38.678548",
+        "session_id": "eval_benchmark_제품 개발 연구원_q02_1762759528"
+      },
+      {
+        "query_id": "제품 개발 연구원_q03",
+        "query_text": "프로바이오틱스 효능 연구 및 제품 적용 방안 보고서를 작성해주세요",
+        "team_type": "제품 개발 연구원",
+        "total_time": 70.65524768829346,
+        "response_time": 70.65524768829346,
+        "report_length": 4676,
+        "sources_count": 26,
+        "search_tools_used": [
+          "pubmed_search",
+          "vector_db_search",
+          "graph_db_search"
+        ],
+        "overall_score": 8.8,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 7.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다",
+          "불필요한 중복 단계: 5개"
+        ],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:27:51.336893",
+        "session_id": "eval_benchmark_제품 개발 연구원_q03_1762759600"
+      }
+    ],
+    "기본": [
+      {
+        "query_id": "기본_q01",
+        "query_text": "식품 안전 규제 동향 및 컴플라이언스 대응 방안 보고서를 작성해주세요",
+        "team_type": "기본",
+        "total_time": 70.28701305389404,
+        "response_time": 70.28701305389404,
+        "report_length": 4267,
+        "sources_count": 25,
+        "search_tools_used": [
+          "web_search",
+          "pubmed_search",
+          "vector_db_search"
+        ],
+        "overall_score": 8.33,
+        "grade": "B",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.8333333333333334,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "출처 신뢰도가 낮습니다",
+          "불필요한 중복 단계: 6개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:29:03.627113",
+        "session_id": "eval_benchmark_기본_q01_1762759673"
+      },
+      {
+        "query_id": "기본_q02",
+        "query_text": "푸드테크 산업의 AI 활용 사례 분석 보고서를 작성해주세요",
+        "team_type": "기본",
+        "total_time": 45.55578327178955,
+        "response_time": 45.55578327178955,
+        "report_length": 5768,
+        "sources_count": 15,
+        "search_tools_used": [
+          "web_search",
+          "pubmed_search",
+          "vector_db_search"
+        ],
+        "overall_score": 9.18,
+        "grade": "A",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 10.0,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다",
+          "효율적으로 작업을 수행했습니다"
+        ],
+        "weaknesses": [],
+        "recommendations": [],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:29:51.184672",
+        "session_id": "eval_benchmark_기본_q02_1762759745"
+      },
+      {
+        "query_id": "기본_q03",
+        "query_text": "탄소중립을 위한 식품 산업의 ESG 경영 전략 보고서를 작성해주세요",
+        "team_type": "기본",
+        "total_time": 94.51705956459045,
+        "response_time": 94.51705956459045,
+        "report_length": 6718,
+        "sources_count": 57,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "rdb_search",
+          "graph_db_search",
+          "pubmed_search"
+        ],
+        "overall_score": 8.7,
+        "grade": "B+",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 1.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "citation_accuracy": 1.0,
+        "quality_reasoning": "AI 심판 미사용",
+        "hallucination_reasoning": "AI 심판 미사용",
+        "hallucination_examples": [],
+        "strengths": [
+          "작업을 성공적으로 완료했습니다",
+          "보고서가 완성도 높게 작성되었습니다",
+          "환각 현상이 감지되지 않았습니다",
+          "다양한 출처를 활용했습니다"
+        ],
+        "weaknesses": [
+          "불필요한 중복 단계: 15개"
+        ],
+        "recommendations": [
+          "워크플로우 최적화를 고려하세요"
+        ],
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-10T07:31:27.705563",
+        "session_id": "eval_benchmark_기본_q03_1762759793"
+      }
+    ]
+  },
+  "raw_results": [
+    {
+      "query_id": "구매 담당자_q01",
+      "query_text": "국내 농산물 가격 변동 추이 및 구매 최적화 전략 보고서를 작성해주세요",
+      "team_type": "구매 담당자",
+      "total_time": 51.9997661113739,
+      "response_time": 51.9997661113739,
+      "report_length": 4337,
+      "sources_count": 10,
+      "search_tools_used": [
+        "web_search",
+        "rdb_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.99,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 10.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다"
+      ],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:15:43.658286",
+      "session_id": "eval_benchmark_구매 담당자_q01_1762758891"
+    },
+    {
+      "query_id": "구매 담당자_q02",
+      "query_text": "글로벌 식자재 공급망 리스크 관리 방안 보고서를 작성해주세요",
+      "team_type": "구매 담당자",
+      "total_time": 116.84647846221924,
+      "response_time": 116.84647846221924,
+      "report_length": 4794,
+      "sources_count": 41,
+      "search_tools_used": [
+        "web_search",
+        "graph_db_search",
+        "vector_db_search",
+        "rdb_search",
+        "pubmed_search"
+      ],
+      "overall_score": 8.71,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "불필요한 중복 단계: 7개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:17:42.507847",
+      "session_id": "eval_benchmark_구매 담당자_q02_1762758945"
+    },
+    {
+      "query_id": "구매 담당자_q03",
+      "query_text": "친환경 유기농 식재료 소싱 가이드 보고서를 작성해주세요",
+      "team_type": "구매 담당자",
+      "total_time": 51.6359543800354,
+      "response_time": 51.6359543800354,
+      "report_length": 4242,
+      "sources_count": 16,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "graph_db_search"
+      ],
+      "overall_score": 8.74,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.8333333333333334,
+      "hallucination_count": 0,
+      "efficiency_score": 10.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:18:36.146863",
+      "session_id": "eval_benchmark_구매 담당자_q03_1762759064"
+    },
+    {
+      "query_id": "급식 운영 담당자_q01",
+      "query_text": "사내 급식 메뉴 다양화 및 영양 균형 개선 방안 보고서를 작성해주세요",
+      "team_type": "급식 운영 담당자",
+      "total_time": 67.2581992149353,
+      "response_time": 67.2581992149353,
+      "report_length": 2888,
+      "sources_count": 33,
+      "search_tools_used": [
+        "rdb_search",
+        "vector_db_search",
+        "graph_db_search",
+        "web_search",
+        "pubmed_search"
+      ],
+      "overall_score": 8.67,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다",
+        "불필요한 중복 단계: 10개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:19:45.407779",
+      "session_id": "eval_benchmark_급식 운영 담당자_q01_1762759118"
+    },
+    {
+      "query_id": "급식 운영 담당자_q02",
+      "query_text": "계절별 식자재 원가 절감 및 대체 식재료 활용 전략 보고서를 작성해주세요",
+      "team_type": "급식 운영 담당자",
+      "total_time": 63.60745143890381,
+      "response_time": 63.60745143890381,
+      "report_length": 3774,
+      "sources_count": 26,
+      "search_tools_used": [
+        "web_search",
+        "rdb_search",
+        "graph_db_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.64,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다",
+        "불필요한 중복 단계: 9개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:20:51.018368",
+      "session_id": "eval_benchmark_급식 운영 담당자_q02_1762759187"
+    },
+    {
+      "query_id": "급식 운영 담당자_q03",
+      "query_text": "직원 만족도 향상을 위한 급식 운영 개선 방안 보고서를 작성해주세요",
+      "team_type": "급식 운영 담당자",
+      "total_time": 59.10206174850464,
+      "response_time": 59.10206174850464,
+      "report_length": 5789,
+      "sources_count": 36,
+      "search_tools_used": [
+        "vector_db_search",
+        "web_search",
+        "rdb_search"
+      ],
+      "overall_score": 8.69,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 8.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다",
+        "불필요한 중복 단계: 11개"
+      ],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:21:52.122628",
+      "session_id": "eval_benchmark_급식 운영 담당자_q03_1762759253"
+    },
+    {
+      "query_id": "마케팅 담당자_q01",
+      "query_text": "2024년 대체육 시장 동향 및 소비자 선호도 분석 보고서를 작성해주세요",
+      "team_type": "마케팅 담당자",
+      "total_time": 52.57438850402832,
+      "response_time": 52.57438850402832,
+      "report_length": 4346,
+      "sources_count": 15,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.72,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.8333333333333334,
+      "hallucination_count": 0,
+      "efficiency_score": 10.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:22:46.700050",
+      "session_id": "eval_benchmark_마케팅 담당자_q01_1762759314"
+    },
+    {
+      "query_id": "마케팅 담당자_q02",
+      "query_text": "밀키트 산업의 성장 전략과 마케팅 방안 보고서를 작성해주세요",
+      "team_type": "마케팅 담당자",
+      "total_time": 52.706594705581665,
+      "response_time": 52.706594705581665,
+      "report_length": 4097,
+      "sources_count": 32,
+      "search_tools_used": [
+        "web_search",
+        "rdb_search",
+        "graph_db_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.62,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.8333333333333334,
+      "hallucination_count": 0,
+      "efficiency_score": 9.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [
+        "불필요한 중복 단계: 4개"
+      ],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:23:41.409811",
+      "session_id": "eval_benchmark_마케팅 담당자_q02_1762759368"
+    },
+    {
+      "query_id": "마케팅 담당자_q03",
+      "query_text": "MZ세대 타겟 건강기능식품 시장 진입 전략 보고서를 작성해주세요",
+      "team_type": "마케팅 담당자",
+      "total_time": 59.94025111198425,
+      "response_time": 59.94025111198425,
+      "report_length": 5128,
+      "sources_count": 25,
+      "search_tools_used": [
+        "web_search",
+        "pubmed_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.88,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 8.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [
+        "불필요한 중복 단계: 6개"
+      ],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:24:43.353178",
+      "session_id": "eval_benchmark_마케팅 담당자_q03_1762759423"
+    },
+    {
+      "query_id": "제품 개발 연구원_q01",
+      "query_text": "기능성 식품 원료 트렌드 및 신소재 연구 동향 보고서를 작성해주세요",
+      "team_type": "제품 개발 연구원",
+      "total_time": 41.02638840675354,
+      "response_time": 41.02638840675354,
+      "report_length": 4785,
+      "sources_count": 25,
+      "search_tools_used": [
+        "pubmed_search",
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 9.0,
+      "grade": "A",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 9.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:25:26.382648",
+      "session_id": "eval_benchmark_제품 개발 연구원_q01_1762759485"
+    },
+    {
+      "query_id": "제품 개발 연구원_q02",
+      "query_text": "식물성 단백질 기반 대체육 제품 개발 기술 분석 보고서를 작성해주세요",
+      "team_type": "제품 개발 연구원",
+      "total_time": 70.29229807853699,
+      "response_time": 70.29229807853699,
+      "report_length": 7048,
+      "sources_count": 30,
+      "search_tools_used": [
+        "pubmed_search",
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.73,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "불필요한 중복 단계: 8개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:26:38.678548",
+      "session_id": "eval_benchmark_제품 개발 연구원_q02_1762759528"
+    },
+    {
+      "query_id": "제품 개발 연구원_q03",
+      "query_text": "프로바이오틱스 효능 연구 및 제품 적용 방안 보고서를 작성해주세요",
+      "team_type": "제품 개발 연구원",
+      "total_time": 70.65524768829346,
+      "response_time": 70.65524768829346,
+      "report_length": 4676,
+      "sources_count": 26,
+      "search_tools_used": [
+        "pubmed_search",
+        "vector_db_search",
+        "graph_db_search"
+      ],
+      "overall_score": 8.8,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 7.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다",
+        "불필요한 중복 단계: 5개"
+      ],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:27:51.336893",
+      "session_id": "eval_benchmark_제품 개발 연구원_q03_1762759600"
+    },
+    {
+      "query_id": "기본_q01",
+      "query_text": "식품 안전 규제 동향 및 컴플라이언스 대응 방안 보고서를 작성해주세요",
+      "team_type": "기본",
+      "total_time": 70.28701305389404,
+      "response_time": 70.28701305389404,
+      "report_length": 4267,
+      "sources_count": 25,
+      "search_tools_used": [
+        "web_search",
+        "pubmed_search",
+        "vector_db_search"
+      ],
+      "overall_score": 8.33,
+      "grade": "B",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.8333333333333334,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "출처 신뢰도가 낮습니다",
+        "불필요한 중복 단계: 6개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:29:03.627113",
+      "session_id": "eval_benchmark_기본_q01_1762759673"
+    },
+    {
+      "query_id": "기본_q02",
+      "query_text": "푸드테크 산업의 AI 활용 사례 분석 보고서를 작성해주세요",
+      "team_type": "기본",
+      "total_time": 45.55578327178955,
+      "response_time": 45.55578327178955,
+      "report_length": 5768,
+      "sources_count": 15,
+      "search_tools_used": [
+        "web_search",
+        "pubmed_search",
+        "vector_db_search"
+      ],
+      "overall_score": 9.18,
+      "grade": "A",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 10.0,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다",
+        "효율적으로 작업을 수행했습니다"
+      ],
+      "weaknesses": [],
+      "recommendations": [],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:29:51.184672",
+      "session_id": "eval_benchmark_기본_q02_1762759745"
+    },
+    {
+      "query_id": "기본_q03",
+      "query_text": "탄소중립을 위한 식품 산업의 ESG 경영 전략 보고서를 작성해주세요",
+      "team_type": "기본",
+      "total_time": 94.51705956459045,
+      "response_time": 94.51705956459045,
+      "report_length": 6718,
+      "sources_count": 57,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "rdb_search",
+        "graph_db_search",
+        "pubmed_search"
+      ],
+      "overall_score": 8.7,
+      "grade": "B+",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 1.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "citation_accuracy": 1.0,
+      "quality_reasoning": "AI 심판 미사용",
+      "hallucination_reasoning": "AI 심판 미사용",
+      "hallucination_examples": [],
+      "strengths": [
+        "작업을 성공적으로 완료했습니다",
+        "보고서가 완성도 높게 작성되었습니다",
+        "환각 현상이 감지되지 않았습니다",
+        "다양한 출처를 활용했습니다"
+      ],
+      "weaknesses": [
+        "불필요한 중복 단계: 15개"
+      ],
+      "recommendations": [
+        "워크플로우 최적화를 고려하세요"
+      ],
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-10T07:31:27.705563",
+      "session_id": "eval_benchmark_기본_q03_1762759793"
+    }
+  ],
+  "summary": {
+    "total_reports": 15,
+    "successful_reports": 15,
+    "success_rate": 100.0,
+    "scores": {
+      "avg_overall_score": 8.76,
+      "median_overall_score": 8.72,
+      "min_score": 8.33,
+      "max_score": 9.18,
+      "std_score": 0.19708591310100565,
+      "avg_quality_score": 7.0,
+      "avg_success_rate": 1.0,
+      "avg_completeness": 0.9555555555555556
+    },
+    "grade_distribution": {
+      "B+": 12,
+      "A": 2,
+      "B": 1
+    },
+    "performance": {
+      "avg_time": 64.53366238276163,
+      "median_time": 59.94025111198425,
+      "min_time": 41.02638840675354,
+      "max_time": 116.84647846221924,
+      "std_time": 19.48874998366717
+    },
+    "content": {
+      "avg_report_length": 4843.8,
+      "avg_sources_count": 27.466666666666665
+    },
+    "by_team": {
+      "구매 담당자": {
+        "count": 3,
+        "avg_score": 8.813333333333334,
+        "avg_time": 73.49406631787618,
+        "avg_quality": 7.0,
+        "avg_hallucination": 0
+      },
+      "급식 운영 담당자": {
+        "count": 3,
+        "avg_score": 8.666666666666666,
+        "avg_time": 63.32257080078125,
+        "avg_quality": 7.0,
+        "avg_hallucination": 0
+      },
+      "마케팅 담당자": {
+        "count": 3,
+        "avg_score": 8.74,
+        "avg_time": 55.073744773864746,
+        "avg_quality": 7.0,
+        "avg_hallucination": 0
+      },
+      "제품 개발 연구원": {
+        "count": 3,
+        "avg_score": 8.843333333333334,
+        "avg_time": 60.65797805786133,
+        "avg_quality": 7.0,
+        "avg_hallucination": 0
+      },
+      "기본": {
+        "count": 3,
+        "avg_score": 8.736666666666666,
+        "avg_time": 70.11995196342468,
+        "avg_quality": 7.0,
+        "avg_hallucination": 0
+      }
+    },
+    "hallucination": {
+      "avg_count": 0,
+      "max_count": 0,
+      "reports_with_hallucination": 0,
+      "hallucination_rate": 0.0
+    }
+  },
+  "end_time": "2025-11-10T07:31:29.709132"
+}

@@ -1,3 +1,5 @@
+# Ignore rerank_dense_results.py script
+multiagent-rag-system/backend/app/services/database/elasticsearch/rerank_dense_results.py
 # ====================================
 # Crowdworks Multiagent System
 # ====================================
@@ -188,3 +190,4 @@ notebooks/output/
 *.txt
 
 rag_config.py
+batch_rag_search.py
