@@ -4,7 +4,7 @@ FROM python:3.10-slim
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONIOENCODING=utf-8
 
-# PostgreSQL 클라이언트 및 개발 라이브러리, WeasyPrint 시스템 의존성 설치
+# PostgreSQL 클라이언트 및 개발 라이브러리, WeasyPrint 시스템 의존성, 한글 폰트 설치
 RUN apt-get update && apt-get install -y \
     libpq-dev \
     gcc \
@@ -13,6 +13,10 @@ RUN apt-get update && apt-get install -y \
     libgdk-pixbuf2.0-0 \
     libffi-dev \
     shared-mime-info \
+    fonts-nanum \
+    fonts-nanum-coding \
+    fontconfig \
+    && fc-cache -fv \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app

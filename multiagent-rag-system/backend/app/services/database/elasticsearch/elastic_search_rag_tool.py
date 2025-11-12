@@ -741,8 +741,7 @@ class MultiIndexRAGSearchEngine:
             pairs = []
             for r in subset:
                 content = r.get("page_content", "") or ""
-                name = r.get("name", "") or ""
-                doc_text = f"제목: {name}\n내용: {content}".strip()
+                doc_text = f"{content}".strip()
                 pairs.append([query, doc_text if doc_text else content])
 
             if not pairs:
@@ -780,8 +779,7 @@ class MultiIndexRAGSearchEngine:
         documents = []
         for r in subset:
             content = r.get("page_content", "") or ""
-            name = r.get("name", "") or ""
-            documents.append(f"제목: {name}\n내용: {content}".strip())
+            documents.append(f"{content}".strip())
 
         if not documents:
             return subset
@@ -921,6 +919,63 @@ class MultiIndexRAGSearchEngine:
                 "use_hyde": self.USE_HYDE,
                 "use_reranking": self.USE_RERANKING,
                 "use_summarization": self.USE_SUMMARIZATION
+            }
+        }
+
+    def dense_only_search(self, query: str, top_k: int = 20) -> Dict:
+        """
+        Dense 검색만 수행 (리랭킹 없음)
+        - TEXT/TABLE 인덱스에 대해 Dense 검색만 수행
+        - HyDE 미적용
+        - 리랭킹 미적용
+        - 상위 top_k개 결과만 반환
+        
+        Args:
+            query: 검색 쿼리
+            top_k: 반환할 최대 결과 수
+            
+        Returns:
+            {
+                "query": 검색 쿼리,
+                "results": [상위 top_k개 Dense 검색 결과],
+                "total_candidates": Dense 검색 총 후보 수,
+                "final_count": 최종 반환 결과 수,
+                "processing_time": 처리 시간(초),
+                "config": 설정 정보
+            }
+        """
+        start_time = datetime.now()
+        
+        # Dense 검색 수행 (두 인덱스)
+        dense_results = []
+        dense_results += self.dense_retrieval_index(query, self.TEXT_INDEX, top_k)
+        dense_results += self.dense_retrieval_index(query, self.TABLE_INDEX, top_k)
+        
+        # ES 점수로 정렬
+        ranked = self._assign_rank(dense_results, score_key="score", rank_key="rank_dense")
+        
+        # 상위 top_k개만 선택
+        final_results = ranked[:top_k]
+        
+        # 요약 처리 (USE_SUMMARIZATION이 True일 경우)
+        if self.USE_SUMMARIZATION:
+            final_results = self.document_summarization(final_results, query)
+        
+        end_time = datetime.now()
+        duration = (end_time - start_time).total_seconds()
+        
+        return {
+            "query": query,
+            "results": final_results,
+            "total_candidates": len(dense_results),
+            "final_count": len(final_results),
+            "processing_time": duration,
+            "config": {
+                "mode": "dense_only",
+                "use_hyde": False,
+                "use_reranking": False,
+                "use_summarization": self.USE_SUMMARIZATION,
+                "top_k": top_k
             }
         }
 

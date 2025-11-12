@@ -1,0 +1,757 @@
+{
+  "query": "간편조리세트(밀키트) 시장에서 닭고기, 양파, 고추 등 주요 원료의 국내산 사용 비중과 수입산 원료 가격 상승 추세에 대해 알려줘.",
+  "results": [
+    {
+      "score": 0.87703055,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 간편조리세트(밀키트, Meal-Kit)에 가장 많이 사용되는 원료는 닭고기 (1,485톤), 양파(287톤), 고추(209톤), 양상추(208톤), 마늘(197톤), 파 (158톤), 양배추(176톤), 무(149톤) 순으로 나타남\n\n-쌀, 팥, 무, 당근, 양상추, 양배추, 양파, 파의 경우 전량 국내산을 사용하고 있으며, 닭고기(99.99%)와 생강(99.8%), 돼지고기(99.4%)도 거의 전량 국내산을 사용함\n\n-반면 쇠고기의 경우 전량(100%) 수입산을 사용하는 것으로 나타나며, 마늘 (깐마늘 포함)과 고추의 경우 국내산 사용 비중이 수입산보다 높음\n\n· 마늘(깐마늘 포함)의 국내산 사용 비중은 63.4%, 고추의 국내산 사용 비중은 56.9%로 집계됨",
+      "name": "□ 간편조리세트(밀키트, Meal-Kit)에 가장 많이 사용되는 원료는 닭고기 (1,485톤), 양파(287톤), 고추(209톤), 양상추(208톤), 마늘(197톤), 파 (158톤), 양배추(176톤), 무(149톤) 순으로 나타남",
+      "meta_data": {
+        "chunk_id": "7a766545-143b-4266-8747-0eaf37f64972",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "7a766545-143b-4266-8747-0eaf37f64972",
+          "1649f1ae-bdf0-49b8-8d3d-445e0cc408f3",
+          "5c384119-c916-43c2-91fe-6761f75d65de",
+          "1001550c-c1b2-4b50-8544-72ba753a91c2"
+        ],
+        "chunked_count": 4,
+        "index": 746,
+        "page_number": [
+          68
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 349,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 간편조리세트(밀키트, Meal-Kit)에 가장 많이 사용되는 원료는 닭고기 (1,485톤), 양파(287톤), 고추(209톤), 양상추(208톤), 마늘(197톤), 파 (158톤), 양배추(176톤), 무(149톤) 순으로 나타남",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        68
+      ],
+      "rank_dense": 1
+    },
+    {
+      "score": 0.8637648,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n# <표 3-5> 간편조리세트(밀키트, Meal-Kit) 원료유형별 사용 현황\n\n원료 유형 총사용량(톤) 국내산 비중(%) 수입산 비중(%)\n쌀 42 100.0 -\n팥 26 100.0 -\n무 149 100.0 -\n당근 80 100.0 -\n양상추 208 100.0 -\n양배추 176 100.0 -\n고추 209 56.9 43.1\n마늘(깐마늘 포함) 197 63.4 36.6\n생강 88 99.8 0.2\n양파 287 100.0 -\n파 158 100.0 -\n쇠고기 85 - 100.0\n돼지고기 39 99.4 0.6\n닭고기 1485 99.99 0.01\n계란 51 100.0 -",
+      "name": "<표 3-5> 간편조리세트(밀키트, Meal-Kit) 원료유형별 사용 현황",
+      "meta_data": {
+        "chunk_id": "ba64ccb8-94db-4e26-a05a-83a67dfde78a",
+        "page_number": [
+          68
+        ],
+        "item_label": "merged",
+        "index": 750,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "# <표 3-5> 간편조리세트(밀키트, Meal-Kit) 원료유형별 사용 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "95369827-5ec6-4057-9d9e-1e7e1abc978f",
+            "content": "<table><tbody><tr><th>원료 유형</th><th>총사용량(톤)</th><th>국내산 비중(%)</th><th>수입산 비중(%)</th></tr><tr><td>쌀</td><td>42</td><td>100.0</td><td>-</td></tr><tr><td>팥</td><td>26</td><td>100.0</td><td>-</td></tr><tr><td>무</td><td>149</td><td>100.0</td><td>-</td></tr><tr><td>당근</td><td>80</td><td>100.0</td><td>-</td></tr><tr><td>양상추</td><td>208</td><td>100.0</td><td>-</td></tr><tr><td>양배추</td><td>176</td><td>100.0</td><td>-</td></tr><tr><td>고추</td><td>209</td><td>56.9</td><td>43.1</td></tr><tr><td>마늘(깐마늘 포함)</td><td>197</td><td>63.4</td><td>36.6</td></tr><tr><td>생강</td><td>88</td><td>99.8</td><td>0.2</td></tr><tr><td>양파</td><td>287</td><td>100.0</td><td>-</td></tr><tr><td>파</td><td>158</td><td>100.0</td><td>-</td></tr><tr><td>쇠고기</td><td>85</td><td>-</td><td>100.0</td></tr><tr><td>돼지고기</td><td>39</td><td>99.4</td><td>0.6</td></tr><tr><td>닭고기</td><td>1,485</td><td>99.99</td><td>0.01</td></tr><tr><td>계란</td><td>51</td><td>100.0</td><td>-</td></tr></tbody></table>",
+            "summary": "해당 내용은 간편조리세트, 흔히 밀키트(Meal-Kit)라 불리는 제품을 생산하는 기업들에 대한 조사 결과를 언급하고 있습니다. 조사 결과가 진행된 시기는 2020년 5월 11일부터 8월 11일까지이며, 총 274개의 기업이 조사 대상에 포함되었습니다. 조사 결과에 대한 구체적인 내용이나 결과에 대해서는 추가적인 정보가 필요합니다. 이처럼 특정 산업이나 제품에 대한 조사 결과는 시장 동향, 소비자 성향, 생산량 등의 다양한 정보를 제공할 수 있습니다. 도움이 필요하시면, 더 구체적인 질문을 해주시기 바랍니다."
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        68
+      ],
+      "rank_dense": 2
+    },
+    {
+      "score": 0.8501038,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ (원료수급동향) 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함3)\n\n-국내산 원료 구매 이유는 '신선한 원료가 필요해서(22.6%)', '조달이 용이해서 (20.2%)', '국내산은 적시에 필요한 양을 납품하기 때문에(19.3%)' 순임\n\n-국내 생산되는 간편조리세트(밀키트)의 수입 원료사용량은 850톤으로 전체 사용되는 원료 총량의 15.8%를 차지하며, 고추, 마늘(깐마늘 포함), 쇠고기 등 원재료가 '국내에서 생산되지 않는 계절에 일시적으로 수입(25.6%)'되거나 원재료의 원산지에 대한 '소비자의 선호도 차이가 크지 않아서(20.8%)' 사용됨\n\n-간편조리세트(밀키트)에 가장 많이 사용되는 원료는 닭고기(1,485톤), 양파(287톤), 고추(209톤), 양상추(208톤), 마늘(197톤), 파(158톤), 무(149톤) 순이며, 쌀, 팥, 무, 당근, 양상추, 양배추, 양파, 파의 경우 전량 국내산을 사용함. 닭고기 (99.99%)와 생강(99.8%), 돼지고기(99.4%)도 거의 전량 국내산을 사용함\n\n□ (주요 제조사 및 브랜드) 2022년 기준 국내 즉석식품류(간편조리세트 포함) 제조업체는 총 2,644개소 4)5)로 전년 대비 10.4% 증가함\n\n-유로모니터에 따르면 2022년 기준 국내 간편조리세트(밀키트) 시장의 59.2%는 이마트의 자체 브랜드인 피코크 등 PB브랜드가 점유하며, 프레시지(11.9%), 잇츠온(8.0%), 쿡킷(4.5%), 마이셰프(3.9%) 순임\n\n· PB브랜드 중 대표적인 제품은 이마트의 식품 전문 PB브랜드인 피코크 (PEACOCK)로 2022년 시장 점유율은 약 30%에 육박하며 시장을 선도함. 이 외에도 대형마트 PB브랜드 '시그니처(홈플러스)', '요리하다(롯데마트)', 편의점 PB 브랜드 '심플리쿡(GS25)', '편한식당(미니스톱)', 외식업계 PB브랜드 '신라다이닝앳홈(호텔신라)', '워커힐고메프리미엄밀키트(워커힐호텔앤리조트)', '63다이닝밀키트(한화호텔앤리조트)' 등이 있음\n\n3) 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11), 농촌경제연구원\n\n4) 식품의약품안전처에서 발간하는 「식품 등의 생산실적(2020~2022」에서는 간편조리세트(밀키트, Meal-Kit)의 생산업체 현황을 별도로 집계하지 않음\n\n5) 2020년부로 간편조리세트(밀키트)가 새로운 식품 유형으로 신설 및 등재되어 즉석섭취·편의식품류의 한 유형으로 포함되었으므로 2020년 이후 즉석식품류의 생산업체 현황에는 간편조리세트(밀키트) 생산업체도 포함됨\n\nCopyright 2023 a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "□ (원료수급동향) 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함3)",
+      "meta_data": {
+        "chunk_id": "e48d5e87-a9d5-4ef6-af7c-2e367e322dc0",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "e48d5e87-a9d5-4ef6-af7c-2e367e322dc0",
+          "8cd6a9f3-c40a-4472-8497-38205c8d7815",
+          "c2118b46-cf50-472c-b0e5-1701e7ea92d2",
+          "161e7df8-129c-4f7c-8f3f-22b7d3455838",
+          "71ef2238-9fde-46e3-99cb-0e07fd453bae",
+          "6dda0449-0c48-4374-bce2-cbb79b305913",
+          "681d66aa-6a0c-4e07-8324-eb15d538d35d",
+          "a26f5318-ad79-4811-a8ba-99f33a5223de",
+          "df5de2b9-9fca-4fdf-9cd8-ec9d997effd3",
+          "9250aa6e-5d8c-48c9-9c58-7a8e4ec3e63e",
+          "547bed92-c4aa-410d-9704-749d5bb8035d"
+        ],
+        "chunked_count": 11,
+        "index": 89,
+        "page_number": [
+          20
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 1348,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ (원료수급동향) 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함3)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        20
+      ],
+      "rank_dense": 3
+    },
+    {
+      "score": 0.848455,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n-간편조리세트(밀키트) 제조업체가 국내산 원료 구매경로(중간도매/벤더업체 등)를 이용하는 이유는 '필요한 물량의 원료를 확보하기에 용이(17.7%)'하기 때문이며,\n\n'저렴한 가격에 원료를 조달(17.6%)'할 수 있기 때문으로 확인됨\n\n# <그림 3-9> 간편조리세트(밀키트, Meal-Kit) 제조업체의 국내산 원료 구매경로 이용 이유\n\n*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*주2: 각항목은소수점 첫째 자리를 기준으로 반올림하였으므로각항목의 합계는 100에 소폭 못미치거나100을초과할수있음\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안,\n\n# □ 국내 생산되는 간편조리세트(밀키트, Meal-Kit)의 수입 원료사용량은 850톤으로 전체 사용되는 원료 총량의 15.8%를 차지함\n\n-수입 원료는 '국내에서 원료가 생산되지 않는 계절에 일시적으로 수입(25.6%)'되거나 '소비자의 원료 선호도 차이가 크지 않아서(20.8%)' 사용되는 것으로 나타남\n\n· 특히 간편조리세트(밀키트) 생산원료 중 '국내에서 원료가 생산되지 않는 계절에 일시적으로 수입'하는 비중이 높은 품목은 고추(9.3%), 마늘(깐마늘 포함, 5.1%), 쇠고기(8.3%) 등으로 나타남\n\nCopyright 2023 a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "-간편조리세트(밀키트) 제조업체가 국내산 원료 구매경로(중간도매/벤더업체 등)를 이용하는 이유는 '필요한 물량의 원료를 확보하기에 용이(17.7%)'하기 때문이며,",
+      "meta_data": {
+        "chunk_id": "7e05208e-af6a-40d0-b799-6f4ed19f328c",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "7e05208e-af6a-40d0-b799-6f4ed19f328c",
+          "5dfb61fc-f2c3-4f4b-890e-6474fc7241e0",
+          "56647aa1-f018-4cfb-8eef-8147d8dbcaa2",
+          "b867a810-c3ec-4e8d-bf35-291cc2854adb",
+          "57d310c9-f78d-4c0b-9100-a17f5a1d0596",
+          "56c42e81-de11-4270-a5c0-fe0617aab450",
+          "fbf94358-3d4a-43dc-8961-77bde86c2308",
+          "05c600ee-e52e-4d8c-a977-cd18dfff68dc",
+          "80ae2f9c-da5a-4ad8-848c-b9fc7c873138",
+          "59b229f6-5d56-4f8c-81cc-ae91fcaee6bd"
+        ],
+        "chunked_count": 10,
+        "index": 712,
+        "page_number": [
+          66
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 648,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "-간편조리세트(밀키트) 제조업체가 국내산 원료 구매경로(중간도매/벤더업체 등)를 이용하는 이유는 '필요한 물량의 원료를 확보하기에 용이(17.7%)'하기 때문이며,",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        66
+      ],
+      "rank_dense": 4
+    },
+    {
+      "score": 0.84521246,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n# <표 3-4> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)\n\n원료 총 사용량 국내산 사용량 국내산 사용 비중 수입산 사용량 수입산 사용 비중\n5385 4535 84.2% 850 15.8%",
+      "name": "<표 3-4> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)",
+      "meta_data": {
+        "chunk_id": "b10c1021-4cdd-42f7-8fd1-e4eb450afe47",
+        "page_number": [
+          64
+        ],
+        "item_label": "merged",
+        "index": 671,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "# <표 3-4> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "f3411e19-b0ad-49b2-ba28-33c14ca10dac",
+            "content": "<table><tbody><tr><td>원료 총 사용량</td><td>국내산 사용량</td><td>국내산 사용 비중</td><td>수입산 사용량</td><td>수입산 사용 비중</td></tr><tr><td>5,385</td><td>4,535</td><td>84.2%</td><td>850</td><td>15.8%</td></tr></tbody></table>",
+            "summary": "주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사를 대상으로 조사한 결과입니다. 조사는 2020년 5월 11일부터 8월 11일까지 진행되었습니다."
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        64
+      ],
+      "rank_dense": 5
+    },
+    {
+      "score": 0.8391788,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 2020년 농촌경제연구원의 연구에 따르면, 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함32)",
+      "name": "□ 2020년 농촌경제연구원의 연구에 따르면, 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함32)",
+      "meta_data": {
+        "chunk_id": "da9a5668-fb91-45d7-961c-e0c480a27101",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "da9a5668-fb91-45d7-961c-e0c480a27101"
+        ],
+        "chunked_count": 1,
+        "index": 670,
+        "page_number": [
+          64
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 100,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 2020년 농촌경제연구원의 연구에 따르면, 간편조리세트(밀키트, Meal-Kit)의 총 원료사용량(5,385톤) 중 국내산 원료사용량은 84.2%(4,535톤)에 달함32)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        64
+      ],
+      "rank_dense": 6
+    },
+    {
+      "score": 0.8307303,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\n□ 간편조리세트(밀키트, Meal-Kit) 제조업체(94개사)가 국내산 원료를 구매하는 이유는 '신선한 원료가 필요해서(22.6%)', '조달이 용이해서(20.2%)', '국내산은 적시에 필요한 양을 납품하기 때문에(19.3%)' 순으로 나타남\n\nCopyright 2023 All rights reserved a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+      "meta_data": {
+        "chunk_id": "5e69b6a8-b869-4512-a1de-21d276eaffde",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "5e69b6a8-b869-4512-a1de-21d276eaffde",
+          "af185182-c868-4750-9ddd-4a895b99f7db",
+          "ca023f1d-c84e-48ae-afc3-4b7895fe96d3",
+          "9e54af25-2cc7-4047-83aa-be7b22fdb311"
+        ],
+        "chunked_count": 4,
+        "index": 682,
+        "page_number": [
+          64
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 271,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        64
+      ],
+      "rank_dense": 7
+    },
+    {
+      "score": 0.8292633,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*주2: 전체 응답기업 146개사 중 '기타' 항목을 선택한 52개사를 제외한 94개사의 답변을 바탕으로 비율 계산\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\n-국내산 원료 구매경로는 '중간도매/벤더업체(82.8%)'를 통해 이뤄지며, '농수산물 종합유통센터(10.0%)'. '산지유통시설(6.2%)', '원료제조업체(0.9%)'의 비중은 높지 않은 편으로 나타남\n\n# <그림 3-8> 간편조리세트(밀키트, Meal-Kit) 제조업체의 국내산 원료 구매경로\n\n*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*주2: 각항목은소수점 첫째 자리를 기준으로 반올림하였으므로각항목의 합계는 100에 소폭 못미치거나100을초과할수있음\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\n2023 All rights a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+      "meta_data": {
+        "chunk_id": "daad85a7-6184-41d2-89c7-c530b97863dd",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "daad85a7-6184-41d2-89c7-c530b97863dd",
+          "60f45fa8-aa0d-483c-b70f-7568d57970e3",
+          "3cf74041-e6fb-47fa-a638-2c3554098697",
+          "0ba75e8f-8718-41ee-8669-e945b123e6f1",
+          "656eccd0-d826-4233-86ce-c94690ea58d6",
+          "2ac80bb0-6063-48c2-a659-250eaca5e96e",
+          "7c7f4d65-fefb-44d4-83d8-47b8a6ec135a",
+          "e24723cd-d2c1-40f2-8617-b9ca841f0f35",
+          "5e3e4356-e569-4d46-a08b-d56df8e85a76"
+        ],
+        "chunked_count": 9,
+        "index": 692,
+        "page_number": [
+          65
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 557,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        65
+      ],
+      "rank_dense": 8
+    },
+    {
+      "score": 0.8291991,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n# <그림 3-10> 간편조리세트(밀키트, Meal-Kit) 제조업체의 수입 원료 구매 이유\n\n*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*주2: 전체 응답기업 27개사 중 '기타' 항목을 선택한 10개사를 제외한 17개사의 답변을 바탕으로 비율 계산\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\n-수입 원료의 구매경로는 전량 '중간도매/벤더업체(100.0%)'를 통하는 것으로 조사되었으며, '필요한 물량의 원료 확보에 용이(24.5%)'하고 '여러 원료를 한꺼번에 구입하기에 용이(18.9%)'하며, '저렴한 가격에 원료를 조달(18.1%)' 할 수 있기 때문으로 나타남\n\n# <그림 3-11> 간편조리세트(밀키트, Meal-Kit) 제조업체의 수입 원료 구매경로 이용 이유\n\n*주1: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*주2: 각항목은소수점 첫째 자리를 기준으로 반올림하였으므로각항목의 합계는 100에 소폭 못미치거나100을초과할수있음\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\nCopyright 2023 All rights reserved a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "<그림 3-10> 간편조리세트(밀키트, Meal-Kit) 제조업체의 수입 원료 구매 이유",
+      "meta_data": {
+        "chunk_id": "2673bf9d-5015-450d-8cd5-fc7d52272fe0",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "2673bf9d-5015-450d-8cd5-fc7d52272fe0",
+          "64400ff1-f08b-4790-a670-8b12f4c9fd17",
+          "3ebea1c4-b0a8-42ab-9415-e676c12f3696",
+          "cbebc6ac-6097-489b-92f7-a5349afb67cb",
+          "2d8734fc-a80d-4477-b630-b7ee39b47896",
+          "2fd382b4-343d-4c85-8f91-74828087b6a3",
+          "997c2479-f301-4917-84f5-369d67f85ec1",
+          "64667c27-d9b7-43bb-a609-89a2d782c615",
+          "26152278-2256-4785-808d-695ed1785db2",
+          "57357548-32ab-4c59-bf1d-4c0be311a8a8"
+        ],
+        "chunked_count": 10,
+        "index": 730,
+        "page_number": [
+          67
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 636,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "# <그림 3-10> 간편조리세트(밀키트, Meal-Kit) 제조업체의 수입 원료 구매 이유",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        67
+      ],
+      "rank_dense": 9
+    },
+    {
+      "score": 0.826324,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 간편조리세트(밀키트, Meal-Kit) 제조업체의 원료 구매 형태는 '원물상태 (39.0%)'의 비중이 가장 높고, '전처리상태(37.6%)', '가공상태(23.4%)' 순임\n\n# <그림 3-12> 간편조리세트(밀키트, Meal-Kit) 제조업체의 원료 구매 형태\n\n*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)",
+      "name": "□ 간편조리세트(밀키트, Meal-Kit) 제조업체의 원료 구매 형태는 '원물상태 (39.0%)'의 비중이 가장 높고, '전처리상태(37.6%)', '가공상태(23.4%)' 순임",
+      "meta_data": {
+        "chunk_id": "06b68ad6-4ad3-479d-a22a-d45991276e9d",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "06b68ad6-4ad3-479d-a22a-d45991276e9d",
+          "48d352dc-5445-4e6c-831d-b51e743174c1",
+          "918ae638-4c29-4c9e-9f87-44c2e9cea39b",
+          "81601256-5191-4168-b969-bfd70fa9ba45"
+        ],
+        "chunked_count": 4,
+        "index": 762,
+        "page_number": [
+          69
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 248,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 간편조리세트(밀키트, Meal-Kit) 제조업체의 원료 구매 형태는 '원물상태 (39.0%)'의 비중이 가장 높고, '전처리상태(37.6%)', '가공상태(23.4%)' 순임",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        69
+      ],
+      "rank_dense": 10
+    },
+    {
+      "score": 0.8233259,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n# <그림 3-6> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)\n\n32) 2022년 식품산업 원료소비 실태조사에서는 간편조리세트(밀키트, Meal-Kit)의 원료 수급 및 소비에 대해서는 다루지 않음(즉석조리식품 및 즉석섭취식품만 조사)",
+      "name": "<그림 3-6> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)",
+      "meta_data": {
+        "chunk_id": "18dac827-d8b5-4c8f-85dd-1dcfb3610544",
+        "page_number": [
+          64
+        ],
+        "item_label": "merged",
+        "index": 678,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "# <그림 3-6> 간편조리세트(밀키트, Meal-Kit) 국내산/수입 원료 사용 실태(2020)",
+        "merged_children": [
+          {
+            "item_label": "text",
+            "chunk_id": "f25d4696-986c-4f72-b637-c6abca16266d",
+            "content": "32) 2022년 식품산업 원료소비 실태조사에서는 간편조리세트(밀키트, Meal-Kit)의 원료 수급 및 소비에 대해서는 다루지 않음(즉석조리식품 및 즉석섭취식품만 조사)"
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        64
+      ],
+      "rank_dense": 11
+    },
+    {
+      "score": 0.8220445,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n-또한 간편조리세트(밀키트)의 국내 시장현황을 세분화하여 시장규모, 생산 및 유통현황, 주요 브랜드 및 제품 현황, 관련 기준 및 제도 등에 대해 수록하였고, 전 세계 권역별(북미, 유럽, 아시아) 주요 국가(미국, 영국, 일본)의 간편조리 세트(밀키트) 시장 현황에 대해 기술함\n\n-이 외에도 빅데이터 분석을 통해 최근 (2022년 및 2023년 1~8월) 간편조리 세트(밀키트)와 관련한 키워드 언급량 및 트렌드 추이를 분석하여 제시하였고, 전국 만 20~60대 남녀 559명을 대상으로 소비자조사를 진행하여 간편조리세트 (밀키트)의 인지도 및 소비행태를 분석함\n\n-즉, 본 보고서는 품목 개요에서부터 생산, 유통, 소비에 이르는 식품 가치사슬 전 단계에 대한 정보를 수록하여 간편조리세트(밀키트) 시장에 대해 전반적인 이해를 높이기 위한 목적으로 작성됨",
+      "name": "-또한 간편조리세트(밀키트)의 국내 시장현황을 세분화하여 시장규모, 생산 및 유통현황, 주요 브랜드 및 제품 현황, 관련 기준 및 제도 등에 대해 수록하였고, 전 세계 권역별(북미, 유럽, 아시아) 주요 국가(미국, 영국, 일본)의 간편조리 세트(밀키트) 시장 현황에 대해 기술함",
+      "meta_data": {
+        "chunk_id": "e5b49620-9ac0-4208-9617-5eb6535c3e12",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "e5b49620-9ac0-4208-9617-5eb6535c3e12",
+          "81eb0773-8e78-4419-9af4-b7a90a3b1fe8",
+          "0dbec887-41ba-444b-8fc8-453d0b267bfe"
+        ],
+        "chunked_count": 3,
+        "index": 287,
+        "page_number": [
+          34
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 441,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "-또한 간편조리세트(밀키트)의 국내 시장현황을 세분화하여 시장규모, 생산 및 유통현황, 주요 브랜드 및 제품 현황, 관련 기준 및 제도 등에 대해 수록하였고, 전 세계 권역별(북미, 유럽, 아시아) 주요 국가(미국, 영국, 일본)의 간편조리 세트(밀키트) 시장 현황에 대해 기술함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        34
+      ],
+      "rank_dense": 12
+    },
+    {
+      "score": 0.82203317,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 본 보고서는 '간편조리세트(밀키트, Meal-Kit)'와 관련한 것으로써 간편 조리세트(밀키트) 시장 전반에 대한 조사를 진행함\n\n-제2장 '시장조사 개요'에서는 간편조리세트(밀키트)의 정의와 유형, 주요 제품, 성분규격 및 제조 공정 등 간편조리세트(밀키트)와 관련된 기본 개념을 정립함\n\n-제3장 '국내 시장현황'에서는 국내 간편조리세트(밀키트)의 시장규모 및 생산 현황, 원료 수급동향, 주요 제조사 및 브랜드, 관련 인증 및 제도 등에 대한 시장 개괄과 더불어 최근 시장 내 이슈 및 트렌드, 간편조리세트(밀키트)의 수출 현황에 대해 기술함\n\n-제4장 '유통 및 판매현황'에서는 국내 간편조리세트(밀키트)의 유통구조 및 판매 현황에 대한 내용을 수록함 ·\n\n-제5장 '해외시장동향'에서는 전 세계 간편조리세트(밀키트) 시장현황을 글로벌 및 권역별로 분류하여 제시하였고, 전 세계 주요 제조사와 브랜드 현황에 대해 기술함\n\n· 제5장 제3절에서는 권역별 주요 국가인 미국(북미), 영국(유럽), 일본(아시아)의 시장현황에 대해 서술하였으며, 이 외 기타 국가(네덜란드, 독일, 프랑스, 호주, 동남아시아)의 간편조리세트(밀키트) 시장현황에 대해 간략히 제시함\n\n· 제5장 제4절에서는 간편조리세트(밀키트)와 관련한 전 세계 관련 제도를 살펴보고 이 중 미국의 간편조리세트(밀키트) 관련 제도에 대해 서술함\n\n-제6장에서는 국내 소비자 인식조사를 통한 간편조리세트(밀키트) 소비자 동향 및 빅데이터 키워드 분석을 통한 간편조리세트(밀키트) 트렌드 분석을 실시함\n\n2023 All rights reserved a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "□ 본 보고서는 '간편조리세트(밀키트, Meal-Kit)'와 관련한 것으로써 간편 조리세트(밀키트) 시장 전반에 대한 조사를 진행함",
+      "meta_data": {
+        "chunk_id": "575e0f04-67ce-4c08-b34a-7010829d9dec",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "575e0f04-67ce-4c08-b34a-7010829d9dec",
+          "76603998-9b59-473f-8d17-8ed394f63d5a",
+          "44e9c55b-a497-476e-851c-9ae0a263b9a1",
+          "ec45a773-3918-415c-9796-789090b70da5",
+          "49c52aef-de81-4e9e-8233-898480994188",
+          "fa636d40-9206-4a90-b563-954b804d32cc",
+          "1136c97c-1370-4871-bcc5-6beff9730826",
+          "d405eeff-b037-4d46-8a10-fdd8e52a7784",
+          "8d276e42-30d9-448f-bfb2-4731df02691d"
+        ],
+        "chunked_count": 9,
+        "index": 299,
+        "page_number": [
+          35
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 858,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 본 보고서는 '간편조리세트(밀키트, Meal-Kit)'와 관련한 것으로써 간편 조리세트(밀키트) 시장 전반에 대한 조사를 진행함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        35
+      ],
+      "rank_dense": 13
+    },
+    {
+      "score": 0.82097435,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 국내 유통되는 간편조리세트(밀키트, Meal-Kit)는 주로 대형마트·슈퍼마켓· 편의점 등 소매 유통채널을 통해 판매되며, 온라인이나 간편조리세트 (밀키트) 전문 매장(무인판매점 포함)에서도 유통됨\n\n-농촌경제연구원(2020)의 조사에 따르면 국내 간편조리세트(밀키트) 제조업체의 유통채널별 판매 비중은 '대형할인점(53.0%)'이 가장 높으며, '온라인 쇼핑몰 (18.0%)', '제조업체(16.1%) 48) ', '대리점(5.5%), '직영영업소(2.5%) 순임\n\n# <그림 4-1> 간편조리세트(밀키트, Meal-Kit) 제조업체의 유통채널별 판매 비중\n\n*주1: 2020년 5월 11일부터 8월 11일까지 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사를 대상으로 조사한 결과 *주2: 각 항목은 소수점 첫째 자리를 기준으로 반올림하였으므로 각 항목의 합계는 100에 소폭 못 미치거나 100을 초과할 수 있음\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)\n\n47) 본 절에서 제시하는 간편조리세트(밀키트, Meal-Kit)의 유통구조 및 채널별 비중은 농촌경제연구원이 발간한 '가정간편식(HMR) 산업의 국내산 원료 사용 실태와 개선방안(2020.10)'을 참고 및 인용하였으나 발간 시점이 현재와 다소 차이가 있어 글로벌 시장조사기관 유로모니터(Euromonitor)의 '한국 '식사 및 수프류(간편조리세트 포함)의 유통채널 및 비중' 자료를 추가함\n\nAll rights reserved a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "□ 국내 유통되는 간편조리세트(밀키트, Meal-Kit)는 주로 대형마트·슈퍼마켓· 편의점 등 소매 유통채널을 통해 판매되며, 온라인이나 간편조리세트 (밀키트) 전문 매장(무인판매점 포함)에서도 유통됨",
+      "meta_data": {
+        "chunk_id": "55fe921e-8a09-45ae-9474-5542a179b897",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "55fe921e-8a09-45ae-9474-5542a179b897",
+          "005520df-3814-48e2-9338-a3c895625cf9",
+          "a7c659be-426c-41c7-8c91-3d822a3c62de",
+          "95120370-9aa2-4d5f-a47e-37e236bf47c0",
+          "ba9e447e-a3c1-484c-8d8a-26732e09d51e",
+          "42272e51-5c10-40f1-8e21-d20d483f47cc",
+          "f7f4f929-0505-49cc-9ce8-afd91ab3d7a8"
+        ],
+        "chunked_count": 7,
+        "index": 1325,
+        "page_number": [
+          101
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 781,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 국내 유통되는 간편조리세트(밀키트, Meal-Kit)는 주로 대형마트·슈퍼마켓· 편의점 등 소매 유통채널을 통해 판매되며, 온라인이나 간편조리세트 (밀키트) 전문 매장(무인판매점 포함)에서도 유통됨",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        101
+      ],
+      "rank_dense": 14
+    },
+    {
+      "score": 0.8187721,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n· (보존·유통) 식육, 기타식육 또는 수산물을 구성재료로 포함하는 경우에는 냉장 또는 냉동으로 보존ㆍ유통해야 함\n\n· (해동 식재료 사용) 식품제조ㆍ가공업 영업자가 냉동 식육 또는 냉동수산물을 단순 해동 또는 해동 후 절단해 재료로 구성하는 경우, 냉동 식육 또는 냉동 수산물을 해동해 사용했음을 표시하면 해동된 냉동 식육 또는 냉동수산물을 재냉동하지 않고 냉장으로 보존ㆍ유통할 수 있음\n\n· (기타) 다른 제조업자가 포장을 완료한 식품을 포장된 상태 그대로 구성재료로 사용하는 경우 기준 및 규격에 적합한 것을 사용해야 함\n\n□ (국내 시장규모) 간편조리세트(밀키트, Meal-Kit)의 2022년 시장규모는 전년 대비 205.8% 증가한 2,496억 4,800만 원으로 집계됨2)\n\n-전체 즉석섭취·편의식품 시장규모 5조 8,532억 원 중 간편조리세트(밀키트)의 비중은 4.3%로 나타남\n\n-핵가족화에 따른 1~2인 가구 및 맞벌이 가구 증가와 코로나19 및 소비 불황으로 외식 수요가 내식(內⾷)으로 전환되며 간편조리세트(밀키트) 시장은 급격히 성장 하였고, 집에서 간편한 방식으로 조리해 먹는 간편조리세트(밀키트)는 소비자에게 요리의 즐거움을 선사하며 새로운 형태의 소비 트렌드로 부상함\n\n□ (국내 생산현황) 간편조리세트(밀키트, Meal-Kit)의 생산액은 2,089억 8,500만 원으로 전년 대비 288.3% 증가하였고, 생산량은 2만 7,423톤으로 전년 대비 268.8% 증가함\n\n-외식물가 상승 등으로 비교적 저렴한 가격, 간단한 조리 방법, 신선한 재료, 편리한 구매환경(전문 판매점 및 온라인 새벽 배송) 등 다양한 이점을 가진 간편 조리세트(밀키트)의 수요가 증가하며 간편조리세트(밀키트)의 생산실적이 크게 증가한 것으로 해석됨\n\nCopyright 2023 All rights reserved 4 a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "· (보존·유통) 식육, 기타식육 또는 수산물을 구성재료로 포함하는 경우에는 냉장 또는 냉동으로 보존ㆍ유통해야 함",
+      "meta_data": {
+        "chunk_id": "44f4c53a-c754-4e24-a8e1-5388b7f010cd",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "44f4c53a-c754-4e24-a8e1-5388b7f010cd",
+          "2b9cd1b6-3fc9-4448-b117-3cc119ffd068",
+          "7abea95a-a64f-47f0-9852-2ca01263f605",
+          "900c37d2-bdfa-4a6e-9b67-ef66ccc390a8",
+          "195aa911-8548-4848-8c4e-0660801e3d63",
+          "6bf35012-4e1e-4daf-9ae6-c239ecc99818",
+          "2236e4f1-8709-45cd-90e2-98558a2cd246",
+          "4aaef5e1-e90d-4e2b-9d91-4a24a7bd18e4",
+          "ed4a9a9d-531e-4bab-b3e9-6609ed66c2ac"
+        ],
+        "chunked_count": 9,
+        "index": 76,
+        "page_number": [
+          19
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 940,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "· (보존·유통) 식육, 기타식육 또는 수산물을 구성재료로 포함하는 경우에는 냉장 또는 냉동으로 보존ㆍ유통해야 함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        19
+      ],
+      "rank_dense": 15
+    },
+    {
+      "score": 0.81803584,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)\n\n*출처: 가정간편식(HMR)산업의 국내산 원료 사용 실태와 개선방안, 한국농촌경제연구원(2020.10)",
+      "name": "*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+      "meta_data": {
+        "chunk_id": "a43cb1fa-e3fe-4b68-89a0-3e0b81b5b80f",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a43cb1fa-e3fe-4b68-89a0-3e0b81b5b80f",
+          "e56f1819-1a72-4adf-8c76-09a2fafdfadc"
+        ],
+        "chunked_count": 2,
+        "index": 676,
+        "page_number": [
+          64
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 111,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "*주: 간편조리세트(밀키트, Meal-Kit) 생산기업 274개사 대상 조사 결과(2020.5.11.~8.11)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        64
+      ],
+      "rank_dense": 16
+    },
+    {
+      "score": 0.81656474,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n-(전문 판매점) 코로나19 시기 크게 증가한 간편조리세트(밀키트) 전문매장(무인 점포 포함)은 대형마트나 편의점을 통한 제품 구매가 활발해지며 성장세가 꺾임\n\n□ (해외시장동향) 2021년 글로벌 간편조리세트(밀키트, Meal-Kit) 시장규모는 111억 달러(한화 약 14조 4,289억 원)로 집계됨\n\n-2022년 기준 전 세계 간편조리세트(밀키트) 시장의 56.2%를 북미 지역이 차지하며, 서유럽(24.4%), 아시아태평양(12.1%), 호주·오세아니아(7.3%) 순의 비중을 보임\n\n-코로나19로 집에 머무는 시간이 길어지며 '집에서 조리한 음식'에 대한 선호도가 높아졌고, 이에 간편조리세트(밀키트) 시장규모는 큰 폭으로 성장함\n\n· 코로나19가 직접적인 영향을 미쳤던 2020년~2021년 집에서도 원하는 메뉴의 재료를 손쉽게 조달해 직접 요리하는 즐거움을 느낄 수 있는 '편리성'과 '새로운 경험'에 초점이 맞춰지며 간편조리세트(밀키트)의 수요가 증가함\n\n-인플레이션과 소비양극화로 저렴하면서도 집에서 고급 식사를 경험할 수 있는 간편조리세트(밀키트)의 수요는 지속되고 있음\n\n· 경제불황과 소비양극화로 최근 간편조리세트(밀키트) 소비자들은 자신의 선호에 맞는 프리미엄 메뉴를 보다 저렴하게 구입하여 소비할 수 있다는 사실을 큰 장점으로 여김\n\n-신선 식재료로 구성되고 조리과정 및 첨가물을 최소화한 간편조리세트(밀키트)의 인기가 증가하는 추세로 식물성 원재료를 기반으로 한 간편조리세트(밀키트) 시장 성장이 예측됨\n\n-2022년 기준 글로벌 간편조리세트(밀키트) 시장 내 점유율은 독일의 Hello Fresh가 49.9%로 전체 시장의 절반가량을 차지함\n\n· Home Chef(미국) 10.0%, Yoshikei(일본) 3.4%, Blue Apron(미국) 3.3%, Gousto(영국) 2.8%, Marley Spoon(독일) 2.7%, Kit Oisix(일본) 2.4% 순의 비중을 보이며, 한국의 프레시지(Fresheasy), 잇츠온(eats On), 쿡킷(Cookit), 마이셰프(MyChef)의 시장 합산 점유율은 1% 미만의 수준으로 집계됨\n\nAll rights a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "-(전문 판매점) 코로나19 시기 크게 증가한 간편조리세트(밀키트) 전문매장(무인 점포 포함)은 대형마트나 편의점을 통한 제품 구매가 활발해지며 성장세가 꺾임",
+      "meta_data": {
+        "chunk_id": "74502633-2b2e-4776-a835-b35b8e935f11",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "74502633-2b2e-4776-a835-b35b8e935f11",
+          "5a648773-bcb2-47c3-834d-479e82af2740",
+          "91262ecf-f516-4d2f-985e-0d9adf3bc84f",
+          "75817e7d-588b-4185-8a0f-600570e17046",
+          "1fcdd74d-c7a1-4e9d-818b-981b6a68375f",
+          "6091c15e-a8be-4965-87ba-7c822d84aba1",
+          "c8f57700-a394-4cc4-8173-2a0f22362b9c",
+          "89d2b89b-cd7f-4b6e-995e-016d93c2d8bc",
+          "cd34b779-1818-453b-8e1a-3f9de6065c9b",
+          "a4e7359b-1ea7-4ab1-8341-e2385b1882db",
+          "ca88c36f-3d00-4f0b-8f89-94087766b7c3"
+        ],
+        "chunked_count": 11,
+        "index": 170,
+        "page_number": [
+          25
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 1050,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "-(전문 판매점) 코로나19 시기 크게 증가한 간편조리세트(밀키트) 전문매장(무인 점포 포함)은 대형마트나 편의점을 통한 제품 구매가 활발해지며 성장세가 꺾임",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        25
+      ],
+      "rank_dense": 17
+    },
+    {
+      "score": 0.8142866,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n*주: 간편조리세트(밀키트, Meal-Kit) 생산 규모의 연평균 증가율은 2020년/2022년 기준\n\n*출처: 식품 등의 생산실적(2018~2022), 식품의약품안전처\n\n# <그림 3-1> 국내 간편조리세트(밀키트, Meal-Kit) 시장규모(2018~2022)",
+      "name": "*주: 간편조리세트(밀키트, Meal-Kit) 생산 규모의 연평균 증가율은 2020년/2022년 기준",
+      "meta_data": {
+        "chunk_id": "db280c9d-11bb-4f26-81c7-d28fc8ddc781",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "db280c9d-11bb-4f26-81c7-d28fc8ddc781",
+          "b000ad6f-e0f8-41b1-a817-3d75e5b1487f",
+          "a4346058-677c-4edb-8640-7c7c6c767d3a"
+        ],
+        "chunked_count": 3,
+        "index": 584,
+        "page_number": [
+          59
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 146,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "*주: 간편조리세트(밀키트, Meal-Kit) 생산 규모의 연평균 증가율은 2020년/2022년 기준",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        59
+      ],
+      "rank_dense": 18
+    },
+    {
+      "score": 0.8141535,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n□ 국내 간편조리세트(밀키트, Meal-Kit) 시장규모 역시 증가하는 추세로, 집계가 시작된 2020년 이후 2022년까지 시장규모는 연평균 1,204%의 성장률을 기록함14)\n\n-핵가족화에 따른 1~2인 가구 및 맞벌이 가구 증가와 코로나19 및 소비 불황으로 외식 수요가 내식(內⾷)으로 전환되며 간편조리세트(밀키트) 시장은 급격히 성장함\n\n· 또한 집에서 간편한 방식으로 조리해 먹는 간편조리세트(밀키트)는 소비자에게 요리의 즐거움을 선사하며 새로운 형태의 소비 트렌드로 부상함\n\n-식품의약품안전처는 국내 밀키트 시장의 급격한 성장에 따라 2020년 10월 16일 「식품의 기준 및 규격」 일부개정고시를 통해 간편조리세트(밀키트)를 새로운 식품 유형으로 신설 및 등재함\n\n· 이에 2022년 1월부로 식육, 채소, 생선 등 가공되지 않은 자연산물이 포함된 조리세트는 '간편조리세트(밀키트)'로 분류됨\n\n-국내 간편조리세트(밀키트) 시장의 고공 성장에 따라 기존 간편조리세트(밀키트) 제조업체 외 유통 및 외식업계에서도 시장에 진입하고 있으며, 소비자의 세분화된 수요를 충족할 수 있는 다양한 제품군이 출시되며 시장 성장을 견인함\n\n· 이 외에도 제조 효율성 향상 및 신선도 유지 등을 위해 푸드테크 및 신기술이 개발 및 적용되며 기존 간편조리세트(밀키트)의 한계점을 보완하고 경쟁력을 확보하면서 시장은 더욱 확대되는 추세임\n\n□ 간편조리세트(밀키트, Meal-Kit)는 타 식품군 대비 비교적 최근에 시장이 형성되고 개념이 정립된 품목으로, 지속적인 성장세를 이어갈 수 있도록 시장현황에 대한 분석 필요성이 제기됨\n\n-본 보고서는 간편조리세트(밀키트)의 시장 전반에 대한 포괄적인 이해와 더불어 동 산업 이해관계자의 의사 결정에 도움을 줄 수 있는 시장 정보를 제공하기 위한 기초 정보를 제시함\n\n2023 All rights reserved a7 한국농수산식품유통공사 Agro-Fisheries & Food Trade Corporation",
+      "name": "□ 국내 간편조리세트(밀키트, Meal-Kit) 시장규모 역시 증가하는 추세로, 집계가 시작된 2020년 이후 2022년까지 시장규모는 연평균 1,204%의 성장률을 기록함14)",
+      "meta_data": {
+        "chunk_id": "a985eec3-622e-4218-a5a0-e29f19a831a4",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a985eec3-622e-4218-a5a0-e29f19a831a4",
+          "9fdef86d-e4a5-4645-8af2-f83306c23ba6",
+          "aa2427df-3ade-40ed-b30a-1a914bd6e871",
+          "73748471-33c4-4bb0-9df7-10096e616d5d",
+          "6c6819ca-f1ef-4ecb-8369-64523e650dd8",
+          "fd21a2a6-b5d8-4af7-ae80-ca14566165ed",
+          "8994c532-363d-47c2-b7d0-0fa29a9a7ca0",
+          "2948c9f3-97b8-4286-9d8c-3aff98464e7d",
+          "bb4ee6f6-67b8-4d3c-aab7-efbeccf2cbdc",
+          "bbae948c-ae59-4389-a4d2-6cba87a2de00"
+        ],
+        "chunked_count": 10,
+        "index": 271,
+        "page_number": [
+          33
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 964,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "□ 국내 간편조리세트(밀키트, Meal-Kit) 시장규모 역시 증가하는 추세로, 집계가 시작된 2020년 이후 2022년까지 시장규모는 연평균 1,204%의 성장률을 기록함14)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        33
+      ],
+      "rank_dense": 19
+    },
+    {
+      "score": 0.8138329,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)\n\n*출처: 각 기업 홈페이지 및 국내 전자상거래 유통 플랫폼",
+      "name": "*출처: 각 기업 홈페이지 및 국내 전자상거래 유통 플랫폼",
+      "meta_data": {
+        "chunk_id": "143fba30-4de9-4630-993c-4c39d44b390e",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "143fba30-4de9-4630-993c-4c39d44b390e"
+        ],
+        "chunked_count": 1,
+        "index": 1436,
+        "page_number": [
+          108
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 36,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_간편조리세트(밀키트)",
+        "original_page_content": "*출처: 각 기업 홈페이지 및 국내 전자상거래 유통 플랫폼",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4819&bcaId=0&pageIndex=1",
+      "page_number": [
+        108
+      ],
+      "rank_dense": 20
+    }
+  ],
+  "total_candidates": 40,
+  "final_count": 20,
+  "processing_time": 1.332063,
+  "config": {
+    "mode": "dense_only",
+    "use_hyde": false,
+    "use_reranking": false,
+    "use_summarization": false,
+    "top_k": 20
+  }
+}

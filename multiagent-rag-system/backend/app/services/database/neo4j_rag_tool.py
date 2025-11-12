@@ -136,10 +136,7 @@ class GraphDBSearchService:
         return f"""
         CALL db.index.fulltext.queryRelationships('{index_name}', $kw)
         YIELD relationship AS r, score
-        MATCH (s)-[r]-(e) // 's' (start) and 'e' (end)
-        
-        // _parse_rows 호환성을 위해 s를 n으로, e를 m으로 별칭
-        // 점수(score)는 관계 r의 점수
+        MATCH (s)-[r]-(e)
         RETURN s AS n, r, e AS m, score,
                type(r) AS rel_type,
                startNode(r) AS s,

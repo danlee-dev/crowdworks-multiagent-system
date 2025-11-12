@@ -1,0 +1,726 @@
+{
+  "query": "파를 활용한 발효식품, 특히 김치, 장류, 음료 등과 관련된 연구 개발 동향 및 성공 사례를 분석한 보고서를 찾아주세요.",
+  "results": [
+    {
+      "score": 0.7527015,
+      "page_content": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)\n\n김치는 우리나라 전통 발효식품으로서, 식품공전 및 전통식품 표준규격에 따라 '절인 채소류에 양념을 혼합하여 발효한 것'을 의미한다.\n\n식품공전상 김치류는 '배추 등 채소류를 주원료로 하여 절임, 양념혼합공정을 거쳐 그대로 또는 발효시켜 가공한 김치와 김치를 제조하기 위해 사용하는 김칫속'을 일컫는다.1) 김치는 '배추 등 채소류를 주원료로 하여 절임, 양념혼합과정 등을 거쳐 그대로 또는 발효시킨 것이거나 이를 가공한 것', 김치속은 '식물성 원료에 고춧가루, 당류, 식염 등을 가하여 혼합한 것으로 채소류 등에 첨가, 혼합하여 김치를 만드는 데 사용하는 것'으로 각각 정의된다.\n\n전통식품으로서의 김치류는 '채소류를 주원료로 하여 염수 혹은 소금으로 절인 다음 세척, 탈수 및 양념 혼합 후 그대로 혹은 발효·숙성하여 만든 것'을 일컫는다.2) 김치의 종류는 △포기김치 △막김치 △보쌈김치 △백김치 등 총 38개에 달하며, 전통식품 표준규격에 정의된 김치 이외의 종류는 '기타 김치'로 분류된다.",
+      "name": "김치는 우리나라 전통 발효식품으로서, 식품공전 및 전통식품 표준규격에 따라 '절인 채소류에 양념을 혼합하여 발효한 것'을 의미한다.",
+      "meta_data": {
+        "chunk_id": "fb3047b2-2527-46e1-9d6f-ff6ed98c9588",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "fb3047b2-2527-46e1-9d6f-ff6ed98c9588",
+          "920d5287-4cb6-4e40-a3e4-5d9f16c53049",
+          "15cfc3de-bfa6-4851-82e1-d8f1119b22b7"
+        ],
+        "chunked_count": 3,
+        "index": 7,
+        "page_number": [
+          3
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 535,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)",
+        "original_page_content": "김치는 우리나라 전통 발효식품으로서, 식품공전 및 전통식품 표준규격에 따라 '절인 채소류에 양념을 혼합하여 발효한 것'을 의미한다.",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf",
+      "page_number": [
+        3
+      ],
+      "rank_dense": 1
+    },
+    {
+      "score": 0.7417786,
+      "page_content": "210804 [FACT] 2021 식품 우수기술 100선\n\n# 응용분야\n\n발명의명칭 특허현황\n부추추출물및 동충하초추출물을이용한항산화및항암기능성음료와 그제조방법 10-1931052\n장염증및변비개선 효능을갖는매실유산발효액및이의제조방법 10-2154905\n항산화및항피로효능을 갖는매실식초의제조방법 10-1984400\n항피로효능을갖는매실 식초를함유한음료의제조방법및그조성물 10-2019-0134376",
+      "name": "응용분야",
+      "meta_data": {
+        "chunk_id": "59a749b5-9cfc-4cc5-b9f9-eaed8422301b",
+        "page_number": [
+          86
+        ],
+        "item_label": "merged",
+        "index": 1552,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "210804 [FACT] 2021 식품 우수기술 100선",
+        "original_page_content": "# 응용분야",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "2b92a27f-6d35-4a6e-9813-35806510051a",
+            "content": "<table><tbody><tr><th>발명의명칭</th><th>특허현황</th></tr><tr><td>부추추출물및 동충하초추출물을이용한항산화및항암기능성음료와 그제조방법</td><td>10-1931052</td></tr><tr><td>장염증및변비개선 효능을갖는매실유산발효액및이의제조방법</td><td>10-2154905</td></tr><tr><td>항산화및항피로효능을 갖는매실식초의제조방법</td><td>10-1984400</td></tr><tr><td>항피로효능을갖는매실 식초를함유한음료의제조방법및그조성물</td><td>10-2019-0134376</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2",
+      "page_number": [
+        86
+      ],
+      "rank_dense": 2
+    },
+    {
+      "score": 0.7372539,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_음료류\n\n□ 본 보고서는 '음료류'와 관련한 것으로써 음료 시장 전반에 대한 조사를 진행함\n\n-제2장 '시장조사 개요'에서는 음료류의 정의와 유형, 주요 제품, 기준 및 규격, 제조 및 가공기준 등 음료류와 관련된 기본 개념을 정립함\n\n-제3장 '국내 시장현황'에서는 국내 음료류의 시장규모 및 생산현황, 주요 제조사 및 브랜드, 관련 인증 및 제도에 대한 시장 개괄과 더불어 최근 시장 내 이슈 및 트렌드, 음료류의 수출입현황에 대해 기술함\n\n-제4장 '유통 및 판매현황'에서는 국내 음료류의 유통구조 및 판매현황에 대한 내용을 수록함\n\n-제5장 '해외시장동향'에서는 전 세계 음료류 시장현황을 글로벌 및 권역별로 분류하여 제시하였고, 전 세계 주요 제조사와 브랜드 현황에 대해 기술함\n\n· 제5장 제3절에서는 전 세계 음료류 시장규모 상위 국가 및 국내 음료류 상위 수출국인 미국, 중국, 일본, 캄보디아, 베트남의 시장현황 및 관련 제도에 대해 서술함38)\n\n-제6장에서는 국내 소비자 인식조사를 통한 음료류 소비자 동향 및 빅데이터 키워드 분석을 통한 음료류 트렌드 분석을 실시함\n\nCopyright 2023 a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "□ 본 보고서는 '음료류'와 관련한 것으로써 음료 시장 전반에 대한 조사를 진행함",
+      "meta_data": {
+        "chunk_id": "bbaf40e9-5991-480c-8783-fd9acb5105f8",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "bbaf40e9-5991-480c-8783-fd9acb5105f8",
+          "45aa6163-c5dc-4b08-a7e9-aa88636e619d",
+          "69143fdf-121e-4acb-b919-c86886329257",
+          "010dd1f8-b791-459b-b66f-5dd0405f59c4",
+          "d5b1f5be-e273-418d-b9c4-c3dfc2504c60",
+          "0005509c-407a-4184-bd0a-227c2ab3a556",
+          "1f7f6905-cd04-41e5-b344-9aa0f73b96b0",
+          "9da01153-c87d-489c-b7bb-29d4f5dd7e40"
+        ],
+        "chunked_count": 8,
+        "index": 432,
+        "page_number": [
+          43
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 590,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_음료류",
+        "original_page_content": "□ 본 보고서는 '음료류'와 관련한 것으로써 음료 시장 전반에 대한 조사를 진행함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1",
+      "page_number": [
+        43
+      ],
+      "rank_dense": 3
+    },
+    {
+      "score": 0.73636127,
+      "page_content": "일본 김치 시장 동향 및 대일수출 확대 방안 전략 조사\n\n* 출처 : 후지경제 조사 '2024년 식품 마케팅 편람' 김치 시장",
+      "name": "* 출처 : 후지경제 조사 '2024년 식품 마케팅 편람' 김치 시장",
+      "meta_data": {
+        "chunk_id": "ba4bd6f4-7af0-4917-b00b-6fef0d2db705",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ba4bd6f4-7af0-4917-b00b-6fef0d2db705"
+        ],
+        "chunked_count": 1,
+        "index": 56,
+        "page_number": [
+          8
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 40,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "일본 김치 시장 동향 및 대일수출 확대 방안 전략 조사",
+        "original_page_content": "* 출처 : 후지경제 조사 '2024년 식품 마케팅 편람' 김치 시장",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2025/01/&fileName=%EC%9D%BC%EB%B3%B8+%EA%B9%80%EC%B9%98+%EC%8B%9C%EC%9E%A5+%EB%8F%99%ED%96%A5+%EB%B0%8F+%EB%8C%80%EC%9D%BC%EC%88%98%EC%B6%9C+%ED%99%95%EB%8C%80+%EB%B0%A9%EC%95%88+%EC%A0%84%EB%9E%B5+%EC%A1%B0%EC%82%AC.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2025/01/&fileName=%EC%9D%BC%EB%B3%B8+%EA%B9%80%EC%B9%98+%EC%8B%9C%EC%9E%A5+%EB%8F%99%ED%96%A5+%EB%B0%8F+%EB%8C%80%EC%9D%BC%EC%88%98%EC%B6%9C+%ED%99%95%EB%8C%80+%EB%B0%A9%EC%95%88+%EC%A0%84%EB%9E%B5+%EC%A1%B0%EC%82%AC.pdf.pdf",
+      "page_number": [
+        8
+      ],
+      "rank_dense": 4
+    },
+    {
+      "score": 0.73413336,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_음료류\n\n2021년 HACCP 주요 정책방향, 식품의약품안전처(2021.01) 2023 식음료 업종 분석 리포트, 메조미디어(2023) HACCP 자주 묻는 질문, 한국식품안전관리인증원(2020) 국내 음료 시장의 유통구조 개선에 관한 연구, 김학봉(2011.02) 식품 등의 생산실적(2018~2022), 식품의약품안전처 음료류 해썹(HACCP) 관리, 가평특선주 영농조합법인(2019.08.30.) The future of water sports and energy drinks 2022, Mintel(2022.07.)\n\n동치미맛 음료·까만 치킨…이색 먹거리 출시 러시 이유는?, 아주경제(2021.10.27) \"과채음료 지고, 제로음료 뜨고\"…트렌드 변하는 韓 음료시장, 뉴시스(2023.01.23) \"성장 멈춰버렸다\"…탄산수 인기 시들해진 '반전' 이유, 한국경제(2023.05.09) \"식품원료 수급안정화 위해 신속통관·표시제도 탄력적 운용\", FOOD ICON(2022.05.20.) \"아몬드부터 귀리까지\" 식물성 음료 도전자 줄서자 …두유시장 '주춤', 아시아경제(2022.12.01) ＂아시아 수출 1위를 넘어 글로벌 1위 음료 기업에 도전', 중앙일보(2021.06.22) \"커피·제로슈거 열풍\"…국내 음료시장 규모 첫 10조원 돌파, 아시아경제(2023.08.28) \"커피보다 茶\"... 차음료 시장 3000억으로 성장, 푸드투데이(2023.01.04) '2024 식음료' 대담한 맛·색상 제품이 주도할 듯, 식품음료신문(2023.11.10) '바까 주세요!' 식지 않는 캄보디아 박카스 열풍, 헬스코리아뉴스(2019.06.13) '스마트 해썹'적용업소 우대조치 강화!, 식품의약품안전처 보도자료(2021.07.20.) '스마트해썹' 적용 업소 우대 조치 마련, 식품음료신문(2020.03.17) '이색음료·제로탄산' 여름 음료 경쟁 시작한 편의점, 민중의소리(2023.05.02) '코시국' 외출 줄었지만 스포츠음료 매출 증가한 이유는?, 인더뉴스(2022.02.13) '당신의 스트레스를 꿀꺽' 릴랙스 드링크 인기, 조선일보(2023.03.09) '라거는 주춤, 무알콜·저알콜 반짝'…맥주시장 성장세 '희비', 이코노믹리뷰(2023.11.06) '이색 음료 나왔다'…편의점으로 몰려가는 'MZ', 아시아타임즈(2022.04.07)\n\nCopyright 2023 All rights reserved a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "2021년 HACCP 주요 정책방향, 식품의약품안전처(2021.01) 2023 식음료 업종 분석 리포트, 메조미디어(2023) HACCP 자주 묻는 질문, 한국식품안전관리인증원(2020) 국내 음료 시장의 유통구조 개선에 관한 연구, 김학봉(2011.02) 식품 등의 생산실적(2018~2022), 식품의약품안전처 음료류 해썹(HACCP) 관리, 가평특선주 영농조합법인(2019.08.30.) The future of water sports and energy drinks 2022, Mintel(2022.07.)",
+      "meta_data": {
+        "chunk_id": "1cad920c-e39f-4c73-952e-7e187bfeca9b",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "1cad920c-e39f-4c73-952e-7e187bfeca9b",
+          "4edc5b06-0395-4027-b8e5-bf59640e2d8b",
+          "39e64664-0011-47f1-8db7-999504c337c8"
+        ],
+        "chunked_count": 3,
+        "index": 4727,
+        "page_number": [
+          287
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 1110,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_음료류",
+        "original_page_content": "2021년 HACCP 주요 정책방향, 식품의약품안전처(2021.01) 2023 식음료 업종 분석 리포트, 메조미디어(2023) HACCP 자주 묻는 질문, 한국식품안전관리인증원(2020) 국내 음료 시장의 유통구조 개선에 관한 연구, 김학봉(2011.02) 식품 등의 생산실적(2018~2022), 식품의약품안전처 음료류 해썹(HACCP) 관리, 가평특선주 영농조합법인(2019.08.30.) The future of water sports and energy drinks 2022, Mintel(2022.07.)",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1",
+      "page_number": [
+        287
+      ],
+      "rank_dense": 5
+    },
+    {
+      "score": 0.7329786,
+      "page_content": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)\n\n# 김치를 구매 및 섭취하는 소비자층이 확대되는 추세를 보인다.\n\n과거 한국계 및 아시아계 소비자를 중심으로 섭취하였으나, 한국식품에 대한 관심이 증대되면서 소비자층이 확대되었다. K팝, K드라마 등 문화 콘텐츠에 대한 관심이 한국식품에 대한 관심으로 확장되었으며, 이에 대표적인 한국식품인 김치에 대한 관심이 증대되고 있다.\n\n코로나19 팬데믹 이후 발효식품의 인기가 증가하면서 김치가 슈퍼푸드로 인식되고 있다. 시장조사기관 스핀스(SPINS)에 따르면 인기 발효식품으로서 김치의 매출 성장이 가파르게 성장하고 있다. 9)\n\n또한, 한국식품 전문 유통채널의 시장 확장으로 인해 한국식품에 대한 접근성이 향상되었으며, 이에 현지 소비자는 보다 간편하게 김치를 구매할 수 있게 되었다.",
+      "name": "김치를 구매 및 섭취하는 소비자층이 확대되는 추세를 보인다.",
+      "meta_data": {
+        "chunk_id": "4f6a981a-9a5f-4e4b-9ff5-9574d20e5a50",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "4f6a981a-9a5f-4e4b-9ff5-9574d20e5a50",
+          "fdf7cf67-58ed-40e3-bbfd-8d64db78c988",
+          "a933e22b-f89f-4173-9bb4-e8ffc8090122",
+          "42ca3a5f-47cc-4ced-a6ac-d1738e9965b5"
+        ],
+        "chunked_count": 4,
+        "index": 548,
+        "page_number": [
+          38
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 399,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)",
+        "original_page_content": "# 김치를 구매 및 섭취하는 소비자층이 확대되는 추세를 보인다.",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf",
+      "page_number": [
+        38
+      ],
+      "rank_dense": 6
+    },
+    {
+      "score": 0.73213875,
+      "page_content": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)\n\nLucky Foods, LLC Tualatin, OR 97062\n\n배추, 고추, 당근, 마늘, 파, 설탕, 양파, 새우젓, 바다소금, 생강, 멸치 추출물",
+      "name": "Lucky Foods, LLC Tualatin, OR 97062",
+      "meta_data": {
+        "chunk_id": "80c6d5ab-c5d8-496c-a87a-9139bcac6672",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "80c6d5ab-c5d8-496c-a87a-9139bcac6672",
+          "ce5cdfcc-09a7-43ff-bec4-5724fd9d9768"
+        ],
+        "chunked_count": 2,
+        "index": 793,
+        "page_number": [
+          50
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 70,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)",
+        "original_page_content": "Lucky Foods, LLC Tualatin, OR 97062",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf",
+      "page_number": [
+        50
+      ],
+      "rank_dense": 7
+    },
+    {
+      "score": 0.7314178,
+      "page_content": "2024년 농식품 해외시장 품목조사-한식소스 (대만·베트남·미국·일본)\n\n또한, 식품공전에서 '장류'는 '동 ･ 식물성 원료에 누룩균 등을 배양하거나 메주 등을 주원료로 하여 식염 등을 섞어 발효 ･ 숙성시킨 것을 제조 ･ 가공한 것'으로 정의한다. 장류는 한식메주, 개량메주, 한식간장, 양조간장, 산분해간장, 효소분해간장, 혼합간장, 한식된장, 된장, 고추장, 춘장, 청국장, 혼합장으로 분류된다.",
+      "name": "또한, 식품공전에서 '장류'는 '동 ･ 식물성 원료에 누룩균 등을 배양하거나 메주 등을 주원료로 하여 식염 등을 섞어 발효 ･ 숙성시킨 것을 제조 ･ 가공한 것'으로 정의한다. 장류는 한식메주, 개량메주, 한식간장, 양조간장, 산분해간장, 효소분해간장, 혼합간장, 한식된장, 된장, 고추장, 춘장, 청국장, 혼합장으로 분류된다.",
+      "meta_data": {
+        "chunk_id": "903e07e3-4339-4e93-863f-e78de79e7bff",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "903e07e3-4339-4e93-863f-e78de79e7bff"
+        ],
+        "chunked_count": 1,
+        "index": 19,
+        "page_number": [
+          4
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 181,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-한식소스 (대만·베트남·미국·일본)",
+        "original_page_content": "또한, 식품공전에서 '장류'는 '동 ･ 식물성 원료에 누룩균 등을 배양하거나 메주 등을 주원료로 하여 식염 등을 섞어 발효 ･ 숙성시킨 것을 제조 ･ 가공한 것'으로 정의한다. 장류는 한식메주, 개량메주, 한식간장, 양조간장, 산분해간장, 효소분해간장, 혼합간장, 한식된장, 된장, 고추장, 춘장, 청국장, 혼합장으로 분류된다.",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=8.+%ED%95%9C%EC%8B%9D%EC%86%8C%EC%8A%A4.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=8.+%ED%95%9C%EC%8B%9D%EC%86%8C%EC%8A%A4.pdf.pdf",
+      "page_number": [
+        4
+      ],
+      "rank_dense": 8
+    },
+    {
+      "score": 0.7307045,
+      "page_content": "210804 [FACT] 2021 식품 우수기술 100선\n\n# 응용분야\n\n발명의명칭 특허현황\n김치의색변화를저감시키는방법및색변화가저감된김치 10-1946777",
+      "name": "응용분야",
+      "meta_data": {
+        "chunk_id": "ebff17bd-caf6-46af-9361-3a5f988fe5f4",
+        "page_number": [
+          96
+        ],
+        "item_label": "merged",
+        "index": 1730,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "210804 [FACT] 2021 식품 우수기술 100선",
+        "original_page_content": "# 응용분야",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "36119f27-936a-4306-b8b2-a3555f9dc540",
+            "content": "<table><tbody><tr><th>발명의명칭</th><th>특허현황</th></tr><tr><td>김치의색변화를저감시키는방법및색변화가저감된김치</td><td>10-1946777</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2",
+      "page_number": [
+        96
+      ],
+      "rank_dense": 9
+    },
+    {
+      "score": 0.7290358,
+      "page_content": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)\n\n# 2.1.4 소비트렌드\n\n숙성 발효 김치 저온 숙성 김치 아사즈케 김치\n\n4) 피클 등을 포함해 채소를 조미액에 절인 식품",
+      "name": "2.1.4 소비트렌드",
+      "meta_data": {
+        "chunk_id": "245df7ec-ea00-4038-90e4-44d167884989",
+        "page_number": [
+          16
+        ],
+        "item_label": "merged",
+        "index": 169,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)",
+        "original_page_content": "# 2.1.4 소비트렌드",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "bd0cccdf-f5aa-418c-8d24-ac8d01cbcbac",
+            "content": "<table><tbody><tr><td>숙성 발효 김치</td><td>저온 숙성 김치</td><td>아사즈케 김치</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "text",
+            "chunk_id": "6ba8b91f-8228-414d-a7c4-66b01055202f",
+            "content": "4) 피클 등을 포함해 채소를 조미액에 절인 식품"
+          }
+        ],
+        "merged_count": 3,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf",
+      "page_number": [
+        16
+      ],
+      "rank_dense": 10
+    },
+    {
+      "score": 0.7278728,
+      "page_content": "210804 [FACT] 2021 식품 우수기술 100선\n\n# 응용분야\n\n발명의명칭 특허현황\n골드키위유산균발효물을유효성분으로함유하는항산화조성물 10-2027798",
+      "name": "응용분야",
+      "meta_data": {
+        "chunk_id": "c5bf8095-d134-49c9-92b1-e4f6125b6628",
+        "page_number": [
+          162
+        ],
+        "item_label": "merged",
+        "index": 2897,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "210804 [FACT] 2021 식품 우수기술 100선",
+        "original_page_content": "# 응용분야",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "fc65b565-124b-4b4b-b07e-020e6e68c7c9",
+            "content": "<table><tbody><tr><th>발명의명칭</th><th>특허현황</th></tr><tr><td>골드키위유산균발효물을유효성분으로함유하는항산화조성물</td><td>10-2027798</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2",
+      "page_number": [
+        162
+      ],
+      "rank_dense": 11
+    },
+    {
+      "score": 0.7277779,
+      "page_content": "2024 영국 김치 (시장분석형)\n\n③ KOREAN INSPIRED CABBAGE WITH\n\n① This crunchy, fermented cabbage kimchi is packed full of spicy chilli flavour. Use simply as a side dish, top chicken wraps or stir through rice, stir fry or noodles for added spice.\n\n① 이 바삭한 발효 배추 김치는 매콤한 고추 맛이 가득합니다. 그냥 반찬으로 사용하거나, 치킨 랩 위에 얹거나, 밥, 볶음 요리 또는 국수에 섞어 매콤한 맛을 더하세요.",
+      "name": "③ KOREAN INSPIRED CABBAGE WITH",
+      "meta_data": {
+        "chunk_id": "04553fd9-4b07-4cc4-8f8d-4dd52f358f2e",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "04553fd9-4b07-4cc4-8f8d-4dd52f358f2e",
+          "14943936-4ed7-4c27-a0f9-3aad14b93f41",
+          "809d0a57-b7be-459b-9982-5a707e54e82d"
+        ],
+        "chunked_count": 3,
+        "index": 595,
+        "page_number": [
+          33
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 152,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 영국 김치 (시장분석형)",
+        "original_page_content": "③ KOREAN INSPIRED CABBAGE WITH",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%5B202408-14%5D+%EC%98%81%EA%B5%AD_%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/10/&fileName=%5B202408-14%5D+%EC%98%81%EA%B5%AD_%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EC%8B%9C%EC%9E%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        33
+      ],
+      "rank_dense": 12
+    },
+    {
+      "score": 0.7276974,
+      "page_content": "2024 미국 김치 (경쟁력분석형)\n\n채소류를 원료로 하여 염수 혹은 소금으로 절인 후 세척과 탈수 및 양념을 혼합하여 그대로 또는 숙성하여 만든 제품\n\n고객사 희망 조사지표와 제품의 특징을 반영하여 아래와 같이 경쟁제품 조사지표를 선정함",
+      "name": "채소류를 원료로 하여 염수 혹은 소금으로 절인 후 세척과 탈수 및 양념을 혼합하여 그대로 또는 숙성하여 만든 제품",
+      "meta_data": {
+        "chunk_id": "3bb69cef-b950-4957-aac0-0d6f89c0c6cd",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "3bb69cef-b950-4957-aac0-0d6f89c0c6cd",
+          "cce6614b-3c10-4976-9e32-c12166ebab0b"
+        ],
+        "chunked_count": 2,
+        "index": 189,
+        "page_number": [
+          10
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 118,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 김치 (경쟁력분석형)",
+        "original_page_content": "채소류를 원료로 하여 염수 혹은 소금으로 절인 후 세척과 탈수 및 양념을 혼합하여 그대로 또는 숙성하여 만든 제품",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-43%5D+%EB%AF%B8%EA%B5%AD+%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/09/&fileName=%5B202407-43%5D+%EB%AF%B8%EA%B5%AD+%EA%B9%80%EC%B9%98+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        10
+      ],
+      "rank_dense": 13
+    },
+    {
+      "score": 0.7276282,
+      "page_content": "유럽 대형유통매장 내 한국식품 판매현황 조사보고서\n\n# 유럽 품목별 수출실적 (2013-2022) 11)\n\n년도 김치 라면 만두 고추장 주류\n2013 3045 15018 2439 1263 2075\n2014 3955 15247 2702 1455 1823\n2015 4391 19480 3017 1609 2279\n2016 4952 22678 3581 2036 2826\n2017 6243 25437 5033 2271 2691\n2018 7351 32804 6315 2481 3392\n2019 8503 38832 6123 2979 3912\n2020 11778 57404 6392 3875 3541\n2021 14709 70824 8604 5064 5583\n2022 15148 89016 7615 5001 8088\n\n11) HS CODE : 라면 1902301010, 김치 2005991000, 고추장 2103901030, 만두 1902.20(속을 채운 파스타:조제한 것인 지에 상관없다), 주류 2208909000(주류(기타/증류주ㆍ리큐르와 그 밖의 주정음료/변성하지 않은 에틸알코올(알코 올의 용량이 전 용량의 100분의 80 미만인 것으로 한정))",
+      "name": "유럽 품목별 수출실적 (2013-2022) 11)",
+      "meta_data": {
+        "chunk_id": "7faef779-cf5d-431a-bf48-7263f06d16f7",
+        "page_number": [
+          16
+        ],
+        "item_label": "merged",
+        "index": 124,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "유럽 대형유통매장 내 한국식품 판매현황 조사보고서",
+        "original_page_content": "# 유럽 품목별 수출실적 (2013-2022) 11)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "288d98ae-d803-447e-bff6-cdead64dd46d",
+            "content": "<table><tbody><tr><td>년도</td><td>김치</td><td>라면</td><td>만두</td><td>고추장</td><td>주류</td></tr><tr><td>2013</td><td>3,045</td><td>15,018</td><td>2,439</td><td>1,263</td><td>2,075</td></tr><tr><td>2014</td><td>3,955</td><td>15,247</td><td>2,702</td><td>1,455</td><td>1,823</td></tr><tr><td>2015</td><td>4,391</td><td>19,480</td><td>3,017</td><td>1,609</td><td>2,279</td></tr><tr><td>2016</td><td>4,952</td><td>22,678</td><td>3,581</td><td>2,036</td><td>2,826</td></tr><tr><td>2017</td><td>6,243</td><td>25,437</td><td>5,033</td><td>2,271</td><td>2,691</td></tr><tr><td>2018</td><td>7,351</td><td>32,804</td><td>6,315</td><td>2,481</td><td>3,392</td></tr><tr><td>2019</td><td>8,503</td><td>38,832</td><td>6,123</td><td>2,979</td><td>3,912</td></tr><tr><td>2020</td><td>11,778</td><td>57,404</td><td>6,392</td><td>3,875</td><td>3,541</td></tr><tr><td>2021</td><td>14,709</td><td>70,824</td><td>8,604</td><td>5,064</td><td>5,583</td></tr><tr><td>2022</td><td>15,148</td><td>89,016</td><td>7,615</td><td>5,001</td><td>8,088</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "text",
+            "chunk_id": "34352c67-4c53-4bd7-9bbf-6f1fa7408889",
+            "content": "11) HS CODE : 라면 1902301010, 김치 2005991000, 고추장 2103901030, 만두 1902.20(속을 채운 파스타:조제한 것인 지에 상관없다), 주류 2208909000(주류(기타/증류주ㆍ리큐르와 그 밖의 주정음료/변성하지 않은 에틸알코올(알코 올의 용량이 전 용량의 100분의 80 미만인 것으로 한정))"
+          }
+        ],
+        "merged_count": 3,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2023/11/&fileName=%EC%9C%A0%EB%9F%BD+%EB%8C%80%ED%98%95%EC%9C%A0%ED%86%B5%EB%A7%A4%EC%9E%A5+%EB%82%B4+%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88+%ED%8C%90%EB%A7%A4%ED%98%84%ED%99%A9+%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C%281%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2023/11/&fileName=%EC%9C%A0%EB%9F%BD+%EB%8C%80%ED%98%95%EC%9C%A0%ED%86%B5%EB%A7%A4%EC%9E%A5+%EB%82%B4+%ED%95%9C%EA%B5%AD%EC%8B%9D%ED%92%88+%ED%8C%90%EB%A7%A4%ED%98%84%ED%99%A9+%EC%A1%B0%EC%82%AC%EB%B3%B4%EA%B3%A0%EC%84%9C%281%29.pdf.pdf",
+      "page_number": [
+        16
+      ],
+      "rank_dense": 14
+    },
+    {
+      "score": 0.72725165,
+      "page_content": "210804 [FACT] 2021 식품 우수기술 100선\n\n-본기술에사용된균주는메주에서우점종이면서높은내염성을나타내어고염발효용종균으로 사용이가능함\n\n-본기술의균주를이용한발효물은고염에서도산생성이가능하고,프로테아제및리피아제활성이 우수하며,바이오제닉아민을생성하지않아고혈압,두통,설사및염증과같은인체에대한유해성이 없어식품의안정성에서도문제가없는발효물임\n\n· 본기술은고염발효용종균으로사용가능한신규미생물에관한것으로,장류시장의하위품목인 된장시장을살펴보면\n\n· 된장생산액은2013년1,319억원에서2017년1,171억원으로4년사이11.3%감소하였음\n\n· 된장생산실적은감소하고있지만,한류열풍으로한식에대한관심이높아지면서된장을포함한 장류의수출이증가하고있음.2019년된장수출량은5,376톤으로2016년4,519톤대비19%증가함\n\n-본기술의균주를이용한발효물은고염에서도산생성이가능하고높은내염성에장을효율적으로 숙성시킬수있는발효물제조하는방법을개발함\n\n-메주,간장,된장,고추장,춘장및청국장에이용하는발효스타터",
+      "name": "-본기술에사용된균주는메주에서우점종이면서높은내염성을나타내어고염발효용종균으로 사용이가능함",
+      "meta_data": {
+        "chunk_id": "4110dd0c-87aa-4d28-a4d1-4cef5b992a09",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "4110dd0c-87aa-4d28-a4d1-4cef5b992a09",
+          "588248fc-1c7d-410f-8d4d-0e81e48e9dd4",
+          "099d6385-b459-49fb-b796-a1dbc220bdee",
+          "3306c0b4-7ded-44f3-a7b5-1ec13b571760",
+          "5bd905bd-19e0-4f99-ad1d-4c323d677a06",
+          "388c7018-2c2e-4058-a2cf-d0854bbf03dc",
+          "0df28db2-6928-4427-aeae-f5585b675d66"
+        ],
+        "chunked_count": 7,
+        "index": 496,
+        "page_number": [
+          34
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 553,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "210804 [FACT] 2021 식품 우수기술 100선",
+        "original_page_content": "-본기술에사용된균주는메주에서우점종이면서높은내염성을나타내어고염발효용종균으로 사용이가능함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0003.do?act=read&subSkinYn=N&bpoId=3777&bcaId=0&pageIndex=2",
+      "page_number": [
+        34
+      ],
+      "rank_dense": 15
+    },
+    {
+      "score": 0.7269809,
+      "page_content": "2024 태국 전복죽 보고서(경쟁력분석형)\n\n태국에서 김치 제품의 성공적인 마케팅 전략을 예로 들 수 있습니다. 김치가 태국 시장에서 인기를 끌기 위해 사용된 몇 가지 주요 전략은 다음과 같습니다:\n\n-현지화된 맛 개발: 태국 소비자들의 입맛에 맞는 김치 맛을 개발하여 현지화된 제품을 선보였습니다. 이는 죽 제품에도 적용할 수 있는 전략으로, 태국인의 입맛에 맞는 다양한 맛을 개발할 수 있습니다.\n\n-건강 강조: 김치의 건강 효능을 강조하는 마케팅 캠페인을 통해 소비자들의 관심을 끌었습니다. 죽 제품도 건강식으로서의 장점을 강조하여 마케팅할 수 있습니다.",
+      "name": "태국에서 김치 제품의 성공적인 마케팅 전략을 예로 들 수 있습니다. 김치가 태국 시장에서 인기를 끌기 위해 사용된 몇 가지 주요 전략은 다음과 같습니다:",
+      "meta_data": {
+        "chunk_id": "16da9df5-8961-4675-8306-c6ce423880f1",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "16da9df5-8961-4675-8306-c6ce423880f1",
+          "9d68b35c-f15c-4b17-9365-83b54ecbf8d6",
+          "978f23ac-e67e-49ea-af88-51df446698cc"
+        ],
+        "chunked_count": 3,
+        "index": 706,
+        "page_number": [
+          39
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 277,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 태국 전복죽 보고서(경쟁력분석형)",
+        "original_page_content": "태국에서 김치 제품의 성공적인 마케팅 전략을 예로 들 수 있습니다. 김치가 태국 시장에서 인기를 끌기 위해 사용된 몇 가지 주요 전략은 다음과 같습니다:",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/08/&fileName=%5B202407-03%5D+%ED%83%9C%EA%B5%AD+%EC%A0%84%EB%B3%B5%EC%A3%BD+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/08/&fileName=%5B202407-03%5D+%ED%83%9C%EA%B5%AD+%EC%A0%84%EB%B3%B5%EC%A3%BD+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        39
+      ],
+      "rank_dense": 16
+    },
+    {
+      "score": 0.7266594,
+      "page_content": "★ aT_식초_2022년 가공식품 세분시장 현황\n\n❍ 네이버웹문서, 블로그, 뉴스, 카페, 지식인, 학술정보등에서검색어로 사용된 '식초' 관련 검색어는 ①식초효능(효능, 건강, 효과, 다이어트, 면역력 등), ② 식초 원료(사과식초, 발사믹, 애플사이다비니거, 현미 식초, 귤천연식초 등), ③ 천연 발효(발효식초, 냄새, 천연발효, 천연 등), ④다양한식초활용법(다양, 사용, 고창, 식초문화, 먹는 법, 활용, 등)등 다양한 연관 검색어들이 확인되었음\n\nAgro Fisheries& Fo-d Trade Corporation 106Copyright2022 All rights reserved",
+      "name": "❍ 네이버웹문서, 블로그, 뉴스, 카페, 지식인, 학술정보등에서검색어로 사용된 '식초' 관련 검색어는 ①식초효능(효능, 건강, 효과, 다이어트, 면역력 등), ② 식초 원료(사과식초, 발사믹, 애플사이다비니거, 현미 식초, 귤천연식초 등), ③ 천연 발효(발효식초, 냄새, 천연발효, 천연 등), ④다양한식초활용법(다양, 사용, 고창, 식초문화, 먹는 법, 활용, 등)등 다양한 연관 검색어들이 확인되었음",
+      "meta_data": {
+        "chunk_id": "90117d5b-111f-4980-bce5-ac265521058f",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "90117d5b-111f-4980-bce5-ac265521058f",
+          "c2f0f3a1-a1e3-40fa-aeb2-ff09361f2be2"
+        ],
+        "chunked_count": 2,
+        "index": 1035,
+        "page_number": [
+          120
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 277,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★ aT_식초_2022년 가공식품 세분시장 현황",
+        "original_page_content": "❍ 네이버웹문서, 블로그, 뉴스, 카페, 지식인, 학술정보등에서검색어로 사용된 '식초' 관련 검색어는 ①식초효능(효능, 건강, 효과, 다이어트, 면역력 등), ② 식초 원료(사과식초, 발사믹, 애플사이다비니거, 현미 식초, 귤천연식초 등), ③ 천연 발효(발효식초, 냄새, 천연발효, 천연 등), ④다양한식초활용법(다양, 사용, 고창, 식초문화, 먹는 법, 활용, 등)등 다양한 연관 검색어들이 확인되었음",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4550&bcaId=0&pageIndex=2"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4550&bcaId=0&pageIndex=2",
+      "page_number": [
+        120
+      ],
+      "rank_dense": 17
+    },
+    {
+      "score": 0.7260939,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_스낵류_수정_0613\n\n□ 본 보고서는 '스낵'과 관련한 것으로써 스낵류 시장 전반에 대한 조사를 진행함\n\n-제2장 '시장조사 개요'에서는 스낵류의 정의와 유형, 주요 제품, 기준 및 규격, 제조 및 가공기준 등 스낵류와 관련된 기본 개념을 정립함\n\n-제3장 '국내 시장현황'에서는 국내 스낵류의 시장규모 및 생산현황, 주요 제조사 및 브랜드, 관련 인증 및 제도 등 시장 개괄과 더불어 최근 시장 내 이슈 및 트렌드, 스낵류 수출입 현황에 대해 기술함\n\n-제4장 '유통 및 판매현황'에서는 국내 스낵류의 유통구조 및 판매현황에 대한 내용을 수록함\n\n-제5장 '해외시장동향'에서는 전 세계 스낵 시장현황을 글로벌 및 권역별로 분류하여 제시하였고, 전 세계 주요 제조사와 브랜드 현황에 대해 기술함\n\n· 제5장 제3절에서는 전 세계 스낵류 시장규모 상위 국가이자 국내 스낵류 수출 상위국인 미국, 중국, 일본, 호주의 시장현황 및 관련 제도에 대해 서술함\n\n-제6장에서는 국내 소비자 인식조사를 통한 스낵류 소비자 동향 및 빅데이터 키워드 분석을 통한 스낵류 트렌드 분석을 실시함\n\nCopyright 2023 All rights reserved a7 한국농수산식품유통공사 Karee Agro-Fisheries & Food Trade Corporation",
+      "name": "□ 본 보고서는 '스낵'과 관련한 것으로써 스낵류 시장 전반에 대한 조사를 진행함",
+      "meta_data": {
+        "chunk_id": "a7ad7629-b6e5-404d-b246-d375168ae92b",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a7ad7629-b6e5-404d-b246-d375168ae92b",
+          "74c908b6-5de7-4404-9267-2c0f6fde3d35",
+          "6d96381e-4b3b-4cc5-8371-c87f80fd58cc",
+          "42e64a6d-8ea8-47a5-956a-d98b759ecc68",
+          "785c0e40-b79f-4ddd-920f-d6f2bc6ead38",
+          "fa375f44-813b-4028-8907-8719022bbc10",
+          "c4e5759a-e0b1-4f2c-b16f-4186358159ad",
+          "124de51a-6383-4edf-bef3-3d42fdebae06"
+        ],
+        "chunked_count": 8,
+        "index": 308,
+        "page_number": [
+          33
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 590,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_스낵류_수정_0613",
+        "original_page_content": "□ 본 보고서는 '스낵'과 관련한 것으로써 스낵류 시장 전반에 대한 조사를 진행함",
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4822&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4822&bcaId=0&pageIndex=1",
+      "page_number": [
+        33
+      ],
+      "rank_dense": 18
+    },
+    {
+      "score": 0.7255932,
+      "page_content": "★(웹게시용) 가공식품 세분시장현황_음료류\n\n# <그림 6-10> '음료' 키워드 빅데이터 연관어 분석 결과(2023년)\n\n순위 1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월\n1 카페 카페 에이드 에이드 에이드 에이드 에이드 에이드 에이드 에이드 카페 에이드\n2 에이드 에이드 카페 카페 카페 카페 카페 카페 카페 카페 에이드 카페\n3 메뉴 메뉴 음료 메뉴 메뉴 메뉴 메뉴 메뉴 메뉴 메뉴 메뉴 메뉴\n4 음료 음료 메뉴 음료 음료 음료 음료 음료 음료 맛집 맛집 맛집\n5 맛집 맛집 맛집 맛집 맛집 맛집 맛집 맛집 맛집 음료 음료 음료\n6 콜라 콜라 커피 콜라 커피 커피 커피 커피 커피 커피 커피 커피\n7 커피 커피 콜라 커피 콜라 콜라 콜라 사진 콜라 콜라 콜라 콜라\n8 사진 사진 사진 사진 사진 사진 사진 콜라 사진 사진 사진 분위기\n9 디저트 디저트 디저트 디저트 종류 느낌 느낌 종류 종류 종류 분위기 사진\n10 느낌 느낌 아메리 카노 종류 디저트 종류 음식 느낌 음식 디저트 디저트 음식",
+      "name": "<그림 6-10> '음료' 키워드 빅데이터 연관어 분석 결과(2023년)",
+      "meta_data": {
+        "chunk_id": "c077fb42-ba39-4c61-9e97-90c5c73795ea",
+        "page_number": [
+          236
+        ],
+        "item_label": "merged",
+        "index": 3828,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "★(웹게시용) 가공식품 세분시장현황_음료류",
+        "original_page_content": "# <그림 6-10> '음료' 키워드 빅데이터 연관어 분석 결과(2023년)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "53c95b18-7c0b-46fd-abac-893e0dacd4c3",
+            "content": "<table><tbody><tr><th>순위</th><th>1월</th><th>2월</th><th>3월</th><th>4월</th><th>5월</th><th>6월</th><th>7월</th><th>8월</th><th>9월</th><th>10월</th><th>11월</th><th>12월</th></tr><tr><td>1</td><td>카페</td><td>카페</td><td>에이드</td><td>에이드</td><td>에이드</td><td>에이드</td><td>에이드</td><td>에이드</td><td>에이드</td><td>에이드</td><td>카페</td><td>에이드</td></tr><tr><td>2</td><td>에이드</td><td>에이드</td><td>카페</td><td>카페</td><td>카페</td><td>카페</td><td>카페</td><td>카페</td><td>카페</td><td>카페</td><td>에이드</td><td>카페</td></tr><tr><td>3</td><td>메뉴</td><td>메뉴</td><td>음료</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td><td>메뉴</td></tr><tr><td>4</td><td>음료</td><td>음료</td><td>메뉴</td><td>음료</td><td>음료</td><td>음료</td><td>음료</td><td>음료</td><td>음료</td><td>맛집</td><td>맛집</td><td>맛집</td></tr><tr><td>5</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>맛집</td><td>음료</td><td>음료</td><td>음료</td></tr><tr><td>6</td><td>콜라</td><td>콜라</td><td>커피</td><td>콜라</td><td>커피</td><td>커피</td><td>커피</td><td>커피</td><td>커피</td><td>커피</td><td>커피</td><td>커피</td></tr><tr><td>7</td><td>커피</td><td>커피</td><td>콜라</td><td>커피</td><td>콜라</td><td>콜라</td><td>콜라</td><td>사진</td><td>콜라</td><td>콜라</td><td>콜라</td><td>콜라</td></tr><tr><td>8</td><td>사진</td><td>사진</td><td>사진</td><td>사진</td><td>사진</td><td>사진</td><td>사진</td><td>콜라</td><td>사진</td><td>사진</td><td>사진</td><td>분위기</td></tr><tr><td>9</td><td>디저트</td><td>디저트</td><td>디저트</td><td>디저트</td><td>종류</td><td>느낌</td><td>느낌</td><td>종류</td><td>종류</td><td>종류</td><td>분위기</td><td>사진</td></tr><tr><td>10</td><td>느낌</td><td>느낌</td><td>아메리 카노</td><td>종류</td><td>디저트</td><td>종류</td><td>음식</td><td>느낌</td><td>음식</td><td>디저트</td><td>디저트</td><td>음식</td></tr></tbody></table>",
+            "summary": "한국농수산식품유통공사가 발표한 <그림 6-10> '음료' 키워드 빅데이터 연관어 분석 결과는 '음료'라는 키워드와 관련된 다양한 연관어를 시각적으로 분석한 자료일 것입니다. 이 분석에서는 소비자들이 '음료'와 함께 자주 언급하는 다른 키워드들이 무엇인지를 파악하고, 그 상관관계를 이해할 수 있는 유용한 정보를 제공합니다. \n\n일반적으로 이런 연관어 분석에서는:\n\n1. **주요 연관어**: '음료'와 가장 밀접한 관련이 있는 단어들, 예를 들어 '커피', '차', '탄산', '주스' 등이 포함될 수 있습니다.\n\n2. **소비자 관심사**: 소비자들이 음료와 관련하여 관심을 갖는 특정 주제나 트렌드를 이해하는 데 도움이 되는 키워드가 있을 수 있습니다.\n\n3. **계절적 변화**: 특정 계절이나 이벤트에 따라 선호되는 음료가 달라질 수 있기 때문에, 이런 요소도 분석에 반영될 수 있습니다.\n\n4. **신제품 및 트렌드**: 최근에 출시된 음료나 새로운 트렌드 (예: 무알콜 음료, 건강식 음료 등)와 관련된 키워드가 분석에 나타날 수 있습니다.\n\n이런 분석은 기업들이 마케팅 전략을 수립하거나 소비자 트렌드를 파악하는 데 매우 유용하게 활용될 수 있습니다. 만약 구체적인 연관어 목록이나 시각 자료가 필요하다면, 해당 공사의 공식 보고서나 웹사이트에서 확인할 수 있을 것입니다."
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.atfis.or.kr/home/board/FB0027.do?act=read&subSkinYn=N&bpoId=4823&bcaId=0&pageIndex=1",
+      "page_number": [
+        236
+      ],
+      "rank_dense": 19
+    },
+    {
+      "score": 0.72494555,
+      "page_content": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)\n\n# 비건·유기농·글루텐 프리 등 김치 소비자의 수요가 다양해지고 있다.\n\n9) '미국, 발효식품 유행 바로알기', 한국농수산식품유통공사",
+      "name": "비건·유기농·글루텐 프리 등 김치 소비자의 수요가 다양해지고 있다.",
+      "meta_data": {
+        "chunk_id": "03353e77-640b-4b5e-af3f-7e6ef9e4315a",
+        "page_number": [
+          38
+        ],
+        "item_label": "merged",
+        "index": 558,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024년 농식품 해외시장 품목조사-김치 (일본·미국·독일·캐나다)",
+        "original_page_content": "# 비건·유기농·글루텐 프리 등 김치 소비자의 수요가 다양해지고 있다.",
+        "merged_children": [
+          {
+            "item_label": "text",
+            "chunk_id": "1fb50dd3-528f-4172-a1df-e7eff4b53ebd",
+            "content": "9) '미국, 발효식품 유행 바로알기', 한국농수산식품유통공사"
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=2.%EA%B9%80%EC%B9%98.pdf.pdf",
+      "page_number": [
+        38
+      ],
+      "rank_dense": 20
+    }
+  ],
+  "total_candidates": 40,
+  "final_count": 20,
+  "processing_time": 1.427453,
+  "config": {
+    "mode": "dense_only",
+    "use_hyde": false,
+    "use_reranking": false,
+    "use_summarization": false,
+    "top_k": 20
+  }
+}

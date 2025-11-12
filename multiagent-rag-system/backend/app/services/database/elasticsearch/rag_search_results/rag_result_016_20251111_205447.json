@@ -1,0 +1,779 @@
+{
+  "query": "일본산 수산물 중 고등어의 유통 경로와 아마존에서 판매되는 순살 고등어의 현황에 대해 알려주세요.",
+  "results": [
+    {
+      "score": 0.8214352,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# ▶ 현지조사 매장 선정, 하이퍼마켓, 아시안/한인마트\n\n[표 2.3] 미국 순살 주요 유통채널 현황\n채널 분류 주요 매장\n하이퍼/슈퍼마켓 월마트(Walmart) 코스트코(Costco) 크로거(Kroger) 타겟(Target)\n아시안/한인마트 에이치 마트(H mart) 시온마켓(Zion Market)\n온라인 쇼핑몰 아마존(Amazon) 월마트(Walmart) 홀푸드마켓(Whole Foods Market)",
+      "name": "▶ 현지조사 매장 선정, 하이퍼마켓, 아시안/한인마트",
+      "meta_data": {
+        "chunk_id": "559168dc-0646-4f3c-9fff-3620aabe95f9",
+        "page_number": [
+          8
+        ],
+        "item_label": "merged",
+        "index": 187,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# ▶ 현지조사 매장 선정, 하이퍼마켓, 아시안/한인마트",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "1354492f-563f-40cf-9eb2-8ad97f6d8c7c",
+            "content": "<table><tbody><tr><th>[표 2.3] 미국 순살</th><th>주요 유통채널 현황</th></tr><tr><td>채널 분류</td><td>주요 매장</td></tr><tr><td>하이퍼/슈퍼마켓</td><td>월마트(Walmart), 코스트코(Costco), 크로거(Kroger), 타겟(Target)</td></tr><tr><td>아시안/한인마트</td><td>에이치 마트(H mart), 시온마켓(Zion Market)</td></tr><tr><td>온라인 쇼핑몰</td><td>아마존(Amazon), 월마트(Walmart), 홀푸드마켓(Whole Foods Market)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        8
+      ],
+      "rank_dense": 1
+    },
+    {
+      "score": 0.80246407,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# 2) 경쟁제품군 선정 및 온라인 판매 제품 확인\n\n표제목: ● 미국 주요 온라인 쇼핑몰 (Top 3)\n사이트명 취급 종류\n아마존 신선식품 가공식품 음료 냉동식품등",
+      "name": "2) 경쟁제품군 선정 및 온라인 판매 제품 확인",
+      "meta_data": {
+        "chunk_id": "c4201ff8-b969-42f5-840f-38baffdcec2f",
+        "page_number": [
+          6
+        ],
+        "item_label": "merged",
+        "index": 126,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# 2) 경쟁제품군 선정 및 온라인 판매 제품 확인",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "946cb881-5b6a-4957-942d-2931eb8fd3b8",
+            "content": "<table><caption>● 미국 주요 온라인 쇼핑몰 (Top 3)</caption><tbody><tr><td>사이트명</td><td>취급 종류</td></tr><tr><td>아마존</td><td>신선식품, 가공식품, 음료, 냉동식품등</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        6
+      ],
+      "rank_dense": 2
+    },
+    {
+      "score": 0.8011693,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n-오프라인 매장에서 판매되고 있는 인기 제품 선정 Foods\n\n(*) 에이치 마트(H Mart), 월마트(Walmart), 홀푸드마켓(Whole Market), 시온마켓(Zion Market)\n\n-순살 고등어 : 고등어의 아가미, 내장, 두부 등을 제거한 손질된 상태로 포장된 제품",
+      "name": "-오프라인 매장에서 판매되고 있는 인기 제품 선정 Foods",
+      "meta_data": {
+        "chunk_id": "1369168d-ff95-40d7-bacb-b7945037e671",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "1369168d-ff95-40d7-bacb-b7945037e671",
+          "e4a39a10-ced0-4303-b0b0-5620d96e873c",
+          "568e99e7-c69a-4236-8739-2afa93f5805c"
+        ],
+        "chunked_count": 3,
+        "index": 201,
+        "page_number": [
+          9
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 120,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "-오프라인 매장에서 판매되고 있는 인기 제품 선정 Foods",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        9
+      ],
+      "rank_dense": 3
+    },
+    {
+      "score": 0.7983315,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# [표 3.7] 미국 순살 고등어 경쟁기업 현황\n\n경쟁사 진출 채널 홍보 채널 홍보문구 홍보문구 사진\n콜스 Ÿ 오프라인 매장 - 홀푸드마켓 Ÿ 온라인 매장 - 아마존 - 월마트 Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브 - 북대서양에서 지속가능한 낚싯줄 낚시 방법으로 어획 - 껍질과 뼈가 없는 맛있는 바다 생선 - 최고의 맛을 위해 고품질 올리브유에 손질 포장 - 자연에서 잡은 글루텐 프리 천연 오메가-3 공급원\n킹 오스카 Ÿ 오프라인 매장 - 월마트 Ÿ 온라인 매장 - 아마존 - 월마트 - 크로거 Ÿ 자사 홈페이지 (글로벌/폴란드/ 노르웨이) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 핀터레스트 - 유튜브 - 최고급 품질의 껍질과 뼈 없는 고등어 - 북동 대서양의 깨끗하고 얼음처럼 차가온 바다에서 지속가능하게 자연산을 어획 - 샐러드부터 메인요리까지 맛있고 영양가 있는 요리법으로 즐길 수 있어 - 완벽한 참치 대용으로 캔에서 바로 꺼내 먹어도 됨\n와일드 플래닛 Ÿ 오프라인 매장 - 홀푸드마켓 Ÿ 온라인 매장 - 아마존 - 월마트 - 크로거 Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브 - 틱톡 - 링크드인 - 스시 메뉴에서 사바로 불리는 고등어 - 참치와비슷한맛 - 세심하게 손질해 포장한 고등어 필레 - 먹이사슬 하위계층에서 단백질과 EPA DHA 오메가-3를 간편히 섭취",
+      "name": "[표 3.7] 미국 순살 고등어 경쟁기업 현황",
+      "meta_data": {
+        "chunk_id": "16318517-692f-4a14-bb14-b946804d3f66",
+        "page_number": [
+          28
+        ],
+        "item_label": "merged",
+        "index": 499,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# [표 3.7] 미국 순살 고등어 경쟁기업 현황",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "c6926373-7d92-4dc9-9d65-b1838fad4c1f",
+            "content": "<table><tbody><tr><th>경쟁사</th><th>진출 채널</th><th>홍보 채널</th><th>홍보문구</th><th>홍보문구 사진</th></tr><tr><td>콜스</td><td>Ÿ 오프라인 매장 - 홀푸드마켓 Ÿ 온라인 매장 - 아마존 - 월마트</td><td>Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브</td><td>- 북대서양에서 지속가능한 낚싯줄 낚시 방법으로 어획 - 껍질과 뼈가 없는 맛있는 바다 생선 - 최고의 맛을 위해 고품질 올리브유에 손질 포장 - 자연에서 잡은 글루텐 프리, 천연 오메가-3 공급원</td><td></td></tr><tr><td>킹 오스카</td><td>Ÿ 오프라인 매장 - 월마트 Ÿ 온라인 매장 - 아마존 - 월마트 - 크로거</td><td>Ÿ 자사 홈페이지 (글로벌/폴란드/ 노르웨이) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 핀터레스트 - 유튜브</td><td>- 최고급 품질의 껍질과 뼈 없는 고등어 - 북동 대서양의 깨끗하고 얼음처럼 차가온 바다에서 지속가능하게 자연산을 어획 - 샐러드부터 메인요리까지 맛있고 영양가 있는 요리법으로 즐길 수 있어 - 완벽한 참치 대용으로 캔에서 바로 꺼내 먹어도 됨</td><td></td></tr><tr><td>와일드 플래닛</td><td>Ÿ 오프라인 매장 - 홀푸드마켓 Ÿ 온라인 매장 - 아마존 - 월마트 - 크로거</td><td>Ÿ 자사 홈페이지 (글로벌) Ÿ SNS 플랫폼 (글로벌) - 페이스북 - 인스타그램 - 유튜브 - 틱톡 - 링크드인</td><td>- 스시 메뉴에서 사바로 불리는 고등어 - 참치와비슷한맛 - 세심하게 손질해 포장한 고등어 필레 - 먹이사슬 하위계층에서 단백질과 EPA, DHA 오메가-3를 간편히 섭취</td><td></td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        28
+      ],
+      "rank_dense": 4
+    },
+    {
+      "score": 0.79543453,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?\n\n순살 고등어의 주요 구매 고려 요소는 가격, 포장 형태, 크기, 조리의 편리성 등이 있습니다. 건강을 중시하는 소비자들 사이에서 인기가 많으며, 단백질, 필수 비타민 및 미네랄, 특히 오메가-3 지방산을 제공한다는 점에서 선호됩니다. 또한 심장 건강 개선에 도움이 된다고 믿어 많은 심장 질환 환자들 사이에서 수요가 높습니다. 마지막으로 편리한 포장과 1인분 및 가족용 서빙으로 제공되는 점도 소비자들이 높이 평가하는 중요한 요소입니다.\n\n# Q4. 고객사가 미국 시장에 순살 고등어를 판매하기에 적합한 유통채널은 무엇인가요?\n\n일반적으로 순살 고등어에 적합한 유통채널은 슈퍼마켓, 아시아 식료품점, 건강 관련 제품을 취급하는 식료품점 등이 있습니다. 요즘에는 전자상거래 업체들의 비중이 커졌는데, 제품의 마케팅을 주도하고 같은 날 배송 서비스를 제공하여 고객에게 편리함을 제공하기 때문으로 보입니다.\n\n# Q5. 미국에서 순살 고등어를 성공적으로 판매하기 위한 효과적인 홍보 전략에는 어떤 것들이 있을까요?\n\n현지 시장에서 순살 고등어 제품을 효과적으로 홍보하기 위해 인스타그램, 페이스북, 트위터, 유튜브와 같은 소셜 미디어 사이트를 사용하는 것을 추천합니다. 소셜 미디어의 활용은 판매량 증가에 큰 영향을 미칠 뿐만 아니라 비용 효율성도 매우 높기 때문입니다. 외에도 이메일 마케팅, 제조업체 웹사이트에 제품 및 관련 레시피에 대한 동영상 콘텐츠를 게시하는 것도 효과적인 것으로 보입니다. 건강 식품을 취급하는 회사들은 영양 마케팅에도 중점을 두고 있습니다.",
+      "name": "Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+      "meta_data": {
+        "chunk_id": "a0805879-3078-4a40-b762-bdc7224e63c1",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "a0805879-3078-4a40-b762-bdc7224e63c1",
+          "5f26d45d-910f-47a9-acaa-d60be0681269",
+          "267d8a83-1ce4-409b-8705-854c8b959965",
+          "86179b98-90f5-4258-8403-152a14c0aaa6",
+          "b48a9dfd-67b6-424e-9aa9-bd7f9d2c51b7",
+          "a6f4a503-d96a-4b9f-9000-a2a1c510e977"
+        ],
+        "chunked_count": 6,
+        "index": 771,
+        "page_number": [
+          43
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 832,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        43
+      ],
+      "rank_dense": 5
+    },
+    {
+      "score": 0.79074603,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?\n\n미국 소비자들의 주요 소비 트렌드와 구매 요소는 다음과 같습니다. 먼저, 가격과 가치입니다. 소비자들은 품질을 유지하면서도 합리적인 가격을 원합니다. 다음은 고등어의 건강 및 영양 가치입니다. 고등어는 오메가-3 지방산, 단백질, 비타민이 풍부하기 때문에 소비자들을 이러한 건강상의 이점을 기대합니다. 따라서 제품 라벨에 이러한 정보를 명확하게 표기하는 것이 중요합니다. 마지막으로 즉석식품에 대한 수요가 증가하고 있어, 소비자들은 편리한 포장 형태를 선호합니다.\n\n# Q4. 고객사가 미국 시장에 순살 고등어를 판매하기에 적합한 유통채널은 무엇인가요?\n\n고객사의 순살 고등어 제품에 적합한 유통채널로는 하이퍼/슈퍼마켓, 건강 식품 전문점, 아시안 마트 그리고 아마존 프레쉬(Amazon Fresh), 씨 투 테이블(Sea to Table)과 같은 온라인 마켓플레이스가 있습니다. 당사인 월마트도 순살 고등어를 포함한 다양한 해산물을 판매하고 있으니, 이와 같은 대형 유통업체를 활용하는 것을 추천합니다.\n\n# Q5. 미국에서 순살 고등어를 성공적으로 판매하기 위한 효과적인 홍보 전략에는 어떤 것들이 있을까요?\n\n음식 행사에 자주 참여해 방문객들에게 순살 고등어의 요점을 설명하며 가격, 인증, 신선도, 포장, 맛 등의 경쟁 우위를 강조합니다. 소규모 및 대규모 기업과의 파트너십을 활용합니다. 소매 체인점, 온라인, 오프라인 시장 등 다양한 채널에서 제품을 구매할 수 있도록 배치하는 것이 판매 증가에 도움이 됩니다. 마지막으로 음식 블로거나 인플루언서와 협력하여 브랜드 평판을 높이는 것을 추천합니다. 많은 팬과 팔로워를 보유한 인플루언서와의 협업은 매우 유익합니다.",
+      "name": "Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+      "meta_data": {
+        "chunk_id": "93891543-8461-4f1b-9d72-e2e9ff094c6d",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "93891543-8461-4f1b-9d72-e2e9ff094c6d",
+          "96783203-21ec-43a3-96c3-85b11044a95d",
+          "0b6461df-3d5b-4ed7-8b7a-73acea661549",
+          "7bfaf89d-55af-4807-8409-b906b57348d2",
+          "ed34465b-db11-41f3-8a6d-395edb81cfc2",
+          "d2efdfe4-befc-4457-a9f2-f841ba3375dc"
+        ],
+        "chunked_count": 6,
+        "index": 704,
+        "page_number": [
+          40
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 875,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        40
+      ],
+      "rank_dense": 6
+    },
+    {
+      "score": 0.7866353,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n식료품, 생활용품, 가전, 의류, 유아용품, 건강뷰티용품 등을 판매함",
+      "name": "식료품, 생활용품, 가전, 의류, 유아용품, 건강뷰티용품 등을 판매함",
+      "meta_data": {
+        "chunk_id": "ea609a4d-2b50-4b31-b4af-eaf2d6a32016",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ea609a4d-2b50-4b31-b4af-eaf2d6a32016"
+        ],
+        "chunked_count": 1,
+        "index": 293,
+        "page_number": [
+          15
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 50,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "식료품, 생활용품, 가전, 의류, 유아용품, 건강뷰티용품 등을 판매함",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        15
+      ],
+      "rank_dense": 7
+    },
+    {
+      "score": 0.78566444,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# 02 경쟁제품군 선정 및 온라인 판매제품 확인 Step\n\n현지 식품 취급 주요 온라인 쇼평물 확인 1. 아마존 (Amazon) 2. 월마트(Walmart)\n3. 크로거(Kroger)",
+      "name": "02 경쟁제품군 선정 및 온라인 판매제품 확인 Step",
+      "meta_data": {
+        "chunk_id": "378e4da7-39cf-4028-af4c-15ce1aece93f",
+        "page_number": [
+          5
+        ],
+        "item_label": "merged",
+        "index": 107,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# 02 경쟁제품군 선정 및 온라인 판매제품 확인 Step",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "e81b6dae-6028-48c9-b1f0-d01f791da902",
+            "content": "<table><tbody><tr><td>현지 식품 취급 주요 온라인 쇼평물 확인 1. 아마존 (Amazon) 2. 월마트(Walmart)</td></tr><tr><td>3. 크로거(Kroger)</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        5
+      ],
+      "rank_dense": 8
+    },
+    {
+      "score": 0.7855239,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# [표 2.2] 미국 주요 온라인 쇼핑몰별 인기제품(Top 4)\n\n아마존 입점 제품 상위 4개 제품 리스트(매출순) 2)\n순번 구분 브랜드명 제품명 원산지 가격 용량 이미지\n1 순살 고등어 킹 오스카 (King Oscar) 스킨리스 &amp; 본리스 매커럴 인 올리브 오일 (Skinless &amp; Boneless Mackerel in Olive Oil) 폴란드 (북대서양) 15.50달러 (약 21392원) 690g (115g*6)\n2 순살 고등어 와일드 플래닛 (Wild Planet) 와일드 스모크드 매커럴 본리스 인 엑스트라 버진 올리브 오일 (Wild Smoked Mackerel Boneless in extra virgin olive oil) 모로코 (대서양) 34.68달러 (약 47862원) 1500g (125g*12)\n3 순살 고등어 콜스 (Cole&#x27;s) 와일드 매커럴 인 올리브 오일 (Wild Mackerel in olive oil) 포르투갈 3.48달러 (약 4803원) 125g\n4 순살 고등어 와일드 플래닛 (Wild Planet) 와일드 퍼시픽 매커럴 (Wild Pacific Mackerel) 베트남 (북태평양) 48.40달러 (약 66797원) 1704g (142g*12)\n\n순번 구분 브랜드명 제품명 원산지 가격 용량 이미지\n1 순살 고등어 아틀라팩 (Atlapac) 퍼시픽 프리미엄 매커럴 (Pacific Premium Mackerel) 중국 (태평양) 2.18달러 (약 3009원) 425g\n2 순살 고등어 시즌 프로덕츠 (Season Products) 그릴드 매커럴 인 올리브 오일 (Grilled Mackerel in Olive Oil) 모로코 (대서양) 21.38달러 (약 29507원) 260g\n3 순살 고등어 시즌 프로덕츠 (Season Products) 매커럴 인 워터 (Mackerel in Water) 모로코 (대서양) 52.75달러 (약 72800원) 1488g (124g*12)\n4 순살 고등어 롤란드 (Roland) 스킨리스 본리스 매커럴 필레 인 소이빈 오일 (Skinless Boneless Mackerel Fillets in Soybean Oil) 태국 2.99달러 (약 4126원) 115g\n\n[표 2.2] 미국 주요 온라인 쇼핑몰별 인기제품(Top 4 Top 2)\n월마트 입점 제품 상위 4개 제품 리스트(매출순) 3)\n순번 구분 브랜드명 제품명 원산지 가격 용량 이미지\n1 순살 고등어 아틀라팩 (Atlapac) 퍼시픽 (Pacific Premium 프리미엄 매커럴 Mackerel) 중국 (태평양) 2.18달러 (약 3009원) 425g\n2 순살 고등어 시즌 프로덕츠 (Season Products) 그릴드 매커럴 인 (Grilled Mackerel 올리브 오일 in Olive Oil) 모로코 (대서양) 21.38달러 (약 29507원) 260g\n3 순살 고등어 시즌 프로덕츠 (Season Products) 매커럴 인 워터 (Mackerel in Water) 모로코 (대서양) (약 52.75달러 72800원) 1488g (124g*12)\n4 순살 고등어 롤란드 (Roland) 스킨리스 본리스 필레 인 소이빈 (Skinless Boneless Fillets in Soybean 매커럴 오일 Mackerel Oil) 태국 2.99달러 (약 4126원) 115g\n크로거 입점 제품 상위 2개 제품 리스트(인기순) 4)\n순번 구분 브랜드명 제품명 원산지 가격 용량 이미지\n1 순살 고등어 프라이빗 셀렉션 (Private Selection) 매커럴 필레 인 올리브 (Mackerel Fillets in Extra Olive Oil) 오일 Virgin 태국 2.69달러 (약 3712원) 125g\n2 순살 고등어 파타고니아 프로비전스 (Patagonia Provisions) 스페니시 파프리카 매커럴 (Spanish Paprika Mackerel) 스페인 7.47달러 (약 10309원) 120g\n\n순번 구분 브랜드명 제품명 원산지 가격 용량 이미지\n1 순살 고등어 프라이빗 셀렉션 (Private Selection) 매커럴 필레 인 올리브 오일 (Mackerel Fillets in Extra Virgin Olive Oil) 태국 2.69달러 (약 3712원) 125g\n2 순살 고등어 파타고니아 프로비전스 (Patagonia Provisions) 스페니시 파프리카 매커럴 (Spanish Paprika Mackerel) 스페인 7.47달러 (약 10309원) 120g\n\n3) 조사일(2024.08.05) 기준 조사\n\n4) 조사일(2024.08.05) 기준 조사",
+      "name": "[표 2.2] 미국 주요 온라인 쇼핑몰별 인기제품(Top 4)",
+      "meta_data": {
+        "chunk_id": "96504455-62aa-45be-b918-d1a553b5cddd",
+        "page_number": [
+          6,
+          7
+        ],
+        "item_label": "merged",
+        "index": 146,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# [표 2.2] 미국 주요 온라인 쇼핑몰별 인기제품(Top 4)",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "8e1bfab7-7ef4-4ab2-88c8-0c3047ed0252",
+            "content": "<table><tbody><tr><th colspan=\"8\">아마존 입점 제품 상위 4개 제품 리스트(매출순) 2)</th></tr><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>용량</th><th>이미지</th></tr><tr><td>1</td><td>순살 고등어</td><td>킹 오스카 (King Oscar)</td><td>스킨리스 &amp; 본리스 매커럴 인 올리브 오일 (Skinless &amp; Boneless Mackerel in Olive Oil)</td><td>폴란드 (북대서양)</td><td>15.50달러 (약 21,392원)</td><td>690g (115g*6)</td><td></td></tr><tr><td>2</td><td>순살 고등어</td><td>와일드 플래닛 (Wild Planet)</td><td>와일드 스모크드 매커럴 본리스 인 엑스트라 버진 올리브 오일 (Wild Smoked Mackerel Boneless in extra virgin olive oil)</td><td>모로코 (대서양)</td><td>34.68달러 (약 47,862원)</td><td>1,500g (125g*12)</td><td></td></tr><tr><td>3</td><td>순살 고등어</td><td>콜스 (Cole&#x27;s)</td><td>와일드 매커럴 인 올리브 오일 (Wild Mackerel in olive oil)</td><td>포르투갈</td><td>3.48달러 (약 4,803원)</td><td>125g</td><td></td></tr><tr><td>4</td><td>순살 고등어</td><td>와일드 플래닛 (Wild Planet)</td><td>와일드 퍼시픽 매커럴 (Wild Pacific Mackerel)</td><td>베트남 (북태평양)</td><td>48.40달러 (약 66,797원)</td><td>1,704g (142g*12)</td><td></td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "605511fb-d21c-4ff5-8b74-47d79c6f0e16",
+            "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>용량</th><th>이미지</th></tr><tr><td>1</td><td>순살 고등어</td><td>아틀라팩 (Atlapac)</td><td>퍼시픽 프리미엄 매커럴 (Pacific Premium Mackerel)</td><td>중국 (태평양)</td><td>2.18달러 (약 3,009원)</td><td>425g</td><td></td></tr><tr><td>2</td><td>순살 고등어</td><td>시즌 프로덕츠 (Season Products)</td><td>그릴드 매커럴 인 올리브 오일 (Grilled Mackerel in Olive Oil)</td><td>모로코 (대서양)</td><td>21.38달러 (약 29,507원)</td><td>260g</td><td></td></tr><tr><td>3</td><td>순살 고등어</td><td>시즌 프로덕츠 (Season Products)</td><td>매커럴 인 워터 (Mackerel in Water)</td><td>모로코 (대서양)</td><td>52.75달러 (약 72,800원)</td><td>1488g (124g*12)</td><td></td></tr><tr><td>4</td><td>순살 고등어</td><td>롤란드 (Roland)</td><td>스킨리스 본리스 매커럴 필레 인 소이빈 오일 (Skinless Boneless Mackerel Fillets in Soybean Oil)</td><td>태국</td><td>2.99달러 (약 4,126원)</td><td>115g</td><td></td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "2bbaad56-a93e-405d-9c4e-5dbe3eddb269",
+            "content": "<table><tbody><tr><td>[표</td><td>2.2]</td><td>미국 주요 온라인</td><td>쇼핑몰별</td><td>인기제품(Top 4, Top</td><td>2)</td><td></td><td></td></tr><tr><td colspan=\"8\">월마트 입점 제품 상위 4개 제품 리스트(매출순) 3)</td></tr><tr><td>순번</td><td>구분</td><td>브랜드명</td><td>제품명</td><td></td><td>원산지</td><td>가격 용량</td><td>이미지</td></tr><tr><td>1</td><td>순살 고등어</td><td>아틀라팩 (Atlapac)</td><td>퍼시픽 (Pacific Premium</td><td>프리미엄 매커럴 Mackerel)</td><td>중국 (태평양)</td><td>2.18달러 (약 3,009원) 425g</td><td></td></tr><tr><td>2</td><td>순살 고등어</td><td>시즌 프로덕츠 (Season Products)</td><td>그릴드 매커럴 인 (Grilled Mackerel</td><td>올리브 오일 in Olive Oil)</td><td>모로코 (대서양)</td><td>21.38달러 (약 29,507원) 260g</td><td></td></tr><tr><td>3</td><td>순살 고등어</td><td>시즌 프로덕츠 (Season Products)</td><td>매커럴 인 워터 (Mackerel in Water)</td><td></td><td>모로코 (대서양) (약</td><td>52.75달러 72,800원) 1488g (124g*12)</td><td></td></tr><tr><td>4</td><td>순살 고등어</td><td>롤란드 (Roland)</td><td>스킨리스 본리스 필레 인 소이빈 (Skinless Boneless Fillets in Soybean</td><td>매커럴 오일 Mackerel Oil)</td><td>태국</td><td>2.99달러 (약 4,126원) 115g</td><td></td></tr><tr><td colspan=\"8\">크로거 입점 제품 상위 2개 제품 리스트(인기순) 4)</td></tr><tr><td>순번</td><td>구분</td><td>브랜드명</td><td>제품명</td><td></td><td>원산지</td><td>가격 용량</td><td>이미지</td></tr><tr><td>1</td><td>순살 고등어</td><td>프라이빗 셀렉션 (Private Selection)</td><td>매커럴 필레 인 올리브 (Mackerel Fillets in Extra Olive Oil)</td><td>오일 Virgin 태국</td><td>2.69달러 (약 3,712원)</td><td>125g</td><td></td></tr><tr><td>2</td><td>순살 고등어</td><td>파타고니아 프로비전스 (Patagonia Provisions)</td><td>스페니시 파프리카 매커럴 (Spanish Paprika Mackerel)</td><td>스페인</td><td>7.47달러 (약 10,309원)</td><td>120g</td><td></td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "7b19285a-96c8-4e54-89af-a94492dd3b8a",
+            "content": "<table><tbody><tr><th>순번</th><th>구분</th><th>브랜드명</th><th>제품명</th><th>원산지</th><th>가격</th><th>용량</th><th>이미지</th></tr><tr><td>1</td><td>순살 고등어</td><td>프라이빗 셀렉션 (Private Selection)</td><td>매커럴 필레 인 올리브 오일 (Mackerel Fillets in Extra Virgin Olive Oil)</td><td>태국</td><td>2.69달러 (약 3,712원)</td><td>125g</td><td></td></tr><tr><td>2</td><td>순살 고등어</td><td>파타고니아 프로비전스 (Patagonia Provisions)</td><td>스페니시 파프리카 매커럴 (Spanish Paprika Mackerel)</td><td>스페인</td><td>7.47달러 (약 10,309원)</td><td>120g</td><td></td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "text",
+            "chunk_id": "3f6f1f48-6033-4b89-a836-8061d5521a40",
+            "content": "3) 조사일(2024.08.05) 기준 조사"
+          },
+          {
+            "item_label": "text",
+            "chunk_id": "fbb8e22f-6384-4efd-bd3b-6bd0d30ad5cb",
+            "content": "4) 조사일(2024.08.05) 기준 조사"
+          }
+        ],
+        "merged_count": 7,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        6,
+        7
+      ],
+      "rank_dense": 9
+    },
+    {
+      "score": 0.7848526,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?\n\n순살 고등어를 판매하기 위한 다양한 마케팅 전략 중, 음식 관련 이벤트 참여가 가장 효과적인 전략입니다. 이는 제품을 잘 알려진 유통업체, 소매업체 및 일반 소비자들에게 소개할 수 있는 기회를 제공하기 때문입니다. 이외에도 인기 브랜드들은 음식 인플루언서나 블로거들과 협업하며 유사한 관심사를 가진 고객에게 제품을 소개합니다.",
+      "name": "Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?",
+      "meta_data": {
+        "chunk_id": "b893a8b4-1044-49d9-908f-90f5127135d6",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "b893a8b4-1044-49d9-908f-90f5127135d6",
+          "6eff23ed-9af9-4b56-8bc9-8d3f64321f9c"
+        ],
+        "chunked_count": 2,
+        "index": 716,
+        "page_number": [
+          41
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 245,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        41
+      ],
+      "rank_dense": 10
+    },
+    {
+      "score": 0.78366023,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?\n\n인기 제품에게 소셜 미디어의 사용은 이 분야에서 중요한 마케팅 전략으로 부상했습니다. 그 이유는 시청자에게 더 깊은 영향을 미치기 때문입니다. 적절한 방식으로 이루어진 소셜 미디어 광고는 비용 효율적입니다. 관계자에 따르면 이메일 마케팅이 순살 고등어 제품에 효과적인 방법일 수 있다고 합니다.",
+      "name": "Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?",
+      "meta_data": {
+        "chunk_id": "bb4af673-1dc1-4a9c-9d9f-752ba1390972",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "bb4af673-1dc1-4a9c-9d9f-752ba1390972",
+          "823995ba-283c-4743-bf77-0e4d82003bd2"
+        ],
+        "chunked_count": 2,
+        "index": 783,
+        "page_number": [
+          44
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 224,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# Q6. 미국에서 인기 있는 순살 고등어 제품의 주요 마케팅 방법과 마케팅 채널은 무엇일까요?",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        44
+      ],
+      "rank_dense": 11
+    },
+    {
+      "score": 0.78188014,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# 고객사 제품 특징\n\n제품명 제주 고등어살\n제품 종류 순살 고등어\n소비자가격 약 7.25달러 (10000원 1) )\n중량 500g\n포장 비닐\n특징 저염으로 가공해 짜지 않은 고단백질 청정 제주에서 어획",
+      "name": "고객사 제품 특징",
+      "meta_data": {
+        "chunk_id": "81848cd4-5748-4933-999a-a09b13b5acb1",
+        "page_number": [
+          5
+        ],
+        "item_label": "merged",
+        "index": 89,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# 고객사 제품 특징",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "7433303c-3ae8-40cf-911d-dd2043c627d6",
+            "content": "<table><tbody><tr><th>제품명</th><th>제주 고등어살</th></tr><tr><td>제품 종류</td><td>순살 고등어</td></tr><tr><td>소비자가격</td><td>약 7.25달러 (10,000원 1) )</td></tr><tr><td>중량</td><td>500g</td></tr><tr><td>포장</td><td>비닐</td></tr><tr><td>특징</td><td>저염으로 가공해 짜지 않은, 고단백질, 청정 제주에서 어획</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        5
+      ],
+      "rank_dense": 12
+    },
+    {
+      "score": 0.7818678,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?\n\n제품의 가격, 포장 및 인증, 중량이 소비자들이 고려하는 주요 소비 트렌드와 구매 요소입니다. 경쟁이 치열한 시장에서 가격 경쟁력을 갖추는 것이 가장 중요합니다. 가격 경쟁력이 있으면 시장에서 우위를 점할 수 있기 때문입니다. 진공 포장은 신선도를 유지하는 데 도움이 되기 때문에 소비자들 사이에서 인기가 많고 선호됩니다. 인증 역시 브랜드의 평판에 긍정적인 영향을 미칩니다. 중량도 중요한 요소지만 위에서 언급한 가격과 포장 및 인증만큼 중요하지는 않습니다.\n\n# Q4. 고객사가 미국 시장에 순살 고등어를 판매하기에 적합한 유통채널은 무엇인가요?\n\n고객사가 미국 시장에 순살 고등어를 판매하기에 적합한 유통채널로는 슈퍼마켓/대형마트, 아시안 식료품점, 온라인 쇼핑몰, 그리고 특산품 전문점이 있습니다. 지리적으로는, 기존의 수산물 섭취 문화가 존재하는 북동부(워싱턴, 뉴욕, 보스턴, 볼티모어 등)와 서해안(샌프란시스코, 로스앤젤레스, 시애틀, 포틀랜드 등) 지역에서 수요가 높기 때문에 이 지역에 더 많은 중점을 두어야 합니다. 이를 통해 더 나은 판매 성과를 기대할 수 있습니다.\n\n# Q5. 미국에서 순살 고등어를 성공적으로 판매하기 위한 효과적인 홍보 전략에는 어떤 것들이 있을까요?\n\n주요 하이퍼/슈퍼마켓 및 온라인 플랫폼과의 파트너십 구축이 가장 효과적인 마케팅 전략입니다. 온라인 소매점의 웹사이트와 소셜 미디어를 통해 순살 고등어를 홍보하거나, 특정 시기에 할인을 제공하고 쿠폰을 발행하여 고객의 구매를 유도하는 방법도 추천합니다.",
+      "name": "Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+      "meta_data": {
+        "chunk_id": "16f1dc28-d74c-44a4-859d-597aa9593097",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "16f1dc28-d74c-44a4-859d-597aa9593097",
+          "bb4dd9e8-a61d-45d4-958d-f67efd7c9b6f",
+          "05148288-c179-40c7-b2a3-a4e89d840f09",
+          "dae82797-c4d3-418b-b614-ca728cf6351d",
+          "48bbdda3-3a8a-43b6-ba7e-14adfb65f563",
+          "a5cf939c-2df7-4323-a769-ec6508b21317"
+        ],
+        "chunked_count": 6,
+        "index": 636,
+        "page_number": [
+          37
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 826,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# Q3. 순살 고등어를 구매할 때 소비자들이 고려하는 소비 트렌드와 구매 요소는 무엇인가요?",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        37
+      ],
+      "rank_dense": 13
+    },
+    {
+      "score": 0.7816715,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# [표 3.6] 경쟁기업 유통채널\n\n기준 채널 종류\n오프라인 월마트 홀푸드마켓\n온라인 아마존 월마트 크로거",
+      "name": "[표 3.6] 경쟁기업 유통채널",
+      "meta_data": {
+        "chunk_id": "432ec971-c344-45ea-817a-8c9b0eb1c322",
+        "page_number": [
+          26
+        ],
+        "item_label": "merged",
+        "index": 478,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# [표 3.6] 경쟁기업 유통채널",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "fcdd49af-e017-4b8b-9c47-5f27072784c0",
+            "content": "<table><tbody><tr><th>기준</th><th>채널 종류</th></tr><tr><td>오프라인</td><td>월마트, 홀푸드마켓</td></tr><tr><td>온라인</td><td>아마존, 월마트, 크로거</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        26
+      ],
+      "rank_dense": 14
+    },
+    {
+      "score": 0.7810521,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n한국 식료품과 생활용품 및 다양한 아시아 식품과 현지 식품을 판매함",
+      "name": "한국 식료품과 생활용품 및 다양한 아시아 식품과 현지 식품을 판매함",
+      "meta_data": {
+        "chunk_id": "39f2ea60-12ac-4f9a-b66f-f94bbc8b8e2b",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "39f2ea60-12ac-4f9a-b66f-f94bbc8b8e2b"
+        ],
+        "chunked_count": 1,
+        "index": 253,
+        "page_number": [
+          13
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 46,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "한국 식료품과 생활용품 및 다양한 아시아 식품과 현지 식품을 판매함",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        13
+      ],
+      "rank_dense": 15
+    },
+    {
+      "score": 0.77989966,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# 담당자 정보\n\n담당자 정보\nSales Representative\n고객사 제품 정보\n세부품목 순살 고등어\n소비자가격 약 7.25달러 (10000원)\n중량 500g\n포장 형태 비닐",
+      "name": "담당자 정보",
+      "meta_data": {
+        "chunk_id": "7026d712-7f12-44d5-af2d-70012325968a",
+        "page_number": [
+          42
+        ],
+        "item_label": "merged",
+        "index": 732,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# 담당자 정보",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "d56ae2e9-40a4-4ad2-9a5c-9e94e2a8d913",
+            "content": "<table><tbody><tr><td></td><th>담당자 정보</th></tr><tr><td colspan=\"2\">Sales Representative</td></tr><tr><td>고객사 제품</td><td>정보</td></tr><tr><td>세부품목</td><td>순살 고등어</td></tr><tr><td>소비자가격</td><td>약 7.25달러 (10,000원)</td></tr><tr><td>중량</td><td>500g</td></tr><tr><td>포장 형태</td><td>비닐</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 2,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        42
+      ],
+      "rank_dense": 16
+    },
+    {
+      "score": 0.77731025,
+      "page_content": "2024 일본 활광어 보고서(경쟁력분석형)\n\n# ② 호쿠신 스이산\n\n기업 기본 정보 기업명 호쿠신 스이산\n기업 설명 호쿠신 스이산은 일본 내 최대 수산물 유통 및 가공 전문 기업으로 신선한 생선을 제공하는 &#x27;수산 엔터테인먼트 회사&#x27;로 알려져 있음. 호쿠신 스이산은 일본의 풍부한 식문화와 전통을 지키고 소비자들에게 최고 품질의 생선 및 해산물을 제공하기 위해 노력하고 있음. 또한 일본 전국에 매장을 운영하며 온라인 쇼핑몰을 통해서도 다양한\n千葉 県 柏市花野井712番地の111\n규모 동일 품목 수 2개\n\n제품명 자연산 히라메(횟감) (天然ひらめ（刺身用))\n기업 진출 채널 토부 백화점 중량 68g\n&lt;온라인 매장&gt; 아마존 소비자가격 720.00엔 (약 6637원)\n제품 종류 광어\n\n현지 진출 방법 포장 현지화 ● (상) 포장 디자인 문구 현지화\n홍보 현지화 ● (상) 자사 홈페이지 및 SNS 플랫폼 활용\n\n홍보 채널 자사 홈페이지(일본) 페이스북/인스타그램/X(일본)\n게시 주기 비정기적\n게시물 유형 기업 소개 제품 소개 브랜드 소개 쇼핑몰 안내 등\n\n게시물 유형 Ÿ 기본적인 회사 소개 (회사 개요 연혁 이념 회사명 유래 등)\nŸ 자사 제품군 소개\nŸ 쇼핑몰로 연결 및 안내",
+      "name": "② 호쿠신 스이산",
+      "meta_data": {
+        "chunk_id": "83cab291-baab-4ecb-9311-3e8a9a2fbfd2",
+        "page_number": [
+          33,
+          34
+        ],
+        "item_label": "merged",
+        "index": 562,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 일본 활광어 보고서(경쟁력분석형)",
+        "original_page_content": "# ② 호쿠신 스이산",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "e349c686-c06d-4f05-9cb6-b760f9623022",
+            "content": "<table><tbody><tr><td rowspan=\"4\">기업 기본 정보</td><th>기업명</th><th>호쿠신 스이산</th></tr><tr><td>기업 설명</td><td>호쿠신 스이산은 일본 내 최대 수산물 유통 및 가공 전문 기업으로, 신선한 생선을 제공하는 &#x27;수산 엔터테인먼트 회사&#x27;로 알려져 있음. 호쿠신 스이산은 일본의 풍부한 식문화와 전통을 지키고, 소비자들에게 최고 품질의 생선 및 해산물을 제공하기 위해 노력하고 있음. 또한 일본 전국에 매장을 운영하며, 온라인 쇼핑몰을 통해서도 다양한</td></tr><tr><td colspan=\"2\">千葉 県 柏市花野井712番地の111</td></tr><tr><td>규모</td><td>동일 품목 수 2개</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "2fe3e3d9-3bab-4bbc-a3f4-e0eb8d3ea4a9",
+            "content": "<table><tbody><tr><td></td><td></td><th>제품명</th><th>자연산 히라메(횟감) (天然ひらめ（刺身用))</th></tr><tr><td>기업 진출 채널</td><td>토부 백화점</td><td>중량</td><td>68g</td></tr><tr><td></td><td>&lt;온라인 매장&gt; 아마존</td><td>소비자가격</td><td>720.00엔 (약 6,637원)</td></tr><tr><td></td><td></td><td>제품 종류</td><td>광어</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "f5ee29b2-3e39-409b-b0dd-e7826c328b22",
+            "content": "<table><tbody><tr><td rowspan=\"2\">현지 진출 방법</td><td>포장 현지화</td><td>● (상)</td><td>포장 디자인 문구 현지화</td></tr><tr><td>홍보 현지화</td><td>● (상)</td><td>자사 홈페이지 및 SNS 플랫폼 활용</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "3d2c5f87-fe3e-44c6-85bf-71b10d854a4e",
+            "content": "<table><tbody><tr><td>홍보 채널</td><td>자사 홈페이지(일본), 페이스북/인스타그램/X(일본)</td></tr><tr><td>게시 주기</td><td>비정기적</td></tr><tr><td>게시물 유형</td><td>기업 소개, 제품 소개, 브랜드 소개, 쇼핑몰 안내 등</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "a4eebd71-f1eb-4dd7-a2ce-c60524f80504",
+            "content": "<table><tbody><tr><td rowspan=\"3\">게시물 유형</td><td>Ÿ 기본적인 회사 소개 (회사 개요, 연혁, 이념, 회사명 유래 등)</td></tr><tr><td>Ÿ 자사 제품군 소개</td></tr><tr><td>Ÿ 쇼핑몰로 연결 및 안내</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 6,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-16%5D+%EC%9D%BC%EB%B3%B8+%ED%99%9C%EA%B4%91%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/12/&fileName=%5B202408-16%5D+%EC%9D%BC%EB%B3%B8+%ED%99%9C%EA%B4%91%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        33,
+        34
+      ],
+      "rank_dense": 17
+    },
+    {
+      "score": 0.7770226,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# ▶ 울타리몰에서 판매되고 있는 순살 고등어 제품 선정\n\n판매 사이트 울타리몰 (Wooltari) 리뷰 수 162건\n제품명 제주어가 제주고등어살 (Jeju Mackerel)\n제품 종류 순살 고등어 소비자가격 21.95달러 (약 30293원)\n중량 500g 포장 비닐\n특징 자연그대로의 청정한 제주섬 정직한 제주 사람의 선물\n\n표제목: 분석 제품 정보\n사이트 울타리몰\n분석 건수 162건\n제품명 제주어가 제주고등어살\n제품 종류 순살 고등어\n소비자가격 21.95달러 (약 30293원)\n중량 500g\n포장 플라스틱 비닐백\n특징 자연그대로의 청정한 제주섬 정직한 제주 사람의 선물",
+      "name": "▶ 울타리몰에서 판매되고 있는 순살 고등어 제품 선정",
+      "meta_data": {
+        "chunk_id": "0dd7c8f9-6c54-4d9b-9e09-d0db45d8d192",
+        "page_number": [
+          53,
+          54
+        ],
+        "item_label": "merged",
+        "index": 940,
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# ▶ 울타리몰에서 판매되고 있는 순살 고등어 제품 선정",
+        "merged_children": [
+          {
+            "item_label": "table",
+            "chunk_id": "6a82c7aa-2358-455e-a204-579942a8ea27",
+            "content": "<table><tbody><tr><th>판매 사이트</th><th>울타리몰 (Wooltari)</th><th>리뷰 수</th><th>162건</th></tr><tr><td>제품명 제주어가</td><td colspan=\"3\">제주고등어살 (Jeju Mackerel)</td></tr><tr><td>제품 종류</td><td>순살 고등어</td><td>소비자가격</td><td>21.95달러 (약 30,293원)</td></tr><tr><td>중량</td><td>500g</td><td>포장</td><td>비닐</td></tr><tr><td>특징</td><td>자연그대로의 청정한 제주섬,</td><td>정직한</td><td>제주 사람의 선물</td></tr></tbody></table>",
+            "summary": ""
+          },
+          {
+            "item_label": "table",
+            "chunk_id": "d0664903-1d21-4c85-8022-6db1d1947142",
+            "content": "<table><caption>분석 제품 정보</caption><tbody><tr><th>사이트</th><th>울타리몰</th></tr><tr><td>분석 건수</td><td>162건</td></tr><tr><td>제품명</td><td>제주어가 제주고등어살</td></tr><tr><td>제품 종류</td><td>순살 고등어</td></tr><tr><td>소비자가격</td><td>21.95달러 (약 30,293원)</td></tr><tr><td>중량</td><td>500g</td></tr><tr><td>포장</td><td>플라스틱 비닐백</td></tr><tr><td>특징</td><td>자연그대로의 청정한 제주섬, 정직한 제주 사람의 선물</td></tr></tbody></table>",
+            "summary": ""
+          }
+        ],
+        "merged_count": 3,
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_table",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        53,
+        54
+      ],
+      "rank_dense": 18
+    },
+    {
+      "score": 0.77681494,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n-미국에서 가장 큰 아시아 슈퍼마켓 체인으로 97개 이상의 매장 운영",
+      "name": "-미국에서 가장 큰 아시아 슈퍼마켓 체인으로 97개 이상의 매장 운영",
+      "meta_data": {
+        "chunk_id": "ea49ab38-8add-4922-9cb2-eff6f92e39ce",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "ea49ab38-8add-4922-9cb2-eff6f92e39ce"
+        ],
+        "chunked_count": 1,
+        "index": 730,
+        "page_number": [
+          42
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 39,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "-미국에서 가장 큰 아시아 슈퍼마켓 체인으로 97개 이상의 매장 운영",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        42
+      ],
+      "rank_dense": 19
+    },
+    {
+      "score": 0.7757883,
+      "page_content": "2024 미국 순살 고등어 보고서(경쟁력분석형)\n\n# ▶ 온라인 인기제품 리뷰 감성분석 결과, '맛' 만족도 높은 편\n\n빅데이터 분석을 통해 미국 온라인 쇼핑몰에서 인기리에 판매되고 있는 순살 고등어 제품의 리뷰 감성분석을 실시함. 그 결과, '맛'에 대한 긍정 점수가 239점으로 가장 높게 나타났으며, 부정 점수가 66점으로 긍정 점수에 비해 낮은 편임. 그다음으로는 '중량' 대한 긍정 점수가 115점으로 높은 편이며, 부정 점수가 35점으로 격차를 보이고 있음. 이로써 소비자들은 온라인 채널에서 판매되는 순살 고등어 제품에 대해 '맛'에 대해 가장 관심도가 높은 편임을 알 수 있음",
+      "name": "▶ 온라인 인기제품 리뷰 감성분석 결과, '맛' 만족도 높은 편",
+      "meta_data": {
+        "chunk_id": "f3dcd572-e481-49a4-9c11-c45816d493ae",
+        "item_label": "chunked_text",
+        "chunked_from": [
+          "f3dcd572-e481-49a4-9c11-c45816d493ae",
+          "2dd10c8b-c1b7-4354-9fcb-da00b644f4f4"
+        ],
+        "chunked_count": 2,
+        "index": 952,
+        "page_number": [
+          54
+        ],
+        "document_id": "caf9521c-43b9-573e-a939-caae47b2895b",
+        "hierarchy": null,
+        "token_count": 307,
+        "timestamp": "2025-07-17T02:31:35.289298Z",
+        "document_file_path": "/app/output/b30b884b-9b77-4bfd-8424-715a7795cc8f/2024년 농식품 해외시장 품목조사-즉석식품 (중국·일본·미국·인도네시아 ....pdf",
+        "document_title": "2024 미국 순살 고등어 보고서(경쟁력분석형)",
+        "original_page_content": "# ▶ 온라인 인기제품 리뷰 감성분석 결과, '맛' 만족도 높은 편",
+        "document_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf"
+      },
+      "search_type": "dense",
+      "_index": "page_text",
+      "doc_link": "https://www.kati.net/file/down.do?path=/board/2024/11/&fileName=%5B202409-03%5D+%EB%AF%B8%EA%B5%AD+%EC%88%9C%EC%82%B4+%EA%B3%A0%EB%93%B1%EC%96%B4+%EB%B3%B4%EA%B3%A0%EC%84%9C%28%EA%B2%BD%EC%9F%81%EB%A0%A5%EB%B6%84%EC%84%9D%ED%98%95%29.pdf.pdf",
+      "page_number": [
+        54
+      ],
+      "rank_dense": 20
+    }
+  ],
+  "total_candidates": 40,
+  "final_count": 20,
+  "processing_time": 1.270921,
+  "config": {
+    "mode": "dense_only",
+    "use_hyde": false,
+    "use_reranking": false,
+    "use_summarization": false,
+    "top_k": 20
+  }
+}

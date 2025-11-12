@@ -119,6 +119,7 @@ services:
       - ./logs:/app/logs
       - ./utils:/app/utils
       - ./multiagent-rag-system/backend/db_storage:/app/db_storage
+      - ./evaluation_results:/app/evaluation_results
     working_dir: /app
     environment:
       - DB_HOST=postgres

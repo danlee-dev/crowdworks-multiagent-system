@@ -1,0 +1,535 @@
+{
+  "config": {
+    "target_system": "http://localhost:8000",
+    "use_ai_judge": true,
+    "total_queries": 9,
+    "queries_per_team": {
+      "marketing": 3,
+      "purchasing": 3,
+      "general": 3
+    }
+  },
+  "start_time": "2025-11-09T17:53:48.859714",
+  "results": {
+    "marketing": [
+      {
+        "query_id": "marketing_q01",
+        "query_text": "2024년 대체육 시장 동향 및 소비자 선호도 분석 보고서를 작성해주세요",
+        "team_type": "marketing",
+        "total_time": 55.614370346069336,
+        "response_time": 55.614370346069336,
+        "report_length": 4724,
+        "sources_count": 15,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 4.4,
+        "grade": "F",
+        "success_rate": 0.75,
+        "quality_score": 4.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 5,
+        "efficiency_score": 10.0,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T17:55:46.142324",
+        "session_id": "eval_benchmark_marketing_q01_1762710828"
+      },
+      {
+        "query_id": "marketing_q02",
+        "query_text": "밀키트 산업의 성장 전략과 마케팅 방안 보고서를 작성해주세요",
+        "team_type": "marketing",
+        "total_time": 65.54710078239441,
+        "response_time": 65.54710078239441,
+        "report_length": 5536,
+        "sources_count": 30,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 5.94,
+        "grade": "F",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 14,
+        "efficiency_score": 6.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T17:58:04.052273",
+        "session_id": "eval_benchmark_marketing_q02_1762710948"
+      },
+      {
+        "query_id": "marketing_q03",
+        "query_text": "MZ세대 타겟 건강기능식품 시장 진입 전략 보고서를 작성해주세요",
+        "team_type": "marketing",
+        "total_time": 69.29066300392151,
+        "response_time": 69.29066300392151,
+        "report_length": 5993,
+        "sources_count": 17,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "pubmed_search"
+        ],
+        "overall_score": 4.97,
+        "grade": "F",
+        "success_rate": 1.0,
+        "quality_score": 4.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 17,
+        "efficiency_score": 7.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:00:14.592597",
+        "session_id": "eval_benchmark_marketing_q03_1762711086"
+      }
+    ],
+    "purchasing": [
+      {
+        "query_id": "purchasing_q01",
+        "query_text": "국내 농산물 가격 변동 추이 및 구매 최적화 전략 보고서를 작성해주세요",
+        "team_type": "purchasing",
+        "total_time": 76.25881481170654,
+        "response_time": 76.25881481170654,
+        "report_length": 6712,
+        "sources_count": 26,
+        "search_tools_used": [
+          "web_search",
+          "rdb_search",
+          "graph_db_search",
+          "vector_db_search"
+        ],
+        "overall_score": 5.55,
+        "grade": "F",
+        "success_rate": 0.75,
+        "quality_score": 5.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:02:49.296048",
+        "session_id": "eval_benchmark_purchasing_q01_1762711216"
+      },
+      {
+        "query_id": "purchasing_q02",
+        "query_text": "글로벌 식자재 공급망 리스크 관리 방안 보고서를 작성해주세요",
+        "team_type": "purchasing",
+        "total_time": 103.24212551116943,
+        "response_time": 103.24212551116943,
+        "report_length": 5528,
+        "sources_count": 31,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "graph_db_search",
+          "pubmed_search"
+        ],
+        "overall_score": 5.84,
+        "grade": "F",
+        "success_rate": 1.0,
+        "quality_score": 4.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:05:40.988792",
+        "session_id": "eval_benchmark_purchasing_q02_1762711371"
+      },
+      {
+        "query_id": "purchasing_q03",
+        "query_text": "친환경 유기농 식재료 소싱 가이드 보고서를 작성해주세요",
+        "team_type": "purchasing",
+        "total_time": 70.30603837966919,
+        "response_time": 70.30603837966919,
+        "report_length": 6215,
+        "sources_count": 37,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "graph_db_search",
+          "rdb_search"
+        ],
+        "overall_score": 6.42,
+        "grade": "D",
+        "success_rate": 1.0,
+        "quality_score": 6.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 0,
+        "efficiency_score": 6.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:08:04.367600",
+        "session_id": "eval_benchmark_purchasing_q03_1762711542"
+      }
+    ],
+    "general": [
+      {
+        "query_id": "general_q01",
+        "query_text": "식품 안전 규제 동향 및 컴플라이언스 대응 방안 보고서를 작성해주세요",
+        "team_type": "general",
+        "total_time": 54.33478307723999,
+        "response_time": 54.33478307723999,
+        "report_length": 4941,
+        "sources_count": 25,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search"
+        ],
+        "overall_score": 5.45,
+        "grade": "F",
+        "success_rate": 0.75,
+        "quality_score": 8.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 12,
+        "efficiency_score": 9.0,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:10:09.989557",
+        "session_id": "eval_benchmark_general_q01_1762711686"
+      },
+      {
+        "query_id": "general_q02",
+        "query_text": "푸드테크 산업의 AI 활용 사례 분석 보고서를 작성해주세요",
+        "team_type": "general",
+        "total_time": 40.34232497215271,
+        "response_time": 40.34232497215271,
+        "report_length": 4052,
+        "sources_count": 16,
+        "search_tools_used": [
+          "web_search",
+          "graph_db_search",
+          "vector_db_search"
+        ],
+        "overall_score": 5.91,
+        "grade": "F",
+        "success_rate": 1.0,
+        "quality_score": 7.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 5,
+        "efficiency_score": 10.0,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:12:03.862507",
+        "session_id": "eval_benchmark_general_q02_1762711811"
+      },
+      {
+        "query_id": "general_q03",
+        "query_text": "탄소중립을 위한 식품 산업의 ESG 경영 전략 보고서를 작성해주세요",
+        "team_type": "general",
+        "total_time": 75.86751651763916,
+        "response_time": 75.86751651763916,
+        "report_length": 5874,
+        "sources_count": 42,
+        "search_tools_used": [
+          "web_search",
+          "vector_db_search",
+          "rdb_search",
+          "graph_db_search"
+        ],
+        "overall_score": 5.54,
+        "grade": "F",
+        "success_rate": 1.0,
+        "quality_score": 8.0,
+        "completeness_rate": 0.0,
+        "hallucination_count": 18,
+        "efficiency_score": 6.5,
+        "success": true,
+        "error_msg": null,
+        "timestamp": "2025-11-09T18:14:24.494988",
+        "session_id": "eval_benchmark_general_q03_1762711925"
+      }
+    ]
+  },
+  "raw_results": [
+    {
+      "query_id": "marketing_q01",
+      "query_text": "2024년 대체육 시장 동향 및 소비자 선호도 분석 보고서를 작성해주세요",
+      "team_type": "marketing",
+      "total_time": 55.614370346069336,
+      "response_time": 55.614370346069336,
+      "report_length": 4724,
+      "sources_count": 15,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 4.4,
+      "grade": "F",
+      "success_rate": 0.75,
+      "quality_score": 4.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 5,
+      "efficiency_score": 10.0,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T17:55:46.142324",
+      "session_id": "eval_benchmark_marketing_q01_1762710828"
+    },
+    {
+      "query_id": "marketing_q02",
+      "query_text": "밀키트 산업의 성장 전략과 마케팅 방안 보고서를 작성해주세요",
+      "team_type": "marketing",
+      "total_time": 65.54710078239441,
+      "response_time": 65.54710078239441,
+      "report_length": 5536,
+      "sources_count": 30,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 5.94,
+      "grade": "F",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 14,
+      "efficiency_score": 6.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T17:58:04.052273",
+      "session_id": "eval_benchmark_marketing_q02_1762710948"
+    },
+    {
+      "query_id": "marketing_q03",
+      "query_text": "MZ세대 타겟 건강기능식품 시장 진입 전략 보고서를 작성해주세요",
+      "team_type": "marketing",
+      "total_time": 69.29066300392151,
+      "response_time": 69.29066300392151,
+      "report_length": 5993,
+      "sources_count": 17,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "pubmed_search"
+      ],
+      "overall_score": 4.97,
+      "grade": "F",
+      "success_rate": 1.0,
+      "quality_score": 4.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 17,
+      "efficiency_score": 7.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:00:14.592597",
+      "session_id": "eval_benchmark_marketing_q03_1762711086"
+    },
+    {
+      "query_id": "purchasing_q01",
+      "query_text": "국내 농산물 가격 변동 추이 및 구매 최적화 전략 보고서를 작성해주세요",
+      "team_type": "purchasing",
+      "total_time": 76.25881481170654,
+      "response_time": 76.25881481170654,
+      "report_length": 6712,
+      "sources_count": 26,
+      "search_tools_used": [
+        "web_search",
+        "rdb_search",
+        "graph_db_search",
+        "vector_db_search"
+      ],
+      "overall_score": 5.55,
+      "grade": "F",
+      "success_rate": 0.75,
+      "quality_score": 5.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:02:49.296048",
+      "session_id": "eval_benchmark_purchasing_q01_1762711216"
+    },
+    {
+      "query_id": "purchasing_q02",
+      "query_text": "글로벌 식자재 공급망 리스크 관리 방안 보고서를 작성해주세요",
+      "team_type": "purchasing",
+      "total_time": 103.24212551116943,
+      "response_time": 103.24212551116943,
+      "report_length": 5528,
+      "sources_count": 31,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "graph_db_search",
+        "pubmed_search"
+      ],
+      "overall_score": 5.84,
+      "grade": "F",
+      "success_rate": 1.0,
+      "quality_score": 4.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:05:40.988792",
+      "session_id": "eval_benchmark_purchasing_q02_1762711371"
+    },
+    {
+      "query_id": "purchasing_q03",
+      "query_text": "친환경 유기농 식재료 소싱 가이드 보고서를 작성해주세요",
+      "team_type": "purchasing",
+      "total_time": 70.30603837966919,
+      "response_time": 70.30603837966919,
+      "report_length": 6215,
+      "sources_count": 37,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "graph_db_search",
+        "rdb_search"
+      ],
+      "overall_score": 6.42,
+      "grade": "D",
+      "success_rate": 1.0,
+      "quality_score": 6.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 0,
+      "efficiency_score": 6.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:08:04.367600",
+      "session_id": "eval_benchmark_purchasing_q03_1762711542"
+    },
+    {
+      "query_id": "general_q01",
+      "query_text": "식품 안전 규제 동향 및 컴플라이언스 대응 방안 보고서를 작성해주세요",
+      "team_type": "general",
+      "total_time": 54.33478307723999,
+      "response_time": 54.33478307723999,
+      "report_length": 4941,
+      "sources_count": 25,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search"
+      ],
+      "overall_score": 5.45,
+      "grade": "F",
+      "success_rate": 0.75,
+      "quality_score": 8.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 12,
+      "efficiency_score": 9.0,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:10:09.989557",
+      "session_id": "eval_benchmark_general_q01_1762711686"
+    },
+    {
+      "query_id": "general_q02",
+      "query_text": "푸드테크 산업의 AI 활용 사례 분석 보고서를 작성해주세요",
+      "team_type": "general",
+      "total_time": 40.34232497215271,
+      "response_time": 40.34232497215271,
+      "report_length": 4052,
+      "sources_count": 16,
+      "search_tools_used": [
+        "web_search",
+        "graph_db_search",
+        "vector_db_search"
+      ],
+      "overall_score": 5.91,
+      "grade": "F",
+      "success_rate": 1.0,
+      "quality_score": 7.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 5,
+      "efficiency_score": 10.0,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:12:03.862507",
+      "session_id": "eval_benchmark_general_q02_1762711811"
+    },
+    {
+      "query_id": "general_q03",
+      "query_text": "탄소중립을 위한 식품 산업의 ESG 경영 전략 보고서를 작성해주세요",
+      "team_type": "general",
+      "total_time": 75.86751651763916,
+      "response_time": 75.86751651763916,
+      "report_length": 5874,
+      "sources_count": 42,
+      "search_tools_used": [
+        "web_search",
+        "vector_db_search",
+        "rdb_search",
+        "graph_db_search"
+      ],
+      "overall_score": 5.54,
+      "grade": "F",
+      "success_rate": 1.0,
+      "quality_score": 8.0,
+      "completeness_rate": 0.0,
+      "hallucination_count": 18,
+      "efficiency_score": 6.5,
+      "success": true,
+      "error_msg": null,
+      "timestamp": "2025-11-09T18:14:24.494988",
+      "session_id": "eval_benchmark_general_q03_1762711925"
+    }
+  ],
+  "summary": {
+    "total_reports": 9,
+    "successful_reports": 9,
+    "success_rate": 100.0,
+    "scores": {
+      "avg_overall_score": 5.557777777777778,
+      "median_overall_score": 5.55,
+      "min_score": 4.4,
+      "max_score": 6.42,
+      "std_score": 0.5906728743089904,
+      "avg_quality_score": 5.888888888888889,
+      "avg_success_rate": 0.9166666666666666,
+      "avg_completeness": 0.0
+    },
+    "grade_distribution": {
+      "F": 8,
+      "D": 1
+    },
+    "performance": {
+      "avg_time": 67.86708193355136,
+      "median_time": 69.29066300392151,
+      "min_time": 40.34232497215271,
+      "max_time": 103.24212551116943,
+      "std_time": 17.64243303044276
+    },
+    "content": {
+      "avg_report_length": 5508.333333333333,
+      "avg_sources_count": 26.555555555555557
+    },
+    "by_team": {
+      "marketing": {
+        "count": 3,
+        "avg_score": 5.1033333333333335,
+        "avg_time": 63.48404471079508,
+        "avg_quality": 5.0,
+        "avg_hallucination": 12
+      },
+      "purchasing": {
+        "count": 3,
+        "avg_score": 5.9366666666666665,
+        "avg_time": 83.26899290084839,
+        "avg_quality": 5.0,
+        "avg_hallucination": 0
+      },
+      "general": {
+        "count": 3,
+        "avg_score": 5.633333333333334,
+        "avg_time": 56.84820818901062,
+        "avg_quality": 7.666666666666667,
+        "avg_hallucination": 11.666666666666666
+      }
+    },
+    "hallucination": {
+      "avg_count": 7.888888888888889,
+      "max_count": 18,
+      "reports_with_hallucination": 6,
+      "hallucination_rate": 66.66666666666666
+    }
+  },
+  "end_time": "2025-11-09T18:14:26.498108"
+}
