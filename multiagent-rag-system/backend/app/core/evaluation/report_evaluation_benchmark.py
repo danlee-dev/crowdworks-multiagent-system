@@ -355,19 +355,23 @@ class ReportEvaluationBenchmark:
                 timestamp=datetime.now().isoformat()
             )
 
-    async def run_benchmark(self, use_ai_judge: bool = False) -> Dict[str, Any]:
+    async def run_benchmark(self, use_ai_judge: bool = None) -> Dict[str, Any]:
         """전체 벤치마크 실행"""
+
+        # use_ai_judge가 명시적으로 전달되지 않으면 __init__에서 설정한 evaluator 사용
+        if use_ai_judge is None:
+            use_ai_judge = self.evaluator.use_ai_judge
 
         print("-" * 80)
         print("보고서 평가 벤치마크 시작")
         print("-" * 80)
         print(f"대상 시스템: {self.base_url}")
-        print(f"AI 심판: {'활성화' if use_ai_judge else '비활성화 (빠른 평가)'}")
+        print(f"AI 심판: {'활성화 (3-Model Ensemble)' if use_ai_judge else '비활성화 (빠른 평가)'}")
         print(f"총 {sum(len(queries) for queries in self.test_queries.values())}개 보고서 생성 및 평가")
         print()
 
-        # AI 심판 설정
-        self.evaluator = ReportEvaluator(use_ai_judge=use_ai_judge)
+        # AI 심판 설정 - __init__에서 이미 초기화했으므로 다시 초기화하지 않음
+        # (주석 처리: self.evaluator는 __init__에서 ensemble 설정과 함께 초기화됨)
 
         # 시스템 상태 확인
         async with aiohttp.ClientSession() as session:

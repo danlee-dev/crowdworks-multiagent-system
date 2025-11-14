@@ -10,6 +10,7 @@ services:
       - ./backend/.env:/app/.env
       - ./logs:/app/logs  # 로그 디렉토리를 호스트에 마운트
       - ./backend:/app/db_storage  # DB 파일 저장을 위한 호스트 디렉토리 마운트
+      - ./backend/evaluation_results:/app/evaluation_results  # 평가 결과 저장
     working_dir: /app
     env_file:
       - ./backend/.env

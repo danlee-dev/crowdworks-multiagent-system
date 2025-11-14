@@ -18,8 +18,49 @@ from app.core.evaluation.evaluation_models import (
     SourceQualityMetrics,
     ContentMetrics,
 )
-from app.core.evaluation.pricing import calculate_cost
 from app.core.models.models import StreamingAgentState, SearchResult
+
+
+def calculate_cost(model_name: str, input_tokens: int, output_tokens: int) -> float:
+    """
+    간단한 비용 계산 함수
+
+    Args:
+        model_name: 모델 이름
+        input_tokens: 입력 토큰 수
+        output_tokens: 출력 토큰 수
+
+    Returns:
+        estimated_cost: 예상 비용 (USD)
+    """
+    # 모델별 가격 (per 1M tokens)
+    pricing = {
+        "gemini-2.5-flash": {"input": 0.075, "output": 0.30},  # $0.075 / $0.30 per 1M tokens
+        "gemini-2.0-flash-exp": {"input": 0.0, "output": 0.0},  # Free tier
+        "gemini-1.5-flash": {"input": 0.075, "output": 0.30},
+        "gemini-1.5-pro": {"input": 1.25, "output": 5.00},
+        "claude-3-5-sonnet": {"input": 3.00, "output": 15.00},
+        "gpt-4o": {"input": 2.50, "output": 10.00},
+        "gpt-4o-mini": {"input": 0.150, "output": 0.600},
+    }
+
+    # 기본값
+    default_pricing = {"input": 1.0, "output": 3.0}
+
+    # 모델 이름에서 키 추출
+    model_key = model_name.lower()
+    for key in pricing.keys():
+        if key in model_key:
+            model_key = key
+            break
+
+    price = pricing.get(model_key, default_pricing)
+
+    # 비용 계산
+    input_cost = (input_tokens / 1_000_000) * price["input"]
+    output_cost = (output_tokens / 1_000_000) * price["output"]
+
+    return input_cost + output_cost
 
 
 class AutomatedEvaluator:

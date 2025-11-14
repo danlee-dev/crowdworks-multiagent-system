@@ -6,10 +6,15 @@ Run Evaluation Benchmark
 
 import asyncio
 import sys
+import os
 from pathlib import Path
 
 # 경로 설정 (Docker 컨테이너 내부)
 sys.path.insert(0, '/app')
+sys.path.insert(0, '/app/app')
+
+# 작업 디렉토리 변경
+os.chdir('/app')
 
 from app.core.evaluation.report_evaluation_benchmark import ReportEvaluationBenchmark
 
