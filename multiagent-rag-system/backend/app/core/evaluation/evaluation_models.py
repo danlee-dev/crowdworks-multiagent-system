@@ -72,9 +72,9 @@ class HallucinationMetrics(BaseModel):
     hallucination_count: int = Field(ge=0, description="감지된 환각 현상 개수")
     hallucination_rate: float = Field(ge=0.0, le=1.0, description="환각 현상 비율")
 
-    hallucination_examples: List[Dict[str, str]] = Field(
+    hallucination_examples: List[Dict[str, Any]] = Field(
         default_factory=list,
-        description="환각 현상 사례 (statement, reason)"
+        description="환각 현상 사례 (statement, reason, severity 등)"
     )
 
     # 신뢰도 검증

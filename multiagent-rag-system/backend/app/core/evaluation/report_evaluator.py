@@ -165,10 +165,20 @@ class ReportEvaluator:
                 print(f"✓ AI 품질 평가: {output_quality.overall_quality_score:.1f}/10")
 
                 # 2.2 환각 현상 평가
-                hallucination = self.ai_judge_evaluator.evaluate_hallucination(
-                    query=query,
-                    report_text=report_text,
+                hallucination_result = self.ai_judge_evaluator.evaluate_hallucination(
+                    report=report_text,
                     sources=sources
+                )
+                # Dict를 HallucinationMetrics 객체로 변환
+                hallucination = HallucinationMetrics(
+                    hallucination_detected=hallucination_result.get('hallucination_detected', False),
+                    hallucination_count=hallucination_result.get('hallucination_count', 0),
+                    hallucination_rate=hallucination_result.get('hallucination_rate', 0.0),
+                    hallucination_examples=hallucination_result.get('hallucination_examples', []),
+                    unverified_claims=hallucination_result.get('unverified_claims', []),
+                    contradictions=hallucination_result.get('contradictions', []),
+                    confidence_score=hallucination_result.get('confidence_score', 0.5),
+                    reasoning=hallucination_result.get('reasoning', 'Ensemble evaluation')
                 )
                 print(f"✓ 환각 현상 감지: {hallucination.hallucination_count}건 "
                       f"(비율: {hallucination.hallucination_rate:.2%})")

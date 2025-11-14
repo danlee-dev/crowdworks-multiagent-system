@@ -275,6 +275,101 @@ class EnsembleAIJudge:
             reasoning=self._combine_reasoning(factual_accuracy, logical_coherence, relevance)
         )
 
+    def evaluate_comprehensive(
+        self,
+        query: str,
+        report_text: str,
+        sources: Optional[List[Dict[str, Any]]] = None,
+        expected_requirements: Optional[List[str]] = None
+    ) -> Dict[str, Any]:
+        """
+        종합 평가 (3-Model Ensemble)
+
+        Args:
+            query: 원본 질문/요청
+            report_text: 생성된 보고서
+            sources: 사용된 출처 정보
+            expected_requirements: 기대 요구사항
+
+        Returns:
+            종합 평가 결과 dict
+        """
+        # 종합 평가 프롬프트 구성
+        requirements_text = ""
+        if expected_requirements:
+            req_lines = "\n".join(f"- {req}" for req in expected_requirements)
+            requirements_text = f"[기대 요구사항]\n{req_lines}"
+
+        prompt = f"""
+다음 보고서를 종합적으로 평가해주세요.
+
+[원본 요청]
+{query}
+
+[생성된 보고서]
+{report_text[:3000]}...
+
+[사용된 출처 수]
+{len(sources) if sources else 0}개
+
+{requirements_text}
+
+다음 항목들을 JSON 형식으로 평가해주세요:
+
+{{
+  "strengths": ["강점 1", "강점 2", "강점 3"],
+  "weaknesses": ["약점 1", "약점 2"],
+  "recommendations": ["개선사항 1", "개선사항 2"],
+  "overall_assessment": "전체 평가 요약",
+  "key_findings": ["주요 발견사항 1", "주요 발견사항 2"],
+  "credibility_rating": 8.5,
+  "usefulness_rating": 9.0
+}}
+"""
+
+        # 3개 모델 평가
+        gemini_result = self._evaluate_with_gemini(prompt)
+        claude_result = self._evaluate_with_claude(prompt)
+        gpt_result = self._evaluate_with_gpt(prompt)
+
+        # 결과 병합
+        all_strengths = []
+        all_weaknesses = []
+        all_recommendations = []
+        credibility_scores = []
+        usefulness_scores = []
+
+        for result in [gemini_result, claude_result, gpt_result]:
+            if not result.get('error', False):
+                all_strengths.extend(result.get('strengths', []))
+                all_weaknesses.extend(result.get('weaknesses', []))
+                all_recommendations.extend(result.get('recommendations', []))
+                credibility_scores.append(result.get('credibility_rating', 7.0))
+                usefulness_scores.append(result.get('usefulness_rating', 7.0))
+
+        # 중복 제거 및 상위 3개 선택
+        unique_strengths = list(dict.fromkeys(all_strengths))[:3]
+        unique_weaknesses = list(dict.fromkeys(all_weaknesses))[:3]
+        unique_recommendations = list(dict.fromkeys(all_recommendations))[:3]
+
+        # 평균 점수 계산
+        avg_credibility = sum(credibility_scores) / len(credibility_scores) if credibility_scores else 7.0
+        avg_usefulness = sum(usefulness_scores) / len(usefulness_scores) if usefulness_scores else 7.0
+
+        return {
+            "strengths": unique_strengths,
+            "weaknesses": unique_weaknesses,
+            "recommendations": unique_recommendations,
+            "overall_assessment": "3-Model Ensemble 종합 평가 완료",
+            "credibility_rating": round(avg_credibility, 2),
+            "usefulness_rating": round(avg_usefulness, 2),
+            "individual_results": {
+                "gemini": gemini_result,
+                "claude": claude_result,
+                "gpt": gpt_result
+            }
+        }
+
     def evaluate_hallucination_metrics(
         self,
         query: str,
@@ -432,18 +527,32 @@ class EnsembleAIJudge:
 
         except json.JSONDecodeError as e:
             print(f"⚠ {model} JSON 파싱 실패: {e}")
-            print(f"   응답: {text[:300]}...")
-            # 점수 추출 시도
+            print(f"   응답: {text[:500]}...")
+
+            # 더 강력한 fallback: 점수와 reasoning 추출 시도
+            import re
             score = 7.0
+            reasoning = "파싱 실패"
+
+            # 점수 추출
             if "score" in text.lower():
-                import re
                 score_match = re.search(r'["\']?score["\']?\s*:\s*(\d+(?:\.\d+)?)', text, re.IGNORECASE)
                 if score_match:
                     score = float(score_match.group(1))
 
+            # reasoning 추출 (JSON 문자열 안에서)
+            reasoning_match = re.search(r'["\']?reasoning["\']?\s*:\s*["\']([^"\']*)', text, re.IGNORECASE | re.DOTALL)
+            if reasoning_match:
+                reasoning = reasoning_match.group(1)[:500]  # 최대 500자
+            elif text:
+                # reasoning 필드를 못 찾으면 전체 텍스트에서 일부만
+                reasoning = text[:500]
+
+            print(f"   → Fallback: score={score}, reasoning 추출됨")
+
             return {
                 "score": score,
-                "reasoning": text[:500] if text else "파싱 실패",
+                "reasoning": reasoning,
                 "model": model,
                 "error": True
             }
@@ -536,22 +645,51 @@ class EnsembleAIJudge:
 
         ensemble_citation_accuracy = min(citation_accuracies) if citation_accuracies else 1.0
 
+        # 환각 비율 = 1 - 인용 정확도
+        # (AI 모델들이 hallucination_rate를 직접 반환하지 않으므로 citation_accuracy로 계산)
+        ensemble_rate = 1.0 - ensemble_citation_accuracy
+
         # 환각 사례 병합 (중복 제거)
         all_hallucinations = []
         for result in results.values():
             if not result.get('error', False):
                 all_hallucinations.extend(result.get('hallucinations', []))
 
+        # 검증되지 않은 주장 병합
+        all_unverified_claims = []
+        for result in results.values():
+            if not result.get('error', False):
+                all_unverified_claims.extend(result.get('unverified_claims', []))
+
+        # 모순 병합
+        all_contradictions = []
+        for result in results.values():
+            if not result.get('error', False):
+                all_contradictions.extend(result.get('contradictions', []))
+
+        # 신뢰도 점수 계산 (평균)
+        confidence_scores = [
+            r.get('confidence_score', 0.5)
+            for r in results.values()
+            if not r.get('error', False)
+        ]
+        ensemble_confidence = statistics.mean(confidence_scores) if confidence_scores else 0.5
+
         return {
+            "hallucination_detected": ensemble_count > 0,
             "hallucination_count": ensemble_count,
+            "hallucination_rate": round(ensemble_rate, 4),
+            "hallucination_examples": all_hallucinations,
             "citation_accuracy": round(ensemble_citation_accuracy, 2),
-            "hallucinations": all_hallucinations,
+            "unverified_claims": all_unverified_claims[:10],  # 최대 10개
+            "contradictions": all_contradictions[:10],  # 최대 10개
+            "confidence_score": round(ensemble_confidence, 2),
+            "reasoning": self._combine_individual_reasoning(results),
             "individual_counts": {
                 "gemini": results['gemini'].get('hallucination_count', 0),
                 "claude": results['claude'].get('hallucination_count', 0),
                 "gpt": results['gpt'].get('hallucination_count', 0)
             },
-            "ensemble_reasoning": self._combine_individual_reasoning(results),
             "all_results": results
         }
 

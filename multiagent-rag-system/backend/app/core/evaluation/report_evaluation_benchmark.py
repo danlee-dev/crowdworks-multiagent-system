@@ -193,7 +193,7 @@ class ReportEvaluationBenchmark:
             async with session.post(
                 f"{self.base_url}/query/stream",
                 json=payload,
-                timeout=aiohttp.ClientTimeout(total=180),  # 3분 타임아웃
+                timeout=aiohttp.ClientTimeout(total=600, sock_read=300),  # 10분 타임아웃
                 max_line_size=100*1024*1024,  # 100MB 버퍼
                 max_field_size=100*1024*1024  # 100MB 버퍼
             ) as response:

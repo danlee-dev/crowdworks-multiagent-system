@@ -38,8 +38,10 @@ async def main():
     print()
 
     # 벤치마크 초기화
+    queries_file = "/app/app/core/evaluation/evaluation_queries.txt"
     benchmark = ReportEvaluationBenchmark(
         base_url=base_url,
+        queries_file=queries_file,
         use_ai_judge=use_ai_judge,
         use_ensemble=use_ensemble
     )

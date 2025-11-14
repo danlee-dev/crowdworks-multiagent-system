@@ -9,6 +9,8 @@ import re
 import json
 from typing import Dict, Any, List, Optional, Tuple
 from datetime import datetime
+import numpy as np
+from sentence_transformers import SentenceTransformer
 
 from app.core.evaluation.evaluation_models import (
     TaskSuccessMetrics,
@@ -68,7 +70,16 @@ class AutomatedEvaluator:
 
     def __init__(self):
         """초기화"""
-        pass
+        # 의미론적 유사도 계산을 위한 임베딩 모델
+        # 경량 모델 사용 (multilingual 지원)
+        try:
+            self.embedding_model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+            self.use_semantic_similarity = True
+        except Exception as e:
+            print(f"⚠️  임베딩 모델 로드 실패: {e}")
+            print("   문자열 매칭으로 대체합니다.")
+            self.embedding_model = None
+            self.use_semantic_similarity = False
 
     def evaluate_task_success(
         self,
@@ -603,17 +614,18 @@ class AutomatedEvaluator:
 
     def extract_schema_from_report(self, report_text: str, team_type: str) -> Dict[str, Any]:
         """
-        보고서에서 스키마 추출 및 검증
+        보고서에서 스키마 추출 및 검증 (의미론적 유사도 기반)
 
         Args:
             report_text: 보고서 텍스트
-            team_type: 팀 타입 (marketing, purchasing, general 등)
+            team_type: 팀 타입
 
         Returns:
             extracted_schema: 추출된 스키마 정보
         """
         # 팀 타입별 기대 스키마 정의
         expected_schemas = {
+            # 영문 팀 타입 (하위 호환성)
             "marketing": {
                 "market_analysis": "시장 분석",
                 "target_audience": "타겟 고객",
@@ -636,18 +648,163 @@ class AutomatedEvaluator:
                 "findings": "발견사항",
                 "recommendation": "권장사항",
                 "conclusion": "결론"
+            },
+            # 한글 팀 타입
+            "구매 담당자": {
+                "price_analysis": "가격 분석",
+                "supplier_info": "공급업체 정보",
+                "risk_assessment": "리스크 평가",
+                "recommendation": "구매 추천",
+                "cost_benefit": "비용 편익",
+                "conclusion": "결론"
+            },
+            "급식 운영 담당자": {
+                "current_status": "현황 분석",
+                "menu_management": "메뉴 구성",
+                "nutrition": "영양 관리",
+                "cost_reduction": "원가 절감",
+                "operation_improvement": "운영 개선",
+                "satisfaction": "만족도 향상",
+                "conclusion": "결론"
+            },
+            "마케팅 담당자": {
+                "market_analysis": "시장 분석",
+                "target_audience": "타겟 고객",
+                "strategy": "마케팅 전략",
+                "implementation": "실행 방안",
+                "metrics": "성과 지표",
+                "conclusion": "결론"
+            },
+            "제품 개발 연구원": {
+                "tech_trend": "기술 트렌드",
+                "research_status": "연구 동향",
+                "development_direction": "제품 개발",
+                "application": "적용 방안",
+                "technical_recommendation": "기술적 권장사항",
+                "conclusion": "결론"
+            },
+            "기본": {
+                "overview": "개요",
+                "analysis": "분석",
+                "findings": "발견사항",
+                "recommendation": "권장사항",
+                "conclusion": "결론"
             }
         }
 
-        expected_schema = expected_schemas.get(team_type, expected_schemas["general"])
-        extracted_schema = {}
+        expected_schema = expected_schemas.get(team_type, expected_schemas.get("기본", expected_schemas["general"]))
 
+        # 의미론적 유사도 기반 매칭
+        if self.use_semantic_similarity and self.embedding_model:
+            extracted_schema = self._extract_schema_semantic(report_text, expected_schema)
+        else:
+            # fallback: 문자열 매칭
+            extracted_schema = self._extract_schema_string_matching(report_text, expected_schema)
+
+        return extracted_schema
+
+    def _extract_schema_semantic(self, report_text: str, expected_schema: Dict[str, str]) -> Dict[str, bool]:
+        """
+        의미론적 유사도 기반 스키마 추출
+
+        Args:
+            report_text: 보고서 텍스트
+            expected_schema: 기대 스키마 {field_key: field_name_kr}
+
+        Returns:
+            extracted_schema: {field_key: bool}
+        """
+        # 1. 보고서에서 마크다운 헤더 추출
+        markdown_headers = re.findall(r'^#+\s+(.+)$', report_text, re.MULTILINE)
+
+        if not markdown_headers:
+            # 헤더가 없으면 문자열 매칭으로 대체
+            return self._extract_schema_string_matching(report_text, expected_schema)
+
+        # 2. 헤더들의 임베딩 계산
+        header_embeddings = self.embedding_model.encode(markdown_headers, convert_to_numpy=True)
+
+        # 3. 기대 스키마 필드들의 임베딩 계산
+        expected_fields = list(expected_schema.values())
+        field_embeddings = self.embedding_model.encode(expected_fields, convert_to_numpy=True)
+
+        # 4. 각 기대 필드에 대해 가장 유사한 헤더 찾기
+        extracted_schema = {}
+        similarity_threshold = 0.65  # 유사도 임계값 (조정 가능)
+
+        for idx, (field_key, field_name) in enumerate(expected_schema.items()):
+            field_embedding = field_embeddings[idx]
+
+            # 모든 헤더와의 유사도 계산 (코사인 유사도)
+            similarities = np.dot(header_embeddings, field_embedding) / (
+                np.linalg.norm(header_embeddings, axis=1) * np.linalg.norm(field_embedding)
+            )
+
+            max_similarity = np.max(similarities)
+
+            # threshold 이상이면 해당 필드가 존재한다고 판단
+            extracted_schema[field_key] = bool(max_similarity >= similarity_threshold)
+
+        return extracted_schema
+
+    def _extract_schema_string_matching(self, report_text: str, expected_schema: Dict[str, str]) -> Dict[str, bool]:
+        """
+        문자열 매칭 기반 스키마 추출 (fallback)
+
+        Args:
+            report_text: 보고서 텍스트
+            expected_schema: 기대 스키마
+
+        Returns:
+            extracted_schema: {field_key: bool}
+        """
+        synonym_map = {
+            "시장 분석": ["시장", "마켓", "시장 현황", "시장 동향", "market"],
+            "타겟 고객": ["타겟", "고객", "소비자", "target", "customer"],
+            "전략": ["전략", "방안", "계획", "strategy"],
+            "마케팅 전략": ["마케팅", "전략", "방안", "계획", "marketing"],
+            "실행 방안": ["실행", "방안", "계획", "구현", "implementation"],
+            "성과 지표": ["성과", "지표", "KPI", "metrics", "측정"],
+            "가격 분석": ["가격", "price", "pricing", "비용", "원가"],
+            "공급업체 정보": ["공급업체", "공급자", "supplier", "vendor", "업체"],
+            "리스크 평가": ["리스크", "위험", "risk", "평가"],
+            "추천 사항": ["추천", "권장", "제안", "recommendation"],
+            "구매 추천": ["구매", "추천", "권장", "제안"],
+            "비용 편익": ["비용", "편익", "효과", "cost", "benefit"],
+            "개요": ["개요", "요약", "overview", "summary"],
+            "분석": ["분석", "analysis"],
+            "발견사항": ["발견", "결과", "findings"],
+            "권장사항": ["권장", "제안", "추천", "recommendation"],
+            "결론": ["결론", "맺음말", "conclusion"],
+            "현황 분석": ["현황", "분석", "상황", "실태"],
+            "메뉴 구성": ["메뉴", "구성", "식단", "menu"],
+            "영양 관리": ["영양", "관리", "nutrition", "건강"],
+            "원가 절감": ["원가", "절감", "비용", "cost"],
+            "운영 개선": ["운영", "개선", "효율", "operation"],
+            "만족도 향상": ["만족도", "향상", "개선", "satisfaction"],
+            "기술 트렌드": ["기술", "트렌드", "동향", "tech", "technology"],
+            "연구 동향": ["연구", "동향", "현황", "research"],
+            "제품 개발": ["제품", "개발", "product", "development"],
+            "적용 방안": ["적용", "방안", "활용", "application"],
+            "기술적 권장사항": ["기술", "권장", "제안", "technical"]
+        }
+
+        extracted_schema = {}
         for field_key, field_name_kr in expected_schema.items():
-            # 필드가 보고서에 있는지 확인
-            if field_name_kr in report_text or field_key.replace('_', ' ') in report_text.lower():
+            # 정확한 매칭
+            if field_name_kr in report_text:
                 extracted_schema[field_key] = True
-            else:
-                extracted_schema[field_key] = False
+                continue
+
+            # 유사 표현 매칭
+            synonyms = synonym_map.get(field_name_kr, [])
+            found = False
+            for synonym in synonyms:
+                if synonym in report_text or synonym.lower() in report_text.lower():
+                    found = True
+                    break
+
+            extracted_schema[field_key] = found
 
         return extracted_schema
 

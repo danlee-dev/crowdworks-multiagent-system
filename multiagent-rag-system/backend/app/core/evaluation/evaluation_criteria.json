@@ -5,28 +5,25 @@
 
   "evaluation_models": {
     "gemini": {
-      "model_name": "gemini-2.0-flash-exp",
+      "model_name": "gemini-2.5-flash",
       "temperature": 0.2,
-      "max_tokens": 4096,
+      "max_tokens": 16384,
       "api_key_env": "GEMINI_API_KEY_1",
-      "weight": 0.34,
-      "strengths": ["사실 정확도", "인용 검증", "빠른 응답"]
+      "weight": 0.34
     },
     "claude": {
-      "model_name": "claude-3-5-sonnet-20241022",
+      "model_name": "claude-haiku-4-5-20251001",
       "temperature": 0.2,
-      "max_tokens": 4096,
+      "max_tokens": 16384,
       "api_key_env": "EVALUATION_CLAUDE_API_KEY",
-      "weight": 0.33,
-      "strengths": ["논리적 일관성", "요구사항 분석", "섬세한 평가"]
+      "weight": 0.33
     },
     "gpt": {
       "model_name": "gpt-4o",
       "temperature": 0.2,
-      "max_tokens": 4096,
+      "max_tokens": 16384,
       "api_key_env": "EVALUATION_OPENAI_API_KEY",
-      "weight": 0.33,
-      "strengths": ["종합 품질", "객관적 평가", "균형잡힌 판단"]
+      "weight": 0.33
     }
   },
 

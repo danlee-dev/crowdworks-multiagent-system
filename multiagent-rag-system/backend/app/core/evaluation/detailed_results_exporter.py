@@ -119,6 +119,20 @@ class DetailedResultsExporter:
         # 3. AI Judge 평가 근거 CSV
         ai_judge_data = []
         for r in results:
+            # hallucination_examples 처리 (dict 리스트 → 문자열)
+            hallucination_examples = r.get('hallucination_examples', [])
+            if hallucination_examples and isinstance(hallucination_examples[0], dict):
+                # dict 리스트인 경우 → 문자열로 변환
+                examples_str = '; '.join([
+                    f"{ex.get('type', 'unknown')}: {ex.get('description', str(ex))}"
+                    for ex in hallucination_examples
+                ])
+            elif hallucination_examples:
+                # 문자열 리스트인 경우
+                examples_str = '; '.join(hallucination_examples)
+            else:
+                examples_str = ''
+
             ai_judge_data.append({
                 'query_id': r.get('query_id', ''),
                 'query_text': r.get('query_text', '')[:50],
@@ -126,7 +140,7 @@ class DetailedResultsExporter:
                 'quality_reasoning': r.get('quality_reasoning', ''),
                 'hallucination_count': r.get('hallucination_count', 0),
                 'hallucination_reasoning': r.get('hallucination_reasoning', ''),
-                'hallucination_examples': '; '.join(r.get('hallucination_examples', [])),
+                'hallucination_examples': examples_str,
             })
 
         df_ai_judge = pd.DataFrame(ai_judge_data)
