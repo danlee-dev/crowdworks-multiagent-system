@@ -403,15 +403,27 @@ class EnsembleAIJudge:
         try:
             # JSON 블록 추출 (```json ... ``` 형식 대응)
             if "```json" in text:
-                json_start = text.find("```json") + 7
+                json_start = text.find("```json") + len("```json")
                 json_end = text.find("```", json_start)
+                if json_end == -1:
+                    json_end = len(text)
                 json_text = text[json_start:json_end].strip()
+            elif "```" in text and "{" in text:
+                # ``` 없이 json만 있는 경우
+                json_start = text.find("{")
+                json_end = text.rfind("}") + 1
+                json_text = text[json_start:json_end]
             elif "{" in text and "}" in text:
                 json_start = text.find("{")
                 json_end = text.rfind("}") + 1
                 json_text = text[json_start:json_end]
             else:
                 json_text = text
+
+            # 제어 문자 제거 (탭, 개행 등은 유지하되 다른 제어 문자 제거)
+            import re
+            # ASCII 제어 문자 중 \n, \r, \t를 제외한 나머지 제거
+            json_text = re.sub(r'[\x00-\x08\x0b-\x0c\x0e-\x1f\x7f]', '', json_text)
 
             result = json.loads(json_text)
             result['model'] = model
@@ -420,7 +432,7 @@ class EnsembleAIJudge:
 
         except json.JSONDecodeError as e:
             print(f"⚠ {model} JSON 파싱 실패: {e}")
-            print(f"   응답: {text[:200]}...")
+            print(f"   응답: {text[:300]}...")
             # 점수 추출 시도
             score = 7.0
             if "score" in text.lower():
