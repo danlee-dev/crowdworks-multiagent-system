@@ -18,6 +18,7 @@ from dataclasses import dataclass, asdict
 import pandas as pd
 
 from app.core.evaluation import ReportEvaluator
+from app.core.evaluation.detailed_results_exporter import DetailedResultsExporter
 
 
 @dataclass
@@ -74,10 +75,30 @@ class ReportBenchmarkResult:
 class ReportEvaluationBenchmark:
     """API를 통한 보고서 생성 및 평가 벤치마크"""
 
-    def __init__(self, base_url: str = "http://localhost:8000", queries_file: str = None):
+    def __init__(
+        self,
+        base_url: str = "http://localhost:8000",
+        queries_file: str = None,
+        use_ai_judge: bool = True,
+        use_ensemble: bool = True
+    ):
+        """
+        초기화
+
+        Args:
+            base_url: API 서버 주소
+            queries_file: 쿼리 파일 경로
+            use_ai_judge: AI Judge 사용 여부
+            use_ensemble: 3-Model Ensemble 사용 여부 (True 권장)
+        """
         self.base_url = base_url
         self.results: List[ReportBenchmarkResult] = []
-        self.evaluator = ReportEvaluator(use_ai_judge=False)  # 빠른 평가
+
+        # Ensemble AI Judge로 평가 (Gemini + Claude + GPT-4o)
+        self.evaluator = ReportEvaluator(
+            use_ai_judge=use_ai_judge,
+            use_ensemble=use_ensemble
+        )
 
         # 쿼리 파일에서 로드 또는 기본값 사용
         if queries_file and os.path.exists(queries_file):
@@ -403,6 +424,14 @@ class ReportEvaluationBenchmark:
         results['summary'] = self._generate_summary()
         results['raw_results'] = [asdict(r) for r in self.results]
         results['end_time'] = datetime.now().isoformat()
+
+        # 상세 결과 저장 (CSV + Charts + JSON)
+        print("\n=== 평가 결과 저장 중... ===")
+        exporter = DetailedResultsExporter(output_dir="evaluation_results")
+        exporter.export_detailed_results(
+            results=results['raw_results'],
+            summary_stats=results['summary']
+        )
 
         return results
 

@@ -21,6 +21,7 @@ from app.core.evaluation.evaluation_models import (
 )
 from app.core.evaluation.automated_evaluator import AutomatedEvaluator
 from app.core.evaluation.ai_judge_evaluator import AIJudgeEvaluator
+from app.core.evaluation.ensemble_ai_judge import EnsembleAIJudge
 
 
 class ReportEvaluator:
@@ -29,18 +30,32 @@ class ReportEvaluator:
     def __init__(
         self,
         use_ai_judge: bool = True,
-        ai_model: str = "gemini-2.5-flash"
+        ai_model: str = "gemini-2.5-flash",
+        use_ensemble: bool = True
     ):
         """
         초기화
 
         Args:
             use_ai_judge: AI 심판 사용 여부
-            ai_model: AI 심판에 사용할 모델
+            ai_model: AI 심판에 사용할 모델 (단일 모델 사용 시)
+            use_ensemble: 3-Model Ensemble 사용 여부 (True 권장)
         """
         self.automated_evaluator = AutomatedEvaluator()
-        self.ai_judge_evaluator = AIJudgeEvaluator(model=ai_model) if use_ai_judge else None
+
+        # Ensemble AI Judge 또는 단일 모델 선택
+        if use_ai_judge:
+            if use_ensemble:
+                print("✅ 3-Model Ensemble AI Judge 초기화 (Gemini + Claude + GPT-4o)")
+                self.ai_judge_evaluator = EnsembleAIJudge()
+            else:
+                print(f"✅ 단일 모델 AI Judge 초기화 ({ai_model})")
+                self.ai_judge_evaluator = AIJudgeEvaluator(model=ai_model)
+        else:
+            self.ai_judge_evaluator = None
+
         self.use_ai_judge = use_ai_judge
+        self.use_ensemble = use_ensemble
 
     def evaluate_report(
         self,
