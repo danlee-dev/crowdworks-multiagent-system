@@ -1002,3 +1002,5 @@ grade = calculate_grade(overall_score)
 **문서 작성**: Claude Code
 **최종 검토**: 2025-11-14
 **문의**: 평가 시스템 관련 질문은 이슈로 등록해주세요.
+
+

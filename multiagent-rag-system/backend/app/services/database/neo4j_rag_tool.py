@@ -122,7 +122,6 @@ class GraphDBSearchService:
         return f"""
         CALL db.index.fulltext.queryNodes('{index_name}', $kw)
         YIELD node AS n, score
-        // 인덱스 결과 n을 기준으로 '정해진 관계/방향'만 매칭
         MATCH (n)-[r]-(m)
         RETURN n, r, m, score,
                type(r) AS rel_type,
