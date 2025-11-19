@@ -1,0 +1,385 @@
+{
+  "version": "2.0",
+  "last_updated": "2025-11-14",
+  "description": "Multi-Model Ensemble 평가 지표 정의 - Gemini 2.5 Flash, Claude 3.5 Sonnet, GPT-4o 앙상블 평가",
+
+  "evaluation_models": {
+    "gemini": {
+      "model_name": "gemini-2.5-flash",
+      "temperature": 0.2,
+      "max_tokens": 16384,
+      "api_key_env": "GEMINI_API_KEY_1",
+      "weight": 0.34
+    },
+    "claude": {
+      "model_name": "claude-haiku-4-5-20251001",
+      "temperature": 0.2,
+      "max_tokens": 16384,
+      "api_key_env": "EVALUATION_CLAUDE_API_KEY",
+      "weight": 0.33
+    },
+    "gpt": {
+      "model_name": "gpt-4o",
+      "temperature": 0.2,
+      "max_tokens": 16384,
+      "api_key_env": "EVALUATION_OPENAI_API_KEY",
+      "weight": 0.33
+    }
+  },
+
+  "kpi_metrics": {
+    "task_success_rate": {
+      "name": "작업 성공률",
+      "weight": 0.25,
+      "description": "요구사항 충족도 및 작업 완료 여부",
+      "measurement_type": "automatic",
+      "evaluation_elements": {
+        "report_generation": {
+          "description": "보고서 생성 완료 여부",
+          "weight": 0.30,
+          "criteria": [
+            "보고서가 정상적으로 생성되었는가?",
+            "최소 길이 요구사항(1,000자 이상)을 충족하는가?",
+            "치명적 오류 없이 완료되었는가?"
+          ]
+        },
+        "required_sections": {
+          "description": "필수 섹션 포함 여부",
+          "weight": 0.40,
+          "criteria": [
+            "서론/개요가 포함되어 있는가?",
+            "본문 분석 섹션이 포함되어 있는가?",
+            "결론/요약이 포함되어 있는가?",
+            "출처 목록이 포함되어 있는가?"
+          ]
+        },
+        "requirement_fulfillment": {
+          "description": "요구사항 항목 충족도",
+          "weight": 0.30,
+          "criteria": [
+            "쿼리에서 요청한 모든 항목이 다뤄졌는가?",
+            "분석/방안/전략 등 요구된 형식을 준수했는가?",
+            "페르소나에 맞는 관점과 용어를 사용했는가?"
+          ]
+        }
+      },
+      "scoring_formula": "sum(element_weight * element_score) / total_weight * 10"
+    },
+
+    "output_quality": {
+      "name": "품질 점수",
+      "weight": 0.25,
+      "description": "AI Judge 기반 보고서 품질 평가",
+      "measurement_type": "ai_judge",
+      "sub_metrics": {
+        "factual_accuracy": {
+          "name": "사실 정확도",
+          "weight": 0.40,
+          "description": "제시된 데이터, 통계, 사실 주장의 정확성",
+          "evaluation_elements": {
+            "data_accuracy": {
+              "description": "수치 데이터의 정확성",
+              "criteria": [
+                "제시된 통계와 수치가 출처와 일치하는가?",
+                "날짜, 시간, 금액 등이 정확한가?",
+                "단위(kg, 원, % 등)가 올바르게 표기되었는가?"
+              ]
+            },
+            "fact_verification": {
+              "description": "사실 주장의 검증 가능성",
+              "criteria": [
+                "모든 주장에 적절한 출처가 인용되었는가?",
+                "출처 없는 추측이나 가정이 명시되었는가?",
+                "시간적 맥락(예: 2024년 기준)이 명확한가?"
+              ]
+            },
+            "citation_accuracy": {
+              "description": "인용의 정확성",
+              "criteria": [
+                "[SOURCE:N] 태그가 실제 출처 N과 일치하는가?",
+                "인용된 내용이 출처에서 왜곡되지 않았는가?",
+                "출처의 맥락이 올바르게 반영되었는가?"
+              ]
+            }
+          }
+        },
+        "logical_coherence": {
+          "name": "논리적 일관성",
+          "weight": 0.30,
+          "description": "보고서의 논리 구조와 흐름",
+          "evaluation_elements": {
+            "argument_structure": {
+              "description": "논증 구조의 타당성",
+              "criteria": [
+                "주장과 근거가 논리적으로 연결되는가?",
+                "인과관계가 명확하고 타당한가?",
+                "반론에 대한 고려가 있는가?"
+              ]
+            },
+            "flow_and_transition": {
+              "description": "섹션 간 흐름과 전환",
+              "criteria": [
+                "섹션 간 연결이 자연스러운가?",
+                "중복되거나 모순되는 내용이 없는가?",
+                "전체적인 서사 구조가 명확한가?"
+              ]
+            },
+            "conclusion_validity": {
+              "description": "결론 도출의 타당성",
+              "criteria": [
+                "결론이 본문 내용에서 자연스럽게 도출되는가?",
+                "과도한 일반화나 비약이 없는가?",
+                "제언이 분석 결과와 부합하는가?"
+              ]
+            }
+          }
+        },
+        "relevance": {
+          "name": "요구사항 부합도",
+          "weight": 0.30,
+          "description": "원본 쿼리와의 일치도",
+          "evaluation_elements": {
+            "query_alignment": {
+              "description": "쿼리 의도 파악 및 반영",
+              "criteria": [
+                "사용자가 요청한 주제를 정확히 다루는가?",
+                "요청한 범위(시간, 지역, 대상 등)를 준수하는가?",
+                "요청하지 않은 무관한 내용이 없는가?"
+              ]
+            },
+            "format_compliance": {
+              "description": "요청한 형식 준수",
+              "criteria": [
+                "보고서/분석/전략 등 요청한 형식으로 작성되었는가?",
+                "페르소나별 관점(구매자, 연구원 등)이 반영되었는가?",
+                "요청한 상세도 수준(개요 vs 심층분석)이 적절한가?"
+              ]
+            },
+            "specificity": {
+              "description": "구체성 및 실용성",
+              "criteria": [
+                "추상적 설명이 아닌 구체적 사례를 제공하는가?",
+                "실행 가능한 제언이 포함되어 있는가?",
+                "적절한 수준의 전문성을 유지하는가?"
+              ]
+            }
+          }
+        }
+      },
+      "scoring_formula": "(factual_accuracy * 0.40) + (logical_coherence * 0.30) + (relevance * 0.30)"
+    },
+
+    "completeness": {
+      "name": "완성도",
+      "weight": 0.20,
+      "description": "보고서 구조 및 내용의 완성도",
+      "measurement_type": "automatic",
+      "evaluation_elements": {
+        "section_completeness": {
+          "description": "섹션 완성도",
+          "weight": 0.60,
+          "criteria": [
+            "예상된 모든 마크다운 헤더(#, ##, ###)가 존재하는가?",
+            "각 섹션이 완전한 문장으로 종료되는가?",
+            "미완성 표시(..., 문장 중간 끊김)가 없는가?"
+          ]
+        },
+        "schema_completeness": {
+          "description": "스키마 완성도",
+          "weight": 0.40,
+          "criteria": [
+            "제목(# Heading)이 있는가?",
+            "서론/개요가 있는가?",
+            "본문 섹션(## Heading)들이 있는가?",
+            "결론/요약이 있는가?",
+            "출처 목록이 있는가?"
+          ]
+        }
+      },
+      "scoring_formula": "(section_completeness * 0.60) + (schema_completeness * 0.40)"
+    },
+
+    "hallucination": {
+      "name": "환각 점수 (역점수)",
+      "weight": 0.15,
+      "description": "출처에 없는 정보, 과장, 왜곡 탐지",
+      "measurement_type": "ai_judge",
+      "hallucination_types": {
+        "citation_inaccuracy": {
+          "name": "인용 부정확성",
+          "severity": 2,
+          "description": "[SOURCE:N] 태그가 실제 출처와 불일치",
+          "detection_criteria": [
+            "[SOURCE:N] 태그가 가리키는 출처 번호가 실제 출처 목록에 없음",
+            "인용된 내용이 해당 출처에 존재하지 않음",
+            "출처 내용을 왜곡하거나 과장함"
+          ]
+        },
+        "unfounded_claims": {
+          "name": "근거 없는 주장",
+          "severity": 2,
+          "description": "출처에 없는 정보를 사실처럼 제시",
+          "detection_criteria": [
+            "출처에 없는 통계나 수치를 마치 확인된 것처럼 제시",
+            "출처에서 언급되지 않은 사건이나 사실을 주장",
+            "추론이나 추측을 사실로 단정"
+          ]
+        },
+        "exaggeration": {
+          "name": "과장 또는 왜곡",
+          "severity": 1,
+          "description": "사실을 과장하거나 왜곡하여 표현",
+          "detection_criteria": [
+            "출처의 표현을 더 강하게 과장 (예: '증가' → '급증')",
+            "부분적 사실을 전체인 것처럼 일반화",
+            "맥락을 무시하고 일부만 선택적으로 인용"
+          ]
+        }
+      },
+      "scoring_formula": "max(0, 10 - sum(hallucination_count * severity))"
+    },
+
+    "efficiency": {
+      "name": "효율성 점수",
+      "weight": 0.10,
+      "description": "실행 시간 및 리소스 효율성",
+      "measurement_type": "automatic",
+      "evaluation_elements": {
+        "execution_time": {
+          "description": "보고서 생성 소요 시간",
+          "weight": 0.70,
+          "scoring_ranges": [
+            {"max_seconds": 60, "score": 10.0},
+            {"max_seconds": 90, "score": 8.0},
+            {"max_seconds": 120, "score": 6.5},
+            {"max_seconds": 180, "score": 5.0},
+            {"min_seconds": 180, "score": "max(4.0, 6.5 - (time-120)/60)"}
+          ]
+        },
+        "api_efficiency": {
+          "description": "API 호출 효율성",
+          "weight": 0.15,
+          "scoring_formula": "max(0, 10 - (api_calls - 5) * 0.5)"
+        },
+        "token_efficiency": {
+          "description": "토큰 사용 효율성",
+          "weight": 0.15,
+          "scoring_formula": "max(0, 10 - (total_tokens - 5000) / 1000)"
+        }
+      },
+      "scoring_formula": "sum(element_weight * element_score)"
+    },
+
+    "source_quality": {
+      "name": "출처 품질",
+      "weight": 0.05,
+      "description": "출처의 신뢰도 및 다양성",
+      "measurement_type": "automatic",
+      "evaluation_elements": {
+        "credibility": {
+          "description": "출처 신뢰도 평균",
+          "weight": 0.50,
+          "credibility_levels": {
+            "peer_reviewed": {"score": 1.0, "sources": ["PubMed", "arXiv", "학술지"]},
+            "government": {"score": 0.9, "sources": ["농림부", "식약처", "통계청"]},
+            "industry_report": {"score": 0.8, "sources": ["시장조사", "산업보고서"]},
+            "news": {"score": 0.6, "sources": ["뉴스", "언론"]},
+            "blog": {"score": 0.4, "sources": ["블로그", "커뮤니티"]}
+          }
+        },
+        "diversity": {
+          "description": "출처 다양성",
+          "weight": 0.50,
+          "criteria": [
+            "사용된 검색 도구의 수 (Vector DB, Graph DB, RDB, Web, PubMed 등)",
+            "출처 유형의 다양성 (학술, 정부, 산업, 뉴스 등)",
+            "시간적 범위 (최신 자료와 과거 자료의 균형)"
+          ],
+          "scoring_formula": "len(unique_tools) / total_available_tools"
+        }
+      },
+      "scoring_formula": "((avg_credibility + diversity) / 2) * 10"
+    },
+
+    "content_metrics": {
+      "name": "콘텐츠 메트릭",
+      "weight": 0.0,
+      "description": "참고용 통계 (점수 미반영)",
+      "measurement_type": "automatic",
+      "metrics": {
+        "word_count": {"description": "총 단어 수", "unit": "words"},
+        "section_count": {"description": "섹션 수", "unit": "sections"},
+        "chart_count": {"description": "차트 수", "unit": "charts"},
+        "citation_count": {"description": "인용 수", "unit": "citations"},
+        "avg_sentence_length": {"description": "평균 문장 길이", "unit": "words"}
+      }
+    }
+  },
+
+  "evaluation_requirements": {
+    "description": "보고서가 충족해야 하는 필수 요구사항",
+    "mandatory_requirements": {
+      "content": [
+        "사용자가 요청한 주제를 다룰 것",
+        "요청한 시간 범위 내의 정보를 제공할 것",
+        "요청한 형식(보고서/분석/전략 등)으로 작성할 것",
+        "페르소나에 맞는 관점과 용어를 사용할 것"
+      ],
+      "structure": [
+        "서론 또는 개요 포함",
+        "본문 분석 섹션 포함 (2개 이상)",
+        "결론 또는 요약 포함",
+        "출처 목록 제공"
+      ],
+      "quality": [
+        "모든 주장에 출처 인용 ([SOURCE:N] 형식)",
+        "출처 없는 추측이나 가정은 명시적으로 표시",
+        "완전한 문장으로 작성 (미완성 금지)",
+        "논리적 일관성 유지 (모순 없음)"
+      ]
+    },
+    "optional_requirements": {
+      "enhancement": [
+        "데이터 시각화 (차트, 그래프)",
+        "구체적 사례 및 예시",
+        "실행 가능한 제언",
+        "다양한 관점 제시"
+      ]
+    }
+  },
+
+  "ai_judge_prompts": {
+    "factual_accuracy_prompt": "다음 보고서의 사실 정확도를 0~10점으로 평가하세요.\n\n평가 기준:\n1. 데이터 정확성: 제시된 통계와 수치가 출처와 일치하는가?\n2. 사실 검증: 모든 주장에 적절한 출처가 인용되었는가?\n3. 인용 정확성: [SOURCE:N] 태그가 실제 출처와 일치하는가?\n\n각 [SOURCE:N] 태그를 실제 출처 내용과 비교하여 검증하세요.\n\n보고서:\n{report}\n\n출처 목록:\n{sources}\n\n평가 결과를 다음 JSON 형식으로 반환하세요:\n{{\n  \"score\": 0-10,\n  \"reasoning\": \"상세한 평가 근거\",\n  \"issues\": [\"발견된 문제점들\"]\n}}",
+
+    "logical_coherence_prompt": "다음 보고서의 논리적 일관성을 0~10점으로 평가하세요.\n\n평가 기준:\n1. 논증 구조: 주장과 근거가 논리적으로 연결되는가?\n2. 흐름과 전환: 섹션 간 연결이 자연스러운가?\n3. 결론 타당성: 결론이 본문에서 자연스럽게 도출되는가?\n\n보고서:\n{report}\n\n평가 결과를 다음 JSON 형식으로 반환하세요:\n{{\n  \"score\": 0-10,\n  \"reasoning\": \"상세한 평가 근거\",\n  \"strengths\": [\"강점들\"],\n  \"weaknesses\": [\"약점들\"]\n}}",
+
+    "relevance_prompt": "다음 보고서가 원본 쿼리의 요구사항을 얼마나 잘 충족하는지 0~10점으로 평가하세요.\n\n원본 쿼리:\n{query}\n\n보고서:\n{report}\n\n평가 기준:\n1. 쿼리 의도 파악: 사용자가 요청한 주제를 정확히 다루는가?\n2. 형식 준수: 요청한 형식(보고서/분석/전략 등)으로 작성되었는가?\n3. 구체성: 구체적 사례와 실행 가능한 제언을 제공하는가?\n\n평가 결과를 다음 JSON 형식으로 반환하세요:\n{{\n  \"score\": 0-10,\n  \"reasoning\": \"상세한 평가 근거\",\n  \"fulfilled_requirements\": [\"충족된 요구사항들\"],\n  \"missing_requirements\": [\"누락된 요구사항들\"]\n}}",
+
+    "hallucination_prompt": "다음 보고서에서 환각(출처에 없는 정보, 과장, 왜곡)을 탐지하세요.\n\n보고서:\n{report}\n\n전체 출처 내용:\n{sources}\n\n환각 유형:\n1. 인용 부정확성: [SOURCE:N] 태그가 실제 출처와 불일치\n2. 근거 없는 주장: 출처에 없는 정보를 사실처럼 제시\n3. 과장/왜곡: 사실을 과장하거나 왜곡하여 표현\n\n각 [SOURCE:N]을 실제 출처와 비교하여 검증하세요.\n\n평가 결과를 다음 JSON 형식으로 반환하세요:\n{{\n  \"hallucination_count\": 0,\n  \"hallucinations\": [\n    {{\n      \"type\": \"citation_inaccuracy | unfounded_claims | exaggeration\",\n      \"location\": \"보고서 내 위치\",\n      \"description\": \"환각 내용\",\n      \"severity\": 1-2\n    }}\n  ],\n  \"citation_accuracy\": 0.0-1.0\n}}"
+  },
+
+  "ensemble_config": {
+    "aggregation_method": "weighted_average",
+    "description": "3개 모델의 평가 점수를 가중 평균으로 집계",
+    "consensus_threshold": 0.7,
+    "disagreement_handling": {
+      "method": "median",
+      "description": "모델 간 점수 차이가 3점 이상일 경우 중앙값 사용"
+    },
+    "confidence_weighting": {
+      "enabled": true,
+      "description": "각 모델의 reasoning 길이와 구체성을 기반으로 신뢰도 가중치 조정"
+    }
+  },
+
+  "grading_scale": {
+    "A+": {"min": 9.5, "max": 10.0, "description": "탁월함"},
+    "A": {"min": 9.0, "max": 9.4, "description": "우수함"},
+    "B+": {"min": 8.5, "max": 8.9, "description": "양호함"},
+    "B": {"min": 8.0, "max": 8.4, "description": "보통"},
+    "C+": {"min": 7.5, "max": 7.9, "description": "미흡"},
+    "C": {"min": 7.0, "max": 7.4, "description": "부족"},
+    "D": {"min": 6.0, "max": 6.9, "description": "불량"},
+    "F": {"min": 0.0, "max": 5.9, "description": "실패"}
+  }
+}

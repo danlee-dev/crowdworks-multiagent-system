@@ -16,7 +16,7 @@ from elasticsearch import AsyncElasticsearch
 import google.generativeai as genai
 from datetime import datetime
 import re
-from .rag_config import RAGConfig
+from ....core.config.rag_config import RAGConfig
 from sentence_transformers import SentenceTransformer, CrossEncoder
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import threading
@@ -213,6 +213,7 @@ class MultiIndexRAGSearchEngine:
         self.SUMMARIZATION_RATIO = config.SUMMARIZATION_RATIO
         self.DOMAIN_KEYWORDS = config.DOMAIN_KEYWORDS
         self.RRF_K = getattr(config, "RRF_K", 60)
+        self.USE_RRF = getattr(config, "USE_RRF", True)
 
         # 동의어 사전 로드 (synonym.json)
         syn_path = os.path.join(os.path.dirname(__file__), "synonym.json")
@@ -490,7 +491,7 @@ class MultiIndexRAGSearchEngine:
             }
         }
 
-    def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20,
+    def hybrid_search_RRF(self, query: str, alpha: float = None, top_k: int = 20,
                       enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
         # HyDE 적용 여부에 따라 쿼리 분기
         if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
@@ -535,62 +536,61 @@ class MultiIndexRAGSearchEngine:
         return fused[:top_k]
 
     
-    # # 기존 hybrid_search 주석 처리
-    # def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20, enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
-    #     if alpha is None:
-    #         alpha = self.HYBRID_ALPHA
-    #     # HyDE 쿼리 분리
-    #     if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
-    #         pass  # HyDE 쿼리 개선 메시지 생략
-    #     else:
-    #         enhanced_query_text = query
-    #         enhanced_query_table = query
-    #     dense_results = []
-    #     sparse_results = []
-    #     # text 인덱스
-    #     dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
-    #     sparse_results += self.sparse_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
-    #     # table 인덱스
-    #     dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
-    #     sparse_results += self.sparse_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
-    #     dense_results = self.normalize_scores(dense_results)
-    #     sparse_results = self.normalize_scores(sparse_results)
-    #     doc_scores = {}
-    #     for result in dense_results:
-    #         doc_id = self._get_doc_id(result)
-    #         dense_score = result.get("normalized_score", 0)
-    #         if doc_id not in doc_scores:
-    #             doc_scores[doc_id] = {
-    #                 "doc": result,
-    #                 "dense_score": dense_score,
-    #                 "sparse_score": 0.0
-    #             }
-    #         else:
-    #             doc_scores[doc_id]["dense_score"] = dense_score
-    #     for result in sparse_results:
-    #         doc_id = self._get_doc_id(result)
-    #         sparse_score = result.get("normalized_score", 0)
-    #         if doc_id not in doc_scores:
-    #             doc_scores[doc_id] = {
-    #                 "doc": result,
-    #                 "dense_score": 0.0,
-    #                 "sparse_score": sparse_score
-    #             }
-    #         else:
-    #             doc_scores[doc_id]["sparse_score"] = sparse_score
-    #     hybrid_results = []
-    #     for doc_id, scores in doc_scores.items():
-    #         hybrid_score = alpha * scores["sparse_score"] + (1 - alpha) * scores["dense_score"]
-    #         result = scores["doc"].copy()
-    #         result["hybrid_score"] = hybrid_score
-    #         result["dense_component"] = scores["dense_score"]
-    #         result["sparse_component"] = scores["sparse_score"]
-    #         result["search_type"] = "hybrid"
-    #         hybrid_results.append(result)
-    #     hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
+    def hybrid_search_W_Sum(self, query: str, alpha: float = None, top_k: int = 20, enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
+        if alpha is None:
+            alpha = self.HYBRID_ALPHA
+        # HyDE 쿼리 분리
+        if self.USE_HYDE and enhanced_query_text and enhanced_query_table:
+            pass  # HyDE 쿼리 개선 메시지 생략
+        else:
+            enhanced_query_text = query
+            enhanced_query_table = query
+        dense_results = []
+        sparse_results = []
+        # text 인덱스
+        dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
+        sparse_results += self.sparse_retrieval_index(enhanced_query_text, self.TEXT_INDEX, top_k)
+        # table 인덱스
+        dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
+        sparse_results += self.sparse_retrieval_index(enhanced_query_table, self.TABLE_INDEX, top_k)
+        dense_results = self.normalize_scores(dense_results)
+        sparse_results = self.normalize_scores(sparse_results)
+        doc_scores = {}
+        for result in dense_results:
+            doc_id = self._get_doc_id(result)
+            dense_score = result.get("normalized_score", 0)
+            if doc_id not in doc_scores:
+                doc_scores[doc_id] = {
+                    "doc": result,
+                    "dense_score": dense_score,
+                    "sparse_score": 0.0
+                }
+            else:
+                doc_scores[doc_id]["dense_score"] = dense_score
+        for result in sparse_results:
+            doc_id = self._get_doc_id(result)
+            sparse_score = result.get("normalized_score", 0)
+            if doc_id not in doc_scores:
+                doc_scores[doc_id] = {
+                    "doc": result,
+                    "dense_score": 0.0,
+                    "sparse_score": sparse_score
+                }
+            else:
+                doc_scores[doc_id]["sparse_score"] = sparse_score
+        hybrid_results = []
+        for doc_id, scores in doc_scores.items():
+            hybrid_score = alpha * scores["sparse_score"] + (1 - alpha) * scores["dense_score"]
+            result = scores["doc"].copy()
+            result["hybrid_score"] = hybrid_score
+            result["dense_component"] = scores["dense_score"]
+            result["sparse_component"] = scores["sparse_score"]
+            result["search_type"] = "hybrid"
+            hybrid_results.append(result)
+        hybrid_results.sort(key=lambda x: x["hybrid_score"], reverse=True)
         
-    #     # 중복 제거 없이 바로 반환
-    #     return hybrid_results[:top_k]
+        # 중복 제거 없이 바로 반환
+        return hybrid_results[:top_k]
 
     def dense_retrieval_index(self, query: str, index: str, top_k: int = 20) -> List[Dict]:
         vector = self.embed_text(query)
@@ -876,6 +876,12 @@ class MultiIndexRAGSearchEngine:
             summarized_results.append(result)
         return summarized_results
 
+    def hybrid_search(self, query: str, alpha: float = None, top_k: int = 20, enhanced_query_text: str = None, enhanced_query_table: str = None) -> List[Dict]:
+        if self.USE_RRF:
+            return self.hybrid_search_RRF(query, top_k=top_k, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
+        else:
+            return self.hybrid_search_W_Sum(query, alpha=alpha, top_k=top_k, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
+    
     def advanced_rag_search(self, query: str) -> Dict:
         start_time = datetime.now()
         # HyDE 쿼리 분리
@@ -885,7 +891,7 @@ class MultiIndexRAGSearchEngine:
         else:
             enhanced_query_text = query
             enhanced_query_table = query
-        hybrid_results = self.hybrid_search(query, top_k=self.TOP_K_RETRIEVAL, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
+        hybrid_results = self.hybrid_search(query, alpha=self.HYBRID_ALPHA, top_k=self.TOP_K_RETRIEVAL, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
 
         # 리랭킹은 dense에만 적용하는 중
         # if self.USE_RERANKING and len(hybrid_results) > 5:

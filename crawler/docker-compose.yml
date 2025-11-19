@@ -89,3 +89,9 @@ services:
     <<: *crawler-base
     container_name: crawler_clear_report_pdf
     command: python -u clear_ReportPDF.py
+    working_dir: /app/clear_report
+    volumes:
+      - ./clear_report:/app/clear_report
+      - ../elasticsearch/datas:/datas
+      - ./ReportPDF:/ReportPDF
+      - ./ReferencePDF:/ReferencePDF

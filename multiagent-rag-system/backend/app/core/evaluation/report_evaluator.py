@@ -21,6 +21,7 @@ from app.core.evaluation.evaluation_models import (
 )
 from app.core.evaluation.automated_evaluator import AutomatedEvaluator
 from app.core.evaluation.ai_judge_evaluator import AIJudgeEvaluator
+from app.core.evaluation.ensemble_ai_judge import EnsembleAIJudge
 
 
 class ReportEvaluator:
@@ -29,18 +30,32 @@ class ReportEvaluator:
     def __init__(
         self,
         use_ai_judge: bool = True,
-        ai_model: str = "gemini-2.5-flash"
+        ai_model: str = "gemini-2.5-flash",
+        use_ensemble: bool = True
     ):
         """
         초기화
 
         Args:
             use_ai_judge: AI 심판 사용 여부
-            ai_model: AI 심판에 사용할 모델
+            ai_model: AI 심판에 사용할 모델 (단일 모델 사용 시)
+            use_ensemble: 3-Model Ensemble 사용 여부 (True 권장)
         """
         self.automated_evaluator = AutomatedEvaluator()
-        self.ai_judge_evaluator = AIJudgeEvaluator(model=ai_model) if use_ai_judge else None
+
+        # Ensemble AI Judge 또는 단일 모델 선택
+        if use_ai_judge:
+            if use_ensemble:
+                print("✅ 3-Model Ensemble AI Judge 초기화 (Gemini + Claude + GPT-4o)")
+                self.ai_judge_evaluator = EnsembleAIJudge()
+            else:
+                print(f"✅ 단일 모델 AI Judge 초기화 ({ai_model})")
+                self.ai_judge_evaluator = AIJudgeEvaluator(model=ai_model)
+        else:
+            self.ai_judge_evaluator = None
+
         self.use_ai_judge = use_ai_judge
+        self.use_ensemble = use_ensemble
 
     def evaluate_report(
         self,
@@ -150,10 +165,20 @@ class ReportEvaluator:
                 print(f"✓ AI 품질 평가: {output_quality.overall_quality_score:.1f}/10")
 
                 # 2.2 환각 현상 평가
-                hallucination = self.ai_judge_evaluator.evaluate_hallucination(
-                    query=query,
-                    report_text=report_text,
+                hallucination_result = self.ai_judge_evaluator.evaluate_hallucination(
+                    report=report_text,
                     sources=sources
+                )
+                # Dict를 HallucinationMetrics 객체로 변환
+                hallucination = HallucinationMetrics(
+                    hallucination_detected=hallucination_result.get('hallucination_detected', False),
+                    hallucination_count=hallucination_result.get('hallucination_count', 0),
+                    hallucination_rate=hallucination_result.get('hallucination_rate', 0.0),
+                    hallucination_examples=hallucination_result.get('hallucination_examples', []),
+                    unverified_claims=hallucination_result.get('unverified_claims', []),
+                    contradictions=hallucination_result.get('contradictions', []),
+                    confidence_score=hallucination_result.get('confidence_score', 0.5),
+                    reasoning=hallucination_result.get('reasoning', 'Ensemble evaluation')
                 )
                 print(f"✓ 환각 현상 감지: {hallucination.hallucination_count}건 "
                       f"(비율: {hallucination.hallucination_rate:.2%})")

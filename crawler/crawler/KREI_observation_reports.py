@@ -21,11 +21,11 @@ if REFERENCE_PATH.exists():
 else:
     reference_data = {}
 
-def save_reference(filename: str):
+def save_reference(filename: str, detail_url: str = BASE_URL):
     if filename in reference_data:
         print(f"      · referenceURL.json에 이미 있음: {filename} → 건너뜁니다.")
         return
-    reference_data[filename] = BASE_URL
+    reference_data[filename] = detail_url
     with open(REFERENCE_PATH, "w", encoding="utf-8") as f:
         json.dump(reference_data, f, ensure_ascii=False, indent=2)
     print(f"      📝 referenceURL.json에 추가됨: {filename}")
@@ -71,7 +71,7 @@ def download_all_pdfs_on_page(page):
                     if chunk:
                         f.write(chunk)
             print(f"    ✅ 저장됨: {safe}")
-            save_reference(safe)
+            save_reference(filename=safe)
         except Exception as e:
             print(f"    ❌ 다운로드 실패: {e}")
 
