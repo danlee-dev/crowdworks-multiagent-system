@@ -28,7 +28,7 @@ run() {
 	"$PYTHON" "$@" 2>&1 | tee -a "$LOG_FILE"
 }
 
-run preprocess_data.py
+run page_chunking.py
 run embedding.py
 run insert.py
 
