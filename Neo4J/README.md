@@ -253,6 +253,7 @@ environment:
 
 ### 4. Apache Lucene 서치 인덱스 설정
 
+#### origin_idx (원산지 정보 검색)
 ```cypher
 CREATE FULLTEXT INDEX origin_idx
 FOR (n:Origin|Ingredient)
@@ -264,6 +265,7 @@ OPTIONS {
 };
 ```
 
+#### nutrient_idx (영양소 정보 검색)
 ```cypher
 CREATE FULLTEXT INDEX nutrient_idx
 FOR (n:Nutrient|Food)
@@ -275,6 +277,7 @@ OPTIONS {
 };
 ```
 
+#### doc_idx (문서 내 관계 정보 검색 - 노드 기준)
 ```cypher
 CREATE FULLTEXT INDEX doc_idx
 FOR (n:Entity)
@@ -286,6 +289,7 @@ OPTIONS {
 };
 ```
 
+#### rel_idx (문서 내 관게 검색 - 엣지 기준)
 ```cypher
 CREATE FULLTEXT INDEX rel_idx
 FOR ()-[r:relation]-()
