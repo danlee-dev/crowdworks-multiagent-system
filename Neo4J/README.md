@@ -386,4 +386,3 @@ RETURN path
 - [GraphRAG 방법론](https://github.com/microsoft/graphrag)
 - [APOC 프로시저](https://neo4j.com/labs/apoc/)
 - [Graph Data Science 라이브러리](https://neo4j.com/docs/graph-data-science/current/)
-  
