@@ -16,7 +16,7 @@ Neo4J/
 ├── extracted_graph0/            # 그래프 추출 결과 (버전 0)
 ├── extracted_graph1/            # 그래프 추출 결과 (버전 1)
 ├── import/                      # Neo4J 가져오기용 CSV 파일
-├── graph_extract2.py           # 통합 그래프 추출 스크립트
+├── graph_extraction.py           # 통합 그래프 추출 스크립트
 ├── merge_csv.py                # CSV 파일 병합 스크립트
 ├── preprocess_file.py          # JSON → TXT 전처리 스크립트
 ├── scheduler.py                # 전체 파이프라인 스케줄러
