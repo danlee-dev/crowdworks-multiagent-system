@@ -455,8 +455,8 @@ class MultiIndexRAGSearchEngine:
         dense_results += self.dense_retrieval_index(enhanced_query_text, self.TEXT_INDEX, self.TOP_K_RETRIEVAL)
         dense_results += self.dense_retrieval_index(enhanced_query_table, self.TABLE_INDEX, self.TOP_K_RETRIEVAL)
 
-        # 3) 리랭킹 (설정에 따라 적용, 아니면 ES _score 기준)
-        if self.USE_RERANKING and len(dense_results) > 0:
+        # 3) 리랭킹 (설정에 따라 적용, 아니면 ES _score 기준, RRF 사용하는 경우에는 Dense에 리랭킹 적용)
+        if self.USE_RERANKING and len(dense_results) > 0 and self.USE_RRF:
             reranked = self.simple_reranking(dense_results, query, top_k=self.TOP_K_RERANK)
             ranked = self._assign_rank(reranked, score_key="rerank_score", rank_key="rank_dense_only")
         else:
@@ -893,17 +893,15 @@ class MultiIndexRAGSearchEngine:
             enhanced_query_table = query
         hybrid_results = self.hybrid_search(query, alpha=self.HYBRID_ALPHA, top_k=self.TOP_K_RETRIEVAL, enhanced_query_text=enhanced_query_text, enhanced_query_table=enhanced_query_table)
 
-        # 리랭킹은 dense에만 적용하는 중
-        # if self.USE_RERANKING and len(hybrid_results) > 5:
-        #     reranked_results = self.simple_reranking(
-        #         hybrid_results, query, top_k=self.TOP_K_RERANK
-        #     )
-        # else:
-        #     reranked_results = hybrid_results
+        # RRF이면 그대로 반환, 선형 가중치 합이면 hybrid search 이후 리랭킹 한번 더 적용
+        if self.USE_RERANKING and not self.USE_RRF:
+            reranked_results = self.simple_reranking(
+                hybrid_results, query, top_k=self.TOP_K_RERANK
+            )
+        else:
+            reranked_results = hybrid_results
 
-        # final_results = reranked_results[:self.TOP_K_FINAL]
-        
-        final_results = hybrid_results[:self.TOP_K_FINAL]
+        final_results = reranked_results[:self.TOP_K_FINAL]
         
         if self.USE_SUMMARIZATION:
             final_results = self.document_summarization(final_results, query)
