@@ -12,9 +12,7 @@ Neo4J/
 │   ├── neo4j_query.py          # Neo4J 쿼리 유틸리티
 │   └── requirements.txt         # Python 의존성
 ├── docker-compose.yml           # Neo4J & 앱 컨테이너 설정
-├── extracted_graph/             # 추출된 그래프 데이터 (CSV) <- 실제 사용
-├── extracted_graph0/            # 그래프 추출 결과 (버전 0)
-├── extracted_graph1/            # 그래프 추출 결과 (버전 1)
+├── extracted_graph/             # 추출된 그래프 데이터 (CSV)
 ├── import/                      # Neo4J 가져오기용 CSV 파일
 ├── graph_extraction.py           # 통합 그래프 추출 스크립트
 ├── merge_csv.py                # CSV 파일 병합 스크립트
